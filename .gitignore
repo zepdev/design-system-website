@@ -67,3 +67,10 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# editor settings
+.vscode/
+
+#cypress e2e test folders
+cypress/videos
+cypress/screenshots

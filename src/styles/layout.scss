@@ -1,0 +1,46 @@
+
+@import 'variables';
+@import 'mixins';
+
+html, body{
+  font-size: 16px;
+  margin: 0;
+  padding:0;
+}
+
+
+.zds-header{
+  background: rebeccapurple;
+  margin-bottom: 1.45rem;
+}
+
+@include breakpoint(xxs){
+  .main-container{
+    margin: 0 1.5rem;
+  } 
+}
+
+@include breakpoint(xs){
+
+  .main-container{
+    margin: 0 2rem;
+  } 
+}
+
+@include breakpoint(s){
+  .main-container{
+    margin: 0 3rem;
+  } 
+}
+@include breakpoint(m){
+  
+}
+@include breakpoint(l){
+  
+}
+@include breakpoint(xl){
+  
+}
+@include breakpoint(xxl){
+  
+}
