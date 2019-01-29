@@ -38,6 +38,7 @@
     "babel-jest": "^24.0.0",
     "babel-preset-gatsby": "^0.1.6",
     "cypress": "^3.1.4",
+    "eslint-plugin-cypress": "^2.2.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.0.0",
     "jest-axe": "^3.1.0",

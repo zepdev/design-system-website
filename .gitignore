@@ -70,3 +70,7 @@ yarn-error.log
 
 # editor settings
 .vscode/
+
+#cypress e2e test folders
+cypress/videos
+cypress/screenshots
