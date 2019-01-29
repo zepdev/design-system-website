@@ -16,6 +16,8 @@ exports.onCreateWebpackConfig = ({ stage, plugins, actions }) => {
             'setClasses'
         ],
         //minify: true,
+
+        //help: https://github.com/Modernizr/Modernizr/tree/master/feature-detects
         'feature-detects': [
           'input',
           'canvas',
