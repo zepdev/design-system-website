@@ -5,21 +5,15 @@ import zeppelinIcon from '../images/zeppelin_icon.png'
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div
-      className="zds-header"
-    >
+    <div className="zds-header">
       <div className="zds-header--container zds-header--container__logo">
         <Link to="/">
           <img src={zeppelinIcon} alt="Zeppelin Icon" />
         </Link>
       </div>
-
       <div className="zds-header--container">
-        <h1 className="zds-header--headline">
-          {siteTitle}
-        </h1>
+        <p className="zds-header--headline">{siteTitle}</p>
       </div>
-
     </div>
   </header>
 )
