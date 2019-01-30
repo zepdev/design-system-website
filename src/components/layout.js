@@ -18,13 +18,13 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div className="zds-site">
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>
           <div className="zds-main">{children}</div>
         </main>
         <Footer />
-      </>
+      </div>
     )}
   />
 )
