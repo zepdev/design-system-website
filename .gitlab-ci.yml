@@ -1,15 +1,23 @@
 stages:
+  - prebuild
   - test
   - build
   - deploy
 
+prebuild:
+  stage: prebuild
+  script:
+    - touch .npmignore
+    - npm install -g gatsby
+    - npm install
+
 test:
   stage: test
-  script: echo "Running tests"
+  script: npm test
 
 build:
   stage: build
-  script: echo "Building the app"
+  script: npm build
 
 deploy_development:
   stage: deploy
