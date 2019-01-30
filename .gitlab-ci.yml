@@ -47,7 +47,7 @@ deploy_development:
   dependencies:
     - build
   only:
-  # - development
+  - development
 
 deploy_production:
   stage: deploy
