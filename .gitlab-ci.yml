@@ -1,9 +1,9 @@
-image: gatsbyjs/gatsby
+image: node:10.15.0
 
-# before_script:
-#   - touch .npmignore
-#   - npm install -g yarn gatsby
-#   - yarn install
+before_script:
+  - touch .npmignore
+  - npm install -g yarn gatsby
+  - yarn install
 
 cache:
   paths:
