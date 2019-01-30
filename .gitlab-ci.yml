@@ -26,7 +26,7 @@ deploy_production:
   script:
     - echo "Deploy to production server"
   environment:
-    name: development
+    name: production
     url: https://prod-zds.zepdev.net
   only:
   - master
