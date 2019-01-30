@@ -4,10 +4,9 @@ cache:
   paths:
     - node_modules/
     - .cache/
-    - public/
 
 stages:
-  - test
+  # - test
   - build
   - deploy
 
@@ -40,7 +39,7 @@ deploy_development:
     AWS_REGION: "eu-central-1"
   script:
   - gem install dpl
-  - dpl --provider=s3 --bucket=$TARGET_BUCKET_NAME --region=$AWS_REGION
+  - dpl --provider=s3 --bucket=$TARGET_BUCKET_NAME --region=$AWS_REGION --local-dir=public
     # - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
