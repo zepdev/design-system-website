@@ -1,15 +1,9 @@
 image: node:10.15.0
 
-before_script:
-  - touch .npmignore
-  - npm install -g yarn gatsby
-  - yarn install
-
-# This folder is cached between builds
-# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
 cache:
   paths:
     - node_modules/
+    - .cache/
 
 stages:
   - test
@@ -17,22 +11,43 @@ stages:
   - deploy
 
 test:
-  stage: test
-  script: yarn test
+ before_script:
+   - touch .npmignore
+   - npm install -g yarn gatsby
+   - yarn install
+ stage: test
+ script: yarn test
 
 build:
+  before_script:
+    - touch .npmignore
+    - npm install -g yarn gatsby
+    - yarn install
   stage: build
   script: yarn build
+  artifacts:
+    paths:
+      - public/
+
 
 deploy_development:
   stage: deploy
+  image: ruby:latest
+  variables:
+    TARGET_BUCKET_NAME: "zds-dev"
+    TARGET_ADDRESS: "https://dev-zds.zepdev.net"
+    AWS_REGION: "eu-central-1"
   script:
-    - echo "Deploy to staging server"
+  - gem install dpl
+  - dpl --provider=s3 --bucket=$TARGET_BUCKET_NAME --region=$AWS_REGION --local-dir=public --skip_cleanup=true
+    # - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
     url: https://dev-zds.zepdev.net
+  dependencies:
+    - build
   only:
-  - development
+  # - development
 
 deploy_production:
   stage: deploy
