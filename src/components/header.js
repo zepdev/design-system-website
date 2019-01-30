@@ -1,12 +1,10 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div
-      className="zds-header"
-    >
+    <div className="zds-header">
       <div
         style={{
           margin: `0 auto`,
