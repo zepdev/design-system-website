@@ -21,7 +21,12 @@ main {
 
 .zds-site {
   display: flex;
+}
+
+.zds-content {
   flex-direction: column;
+  flex-grow: 1;
+  display: flex;
   min-height: 100vh;
 }
 
@@ -42,9 +47,17 @@ main {
   margin: 0;
 }
 
+.zds-sidebar {
+  display: none;
+}
+
 .zds-footer {
   background: #27166f;
   padding: 1.5rem 2rem;
+}
+
+.zds-footer--container {
+  min-height: 24px;
 }
 
 @include breakpoint(xxs) {
@@ -56,16 +69,12 @@ main {
   }
 
   .zds-header--container {
-    margin-right: 1rem;
     height: 50px;
+  }
 
-    &:first-child {
-      max-width: $grid-col-width;
-    }
-
-    &:last-child {
-      margin-right: 0;
-    }
+  .zds-header--container__logo {
+    max-width: $grid-col-width;
+    margin-right: 1rem;
   }
 
   .zds-headline__primary {
@@ -90,12 +99,12 @@ main {
   }
 
   .zds-header--container {
-    margin-right: 1.5rem;
     height: 50px;
+  }
 
-    &:first-child {
-      max-width: $grid-col-width;
-    }
+  .zds-header--container__logo {
+    max-width: $grid-col-width;
+    margin-right: 1.5rem;
   }
 
   .zds-main {
@@ -108,12 +117,11 @@ main {
   $grid-cols: 8;
 
   .zds-header--container {
-    margin-right: 1.5rem;
     height: 62px;
+  }
 
-    &:first-child {
-      max-width: $grid-col-width;
-    }
+  .zds-header--container__logo {
+    max-width: $grid-col-width;
   }
 
   .zds-main {
@@ -128,19 +136,40 @@ main {
   $grid-col-width: 34px;
   $grid-cols: 12;
 
-  .zds-header--container:first-child {
+  .zds-header--container__logo {
     display: none;
+  }
+
+  .zds-sidebar {
+    display: block;
+    flex-basis: 224px;
+  }
+
+  .zds-sidebar--container {
+    padding: 2rem;
   }
 }
 
 @include breakpoint(l) {
   $grid-col-width: 47px;
   $grid-cols: 8;
+
+  .zds-sidebar {
+    width: 276px;
+  }
 }
 
 @include breakpoint(xl) {
   $grid-col-width: 85px;
   $grid-cols: 8;
+
+  .zds-sidebar {
+    flex-basis: 300px;
+  }
+
+  .zds-sidebar--container {
+    padding: 3rem;
+  }
 
   .zds-footer {
     padding: 3rem 3rem;

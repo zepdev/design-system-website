@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Footer from './footer'
+import Sidebar from './sidebar'
 import '../styles/layout.scss'
 
 const Layout = ({ children }) => (
@@ -19,11 +20,14 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div className="zds-site">
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <main>
-          <div className="zds-main">{children}</div>
-        </main>
-        <Footer />
+        <Sidebar />
+        <div className="zds-content">
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <main>
+            <div className="zds-main">{children}</div>
+          </main>
+          <Footer />
+        </div>
       </div>
     )}
   />
