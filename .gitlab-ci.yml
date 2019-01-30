@@ -1,10 +1,5 @@
 image: node:10.15.0
 
-before_script:
-  - touch .npmignore
-  - npm install -g yarn gatsby
-  - yarn install
-
 cache:
   paths:
     - node_modules/
@@ -17,10 +12,18 @@ stages:
   - deploy
 
 test:
+  before_script:
+    - touch .npmignore
+    - npm install -g yarn gatsby
+    - yarn install
   stage: test
   script: yarn test
 
 build:
+  before_script:
+    - touch .npmignore
+    - npm install -g yarn gatsby
+    - yarn install
   stage: build
   script: yarn build
 
