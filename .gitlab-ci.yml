@@ -26,17 +26,20 @@ build:
 
 deploy_development:
   stage: deploy
+  image: ruby:latest
+  variables:
+    TARGET_BUCKET_NAME: "zds-dev"
+    TARGET_ADDRESS: "https://dev-zds.zepdev.net"
+    AWS_REGION: "eu-central-1"
   script:
-    - export TARGET_BUCKET_NAME=zds-dev
-    - export TARGET_ADDRESS=https://dev-zds.zepdev.net
-    - export AWS_REGION=eu-central-1
-    - gatsby-plugin-s3 deploy --yes
+  - gem install dpl
+  - dpl --provider=s3 --bucket=$TARGET_BUCKET_NAME --region=AWS_REGION
     # - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
     url: https://dev-zds.zepdev.net
   only:
-  - development
+  # - development
 
 deploy_production:
   stage: deploy
