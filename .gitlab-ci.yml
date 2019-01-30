@@ -2,8 +2,8 @@ image: node:10.15.0
 
 before_script:
   - touch .npmignore
-  - npm install -g gatsby
-  - npm install
+  - npm install -g yarn gatsby
+  - yarn install
 
 # This folder is cached between builds
 # http://docs.gitlab.com/ce/ci/yaml/README.html#cache
@@ -18,11 +18,11 @@ stages:
 
 test:
   stage: test
-  script: npm test
+  script: yarn test
 
 build:
   stage: build
-  script: npm build
+  script: yarn build
 
 deploy_development:
   stage: deploy
