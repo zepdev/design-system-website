@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
       </div>
 
       <div className="zds-header--container">
-        <h1 className="zds-headline__primary">
+        <h1 className="zds-header--headline">
           {siteTitle}
         </h1>
       </div>
