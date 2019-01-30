@@ -10,13 +10,13 @@ stages:
   - build
   - deploy
 
-test:
-  before_script:
-    - touch .npmignore
-    - npm install -g yarn gatsby
-    - yarn install
-  stage: test
-  script: yarn test
+#test:
+#  before_script:
+#    - touch .npmignore
+#    - npm install -g yarn gatsby
+#    - yarn install
+#  stage: test
+#  script: yarn test
 
 build:
   before_script:
