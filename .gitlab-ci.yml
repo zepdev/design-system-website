@@ -26,6 +26,10 @@ build:
     - yarn install
   stage: build
   script: yarn build
+  artifacts:
+    paths:
+      - public/
+
 
 deploy_development:
   stage: deploy
@@ -41,6 +45,8 @@ deploy_development:
   environment:
     name: development
     url: https://dev-zds.zepdev.net
+  dependencies:
+    - build
   only:
   # - development
 
