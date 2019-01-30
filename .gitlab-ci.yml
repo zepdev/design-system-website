@@ -5,11 +5,11 @@ before_script:
   - npm install -g yarn gatsby
   - yarn install
 
-# This folder is cached between builds
-# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
 cache:
   paths:
     - node_modules/
+    - .cache/
+    - public/
 
 stages:
   - test
@@ -27,7 +27,11 @@ build:
 deploy_development:
   stage: deploy
   script:
-    - echo "Deploy to staging server"
+    - export TARGET_BUCKET_NAME=zds-dev
+    - export TARGET_ADDRESS=https://dev-zds.zepdev.net
+    - export AWS_REGION=eu-central-1
+    - gatsby-plugin-s3 deploy --yes
+    # - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
     url: https://dev-zds.zepdev.net
