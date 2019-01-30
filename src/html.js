@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function HTML(props) {
   return (
@@ -13,7 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
         {/* add webpack generated modernizr script */}
-        <script src="/modernizr-bundle.js" type="text/javascript"></script>
+        <script src="/modernizr-bundle.js" type="text/javascript" />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -24,6 +24,7 @@ export default function HTML(props) {
           key={`body`}
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
+          style={{ height: '100%' }}
         />
         {props.postBodyComponents}
       </body>
