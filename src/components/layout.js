@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-//import Header from './header'
+import Header from './header'
 import Footer from './footer'
 import '../styles/layout.scss'
 
@@ -19,13 +19,11 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-        <div className="site">
-          <main>
-            <div className="main-container">{children}</div>
-          </main>
-          <Footer />
-        </div>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <main>
+          <div className="zds-main">{children}</div>
+        </main>
+        <Footer />
       </>
     )}
   />
