@@ -1,5 +1,5 @@
 image: node:10.15.0
-image: gatsbyjs/gatsby-dev-builds
+image: gatsbyjs/gatsby
 
 # before_script:
 #   - touch .npmignore
