@@ -36,7 +36,7 @@ deploy_development:
     AWS_REGION: "eu-central-1"
   script:
   - gem install dpl
-  - dpl --provider=s3 --bucket=$TARGET_BUCKET_NAME --region=AWS_REGION
+  - dpl --provider=s3 --bucket=$TARGET_BUCKET_NAME --region=$AWS_REGION
     # - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
