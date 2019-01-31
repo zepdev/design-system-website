@@ -1,6 +1,7 @@
 image: node:10.15.0
 
 cache:
+  key: ${CI_COMMIT_REF_SLUG}
   paths:
     - node_modules/
     - .cache/
@@ -12,17 +13,13 @@ stages:
 
 test:
  before_script:
-   - touch .npmignore
-   - npm install -g yarn gatsby
-   - yarn install
+   - yarn
  stage: test
  script: yarn test
 
 build:
   before_script:
-    - touch .npmignore
-    - npm install -g yarn gatsby
-    - yarn install
+    - yarn
   stage: build
   script: yarn build
   artifacts:
@@ -35,12 +32,12 @@ deploy_development:
   image: ruby:latest
   variables:
     TARGET_BUCKET_NAME: "zds-dev"
-    TARGET_ADDRESS: "https://dev-zds.zepdev.net"
     AWS_REGION: "eu-central-1"
+    CLOUDFRONT_DISTRIBUTION: "ET351YZOMAVPH"
   script:
   - gem install dpl
   - dpl --provider=s3 --bucket=$TARGET_BUCKET_NAME --region=$AWS_REGION --local-dir=public --skip_cleanup=true
-    # - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
+  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
     url: https://dev-zds.zepdev.net
