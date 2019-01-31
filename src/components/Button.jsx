@@ -8,6 +8,7 @@ class Button extends Component {
     const className = classNames(
       'zds-button',
       {
+        // eslint-disable-next-line
         ['zds-button__full']: fullWidth,
       },
       classNameProp

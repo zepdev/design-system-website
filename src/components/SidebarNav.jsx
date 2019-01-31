@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import navigation from '../data/navigation.json'
 import SidebarNavItem from './SidebarNavItem.jsx'
 
@@ -10,7 +9,5 @@ const SidebarNav = () => (
     ))}
   </ul>
 )
-
-SidebarNav.propTypes = {}
 
 export default SidebarNav
