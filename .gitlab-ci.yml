@@ -1,15 +1,10 @@
 image: node:10.15.0
 
-before_script:
-  - touch .npmignore
-  - npm install -g yarn gatsby
-  - yarn install
-
-# This folder is cached between builds
-# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
 cache:
+  key: ${CI_COMMIT_REF_SLUG}
   paths:
     - node_modules/
+    - .cache/
 
 stages:
   - test
@@ -17,20 +12,35 @@ stages:
   - deploy
 
 test:
-  stage: test
-  script: yarn test
+ before_script:
+   - yarn
+ stage: test
+ script: yarn test
 
 build:
   stage: build
   script: yarn build
+  artifacts:
+    paths:
+      - public/
+
 
 deploy_development:
   stage: deploy
+  image: python:latest
+  variables:
+    TARGET_BUCKET_NAME: "zds-dev"
+    AWS_REGION: "eu-central-1"
+    CLOUDFRONT_DISTRIBUTION: "ET351YZOMAVPH"
   script:
-    - echo "Deploy to staging server"
+  - pip install awscli
+  - aws s3 cp ./ s3://$TARGET_BUCKET_NAME/ --recursive --include "*"
+  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
     url: https://dev-zds.zepdev.net
+  dependencies:
+    - build
   only:
   - development
 
