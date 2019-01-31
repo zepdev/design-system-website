@@ -1,3 +1,4 @@
+# pull in node 10 docker image
 image: node:10.15.0
 
 stages:
@@ -5,17 +6,23 @@ stages:
   - build
   - deploy
 
+# test stage, run unit tests
 test:
   before_script:
     - yarn
+  # put node_modules and .cache to cache
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
       - .cache/
-  stage: test
   script: yarn test
+  stage: test
+  only:
+    - development
+    - master
 
+# build stage, node_modules are downloaded from cache
 build:
   cache:
     key: ${CI_COMMIT_REF_SLUG}
@@ -24,9 +31,13 @@ build:
       - .cache/
   stage: build
   script: yarn build
+  # create artifacts from the public directory
   artifacts:
     paths:
       - public/
+  only:
+    - development
+    - master
 
 deploy_development:
   stage: deploy
@@ -37,11 +48,12 @@ deploy_development:
     CLOUDFRONT_DISTRIBUTION: 'ET351YZOMAVPH'
   script:
     - pip install awscli
-    - aws s3 cp ./ s3://$TARGET_BUCKET_NAME/ --recursive --exclude="node_modules/*" --include "*"
-    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
+    - aws s3 cp ./public/ s3://$TARGET_BUCKET_NAME/ --recursive --exclude="*node_modules/*" --include "*"
+    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths "/*"
   environment:
     name: development
     url: https://dev-zds.zepdev.net
+  # use artifacts from build stage
   dependencies:
     - build
   only:
