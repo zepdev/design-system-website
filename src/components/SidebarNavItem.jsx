@@ -9,7 +9,12 @@ class SidebarNavItem extends Component {
 
     return (
       <li>
-        <Button fullWidth>{item.title}</Button>
+        <Button
+          fullWidth
+          className={item['sub-nav'] && 'zds-button__collapsable'}
+        >
+          {item.title}
+        </Button>
         {item['sub-nav'] && (
           <ul className="zds-sidebar--list">
             {Object.keys(item['sub-nav']).map((elem, idx) => (

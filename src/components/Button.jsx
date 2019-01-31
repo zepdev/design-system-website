@@ -13,7 +13,6 @@ class Button extends Component {
       },
       classNameProp
     )
-
     return <button className={className}>{children}</button>
   }
 }

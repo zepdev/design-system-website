@@ -1,41 +1,16 @@
+@import './globals';
 @import './variables';
 @import './colors';
 @import './mixins';
 @import './button';
 @import './sidebar';
+@import './content';
+@import './main';
 @import './header';
 
-html,
-body {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-main {
-  flex-grow: 1;
-}
-
 .zds-site {
-  display: flex;
-}
-
-.zds-content {
-  flex-direction: column;
-  flex-grow: 1;
-  display: flex;
-  min-height: 100vh;
+  //display: flex;
+  position: relative;
 }
 
 .zds-footer {
@@ -48,44 +23,19 @@ main {
 }
 
 @include breakpoint(xxs) {
-  .zds-main {
-    margin: 0 1.5rem;
-  }
-
   .zds-footer {
     padding: 1.5rem 2rem;
   }
 }
 
-@include breakpoint(xs) {
-  .zds-main {
-    margin: 0 2rem;
-  }
-}
-
 @include breakpoint(s) {
-  .zds-main {
-    margin: 0 3rem;
-  }
-
   .zds-footer {
     padding: 2rem 3rem;
   }
-}
-@include breakpoint(m) {
-  .zds-header--container__logo {
-    display: none;
-  }
-}
-
-@include breakpoint(l) {
 }
 
 @include breakpoint(xl) {
   .zds-footer {
     padding: 3rem 3rem;
   }
-}
-
-@include breakpoint(xxl) {
 }
