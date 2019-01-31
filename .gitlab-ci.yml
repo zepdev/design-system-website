@@ -27,14 +27,14 @@ build:
 
 deploy_development:
   stage: deploy
-  image: ruby:latest
+  image: python:latest
   variables:
     TARGET_BUCKET_NAME: "zds-dev"
     AWS_REGION: "eu-central-1"
     CLOUDFRONT_DISTRIBUTION: "ET351YZOMAVPH"
   script:
-  - gem install dpl
-  - dpl --provider=s3 --bucket=$TARGET_BUCKET_NAME --region=$AWS_REGION --local-dir=public --skip_cleanup=true
+  - pip install awscli
+  - aws s3 cp ./ s3://$TARGET_BUCKET_NAME/ --recursive --include "*"
   - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
