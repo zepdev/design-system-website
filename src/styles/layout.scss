@@ -4,6 +4,7 @@
 @import './button';
 @import './sidebar';
 @import './header';
+@import './footer';
 
 html,
 body {
@@ -38,22 +39,9 @@ main {
   min-height: 100vh;
 }
 
-.zds-footer {
-  background: #27166f;
-  padding: 1.5rem 2rem;
-}
-
-.zds-footer--container {
-  min-height: 24px;
-}
-
 @include breakpoint(xxs) {
   .zds-main {
     margin: 0 1.5rem;
-  }
-
-  .zds-footer {
-    padding: 1.5rem 2rem;
   }
 }
 
@@ -67,24 +55,15 @@ main {
   .zds-main {
     margin: 0 3rem;
   }
-
-  .zds-footer {
-    padding: 2rem 3rem;
-  }
 }
+
 @include breakpoint(m) {
-  .zds-header--container__logo {
-    display: none;
-  }
 }
 
 @include breakpoint(l) {
 }
 
 @include breakpoint(xl) {
-  .zds-footer {
-    padding: 3rem 3rem;
-  }
 }
 
 @include breakpoint(xxl) {

@@ -1,0 +1,71 @@
+.zds-footer {
+  border-top: 1px solid #f4f5f7;
+  padding: 1.5rem 2rem;
+}
+
+.zds-footer--container {
+  min-height: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.zds-footer--img {
+  width: 125px;
+  margin-right: 95px;
+  color: #9da3b4;
+}
+
+.zds-footer--icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 24px;
+  color: #9da3b4;
+}
+
+.zds-footer--icon__container {
+  display: flex;
+  align-items: center;
+}
+
+.zds-footer--link {
+  font-size: 0.875rem;
+  color: #9da3b4;
+  text-decoration: none;
+  padding-right: 32px;
+}
+
+.zds-footer--link__container {
+  display: flex;
+  align-items: center;
+}
+
+@include breakpoint(xxs) {
+  .zds-footer {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@include breakpoint(xs) {
+}
+
+@include breakpoint(s) {
+  .zds-footer {
+    padding: 2rem 3rem;
+  }
+}
+@include breakpoint(m) {
+}
+
+@include breakpoint(l) {
+}
+
+@include breakpoint(xl) {
+  .zds-footer {
+    padding: 3rem 3rem;
+  }
+}
+
+@include breakpoint(xxl) {
+}
