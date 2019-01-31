@@ -4,24 +4,38 @@ BREAKPOINTS
 
 @mixin breakpoint($point) {
     @if $point == xxl {
-      @media (min-width: 1920px) { @content ; }
+      @media (min-width: 1920px) { 
+        @content ; 
+      }
    }
     @else if $point == xl {
-      @media (min-width: 1680px) { @content ; }
+      @media (min-width: 1680px) { 
+        @content ; 
+      }
    }
     @else if $point == l {
-      @media (min-width: 1200px) { @content ; }
+      @media (min-width: 1200px) { 
+        @content ; 
+      }
    }
     @else if $point == m {
-      @media (min-width: 992px) { @content ; }
+      @media (min-width: 992px) { 
+        @content ; 
+      }
    }
     @else if $point == s{
-      @media (min-width: 768px) { @content ; }
+      @media (min-width: 768px) { 
+        @content ; 
+      }
    }
      @else if $point == xs {
-      @media (min-width: 576px) { @content ; }
+      @media (min-width: 576px) { 
+        @content ; 
+      }
    }
     @else if $point == xxs {
-      @media (max-width: 576px)  { @content ; }
+      @media (max-width: 576px)  { 
+        @content ; 
+      }
    }
  }
