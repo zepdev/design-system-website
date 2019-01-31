@@ -37,7 +37,7 @@ deploy_development:
     CLOUDFRONT_DISTRIBUTION: 'ET351YZOMAVPH'
   script:
     - pip install awscli
-    - aws s3 cp ./ s3://$TARGET_BUCKET_NAME/ --recursive --exclude="node_modules" --include "*"
+    - aws s3 cp ./ s3://$TARGET_BUCKET_NAME/ --recursive --exclude="node_modules/*" --include "*"
     - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths \"/*\"
   environment:
     name: development
