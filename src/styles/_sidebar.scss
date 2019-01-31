@@ -30,6 +30,10 @@
   margin: 0;
 }
 
+.zds-sidebar--nav-subitem {
+  margin-left: 1rem;
+}
+
 @include breakpoint(xs) {
   .zds-sidebar {
     flex-basis: 276px;

@@ -1,36 +1,36 @@
 {
-    "getting-started": {
-        "title": "Getting started",
-        "sub-nav": {
-            "about-carbon": {
-                "title": "About"
-            },
-            "designers": {
-                "title": "Designers"
-            },
-            "developers": {
-                "title": "Developers"
-            }
-        }
-    },
-    "guidelines": {
-        "title": "Guidelines",
-        "sub-nav": {
-            "color": {
-                "title": "Color"
-            },
-            "grid": {
-                "title": "Grid"
-            },
-            "iconography": {
-                "title": "Iconography"
-            },
-            "typography": {
-                "title": "Typography"
-            },
-            "spacing": {
-                "title": "Spacing"
-            }
-        }
+  "getting-started": {
+    "title": "Getting started",
+    "sub-nav": {
+      "about-carbon": {
+        "title": "About"
+      },
+      "designers": {
+        "title": "Designers"
+      },
+      "developers": {
+        "title": "Developers"
+      }
     }
+  },
+  "guidelines": {
+    "title": "Guidelines",
+    "sub-nav": {
+      "color": {
+        "title": "Color"
+      },
+      "grid": {
+        "title": "Grid"
+      },
+      "iconography": {
+        "title": "Iconography"
+      },
+      "typography": {
+        "title": "Typography"
+      },
+      "spacing": {
+        "title": "Spacing"
+      }
+    }
+  }
 }
