@@ -1,7 +1,8 @@
 .zds-header {
+  position: fixed;
+  width: 100%;
   background: #27166f;
   color: #fff;
-  margin-bottom: 1.5rem;
 }
 
 .zds-header--container {
@@ -18,7 +19,7 @@
 @include breakpoint(xxs) {
   .zds-header--container {
     padding: 1rem 1.5rem;
-    height: 46px;
+    height: $header-height-xxs;
   }
 
   .zds-header--container__logo {
@@ -30,7 +31,7 @@
 @include breakpoint(xs) {
   .zds-header--container {
     padding: 1.5rem 2rem;
-    height: 68px;
+    height: $header-height-xs;
   }
 
   .zds-header--container__logo {
@@ -42,7 +43,7 @@
 @include breakpoint(s) {
   .zds-header--container {
     padding: 2rem 3rem;
-    height: 84px;
+    height: $header-height-s;
   }
 
   .zds-header--container__logo {
@@ -53,7 +54,7 @@
 @include breakpoint(m) {
   .zds-header--container {
     padding: 2rem 3rem;
-    height: 104px;
+    height: $header-height-m;
   }
 
   .zds-header--container__logo {
@@ -67,7 +68,7 @@
 @include breakpoint(xl) {
   .zds-header--container {
     padding: 3rem;
-    height: 136px;
+    height: $header-height-xl;
   }
 }
 

@@ -8,18 +8,12 @@ const MediumIcon = ({ className, width, height, fill, viewBox }) => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox={viewBox}
     aria-labelledby="title"
-    class={className}
+    className={className}
   >
     <title id="title">Medium Icon</title>
     <defs />
-    <g
-      id="Page-1"
-      stroke="none"
-      stroke-width="1"
-      fill="none"
-      fill-rule="evenodd"
-    >
-      <g id="Monogram" fill-rule="nonzero">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+      <g id="Monogram" fillRule="nonzero">
         <rect
           id="Rectangle-path"
           fill="none"

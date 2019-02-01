@@ -1,27 +1,47 @@
 .zds-sidebar {
-  display: none;
-  flex-basis: 216px;
+  display: block;
+  width: $sidebar-width-xxs;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  transition: transform 0.2s;
+}
+
+.zds-sidebar__hidden {
+  transform: translateX(-100%);
 }
 
 .zds-sidebar--header {
   background: #27166f;
+  //background: transparent;
   color: #fff;
+  width: 100%;
+  visibility: hidden;
+}
+
+.zds-sidebar--header-link {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .zds-sidebar--container {
+  height: calc(100vh - #{$header-height-xxs});
   padding: 1.5rem 1.5rem;
-  //width: 100%;
-  height: 100%;
   border-right: 1px solid #f4f5f7;
+  overflow: auto;
+  background-color: #fff;
 }
 
 .zds-sidebar--container__header {
-  height: 46px;
+  height: $header-height-xxs;
   display: flex;
   align-items: center;
   border: 0;
   padding-top: 0;
   padding-bottom: 0;
+  background: transparent;
 }
 
 .zds-sidebar--list {
@@ -36,11 +56,13 @@
 
 @include breakpoint(xs) {
   .zds-sidebar {
-    flex-basis: 276px;
+    display: block;
+    width: $sidebar-width-xs;
   }
 
   .zds-sidebar--container {
     padding: 1.5rem 2rem;
+    height: calc(100vh - #{$header-height-xs});
   }
 
   .zds-sidebar--container__header {
@@ -50,7 +72,7 @@
 
 @include breakpoint(s) {
   .zds-sidebar {
-    flex-basis: 300px;
+    width: $sidebar-width-s;
   }
 
   .zds-sidebar--container {
@@ -58,40 +80,50 @@
   }
 
   .zds-sidebar--container__header {
-    height: 84px;
+    height: $header-height-s;
   }
 }
 
 @include breakpoint(m) {
   .zds-sidebar {
     display: block;
-    flex-basis: 224px;
-  }
-  .zds-sidebar--container {
-    padding: 2rem 2rem;
+    width: $sidebar-width-m;
+    transition: all 0s;
   }
 
+  .zds-sidebar__hidden {
+    transform: translateX(0);
+  }
+
+  .zds-sidebar--header {
+    visibility: visible;
+  }
+
+  .zds-sidebar--container {
+    padding: 2rem;
+    height: calc(100vh - #{$header-height-m});
+  }
   .zds-sidebar--container__header {
-    height: 104px;
+    height: $header-height-m;
   }
 }
 
 @include breakpoint(l) {
   .zds-sidebar {
-    flex-basis: 276px;
+    width: $sidebar-width-l;
   }
 }
 
 @include breakpoint(xl) {
   .zds-sidebar {
-    flex-basis: 300px;
+    width: $sidebar-width-xl;
   }
 
   .zds-sidebar--container {
-    padding: 3rem 3rem;
+    padding: 3rem;
   }
 
   .zds-sidebar--container__header {
-    height: 136px;
+    height: $header-height-xl;
   }
 }

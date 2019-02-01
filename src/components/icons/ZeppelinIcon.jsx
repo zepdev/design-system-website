@@ -8,7 +8,7 @@ const ZeppelinIcon = ({ className, width, height, fill, viewBox }) => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox={viewBox}
     aria-labelledby="title"
-    class={className}
+    className={className}
   >
     <title id="title">Zeppelin Icon</title>
     <path

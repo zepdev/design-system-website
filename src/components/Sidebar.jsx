@@ -1,13 +1,16 @@
 import React from 'react'
 import logo from '../assets/images/zep-logo-new.svg'
 import SidebarNav from './SidebarNav'
+import { Link } from 'gatsby'
 //import PropTypes from 'prop-types'
 
 const Sidebar = () => (
-  <div className="zds-sidebar">
+  <div className="zds-sidebar zds-sidebar__hidden">
     <div className="zds-sidebar--header">
       <div className="zds-sidebar--container zds-sidebar--container__header">
-        <img src={logo} alt="Zeppelin Logo" />
+        <Link className="zds-sidebar--header-link" to="/">
+          <img src={logo} alt="Zeppelin Icon" />
+        </Link>
       </div>
     </div>
     <div className="zds-sidebar--container">
