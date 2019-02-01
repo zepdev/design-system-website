@@ -5,11 +5,11 @@
   left: 0;
   top: 0;
   z-index: 3;
+  transition: transform 0.2s;
 }
 
 .zds-sidebar__hidden {
-  //visibility: hidden;
-  //left: -$sidebar-width-xxs;
+  transform: translateX(-100%);
 }
 
 .zds-sidebar--header {
@@ -88,6 +88,11 @@
   .zds-sidebar {
     display: block;
     width: $sidebar-width-m;
+    transition: all 0s;
+  }
+
+  .zds-sidebar__hidden {
+    transform: translateX(0);
   }
 
   .zds-sidebar--header {

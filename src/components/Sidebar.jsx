@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/zep-logo-new.svg'
+import logo from '../assets/images/zep-logo-new.svg'
 import SidebarNav from './SidebarNav'
 import { Link } from 'gatsby'
 //import PropTypes from 'prop-types'

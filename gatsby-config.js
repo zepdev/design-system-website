@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     {
@@ -32,7 +32,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#27166f`,
         display: `minimal-ui`,
-        icon: `src/images/zeppelin_icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
