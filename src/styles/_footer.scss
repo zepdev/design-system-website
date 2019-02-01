@@ -1,71 +1,98 @@
 .zds-footer {
   border-top: 1px solid #f4f5f7;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
 }
 
 .zds-footer--container {
-  min-height: 24px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .zds-footer--img {
-  width: 125px;
-  margin-right: 95px;
-  color: #9da3b4;
-}
-
-.zds-footer--icon {
-  width: 20px;
-  height: 20px;
-  margin-left: 24px;
-  color: #9da3b4;
+  display: none;
 }
 
 .zds-footer--icon__container {
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
-.zds-footer--link {
-  font-size: 0.875rem;
+.zds-footer--icon {
+  width: 1.75rem;
+  height: 1.75rem;
   color: #9da3b4;
-  text-decoration: none;
-  padding-right: 32px;
 }
 
 .zds-footer--link__container {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-@include breakpoint(xxs) {
-  .zds-footer {
-    padding: 1.5rem 2rem;
-  }
+.zds-footer--link {
+  font-size: 0.75rem;
+  color: #9da3b4;
+  text-decoration: none;
+  margin-bottom: 0.9375rem;
 }
 
 @include breakpoint(xs) {
+  .zds-footer {
+    padding: 1.25rem 2rem;
+  }
+  .zds-footer--container {
+    height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .zds-footer--link__container {
+    flex-direction: row;
+  }
+  .zds-footer--link {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+  .zds-footer--icon__container {
+    justify-content: flex-end;
+  }
+  .zds-footer--icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 1.5rem;
+  }
 }
 
 @include breakpoint(s) {
   .zds-footer {
-    padding: 2rem 3rem;
+    padding: 1.6875rem 3rem;
   }
-}
-@include breakpoint(m) {
 }
 
 @include breakpoint(l) {
+  .zds-footer {
+    padding: 1.875rem 3rem;
+  }
+  .zds-footer--img {
+    display: block;
+    width: 125px;
+    height: 1.5rem;
+    margin-right: 90px;
+    color: #9da3b4;
+  }
 }
 
 @include breakpoint(xl) {
   .zds-footer {
-    padding: 3rem 3rem;
+    padding: 2.875rem 3rem;
   }
-}
-
-@include breakpoint(xxl) {
+  .zds-footer--img {
+    margin-right: 95px;
+  }
+  .zds-footer--link {
+    font-size: 0.875rem;
+  }
 }
