@@ -1,28 +1,18 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
-import SearchIcon from './icons/SearchIcon'
+import Searchbar from './Searchbar'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <div className="zds-header">
       <div className="zds-header--container">
-        <MenuIcon className="zds-footer--img" />
-        <ZeppelinIcon className="zds-footer--img" />
-        <SearchIcon className="zds-footer--img" />
+        <MenuIcon className="zds-header--icon" />
+        <ZeppelinIcon className="zds-header--logo" />
+        <Searchbar />
       </div>
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
