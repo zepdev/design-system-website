@@ -6,66 +6,73 @@
 }
 
 .zds-header--container {
-  display: inline-block;
-  background: rgba(#fff, 0.5);
-  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  height: $header-height-xxs;
 }
 
-.zds-header--headline {
-  font-size: 1rem;
-  margin: 0;
+.zds-header--logo {
+  color: #fff;
+  height: 100%;
+  width: 125%;
+}
+
+.zds-header--icon {
+  color: #fff;
 }
 
 @include breakpoint(xxs) {
-  .zds-header--container {
-    padding: 1rem 1.5rem;
-    height: $header-height-xxs;
-  }
-
-  .zds-header--container__logo {
-    max-width: $grid-col-width-xxs;
-    margin-right: 1rem;
-  }
 }
 
 @include breakpoint(xs) {
+  .zds-header {
+    width: 100%;
+  }
   .zds-header--container {
     padding: 1.5rem 2rem;
     height: $header-height-xs;
   }
-
-  .zds-header--container__logo {
-    max-width: $grid-col-width-xs;
-    margin-right: 1.5rem;
-  }
 }
 
 @include breakpoint(s) {
+  .zds-header {
+    width: 100%;
+  }
   .zds-header--container {
     padding: 2rem 3rem;
     height: $header-height-s;
   }
-
-  .zds-header--container__logo {
-    max-width: $grid-col-width-s;
-  }
 }
 
 @include breakpoint(m) {
+  .zds-header {
+    width: calc(100% - #{$sidebar-width-m});
+    background: #f4f5f7;
+  }
   .zds-header--container {
     padding: 2rem 3rem;
     height: $header-height-m;
   }
-
-  .zds-header--container__logo {
+  .zds-header--logo {
+    display: none;
+  }
+  .zds-header--icon {
     display: none;
   }
 }
 
 @include breakpoint(l) {
+  .zds-header {
+    width: calc(100% - #{$sidebar-width-l});
+  }
 }
 
 @include breakpoint(xl) {
+  .zds-header {
+    width: calc(100% - #{$sidebar-width-xl});
+  }
   .zds-header--container {
     padding: 3rem;
     height: $header-height-xl;

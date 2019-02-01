@@ -54,6 +54,10 @@
   margin-left: 1rem;
 }
 
+.zds-sidebar--logo {
+  color: #fff;
+}
+
 @include breakpoint(xs) {
   .zds-sidebar {
     display: block;

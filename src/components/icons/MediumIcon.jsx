@@ -7,7 +7,7 @@ const MediumIcon = ({ className, width, height, fill, viewBox }) => (
     height={height}
     xmlns="http://www.w3.org/2000/svg"
     viewBox={viewBox}
-    aria-labelledby="title"
+    ariaLabelledby="title"
     className={className}
   >
     <title id="title">Medium Icon</title>
