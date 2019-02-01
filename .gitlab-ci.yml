@@ -18,9 +18,6 @@ test:
       - .cache/
   script: yarn test
   stage: test
-  only:
-    - development
-    - master
 
 # build stage, node_modules are downloaded from cache
 build:
@@ -35,9 +32,6 @@ build:
   artifacts:
     paths:
       - public/
-  only:
-    - development
-    - master
 
 deploy_development:
   stage: deploy
