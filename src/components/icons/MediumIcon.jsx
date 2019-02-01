@@ -12,14 +12,8 @@ const MediumIcon = ({ className, width, height, fill, viewBox }) => (
   >
     <title id="title">Medium Icon</title>
     <defs />
-    <g
-      id="Page-1"
-      stroke="none"
-      stroke-width="1"
-      fill="none"
-      fill-rule="evenodd"
-    >
-      <g id="Monogram" fill-rule="nonzero">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+      <g id="Monogram" fillRule="nonzero">
         <rect
           id="Rectangle-path"
           fill="none"
