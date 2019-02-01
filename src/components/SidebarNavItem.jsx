@@ -4,18 +4,29 @@ import Button from './Button'
 import { Link } from 'gatsby'
 
 class SidebarNavItem extends Component {
+  state = {
+    isButtonOpen: false,
+  }
+
+  handleButton = () => {
+    this.setState({
+      isButtonOpen: !this.state.isButtonOpen,
+    })
+  }
+
   render() {
     const { item } = this.props
-
+    const { isButtonOpen } = this.state
     return (
       <li>
         <Button
           fullWidth
+          onClick={item['sub-nav'] ? this.handleButton : () => {}}
           className={item['sub-nav'] && 'zds-button__collapsable'}
         >
           {item.title}
         </Button>
-        {item['sub-nav'] && (
+        {item['sub-nav'] && isButtonOpen && (
           <ul className="zds-sidebar--list">
             {Object.keys(item['sub-nav']).map((elem, idx) => (
               <li key={`sni-${idx}`}>

@@ -14,10 +14,10 @@
 
 .zds-sidebar--header {
   background: #27166f;
-  //background: transparent;
   color: #fff;
   width: 100%;
   visibility: hidden;
+  pointer-events: none;
 }
 
 .zds-sidebar--header-link {
