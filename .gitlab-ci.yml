@@ -15,7 +15,6 @@ test:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
-      - .cache/
   script: yarn test
   stage: test
 
@@ -25,7 +24,6 @@ build:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
-      - .cache/
   stage: build
   script: yarn build
   # create artifacts from the public directory

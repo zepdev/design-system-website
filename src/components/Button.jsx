@@ -3,7 +3,12 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 class Button extends Component {
   render() {
-    const { children, className: classNameProp, fullWidth } = this.props
+    const {
+      onClick,
+      children,
+      className: classNameProp,
+      fullWidth,
+    } = this.props
     const className = classNames(
       'zds-button',
       {
@@ -12,12 +17,17 @@ class Button extends Component {
       },
       classNameProp
     )
-    return <button className={className}>{children}</button>
+    return (
+      <button className={className} onClick={onClick}>
+        {children}
+      </button>
+    )
   }
 }
 
 Button.propTypes = {
   fullWidth: PropTypes.bool,
+  onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
 }
 
