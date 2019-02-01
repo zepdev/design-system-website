@@ -1,70 +1,15 @@
+@import './globals';
 @import './variables';
 @import './colors';
 @import './mixins';
 @import './button';
 @import './sidebar';
+@import './content';
+@import './main';
 @import './header';
 @import './footer';
 
-html,
-body {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-main {
-  flex-grow: 1;
-}
-
 .zds-site {
-  display: flex;
-}
-
-.zds-content {
-  flex-direction: column;
-  flex-grow: 1;
-  display: flex;
-  min-height: 100vh;
-}
-
-@include breakpoint(xxs) {
-  .zds-main {
-    margin: 0 1.5rem;
-  }
-}
-
-@include breakpoint(xs) {
-  .zds-main {
-    margin: 0 2rem;
-  }
-}
-
-@include breakpoint(s) {
-  .zds-main {
-    margin: 0 3rem;
-  }
-}
-
-@include breakpoint(m) {
-}
-
-@include breakpoint(l) {
-}
-
-@include breakpoint(xl) {
-}
-
-@include breakpoint(xxl) {
+  //display: flex;
+  position: relative;
 }
