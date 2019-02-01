@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import zeppelinIcon from '../images/zeppelin_icon.png'
+import zeppelinIcon from '../assets/images/zeppelin_icon.png'
 
 const Header = ({ siteTitle }) => (
   <header>
