@@ -1,7 +1,7 @@
-@import './globals';
 @import './variables';
 @import './fonts';
 @import './colors';
+@import './globals';
 @import './mixins';
 @import './button';
 @import './sidebar';
@@ -13,4 +13,28 @@
 .zds-site {
   //display: flex;
   position: relative;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.375rem;
+  line-height: 1.25;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
 }
