@@ -1,0 +1,84 @@
+.zds-header {
+  position: fixed;
+  width: 100%;
+  background: #27166f;
+  color: #fff;
+  z-index: 1000;
+}
+
+.zds-header--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  height: $header-height-xxs;
+}
+
+.zds-header--logo {
+  color: #fff;
+  height: 100%;
+  width: 125%;
+}
+
+.zds-header--icon {
+  color: #fff;
+}
+
+@include breakpoint(xxs) {
+}
+
+@include breakpoint(xs) {
+  .zds-header {
+    width: 100%;
+  }
+  .zds-header--container {
+    padding: 1.5rem 2rem;
+    height: $header-height-xs;
+  }
+}
+
+@include breakpoint(s) {
+  .zds-header {
+    width: 100%;
+  }
+  .zds-header--container {
+    padding: 2rem 3rem;
+    height: $header-height-s;
+  }
+}
+
+@include breakpoint(m) {
+  .zds-header {
+    width: calc(100% - #{$sidebar-width-m});
+    background: #f4f5f7;
+  }
+  .zds-header--container {
+    padding: 2rem 3rem;
+    height: $header-height-m;
+  }
+  .zds-header--logo {
+    display: none;
+  }
+  .zds-header--icon {
+    display: none;
+  }
+}
+
+@include breakpoint(l) {
+  .zds-header {
+    width: calc(100% - #{$sidebar-width-l});
+  }
+}
+
+@include breakpoint(xl) {
+  .zds-header {
+    width: calc(100% - #{$sidebar-width-xl});
+  }
+  .zds-header--container {
+    padding: 3rem;
+    height: $header-height-xl;
+  }
+}
+
+@include breakpoint(xxl) {
+}

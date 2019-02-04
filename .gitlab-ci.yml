@@ -1,25 +1,55 @@
+# pull in node 10 docker image
+image: node:10.15.0
+
 stages:
   - test
   - build
   - deploy
 
+# test stage, run unit tests
 test:
+  before_script:
+    - yarn
+  # put node_modules and .cache to cache
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
+  script: yarn test
   stage: test
-  script: echo "Running tests"
 
+# build stage, node_modules are downloaded from cache
 build:
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
   stage: build
-  script: echo "Building the app"
+  script: yarn build
+  # create artifacts from the public directory
+  artifacts:
+    paths:
+      - public/
 
 deploy_development:
   stage: deploy
+  image: python:latest
+  variables:
+    TARGET_BUCKET_NAME: 'zds-dev'
+    AWS_REGION: 'eu-central-1'
+    CLOUDFRONT_DISTRIBUTION: 'ET351YZOMAVPH'
   script:
-    - echo "Deploy to staging server"
+    - pip install awscli
+    - aws s3 sync ./public/ s3://$TARGET_BUCKET_NAME/ --delete --exclude="*node_modules/*" --include "*"
+    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths "/*"
   environment:
     name: development
     url: https://dev-zds.zepdev.net
+  # use artifacts from build stage
+  dependencies:
+    - build
   only:
-  - development
+    - development
 
 deploy_production:
   stage: deploy
@@ -29,4 +59,4 @@ deploy_production:
     name: production
     url: https://prod-zds.zepdev.net
   only:
-  - master
+    - master
