@@ -22,7 +22,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "sonarqube-scanner": "^2.1.2"
   },
   "keywords": [
     "gatsby"
@@ -35,7 +36,8 @@
     "format": "prettier --write \"src/**/*.js\"",
     "cy:open": "cypress open",
     "test": "jest --coverage",
-    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
+    "sonar-scanner": "sonar-scanner"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

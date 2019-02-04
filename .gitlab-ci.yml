@@ -15,7 +15,9 @@ test:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
-  script: yarn test
+  script:
+    - yarn test
+    - yarn sonar-scanner
   stage: test
 
 # build stage, node_modules are downloaded from cache
