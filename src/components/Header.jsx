@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
-import Searchbar from './Searchbar'
+import Searchbar from './searchbar/Searchbar'
 
 const Header = ({ handleMenu }) => (
   <header>
