@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import classnames from 'classnames'
 import SidebarNav from './SidebarNav'
-import ZeppelinIcon from './icons/ZeppelinIcon'
+import ZeppelinIcon from '../icons/ZeppelinIcon'
 
 const Sidebar = ({ isMenuOpen }) => {
   return (

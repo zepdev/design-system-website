@@ -63,7 +63,13 @@ exports.onCreateWebpackConfig = ({ stage, plugins, actions }) => {
     //minify: true,
 
     //help: https://github.com/Modernizr/Modernizr/tree/master/feature-detects
-    'feature-detects': ['input', 'canvas', 'css/resize', 'css/wrapflow'],
+    //help: https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json
+    'feature-detects': [
+      'css/flexbox',
+      'css/transitions',
+      'css/vmaxunit',
+      'css/vminunit',
+    ],
   }
 
   actions.setWebpackConfig({

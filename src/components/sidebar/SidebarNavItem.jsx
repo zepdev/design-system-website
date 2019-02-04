@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Button from './Button'
+import Button from '../ui/Button'
 import { Link } from 'gatsby'
 
 class SidebarNavItem extends Component {
@@ -27,7 +27,7 @@ class SidebarNavItem extends Component {
           {item.title}
         </Button>
         {item['sub-nav'] && isButtonOpen && (
-          <ul className="zds-sidebar--list">
+          <ul data-testid="subnav-list" className="zds-sidebar--list">
             {Object.keys(item['sub-nav']).map((elem, idx) => (
               <li key={`sni-${idx}`}>
                 <Link
