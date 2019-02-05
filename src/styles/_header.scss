@@ -1,8 +1,8 @@
 .zds-header {
   position: fixed;
   width: 100%;
-  background: #27166f;
-  color: #fff;
+  background: $color-brand1;
+  color: $color-brand9;
   z-index: 1000;
 }
 
@@ -15,13 +15,13 @@
 }
 
 .zds-header--logo {
-  color: #fff;
+  color: $color-brand9;
   height: 100%;
   width: 125%;
 }
 
 .zds-header--icon {
-  color: #fff;
+  color: $color-brand9;
 }
 
 @include breakpoint(xxs) {
@@ -50,7 +50,7 @@
 @include breakpoint(m) {
   .zds-header {
     width: calc(100% - #{$sidebar-width-m});
-    background: #f4f5f7;
+    background: $color-brand7;
   }
   .zds-header--container {
     padding: 2rem 3rem;

@@ -13,8 +13,8 @@
 }
 
 .zds-sidebar--header {
-  background: #27166f;
-  color: #fff;
+  background: $color-brand1;
+  color: $color-brand9;
   width: 100%;
   visibility: hidden;
   pointer-events: none;
@@ -29,9 +29,9 @@
 .zds-sidebar--container {
   height: calc(100vh - #{$header-height-xxs});
   padding: 1.5rem 1.5rem;
-  border-right: 1px solid #f4f5f7;
+  border-right: 1px solid $color-brand7;
   overflow: auto;
-  background-color: #fff;
+  background-color: $color-brand9;
 }
 
 .zds-sidebar--container__header {
@@ -55,7 +55,7 @@
 }
 
 .zds-sidebar--logo {
-  color: #fff;
+  color: $color-brand9;
 }
 
 @include breakpoint(xs) {
