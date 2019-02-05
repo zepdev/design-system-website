@@ -13,7 +13,7 @@
 }
 
 .zds-sidebar--header {
-  background: #27166f;
+  background: $color-brand1;
   color: $color-brand9;
   width: 100%;
   visibility: hidden;
@@ -29,7 +29,7 @@
 .zds-sidebar--container {
   height: calc(100vh - #{$header-height-xxs});
   padding: 1.5rem 1.5rem;
-  border-right: 1px solid #f4f5f7;
+  border-right: 1px solid $color-brand7;
   overflow: auto;
   background-color: $color-brand9;
 }
