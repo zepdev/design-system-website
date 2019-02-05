@@ -6,24 +6,35 @@ stages:
   - build
   - deploy
 
-# test stage, run unit tests
-test:
-  before_script:
-    - yarn
+.cache_template: &cache_definition
   # put node_modules and .cache to cache
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
-  script: yarn test
+
+# test stage, run unit tests
+test:
+  before_script:
+    - yarn
+  <<: *cache_definition
+  script:
+    - yarn test
   stage: test
+
+# sonar qube code quality job
+sonarqube_master_job:
+  <<: *cache_definition
+  stage: test
+  script:
+    - yarn sonar-scanner -Dsonar.login=SONAR_LOGIN
+  only:
+    - development
+    - master
 
 # build stage, node_modules are downloaded from cache
 build:
-  cache:
-    key: ${CI_COMMIT_REF_SLUG}
-    paths:
-      - node_modules/
+  <<: *cache_definition
   stage: build
   script: yarn build
   # create artifacts from the public directory
