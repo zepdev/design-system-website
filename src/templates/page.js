@@ -1,25 +1,26 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import Layout from '../components/Layout'
 
-export default ({ data }) => {
-  const post = data.markdownRemark
+export default ({ data: { mdx } }) => {
+  console.log(mdx)
   return (
     <Layout>
-      <div>
-        {/* <h1>{post.frontmatter.title}</h1> */}
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </div>
+      <MDXRenderer>{mdx.code.body}</MDXRenderer>
     </Layout>
   )
 }
 
 export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+  query PageQuery($id: String) {
+    mdx(id: { eq: $id }) {
+      id
       frontmatter {
         title
+      }
+      code {
+        body
       }
     }
   }
