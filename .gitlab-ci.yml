@@ -23,12 +23,39 @@ test:
   stage: test
 
 # sonar qube code quality job
-code_quality:
+sonarqube_master_job:
   <<: *cache_definition
+  stage: test
   script:
-    - yarn sonar-scanner
-  only: master
+    - yarn sonar-scanner verify -Dsonar.login=SONAR_LOGIN -Dsonar.gitlab.project_id=$CI_PROJECT_PATH -Dsonar.gitlab.commit_sha=$CI_COMMIT_SHA -Dsonar.gitlab.ref_name=$CI_COMMIT_REF_NAME -Dsonar.gitlab.json_mode=CODECLIMATE -Dsonar.gitlab.failure_notification_mode=commit-status
+  only:
+    - development
+    - master
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - codeclimate.json
 
+sonarqube_preview_job:
+  <<: *cache_definition
+  stage: test
+  script:
+    - git merge $CI_COMMIT_SHA --no-commit --no-ff
+    - yarn sonar-scanner verify sonar:sonar -Dsonar.login=$SONAR_LOGIN -Dsonar.analysis.mode=preview -Dsonar.gitlab.project_id=$CI_PROJECT_PATH -Dsonar.gitlab.commit_sha=$CI_COMMIT_SHA -Dsonar.gitlab.ref_name=$CI_COMMIT_REF_NAME -Dsonar.gitlab.json_mode=CODECLIMATE -Dsonar.gitlab.failure_notification_mode=commit-status
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - codeclimate.json
+
+codequality:
+  stage: quality
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - echo ok
+  artifacts:
+    paths:
+      - codeclimate.json
 
 # build stage, node_modules are downloaded from cache
 build:
