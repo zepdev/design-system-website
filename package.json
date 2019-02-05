@@ -37,6 +37,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "eslint": "eslint src",
+    "eslint-sonarqube": "eslint -f json -o report.json src",
     "cy:open": "cypress open",
     "test": "jest --coverage",
     "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",

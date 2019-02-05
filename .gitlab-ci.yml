@@ -23,10 +23,11 @@ test:
   stage: test
 
 # sonar qube code quality job
-sonarqube_master_job:
+sonarqube:
   <<: *cache_definition
   stage: test
   script:
+    - yarn eslint-sonarqube
     - yarn sonar-scanner -Dsonar.login=$SONAR_LOGIN
   only:
     - development
