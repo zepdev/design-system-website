@@ -27,7 +27,7 @@ code_quality:
   <<: *cache_definition
   script:
     - yarn sonar-scanner
-  # only: development
+  only: master
 
 
 # build stage, node_modules are downloaded from cache
