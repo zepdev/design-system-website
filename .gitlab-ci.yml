@@ -27,7 +27,7 @@ sonarqube_master_job:
   <<: *cache_definition
   stage: test
   script:
-    - yarn sonar-scanner -Dsonar.login=SONAR_LOGIN
+    - yarn sonar-scanner -Dsonar.login=$SONAR_LOGIN
   only:
     - development
     - master
