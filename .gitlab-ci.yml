@@ -13,13 +13,14 @@ stages:
     paths:
       - node_modules/
 
-# test stage, run unit tests
+# test stage, run unit tests and linting
 test:
   before_script:
     - yarn
   <<: *cache_definition
   script:
     - yarn test
+    - yarn eslint
   stage: test
 
 # sonar qube code quality job
