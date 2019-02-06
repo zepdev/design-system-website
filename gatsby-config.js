@@ -24,6 +24,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    'gatsby-mdx',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -56,6 +57,6 @@ module.exports = {
           },
         },
       },
-    }
+    },
   ],
 }

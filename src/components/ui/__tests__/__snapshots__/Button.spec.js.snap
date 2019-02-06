@@ -1,69 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SidebarNav renders correctly 1`] = `
+exports[`Button renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <ul
-        class="zds-sidebar--list"
+      <button
+        class="zds-button"
+        data-testid="buttonComponent"
       >
-        <li>
-          <button
-            class="zds-button zds-button__full zds-button__collapsible"
-            data-testid="buttonComponent"
-          >
-            Getting started
-          </button>
-        </li>
-        <li>
-          <button
-            class="zds-button zds-button__full zds-button__collapsible"
-            data-testid="buttonComponent"
-          >
-            Guidelines
-          </button>
-        </li>
-        <li>
-          <button
-            class="zds-button zds-button__full"
-            data-testid="buttonComponent"
-          >
-            Test
-          </button>
-        </li>
-      </ul>
+        buttonText
+      </button>
     </div>
   </body>,
   "container": <div>
-    <ul
-      class="zds-sidebar--list"
+    <button
+      class="zds-button"
+      data-testid="buttonComponent"
     >
-      <li>
-        <button
-          class="zds-button zds-button__full zds-button__collapsible"
-          data-testid="buttonComponent"
-        >
-          Getting started
-        </button>
-      </li>
-      <li>
-        <button
-          class="zds-button zds-button__full zds-button__collapsible"
-          data-testid="buttonComponent"
-        >
-          Guidelines
-        </button>
-      </li>
-      <li>
-        <button
-          class="zds-button zds-button__full"
-          data-testid="buttonComponent"
-        >
-          Test
-        </button>
-      </li>
-    </ul>
+      buttonText
+    </button>
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],

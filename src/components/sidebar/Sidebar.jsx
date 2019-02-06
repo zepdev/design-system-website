@@ -10,7 +10,7 @@ const Sidebar = ({ isMenuOpen }) => {
     <div
       className={classnames('zds-sidebar', {
         // eslint-disable-next-line
-        ['zds-sidebar__hidden']: isMenuOpen,
+        ['zds-sidebar__hidden']: !isMenuOpen,
       })}
     >
       <div className="zds-sidebar--header">

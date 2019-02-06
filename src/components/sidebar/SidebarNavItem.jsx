@@ -22,7 +22,7 @@ class SidebarNavItem extends Component {
         <Button
           fullWidth
           onClick={item['sub-nav'] ? this.handleButton : () => {}}
-          className={item['sub-nav'] && 'zds-button__collapsable'}
+          className={item['sub-nav'] && 'zds-button__collapsible'}
         >
           {item.title}
         </Button>

@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It should render 1`] = `
+exports[`SidebarNavItem renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <li>
         <button
-          class="zds-button zds-button__full zds-button__collapsable"
+          class="zds-button zds-button__full zds-button__collapsible"
           data-testid="buttonComponent"
         >
-          Section
+          sectionTitle
         </button>
       </li>
     </div>
@@ -18,10 +18,10 @@ Object {
   "container": <div>
     <li>
       <button
-        class="zds-button zds-button__full zds-button__collapsable"
+        class="zds-button zds-button__full zds-button__collapsible"
         data-testid="buttonComponent"
       >
-        Section
+        sectionTitle
       </button>
     </li>
   </div>,
