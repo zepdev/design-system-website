@@ -2,10 +2,13 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import Button from '../Button'
 
-test('It should render', () => {
-  const mockProps = {
-    onClick: jest.fn(() => {}),
-    children: 'Some text',
-  }
-  render(<Button {...mockProps} />)
+describe('Button', () => {
+  it('renders correctly', () => {
+    const mockProps = {
+      onClick: jest.fn(() => {}),
+      children: 'buttonText',
+    }
+    const component = render(<Button {...mockProps} />)
+    expect(component).toMatchSnapshot()
+  })
 })

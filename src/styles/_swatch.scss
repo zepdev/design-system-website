@@ -1,3 +1,9 @@
+.zds-colors--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .zds-swatch--container {
   display: flex;
   flex-direction: column;
@@ -12,10 +18,4 @@
 
 .zds-swatch--title {
   text-align: center;
-}
-
-.zds-colors--container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }

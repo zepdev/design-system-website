@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Colors renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="zds-colors--container"
+      >
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(39, 22, 111);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            purple
+          </p>
+        </div>
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(50, 56, 72);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            grey1
+          </p>
+        </div>
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(93, 99, 115);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            grey2
+          </p>
+        </div>
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(157, 163, 180);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            grey3
+          </p>
+        </div>
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(205, 208, 217);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            grey4
+          </p>
+        </div>
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(230, 231, 235);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            grey5
+          </p>
+        </div>
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(244, 245, 247);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            grey6
+          </p>
+        </div>
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(249, 249, 250);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            grey7
+          </p>
+        </div>
+        <div
+          class="zds-swatch--container"
+        >
+          <div
+            class="zds-swatch"
+            style="background: rgb(255, 255, 255);"
+          />
+          <p
+            class="zds-swatch--title"
+          >
+            white
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="zds-colors--container"
+    >
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(39, 22, 111);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          purple
+        </p>
+      </div>
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(50, 56, 72);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          grey1
+        </p>
+      </div>
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(93, 99, 115);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          grey2
+        </p>
+      </div>
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(157, 163, 180);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          grey3
+        </p>
+      </div>
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(205, 208, 217);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          grey4
+        </p>
+      </div>
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(230, 231, 235);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          grey5
+        </p>
+      </div>
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(244, 245, 247);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          grey6
+        </p>
+      </div>
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(249, 249, 250);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          grey7
+        </p>
+      </div>
+      <div
+        class="zds-swatch--container"
+      >
+        <div
+          class="zds-swatch"
+          style="background: rgb(255, 255, 255);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          white
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllBySelectText": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getAllByValue": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getBySelectText": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "getByValue": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllBySelectText": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryAllByValue": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryBySelectText": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "queryByValue": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It should render 1`] = `
+exports[`Sidebar renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="zds-sidebar zds-sidebar__hidden"
+        class="zds-sidebar"
       >
         <div
           class="zds-sidebar--header"
@@ -55,7 +55,7 @@ Object {
           >
             <li>
               <button
-                class="zds-button zds-button__full zds-button__collapsable"
+                class="zds-button zds-button__full zds-button__collapsible"
                 data-testid="buttonComponent"
               >
                 Getting started
@@ -63,7 +63,7 @@ Object {
             </li>
             <li>
               <button
-                class="zds-button zds-button__full zds-button__collapsable"
+                class="zds-button zds-button__full zds-button__collapsible"
                 data-testid="buttonComponent"
               >
                 Guidelines
@@ -84,7 +84,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="zds-sidebar zds-sidebar__hidden"
+      class="zds-sidebar"
     >
       <div
         class="zds-sidebar--header"
@@ -133,7 +133,7 @@ Object {
         >
           <li>
             <button
-              class="zds-button zds-button__full zds-button__collapsable"
+              class="zds-button zds-button__full zds-button__collapsible"
               data-testid="buttonComponent"
             >
               Getting started
@@ -141,7 +141,7 @@ Object {
           </li>
           <li>
             <button
-              class="zds-button zds-button__full zds-button__collapsable"
+              class="zds-button zds-button__full zds-button__collapsible"
               data-testid="buttonComponent"
             >
               Guidelines

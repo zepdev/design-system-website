@@ -1,69 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SidebarNav renders correctly 1`] = `
+exports[`Swatch renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <ul
-        class="zds-sidebar--list"
+      <div
+        class="zds-swatch--container"
       >
-        <li>
-          <button
-            class="zds-button zds-button__full zds-button__collapsible"
-            data-testid="buttonComponent"
-          >
-            Getting started
-          </button>
-        </li>
-        <li>
-          <button
-            class="zds-button zds-button__full zds-button__collapsible"
-            data-testid="buttonComponent"
-          >
-            Guidelines
-          </button>
-        </li>
-        <li>
-          <button
-            class="zds-button zds-button__full"
-            data-testid="buttonComponent"
-          >
-            Test
-          </button>
-        </li>
-      </ul>
+        <div
+          class="zds-swatch"
+          style="background: rgb(255, 255, 255);"
+        />
+        <p
+          class="zds-swatch--title"
+        >
+          title
+        </p>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <ul
-      class="zds-sidebar--list"
+    <div
+      class="zds-swatch--container"
     >
-      <li>
-        <button
-          class="zds-button zds-button__full zds-button__collapsible"
-          data-testid="buttonComponent"
-        >
-          Getting started
-        </button>
-      </li>
-      <li>
-        <button
-          class="zds-button zds-button__full zds-button__collapsible"
-          data-testid="buttonComponent"
-        >
-          Guidelines
-        </button>
-      </li>
-      <li>
-        <button
-          class="zds-button zds-button__full"
-          data-testid="buttonComponent"
-        >
-          Test
-        </button>
-      </li>
-    </ul>
+      <div
+        class="zds-swatch"
+        style="background: rgb(255, 255, 255);"
+      />
+      <p
+        class="zds-swatch--title"
+      >
+        title
+      </p>
+    </div>
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],
