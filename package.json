@@ -36,7 +36,6 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
     "start": "gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "cy:open": "cypress open",
