@@ -19,8 +19,9 @@ test:
     - yarn
   <<: *cache_definition
   script:
-    - yarn test
     - yarn eslint
+    - yarn format
+    - yarn test
   stage: test
 
 # sonar qube code quality job
