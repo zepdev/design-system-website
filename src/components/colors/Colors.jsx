@@ -3,11 +3,10 @@ import { colors } from '../../data/theme'
 import Swatch from './Swatch'
 
 function Colors() {
-  console.log(colors)
   return (
-    <div>
-      {colors.map((elem, idx) => (
-        <Swatch title={colors[idx]} color={elem} />
+    <div className="zds-colors--container">
+      {Object.keys(colors).map((elem, idx) => (
+        <Swatch title={elem} color={colors[elem]} key={`swatch${idx}`} />
       ))}
     </div>
   )

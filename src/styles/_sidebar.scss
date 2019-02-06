@@ -10,6 +10,7 @@
 
 .zds-sidebar__hidden {
   transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
 }
 
 .zds-sidebar--header {
@@ -97,6 +98,7 @@
 
   .zds-sidebar__hidden {
     transform: translateX(0);
+    -ms-transform: translateX(0);
   }
 
   .zds-sidebar--header {

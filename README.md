@@ -17,8 +17,6 @@ This website was build using [Gatsby](https://www.gatsbyjs.org/).
     Navigate into your new site’s directory and start it up. In development, the site will run at `http://localhost:8000` and `http://localhost:8000/___graphql` (a tool to query [Gatsby's graphyQL](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
 
     ```sh
-    gatsby develop
-    //OR
     yarn start
     ```
 
@@ -123,3 +121,4 @@ jest-dom
 jest-axe (tests accessibility)
 identity-obj-proxy (passes css in jest)
 react-test-renderer (jest snapshots)
+global (recommended from gatsby for loadershim.js)

@@ -24,9 +24,6 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     'gatsby-mdx',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -40,6 +37,10 @@ module.exports = {
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -57,8 +58,5 @@ module.exports = {
         },
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
 }

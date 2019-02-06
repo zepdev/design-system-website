@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function Swatch(color, title) {
+function Swatch({ color, title }) {
   return (
-    <div className="zds-swatch" style={{ color: color }}>
-      {title}
+    <div className="zds-swatch--container">
+      <div className="zds-swatch" style={{ background: color }} />
+      <p className="zds-swatch--title">{title}</p>
     </div>
   )
 }
