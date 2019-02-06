@@ -18,7 +18,11 @@ class Button extends Component {
       classNameProp
     )
     return (
-      <button className={className} onClick={onClick}>
+      <button
+        className={className}
+        onClick={onClick}
+        data-testid="buttonComponent"
+      >
         {children}
       </button>
     )
