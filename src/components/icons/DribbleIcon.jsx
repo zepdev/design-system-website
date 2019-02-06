@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const GithubIcon = ({ className, width, height, fill, viewBox }) => (
+const DribbleIcon = ({ className, width, height, fill, viewBox }) => (
   <svg
     width={width}
     height={height}
@@ -20,18 +20,18 @@ const GithubIcon = ({ className, width, height, fill, viewBox }) => (
   </svg>
 )
 
-GithubIcon.propTypes = {
+DribbleIcon.propTypes = {
   width: PropTypes.string,
   height: PropTypes.string,
   viewBox: PropTypes.string,
   fill: PropTypes.string,
 }
 
-GithubIcon.defaultProps = {
+DribbleIcon.defaultProps = {
   width: '32',
   height: '32',
   viewBox: '0 0 100 100',
   fill: 'currentColor',
 }
 
-export default GithubIcon
+export default DribbleIcon
