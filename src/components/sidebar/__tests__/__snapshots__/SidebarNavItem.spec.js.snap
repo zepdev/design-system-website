@@ -12,19 +12,6 @@ Object {
         >
           Section
         </button>
-        <ul
-          class="zds-sidebar--list"
-          data-testid="subnav-list"
-        >
-          <li>
-            <a
-              class="zds-sidebar--nav-subitem zds-button zds-button__full"
-              href="/content/section/subsectiontitle"
-            >
-              subSectionTitle
-            </a>
-          </li>
-        </ul>
       </li>
     </div>
   </body>,
@@ -36,19 +23,6 @@ Object {
       >
         Section
       </button>
-      <ul
-        class="zds-sidebar--list"
-        data-testid="subnav-list"
-      >
-        <li>
-          <a
-            class="zds-sidebar--nav-subitem zds-button zds-button__full"
-            href="/content/section/subsectiontitle"
-          >
-            subSectionTitle
-          </a>
-        </li>
-      </ul>
     </li>
   </div>,
   "debug": [Function],

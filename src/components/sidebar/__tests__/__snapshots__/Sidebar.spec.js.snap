@@ -60,35 +60,6 @@ Object {
               >
                 Getting started
               </button>
-              <ul
-                class="zds-sidebar--list"
-                data-testid="subnav-list"
-              >
-                <li>
-                  <a
-                    class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                    href="/content/getting-started/about"
-                  >
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                    href="/content/getting-started/designers"
-                  >
-                    Designers
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                    href="/content/getting-started/developers"
-                  >
-                    Developers
-                  </a>
-                </li>
-              </ul>
             </li>
             <li>
               <button
@@ -97,51 +68,6 @@ Object {
               >
                 Guidelines
               </button>
-              <ul
-                class="zds-sidebar--list"
-                data-testid="subnav-list"
-              >
-                <li>
-                  <a
-                    class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                    href="/content/guidelines/color"
-                  >
-                    Color
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                    href="/content/guidelines/grid"
-                  >
-                    Grid
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                    href="/content/guidelines/iconography"
-                  >
-                    Iconography
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                    href="/content/guidelines/typography"
-                  >
-                    Typography
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                    href="/content/guidelines/spacing"
-                  >
-                    Spacing
-                  </a>
-                </li>
-              </ul>
             </li>
             <li>
               <button
@@ -212,35 +138,6 @@ Object {
             >
               Getting started
             </button>
-            <ul
-              class="zds-sidebar--list"
-              data-testid="subnav-list"
-            >
-              <li>
-                <a
-                  class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                  href="/content/getting-started/about"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                  href="/content/getting-started/designers"
-                >
-                  Designers
-                </a>
-              </li>
-              <li>
-                <a
-                  class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                  href="/content/getting-started/developers"
-                >
-                  Developers
-                </a>
-              </li>
-            </ul>
           </li>
           <li>
             <button
@@ -249,51 +146,6 @@ Object {
             >
               Guidelines
             </button>
-            <ul
-              class="zds-sidebar--list"
-              data-testid="subnav-list"
-            >
-              <li>
-                <a
-                  class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                  href="/content/guidelines/color"
-                >
-                  Color
-                </a>
-              </li>
-              <li>
-                <a
-                  class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                  href="/content/guidelines/grid"
-                >
-                  Grid
-                </a>
-              </li>
-              <li>
-                <a
-                  class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                  href="/content/guidelines/iconography"
-                >
-                  Iconography
-                </a>
-              </li>
-              <li>
-                <a
-                  class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                  href="/content/guidelines/typography"
-                >
-                  Typography
-                </a>
-              </li>
-              <li>
-                <a
-                  class="zds-sidebar--nav-subitem zds-button zds-button__full"
-                  href="/content/guidelines/spacing"
-                >
-                  Spacing
-                </a>
-              </li>
-            </ul>
           </li>
           <li>
             <button
