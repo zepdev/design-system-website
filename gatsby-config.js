@@ -1,3 +1,7 @@
+var sass = require('node-sass')
+var sassUtils = require('node-sass-utils')(sass)
+const sassVars = require(__dirname + '/src/data/theme.js')
+
 module.exports = {
   siteMetadata: {
     title: `Zeppelin Design System`,
@@ -26,8 +30,8 @@ module.exports = {
         name: `zeppelin-design-system`,
         short_name: `z-lab`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#27166f`,
+        background_color: sassVars.colors.white,
+        theme_color: sassVars.colors.purple,
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },
@@ -36,6 +40,22 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        functions: {
+          'get($keys)': function(keys) {
+            keys = keys.getValue().split('.')
+            let result = sassVars
+            let i
+            for (i = 0; i < keys.length; i++) {
+              result = result[keys[i]]
+            }
+            result = sassUtils.castToSass(result)
+            return result
+          },
+        },
+      },
+    }
   ],
 }

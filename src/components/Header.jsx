@@ -8,8 +8,8 @@ const Header = ({ handleMenu }) => (
   <header>
     <div className="zds-header">
       <div className="zds-header--container">
-        <button onClick={handleMenu}>
-          <MenuIcon className="zds-header--icon" />
+        <button onClick={handleMenu} className="zds-header--icon">
+          <MenuIcon />
         </button>
         <ZeppelinIcon className="zds-header--logo" />
         <Searchbar />
