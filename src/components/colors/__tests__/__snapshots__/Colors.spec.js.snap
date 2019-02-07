@@ -11,10 +11,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(39, 22, 111);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #27166f
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -24,10 +60,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(50, 56, 72);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #323848
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -37,10 +109,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(93, 99, 115);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #5d6373
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -50,10 +158,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(157, 163, 180);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #9da3b4
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -63,10 +207,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(205, 208, 217);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #cdd0d9
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -76,10 +256,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(230, 231, 235);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #e6e7eb
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -89,10 +305,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(244, 245, 247);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #f4f5f7
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -102,10 +354,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(249, 249, 250);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #f9f9fa
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -115,10 +403,46 @@ Object {
         <div
           class="zds-swatch--container"
         >
-          <div
-            class="zds-swatch"
+          <button
+            class="zds-button zds-swatch"
             style="background: rgb(255, 255, 255);"
-          />
+          >
+            <span
+              class="zds-swatch--backdrop"
+            />
+            <span
+              class="zds-swatch--imageButton"
+            >
+              <svg
+                aria-labelledby="title"
+                class="zds-swatch--icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title"
+                >
+                  Copy Icon
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="zds-swatch--imageTitle"
+                data-testid="swatch-text"
+              >
+                #ffffff
+              </span>
+            </span>
+          </button>
           <p
             class="zds-swatch--title"
           >
@@ -135,10 +459,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(39, 22, 111);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #27166f
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
@@ -148,10 +508,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(50, 56, 72);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #323848
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
@@ -161,10 +557,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(93, 99, 115);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #5d6373
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
@@ -174,10 +606,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(157, 163, 180);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #9da3b4
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
@@ -187,10 +655,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(205, 208, 217);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #cdd0d9
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
@@ -200,10 +704,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(230, 231, 235);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #e6e7eb
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
@@ -213,10 +753,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(244, 245, 247);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #f4f5f7
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
@@ -226,10 +802,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(249, 249, 250);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #f9f9fa
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
@@ -239,10 +851,46 @@ Object {
       <div
         class="zds-swatch--container"
       >
-        <div
-          class="zds-swatch"
+        <button
+          class="zds-button zds-swatch"
           style="background: rgb(255, 255, 255);"
-        />
+        >
+          <span
+            class="zds-swatch--backdrop"
+          />
+          <span
+            class="zds-swatch--imageButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="zds-swatch--icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="zds-swatch--imageTitle"
+              data-testid="swatch-text"
+            >
+              #ffffff
+            </span>
+          </span>
+        </button>
         <p
           class="zds-swatch--title"
         >
