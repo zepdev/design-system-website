@@ -8,7 +8,6 @@ Object {
       <li>
         <button
           class="zds-button zds-button__full zds-button__collapsible"
-          data-testid="buttonComponent"
         >
           sectionTitle
         </button>
@@ -19,7 +18,6 @@ Object {
     <li>
       <button
         class="zds-button zds-button__full zds-button__collapsible"
-        data-testid="buttonComponent"
       >
         sectionTitle
       </button>

@@ -1,39 +1,55 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Swatch renders correctly 1`] = `
+exports[`MenuIcon renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="zds-swatch--container"
+      <svg
+        aria-labelledby="title"
+        height="32"
+        viewBox="0 0 24 24"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <div
-          class="zds-swatch"
-          style="background: rgb(255, 255, 255);"
-        />
-        <p
-          class="zds-swatch--title"
+        <title
+          id="title"
         >
-          title
-        </p>
-      </div>
+          Menu Icon
+        </title>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          fill="currentColor"
+        />
+      </svg>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="zds-swatch--container"
+    <svg
+      aria-labelledby="title"
+      height="32"
+      viewBox="0 0 24 24"
+      width="32"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <div
-        class="zds-swatch"
-        style="background: rgb(255, 255, 255);"
-      />
-      <p
-        class="zds-swatch--title"
+      <title
+        id="title"
       >
-        title
-      </p>
-    </div>
+        Menu Icon
+      </title>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        fill="currentColor"
+      />
+    </svg>
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],
