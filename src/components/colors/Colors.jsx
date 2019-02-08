@@ -6,7 +6,7 @@ function Colors() {
   return (
     <div className="zds-colors--container">
       {Object.keys(colors).map((elem, idx) => (
-        <Swatch title={elem} color={colors[elem]} key={`swatch${idx}`} />
+        <Swatch title={elem} color={colors[elem]} key={`swatch${ idx }`} />
       ))}
     </div>
   )
