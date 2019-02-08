@@ -29,13 +29,13 @@ class SidebarNavItem extends Component {
         {item['sub-nav'] && isButtonOpen && (
           <ul className="zds-sidebar--list">
             {Object.keys(item['sub-nav']).map((elem, idx) => (
-              <li key={`sni-${idx}`}>
+              <li key={`sni-${ idx }`}>
                 <Link
-                  to={`/content/${item.title
+                  to={`/content/${ item.title
                     .toLowerCase()
-                    .replace(/ /g, '-')}/${item['sub-nav'][elem].title
+                    .replace(/ /g, '-') }/${ item['sub-nav'][elem].title
                     .toLowerCase()
-                    .replace(/ /g, '-')}`}
+                    .replace(/ /g, '-') }`}
                   className="zds-sidebar--nav-subitem zds-button zds-button__full"
                 >
                   {item['sub-nav'][elem].title}

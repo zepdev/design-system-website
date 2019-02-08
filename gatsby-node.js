@@ -56,13 +56,13 @@ exports.createPages = ({ graphql, actions }) => {
  * Modernizr feature detects for older browsers
  */
 exports.onCreateWebpackConfig = ({ stage, plugins, actions }) => {
-  var ModernizrWebpackPlugin = require('modernizr-webpack-plugin')
+  let ModernizrWebpackPlugin = require('modernizr-webpack-plugin')
 
-  var config = {
+  let config = {
     options: ['setClasses'],
-    //minify: true,
+    // minify: true,
 
-    //help: https://github.com/Modernizr/Modernizr/tree/master/feature-detects
+    // help: https://github.com/Modernizr/Modernizr/tree/master/feature-detects
     'feature-detects': ['input', 'canvas', 'css/resize', 'css/wrapflow'],
   }
 

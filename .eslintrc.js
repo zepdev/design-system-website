@@ -1,9 +1,16 @@
 module.exports = {
   env: {
-      "jest": true
+      "cypress/globals": true,
+      "jest/globals": true
   },
   extends: ["standard"],
-  plugins: ["standard", "react"],
+  plugins: [
+    "standard",
+    "react",
+    "cypress",
+    "jest",
+    "chai-friendly"
+  ],
   rules: {
     "no-var": "error", // optional, recommended when using es6+
     "no-unused-vars": 1, // recommended
@@ -22,19 +29,17 @@ module.exports = {
 
     // options to emulate prettier setup
     semi: ["error", "never"],
-    "max-len": ["error", { code: 80 }],
+    "max-len": ["error", {
+      code: 100,
+      ignoreStrings: true,
+      ignoreComments: true,
+      ignoreUrls: true,
+    }],
     "template-curly-spacing": ["error", "always"],
     "arrow-parens": ["error", "as-needed"],
 
     // standard.js
-    "space-before-function-paren": [
-      "error",
-      {
-        named: "always",
-        anonymous: "always",
-        asyncArrow: "always",
-      },
-    ],
+    "space-before-function-paren": ["error", "never"],
 
     // standard plugin - options
     "standard/object-curly-even-spacing": ["error", "either"],
@@ -45,6 +50,17 @@ module.exports = {
     // react plugin - options
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+
+    // jest plugin - rules
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+
+    // chai-friendly no-unused-expression replacement
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2
   },
   parser: "babel-eslint",
   parserOptions: {
