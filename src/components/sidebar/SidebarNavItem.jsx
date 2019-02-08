@@ -22,7 +22,7 @@ class SidebarNavItem extends Component {
         <Button
           fullWidth
           onClick={item['sub-nav'] ? this.handleButton : () => {}}
-          className={item['sub-nav'] && 'zds-button__collapsible'}
+          className="zds-sidebar--button zds-button__collapsible"
         >
           {item.title}
         </Button>
@@ -31,9 +31,9 @@ class SidebarNavItem extends Component {
             {Object.keys(item['sub-nav']).map((elem, idx) => (
               <li key={`sni-${ idx }`}>
                 <Link
-                  to={`/content/${ item.title
-                    .toLowerCase()
-                    .replace(/ /g, '-') }/${ item['sub-nav'][elem].title
+                  to={`/content/${ item.title.toLowerCase().replace(/ /g, '-') }/${ item['sub-nav'][
+                    elem
+                  ].title
                     .toLowerCase()
                     .replace(/ /g, '-') }`}
                   className="zds-sidebar--nav-subitem zds-button zds-button__full"

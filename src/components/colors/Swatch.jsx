@@ -21,13 +21,11 @@ class Swatch extends Component {
       setTimeout(() => {
         this.setState({ isTextCopied: false })
       }, 2000)
-      console.log(document.queryCommandSupported('copy'))
     } else {
       this.setState({ copyError: true })
       setTimeout(() => {
         this.setState({ copyError: false })
       }, 2000)
-      console.log(document.queryCommandSupported('copy'))
     }
   }
 

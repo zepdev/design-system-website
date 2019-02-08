@@ -2,6 +2,11 @@ let sass = require('node-sass')
 let sassUtils = require('node-sass-utils')(sass)
 const sassVars = require(__dirname + '/src/data/theme.js')
 
+const theme = {
+  fontSize: 16,
+  fontFamily: 'Roboto',
+}
+
 module.exports = {
   siteMetadata: {
     title: `Zeppelin Design System`,
@@ -14,15 +19,19 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images`,
+        path: `${ __dirname }/src/assets/images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${__dirname}/src/`,
+        path: `${ __dirname }/src/`,
       },
+    },
+    {
+      resolve: 'jss',
+      options: { theme },
     },
     'gatsby-mdx',
     {

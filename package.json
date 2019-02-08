@@ -12,6 +12,7 @@
     "gatsby-cli": "^2.4.9",
     "gatsby-image": "^2.0.29",
     "gatsby-mdx": "^0.3.5",
+    "gatsby-plugin-jss": "^2.0.7",
     "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-offline": "^2.0.22",
     "gatsby-plugin-react-helmet": "^3.0.6",
@@ -29,6 +30,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
+    "react-jss": "^8.6.1",
     "sonarqube-scanner": "^2.1.2"
   },
   "keywords": [

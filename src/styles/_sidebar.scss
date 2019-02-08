@@ -27,6 +27,10 @@
   height: auto;
 }
 
+.zds-sidebar--button {
+  text-transform: capitalize;
+}
+
 .zds-sidebar--container {
   height: calc(100vh - #{$header-height-xxs});
   padding: 1.5rem 1.5rem;
@@ -53,6 +57,7 @@
 
 .zds-sidebar--nav-subitem {
   margin-left: 1rem;
+  text-transform: capitalize;
 }
 
 .zds-sidebar--logo {
