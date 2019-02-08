@@ -19,7 +19,6 @@ test:
     - yarn
   <<: *cache_definition
   script:
-    - yarn eslint
     - yarn format
     - yarn test
   stage: test
