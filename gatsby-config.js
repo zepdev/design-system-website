@@ -1,6 +1,6 @@
 let sass = require('node-sass')
 let sassUtils = require('node-sass-utils')(sass)
-const sassVars = require(`$ {__dirname}$ {'/src/data/theme.js'}`)
+const sassVars = require(__dirname + '/src/data/theme.js')
 
 module.exports = {
   siteMetadata: {
@@ -14,14 +14,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${ __dirname }/src/assets/images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${ __dirname }/src/`,
+        path: `${__dirname}/src/`,
       },
     },
     `gatsby-transformer-remark`,
