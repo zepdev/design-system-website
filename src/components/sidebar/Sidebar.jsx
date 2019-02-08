@@ -3,14 +3,14 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import classnames from 'classnames'
 import SidebarNav from './SidebarNav'
-import ZeppelinIcon from './icons/ZeppelinIcon'
+import ZeppelinIcon from '../icons/ZeppelinIcon'
 
 const Sidebar = ({ isMenuOpen }) => {
   return (
     <div
       className={classnames('zds-sidebar', {
         // eslint-disable-next-line
-        ['zds-sidebar__hidden']: isMenuOpen,
+        ['zds-sidebar__hidden']: !isMenuOpen,
       })}
     >
       <div className="zds-sidebar--header">

@@ -1,5 +1,5 @@
 import React from 'react'
-import navigation from '../data/navigation.json'
+import navigation from '../../data/navigation.json'
 import SidebarNavItem from './SidebarNavItem.jsx'
 
 const SidebarNav = () => (

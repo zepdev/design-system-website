@@ -1,0 +1,66 @@
+.zds-colors--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.zds-swatch--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zds-swatch {
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: 0.9375rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.zds-swatch:hover .zds-swatch--title {
+  text-align: center;
+}
+
+.zds-swatch:hover .zds-swatch--backdrop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: $color-brand2;
+  opacity: 0.4;
+  transition: 0.5;
+}
+
+.zds-swatch:hover .zds-swatch--imageButton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-brand9;
+}
+
+.zds-swatch:hover .zds-swatch--imageTitle {
+  position: relative;
+  padding-left: 5px;
+  display: block;
+}
+
+.zds-swatch--imageTitle {
+  display: none;
+}
+
+.zds-swatch:hover .zds-swatch--icon {
+  position: relative;
+  color: $color-brand9;
+  display: block;
+}
+
+.zds-swatch--icon {
+  display: none;
+}

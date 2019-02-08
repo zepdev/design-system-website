@@ -8,6 +8,7 @@ class Button extends Component {
       children,
       className: classNameProp,
       fullWidth,
+      ...other
     } = this.props
     const className = classNames(
       'zds-button',
@@ -18,7 +19,7 @@ class Button extends Component {
       classNameProp
     )
     return (
-      <button className={className} onClick={onClick}>
+      <button className={className} onClick={onClick} {...other}>
         {children}
       </button>
     )
