@@ -1,7 +1,16 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import withStyles from 'react-jss'
 import Button from '../ui/Button'
 import CopyIcon from '../icons/CopyIcon'
+
+const styles = {
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+}
 
 class Swatch extends Component {
   state = {
@@ -30,10 +39,10 @@ class Swatch extends Component {
   }
 
   render() {
-    const { title, color } = this.props
+    const { title, color, classes } = this.props
     const { isTextCopied, copyError } = this.state
     return (
-      <div className="zds-swatch--container">
+      <div className={classes.root}>
         <Button
           className="zds-swatch"
           style={{ background: color }}
@@ -54,8 +63,9 @@ class Swatch extends Component {
 }
 
 Swatch.propTypes = {
+  classes: PropTypes.object.isRequired,
   color: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 }
 
-export default Swatch
+export default withStyles(styles)(Swatch)
