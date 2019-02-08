@@ -1,5 +1,5 @@
-var sass = require('node-sass')
-var sassUtils = require('node-sass-utils')(sass)
+let sass = require('node-sass')
+let sassUtils = require('node-sass-utils')(sass)
 const sassVars = require(__dirname + '/src/data/theme.js')
 
 module.exports = {

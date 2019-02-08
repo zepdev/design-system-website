@@ -11,7 +11,7 @@ class Swatch extends Component {
 
   handleCopy = color => {
     if (document.queryCommandSupported('copy')) {
-      var dummy = document.createElement('textarea')
+      let dummy = document.createElement('textarea')
       document.body.appendChild(dummy)
       dummy.value = color
       dummy.select()
