@@ -12,6 +12,7 @@ stages:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
+      - coverage/
 
 # test stage, run unit tests and linting
 test:
