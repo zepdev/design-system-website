@@ -1,15 +1,15 @@
 module.exports = {
-  base: '16px',
   breakpoints: {
     xs: '36em' /* 576px */,
-    sm: '48em' /* 768px */,
-    md: '62em' /* 992px */,
-    lg: '75em' /* 1200px */,
+    s: '48em' /* 768px */,
+    m: '62em' /* 992px */,
+    l: '75em' /* 1200px */,
     xl: '105em' /* 1680px */,
     xxl: '120em' /* 1920px */,
   },
   typography: {
-    font: "'Roboto', Arial, Helvetica, sans-serif",
+    fontFamily: "'Roboto', Arial, Helvetica, sans-serif",
+    fontBase: '16px',
   },
   colors: {
     purple: '#27166f',
@@ -21,5 +21,32 @@ module.exports = {
     grey6: '#f4f5f7',
     grey7: '#f9f9fa',
     white: '#ffffff',
+  },
+  spacing: {
+    xxs: '1rem 1.5rem',
+    xs: '1.5rem 2rem',
+    s: '2rem 3rem',
+    m: '2rem 3rem',
+    l: '2rem 3rem',
+    xl: '3rem',
+    xxl: '3rem',
+  },
+  sidebar: {
+    xxs: '216px',
+    xs: '276px',
+    s: '300px',
+    m: '224px',
+    l: '276px',
+    xl: '300px',
+    xxl: '300px',
+  },
+  header: {
+    xxs: '46px',
+    xs: '68px;',
+    s: '84px',
+    m: '104px',
+    l: '104px',
+    xl: '136px;',
+    xxl: '136px',
   },
 }

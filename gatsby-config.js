@@ -1,11 +1,4 @@
-let sass = require('node-sass')
-let sassUtils = require('node-sass-utils')(sass)
-const sassVars = require(__dirname + '/src/data/theme.js')
-
-const theme = {
-  fontSize: 16,
-  fontFamily: 'Roboto',
-}
+const theme = require(__dirname + '/src/data/theme.js')
 
 module.exports = {
   siteMetadata: {
@@ -19,18 +12,18 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${ __dirname }/src/assets/images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${ __dirname }/src/`,
+        path: `${__dirname}/src/`,
       },
     },
     {
-      resolve: 'jss',
+      resolve: 'gatsby-plugin-jss',
       options: { theme },
     },
     'gatsby-mdx',
@@ -40,8 +33,8 @@ module.exports = {
         name: `zeppelin-design-system`,
         short_name: `z-lab`,
         start_url: `/`,
-        background_color: sassVars.colors.white,
-        theme_color: sassVars.colors.purple,
+        background_color: theme.colors.white,
+        theme_color: theme.colors.purple,
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },
@@ -50,22 +43,5 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        functions: {
-          'get($keys)': function(keys) {
-            keys = keys.getValue().split('.')
-            let result = sassVars
-            let i
-            for (i = 0; i < keys.length; i++) {
-              result = result[keys[i]]
-            }
-            result = sassUtils.castToSass(result)
-            return result
-          },
-        },
-      },
-    },
   ],
 }

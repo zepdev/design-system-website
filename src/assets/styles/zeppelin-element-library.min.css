@@ -1,3 +1,52 @@
+html,
+body {
+  font-size: 16px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #323848;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  flex-grow: 1;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+button {
+  border: 0;
+  background: transparent;
+  outline: 0;
+}
+h1 {
+  font-weight: 300;
+  font-size: 3.375rem;
+  line-height: 1.25;
+}
+h2 {
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+h3 {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .zep-color__purple {
   color: '#27166f';
 }
@@ -78,4 +127,15 @@
 }
 .zep-border-color__white {
   border-color: '#ffffff';
+}
+/* TODO: remove these temp files */
+.zds-button {
+  font-size: 0.875rem;
+  color: #323848;
+  padding: 0.75rem;
+  text-align: left;
+}
+.zds-button__full {
+  width: 100%;
+  display: block;
 }

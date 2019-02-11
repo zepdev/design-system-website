@@ -90,10 +90,9 @@ gatsby-mdx (https://gatsby-mdx.netlify.com/)
 
 # Styles
 
-node-sass-utils (to import data from theme.js file to sass)
-node-sass (webpack config for sass)
-gatsby-plugin-sass (sass integration for gatsby)
 classnames
+react-jss
+gatsby-plugin-jss
 
 # SEO / PWA
 
@@ -122,3 +121,4 @@ jest-axe (tests accessibility)
 identity-obj-proxy (passes css in jest)
 react-test-renderer (jest snapshots)
 global (recommended from gatsby for loadershim.js)
+jss-snapshot-serializer (for react-jss)
