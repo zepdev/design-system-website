@@ -45,32 +45,40 @@ build:
     paths:
       - public/
 
-deploy_development:
+.deploy_template: &deployment_common
   stage: deploy
   image: python:latest
+  # scripts to be run on deployment
+  script:
+    - pip install awscli
+    - aws s3 sync ./public/ s3://$target_bucket_name/ --delete --exclude="*node_modules/*" --include "*"
+    - aws cloudfront create-invalidation --distribution-id $cloudfront_distribution --paths "/*"
+  # use artifacts from build stage
+  dependencies:
+    - build
+
+deploy_development:
   variables:
     TARGET_BUCKET_NAME: 'zds-dev'
     AWS_REGION: 'eu-central-1'
     CLOUDFRONT_DISTRIBUTION: 'ET351YZOMAVPH'
-  script:
-    - pip install awscli
-    - aws s3 sync ./public/ s3://$TARGET_BUCKET_NAME/ --delete --exclude="*node_modules/*" --include "*"
-    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths "/*"
+  <<: *deployment_common
   environment:
     name: development
     url: https://dev-zds.zepdev.net
-  # use artifacts from build stage
-  dependencies:
-    - build
   only:
     - development
 
 deploy_production:
-  stage: deploy
-  script:
-    - echo "Deploy to production server"
+  variables:
+    TARGET_BUCKET_NAME: 'zds-live'
+    AWS_REGION: 'eu-central-1'
+    CLOUDFRONT_DISTRIBUTION: 'E3N62GDZMDUN0M'
+  <<: *deployment_common
   environment:
     name: production
-    url: https://prod-zds.zepdev.net
+    url: https://live-zds.zepdev.net
+  # only trigger deployment into production manually
+  when: manual
   only:
     - master
