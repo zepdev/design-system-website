@@ -6,24 +6,24 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="zds-colors--container"
+        class="Colors-root-0-1-1"
       >
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(39, 22, 111);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -44,35 +44,33 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #27166f
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             purple
           </p>
         </div>
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(50, 56, 72);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -93,35 +91,33 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #323848
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             grey1
           </p>
         </div>
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(93, 99, 115);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -142,35 +138,33 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #5d6373
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             grey2
           </p>
         </div>
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(157, 163, 180);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -191,35 +185,33 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #9da3b4
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             grey3
           </p>
         </div>
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(205, 208, 217);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -240,35 +232,33 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #cdd0d9
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             grey4
           </p>
         </div>
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(230, 231, 235);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -289,35 +279,33 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #e6e7eb
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             grey5
           </p>
         </div>
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(244, 245, 247);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -338,35 +326,33 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #f4f5f7
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             grey6
           </p>
         </div>
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(249, 249, 250);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -387,35 +373,33 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #f9f9fa
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             grey7
           </p>
         </div>
         <div
-          class="zds-swatch--container"
+          class="Swatch-root-0-1-2"
         >
           <button
-            class="zds-button zds-swatch"
+            class="zds-button Swatch-button-0-1-3"
             style="background: rgb(255, 255, 255);"
           >
             <span
-              class="zds-swatch--backdrop"
+              class="Swatch-backdrop-0-1-4"
             />
             <span
-              class="zds-swatch--imageButton"
+              class="Swatch-backdropContent-0-1-5"
             >
               <svg
                 aria-labelledby="title"
-                class="zds-swatch--icon"
+                class="Swatch-icon-0-1-6"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -436,16 +420,14 @@ Object {
                 />
               </svg>
               <span
-                class="zds-swatch--imageTitle"
+                class="Swatch-text-0-1-7"
                 data-testid="swatch-text"
               >
                 #ffffff
               </span>
             </span>
           </button>
-          <p
-            class="zds-swatch--title"
-          >
+          <p>
             white
           </p>
         </div>
@@ -454,24 +436,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="zds-colors--container"
+      class="Colors-root-0-1-1"
     >
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(39, 22, 111);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -492,35 +474,33 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #27166f
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           purple
         </p>
       </div>
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(50, 56, 72);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -541,35 +521,33 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #323848
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           grey1
         </p>
       </div>
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(93, 99, 115);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -590,35 +568,33 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #5d6373
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           grey2
         </p>
       </div>
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(157, 163, 180);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -639,35 +615,33 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #9da3b4
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           grey3
         </p>
       </div>
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(205, 208, 217);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -688,35 +662,33 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #cdd0d9
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           grey4
         </p>
       </div>
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(230, 231, 235);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -737,35 +709,33 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #e6e7eb
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           grey5
         </p>
       </div>
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(244, 245, 247);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -786,35 +756,33 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #f4f5f7
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           grey6
         </p>
       </div>
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(249, 249, 250);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -835,35 +803,33 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #f9f9fa
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           grey7
         </p>
       </div>
       <div
-        class="zds-swatch--container"
+        class="Swatch-root-0-1-2"
       >
         <button
-          class="zds-button zds-swatch"
+          class="zds-button Swatch-button-0-1-3"
           style="background: rgb(255, 255, 255);"
         >
           <span
-            class="zds-swatch--backdrop"
+            class="Swatch-backdrop-0-1-4"
           />
           <span
-            class="zds-swatch--imageButton"
+            class="Swatch-backdropContent-0-1-5"
           >
             <svg
               aria-labelledby="title"
-              class="zds-swatch--icon"
+              class="Swatch-icon-0-1-6"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -884,16 +850,14 @@ Object {
               />
             </svg>
             <span
-              class="zds-swatch--imageTitle"
+              class="Swatch-text-0-1-7"
               data-testid="swatch-text"
             >
               #ffffff
             </span>
           </span>
         </button>
-        <p
-          class="zds-swatch--title"
-        >
+        <p>
           white
         </p>
       </div>

@@ -33,7 +33,12 @@
       }
     }
   },
-  "test": {
-    "title": "Test"
+  "elements": {
+    "title": "Elements",
+    "sub-nav": {
+      "button": {
+        "title": "Button"
+      }
+    }
   }
 }

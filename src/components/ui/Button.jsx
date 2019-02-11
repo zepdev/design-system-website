@@ -1,15 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
+
 class Button extends Component {
   render() {
-    const {
-      onClick,
-      children,
-      className: classNameProp,
-      fullWidth,
-      ...other
-    } = this.props
+    const { onClick, children, className: classNameProp, fullWidth, ...other } = this.props
     const className = classNames(
       'zds-button',
       {

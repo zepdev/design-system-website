@@ -6,27 +6,27 @@ Object {
   "baseElement": <body>
     <div>
       <ul
-        class="zds-sidebar--list"
+        class="SidebarNav-list-0-1-1"
       >
         <li>
           <button
-            class="zds-button zds-button__full zds-button__collapsible"
+            class="zds-button zds-button__full SidebarNavItem-button-0-1-2"
           >
             Getting started
           </button>
         </li>
         <li>
           <button
-            class="zds-button zds-button__full zds-button__collapsible"
+            class="zds-button zds-button__full SidebarNavItem-button-0-1-2"
           >
             Guidelines
           </button>
         </li>
         <li>
           <button
-            class="zds-button zds-button__full"
+            class="zds-button zds-button__full SidebarNavItem-button-0-1-2"
           >
-            Test
+            Elements
           </button>
         </li>
       </ul>
@@ -34,27 +34,27 @@ Object {
   </body>,
   "container": <div>
     <ul
-      class="zds-sidebar--list"
+      class="SidebarNav-list-0-1-1"
     >
       <li>
         <button
-          class="zds-button zds-button__full zds-button__collapsible"
+          class="zds-button zds-button__full SidebarNavItem-button-0-1-2"
         >
           Getting started
         </button>
       </li>
       <li>
         <button
-          class="zds-button zds-button__full zds-button__collapsible"
+          class="zds-button zds-button__full SidebarNavItem-button-0-1-2"
         >
           Guidelines
         </button>
       </li>
       <li>
         <button
-          class="zds-button zds-button__full"
+          class="zds-button zds-button__full SidebarNavItem-button-0-1-2"
         >
-          Test
+          Elements
         </button>
       </li>
     </ul>

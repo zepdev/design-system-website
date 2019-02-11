@@ -1,0 +1,141 @@
+html,
+body {
+  font-size: 16px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #323848;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  flex-grow: 1;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+button {
+  border: 0;
+  background: transparent;
+  outline: 0;
+}
+h1 {
+  font-weight: 300;
+  font-size: 3.375rem;
+  line-height: 1.25;
+}
+h2 {
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+h3 {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.zep-color__purple {
+  color: '#27166f';
+}
+.zep-background-color__purple {
+  background-color: '#27166f';
+}
+.zep-border-color__purple {
+  border-color: '#27166f';
+}
+.zep-color__grey1 {
+  color: '#323848';
+}
+.zep-background-color__grey1 {
+  background-color: '#323848';
+}
+.zep-border-color__grey1 {
+  border-color: '#323848';
+}
+.zep-color__grey2 {
+  color: '#5d6373';
+}
+.zep-background-color__grey2 {
+  background-color: '#5d6373';
+}
+.zep-border-color__grey2 {
+  border-color: '#5d6373';
+}
+.zep-color__grey3 {
+  color: '#9da3b4';
+}
+.zep-background-color__grey3 {
+  background-color: '#9da3b4';
+}
+.zep-border-color__grey3 {
+  border-color: '#9da3b4';
+}
+.zep-color__grey4 {
+  color: '#cdd0d9';
+}
+.zep-background-color__grey4 {
+  background-color: '#cdd0d9';
+}
+.zep-border-color__grey4 {
+  border-color: '#cdd0d9';
+}
+.zep-color__grey5 {
+  color: '#e6e7eb';
+}
+.zep-background-color__grey5 {
+  background-color: '#e6e7eb';
+}
+.zep-border-color__grey5 {
+  border-color: '#e6e7eb';
+}
+.zep-color__grey6 {
+  color: '#f4f5f7';
+}
+.zep-background-color__grey6 {
+  background-color: '#f4f5f7';
+}
+.zep-border-color__grey6 {
+  border-color: '#f4f5f7';
+}
+.zep-color__grey7 {
+  color: '#f9f9fa';
+}
+.zep-background-color__grey7 {
+  background-color: '#f9f9fa';
+}
+.zep-border-color__grey7 {
+  border-color: '#f9f9fa';
+}
+.zep-color__white {
+  color: '#ffffff';
+}
+.zep-background-color__white {
+  background-color: '#ffffff';
+}
+.zep-border-color__white {
+  border-color: '#ffffff';
+}
+/* TODO: remove these temp files */
+.zds-button {
+  font-size: 0.875rem;
+  color: #323848;
+  padding: 0.75rem;
+  text-align: left;
+}
+.zds-button__full {
+  width: 100%;
+  display: block;
+}
