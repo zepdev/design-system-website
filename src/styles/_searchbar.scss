@@ -5,27 +5,28 @@
   align-items: center;
 }
 .zds-searchbar--input {
-  background: #fff;
-  color: #cdd0d9;
+  background: $color-brand9;
+  color: $color-brand5;
   font-size: 0.875rem;
   width: 100%;
   display: none;
+  border: none;
 }
 .zds-searchbar--icon {
   width: 30px;
   height: 30px;
-  color: #fff;
+  color: $color-brand9;
 }
 
 @include breakpoint(m) {
   .zds-searchbar {
     flex-basis: 80%;
-    background: #fff;
+    background: $color-brand9;
     padding: 0.75rem 1.5rem;
   }
   .zds-searchbar--input {
-    background: #fff;
-    color: #cdd0d9;
+    background: $color-brand9;
+    color: $color-brand5;
     font-size: 0.875rem;
     width: 100%;
     display: block;
@@ -33,6 +34,6 @@
   .zds-searchbar--icon {
     width: 24px;
     height: 24px;
-    color: #9da3b4;
+    color: $color-brand4;
   }
 }
