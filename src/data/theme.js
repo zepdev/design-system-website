@@ -10,6 +10,12 @@ module.exports = {
   typography: {
     fontFamily: "'Roboto', Arial, Helvetica, sans-serif",
     fontBase: '16px',
+    headings: {
+      1: 'zep-typo--display-1',
+      2: 'zep-typo--display-2',
+      3: 'zep-typo--display-3',
+      4: 'zep-typo--display-4',
+    },
   },
   colors: {
     purple: '#27166f',
