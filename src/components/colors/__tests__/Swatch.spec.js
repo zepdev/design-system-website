@@ -1,13 +1,19 @@
 import React from 'react'
 import { render, fireEvent } from 'react-testing-library'
 import Swatch from '../Swatch'
+import { ThemeProvider } from 'react-jss'
+import theme from '../../../data/theme'
 
 jest.useFakeTimers()
 
 describe('Swatch', () => {
   it('renders correctly', () => {
     const mockProps = { title: 'title', color: '#fff' }
-    const component = render(<Swatch {...mockProps} />)
+    const component = render(
+      <ThemeProvider theme={theme}>
+        <Swatch {...mockProps} />
+      </ThemeProvider>
+    )
     expect(component).toMatchSnapshot()
   })
 
@@ -29,7 +35,11 @@ describe('Swatch', () => {
       title: 'title',
       color: '#fff',
     }
-    const { getByTestId, getByText } = render(<Swatch {...mockProps} />)
+    const { getByTestId, getByText } = render(
+      <ThemeProvider theme={theme}>
+        <Swatch {...mockProps} />
+      </ThemeProvider>
+    )
     const button = getByText(mockProps.color)
     fireEvent.click(button)
     expect(getByTestId('swatch-text')).toHaveTextContent(/copied!/i)
@@ -55,7 +65,11 @@ describe('Swatch', () => {
       title: 'title',
       color: '#fff',
     }
-    const { getByTestId, getByText } = render(<Swatch {...mockProps} />)
+    const { getByTestId, getByText } = render(
+      <ThemeProvider theme={theme}>
+        <Swatch {...mockProps} />
+      </ThemeProvider>
+    )
     const button = getByText(mockProps.color)
     fireEvent.click(button)
     expect(getByTestId('swatch-text')).toHaveTextContent(/error!/i)
