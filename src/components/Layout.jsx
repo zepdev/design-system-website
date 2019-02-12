@@ -17,6 +17,7 @@ const styles = theme => ({
     minHeight: '100vh',
   },
   main: {
+    flexGrow: 1,
     padding: theme.spacing.xxs,
     margin: `${ theme.header.xxs } 0 1.5rem`,
   },
@@ -52,7 +53,7 @@ const styles = theme => ({
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     main: {
       padding: theme.spacing.xl,
-      margin: `${ theme.header.xl } 0 3rem`,
+      margin: `136px 0 3rem`,
     },
     content: {
       marginLeft: theme.sidebar.xl,
@@ -95,9 +96,7 @@ class Layout extends Component {
               <Sidebar isMenuOpen={isMenuOpen} />
               <div className={classes.content}>
                 <Header siteTitle={data.mdx.frontmatter.title} handleMenu={this.handleMenu} />
-                <main>
-                  <div className={classes.main}>{children}</div>
-                </main>
+                <main className={classes.main}>{children}</main>
                 <Footer />
               </div>
             </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import withStyles from 'react-jss'
-import Button from '../ui/Button'
+import Button from '../button/Button'
 
 const styles = {
   button: {
@@ -50,7 +50,7 @@ class SidebarNavItem extends Component {
                   ].title
                     .toLowerCase()
                     .replace(/ /g, '-') }`}
-                  className="zds-button zds-button__full"
+                  className="zep-button zep-button__full"
                 >
                   {item['sub-nav'][elem].title}
                 </Link>

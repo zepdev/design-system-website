@@ -6,10 +6,10 @@ class Button extends Component {
   render() {
     const { onClick, children, className: classNameProp, fullWidth, ...other } = this.props
     const className = classNames(
-      'zds-button',
+      'zep-button',
       {
         // eslint-disable-next-line
-        ['zds-button__full']: fullWidth,
+        ['zep-button__full']: fullWidth,
       },
       classNameProp
     )

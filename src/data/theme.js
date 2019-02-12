@@ -42,11 +42,11 @@ module.exports = {
   },
   header: {
     xxs: '46px',
-    xs: '68px;',
+    xs: '68px',
     s: '84px',
     m: '104px',
     l: '104px',
-    xl: '136px;',
+    xl: '136px',
     xxl: '136px',
   },
 }
