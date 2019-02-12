@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
+import classnames from 'classnames'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
 import Searchbar from './searchbar/Searchbar'
@@ -78,7 +79,7 @@ const Header = ({ handleMenu, classes }) => (
   <header>
     <div className={classes.root}>
       <div className={classes.container}>
-        <button onClick={handleMenu} className={classes.button}>
+        <button onClick={handleMenu} className={classnames(classes.button, 'zep-button')}>
           <MenuIcon />
         </button>
         <ZeppelinIcon className={classes.icon} />

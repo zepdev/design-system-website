@@ -109,21 +109,21 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             <li>
               <button
-                class="zds-button zds-button__full SidebarNavItem-button-0-1-9"
+                class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
               >
                 Getting started
               </button>
             </li>
             <li>
               <button
-                class="zds-button zds-button__full SidebarNavItem-button-0-1-9"
+                class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
               >
                 Guidelines
               </button>
             </li>
             <li>
               <button
-                class="zds-button zds-button__full SidebarNavItem-button-0-1-9"
+                class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
               >
                 Elements
               </button>
@@ -238,21 +238,21 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         >
           <li>
             <button
-              class="zds-button zds-button__full SidebarNavItem-button-0-1-9"
+              class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
             >
               Getting started
             </button>
           </li>
           <li>
             <button
-              class="zds-button zds-button__full SidebarNavItem-button-0-1-9"
+              class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
             >
               Guidelines
             </button>
           </li>
           <li>
             <button
-              class="zds-button zds-button__full SidebarNavItem-button-0-1-9"
+              class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
             >
               Elements
             </button>

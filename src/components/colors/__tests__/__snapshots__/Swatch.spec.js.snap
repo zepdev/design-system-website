@@ -9,7 +9,7 @@ Object {
         class="Swatch-root-0-1-1"
       >
         <button
-          class="zds-button Swatch-button-0-1-2"
+          class="zep-button Swatch-button-0-1-2"
           style="background: rgb(255, 255, 255);"
         >
           <span
@@ -59,7 +59,7 @@ Object {
       class="Swatch-root-0-1-1"
     >
       <button
-        class="zds-button Swatch-button-0-1-2"
+        class="zep-button Swatch-button-0-1-2"
         style="background: rgb(255, 255, 255);"
       >
         <span
