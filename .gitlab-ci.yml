@@ -45,24 +45,24 @@ build:
     paths:
       - public/
 
-.deploy_template: &deployment_common
+.deploy_template:
   stage: deploy
   image: python:latest
   # scripts to be run on deployment
   script:
     - pip install awscli
-    - aws s3 sync ./public/ s3://$target_bucket_name/ --delete --exclude="*node_modules/*" --include "*"
-    - aws cloudfront create-invalidation --distribution-id $cloudfront_distribution --paths "/*"
+    - aws s3 sync ./public/ s3://$TARGET_BUCKET_NAME/ --delete --exclude="*node_modules/*" --include "*"
+    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths "/*"
   # use artifacts from build stage
   dependencies:
     - build
 
 deploy_development:
+  extends: .deploy_template
   variables:
     TARGET_BUCKET_NAME: 'zds-dev'
     AWS_REGION: 'eu-central-1'
     CLOUDFRONT_DISTRIBUTION: 'ET351YZOMAVPH'
-  <<: *deployment_common
   environment:
     name: development
     url: https://dev-zds.zepdev.net
@@ -70,11 +70,11 @@ deploy_development:
     - development
 
 deploy_production:
+  extends: .deploy_template
   variables:
     TARGET_BUCKET_NAME: 'zds-live'
     AWS_REGION: 'eu-central-1'
     CLOUDFRONT_DISTRIBUTION: 'E3N62GDZMDUN0M'
-  <<: *deployment_common
   environment:
     name: production
     url: https://live-zds.zepdev.net
