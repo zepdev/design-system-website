@@ -53,7 +53,7 @@ const styles = theme => ({
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     main: {
       padding: theme.spacing.xl,
-      margin: `${ theme.header.xl } 0 3rem`,
+      margin: `136px 0 3rem`,
     },
     content: {
       marginLeft: theme.sidebar.xl,
@@ -96,9 +96,7 @@ class Layout extends Component {
               <Sidebar isMenuOpen={isMenuOpen} />
               <div className={classes.content}>
                 <Header siteTitle={data.mdx.frontmatter.title} handleMenu={this.handleMenu} />
-                <main className={classes.main}>
-                  {children}
-                </main>
+                <main className={classes.main}>{children}</main>
                 <Footer />
               </div>
             </div>

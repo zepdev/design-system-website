@@ -17,6 +17,8 @@ const styles = theme => ({
     },
   },
   label: {
+    textAlign: 'center',
+    textTransform: 'uppercase',
     color: theme.colors.grey3,
     '&$selected': {
       color: theme.colors.grey1,
@@ -31,10 +33,12 @@ class Tab extends Component {
 
     return (
       <button
-        classNames={classnames(classes.root, classNameProp, { [classes.selected]: selected })}
+        className={classnames(classes.root, classNameProp, 'zep-button', {
+          [classes.selected]: selected,
+        })}
         onClick={() => onClick(value)}
       >
-        <p classNames={classes.label}>{label}</p>
+        <p className={classnames(classes.label, { [classes.selected]: selected })}>{label}</p>
       </button>
     )
   }

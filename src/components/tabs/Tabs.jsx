@@ -31,7 +31,7 @@ class Tabs extends Component {
         value: childValue,
       })
     })
-    return <div classNames={classnames(classes.root, classNameProp)}>{children}</div>
+    return <div className={classnames(classes.root, classNameProp)}>{children}</div>
   }
 }
 
