@@ -1,27 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SidebarNavItem renders correctly 1`] = `
+exports[`Tabs renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <li>
-        <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-1"
-        >
-          sectionTitle
-        </button>
-      </li>
+      <div
+        classnames="Tabs-root-0-1-1"
+      />
     </div>
   </body>,
   "container": <div>
-    <li>
-      <button
-        class="zep-button zep-button__full SidebarNavItem-button-0-1-1"
-      >
-        sectionTitle
-      </button>
-    </li>
+    <div
+      classnames="Tabs-root-0-1-1"
+    />
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],

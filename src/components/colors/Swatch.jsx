@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import Button from '../ui/Button'
+import Button from '../button/Button'
 import CopyIcon from '../icons/CopyIcon'
 
 const styles = theme => ({

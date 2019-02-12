@@ -17,6 +17,7 @@ const styles = theme => ({
     minHeight: '100vh',
   },
   main: {
+    flexGrow: 1,
     padding: theme.spacing.xxs,
     margin: `${ theme.header.xxs } 0 1.5rem`,
   },
@@ -95,8 +96,8 @@ class Layout extends Component {
               <Sidebar isMenuOpen={isMenuOpen} />
               <div className={classes.content}>
                 <Header siteTitle={data.mdx.frontmatter.title} handleMenu={this.handleMenu} />
-                <main>
-                  <div className={classes.main}>{children}</div>
+                <main className={classes.main}>
+                  {children}
                 </main>
                 <Footer />
               </div>

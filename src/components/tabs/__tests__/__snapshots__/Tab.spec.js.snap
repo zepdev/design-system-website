@@ -1,22 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button renders correctly 1`] = `
+exports[`Tab renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <button
-        class="zds-button"
+        classnames="Tab-root-0-1-1"
       >
-        buttonText
+        <p
+          classnames="Tab-label-0-1-2"
+        />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="zds-button"
+      classnames="Tab-root-0-1-1"
     >
-      buttonText
+      <p
+        classnames="Tab-label-0-1-2"
+      />
     </button>
   </div>,
   "debug": [Function],

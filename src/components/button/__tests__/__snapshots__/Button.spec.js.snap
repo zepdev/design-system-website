@@ -1,27 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SidebarNavItem renders correctly 1`] = `
+exports[`Button renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <li>
-        <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-1"
-        >
-          sectionTitle
-        </button>
-      </li>
+      <button
+        class="zep-button"
+      >
+        buttonText
+      </button>
     </div>
   </body>,
   "container": <div>
-    <li>
-      <button
-        class="zep-button zep-button__full SidebarNavItem-button-0-1-1"
-      >
-        sectionTitle
-      </button>
-    </li>
+    <button
+      class="zep-button"
+    >
+      buttonText
+    </button>
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],
