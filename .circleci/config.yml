@@ -12,7 +12,9 @@ jobs:
     executor: node_10
     steps:
       - checkout # check out the code in the project directory
-      - run: echo "test has run" # run the `echo` command
+      - run:
+          name: Yarn install
+          command: yarn install
   build:
     executor: node_10
     steps:
