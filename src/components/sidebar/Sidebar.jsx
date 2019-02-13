@@ -21,8 +21,8 @@ const styles = theme => ({
     MsTransform: 'translateX(-100%)',
   },
   containerLink: {
-    background: theme.colors.purple,
-    color: theme.colors.white,
+    background: theme.colors.indigoBlue.hex,
+    color: theme.colors.white.hex,
     width: '100%',
     visibility: 'hidden',
     pointerEvents: 'none',
@@ -30,9 +30,9 @@ const styles = theme => ({
   containerSidebarNav: {
     height: `calc(100vh - ${ theme.header.xxs })`,
     padding: '1.5rem 1.5rem',
-    borderRight: `1px solid ${ theme.colors.grey6 }`,
+    borderRight: `1px solid ${ theme.colors.grayMid.hex }`,
     overflow: 'auto',
-    backgroundColor: theme.colors.white,
+    backgroundColor: theme.colors.white.hex,
   },
   containerHeader: {
     height: theme.header.xxs,
@@ -49,7 +49,7 @@ const styles = theme => ({
     height: 'auto',
   },
   logo: {
-    color: theme.colors.white,
+    color: theme.colors.white.hex,
   },
   [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     root: {

@@ -10,8 +10,8 @@ const styles = theme => ({
   root: {
     position: 'fixed',
     width: '100%',
-    background: theme.colors.purple,
-    color: theme.colors.white,
+    background: theme.colors.indigoBlue.hex,
+    color: theme.colors.white.hex,
     zIndex: 1000,
   },
   container: {
@@ -22,10 +22,10 @@ const styles = theme => ({
     height: theme.header.xxs,
   },
   button: {
-    color: theme.colors.white,
+    color: theme.colors.white.hex,
   },
   icon: {
-    color: theme.colors.white,
+    color: theme.colors.white.hex,
     height: '100%',
     width: '125%',
   },
@@ -47,7 +47,7 @@ const styles = theme => ({
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
       width: `calc(100% - ${ theme.sidebar.m })`,
-      background: theme.colors.grey6,
+      background: theme.colors.grayMid.hex,
     },
     container: {
       height: theme.header.m,

@@ -6,21 +6,25 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        classnames="Tab-root-0-1-1"
+        class="Tab-root-0-1-1 zep-button"
       >
         <p
-          classnames="Tab-label-0-1-2"
-        />
+          class="Tab-label-0-1-2"
+        >
+          mockTabLabel
+        </p>
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      classnames="Tab-root-0-1-1"
+      class="Tab-root-0-1-1 zep-button"
     >
       <p
-        classnames="Tab-label-0-1-2"
-      />
+        class="Tab-label-0-1-2"
+      >
+        mockTabLabel
+      </p>
     </button>
   </div>,
   "debug": [Function],

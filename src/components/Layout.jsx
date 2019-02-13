@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import withStyles from 'react-jss'
@@ -61,50 +61,43 @@ const styles = theme => ({
   },
 })
 
-class Layout extends Component {
-  state = {
-    isMenuOpen: false,
-  }
+function Layout({ children, classes }) {
+  const [isMenuOpen, setMenu] = useState(false)
 
-  handleMenu = () => {
-    this.setState({
-      isMenuOpen: !this.state.isMenuOpen,
-    })
-  }
-
-  render() {
-    const { children, classes } = this.props
-    const { isMenuOpen } = this.state
-    return (
-      <StaticQuery
-        query={graphql`
-          query($id: String) {
-            mdx(id: { eq: $id }) {
-              id
-              frontmatter {
-                title
-              }
-              code {
-                body
-              }
+  return (
+    <StaticQuery
+      query={graphql`
+        query($id: String) {
+          mdx(id: { eq: $id }) {
+            id
+            frontmatter {
+              title
+            }
+            code {
+              body
             }
           }
-        `}
-        render={data => {
-          return (
-            <div className={classes.root}>
-              <Sidebar isMenuOpen={isMenuOpen} />
-              <div className={classes.content}>
-                <Header siteTitle={data.mdx.frontmatter.title} handleMenu={this.handleMenu} />
-                <main className={classes.main}>{children}</main>
-                <Footer />
-              </div>
+        }
+      `}
+      render={data => {
+        return (
+          <div className={classes.root}>
+            <Sidebar isMenuOpen={isMenuOpen} />
+            <div className={classes.content}>
+              <Header
+                siteTitle={data.mdx.frontmatter.title}
+                handleMenu={() => {
+                  setMenu(!isMenuOpen)
+                }}
+              />
+              <main className={classes.main}>{children}</main>
+              <Footer />
             </div>
-          )
-        }}
-      />
-    )
-  }
+          </div>
+        )
+      }}
+    />
+  )
 }
 
 Layout.propTypes = {

@@ -358,6 +358,7 @@ a {
 .zep-button {
   border: 0;
   background: transparent;
+  color: #373d3f; /*TODO ADD TO CSS*/
   outline: 0;
   text-align: left;
   font-family: Roboto;
@@ -367,4 +368,8 @@ a {
 .zep-button__full {
   display: block;
   width: 100%;
+}
+/* TODO ADD TO CSS */
+.zep-button__disabled {
+  cursor: default;
 }

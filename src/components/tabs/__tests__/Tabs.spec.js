@@ -7,7 +7,7 @@ import theme from '../../../data/theme'
 describe('Tabs', () => {
   it('renders correctly', () => {
     const mockProps = {
-      isMenuOpen: true,
+      children: [],
     }
     const component = render(
       <ThemeProvider theme={theme}>

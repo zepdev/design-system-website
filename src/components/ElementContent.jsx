@@ -1,46 +1,24 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import React, { useState, Fragment } from 'react'
 import Tabs from './tabs/Tabs'
 import Tab from './tabs/Tab'
 
-const styles = theme => ({
-  root: {
-    position: 'fixed',
-    width: '100%',
-    background: theme.colors.purple,
-    color: theme.colors.white,
-    zIndex: 1000,
-  },
-})
+function ElementContent() {
+  const [value, setValue] = useState(0)
 
-class ElementContent extends Component {
-  state = {
-    value: 0,
+  function handleClick(event, newValue) {
+    setValue(newValue)
   }
 
-  handleClick = value => {
-    this.setState({
-      value,
-    })
-  }
-
-  render() {
-    // const { element, classes } = this.props
-    const { value } = this.state
-
-    return (
-      <Tabs value={value} onClick={this.handleClick}>
+  return (
+    <Fragment>
+      <Tabs value={value} onClick={handleClick}>
         <Tab label="code" />
         <Tab label="styles" />
       </Tabs>
-    )
-  }
+      {value === 0 && <p>code section</p>}
+      {value === 1 && <p>style section</p>}
+    </Fragment>
+  )
 }
 
-ElementContent.propTypes = {
-  classes: PropTypes.object.isRequired,
-  element: PropTypes.string.isRequired,
-}
-
-export default withStyles(styles)(ElementContent)
+export default ElementContent

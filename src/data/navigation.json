@@ -1,7 +1,7 @@
 {
   "getting-started": {
     "title": "Getting started",
-    "sub-nav": {
+    "subnav": {
       "about-carbon": {
         "title": "About"
       },
@@ -15,7 +15,7 @@
   },
   "guidelines": {
     "title": "Guidelines",
-    "sub-nav": {
+    "subnav": {
       "color": {
         "title": "Color"
       },
@@ -35,7 +35,7 @@
   },
   "elements": {
     "title": "Elements",
-    "sub-nav": {
+    "subnav": {
       "button": {
         "title": "Button"
       }
