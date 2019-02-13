@@ -3,27 +3,35 @@ orbs:
   node: circleci/node@0.0.7
   aws-cli: circleci/aws-cli@0.1.2
   aws-s3: circleci/aws-s3@1.0.0
+executors:
+  node_10:
+    docker:
+      - image: circleci/node:10.15
 jobs:
   test:
-    executor: node/node:10 # use the orb executor
+    executor: node_10
     steps:
       - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the `echo` command
+      - run: echo "test has run" # run the `echo` command
   build:
-    executor: node/node:10 # use the orb executor
+    executor: node_10
     steps:
       - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the `echo` command
+      - run: echo "build is running" # run the `echo` command
   deploy:
-    executor: node/node:10 # use the orb executor
+    executor: node_10
     steps:
       - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the `echo` command
+      - run: echo "deploying!!!" # run the `echo` command
 
 workflows:
   version: 2
   test_build_deploy:
     jobs:
       - test
-      - build
-      - deploy
+      - build:
+          requires:
+            - test
+      - deploy:
+          requires:
+            - build
