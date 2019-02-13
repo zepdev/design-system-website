@@ -1,0 +1,89 @@
+version: 2.1
+orbs:
+  node: circleci/node@0.0.7
+  aws-cli: circleci/aws-cli@0.1.2
+  aws-s3: circleci/aws-s3@1.0.0
+executors:
+  node_10:
+    docker:
+      - image: circleci/node:10.15
+jobs:
+  test:
+    executor: node_10
+    steps:
+      - checkout # check out the code in the project directory
+      - attach_workspace:
+          at: ~/project
+      - node/with-cache:
+          steps:
+            - run:
+                name: Yarn install
+                command: yarn install
+            - run:
+                name: Prettier
+                command: yarn format
+            - run:
+                name: Run all tests
+                command: yarn test
+      - persist_to_workspace:
+          root: .
+          paths: coverage
+  sonarqube:
+    executor: node_10
+    steps:
+      - checkout # check out the code in the project directory
+      - attach_workspace:
+          at: ~/project
+      - node/with-cache:
+          steps:
+            - run:
+                name: Generate eslint report
+                command: yarn eslint-sonarqube
+            - run:
+                name: Run sonar scanner
+                command: yarn sonar-scanner -Dsonar.login=$SONAR_LOGIN
+  build:
+    executor: node_10
+    steps:
+      - checkout # check out the code in the project directory
+      - attach_workspace:
+          at: ~/project
+      - node/with-cache:
+          steps:
+            - run:
+                name: Build public dir
+                command: yarn build
+      - persist_to_workspace:
+          root: .
+          paths: public
+  deploy:
+    executor: node_10
+    steps:
+      - checkout # check out the code in the project directory
+      - attach_workspace:
+          at: ~/project
+      - run: echo "deploying!!!" # run the `echo` command
+      - run: ls -al
+      - run: cat coverage/lcov.info # test workspace
+
+workflows:
+  version: 2
+  test_build_deploy:
+    jobs:
+      - test
+      - sonarqube:
+          context: zds
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - development
+                - master
+      - build:
+          requires:
+            - test
+      - deploy:
+          context: zds
+          requires:
+            - build
