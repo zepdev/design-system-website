@@ -15,11 +15,22 @@ jobs:
       - run:
           name: Yarn install
           command: yarn install
+      - run:
+          name: Prettier
+          command: yarn format
+      - run:
+          name: Run all tests
+          command: yarn test
   build:
     executor: node_10
     steps:
       - checkout # check out the code in the project directory
-      - run: echo "build is running" # run the `echo` command
+      - run:
+          name: Yarn install
+          command: yarn install
+      - run:
+          name: Build public dir
+          command: yarn build
   deploy:
     executor: node_10
     steps:
