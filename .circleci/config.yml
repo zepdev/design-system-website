@@ -1,8 +1,29 @@
-version: 2
+version: 2.1
+orbs:
+  node: circleci/node@0.0.7
+  aws-cli: circleci/aws-cli@0.1.2
+  aws-s3: circleci/aws-s3@1.0.0
 jobs:
-  build:
-    docker: # use the docker executor type; machine and macos executors are also supported
-      - image: circleci/node:10 # the primary container, where your job's commands are run
+  test:
+    executor: node/node:10 # use the orb executor
     steps:
       - checkout # check out the code in the project directory
       - run: echo "hello world" # run the `echo` command
+  build:
+    executor: node/node:10 # use the orb executor
+    steps:
+      - checkout # check out the code in the project directory
+      - run: echo "hello world" # run the `echo` command
+  deploy:
+    executor: node/node:10 # use the orb executor
+    steps:
+      - checkout # check out the code in the project directory
+      - run: echo "hello world" # run the `echo` command
+
+workflows:
+  version: 2
+  test_build_deploy:
+    jobs:
+      - test
+      - build
+      - deploy
