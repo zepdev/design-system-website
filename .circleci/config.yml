@@ -7,14 +7,13 @@ executors:
   node_10:
     docker:
       - image: circleci/node:10.15
-    working_directory: ~/tmp
 jobs:
   test:
     executor: node_10
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
-          at: ~/tmp
+          at: ~/project
       - node/with-cache:
           steps:
             - run:
@@ -34,7 +33,7 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
-          at: ~/tmp
+          at: ~/project
       - node/with-cache:
           steps:
             - run:
@@ -48,7 +47,7 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
-          at: ~/tmp
+          at: ~/project
       - node/with-cache:
           steps:
             - run:
@@ -62,9 +61,10 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
-          at: ~/tmp
+          at: ~/project
+      - run: echo "deploying!!!" # run the `echo` command
       - run: ls -al
-      - run: cat ~/tmp/coverage/lcov.info # test workspace
+      - run: cat coverage/lcov.info # test workspace
 
 workflows:
   version: 2
