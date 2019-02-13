@@ -12,25 +12,38 @@ jobs:
     executor: node_10
     steps:
       - checkout # check out the code in the project directory
-      - run:
-          name: Yarn install
-          command: yarn install
-      - run:
-          name: Prettier
-          command: yarn format
-      - run:
-          name: Run all tests
-          command: yarn test
+      - node/with-cache:
+          steps:
+            - run:
+                name: Yarn install
+                command: yarn install
+            - run:
+                name: Prettier
+                command: yarn format
+            - run:
+                name: Run all tests
+                command: yarn test
   build:
     executor: node_10
     steps:
       - checkout # check out the code in the project directory
-      - run:
-          name: Yarn install
-          command: yarn install
-      - run:
-          name: Build public dir
-          command: yarn build
+      - node/with-cache:
+          steps:
+            - run:
+                name: Build public dir
+                command: yarn build
+  sonarqube:
+    executor: node_10
+    steps:
+      - checkout # check out the code in the project directory
+      - node/with-cache:
+          steps:
+            - run:
+                name: Generate eslint report
+                command: yarn eslint-sonarqube
+            - run:
+                name: Run sonar scanner
+                command: yarn sonar-scanner -Dsonar.login=$SONAR_LOGIN
   deploy:
     executor: node_10
     steps:
@@ -42,9 +55,19 @@ workflows:
   test_build_deploy:
     jobs:
       - test
+      - sonarqube:
+          context: zds
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - development
+                - master
       - build:
           requires:
             - test
       - deploy:
+          context: zds
           requires:
             - build
