@@ -7,21 +7,21 @@ const styles = theme => ({
   root: {
     flexBasis: '20%',
     '&:hover': {
-      borderBottom: `2px solid ${ theme.colors.purple }`,
+      borderBottom: `2px solid ${ theme.colors.indigoBlue.hex }`,
       '& $label': {
-        color: theme.colors.grey1,
+        color: theme.colors.grayDark.hex,
       },
     },
     '&$selected': {
-      borderBottom: `2px solid ${ theme.colors.purple }`,
+      borderBottom: `2px solid ${ theme.colors.indigoBlue.hex }`,
     },
   },
   label: {
     textAlign: 'center',
     textTransform: 'uppercase',
-    color: theme.colors.grey3,
+    color: theme.colors.gray.hex,
     '&$selected': {
-      color: theme.colors.grey1,
+      color: theme.colors.grayDark.hex,
     },
   },
   selected: {},
@@ -36,7 +36,7 @@ class Tab extends Component {
         className={classnames(classes.root, classNameProp, 'zep-button', {
           [classes.selected]: selected,
         })}
-        onClick={() => onClick(value)}
+        onClick={e => onClick(e, value)}
       >
         <p className={classnames(classes.label, { [classes.selected]: selected })}>{label}</p>
       </button>
@@ -46,7 +46,6 @@ class Tab extends Component {
 
 Tab.propTypes = {
   classes: PropTypes.object.isRequired,
-  children: PropTypes.object.isRequired,
   label: PropTypes.string.isRequired,
   onClick: PropTypes.func,
   value: PropTypes.number,

@@ -7,7 +7,7 @@ const styles = theme => ({
   root: {
     display: 'flex',
     width: '100%',
-    background: theme.colors.grey7,
+    background: theme.colors.grayLightest.hex,
   },
 })
 
@@ -37,7 +37,7 @@ class Tabs extends Component {
 
 Tabs.propTypes = {
   classes: PropTypes.object.isRequired,
-  children: PropTypes.object.isRequired,
+  children: PropTypes.array.isRequired,
   onClick: PropTypes.func,
   value: PropTypes.number,
 }

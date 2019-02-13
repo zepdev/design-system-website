@@ -33,8 +33,8 @@ module.exports = {
         name: `zeppelin-design-system`,
         short_name: `z-lab`,
         start_url: `/`,
-        background_color: theme.colors.white,
-        theme_color: theme.colors.purple,
+        background_color: theme.colors.white.hex,
+        theme_color: theme.colors.indigoBlue.hex,
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },

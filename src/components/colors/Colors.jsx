@@ -16,7 +16,7 @@ function Colors({ classes }) {
   return (
     <div className={classes.root}>
       {Object.keys(colors).map((elem, idx) => (
-        <Swatch title={elem} color={colors[elem]} key={`swatch${ idx }`} />
+        <Swatch color={colors[elem]} key={`swatch${ idx }`} />
       ))}
     </div>
   )
