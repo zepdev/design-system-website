@@ -26,7 +26,12 @@ module.exports = {
       resolve: 'gatsby-plugin-jss',
       options: { theme },
     },
-    'gatsby-mdx',
+    {
+      resolve: 'gatsby-mdx',
+      options: {
+        extensions: ['.mdx', '.md'],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
