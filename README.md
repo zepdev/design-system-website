@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-    <img alt="Zeppelin" src="./src/assets/images/zep-logo-new.svg" width="200" />
+    <img alt="Zeppelin" src="./src/assets/images/zep-logo-new.svg" width="200" style="color: #27166f;"/>
 </p>
 <h1 align="center">
   Zeppelin Design System
@@ -80,39 +80,39 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 8.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-Package.json files
+##Package.json files
 
-### Markdown
+#### Markdown
 
 gatsby-mdx (https://gatsby-mdx.netlify.com/)
 @mdx-js/tag
 @mdx-js/mdx
 
-### Styles
+#### Styles
 
 classnames
 react-jss
 gatsby-plugin-jss
 
-### SEO / PWA
+#### SEO / PWA
 
 react-helmet
 gatsby-plugin-offline
 gatsby-plugin-manifest
 
-### images
+#### images
 
 gatsby-image
 gatsby-plugin-sharp
 gatsby-remark-images
 
-### e2e tests with Cypress
+#### e2e tests with Cypress
 
 cypress
 eslint-plugin-cypress
 start-server-and-test (starts cypress)
 
-### units test with react-testing-library and jest
+#### units test with react-testing-library and jest
 
 react-testing-library
 jest
