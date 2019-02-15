@@ -73,6 +73,8 @@ jobs:
         default: ""
         type: string
     executor: aws-cli/default
+    environment:
+      AWS_REGION: << parameters.aws_region >>
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
