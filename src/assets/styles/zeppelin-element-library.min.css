@@ -364,6 +364,7 @@ a {
   font-family: Roboto;
   font-size: 0.875rem;
   padding: 0.75rem;
+  cursor: pointer; /*TODO ADD TO CSS*/
 }
 .zep-button__full {
   display: block;
@@ -372,4 +373,26 @@ a {
 /* TODO ADD TO CSS */
 .zep-button__disabled {
   cursor: default;
+}
+.zep-button__filled {
+  border: 0;
+  background: #27166f;
+  color: #ffffff; /*TODO ADD TO CSS*/
+  outline: 0;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+  cursor: pointer; /*TODO ADD TO CSS*/
+}
+.zep-button__outlined {
+  border: 0;
+  background: transparent;
+  color: #27166f; /*TODO ADD TO CSS*/
+  outline: 1px solid #27166f;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+  cursor: pointer; /*TODO ADD TO CSS*/
 }
