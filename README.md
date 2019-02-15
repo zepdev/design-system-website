@@ -8,6 +8,7 @@
 
 [![CircleCI](https://circleci.com/gh/zepdev/design-system-website.svg?style=svg&circle-token=d4f1730edfe9173ba0e0fde81dc6a97c3ba467a9)](https://circleci.com/gh/zepdev/design-system-website)
 
+![](https://img.shields.io/node/v/10.svg?logoColor=pink&style=flat)
 
 This repository contains the website for Zeppelin's Design System.
 
