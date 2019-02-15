@@ -4,12 +4,20 @@ import classNames from 'classnames'
 
 class Button extends Component {
   render() {
-    const { onClick, children, className: classNameProp, fullWidth, ...other } = this.props
+    const {
+      onClick,
+      children,
+      className: classNameProp,
+      fullWidth,
+      disabled,
+      ...other
+    } = this.props
     const className = classNames(
-      'zds-button',
+      'zep-button',
       {
         // eslint-disable-next-line
-        ['zds-button__full']: fullWidth,
+        ['zep-button__full']: fullWidth,
+        'zep-button__disabled': disabled,
       },
       classNameProp
     )
@@ -25,10 +33,12 @@ Button.propTypes = {
   fullWidth: PropTypes.bool,
   onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
+  disabled: PropTypes.bool,
 }
 
 Button.defaultProps = {
   fullWidth: false,
+  disabled: false,
 }
 
 export default Button

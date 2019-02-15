@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import Button from '../ui/Button'
+import Button from '../button/Button'
 import CopyIcon from '../icons/CopyIcon'
 
 const styles = theme => ({
@@ -9,6 +9,8 @@ const styles = theme => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    flexBasis: '20%',
+    marginBottom: '2rem',
   },
   button: {
     height: '8rem',
@@ -16,6 +18,7 @@ const styles = theme => ({
     marginBottom: '0.9375rem',
     position: 'relative',
     cursor: 'pointer',
+    border: `1px solid ${ theme.colors.grayMid.hex }`,
     '&:hover, &$focusVisible': {
       zIndex: 1,
       '& $backdrop': {
@@ -32,7 +35,7 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.colors.grey1,
+    backgroundColor: theme.colors.grayDark.hex,
     opacity: 0,
     transition: 0.5,
   },
@@ -46,27 +49,28 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     opacity: 0,
-    color: theme.colors.white,
+    color: theme.colors.white.hex,
   },
   icon: {
     position: 'relative,',
-    color: theme.colors.white,
+    color: theme.colors.white.hex,
     display: 'block',
   },
-  text: {
+  buttonText: {
     position: 'relative,',
     paddingLeft: 5,
     display: 'block',
   },
+  text: {
+    margin: 0,
+  },
 })
 
-class Swatch extends Component {
-  state = {
-    isTextCopied: false,
-    copyError: false,
-  }
+function Swatch({ color, classes }) {
+  const [isTextCopied, setTextCopied] = useState(false)
+  const [copyError, setCopyError] = useState(false)
 
-  handleCopy = color => {
+  const handleCopy = color => {
     if (document.queryCommandSupported('copy')) {
       let dummy = document.createElement('textarea')
       document.body.appendChild(dummy)
@@ -74,46 +78,44 @@ class Swatch extends Component {
       dummy.select()
       document.execCommand('copy')
       document.body.removeChild(dummy)
-      this.setState({ isTextCopied: true })
+      setTextCopied(true)
       setTimeout(() => {
-        this.setState({ isTextCopied: false })
+        setTextCopied(false)
       }, 2000)
     } else {
-      this.setState({ copyError: true })
+      setCopyError(true)
       setTimeout(() => {
-        this.setState({ copyError: false })
+        setCopyError(false)
       }, 2000)
     }
   }
 
-  render() {
-    const { title, color, classes } = this.props
-    const { isTextCopied, copyError } = this.state
-    return (
-      <div className={classes.root}>
-        <Button
-          className={classes.button}
-          style={{ background: color }}
-          onClick={() => this.handleCopy(color)}
-        >
-          <span className={classes.backdrop} />
-          <span className={classes.backdropContent}>
-            {!isTextCopied && <CopyIcon className={classes.icon} />}
-            <span className={classes.text} data-testid="swatch-text">
-              {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color}
-            </span>
+  return (
+    <div className={classes.root}>
+      <Button
+        className={classes.button}
+        style={{ background: color.hex }}
+        onClick={() => handleCopy(color.hex)}
+      >
+        <span className={classes.backdrop} />
+        <span className={classes.backdropContent}>
+          {!isTextCopied && <CopyIcon className={classes.icon} />}
+          <span className={classes.buttonText} data-testid="swatch-text">
+            {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color.hex}
           </span>
-        </Button>
-        <p>{title}</p>
-      </div>
-    )
-  }
+        </span>
+      </Button>
+      <p className={classes.text}>{color.name}</p>
+      <p className={classes.text}>{`HEX: ${ color.hex }`}</p>
+      {color.rgb && <p className={classes.text}>{`RGB: ${ color.rgb }`}</p>}
+      {color.hsb && <p className={classes.text}>{`HSB: ${ color.hsb }`}</p>}
+    </div>
+  )
 }
 
 Swatch.propTypes = {
   classes: PropTypes.object.isRequired,
-  color: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
+  color: PropTypes.object.isRequired,
 }
 
 export default withStyles(styles)(Swatch)

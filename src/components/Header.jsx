@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
+import classnames from 'classnames'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
 import Searchbar from './searchbar/Searchbar'
@@ -9,8 +10,8 @@ const styles = theme => ({
   root: {
     position: 'fixed',
     width: '100%',
-    background: theme.colors.purple,
-    color: theme.colors.white,
+    background: theme.colors.indigoBlue.hex,
+    color: theme.colors.white.hex,
     zIndex: 1000,
   },
   container: {
@@ -21,10 +22,10 @@ const styles = theme => ({
     height: theme.header.xxs,
   },
   button: {
-    color: theme.colors.white,
+    color: theme.colors.white.hex,
   },
   icon: {
-    color: theme.colors.white,
+    color: theme.colors.white.hex,
     height: '100%',
     width: '125%',
   },
@@ -46,7 +47,7 @@ const styles = theme => ({
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
       width: `calc(100% - ${ theme.sidebar.m })`,
-      background: theme.colors.grey6,
+      background: theme.colors.grayMid.hex,
     },
     container: {
       height: theme.header.m,
@@ -78,7 +79,7 @@ const Header = ({ handleMenu, classes }) => (
   <header>
     <div className={classes.root}>
       <div className={classes.container}>
-        <button onClick={handleMenu} className={classes.button}>
+        <button onClick={handleMenu} className={classnames(classes.button, 'zep-button')}>
           <MenuIcon />
         </button>
         <ZeppelinIcon className={classes.icon} />

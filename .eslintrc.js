@@ -4,7 +4,14 @@ module.exports = {
     'jest/globals': true,
   },
   extends: ['standard'],
-  plugins: ['standard', 'react', 'cypress', 'jest', 'chai-friendly'],
+  plugins: [
+    'standard',
+    'react',
+    'cypress',
+    'jest',
+    'chai-friendly',
+    'react-hooks',
+  ],
   rules: {
     'no-var': 'error', // optional, recommended when using es6+
     'no-unused-vars': 1, // recommended
@@ -58,6 +65,9 @@ module.exports = {
     // chai-friendly no-unused-expression replacement
     'no-unused-expressions': 0,
     'chai-friendly/no-unused-expressions': 2,
+
+    //react hooks
+    'react-hooks/rules-of-hooks': 'error',
   },
   parser: 'babel-eslint',
   parserOptions: {

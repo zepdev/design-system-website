@@ -9,7 +9,7 @@ Object {
         class="Swatch-root-0-1-1"
       >
         <button
-          class="zds-button Swatch-button-0-1-2"
+          class="zep-button Swatch-button-0-1-2"
           style="background: rgb(255, 255, 255);"
         >
           <span
@@ -41,15 +41,22 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-text-0-1-6"
+              class="Swatch-buttonText-0-1-6"
               data-testid="swatch-text"
             >
               #fff
             </span>
           </span>
         </button>
-        <p>
-          title
+        <p
+          class="Swatch-text-0-1-7"
+        >
+          name
+        </p>
+        <p
+          class="Swatch-text-0-1-7"
+        >
+          HEX: #fff
         </p>
       </div>
     </div>
@@ -59,7 +66,7 @@ Object {
       class="Swatch-root-0-1-1"
     >
       <button
-        class="zds-button Swatch-button-0-1-2"
+        class="zep-button Swatch-button-0-1-2"
         style="background: rgb(255, 255, 255);"
       >
         <span
@@ -91,15 +98,22 @@ Object {
             />
           </svg>
           <span
-            class="Swatch-text-0-1-6"
+            class="Swatch-buttonText-0-1-6"
             data-testid="swatch-text"
           >
             #fff
           </span>
         </span>
       </button>
-      <p>
-        title
+      <p
+        class="Swatch-text-0-1-7"
+      >
+        name
+      </p>
+      <p
+        class="Swatch-text-0-1-7"
+      >
+        HEX: #fff
       </p>
     </div>
   </div>,

@@ -8,7 +8,9 @@ jest.useFakeTimers()
 
 describe('Swatch', () => {
   it('renders correctly', () => {
-    const mockProps = { title: 'title', color: '#fff' }
+    const mockProps = {
+      color: { name: 'name', hex: '#fff' },
+    }
     const component = render(
       <ThemeProvider theme={theme}>
         <Swatch {...mockProps} />
@@ -32,15 +34,14 @@ describe('Swatch', () => {
       }
     })
     const mockProps = {
-      title: 'title',
-      color: '#fff',
+      color: { name: 'name', hex: '#fff' },
     }
     const { getByTestId, getByText } = render(
       <ThemeProvider theme={theme}>
         <Swatch {...mockProps} />
       </ThemeProvider>
     )
-    const button = getByText(mockProps.color)
+    const button = getByText(mockProps.color.hex)
     fireEvent.click(button)
     expect(getByTestId('swatch-text')).toHaveTextContent(/copied!/i)
     // TODO this doesn't actually test that the text changes...
@@ -62,15 +63,14 @@ describe('Swatch', () => {
       }
     })
     const mockProps = {
-      title: 'title',
-      color: '#fff',
+      color: { name: 'name', hex: '#fff' },
     }
     const { getByTestId, getByText } = render(
       <ThemeProvider theme={theme}>
         <Swatch {...mockProps} />
       </ThemeProvider>
     )
-    const button = getByText(mockProps.color)
+    const button = getByText(mockProps.color.hex)
     fireEvent.click(button)
     expect(getByTestId('swatch-text')).toHaveTextContent(/error!/i)
     // TODO calls the above setTimeout also?

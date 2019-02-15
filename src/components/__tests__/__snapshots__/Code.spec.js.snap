@@ -1,23 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button renders correctly 1`] = `
+exports[`Code renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="zds-button"
+      <div
+        class="Code-root-0-1-1"
       >
-        buttonText
-      </button>
+        <script
+          class="Code-code-0-1-2"
+        >
+          mockCode
+        </script>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="zds-button"
+    <div
+      class="Code-root-0-1-1"
     >
-      buttonText
-    </button>
+      <script
+        class="Code-code-0-1-2"
+      >
+        mockCode
+      </script>
+    </div>
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],
