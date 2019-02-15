@@ -1,31 +1,61 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tab renders correctly 1`] = `
+exports[`CodeBlock renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="Tab-root-0-1-1 zep-button"
+      <div
+        class="CodeBlock-root-0-1-1"
       >
-        <p
-          class="Tab-label-0-1-2 Tab-labelPrimary-0-1-3"
+        <div
+          class="Tabs-root-0-1-3 CodeBlock-tabs-0-1-2"
         >
-          mockTabLabel
-        </p>
-      </button>
+          <button
+            class="Tab-root-0-1-4 zep-button Tab-selected-0-1-8"
+          >
+            <p
+              class="Tab-label-0-1-5 Tab-selected-0-1-8 Tab-labelSecondary-0-1-7"
+            >
+              Vanilla JS
+            </p>
+          </button>
+        </div>
+        <div
+          class="Code-root-0-1-9"
+        >
+          <script
+            class="Code-code-0-1-10"
+          />
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="Tab-root-0-1-1 zep-button"
+    <div
+      class="CodeBlock-root-0-1-1"
     >
-      <p
-        class="Tab-label-0-1-2 Tab-labelPrimary-0-1-3"
+      <div
+        class="Tabs-root-0-1-3 CodeBlock-tabs-0-1-2"
       >
-        mockTabLabel
-      </p>
-    </button>
+        <button
+          class="Tab-root-0-1-4 zep-button Tab-selected-0-1-8"
+        >
+          <p
+            class="Tab-label-0-1-5 Tab-selected-0-1-8 Tab-labelSecondary-0-1-7"
+          >
+            Vanilla JS
+          </p>
+        </button>
+      </div>
+      <div
+        class="Code-root-0-1-9"
+      >
+        <script
+          class="Code-code-0-1-10"
+        />
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],
