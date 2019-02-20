@@ -97,7 +97,7 @@ jobs:
           overwrite: true
       - aws-s3/sync:
           from: badges
-          to: 's3://zds-badges/zds'
+          to: 's3://zds-badges/ZDS/'
           overwrite: true
       - run:
           name: Invalidate CloudFront Distribution Cache
