@@ -80,17 +80,11 @@ jobs:
       - attach_workspace:
           at: ~/project
       - run:
-          name: create folder to put badges in
-          command: mkdir badges
-      - run:
-          name: cd into new directory
-          command: cd badges
-      - run:
-          name: create badges
-          command: curl -u $SONAR_LOGIN "http://sq.zepdev.net/api/project_badges/measure?project=design-system-website&metric={bugs,code_smells,coverage,duplicated_lines_density,ncloc,sqale_rating,alert_status,reliability_rating,security_rating,sqale_index,vulnerabilities}" -o "#1.svg"
-      - run:
-          name: cd back to root
-          command: cd ..
+          name: create and upload badges
+          command: |
+            mkdir badges
+            cd badges
+            curl -u $SONAR_LOGIN "http://sq.zepdev.net/api/project_badges/measure?project=design-system-website&metric={bugs,code_smells,coverage,duplicated_lines_density,ncloc,sqale_rating,alert_status,reliability_rating,security_rating,sqale_index,vulnerabilities}" -o "#1.svg"
       - aws-s3/sync:
           from: public
           to: 's3://<< parameters.bucket >>/'
