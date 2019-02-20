@@ -10,6 +10,7 @@ describe('Swatch', () => {
   it('renders correctly', () => {
     const mockProps = {
       color: { name: 'name', hex: '#fff' },
+      classes: {},
     }
     const component = render(
       <ThemeProvider theme={theme}>
@@ -35,6 +36,7 @@ describe('Swatch', () => {
     })
     const mockProps = {
       color: { name: 'name', hex: '#fff' },
+      classes: {},
     }
     const { getByTestId, getByText } = render(
       <ThemeProvider theme={theme}>
@@ -64,6 +66,7 @@ describe('Swatch', () => {
     })
     const mockProps = {
       color: { name: 'name', hex: '#fff' },
+      classes: {},
     }
     const { getByTestId, getByText } = render(
       <ThemeProvider theme={theme}>

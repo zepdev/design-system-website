@@ -6,9 +6,12 @@ import theme from '../../../data/theme'
 
 describe('Colors', () => {
   it('renders correctly', () => {
+    const mockProps = {
+      classes: {},
+    }
     const component = render(
       <ThemeProvider theme={theme}>
-        <Colors />
+        <Colors {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()
