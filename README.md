@@ -6,10 +6,12 @@
   Zeppelin Design System
 </h1>
 
+<div align="center">
+            
 [![CircleCI](https://circleci.com/gh/zepdev/design-system-website.svg?style=svg&circle-token=d4f1730edfe9173ba0e0fde81dc6a97c3ba467a9)](https://circleci.com/gh/zepdev/design-system-website)
+[![SonarCube_QualityGate](https://s3.eu-central-1.amazonaws.com/zds-live/quality_gate.svg)](https://s3.eu-central-1.amazonaws.com/zds-live/quality_gate.svg)
 
-![](https://img.shields.io/node/v/10.svg?logoColor=pink&style=flat)
-
+<div>
 This repository contains the website for Zeppelin's Design System.
 
 ## Quick start
