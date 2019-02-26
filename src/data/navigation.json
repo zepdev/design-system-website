@@ -40,5 +40,8 @@
         "title": "Button"
       }
     }
+  },
+  "download": {
+    "title": "Download"
   }
 }

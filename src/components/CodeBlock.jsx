@@ -72,7 +72,11 @@ function CodeBlock({ element, classes }) {
           {element.angular && <Tab label="Angular" color="secondary" />}
           {element.vue && <Tab label="Vue" color="secondary" />}
         </Tabs>
-        <button onClick={handleCopy} className={classnames('zep-button', classes.button)}>
+        <button
+          data-testid="codeBlockButton"
+          onClick={handleCopy}
+          className={classnames('zep-button', classes.button)}
+        >
           {!isTextCopied && <CopyIcon className={classes.icon} />}
           {isTextCopied && 'Copied!'}
           {copyError && 'Error!'}

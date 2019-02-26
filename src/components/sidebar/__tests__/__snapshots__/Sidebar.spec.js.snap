@@ -128,6 +128,13 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 Elements
               </button>
             </li>
+            <li>
+              <button
+                class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
+              >
+                Download
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -255,6 +262,13 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               class="zep-button zep-button__full zep-button__disabled SidebarNavItem-button-0-1-9"
             >
               Elements
+            </button>
+          </li>
+          <li>
+            <button
+              class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
+            >
+              Download
             </button>
           </li>
         </ul>
