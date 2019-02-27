@@ -66,14 +66,23 @@ function CodeBlock({ element, classes }) {
   return (
     <div className={classes.root}>
       <div className={classes.tabsContainer}>
-        <Tabs value={value} onClick={handleClick} className={classes.tabs}>
+        <Tabs
+          value={value}
+          onClick={handleClick}
+          className={classes.tabs}
+          data-testid="codeBlockTab"
+        >
           <Tab label="Vanilla JS" color="secondary" />
-          {element.react && <Tab label="React" color="secondary" />}
-          {element.angular && <Tab label="Angular" color="secondary" />}
-          {element.vue && <Tab label="Vue" color="secondary" />}
+          {element.react && (
+            <Tab label="React" color="secondary" data-testid="codeBlockTab_React" />
+          )}
+          {element.angular && (
+            <Tab label="Angular" color="secondary" data-testid="codeBlockTab_Angular" />
+          )}
+          {element.vue && <Tab label="Vue" color="secondary" data-testid="codeBlockTab_Vue" />}
         </Tabs>
         <button
-          data-testid="codeCopyButton"
+          data-testid="codeBlockButton"
           onClick={handleCopy}
           className={classnames('zep-button', classes.button)}
         >

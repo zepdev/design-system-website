@@ -11,7 +11,7 @@ const styles = {
   },
 }
 
-function ElementContent({ element, code, classes }) {
+function ElementContent({ element, classes }) {
   const [value, setValue] = useState(0)
 
   function handleClick(event, newValue) {
@@ -24,8 +24,8 @@ function ElementContent({ element, code, classes }) {
         <Tab label="code" />
         <Tab label="styles" />
       </Tabs>
-      {value === 0 && <ElementPreview element={element} code={code} />}
-      {value === 1 && <p>style section</p>}
+      {value === 0 && <ElementPreview element={element} />}
+      {value === 1 && <p data-testid="elementContentStyles">style section</p>}
     </Fragment>
   )
 }

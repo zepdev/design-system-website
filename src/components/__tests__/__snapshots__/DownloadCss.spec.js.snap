@@ -1,79 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SidebarNav renders correctly 1`] = `
+exports[`DownloadCss renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <ul
-        class="SidebarNav-list-0-1-1"
+      <button
+        class="zep-button zel-button"
+        download=""
+        href="../assets/styles/zeppelin-element-library.min.css"
       >
-        <li>
-          <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
-          >
-            Getting started
-          </button>
-        </li>
-        <li>
-          <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
-          >
-            Guidelines
-          </button>
-        </li>
-        <li>
-          <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
-          >
-            Elements
-          </button>
-        </li>
-        <li>
-          <a
-            class="zep-button zep-button__full"
-            href="/content/download"
-          >
-            Download
-          </a>
-        </li>
-      </ul>
+        Download
+      </button>
     </div>
   </body>,
   "container": <div>
-    <ul
-      class="SidebarNav-list-0-1-1"
+    <button
+      class="zep-button zel-button"
+      download=""
+      href="../assets/styles/zeppelin-element-library.min.css"
     >
-      <li>
-        <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
-        >
-          Getting started
-        </button>
-      </li>
-      <li>
-        <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
-        >
-          Guidelines
-        </button>
-      </li>
-      <li>
-        <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
-        >
-          Elements
-        </button>
-      </li>
-      <li>
-        <a
-          class="zep-button zep-button__full"
-          href="/content/download"
-        >
-          Download
-        </a>
-      </li>
-    </ul>
+      Download
+    </button>
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],

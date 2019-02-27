@@ -22,20 +22,19 @@ function SidebarNavItem({ item, classes }) {
   const [isButtonOpen, setButton] = useState(false)
   return (
     <li>
-      <Button
-        fullWidth
-        onClick={
-          item.subnav
-            ? () => {
-              setButton(!isButtonOpen)
-            }
-            : () => {}
-        }
-        disabled={!!item.subnav}
-        className={classes.button}
-      >
-        {item.title}
-      </Button>
+      {item.subnav && (
+        <Button fullWidth onClick={() => setButton(!isButtonOpen)} className={classes.button}>
+          {item.title}
+        </Button>
+      )}
+      {!item.subnav && (
+        <Link
+          to={`/content/${ item.title.toLowerCase().replace(/ /g, '-') }`}
+          className="zep-button zep-button__full"
+        >
+          {item.title}
+        </Link>
+      )}
       {item.subnav && isButtonOpen && (
         <ul data-testid="subnav-list" className={classes.list}>
           {Object.keys(item.subnav).map((elem, idx) => (
@@ -47,6 +46,7 @@ function SidebarNavItem({ item, classes }) {
                   .toLowerCase()
                   .replace(/ /g, '-') }`}
                 className="zep-button zep-button__full"
+                data-testid="sidebarNavItemLink"
               >
                 {item.subnav[elem].title}
               </Link>
