@@ -7,7 +7,7 @@ describe('SidebarNavItem', () => {
     const mockProps = {
       item: {
         title: 'sectionTitle',
-        'sub-nav': {
+        subnav: {
           subSection: {
             title: 'subSectionTitle',
           },
@@ -37,16 +37,18 @@ describe('SidebarNavItem', () => {
     const mockProps = {
       item: {
         title: 'sectionTitle',
-        'sub-nav': {
+        subnav: {
           subSection: {
             title: 'subSectionTitle',
           },
         },
       },
     }
-    const { getByText } = render(<SidebarNavItem {...mockProps} />)
+    const { getByText, getByTestId } = render(<SidebarNavItem {...mockProps} />)
     const button = getByText(mockProps.item.title)
     fireEvent.click(button)
-    // expect(getByTestId('subnav-list'))
+    expect(getByTestId('sidebarNavItemLink')).toHaveTextContent(
+      mockProps.item.subnav.subSection.title
+    )
   })
 })

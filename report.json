@@ -1,1 +1,442 @@
-[{"filePath":"/Users/sebastian/Code/design-system-website/src/__tests__/example.spec.js","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/Button.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/Footer.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/Header.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/icons/DribbleIcon.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/icons/GithubIcon.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/icons/MediumIcon.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/icons/MenuIcon.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/icons/SearchIcon.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/icons/TwitterIcon.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/icons/ZeppelinIcon.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/Layout.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/Searchbar.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/SEO.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/Sidebar.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/SidebarNav.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/components/SidebarNavItem.jsx","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/data/theme.js","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/html.js","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/pages/404.js","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/pages/index.js","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"/Users/sebastian/Code/design-system-website/src/templates/page.js","messages":[],"errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0}]
+[
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/__tests__/Code.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/__tests__/CodeBlock.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/__tests__/DownloadCss.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/__tests__/ElementContent.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/__tests__/ElementPreview.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/button/__tests__/Button.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/button/Button.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/Code.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/CodeBlock.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/colors/__tests__/Colors.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/colors/__tests__/Swatch.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/colors/Colors.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/colors/Swatch.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/DownloadCss.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/ElementContent.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/ElementPreview.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/Footer.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/Header.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/__tests__/CopyIcon.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/__tests__/DribbleIcon.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/__tests__/GithubIcon.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/__tests__/MediumIcon.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/__tests__/MenuIcon.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/__tests__/SearchIcon.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/__tests__/TwitterIcon.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/__tests__/ZeppelinIcon.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/CopyIcon.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/DribbleIcon.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/GithubIcon.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/MediumIcon.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/MenuIcon.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/SearchIcon.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/TwitterIcon.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/icons/ZeppelinIcon.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/Layout.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/searchbar/__tests__/Searchbar.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/searchbar/Searchbar.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/SEO.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/sidebar/__tests__/Sidebar.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/sidebar/__tests__/SidebarNav.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/sidebar/__tests__/SidebarNavItem.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/sidebar/Sidebar.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/sidebar/SidebarNav.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/sidebar/SidebarNavItem.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/tabs/__tests__/Tab.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/tabs/__tests__/Tabs.spec.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/tabs/Tab.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/tabs/Tabs.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/components/Typography.jsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/data/elements.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/data/theme.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/html.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/pages/404.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/pages/index.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "/Users/alyssabutler/Documents/design-system-website/src/templates/page.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  }
+]

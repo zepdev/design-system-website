@@ -24,7 +24,9 @@ const ElementPreview = ({ element, classes }) => {
     <Fragment>
       {Object.keys(elements[element]).map((elem, idx) => (
         <Fragment key={`codeBlock${ idx }`}>
-          <p className={classes.text}>{elem}</p>
+          <p className={classes.text} data-testid="elementPreviewText">
+            {elem}
+          </p>
           <div
             className={classes.htmlContainer}
             dangerouslySetInnerHTML={{ __html: elements[element][elem].js }}

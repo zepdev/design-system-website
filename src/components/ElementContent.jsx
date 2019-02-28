@@ -25,7 +25,7 @@ function ElementContent({ element, classes }) {
         <Tab label="styles" />
       </Tabs>
       {value === 0 && <ElementPreview element={element} />}
-      {value === 1 && <p>style section</p>}
+      {value === 1 && <p data-testid="elementContentStyles">style section</p>}
     </Fragment>
   )
 }

@@ -35,7 +35,6 @@ function SidebarNavItem({ item, classes }) {
           {item.title}
         </Link>
       )}
-
       {item.subnav && isButtonOpen && (
         <ul data-testid="subnav-list" className={classes.list}>
           {Object.keys(item.subnav).map((elem, idx) => (
@@ -47,6 +46,7 @@ function SidebarNavItem({ item, classes }) {
                   .toLowerCase()
                   .replace(/ /g, '-') }`}
                 className="zep-button zep-button__full"
+                data-testid="sidebarNavItemLink"
               >
                 {item.subnav[elem].title}
               </Link>

@@ -54,6 +54,7 @@ Object {
         </div>
         <div
           class="Code-root-0-1-13"
+          data-testid="code"
         >
           <script
             class="Code-code-0-1-14"
@@ -112,6 +113,7 @@ Object {
       </div>
       <div
         class="Code-root-0-1-13"
+        data-testid="code"
       >
         <script
           class="Code-code-0-1-14"

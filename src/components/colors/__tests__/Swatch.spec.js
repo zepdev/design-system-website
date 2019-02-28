@@ -10,6 +10,7 @@ describe('Swatch', () => {
   it('renders correctly', () => {
     const mockProps = {
       color: { name: 'name', hex: '#fff' },
+      classes: {},
     }
     const component = render(
       <ThemeProvider theme={theme}>
@@ -35,6 +36,7 @@ describe('Swatch', () => {
     })
     const mockProps = {
       color: { name: 'name', hex: '#fff' },
+      classes: {},
     }
     const { getByTestId, getByText } = render(
       <ThemeProvider theme={theme}>
@@ -44,8 +46,11 @@ describe('Swatch', () => {
     const button = getByText(mockProps.color.hex)
     fireEvent.click(button)
     expect(getByTestId('swatch-text')).toHaveTextContent(/copied!/i)
-    // TODO this doesn't actually test that the text changes...
+    // check that timeout is called and changes text back
     expect(setTimeout).toHaveBeenCalledTimes(1)
+    expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
+    jest.runAllTimers()
+    expect(getByTestId('swatch-text')).toHaveTextContent(mockProps.color.hex)
   })
 
   it('renders "Error!" if document.execCommand is not supported by browser', () => {
@@ -64,6 +69,7 @@ describe('Swatch', () => {
     })
     const mockProps = {
       color: { name: 'name', hex: '#fff' },
+      classes: {},
     }
     const { getByTestId, getByText } = render(
       <ThemeProvider theme={theme}>
@@ -73,7 +79,10 @@ describe('Swatch', () => {
     const button = getByText(mockProps.color.hex)
     fireEvent.click(button)
     expect(getByTestId('swatch-text')).toHaveTextContent(/error!/i)
-    // TODO calls the above setTimeout also?
+    // check that timeout is called and changes text back
     expect(setTimeout).toHaveBeenCalledTimes(2)
+    expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
+    jest.runAllTimers()
+    expect(getByTestId('swatch-text')).toHaveTextContent(mockProps.color.hex)
   })
 })

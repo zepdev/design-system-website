@@ -10,31 +10,32 @@ Object {
       >
         <li>
           <button
-            class="zep-button zep-button__full zep-button__disabled SidebarNavItem-button-0-1-2"
+            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
           >
             Getting started
           </button>
         </li>
         <li>
           <button
-            class="zep-button zep-button__full zep-button__disabled SidebarNavItem-button-0-1-2"
+            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
           >
             Guidelines
           </button>
         </li>
         <li>
           <button
-            class="zep-button zep-button__full zep-button__disabled SidebarNavItem-button-0-1-2"
+            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
           >
             Elements
           </button>
         </li>
         <li>
-          <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+          <a
+            class="zep-button zep-button__full"
+            href="/content/download"
           >
             Download
-          </button>
+          </a>
         </li>
       </ul>
     </div>
@@ -45,31 +46,32 @@ Object {
     >
       <li>
         <button
-          class="zep-button zep-button__full zep-button__disabled SidebarNavItem-button-0-1-2"
+          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
         >
           Getting started
         </button>
       </li>
       <li>
         <button
-          class="zep-button zep-button__full zep-button__disabled SidebarNavItem-button-0-1-2"
+          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
         >
           Guidelines
         </button>
       </li>
       <li>
         <button
-          class="zep-button zep-button__full zep-button__disabled SidebarNavItem-button-0-1-2"
+          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
         >
           Elements
         </button>
       </li>
       <li>
-        <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+        <a
+          class="zep-button zep-button__full"
+          href="/content/download"
         >
           Download
-        </button>
+        </a>
       </li>
     </ul>
   </div>,
