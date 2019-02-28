@@ -26,6 +26,7 @@ Object {
           </div>
           <button
             class="zep-button CodeBlock-button-0-1-5"
+            data-testid="codeBlockButton"
           >
             <svg
               aria-labelledby="title"
@@ -83,6 +84,7 @@ Object {
         </div>
         <button
           class="zep-button CodeBlock-button-0-1-5"
+          data-testid="codeBlockButton"
         >
           <svg
             aria-labelledby="title"

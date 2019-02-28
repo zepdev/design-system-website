@@ -29,6 +29,13 @@ Object {
             Elements
           </button>
         </li>
+        <li>
+          <button
+            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+          >
+            Download
+          </button>
+        </li>
       </ul>
     </div>
   </body>,
@@ -55,6 +62,13 @@ Object {
           class="zep-button zep-button__full zep-button__disabled SidebarNavItem-button-0-1-2"
         >
           Elements
+        </button>
+      </li>
+      <li>
+        <button
+          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+        >
+          Download
         </button>
       </li>
     </ul>
