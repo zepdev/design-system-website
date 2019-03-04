@@ -7,16 +7,16 @@ const styles = theme => ({
   root: {
     flexBasis: '20%',
     '&:hover': {
-      borderBottom: `2px solid ${ theme.colors.indigoBlue.hex }`,
+      borderBottom: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
       '& $labelPrimary': {
-        color: theme.colors.grayDark.hex,
+        color: theme.colors.gray.grayDark.hex,
       },
       '& $labelSecondary': {
-        color: theme.colors.grayLight.hex,
+        color: theme.colors.gray.grayLight.hex,
       },
     },
     '&$selected': {
-      borderBottom: `2px solid ${ theme.colors.indigoBlue.hex }`,
+      borderBottom: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
     },
   },
   label: {
@@ -26,13 +26,13 @@ const styles = theme => ({
   labelPrimary: {
     color: theme.colors.gray.hex,
     '&$selected': {
-      color: theme.colors.grayDark.hex,
+      color: theme.colors.gray.grayDark.hex,
     },
   },
   labelSecondary: {
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
     '&$selected': {
-      color: theme.colors.grayMid.hex,
+      color: theme.colors.gray.grayMid.hex,
     },
   },
   selected: {},

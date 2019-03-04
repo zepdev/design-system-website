@@ -8,7 +8,7 @@ const styles = theme => ({
     padding: 60,
   },
   code: {
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
     display: 'flex',
     justifyContent: 'center',
     flexWrap: 'wrap',

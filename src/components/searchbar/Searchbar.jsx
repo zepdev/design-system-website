@@ -13,11 +13,11 @@ const styles = theme => ({
   icon: {
     width: 30,
     height: 30,
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
   },
   input: {
-    background: theme.colors.white.hex,
-    color: theme.colors.grayLight.hex,
+    background: theme.colors.gray.white.hex,
+    color: theme.colors.gray.grayLight.hex,
     fontSize: '0.875rem',
     width: '100%',
     border: 'none',
@@ -26,7 +26,7 @@ const styles = theme => ({
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
       flexBasis: '80%',
-      background: theme.colors.white.hex,
+      background: theme.colors.gray.white.hex,
       padding: '0.75rem 1.5rem',
     },
     icon: {

@@ -8,6 +8,7 @@ describe('Colors', () => {
   it('renders correctly', () => {
     const mockProps = {
       classes: {},
+      section: 'primary',
     }
     const component = render(
       <ThemeProvider theme={theme}>

@@ -10,24 +10,24 @@ import CopyIcon from './icons/CopyIcon'
 const styles = theme => ({
   root: {
     marginBottom: 60,
-    background: theme.colors.grayMidDark.hex,
+    background: theme.colors.gray.grayMidDark.hex,
   },
   tabs: {
-    color: theme.colors.white.hex,
-    background: theme.colors.grayMidDark.hex,
+    color: theme.colors.gray.white.hex,
+    background: theme.colors.gray.grayMidDark.hex,
   },
   tabsContainer: {
     display: 'flex',
-    borderBottom: `1px solid ${ theme.colors.white.hex }`,
-    background: theme.colors.grayMidDark.hex,
+    borderBottom: `1px solid ${ theme.colors.gray.white.hex }`,
+    background: theme.colors.gray.grayMidDark.hex,
   },
   icon: {
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
   },
   button: {
     padding: 15,
     float: 'right',
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
   },
   text: {
     margin: 0,

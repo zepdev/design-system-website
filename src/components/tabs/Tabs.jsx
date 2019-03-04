@@ -7,7 +7,7 @@ const styles = theme => ({
   root: {
     display: 'flex',
     width: '100%',
-    background: theme.colors.grayLightest.hex,
+    background: theme.colors.gray.grayLightest.hex,
   },
 })
 
