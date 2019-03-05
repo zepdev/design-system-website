@@ -11,7 +11,7 @@ const styles = theme => ({
     fontSize: 28,
   },
   htmlContainer: {
-    backgroundColor: theme.colors.grayLighter.hex,
+    backgroundColor: theme.colors.gray.grayLighter.hex,
     padding: 45,
     display: 'flex',
     justifyContent: 'center',
