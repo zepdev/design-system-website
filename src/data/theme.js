@@ -8,7 +8,10 @@ module.exports = {
     xxl: '120em' /* 1920px */,
   },
   typography: {
-    fontFamily: "'Roboto', Arial, Helvetica, sans-serif",
+    typefaces: {
+      roboto: "'Roboto', Arial, Helvetica, sans-serif",
+      teko: "Teko', sans-serif",
+    },
     fontBase: '16px',
     headings: {
       1: 'zep-typo--display-1',
