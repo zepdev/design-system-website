@@ -1,14 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
-import Layout from '../components/Layout'
 
 export default ({ data: { mdx } }) => {
-  return (
-    <Layout>
-      <MDXRenderer>{mdx.code.body}</MDXRenderer>
-    </Layout>
-  )
+  return <MDXRenderer>{mdx.code.body}</MDXRenderer>
 }
 
 export const query = graphql`
