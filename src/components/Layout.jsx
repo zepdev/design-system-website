@@ -7,7 +7,7 @@ import withStyles from 'react-jss'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
-import '../assets/styles/zeppelin-element-library.min.css'
+import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
   root: {

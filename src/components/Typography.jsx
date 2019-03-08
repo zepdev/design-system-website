@@ -71,9 +71,9 @@ const Typography = ({ section, classes }) => {
               <td
                 className={classnames(
                   classes.th,
-                  classes.lowercase,
                   classes.borderBottom,
-                  item !== 'actual size' ? 'zep-typo--special-1' : `${ elem }`
+                  item !== 'actual size' ? 'zep-typo--normal-7' : `${ elem }`,
+                  item === 'actual size' && section === 'special' ? null : classes.lowercase
                 )}
                 key={`typography${ idx }`}
                 scope={idx === 0 ? 'row' : null}
@@ -85,7 +85,7 @@ const Typography = ({ section, classes }) => {
                 ) : item === 'specifications' ? (
                   <span>
                     {content[elem][item].map(p => (
-                      <p key={`specification_${ p }`} className="zep-typo--normal-8">
+                      <p key={`specification_${ p }`} className="zep-typo--normal-7">
                         {p}
                       </p>
                     ))}

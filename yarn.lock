@@ -15470,6 +15470,11 @@ zen-observable@^0.8.0:
   resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.13.tgz#a9f1b9dbdfd2d60a08761ceac6a861427d44ae2e"
   integrity sha512-fa+6aDUVvavYsefZw0zaZ/v3ckEtMgCFi30sn91SEZea4y/6jQp05E3omjkX91zV6RVdn15fqnFZ6RKjRGbp2g==
 
+zeppelin-element-library@^0.1.17:
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.1.17.tgz#f9671c4a7fdb23ab84fc6ecb5d174670367e0163"
+  integrity sha512-NBoJR9iBDGhpRrP14+x7SDUfw/hdYcpl4nPw2f7PmIUy4G/W8/vh/yE4KDc58o3vcFmJpm8YVq8fOhNDPXRzjg==
+
 zwitch@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/zwitch/-/zwitch-1.0.3.tgz#159fae4b3f737db1e42bf321d3423e4c96688a18"
