@@ -8,13 +8,198 @@ module.exports = {
     xxl: '120em' /* 1920px */,
   },
   typography: {
-    fontFamily: "'Roboto', Arial, Helvetica, sans-serif",
-    fontBase: '16px',
+    typefaces: {
+      roboto: "'Roboto', Arial, Helvetica, sans-serif",
+      teko: "Teko', sans-serif",
+    },
+    basics: {
+      fontSizeBase: {
+        specification: 'font-size-base',
+        px: '16px',
+        rem: '1rem',
+        weight: null,
+      },
+      lineHeightBase: {
+        specification: 'line-height-base',
+        px: '24px',
+        rem: '1.5rem',
+        weight: null,
+      },
+      fontWeightBase: {
+        specification: 'font-weight-base',
+        px: null,
+        rem: null,
+        weight: 400,
+      },
+    },
     headings: {
-      1: 'zep-typo--display-1',
-      2: 'zep-typo--display-2',
-      3: 'zep-typo--display-3',
-      4: 'zep-typo--display-4',
+      normal: {
+        'zep-typo--normal-1': {
+          rem: '2.5rem',
+          px: '40px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (60px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--normal-2': {
+          rem: '2.25rem',
+          px: '36px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (54px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--normal-3': {
+          rem: '1.75rem',
+          px: '28px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (42px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--normal-4': {
+          rem: '1.5rem',
+          px: '24px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (36px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--normal-5': {
+          rem: '1.25rem',
+          px: '20px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (30px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--normal-6': {
+          rem: '1rem',
+          px: '16px',
+          specifications: [
+            'font-family: "Roboto"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (24px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--normal-7': {
+          rem: '0.875rem',
+          px: '14px',
+          specifications: [
+            'font-family: "Roboto"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (21px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--normal-8': {
+          rem: '0.75rem',
+          px: '12px',
+          specifications: [
+            'font-family: "Roboto"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (18px)',
+            'text-transform: none',
+          ],
+        },
+      },
+      display: {
+        'zep-typo--display-1': {
+          rem: '3.55rem',
+          px: '56px',
+          weight: 400,
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (144px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--display-2': {
+          rem: '4.5rem',
+          px: '72px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (132px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--display-3': {
+          rem: '5.5rem',
+          px: '88px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (108px)',
+            'text-transform: none',
+          ],
+        },
+        'zep-typo--display-4': {
+          rem: '6rem',
+          px: '96px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (84px)',
+            'text-transform: none',
+          ],
+        },
+      },
+      special: {
+        'zep-typo--special-1': {
+          rem: '0.75rem',
+          px: '12px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (36px)',
+            'text-transform: uppercase',
+          ],
+        },
+        'zep-typo--special-2': {
+          rem: '0.875rem',
+          px: '14px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (24px)',
+            'text-transform: uppercase',
+          ],
+        },
+        'zep-typo--special-3': {
+          rem: '1rem',
+          px: '16px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (21px)',
+            'text-transform: uppercase',
+          ],
+        },
+        'zep-typo--special-4': {
+          rem: '1.5rem',
+          px: '24px',
+          specifications: [
+            'font-family: "Teko"',
+            'font-weight: 400 (regular)',
+            'line-height: 1.5 (18px)',
+            'text-transform: uppercase',
+          ],
+        },
+      },
     },
   },
   colors: {
