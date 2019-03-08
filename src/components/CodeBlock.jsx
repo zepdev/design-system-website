@@ -10,24 +10,24 @@ import CopyIcon from './icons/CopyIcon'
 const styles = theme => ({
   root: {
     marginBottom: 60,
-    background: theme.colors.grayMidDark.hex,
+    background: theme.colors.gray.grayMidDark.hex,
   },
   tabs: {
-    color: theme.colors.white.hex,
-    background: theme.colors.grayMidDark.hex,
+    color: theme.colors.gray.white.hex,
+    background: theme.colors.gray.grayMidDark.hex,
   },
   tabsContainer: {
     display: 'flex',
-    borderBottom: `1px solid ${ theme.colors.white.hex }`,
-    background: theme.colors.grayMidDark.hex,
+    borderBottom: `1px solid ${ theme.colors.gray.white.hex }`,
+    background: theme.colors.gray.grayMidDark.hex,
   },
   icon: {
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
   },
   button: {
     padding: 15,
     float: 'right',
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
   },
   text: {
     margin: 0,
@@ -66,13 +66,26 @@ function CodeBlock({ element, classes }) {
   return (
     <div className={classes.root}>
       <div className={classes.tabsContainer}>
-        <Tabs value={value} onClick={handleClick} className={classes.tabs}>
+        <Tabs
+          value={value}
+          onClick={handleClick}
+          className={classes.tabs}
+          data-testid="codeBlockTab"
+        >
           <Tab label="Vanilla JS" color="secondary" />
-          {element.react && <Tab label="React" color="secondary" />}
-          {element.angular && <Tab label="Angular" color="secondary" />}
-          {element.vue && <Tab label="Vue" color="secondary" />}
+          {element.react && (
+            <Tab label="React" color="secondary" data-testid="codeBlockTab_React" />
+          )}
+          {element.angular && (
+            <Tab label="Angular" color="secondary" data-testid="codeBlockTab_Angular" />
+          )}
+          {element.vue && <Tab label="Vue" color="secondary" data-testid="codeBlockTab_Vue" />}
         </Tabs>
-        <button onClick={handleCopy} className={classnames('zep-button', classes.button)}>
+        <button
+          data-testid="codeBlockButton"
+          onClick={handleCopy}
+          className={classnames('zep-button', classes.button)}
+        >
           {!isTextCopied && <CopyIcon className={classes.icon} />}
           {isTextCopied && 'Copied!'}
           {copyError && 'Error!'}

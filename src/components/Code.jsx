@@ -8,7 +8,7 @@ const styles = theme => ({
     padding: 60,
   },
   code: {
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
     display: 'flex',
     justifyContent: 'center',
     flexWrap: 'wrap',
@@ -17,7 +17,7 @@ const styles = theme => ({
 
 function Code({ code, classes }) {
   return (
-    <div className={classes.root}>
+    <div className={classes.root} data-testid="code">
       <script className={classes.code} dangerouslySetInnerHTML={{ __html: code }} />
     </div>
   )

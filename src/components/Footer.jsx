@@ -10,7 +10,7 @@ import GithubIcon from './icons/GithubIcon'
 
 const styles = theme => ({
   root: {
-    borderTop: `1px solid ${ theme.colors.grayMid.hex }`,
+    borderTop: `1px solid ${ theme.colors.gray.grayMid.hex }`,
     padding: '1.5rem 1.5rem',
   },
   container: {
@@ -33,14 +33,14 @@ const styles = theme => ({
   },
   link: {
     fontSize: '0.75rem',
-    color: theme.colors.grayLight.hex,
+    color: theme.colors.gray.grayLight.hex,
     textDecoration: 'none',
     marginBottom: '0.9375rem',
   },
   icon: {
     width: '1.75rem',
     height: '1.75rem',
-    color: theme.colors.grayLight.hex,
+    color: theme.colors.gray.grayLight.hex,
   },
   [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     root: {
@@ -82,7 +82,7 @@ const styles = theme => ({
       width: 125,
       height: '1.5rem',
       marginRight: 90,
-      color: theme.colors.grayLight.hex,
+      color: theme.colors.gray.grayLight.hex,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {

@@ -6,9 +6,22 @@
   Zeppelin Design System
 </h1>
 
+<span align="center">  
+    
 [![CircleCI](https://circleci.com/gh/zepdev/design-system-website.svg?style=svg&circle-token=d4f1730edfe9173ba0e0fde81dc6a97c3ba467a9)](https://circleci.com/gh/zepdev/design-system-website)
+[![SonarCube_QualityGate](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/alert_status.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/alert_status.svg)
+[![SonarCube_bugs](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/bugs.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/bugs.svg)
+[![SonarCube_code_smells](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/code_smells.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/code_smells.svg)
+[![SonarCube_coverage](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/coverage.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/coverage.svg)
+[![SonarCube_duplicated_lines_density](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/duplicated_lines_density.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/duplicated_lines_density.svg)
+[![SonarCube_ncloc](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/ncloc.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/ncloc.svg)
+[![SonarCube_reliability_rating](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/reliability_rating.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/reliability_rating.svg)
+[![SonarCube_security_rating](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/security_rating.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/security_rating.svg)
+[![SonarCube_sqale_index](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/sqale_index.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/sqale_index.svg)
+[![SonarCube_sqale_rating](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/sqale_rating.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/sqale_rating.svg)
+[![SonarCube_vulnerabilities](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/vulnerabilities.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/vulnerabilities.svg)
 
-![](https://img.shields.io/node/v/10.svg?logoColor=pink&style=flat)
+</span>
 
 This repository contains the website for Zeppelin's Design System.
 

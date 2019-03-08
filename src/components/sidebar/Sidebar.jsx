@@ -9,7 +9,7 @@ import ZeppelinIcon from '../icons/ZeppelinIcon'
 const styles = theme => ({
   root: {
     display: 'block',
-    width: theme.sidebar.xxs,
+    width: 216,
     position: 'fixed',
     left: 0,
     top: 0,
@@ -21,21 +21,21 @@ const styles = theme => ({
     MsTransform: 'translateX(-100%)',
   },
   containerLink: {
-    background: theme.colors.indigoBlue.hex,
-    color: theme.colors.white.hex,
+    background: theme.colors.primary.indigoBlue.hex,
+    color: theme.colors.gray.white.hex,
     width: '100%',
     visibility: 'hidden',
     pointerEvents: 'none',
   },
   containerSidebarNav: {
-    height: `calc(100vh - ${ theme.header.xxs })`,
+    height: `calc(100vh - 46px)`,
     padding: '1.5rem 1.5rem',
-    borderRight: `1px solid ${ theme.colors.grayMid.hex }`,
+    borderRight: `1px solid ${ theme.colors.gray.grayMid.hex }`,
     overflow: 'auto',
-    backgroundColor: theme.colors.white.hex,
+    backgroundColor: theme.colors.gray.white.hex,
   },
   containerHeader: {
-    height: theme.header.xxs,
+    height: 46,
     display: 'flex',
     alignItems: 'center',
     border: 0,
@@ -49,34 +49,34 @@ const styles = theme => ({
     height: 'auto',
   },
   logo: {
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
   },
   [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     root: {
-      width: theme.sidebar.xs,
+      width: 276,
     },
     containerSidebarNav: {
-      height: `calc(100vh - ${ theme.header.xs })`,
+      height: `calc(100vh - 68px)`,
       padding: '1.5rem 2em',
     },
     containerHeader: {
-      height: theme.header.xs,
+      height: 68,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     root: {
-      width: theme.sidebar.s,
+      width: 300,
     },
     containerSidebarNav: {
       padding: '2rem 3rem',
     },
     containerHeader: {
-      height: theme.header.s,
+      height: 84,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
-      width: theme.sidebar.m,
+      width: 224,
       transition: 'all 0s',
     },
     hidden: {
@@ -87,27 +87,27 @@ const styles = theme => ({
       visibility: 'visible',
     },
     containerSidebarNav: {
-      height: `calc(100vh - ${ theme.header.m })`,
+      height: `calc(100vh - 104px)`,
       padding: '2em',
     },
     containerHeader: {
-      height: theme.header.m,
+      height: 104,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
-      width: theme.sidebar.l,
+      width: 276,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     root: {
-      width: theme.sidebar.xl,
+      width: 300,
     },
     containerSidebarNav: {
       padding: '3rem',
     },
     containerHeader: {
-      height: theme.header.xl,
+      height: 136,
     },
   },
 })

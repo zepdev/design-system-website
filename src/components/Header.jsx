@@ -10,8 +10,8 @@ const styles = theme => ({
   root: {
     position: 'fixed',
     width: '100%',
-    background: theme.colors.indigoBlue.hex,
-    color: theme.colors.white.hex,
+    background: theme.colors.primary.indigoBlue.hex,
+    color: theme.colors.gray.white.hex,
     zIndex: 1000,
   },
   container: {
@@ -19,13 +19,13 @@ const styles = theme => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '1rem 1.5rem',
-    height: theme.header.xxs,
+    height: 46,
   },
   button: {
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
   },
   icon: {
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
     height: '100%',
     width: '125%',
   },
@@ -35,22 +35,22 @@ const styles = theme => ({
     },
     container: {
       padding: '1.5rem 2rem',
-      height: theme.header.xs,
+      height: 68,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     container: {
       padding: '2rem 3rem',
-      height: theme.header.s,
+      height: 84,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
-      width: `calc(100% - ${ theme.sidebar.m })`,
-      background: theme.colors.grayMid.hex,
+      width: `calc(100% - 224px)`,
+      background: theme.colors.gray.grayMid.hex,
     },
     container: {
-      height: theme.header.m,
+      height: 104,
     },
     button: {
       display: 'none',
@@ -61,16 +61,16 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
-      width: `calc(100% - ${ theme.sidebar.l })`,
+      width: `calc(100% - 276px)`,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     root: {
-      width: `calc(100% - ${ theme.sidebar.xl })`,
+      width: `calc(100% - 300px)`,
     },
     container: {
       padding: '3rem',
-      height: theme.header.xl,
+      height: 136,
     },
   },
 })

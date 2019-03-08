@@ -1,22 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import { colors } from '../../data/theme'
 import Swatch from './Swatch'
+import { colors } from '../../data/theme'
 
-const styles = {
+const styles = theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
+    marginBottom: theme.spacing.xl,
   },
-}
+})
 
-function Colors({ classes }) {
+function Colors({ section, classes }) {
   return (
     <div className={classes.root}>
-      {Object.keys(colors).map((elem, idx) => (
-        <Swatch color={colors[elem]} key={`swatch${ idx }`} />
+      {Object.keys(colors[section]).map((elem, idx) => (
+        <Swatch color={colors[section][elem]} section={section} key={`swatch${ idx }`} />
       ))}
     </div>
   )
@@ -24,6 +25,7 @@ function Colors({ classes }) {
 
 Swatch.propTypes = {
   classes: PropTypes.object.isRequired,
+  section: PropTypes.string.isRequired,
 }
 
 export default withStyles(styles)(Colors)

@@ -11,7 +11,7 @@ const styles = theme => ({
     fontSize: 28,
   },
   htmlContainer: {
-    backgroundColor: theme.colors.grayLighter.hex,
+    backgroundColor: theme.colors.gray.grayLighter.hex,
     padding: 45,
     display: 'flex',
     justifyContent: 'center',
@@ -24,7 +24,9 @@ const ElementPreview = ({ element, classes }) => {
     <Fragment>
       {Object.keys(elements[element]).map((elem, idx) => (
         <Fragment key={`codeBlock${ idx }`}>
-          <p className={classes.text}>{elem}</p>
+          <p className={classes.text} data-testid="elementPreviewText">
+            {elem}
+          </p>
           <div
             className={classes.htmlContainer}
             dangerouslySetInnerHTML={{ __html: elements[element][elem].js }}

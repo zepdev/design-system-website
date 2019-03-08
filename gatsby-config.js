@@ -23,6 +23,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/Layout.jsx`),
+      },
+    },
+    {
       resolve: 'gatsby-plugin-jss',
       options: { theme },
     },
@@ -38,8 +44,8 @@ module.exports = {
         name: `zeppelin-design-system`,
         short_name: `z-lab`,
         start_url: `/`,
-        background_color: theme.colors.white.hex,
-        theme_color: theme.colors.indigoBlue.hex,
+        background_color: theme.colors.gray.white.hex,
+        theme_color: theme.colors.primary.indigoBlue.hex,
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },

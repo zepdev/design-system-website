@@ -1,18 +1,17 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import Colors from '../Colors'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../../data/theme'
+import theme from '../../data/theme'
+import ElementPreview from '../ElementPreview'
 
-describe('Colors', () => {
+describe('ElementPreview', () => {
   it('renders correctly', () => {
     const mockProps = {
-      classes: {},
-      section: 'primary',
+      element: 'button',
     }
     const component = render(
       <ThemeProvider theme={theme}>
-        <Colors {...mockProps} />
+        <ElementPreview {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

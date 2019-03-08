@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
+import classnames from 'classnames'
 import withStyles from 'react-jss'
 import Button from '../button/Button'
 import CopyIcon from '../icons/CopyIcon'
@@ -8,17 +9,21 @@ const styles = theme => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center',
-    flexBasis: '20%',
-    marginBottom: '2rem',
+    marginBottom: theme.spacing.xl,
+  },
+  third: {
+    flexBasis: '30%',
+  },
+  quarter: {
+    flexBasis: '22%',
   },
   button: {
     height: '8rem',
-    width: '8rem',
-    marginBottom: '0.9375rem',
+    width: '100%',
+    marginBottom: theme.spacing.s,
     position: 'relative',
     cursor: 'pointer',
-    border: `1px solid ${ theme.colors.grayMid.hex }`,
+    border: `1px solid ${ theme.colors.gray.grayMid.hex }`,
     '&:hover, &$focusVisible': {
       zIndex: 1,
       '& $backdrop': {
@@ -35,7 +40,7 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.colors.grayDark.hex,
+    backgroundColor: theme.colors.gray.grayDark.hex,
     opacity: 0,
     transition: 0.5,
   },
@@ -49,11 +54,11 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     opacity: 0,
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
   },
   icon: {
     position: 'relative,',
-    color: theme.colors.white.hex,
+    color: theme.colors.gray.white.hex,
     display: 'block',
   },
   buttonText: {
@@ -63,10 +68,16 @@ const styles = theme => ({
   },
   text: {
     margin: 0,
+    color: theme.colors.gray.grayLight.hex,
+  },
+  name: {
+    marginTop: 0,
+    fontWeight: 500,
+    marginBottom: theme.spacing.s,
   },
 })
 
-function Swatch({ color, classes }) {
+function Swatch({ color, section, classes }) {
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
 
@@ -91,7 +102,9 @@ function Swatch({ color, classes }) {
   }
 
   return (
-    <div className={classes.root}>
+    <div
+      className={classnames(classes.root, section === 'primary' ? classes.third : classes.quarter)}
+    >
       <Button
         className={classes.button}
         style={{ background: color.hex }}
@@ -105,10 +118,14 @@ function Swatch({ color, classes }) {
           </span>
         </span>
       </Button>
-      <p className={classes.text}>{color.name}</p>
-      <p className={classes.text}>{`HEX: ${ color.hex }`}</p>
-      {color.rgb && <p className={classes.text}>{`RGB: ${ color.rgb }`}</p>}
-      {color.hsb && <p className={classes.text}>{`HSB: ${ color.hsb }`}</p>}
+      <p className={classnames(classes.name, 'zep-typo--normal-7')}>{color.name}</p>
+      <p className={classnames(classes.text, 'zep-typo--normal-8')}>{`HEX: ${ color.hex }`}</p>
+      {color.rgb && (
+        <p className={classnames(classes.text, 'zep-typo--normal-8')}>{`RGB: ${ color.rgb }`}</p>
+      )}
+      {color.hsb && (
+        <p className={classnames(classes.text, 'zep-typo--normal-8')}>{`HSB: ${ color.hsb }`}</p>
+      )}
     </div>
   )
 }
@@ -116,6 +133,7 @@ function Swatch({ color, classes }) {
 Swatch.propTypes = {
   classes: PropTypes.object.isRequired,
   color: PropTypes.object.isRequired,
+  section: PropTypes.string,
 }
 
 export default withStyles(styles)(Swatch)
