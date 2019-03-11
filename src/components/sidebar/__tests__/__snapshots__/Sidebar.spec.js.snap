@@ -27,7 +27,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <title
-                  id="title"
+                  id="title_zeppelin"
                 >
                   Zeppelin Icon
                 </title>
@@ -164,7 +164,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               xmlns="http://www.w3.org/2000/svg"
             >
               <title
-                id="title"
+                id="title_zeppelin"
               >
                 Zeppelin Icon
               </title>

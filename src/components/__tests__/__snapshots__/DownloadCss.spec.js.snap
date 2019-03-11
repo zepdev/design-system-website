@@ -5,23 +5,31 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="zep-button zel-button"
-        download=""
-        href="../assets/styles/zeppelin-element-library.min.css"
+      <div
+        class="Download-root-0-1-1"
       >
-        Download
-      </button>
+        <a
+          class="Download-link-0-1-2"
+          download=""
+          href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets//ZEL/zeppelin-element-library.css"
+        >
+          Download
+        </a>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="zep-button zel-button"
-      download=""
-      href="../assets/styles/zeppelin-element-library.min.css"
+    <div
+      class="Download-root-0-1-1"
     >
-      Download
-    </button>
+      <a
+        class="Download-link-0-1-2"
+        download=""
+        href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets//ZEL/zeppelin-element-library.css"
+      >
+        Download
+      </a>
+    </div>
   </div>,
   "debug": [Function],
   "getAllByAltText": [Function],
