@@ -24,7 +24,7 @@ const styles = theme => ({
     position: 'relative',
     cursor: 'pointer',
     border: `1px solid ${ theme.colors.gray.grayMid.hex }`,
-    '&:hover, &$focusVisible': {
+    '&:hover, &:focus': {
       zIndex: 1,
       '& $backdrop': {
         opacity: 0.4,
