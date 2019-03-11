@@ -59,24 +59,24 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: theme.spacing.xxl,
+    marginBottom: theme.spacing.xxl.px,
   },
   hrStyled: {
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     marginTop: 0,
-    marginBottom: theme.spacing.xxl,
+    marginBottom: theme.spacing.xxl.px,
   },
   hStyled: {
     marginTop: 0,
-    marginBottom: theme.spacing.xl,
+    marginBottom: theme.spacing.xl.px,
   },
   codeStyled: {
     background: theme.colors.gray.grayLighter.hex,
     color: theme.colors.gray.gray.hex,
-    padding: theme.spacing.l,
-    marginBottom: theme.spacing.l * 2,
+    padding: theme.spacing.l.px,
+    marginBottom: theme.spacing.l.px * 2,
   },
   skipLink: {
     position: 'absolute',
