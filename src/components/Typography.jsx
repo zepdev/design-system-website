@@ -14,7 +14,7 @@ const styles = theme => ({
     borderCollapse: 'collapse',
   },
   th: {
-    padding: `${ theme.spacing.m.px } ${ theme.spacing.l.px }`,
+    padding: `${ theme.spacing.m.px }px ${ theme.spacing.l.px }px`,
     textAlign: 'left',
     display: 'table-cell',
   },
