@@ -10,7 +10,7 @@ const DribbleIcon = ({ className, width, height, fill, viewBox }) => (
     aria-labelledby="title"
     className={className}
   >
-    <title id="title">Dribble Icon</title>
+    <title id="title_dribble">Dribble Icon</title>
     <path
       fillRule="evenodd"
       clipRule="evenodd"
