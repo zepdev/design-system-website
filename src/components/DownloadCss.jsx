@@ -3,7 +3,7 @@ import withStyles from 'react-jss'
 
 const styles = theme => ({
   root: {
-    marginBottom: theme.spacing.l * 2,
+    marginBottom: theme.spacing.l.px * 2,
   },
   link: {
     color: theme.colors.gray.white.hex,

@@ -9,7 +9,7 @@ const styles = theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-    marginBottom: theme.spacing.xl * 2,
+    marginBottom: theme.spacing.xl.px * 2,
   },
   container: {
     flexBasis: '48%',
@@ -29,10 +29,10 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'space-between',
     background: theme.colors.gray.grayLightest.hex,
-    paddingTop: theme.spacing.m,
-    paddingBottom: theme.spacing.m,
-    paddingLeft: theme.spacing.l,
-    paddingRight: theme.spacing.l,
+    paddingTop: theme.spacing.m.px,
+    paddingBottom: theme.spacing.m.px,
+    paddingLeft: theme.spacing.l.px,
+    paddingRight: theme.spacing.l.px,
     borderTop: `1px solid ${ theme.colors.gray.grayLight.hex }`,
   },
   text: {
