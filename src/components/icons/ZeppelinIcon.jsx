@@ -10,7 +10,7 @@ const ZeppelinIcon = ({ className, width, height, fill, viewBox }) => (
     aria-labelledby="title"
     className={className}
   >
-    <title id="title">Zeppelin Icon</title>
+    <title id="title_zeppelin">Zeppelin Icon</title>
     <path
       fill={fill}
       d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5

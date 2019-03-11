@@ -10,7 +10,7 @@ const GithubIcon = ({ className, width, height, fill, viewBox }) => (
     aria-labelledby="title"
     className={className}
   >
-    <title id="title">Github Icon</title>
+    <title id="title_github">Github Icon</title>
     <g>
       <path
         clipRule="evenodd"

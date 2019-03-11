@@ -10,7 +10,7 @@ const TwitterIcon = ({ className, width, height, fill, viewBox }) => (
     aria-labelledby="title"
     className={className}
   >
-    <title id="title">Twitter Icon</title>
+    <title id="title_twitter">Twitter Icon</title>
     <rect width="200" height="200" fill="none" />
     <path
       fill={fill}
