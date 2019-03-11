@@ -30,7 +30,8 @@ module.exports = {
   },
   tabs: {
     normal: {
-      js: '<input type="text" class="zep-input">Some text</input>',
+      js:
+        '<div class="zep-tabs"><button class="zep-tab zep-button zep-tab--selected"><p class="zep-tab zep-tab--selected zep-tab--primary">tab 1</p></button><button class="zep-tab zep-button"><p class="zep-tab--label zep-tab--primary">Tab 2</p></button></div>',
       react: false,
       angular: false,
       vue: false,
