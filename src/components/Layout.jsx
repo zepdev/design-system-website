@@ -8,6 +8,7 @@ import withStyles from 'react-jss'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
+import CodeStyle from '../components/CodeStyle'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
@@ -72,12 +73,6 @@ const styles = theme => ({
     marginTop: 0,
     marginBottom: theme.spacing.xl.px,
   },
-  codeStyled: {
-    background: theme.colors.gray.grayLighter.hex,
-    color: theme.colors.gray.gray.hex,
-    padding: theme.spacing.l.px,
-    marginBottom: theme.spacing.l.px * 2,
-  },
   skipLink: {
     position: 'absolute',
     left: '-999em',
@@ -101,9 +96,6 @@ function Layout({ children, classes }) {
   const hrStyled = () => (
     <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
   )
-  const codeStyled = props => (
-    <pre className={classnames(classes.codeStyled, 'zep-typo--normal-7')} {...props} />
-  )
 
   const components = {
     h1: h1Styled,
@@ -111,7 +103,7 @@ function Layout({ children, classes }) {
     h3: h3Styled,
     p: pStyled,
     hr: hrStyled,
-    code: codeStyled,
+    code: CodeStyle,
   }
   return (
     <StaticQuery

@@ -26,11 +26,13 @@
     "gatsby-source-filesystem": "^2.0.23",
     "gatsby-transformer-remark": "^2.3.1",
     "gatsby-transformer-sharp": "^2.1.15",
+    "prism-react-renderer": "^0.1.6",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "react-jss": "^10.0.0-alpha.12",
+    "react-live": "^1.12.0",
     "sonarqube-scanner": "^2.4.0",
     "zeppelin-element-library": "^0.1.17"
   },
