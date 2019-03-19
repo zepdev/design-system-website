@@ -102,7 +102,7 @@ const codeTheme = {
 }
 
 export default ({ children, className, live, render }) => {
-  const language = className.replace(/language-/, '')
+  const language = className ? className.replace(/language-/, '') : 'html'
 
   if (live) {
     return (
