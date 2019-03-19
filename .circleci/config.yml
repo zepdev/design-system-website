@@ -127,7 +127,7 @@ workflows:
           requires:
             - test
       - deploy:  # deployment step only for development environment
-          bucket: zds-dev
+          bucket: com.zeppelin.zds.website.dev
           aws_region: eu-central-1
           cloudfront_distribution: ET351YZOMAVPH
           context: zds
