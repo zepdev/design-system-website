@@ -146,7 +146,7 @@ workflows:
               only:
                 - master
       - deploy:  # deployment step for live environment
-          bucket: zds-live
+          bucket: com.zeppelin.zds.website.live
           aws_region: eu-central-1
           cloudfront_distribution: E3N62GDZMDUN0M
           context: zds
