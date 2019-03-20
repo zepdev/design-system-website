@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import theme from '../data/theme'
 import withStyles from 'react-jss'
+import theme from '../data/theme'
 
 const styles = theme => ({
   root: {
@@ -37,20 +37,18 @@ const styles = theme => ({
   borderBottom: {
     borderBottom: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
   },
+  square: {
+    background: theme.colors.primary.indigoBlue.hex,
+  },
 })
 
-const Typography = ({ section, classes }) => {
-  const header =
-    section === 'basics'
-      ? ['specification', 'px', 'rem', 'weight']
-      : ['name', 'rem', 'px', 'specifications', 'actual size']
-  const content =
-    section === 'basics' ? theme.typography.basics : theme.typography.headings[section]
+const Spacing = ({ classes }) => {
+  const header = ['name', 'px', 'rem', 'actual size']
 
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">{`${ section } typography variations`}</caption>
+        <caption className="visually-hidden">Spacing Scale</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (
@@ -68,35 +66,27 @@ const Typography = ({ section, classes }) => {
           </tr>
         </thead>
         <tbody className={classes.tbody}>
-          {Object.keys(content).map(elem => (
+          {Object.keys(theme.spacing).map(elem => (
             <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
-                  className={classnames(
-                    classes.th,
-                    classes.borderBottom,
-                    item !== 'actual size' ? 'zep-typo--normal-7' : `${ elem }`,
-                    item === 'actual size' && section === 'special' ? null : classes.lowercase
-                  )}
-                  key={`typography${ idx }`}
+                  className={classnames(classes.th, classes.borderBottom, 'zep-typo--normal-7')}
+                  key={`spacing${ idx }`}
                   scope={idx === 0 ? 'row' : null}
                 >
                   {item === 'actual size' ? (
-                    'Lorem Ipsum'
+                    <div
+                      style={{
+                        width: theme.spacing[elem].px,
+                        height: theme.spacing[elem].px,
+                        color: 'green',
+                      }}
+                      className={classes.square}
+                    />
                   ) : item === 'name' ? (
-                    elem
-                  ) : item === 'specifications' ? (
-                    <span>
-                      {content[elem][item].map(p => (
-                        <p key={`specification_${ p }`} className="zep-typo--normal-7">
-                          {p}
-                        </p>
-                      ))}
-                    </span>
-                  ) : content[elem][item] ? (
-                    content[elem][item]
+                    `zep-spacing--${ elem }`
                   ) : (
-                    '-'
+                    theme.spacing[elem][item]
                   )}
                 </td>
               ))}
@@ -108,9 +98,8 @@ const Typography = ({ section, classes }) => {
   )
 }
 
-Typography.propTypes = {
+Spacing.propTypes = {
   classes: PropTypes.object.isRequired,
-  section: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(Typography)
+export default withStyles(styles)(Spacing)

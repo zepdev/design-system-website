@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
+import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/tag'
 import classnames from 'classnames'
@@ -7,6 +8,7 @@ import withStyles from 'react-jss'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
+import CodeStyle from '../components/CodeStyle'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
@@ -58,18 +60,23 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: theme.spacing.xxl,
+    marginBottom: theme.spacing.xxl.px,
   },
   hrStyled: {
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     marginTop: 0,
-    marginBottom: theme.spacing.xxl,
+    marginBottom: theme.spacing.xxl.px,
   },
   hStyled: {
     marginTop: 0,
-    marginBottom: theme.spacing.xl,
+    marginBottom: theme.spacing.xl.px,
+  },
+  skipLink: {
+    position: 'absolute',
+    left: '-999em',
+    width: '990em',
   },
 })
 
@@ -96,6 +103,7 @@ function Layout({ children, classes }) {
     h3: h3Styled,
     p: pStyled,
     hr: hrStyled,
+    code: CodeStyle,
   }
   return (
     <StaticQuery
@@ -114,21 +122,25 @@ function Layout({ children, classes }) {
       `}
       render={data => {
         return (
-          <div className={classes.root}>
-            <Sidebar isMenuOpen={isMenuOpen} />
-            <div className={classes.content}>
-              <Header
-                siteTitle={data.mdx.frontmatter.title}
-                handleMenu={() => {
-                  setMenu(!isMenuOpen)
-                }}
-              />
-              <MDXProvider components={components}>
-                <main className={classes.main}>{children}</main>
-              </MDXProvider>
-              <Footer />
+          <>
+            <SkipNavLink className={classes.skipLink} />
+            <div className={classes.root}>
+              <Sidebar isMenuOpen={isMenuOpen} />
+              <div className={classes.content}>
+                <Header
+                  siteTitle={data.mdx.frontmatter.title}
+                  handleMenu={() => {
+                    setMenu(!isMenuOpen)
+                  }}
+                />
+                <SkipNavContent />
+                <MDXProvider components={components}>
+                  <main className={classes.main}>{children}</main>
+                </MDXProvider>
+                <Footer />
+              </div>
             </div>
-          </div>
+          </>
         )
       }}
     />

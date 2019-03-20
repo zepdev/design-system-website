@@ -2,13 +2,13 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../data/theme'
-import DownloadCss from '../DownloadCss'
+import Typefaces from '../Typefaces'
 
-describe('DownloadCss', () => {
+describe('Typefaces', () => {
   it('renders correctly', () => {
     const component = render(
       <ThemeProvider theme={theme}>
-        <DownloadCss />
+        <Typefaces />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

@@ -10,7 +10,7 @@ const MenuIcon = ({ className, width, height, fill, viewBox }) => (
     aria-labelledby="title"
     className={className}
   >
-    <title id="title">Menu Icon</title>
+    <title id="title_menu">Menu Icon</title>
     <path d="M0 0h24v24H0z" fill="none" />
     <path fill={fill} d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
   </svg>

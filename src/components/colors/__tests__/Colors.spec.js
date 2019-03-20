@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import Colors from '../Colors'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../../data/theme'
+import Colors from '../Colors'
 
 describe('Colors', () => {
   it('renders correctly', () => {

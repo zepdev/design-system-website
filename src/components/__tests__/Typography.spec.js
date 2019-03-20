@@ -2,13 +2,16 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../data/theme'
-import DownloadCss from '../DownloadCss'
+import Typography from '../Typography'
 
-describe('DownloadCss', () => {
+describe('Typography', () => {
   it('renders correctly', () => {
+    const mockProps = {
+      section: 'basics',
+    }
     const component = render(
       <ThemeProvider theme={theme}>
-        <DownloadCss />
+        <Typography {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

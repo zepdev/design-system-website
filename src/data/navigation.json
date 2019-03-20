@@ -38,6 +38,12 @@
     "subnav": {
       "button": {
         "title": "Button"
+      },
+      "input": {
+        "title": "Input"
+      },
+      "tabs": {
+        "title": "Tabs"
       }
     }
   },

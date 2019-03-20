@@ -3,4 +3,77 @@ label: Getting Started
 title: Developers
 ---
 
+import { Link } from 'gatsby'
+
 # Developers
+
+To access the styleguide, first download the Zeppelin Element Library by your preferred method:
+
+<Link to={'/content/download/'} className="zep-button zep-button__full">
+  Download
+</Link>
+
+## Basic Usage
+
+To get started simply import the files you want to use in any project.
+
+```js
+import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
+
+import 'zeppelin-element-library/bundle/zeppelin-element-library.js'
+```
+
+All available css classes and javascript can be found under the Elements and Components sections of this website.
+Simply use the css classes as normal.
+
+```js
+<button class="zep-button">My Button</>
+```
+
+You can also use them along with other styling solutions. For example, in React;
+
+```jsx
+function MyButton({onClick}){
+    return(
+        <button className={classes.button,"zep-button"} onClick={onClick}>React Button</>
+    )
+}
+
+export default MyButton
+```
+
+## Using theme.js
+
+Also available from Zeppelin Element Library is a javascript object called theme. The theme file contains
+everything outlined in the Guidelines section. These variables can easily be accessed and used in your project.
+
+JSS example;
+
+```jsx
+import React from 'react'
+import withStyles from 'react-jss'
+
+const styles = theme => ({
+  root: {
+    marginBottom: theme.spacing.l.px * 2,
+  },
+  link: {
+    color: theme.colors.gray.white.hex,
+    background: theme.colors.primary.indigoBlue.hex,
+    padding: '12px 16px',
+    cursor: 'pointer',
+  },
+})
+
+const LinkComponent = ({ classes }) => {
+  return (
+    <div className={classes.root}>
+      <a className={classes.link} href="">
+        MyLink
+      </a>
+    </div>
+  )
+}
+
+export default withStyles(styles)(LinkComponent)
+```
