@@ -101,13 +101,18 @@ jobs:
           overwrite: true
       - aws-s3/sync:
           from: badges
-          to: 's3://zds-badges/ZDS/'
+          to: "s3://com.zeppelin.zds.assets/badges/zds"
           overwrite: true
       - run:
           name: Invalidate CloudFront Distribution Cache
           command: |
             aws cloudfront create-invalidation \
             --distribution-id << parameters.cloudfront_distribution >> --paths "/*"
+      - run:
+          name: Invalidate Assets CloudFront Distribution Cache for badges
+          command: |
+            aws cloudfront create-invalidation \
+            --distribution-id E3BEUB4XQDLXXN --paths "/badges/zds/*"
 
 workflows:
   version: 2
