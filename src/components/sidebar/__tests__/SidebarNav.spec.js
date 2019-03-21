@@ -4,7 +4,10 @@ import SidebarNav from '../SidebarNav'
 
 describe('SidebarNav', () => {
   it('renders correctly', () => {
-    const component = render(<SidebarNav />)
+    const mockProps = {
+      setMenu: () => {},
+    }
+    const component = render(<SidebarNav {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

@@ -14,15 +14,26 @@ const styles = theme => ({
 })
 
 const Download = ({ classes }) => {
+  const handleDownload = () => {
+    let a = document.createElement('a')
+    a.href =
+      'https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css'
+    a.download = item.url.split('/').pop()
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+  }
   return (
     <div className={classes.root}>
-      <a
+      <Button
         className={classes.link}
-        download
-        href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets//ZEL/zeppelin-element-library.css"
+        color="primary"
+        onClick={handleDownload}
+        download="zeppelin-element-library.css"
+        href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css"
       >
         Download
-      </a>
+      </Button>
     </div>
   )
 }

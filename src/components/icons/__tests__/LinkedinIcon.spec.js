@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import DribbleIcon from '../DribbleIcon'
+import LinkedinIcon from '../LinkedinIcon'
 
-describe('DribbleIcon', () => {
+describe('LinkedinIcon', () => {
   it('renders correctly', () => {
-    const component = render(<DribbleIcon />)
+    const component = render(<LinkedinIcon />)
     expect(component).toMatchSnapshot()
   })
 })

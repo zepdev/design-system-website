@@ -8,6 +8,7 @@ describe('Sidebar', () => {
   it('renders correctly', () => {
     const mockProps = {
       isMenuOpen: true,
+      setMenu: () => {},
     }
     const component = render(
       <ThemeProvider theme={theme}>

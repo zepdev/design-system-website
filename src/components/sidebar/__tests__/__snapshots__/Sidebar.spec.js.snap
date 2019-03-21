@@ -109,28 +109,28 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             <li>
               <button
-                class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
+                class="zep-button zep-button--full SidebarNavItem-button-0-1-9"
               >
                 Getting started
               </button>
             </li>
             <li>
               <button
-                class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
+                class="zep-button zep-button--full SidebarNavItem-button-0-1-9"
               >
                 Guidelines
               </button>
             </li>
             <li>
               <button
-                class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
+                class="zep-button zep-button--full SidebarNavItem-button-0-1-9"
               >
                 Elements
               </button>
             </li>
             <li>
               <a
-                class="zep-button zep-button__full"
+                class="zep-button zep-button--full"
                 href="/content/download"
               >
                 Download
@@ -246,28 +246,28 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         >
           <li>
             <button
-              class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
+              class="zep-button zep-button--full SidebarNavItem-button-0-1-9"
             >
               Getting started
             </button>
           </li>
           <li>
             <button
-              class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
+              class="zep-button zep-button--full SidebarNavItem-button-0-1-9"
             >
               Guidelines
             </button>
           </li>
           <li>
             <button
-              class="zep-button zep-button__full SidebarNavItem-button-0-1-9"
+              class="zep-button zep-button--full SidebarNavItem-button-0-1-9"
             >
               Elements
             </button>
           </li>
           <li>
             <a
-              class="zep-button zep-button__full"
+              class="zep-button zep-button--full"
               href="/content/download"
             >
               Download

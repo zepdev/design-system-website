@@ -7,6 +7,7 @@ describe('SidebarNavItem', () => {
     const mockProps = {
       item: {
         title: 'sectionTitle',
+        setMenu: () => {},
         subnav: {
           subSection: {
             title: 'subSectionTitle',
@@ -22,6 +23,7 @@ describe('SidebarNavItem', () => {
     const mockProps = {
       item: {
         title: 'sectionTitle',
+        setMenu: () => {},
       },
     }
     const { queryByTestId, getByText } = render(
@@ -37,6 +39,7 @@ describe('SidebarNavItem', () => {
     const mockProps = {
       item: {
         title: 'sectionTitle',
+        setMenu: () => {},
         subnav: {
           subSection: {
             title: 'subSectionTitle',

@@ -2,14 +2,15 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
 import classnames from 'classnames'
-import Code from './Code'
+import ButtonBase from './button/ButtonBase'
+import CodeStyle from './CodeStyle'
 import Tabs from './tabs/Tabs'
 import Tab from './tabs/Tab'
 import CopyIcon from './icons/CopyIcon'
 
 const styles = theme => ({
   root: {
-    marginBottom: 60,
+    marginBottom: `${theme.spacing.xxl.rem}rem`,
     background: theme.colors.gray.grayMidDark.hex,
   },
   tabs: {
@@ -18,19 +19,28 @@ const styles = theme => ({
   },
   tabsContainer: {
     display: 'flex',
-    borderBottom: `1px solid ${ theme.colors.gray.white.hex }`,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderBottom: `1px solid ${theme.colors.gray.white.hex}`,
     background: theme.colors.gray.grayMidDark.hex,
   },
   icon: {
     color: theme.colors.gray.white.hex,
   },
   button: {
-    padding: 15,
+    padding: `${theme.spacing.m.rem}rem`,
     float: 'right',
     color: theme.colors.gray.white.hex,
   },
   text: {
     margin: 0,
+  },
+  label: {
+    padding: 0,
+  },
+  noTabs: {
+    color: theme.colors.gray.white.hex,
+    paddingLeft: `${theme.spacing.m.rem}rem`,
   },
 })
 
@@ -38,6 +48,7 @@ function CodeBlock({ element, classes }) {
   const [value, setValue] = useState(0)
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
+  const noTabs = !element.react && !element.angular && !element.vue
 
   function handleCopy() {
     if (document.queryCommandSupported('copy')) {
@@ -66,32 +77,53 @@ function CodeBlock({ element, classes }) {
   return (
     <div className={classes.root}>
       <div className={classes.tabsContainer}>
-        <Tabs
-          value={value}
-          onClick={handleClick}
-          className={classes.tabs}
-          data-testid="codeBlockTab"
-        >
-          <Tab label="Vanilla JS" color="secondary" />
-          {element.react && (
-            <Tab label="React" color="secondary" data-testid="codeBlockTab_React" />
-          )}
-          {element.angular && (
-            <Tab label="Angular" color="secondary" data-testid="codeBlockTab_Angular" />
-          )}
-          {element.vue && <Tab label="Vue" color="secondary" data-testid="codeBlockTab_Vue" />}
-        </Tabs>
-        <button
+        {noTabs && (
+          <p className={classnames(classes.noTabs, 'zep-typo--normal-2')}>
+            Vanilla JS
+          </p>
+        )}
+        {!noTabs && (
+          <Tabs
+            value={value}
+            onClick={handleClick}
+            className={classes.tabs}
+            data-testid="codeBlockTab"
+          >
+            <Tab label="Vanilla JS" color="secondary" />
+            {element.react && (
+              <Tab
+                label="React"
+                color="secondary"
+                data-testid="codeBlockTab_React"
+              />
+            )}
+            {element.angular && (
+              <Tab
+                label="Angular"
+                color="secondary"
+                data-testid="codeBlockTab_Angular"
+              />
+            )}
+            {element.vue && (
+              <Tab
+                label="Vue"
+                color="secondary"
+                data-testid="codeBlockTab_Vue"
+              />
+            )}
+          </Tabs>
+        )}
+        <ButtonBase
           data-testid="codeBlockButton"
           onClick={handleCopy}
-          className={classnames('zep-button', classes.button)}
+          className={classes.button}
         >
           {!isTextCopied && <CopyIcon className={classes.icon} />}
           {isTextCopied && 'Copied!'}
           {copyError && 'Error!'}
-        </button>
+        </ButtonBase>
       </div>
-      <Code code={element.js} />
+      <CodeStyle>{element.js.join('\n')}</CodeStyle>
     </div>
   )
 }

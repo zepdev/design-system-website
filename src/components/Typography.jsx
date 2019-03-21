@@ -14,7 +14,7 @@ const styles = theme => ({
     borderCollapse: 'collapse',
   },
   th: {
-    padding: `${ theme.spacing.m.px }px ${ theme.spacing.l.px }px`,
+    padding: `${theme.spacing.m.px}px ${theme.spacing.l.px}px`,
     textAlign: 'left',
     display: 'table-cell',
   },
@@ -35,7 +35,7 @@ const styles = theme => ({
     textTransform: 'capitalize',
   },
   borderBottom: {
-    borderBottom: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
+    borderBottom: `1px solid ${theme.colors.gray.grayLighter.hex}`,
   },
 })
 
@@ -45,22 +45,24 @@ const Typography = ({ section, classes }) => {
       ? ['specification', 'px', 'rem', 'weight']
       : ['name', 'rem', 'px', 'specifications', 'actual size']
   const content =
-    section === 'basics' ? theme.typography.basics : theme.typography.headings[section]
+    section === 'basics'
+      ? theme.typography.basics
+      : theme.typography.headings[section]
 
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">{`${ section } typography variations`}</caption>
+        <caption className="visually-hidden">{`${section} typography variations`}</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (
               <th
                 scope="col"
-                className={classnames(classes.th, 'zep-typo--normal-8', {
+                className={classnames(classes.th, 'zep-typo--normal-1', {
                   [classes.lowercase]: elem === 'rem' || elem === 'px',
                   [classes.capitalize]: elem !== 'rem' && elem !== 'px',
                 })}
-                key={`header_${ elem }`}
+                key={`header_${elem}`}
               >
                 {elem}
               </th>
@@ -69,16 +71,18 @@ const Typography = ({ section, classes }) => {
         </thead>
         <tbody className={classes.tbody}>
           {Object.keys(content).map(elem => (
-            <tr key={`row_${ elem }`} className={classes.tr}>
+            <tr key={`row_${elem}`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
                   className={classnames(
                     classes.th,
                     classes.borderBottom,
-                    item !== 'actual size' ? 'zep-typo--normal-7' : `${ elem }`,
-                    item === 'actual size' && section === 'special' ? null : classes.lowercase
+                    item !== 'actual size' ? 'zep-typo--normal-2' : `${elem}`,
+                    item === 'actual size' && section === 'special'
+                      ? null
+                      : classes.lowercase
                   )}
-                  key={`typography${ idx }`}
+                  key={`typography${idx}`}
                   scope={idx === 0 ? 'row' : null}
                 >
                   {item === 'actual size' ? (
@@ -88,7 +92,10 @@ const Typography = ({ section, classes }) => {
                   ) : item === 'specifications' ? (
                     <span>
                       {content[elem][item].map(p => (
-                        <p key={`specification_${ p }`} className="zep-typo--normal-7">
+                        <p
+                          key={`specification_${p}`}
+                          className="zep-typo--normal-2"
+                        >
                           {p}
                         </p>
                       ))}

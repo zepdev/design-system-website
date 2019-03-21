@@ -10,28 +10,28 @@ Object {
       >
         <li>
           <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+            class="zep-button zep-button--full SidebarNavItem-button-0-1-2"
           >
             Getting started
           </button>
         </li>
         <li>
           <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+            class="zep-button zep-button--full SidebarNavItem-button-0-1-2"
           >
             Guidelines
           </button>
         </li>
         <li>
           <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+            class="zep-button zep-button--full SidebarNavItem-button-0-1-2"
           >
             Elements
           </button>
         </li>
         <li>
           <a
-            class="zep-button zep-button__full"
+            class="zep-button zep-button--full"
             href="/content/download"
           >
             Download
@@ -46,28 +46,28 @@ Object {
     >
       <li>
         <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+          class="zep-button zep-button--full SidebarNavItem-button-0-1-2"
         >
           Getting started
         </button>
       </li>
       <li>
         <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+          class="zep-button zep-button--full SidebarNavItem-button-0-1-2"
         >
           Guidelines
         </button>
       </li>
       <li>
         <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+          class="zep-button zep-button--full SidebarNavItem-button-0-1-2"
         >
           Elements
         </button>
       </li>
       <li>
         <a
-          class="zep-button zep-button__full"
+          class="zep-button zep-button--full"
           href="/content/download"
         >
           Download

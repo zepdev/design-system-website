@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import withStyles from 'react-jss'
+import ButtonBase from './button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
-import DribbleIcon from './icons/DribbleIcon'
-import MediumIcon from './icons/MediumIcon'
+import LinkedinIcon from './icons/LinkedinIcon'
+import XingIcon from './icons/XingIcon'
 import TwitterIcon from './icons/TwitterIcon'
-import GithubIcon from './icons/GithubIcon'
 
 const styles = theme => ({
   root: {
@@ -115,10 +115,23 @@ const Footer = ({ classes }) => (
           </Link>
         </div>
         <div className={classes.containerIcons}>
-          <DribbleIcon className={classes.icon} />
-          <MediumIcon className={classes.icon} />
-          <TwitterIcon className={classes.icon} />
-          <GithubIcon className={classes.icon} />
+          <ButtonBase
+            href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
+            target="_blank"
+            rel="noopener"
+          >
+            <LinkedinIcon className={classes.icon} />
+          </ButtonBase>
+          <ButtonBase
+            href="https://www.xing.com/company/zeppelinkonzern"
+            target="_blank"
+            rel="noopener"
+          >
+            <XingIcon className={classes.icon} />
+          </ButtonBase>
+          <ButtonBase href="https://twitter.com/Zeppelin_Group" target="_blank" rel="noopener">
+            <TwitterIcon className={classes.icon} />
+          </ButtonBase>
         </div>
       </div>
     </div>
