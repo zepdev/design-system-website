@@ -27,7 +27,7 @@ const styles = theme => ({
     border: 'none',
     display: 'none',
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
       flexBasis: '80%',
       background: theme.colors.gray.white.hex,

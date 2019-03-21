@@ -16,7 +16,7 @@ const SidebarNav = ({ setMenu, classes }) => (
   <ul className={classes.list}>
     {Object.keys(navigation).map((elem, idx) => (
       <SidebarNavItem
-        key={`li-${idx}`}
+        key={`li-${ idx }`}
         item={navigation[elem]}
         setMenu={setMenu}
       />

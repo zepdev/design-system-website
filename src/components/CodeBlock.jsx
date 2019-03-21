@@ -10,7 +10,7 @@ import CopyIcon from './icons/CopyIcon'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${theme.spacing.xxl.rem}rem`,
+    marginBottom: `$ {theme.spacing.xxl.rem}rem`,
     background: theme.colors.gray.grayMidDark.hex,
   },
   tabs: {
@@ -21,14 +21,14 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    borderBottom: `1px solid ${theme.colors.gray.white.hex}`,
+    borderBottom: `1px solid ${ theme.colors.gray.white.hex }`,
     background: theme.colors.gray.grayMidDark.hex,
   },
   icon: {
     color: theme.colors.gray.white.hex,
   },
   button: {
-    padding: `${theme.spacing.m.rem}rem`,
+    padding: `${ theme.spacing.m.rem }rem`,
     float: 'right',
     color: theme.colors.gray.white.hex,
   },
@@ -40,7 +40,7 @@ const styles = theme => ({
   },
   noTabs: {
     color: theme.colors.gray.white.hex,
-    paddingLeft: `${theme.spacing.m.rem}rem`,
+    paddingLeft: `${ theme.spacing.m.rem }rem`,
   },
 })
 
