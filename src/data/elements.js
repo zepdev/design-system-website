@@ -24,6 +24,12 @@ module.exports = {
       'zep-typo--special-4': {
         px: '24px',
         rem: '1.5rem',
+        specifications: [
+          'font-family: "Teko"',
+          'font-weight: 400 (regular)',
+          'line-height: 1.5 (24px)',
+          'text-transform: uppercase',
+        ],
       },
     },
     structure: {

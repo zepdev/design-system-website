@@ -23,7 +23,7 @@ const styles = theme => ({
     marginBottom: theme.spacing.s.px,
     position: 'relative',
     cursor: 'pointer',
-    border: `1px solid ${theme.colors.gray.grayMid.hex}`,
+    border: `1px solid ${ theme.colors.gray.grayMid.hex }`,
     '&:hover, &:focus': {
       zIndex: 1,
       '& $backdrop': {

@@ -14,9 +14,6 @@ const codeTheme = {
     marginBottom: theme.spacing.xl.px * 2,
     overflowX: 'auto',
     whiteSpace: 'pre-wrap',
-    whiteSpace: '-moz-pre-wrap',
-    whiteSpace: '-pre-wrap',
-    whiteSpace: '-o-pre-wrap',
     wordWrap: 'break-word',
   },
   styles: [

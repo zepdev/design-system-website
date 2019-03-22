@@ -1,37 +1,58 @@
 import React from 'react'
 import withStyles from 'react-jss'
+import Button from './button/Button'
 
 const styles = theme => ({
   root: {
     marginBottom: theme.spacing.l.px * 2,
   },
-  link: {
-    color: theme.colors.gray.white.hex,
-    background: theme.colors.primary.indigoBlue.hex,
-    padding: '12px 16px',
-    cursor: 'pointer',
-  },
 })
 
 const Download = ({ classes }) => {
   const handleDownload = () => {
-    let a = document.createElement('a')
-    a.href =
-      'https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css'
-    a.download = item.url.split('/').pop()
-    document.body.appendChild(a)
-    a.click()
-    document.body.removeChild(a)
+    // const data = null
+    // fetch(
+    //   'https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css',
+    //   {
+    //     mode: 'no-cors',
+    //   }
+    // )
+    //   .then(resp => resp.json())
+    //   .then(function(datum) {
+    //     let data = datum
+    //   })
+    // const filename = 'zeppelin-element-library.css'
+    // const blob = new Blob([data], { type: 'application/octet-stream' })
+    // if (typeof window.navigator.msSaveBlob !== 'undefined') {
+    //   // IE workaround for "HTML7007: One or more blob URLs were
+    //   // revoked by closing the blob for which they were created.
+    //   // These URLs will no longer resolve as the data backing
+    //   // the URL has been freed."
+    //   window.navigator.msSaveBlob(blob, filename)
+    // } else {
+    //   let blobURL = window.URL.createObjectURL(blob)
+    //   let tempLink = document.createElement('a')
+    //   tempLink.style.display = 'none'
+    //   tempLink.href = blobURL
+    //   tempLink.setAttribute('download', filename)
+
+    //   // Safari thinks _blank anchor are pop ups. We only want to set _blank
+    //   // target if the browser does not support the HTML5 download attribute.
+    //   // This allows you to download files in desktop safari if pop up blocking
+    //   // is enabled.
+    //   if (typeof tempLink.download === 'undefined') {
+    //     tempLink.setAttribute('target', '_blank')
+    //   }
+
+    //   document.body.appendChild(tempLink)
+    //   tempLink.click()
+    //   document.body.removeChild(tempLink)
+    //   window.URL.revokeObjectURL(blobURL)
+    // }
   }
   return (
     <div className={classes.root}>
-      <Button
-        className={classes.link}
-        color="primary"
-        onClick={handleDownload}
-        download="zeppelin-element-library.css"
-        href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css"
-      >
+      <Button color="primary" onClick={handleDownload}>
         Download
       </Button>
     </div>

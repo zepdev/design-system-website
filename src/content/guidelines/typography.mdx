@@ -3,8 +3,9 @@ label: Guidelines
 title: Typography
 ---
 
-import Typography from '../../components/Typography.jsx'
+import Table from '../../components/table/Table.jsx'
 import Typefaces from '../../components/Typefaces.jsx'
+import theme from '../../data/theme.js'
 
 # Typography
 
@@ -20,7 +21,11 @@ These are the official Typography styles for Zeppelin.
 
 ## Basics
 
-<Typography section="basics" />
+<Table
+  title="basics typography variations"
+  header={['specification', 'px', 'rem', 'weight']}
+  content={theme.typography.basics}
+/>
 
 ---
 
@@ -28,12 +33,12 @@ These are the official Typography styles for Zeppelin.
 
 ### Normal Sizes
 
-<Typography section="normal" />
+<Table title="normal typography variations" header={['name', 'rem', 'px', 'specifications', 'actual size']} content={theme.typography.headings.normal}/>
 
 ### Display Sizes
 
-<Typography section="display" />
+<Table title="display typography variations" header={['name', 'rem', 'px', 'specifications', 'actual size']} content={theme.typography.headings.display}/>
 
 ### Special Sizes
 
-<Typography section="special" />
+<Table title="special typography variations" header={['name', 'rem', 'px', 'specifications', 'actual size']} content={theme.typography.headings.special}/>

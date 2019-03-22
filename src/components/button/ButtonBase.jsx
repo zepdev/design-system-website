@@ -46,7 +46,7 @@ function ButtonBase({
     },
     classNameProp
   )
-  console.log('click')
+
   return href ? (
     <a className={className} href={href} {...other}>
       {children}

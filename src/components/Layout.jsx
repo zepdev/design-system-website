@@ -25,19 +25,19 @@ const styles = theme => ({
     padding: '1rem 1.5rem',
     margin: `46px 0 1.5rem`,
   },
-  [`@media (min-width: ${theme.breakpoints.xs})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     main: {
       padding: '1.5rem 2rem',
       margin: `68px 0 2rem`,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
       padding: '2rem 3rem',
       margin: `84px 0 3rem`,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     main: {
       margin: `104px 0 3rem`,
     },
@@ -45,12 +45,12 @@ const styles = theme => ({
       marginLeft: 224,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.l})`]: {
+  [`@media (min-width: ${ theme.breakpoints.l })`]: {
     content: {
       marginLeft: 276,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     main: {
       padding: '3rem',
       margin: `136px 0 3rem`,
