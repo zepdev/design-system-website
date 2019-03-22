@@ -14,7 +14,9 @@ module.exports = {
       secondary: {
         js: [
           `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
-          `<button type="button" class="zep-button zep-button-secondary" disabled>disabled</button>`,
+          `<button type="button" class="zep-button zep-button-secondary" disabled>
+            disabled
+          </button>`,
         ],
         react: false,
         angular: false,

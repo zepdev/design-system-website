@@ -10,7 +10,7 @@ import CopyIcon from './icons/CopyIcon'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${ theme.spacing.xxl.rem }rem`,
+    marginBottom: `$ {theme.spacing.xxl.rem}rem`,
     background: theme.colors.gray.grayMidDark.hex,
   },
   tabs: {
@@ -77,11 +77,7 @@ function CodeBlock({ element, classes }) {
   return (
     <div className={classes.root}>
       <div className={classes.tabsContainer}>
-        {noTabs && (
-          <p className={classnames(classes.noTabs, 'zep-typo--normal-2')}>
-            Vanilla JS
-          </p>
-        )}
+        {noTabs && <p className={classnames(classes.noTabs, 'zep-typo--normal-2')}>Vanilla JS</p>}
         {!noTabs && (
           <Tabs
             value={value}
@@ -91,33 +87,15 @@ function CodeBlock({ element, classes }) {
           >
             <Tab label="Vanilla JS" color="secondary" />
             {element.react && (
-              <Tab
-                label="React"
-                color="secondary"
-                data-testid="codeBlockTab_React"
-              />
+              <Tab label="React" color="secondary" data-testid="codeBlockTab_React" />
             )}
             {element.angular && (
-              <Tab
-                label="Angular"
-                color="secondary"
-                data-testid="codeBlockTab_Angular"
-              />
+              <Tab label="Angular" color="secondary" data-testid="codeBlockTab_Angular" />
             )}
-            {element.vue && (
-              <Tab
-                label="Vue"
-                color="secondary"
-                data-testid="codeBlockTab_Vue"
-              />
-            )}
+            {element.vue && <Tab label="Vue" color="secondary" data-testid="codeBlockTab_Vue" />}
           </Tabs>
         )}
-        <ButtonBase
-          data-testid="codeBlockButton"
-          onClick={handleCopy}
-          className={classes.button}
-        >
+        <ButtonBase data-testid="codeBlockButton" onClick={handleCopy} className={classes.button}>
           {!isTextCopied && <CopyIcon className={classes.icon} />}
           {isTextCopied && 'Copied!'}
           {copyError && 'Error!'}
