@@ -69,21 +69,13 @@ module.exports = {
   tag: {
     demo: {
       primary: {
-        js: [
-          `<button type="button" class="zep-button zep-button-primary">primary</button>`,
-          `<button type="button" class="zep-button zep-button-primary" disabled>disabled</button>`,
-        ],
+        js: [`<span class="zep-tag zep-button-primary">tag</span>`],
         react: false,
         angular: false,
         vue: false,
       },
-      secondary: {
-        js: [
-          `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
-          `<button type="button" class="zep-button zep-button-secondary" disabled>
-            disabled
-          </button>`,
-        ],
+      hover: {
+        js: [`<span class="zep-tag-hover">hover</span>`],
         react: false,
         angular: false,
         vue: false,
