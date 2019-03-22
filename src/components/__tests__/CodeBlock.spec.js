@@ -12,7 +12,9 @@ jest.useFakeTimers()
 describe('CodeBlock', () => {
   it('renders correctly', () => {
     const mockProps = {
-      element: {},
+      element: {
+        js: ['mockCode'],
+      },
     }
     const component = render(
       <ThemeProvider theme={theme}>
@@ -36,7 +38,9 @@ describe('CodeBlock', () => {
       }
     })
     const mockProps = {
-      element: {},
+      element: {
+        js: ['mockCode'],
+      },
     }
     const { getByTestId } = render(
       <ThemeProvider theme={theme}>
@@ -67,7 +71,9 @@ describe('CodeBlock', () => {
       }
     })
     const mockProps = {
-      element: {},
+      element: {
+        js: ['mockCode'],
+      },
     }
     const { getByTestId } = render(
       <ThemeProvider theme={theme}>
@@ -85,7 +91,12 @@ describe('CodeBlock', () => {
   })
   it('changes the tab correctly', () => {
     const mockProps = {
-      element: { js: 'mockJsString', react: true, angular: false, vue: false },
+      element: {
+        js: ['mockJsString'],
+        react: true,
+        angular: false,
+        vue: false,
+      },
     }
     const { getByText, getByTestId } = render(
       <ThemeProvider theme={theme}>
@@ -98,7 +109,7 @@ describe('CodeBlock', () => {
   })
   it('renders react tab when true', () => {
     const mockProps = {
-      element: { js: 'mockJsString', react: true, angular: true, vue: true },
+      element: { js: ['mockJsString'], react: true, angular: true, vue: true },
     }
     const { getByText, getByTestId } = render(
       <ThemeProvider theme={theme}>
@@ -111,7 +122,7 @@ describe('CodeBlock', () => {
   })
   it('renders angular tab when true', () => {
     const mockProps = {
-      element: { js: 'mockJsString', react: true, angular: true, vue: true },
+      element: { js: ['mockJsString'], react: true, angular: true, vue: true },
     }
     const { getByText, getByTestId } = render(
       <ThemeProvider theme={theme}>
@@ -124,7 +135,7 @@ describe('CodeBlock', () => {
   })
   it('renders vue tab when true', () => {
     const mockProps = {
-      element: { js: 'mockJsString', react: true, angular: true, vue: true },
+      element: { js: ['mockJsString'], react: true, angular: true, vue: true },
     }
     const { getByText, getByTestId } = render(
       <ThemeProvider theme={theme}>
@@ -137,7 +148,12 @@ describe('CodeBlock', () => {
   })
   it('does not render extra tabs when false', () => {
     const mockProps = {
-      element: { js: 'mockJsString', react: false, angular: false, vue: false },
+      element: {
+        js: ['mockJsString'],
+        react: false,
+        angular: false,
+        vue: false,
+      },
     }
     const { queryByTestId } = render(
       <ThemeProvider theme={theme}>

@@ -7,9 +7,31 @@ Object {
     <div>
       <li>
         <button
-          class="zep-button zep-button--full SidebarNavItem-button-0-1-1"
+          class="ButtonBase-button-0-1-8 zep-button--full SidebarNavItem-button-0-1-1 zep-typo--normal-3"
         >
           sectionTitle
+          <svg
+            aria-labelledby="title"
+            class="SidebarNavItem-icon-0-1-5 SidebarNavItem-iconReset-0-1-7"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Arrow Down Icon
+            </title>
+            <path
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+              fill="currentColor"
+            />
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+          </svg>
         </button>
       </li>
     </div>
@@ -17,9 +39,31 @@ Object {
   "container": <div>
     <li>
       <button
-        class="zep-button zep-button--full SidebarNavItem-button-0-1-1"
+        class="ButtonBase-button-0-1-8 zep-button--full SidebarNavItem-button-0-1-1 zep-typo--normal-3"
       >
         sectionTitle
+        <svg
+          aria-labelledby="title"
+          class="SidebarNavItem-icon-0-1-5 SidebarNavItem-iconReset-0-1-7"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_copy"
+          >
+            Arrow Down Icon
+          </title>
+          <path
+            d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+            fill="currentColor"
+          />
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+        </svg>
       </button>
     </li>
   </div>,

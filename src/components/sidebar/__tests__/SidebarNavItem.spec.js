@@ -1,13 +1,15 @@
 import React from 'react'
 import { render, fireEvent } from 'react-testing-library'
+import { ThemeProvider } from 'react-jss'
+import theme from '../../../data/theme'
 import SidebarNavItem from '../SidebarNavItem'
 
 describe('SidebarNavItem', () => {
   it('renders correctly', () => {
     const mockProps = {
+      setMenu: jest.fn(),
       item: {
         title: 'sectionTitle',
-        setMenu: () => {},
         subnav: {
           subSection: {
             title: 'subSectionTitle',
@@ -15,19 +17,25 @@ describe('SidebarNavItem', () => {
         },
       },
     }
-    const component = render(<SidebarNavItem {...mockProps} />)
+    const component = render(
+      <ThemeProvider theme={theme}>
+        <SidebarNavItem {...mockProps} />
+      </ThemeProvider>
+    )
     expect(component).toMatchSnapshot()
   })
 
   it('does not render sub-nav section when there is no sub-nav', () => {
     const mockProps = {
+      setMenu: jest.fn(),
       item: {
         title: 'sectionTitle',
-        setMenu: () => {},
       },
     }
     const { queryByTestId, getByText } = render(
-      <SidebarNavItem {...mockProps} />
+      <ThemeProvider theme={theme}>
+        <SidebarNavItem {...mockProps} />
+      </ThemeProvider>
     )
     // set isButtonOpen to equal true so that the section will render
     const button = getByText(mockProps.item.title)
@@ -37,9 +45,9 @@ describe('SidebarNavItem', () => {
 
   it('renders sub-nav when button is clicked', () => {
     const mockProps = {
+      setMenu: jest.fn(),
       item: {
         title: 'sectionTitle',
-        setMenu: () => {},
         subnav: {
           subSection: {
             title: 'subSectionTitle',
@@ -47,7 +55,11 @@ describe('SidebarNavItem', () => {
         },
       },
     }
-    const { getByText, getByTestId } = render(<SidebarNavItem {...mockProps} />)
+    const { getByText, getByTestId } = render(
+      <ThemeProvider theme={theme}>
+        <SidebarNavItem {...mockProps} />
+      </ThemeProvider>
+    )
     const button = getByText(mockProps.item.title)
     fireEvent.click(button)
     expect(getByTestId('sidebarNavItemLink')).toHaveTextContent(

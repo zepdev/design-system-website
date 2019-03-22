@@ -113,7 +113,7 @@ export default ({ children, className }) => {
                 style={{ marginBottom: theme.spacing.s.px }}
               >
                 {line.map((token, key) => (
-                  <span key={key} {...getTokenProps({ token, key })} />
+                  <span data-testid="code" key={key} {...getTokenProps({ token, key })} />
                 ))}
               </div>
             )
