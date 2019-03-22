@@ -29,6 +29,9 @@
     "subnav": {
       "button": {
         "title": "Button"
+      },
+      "tags": {
+        "title": "Tags"
       }
     }
   },
