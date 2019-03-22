@@ -1,17 +1,17 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import Tab from '../Tab'
+import Tag from '../Tag'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../../data/theme'
 
-describe('Tab', () => {
+describe('Tag', () => {
   it('renders correctly', () => {
     const mockProps = {
-      label: 'mockTabLabel',
+      label: 'mockTagLabel',
     }
     const component = render(
       <ThemeProvider theme={theme}>
-        <Tab {...mockProps} />
+        <Tag {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()
