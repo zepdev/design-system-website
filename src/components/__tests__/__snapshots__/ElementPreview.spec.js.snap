@@ -319,7 +319,9 @@ Object {
               disabled=""
               type="button"
             >
-              disabled
+              
+            disabled
+          
             </button>
           </div>
         </div>
@@ -548,8 +550,28 @@ Object {
             <span
               class="token plain"
               data-testid="code"
+            />
+          </div>
+          <div
+            class="token-line"
+            style="margin-bottom: 12px;"
+          >
+            <span
+              class="token plain"
+              data-testid="code"
             >
-              disabled
+                          disabled
+            </span>
+          </div>
+          <div
+            class="token-line"
+            style="margin-bottom: 12px;"
+          >
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+                        
             </span>
             <span
               class="token operator"
@@ -898,7 +920,9 @@ Object {
             disabled=""
             type="button"
           >
+            
             disabled
+          
           </button>
         </div>
       </div>
@@ -1127,8 +1151,28 @@ Object {
           <span
             class="token plain"
             data-testid="code"
+          />
+        </div>
+        <div
+          class="token-line"
+          style="margin-bottom: 12px;"
+        >
+          <span
+            class="token plain"
+            data-testid="code"
           >
-            disabled
+                        disabled
+          </span>
+        </div>
+        <div
+          class="token-line"
+          style="margin-bottom: 12px;"
+        >
+          <span
+            class="token plain"
+            data-testid="code"
+          >
+                      
           </span>
           <span
             class="token operator"
@@ -1162,6 +1206,22 @@ Object {
     </div>
   </div>,
   "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
   "getAllByAltText": [Function],
   "getAllByDisplayValue": [Function],
   "getAllByLabelText": [Function],

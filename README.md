@@ -9,17 +9,17 @@
 <span align="center">  
     
 [![CircleCI](https://circleci.com/gh/zepdev/design-system-website.svg?style=svg&circle-token=d4f1730edfe9173ba0e0fde81dc6a97c3ba467a9)](https://circleci.com/gh/zepdev/design-system-website)
-[![SonarCube_QualityGate](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/alert_status.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/alert_status.svg)
-[![SonarCube_bugs](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/bugs.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/bugs.svg)
-[![SonarCube_code_smells](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/code_smells.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/code_smells.svg)
-[![SonarCube_coverage](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/coverage.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/coverage.svg)
-[![SonarCube_duplicated_lines_density](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/duplicated_lines_density.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/duplicated_lines_density.svg)
-[![SonarCube_ncloc](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/ncloc.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/ncloc.svg)
-[![SonarCube_reliability_rating](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/reliability_rating.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/reliability_rating.svg)
-[![SonarCube_security_rating](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/security_rating.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/security_rating.svg)
-[![SonarCube_sqale_index](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/sqale_index.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/sqale_index.svg)
-[![SonarCube_sqale_rating](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/sqale_rating.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/sqale_rating.svg)
-[![SonarCube_vulnerabilities](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/vulnerabilities.svg)](https://s3.eu-central-1.amazonaws.com/zds-badges/ZDS/vulnerabilities.svg)
+[![SonarCube_QualityGate](https://cdn-zel.zepdev.net/badges/zds/alert_status.svg)](https://cdn-zel.zepdev.net/badges/zds/alert_status.svg)
+[![SonarCube_bugs](https://cdn-zel.zepdev.net/badges/zds/bugs.svg)](https://cdn-zel.zepdev.net/badges/zds/bugs.svg)
+[![SonarCube_code_smells](https://cdn-zel.zepdev.net/badges/zds/code_smells.svg)](https://cdn-zel.zepdev.net/badges/zds/code_smells.svg)
+[![SonarCube_coverage](https://cdn-zel.zepdev.net/badges/zds/coverage.svg)](https://cdn-zel.zepdev.net/badges/zds/coverage.svg)
+[![SonarCube_duplicated_lines_density](https://cdn-zel.zepdev.net/badges/zds/duplicated_lines_density.svg)](https://cdn-zel.zepdev.net/badges/zds/duplicated_lines_density.svg)
+[![SonarCube_ncloc](https://cdn-zel.zepdev.net/badges/zds/ncloc.svg)](https://cdn-zel.zepdev.net/badges/zds/ncloc.svg)
+[![SonarCube_reliability_rating](https://cdn-zel.zepdev.net/badges/zds/reliability_rating.svg)](https://cdn-zel.zepdev.net/badges/zds/reliability_rating.svg)
+[![SonarCube_security_rating](https://cdn-zel.zepdev.net/badges/zds/security_rating.svg)](https://cdn-zel.zepdev.net/badges/zds/security_rating.svg)
+[![SonarCube_sqale_index](https://cdn-zel.zepdev.net/badges/zds/sqale_index.svg)](https://cdn-zel.zepdev.net/badges/zds/sqale_index.svg)
+[![SonarCube_sqale_rating](https://cdn-zel.zepdev.net/badges/zds/sqale_rating.svg)](https://cdn-zel.zepdev.net/badges/zds/sqale_rating.svg)
+[![SonarCube_vulnerabilities](https://cdn-zel.zepdev.net/badges/zds/vulnerabilities.svg)](https://cdn-zel.zepdev.net/badges/zds/vulnerabilities.svg)
 
 </span>
 
