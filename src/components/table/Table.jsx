@@ -42,7 +42,7 @@ const Table = ({ header, content, title, classes }) => {
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">{title}</caption>
+        <caption className="zep-visually-hidden">{title}</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (

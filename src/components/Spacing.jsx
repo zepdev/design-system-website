@@ -48,7 +48,7 @@ const Spacing = ({ classes }) => {
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">Spacing Scale</caption>
+        <caption className="zep-visually-hidden">Spacing Scale</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (
@@ -70,11 +70,7 @@ const Spacing = ({ classes }) => {
             <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
-                  className={classnames(
-                    classes.th,
-                    classes.borderBottom,
-                    'zep-typo--normal-2'
-                  )}
+                  className={classnames(classes.th, classes.borderBottom, 'zep-typo--normal-2')}
                   key={`spacing${ idx }`}
                   scope={idx === 0 ? 'row' : null}
                 >
