@@ -48,11 +48,15 @@ function ButtonBase({
   )
 
   return href ? (
-    <a className={className} href={href} {...other}>
+    <a className={className} href={disabled ? null : href} {...other}>
       {children}
     </a>
   ) : (
-    <button className={className} onClick={onClick} {...other}>
+    <button
+      className={className}
+      onClick={disabled ? null : onClick}
+      {...other}
+    >
       {children}
     </button>
   )
