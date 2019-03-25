@@ -32,6 +32,9 @@
       },
       "tag": {
         "title": "Tag"
+      },
+      "textarea": {
+        "title": "textarea"
       }
     }
   },
