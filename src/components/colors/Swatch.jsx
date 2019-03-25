@@ -103,7 +103,10 @@ function Swatch({ color, section, classes }) {
 
   return (
     <div
-      className={classnames(classes.root, section === 'primary' ? classes.third : classes.quarter)}
+      className={classnames(
+        classes.root,
+        section === 'primary' ? classes.third : classes.quarter
+      )}
     >
       <Button
         className={classes.button}
@@ -118,13 +121,21 @@ function Swatch({ color, section, classes }) {
           </span>
         </span>
       </Button>
-      <p className={classnames(classes.name, 'zep-typo--normal-7')}>{color.name}</p>
-      <p className={classnames(classes.text, 'zep-typo--normal-8')}>{`HEX: ${ color.hex }`}</p>
+      <p className={classnames(classes.name, 'zep-typo--normal-2')}>
+        {color.name}
+      </p>
+      <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HEX: ${
+        color.hex
+      }`}</p>
       {color.rgb && (
-        <p className={classnames(classes.text, 'zep-typo--normal-8')}>{`RGB: ${ color.rgb }`}</p>
+        <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`RGB: ${
+          color.rgb
+        }`}</p>
       )}
       {color.hsb && (
-        <p className={classnames(classes.text, 'zep-typo--normal-8')}>{`HSB: ${ color.hsb }`}</p>
+        <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HSB: ${
+          color.hsb
+        }`}</p>
       )}
     </div>
   )

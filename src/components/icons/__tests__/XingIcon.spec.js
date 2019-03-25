@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import MediumIcon from '../MediumIcon'
+import XingIcon from '../XingIcon'
 
-describe('MediumIcon', () => {
+describe('XingIcon', () => {
   it('renders correctly', () => {
-    const component = render(<MediumIcon />)
+    const component = render(<XingIcon />)
     expect(component).toMatchSnapshot()
   })
 })

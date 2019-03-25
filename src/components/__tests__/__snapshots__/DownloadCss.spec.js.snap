@@ -9,9 +9,10 @@ Object {
         class="Download-root-0-1-1"
       >
         <a
-          class="Download-link-0-1-2"
-          download=""
-          href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets//ZEL/zeppelin-element-library.css"
+          class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
+          download="zeppelin-element-library.css"
+          href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css"
+          target="_blank"
         >
           Download
         </a>
@@ -23,15 +24,32 @@ Object {
       class="Download-root-0-1-1"
     >
       <a
-        class="Download-link-0-1-2"
-        download=""
-        href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets//ZEL/zeppelin-element-library.css"
+        class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
+        download="zeppelin-element-library.css"
+        href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css"
+        target="_blank"
       >
         Download
       </a>
     </div>
   </div>,
   "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
   "getAllByAltText": [Function],
   "getAllByDisplayValue": [Function],
   "getAllByLabelText": [Function],

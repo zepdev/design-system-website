@@ -1,17 +1,17 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import Code from '../Code'
+import Structure from '../Structure'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../data/theme'
+import theme from '../../../data/theme'
 
-describe('Code', () => {
+describe('Structure', () => {
   it('renders correctly', () => {
     const mockProps = {
-      code: 'mockCode',
+      element: 'mockString',
     }
     const component = render(
       <ThemeProvider theme={theme}>
-        <Code {...mockProps} />
+        <Structure {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

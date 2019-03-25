@@ -12,16 +12,21 @@ const styles = {
   },
 }
 
-const SidebarNav = ({ classes }) => (
+const SidebarNav = ({ setMenu, classes }) => (
   <ul className={classes.list}>
     {Object.keys(navigation).map((elem, idx) => (
-      <SidebarNavItem key={`li-${ idx }`} item={navigation[elem]} />
+      <SidebarNavItem
+        key={`li-${ idx }`}
+        item={navigation[elem]}
+        setMenu={setMenu}
+      />
     ))}
   </ul>
 )
 
 SidebarNav.propTypes = {
   classes: PropTypes.object.isRequired,
+  setMenu: PropTypes.func.isRequired,
 }
 
 export default withStyles(styles)(SidebarNav)

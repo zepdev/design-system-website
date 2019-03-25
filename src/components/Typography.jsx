@@ -45,7 +45,9 @@ const Typography = ({ section, classes }) => {
       ? ['specification', 'px', 'rem', 'weight']
       : ['name', 'rem', 'px', 'specifications', 'actual size']
   const content =
-    section === 'basics' ? theme.typography.basics : theme.typography.headings[section]
+    section === 'basics'
+      ? theme.typography.basics
+      : theme.typography.headings[section]
 
   return (
     <div className={classes.root}>
@@ -56,7 +58,7 @@ const Typography = ({ section, classes }) => {
             {header.map(elem => (
               <th
                 scope="col"
-                className={classnames(classes.th, 'zep-typo--normal-8', {
+                className={classnames(classes.th, 'zep-typo--normal-1', {
                   [classes.lowercase]: elem === 'rem' || elem === 'px',
                   [classes.capitalize]: elem !== 'rem' && elem !== 'px',
                 })}
@@ -75,8 +77,10 @@ const Typography = ({ section, classes }) => {
                   className={classnames(
                     classes.th,
                     classes.borderBottom,
-                    item !== 'actual size' ? 'zep-typo--normal-7' : `${ elem }`,
-                    item === 'actual size' && section === 'special' ? null : classes.lowercase
+                    item !== 'actual size' ? 'zep-typo--normal-2' : `${ elem }`,
+                    item === 'actual size' && section === 'special'
+                      ? null
+                      : classes.lowercase
                   )}
                   key={`typography${ idx }`}
                   scope={idx === 0 ? 'row' : null}
@@ -88,7 +92,10 @@ const Typography = ({ section, classes }) => {
                   ) : item === 'specifications' ? (
                     <span>
                       {content[elem][item].map(p => (
-                        <p key={`specification_${ p }`} className="zep-typo--normal-7">
+                        <p
+                          key={`specification_${ p }`}
+                          className="zep-typo--normal-2"
+                        >
                           {p}
                         </p>
                       ))}

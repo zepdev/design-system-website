@@ -24,7 +24,7 @@ function Colors({ section, classes }) {
 }
 
 Swatch.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.object,
   section: PropTypes.string.isRequired,
 }
 

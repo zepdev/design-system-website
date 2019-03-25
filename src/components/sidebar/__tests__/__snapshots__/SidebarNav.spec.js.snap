@@ -10,28 +10,94 @@ Object {
       >
         <li>
           <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
           >
             Getting started
+            <svg
+              aria-labelledby="title"
+              class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_copy"
+              >
+                Arrow Down Icon
+              </title>
+              <path
+                d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                fill="currentColor"
+              />
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+            </svg>
           </button>
         </li>
         <li>
           <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
           >
             Guidelines
+            <svg
+              aria-labelledby="title"
+              class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_copy"
+              >
+                Arrow Down Icon
+              </title>
+              <path
+                d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                fill="currentColor"
+              />
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+            </svg>
           </button>
         </li>
         <li>
           <button
-            class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
           >
             Elements
+            <svg
+              aria-labelledby="title"
+              class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_copy"
+              >
+                Arrow Down Icon
+              </title>
+              <path
+                d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                fill="currentColor"
+              />
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+            </svg>
           </button>
         </li>
         <li>
           <a
-            class="zep-button zep-button__full"
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
             href="/content/download"
           >
             Download
@@ -46,28 +112,94 @@ Object {
     >
       <li>
         <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
         >
           Getting started
+          <svg
+            aria-labelledby="title"
+            class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Arrow Down Icon
+            </title>
+            <path
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+              fill="currentColor"
+            />
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+          </svg>
         </button>
       </li>
       <li>
         <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
         >
           Guidelines
+          <svg
+            aria-labelledby="title"
+            class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Arrow Down Icon
+            </title>
+            <path
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+              fill="currentColor"
+            />
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+          </svg>
         </button>
       </li>
       <li>
         <button
-          class="zep-button zep-button__full SidebarNavItem-button-0-1-2"
+          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
         >
           Elements
+          <svg
+            aria-labelledby="title"
+            class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Arrow Down Icon
+            </title>
+            <path
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+              fill="currentColor"
+            />
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+          </svg>
         </button>
       </li>
       <li>
         <a
-          class="zep-button zep-button__full"
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
           href="/content/download"
         >
           Download
@@ -76,6 +208,22 @@ Object {
     </ul>
   </div>,
   "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
   "getAllByAltText": [Function],
   "getAllByDisplayValue": [Function],
   "getAllByLabelText": [Function],

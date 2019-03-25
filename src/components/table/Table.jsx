@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
 import withStyles from 'react-jss'
-import theme from '../data/theme'
+import classnames from 'classnames'
 
 const styles = theme => ({
   root: {
@@ -14,7 +13,7 @@ const styles = theme => ({
     borderCollapse: 'collapse',
   },
   th: {
-    padding: `${ theme.spacing.m.px }px ${ theme.spacing.l.px }px`,
+    padding: `${ theme.spacing.m.rem }rem ${ theme.spacing.l.rem }rem`,
     textAlign: 'left',
     display: 'table-cell',
   },
@@ -37,18 +36,13 @@ const styles = theme => ({
   borderBottom: {
     borderBottom: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
   },
-  square: {
-    background: theme.colors.primary.indigoBlue.hex,
-  },
 })
 
-const Spacing = ({ classes }) => {
-  const header = ['name', 'px', 'rem', 'actual size']
-
+const Table = ({ header, content, title, classes }) => {
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">Spacing Scale</caption>
+        <caption className="visually-hidden">{title}</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (
@@ -66,33 +60,34 @@ const Spacing = ({ classes }) => {
           </tr>
         </thead>
         <tbody className={classes.tbody}>
-          {Object.keys(theme.spacing).map(elem => (
+          {Object.keys(content).map(elem => (
             <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
                   className={classnames(
                     classes.th,
                     classes.borderBottom,
-                    'zep-typo--normal-2'
+                    item !== 'actual size' ? 'zep-typo--normal-2' : `${ elem }`
                   )}
-                  key={`spacing${ idx }`}
+                  key={`typography${ idx }`}
                   scope={idx === 0 ? 'row' : null}
                 >
                   {item === 'actual size' ? (
-                    <div
-                      style={{
-                        width: theme.spacing[elem].px,
-                        height: theme.spacing[elem].px,
-                        color: 'green',
-                      }}
-                      className={classes.square}
-                    />
+                    'lorem ipsum'
                   ) : item === 'name' ? (
-                    `zep-spacing--${ elem }`
-                  ) : item === 'px' ? (
-                    `${ theme.spacing[elem][item] }px`
+                    elem
+                  ) : item === 'specifications' ? (
+                    <span>
+                      {content[elem][item].map(p => (
+                        <p key={`specification_${ p }`} className="zep-typo--normal-2">
+                          {p}
+                        </p>
+                      ))}
+                    </span>
+                  ) : content[elem][item] ? (
+                    content[elem][item]
                   ) : (
-                    `${ theme.spacing[elem][item] }rem`
+                    '-'
                   )}
                 </td>
               ))}
@@ -104,8 +99,11 @@ const Spacing = ({ classes }) => {
   )
 }
 
-Spacing.propTypes = {
+Table.propTypes = {
   classes: PropTypes.object.isRequired,
+  header: PropTypes.array.isRequired,
+  content: PropTypes.object.isRequired,
+  title: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(Spacing)
+export default withStyles(styles)(Table)

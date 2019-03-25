@@ -9,7 +9,7 @@ Object {
         class="Swatch-root-0-1-1 Swatch-quarter-0-1-3"
       >
         <button
-          class="zep-button Swatch-button-0-1-4"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-4"
           style="background: rgb(255, 255, 255);"
         >
           <span
@@ -49,12 +49,12 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-10 zep-typo--normal-7"
+          class="Swatch-name-0-1-10 zep-typo--normal-2"
         >
           name
         </p>
         <p
-          class="Swatch-text-0-1-9 zep-typo--normal-8"
+          class="Swatch-text-0-1-9 zep-typo--normal-1"
         >
           HEX: #fff
         </p>
@@ -66,7 +66,7 @@ Object {
       class="Swatch-root-0-1-1 Swatch-quarter-0-1-3"
     >
       <button
-        class="zep-button Swatch-button-0-1-4"
+        class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-4"
         style="background: rgb(255, 255, 255);"
       >
         <span
@@ -106,18 +106,34 @@ Object {
         </span>
       </button>
       <p
-        class="Swatch-name-0-1-10 zep-typo--normal-7"
+        class="Swatch-name-0-1-10 zep-typo--normal-2"
       >
         name
       </p>
       <p
-        class="Swatch-text-0-1-9 zep-typo--normal-8"
+        class="Swatch-text-0-1-9 zep-typo--normal-1"
       >
         HEX: #fff
       </p>
     </div>
   </div>,
   "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
   "getAllByAltText": [Function],
   "getAllByDisplayValue": [Function],
   "getAllByLabelText": [Function],

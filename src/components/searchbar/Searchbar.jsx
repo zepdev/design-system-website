@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
+import classnames from 'classnames'
 import SearchIcon from '../icons/SearchIcon'
 
 const styles = theme => ({
@@ -8,7 +9,10 @@ const styles = theme => ({
     height: '100%',
     background: 'transparent',
     display: 'flex',
-    alignItems: 'center,',
+    alignItems: 'center',
+  },
+  button: {
+    display: 'flex',
   },
   icon: {
     width: 30,
@@ -42,8 +46,17 @@ const styles = theme => ({
 
 const Searchbar = ({ classes }) => (
   <div className={classes.root}>
-    <SearchIcon className={classes.icon} />
-    <input type="text" className={classes.input} placeholder="Type here to search" />
+    <button
+      onClick={() => {}}
+      className={classnames(classes.button, 'zep-button')}
+    >
+      <SearchIcon className={classes.icon} />
+    </button>
+    <input
+      type="text"
+      className={classes.input}
+      placeholder="Type here to search"
+    />
   </div>
 )
 
