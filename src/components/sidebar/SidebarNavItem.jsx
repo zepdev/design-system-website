@@ -77,7 +77,7 @@ function SidebarNavItem({ item, setMenu, classes }) {
       )}
       {!item.subnav && (
         <Link
-          to={`/content/${ item.title.toLowerCase().replace(/ /g, '-') }`}
+          to={`/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`}
           onClick={() => setMenu(false)}
           className={classnames(classes.button, 'zep-typo--normal-3', 'zep-button--full')}
         >
@@ -93,7 +93,7 @@ function SidebarNavItem({ item, setMenu, classes }) {
                   elem
                 ].title
                   .toLowerCase()
-                  .replace(/ /g, '-') }`}
+                  .replace(/ /g, '-') }/`}
                 onClick={() => setMenu(false)}
                 activeStyle={{ color: theme.colors.gray.gray.hex }}
                 className={classnames(classes.subnav, 'zep-typo--normal-3', 'zep-button--full')}
