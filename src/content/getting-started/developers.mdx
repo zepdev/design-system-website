@@ -9,8 +9,12 @@ import { Link } from 'gatsby'
 
 To access the styleguide, first download the Zeppelin Element Library by your preferred method:
 
-<Link to={'/content/download/'} className="zep-button zep-button__full">
-  Download
+<Link
+  to={'/content/download/'}
+  className="zep-button zep-button-primary"
+  style={{ marginBottom: '2rem' }}
+>
+  Take me to the Download Page
 </Link>
 
 ## Basic Usage
@@ -27,7 +31,7 @@ All available css classes and javascript can be found under the Elements and Com
 Simply use the css classes as normal.
 
 ```js
-<button class="zep-button">My Button</>
+<button class="zep-button zep-button-primary">My Button</>
 ```
 
 You can also use them along with other styling solutions. For example, in React;

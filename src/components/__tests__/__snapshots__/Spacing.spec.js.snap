@@ -5,8 +5,259 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="Spacing-root-0-1-1"
+      >
+        <table
+          class="Spacing-table-0-1-2"
+        >
+          <caption
+            class="visually-hidden"
+          >
+            Spacing Scale
+          </caption>
+          <thead
+            class="Spacing-header-0-1-6"
+          >
+            <tr
+              class="Spacing-tr-0-1-4"
+            >
+              <th
+                class="Spacing-th-0-1-3 zep-typo--normal-1 Spacing-capitalize-0-1-8"
+                scope="col"
+              >
+                name
+              </th>
+              <th
+                class="Spacing-th-0-1-3 zep-typo--normal-1 Spacing-lowercase-0-1-7"
+                scope="col"
+              >
+                px
+              </th>
+              <th
+                class="Spacing-th-0-1-3 zep-typo--normal-1 Spacing-lowercase-0-1-7"
+                scope="col"
+              >
+                rem
+              </th>
+              <th
+                class="Spacing-th-0-1-3 zep-typo--normal-1 Spacing-capitalize-0-1-8"
+                scope="col"
+              >
+                actual size
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="Spacing-tbody-0-1-5"
+          >
+            <tr
+              class="Spacing-tr-0-1-4"
+            >
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                scope="row"
+              >
+                zep-spacing--xxs
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                4px
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                0.25rem
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                <div
+                  class="Spacing-square-0-1-10"
+                  style="width: 4px; height: 4px; color: green;"
+                />
+              </td>
+            </tr>
+            <tr
+              class="Spacing-tr-0-1-4"
+            >
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                scope="row"
+              >
+                zep-spacing--xs
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                8px
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                0.5rem
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                <div
+                  class="Spacing-square-0-1-10"
+                  style="width: 8px; height: 8px; color: green;"
+                />
+              </td>
+            </tr>
+            <tr
+              class="Spacing-tr-0-1-4"
+            >
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                scope="row"
+              >
+                zep-spacing--s
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                12px
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                0.75rem
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                <div
+                  class="Spacing-square-0-1-10"
+                  style="width: 12px; height: 12px; color: green;"
+                />
+              </td>
+            </tr>
+            <tr
+              class="Spacing-tr-0-1-4"
+            >
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                scope="row"
+              >
+                zep-spacing--m
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                16px
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                1rem
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                <div
+                  class="Spacing-square-0-1-10"
+                  style="width: 16px; height: 16px; color: green;"
+                />
+              </td>
+            </tr>
+            <tr
+              class="Spacing-tr-0-1-4"
+            >
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                scope="row"
+              >
+                zep-spacing--l
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                24px
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                1.5rem
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                <div
+                  class="Spacing-square-0-1-10"
+                  style="width: 24px; height: 24px; color: green;"
+                />
+              </td>
+            </tr>
+            <tr
+              class="Spacing-tr-0-1-4"
+            >
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                scope="row"
+              >
+                zep-spacing--xl
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                32px
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                2rem
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                <div
+                  class="Spacing-square-0-1-10"
+                  style="width: 32px; height: 32px; color: green;"
+                />
+              </td>
+            </tr>
+            <tr
+              class="Spacing-tr-0-1-4"
+            >
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                scope="row"
+              >
+                zep-spacing--xxl
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                48px
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                3rem
+              </td>
+              <td
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              >
+                <div
+                  class="Spacing-square-0-1-10"
+                  style="width: 48px; height: 48px; color: green;"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Spacing-root-0-1-1"
+    >
       <table
-        class="Spacing-table-0-1-1"
+        class="Spacing-table-0-1-2"
       >
         <caption
           class="visually-hidden"
@@ -14,31 +265,31 @@ Object {
           Spacing Scale
         </caption>
         <thead
-          class="Spacing-header-0-1-5"
+          class="Spacing-header-0-1-6"
         >
           <tr
-            class="Spacing-tr-0-1-3"
+            class="Spacing-tr-0-1-4"
           >
             <th
-              class="Spacing-th-0-1-2 zep-typo--normal-8 Spacing-capitalize-0-1-7"
+              class="Spacing-th-0-1-3 zep-typo--normal-1 Spacing-capitalize-0-1-8"
               scope="col"
             >
               name
             </th>
             <th
-              class="Spacing-th-0-1-2 zep-typo--normal-8 Spacing-lowercase-0-1-6"
+              class="Spacing-th-0-1-3 zep-typo--normal-1 Spacing-lowercase-0-1-7"
               scope="col"
             >
               px
             </th>
             <th
-              class="Spacing-th-0-1-2 zep-typo--normal-8 Spacing-lowercase-0-1-6"
+              class="Spacing-th-0-1-3 zep-typo--normal-1 Spacing-lowercase-0-1-7"
               scope="col"
             >
               rem
             </th>
             <th
-              class="Spacing-th-0-1-2 zep-typo--normal-8 Spacing-capitalize-0-1-7"
+              class="Spacing-th-0-1-3 zep-typo--normal-1 Spacing-capitalize-0-1-8"
               scope="col"
             >
               actual size
@@ -46,200 +297,200 @@ Object {
           </tr>
         </thead>
         <tbody
-          class="Spacing-tbody-0-1-4"
+          class="Spacing-tbody-0-1-5"
         >
           <tr
-            class="Spacing-tr-0-1-3"
+            class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
               scope="row"
             >
               zep-spacing--xxs
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               4px
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               0.25rem
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               <div
-                class="Spacing-square-0-1-9"
+                class="Spacing-square-0-1-10"
                 style="width: 4px; height: 4px; color: green;"
               />
             </td>
           </tr>
           <tr
-            class="Spacing-tr-0-1-3"
+            class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
               scope="row"
             >
               zep-spacing--xs
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               8px
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               0.5rem
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               <div
-                class="Spacing-square-0-1-9"
+                class="Spacing-square-0-1-10"
                 style="width: 8px; height: 8px; color: green;"
               />
             </td>
           </tr>
           <tr
-            class="Spacing-tr-0-1-3"
+            class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
               scope="row"
             >
               zep-spacing--s
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               12px
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               0.75rem
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               <div
-                class="Spacing-square-0-1-9"
+                class="Spacing-square-0-1-10"
                 style="width: 12px; height: 12px; color: green;"
               />
             </td>
           </tr>
           <tr
-            class="Spacing-tr-0-1-3"
+            class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
               scope="row"
             >
               zep-spacing--m
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               16px
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               1rem
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               <div
-                class="Spacing-square-0-1-9"
+                class="Spacing-square-0-1-10"
                 style="width: 16px; height: 16px; color: green;"
               />
             </td>
           </tr>
           <tr
-            class="Spacing-tr-0-1-3"
+            class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
               scope="row"
             >
               zep-spacing--l
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               24px
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               1.5rem
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               <div
-                class="Spacing-square-0-1-9"
+                class="Spacing-square-0-1-10"
                 style="width: 24px; height: 24px; color: green;"
               />
             </td>
           </tr>
           <tr
-            class="Spacing-tr-0-1-3"
+            class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
               scope="row"
             >
               zep-spacing--xl
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               32px
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               2rem
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               <div
-                class="Spacing-square-0-1-9"
+                class="Spacing-square-0-1-10"
                 style="width: 32px; height: 32px; color: green;"
               />
             </td>
           </tr>
           <tr
-            class="Spacing-tr-0-1-3"
+            class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
               scope="row"
             >
               zep-spacing--xxl
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               48px
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               3rem
             </td>
             <td
-              class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
             >
               <div
-                class="Spacing-square-0-1-9"
+                class="Spacing-square-0-1-10"
                 style="width: 48px; height: 48px; color: green;"
               />
             </td>
@@ -247,251 +498,24 @@ Object {
         </tbody>
       </table>
     </div>
-  </body>,
-  "container": <div>
-    <table
-      class="Spacing-table-0-1-1"
-    >
-      <caption
-        class="visually-hidden"
-      >
-        Spacing Scale
-      </caption>
-      <thead
-        class="Spacing-header-0-1-5"
-      >
-        <tr
-          class="Spacing-tr-0-1-3"
-        >
-          <th
-            class="Spacing-th-0-1-2 zep-typo--normal-8 Spacing-capitalize-0-1-7"
-            scope="col"
-          >
-            name
-          </th>
-          <th
-            class="Spacing-th-0-1-2 zep-typo--normal-8 Spacing-lowercase-0-1-6"
-            scope="col"
-          >
-            px
-          </th>
-          <th
-            class="Spacing-th-0-1-2 zep-typo--normal-8 Spacing-lowercase-0-1-6"
-            scope="col"
-          >
-            rem
-          </th>
-          <th
-            class="Spacing-th-0-1-2 zep-typo--normal-8 Spacing-capitalize-0-1-7"
-            scope="col"
-          >
-            actual size
-          </th>
-        </tr>
-      </thead>
-      <tbody
-        class="Spacing-tbody-0-1-4"
-      >
-        <tr
-          class="Spacing-tr-0-1-3"
-        >
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-            scope="row"
-          >
-            zep-spacing--xxs
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            4px
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            0.25rem
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            <div
-              class="Spacing-square-0-1-9"
-              style="width: 4px; height: 4px; color: green;"
-            />
-          </td>
-        </tr>
-        <tr
-          class="Spacing-tr-0-1-3"
-        >
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-            scope="row"
-          >
-            zep-spacing--xs
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            8px
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            0.5rem
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            <div
-              class="Spacing-square-0-1-9"
-              style="width: 8px; height: 8px; color: green;"
-            />
-          </td>
-        </tr>
-        <tr
-          class="Spacing-tr-0-1-3"
-        >
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-            scope="row"
-          >
-            zep-spacing--s
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            12px
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            0.75rem
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            <div
-              class="Spacing-square-0-1-9"
-              style="width: 12px; height: 12px; color: green;"
-            />
-          </td>
-        </tr>
-        <tr
-          class="Spacing-tr-0-1-3"
-        >
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-            scope="row"
-          >
-            zep-spacing--m
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            16px
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            1rem
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            <div
-              class="Spacing-square-0-1-9"
-              style="width: 16px; height: 16px; color: green;"
-            />
-          </td>
-        </tr>
-        <tr
-          class="Spacing-tr-0-1-3"
-        >
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-            scope="row"
-          >
-            zep-spacing--l
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            24px
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            1.5rem
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            <div
-              class="Spacing-square-0-1-9"
-              style="width: 24px; height: 24px; color: green;"
-            />
-          </td>
-        </tr>
-        <tr
-          class="Spacing-tr-0-1-3"
-        >
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-            scope="row"
-          >
-            zep-spacing--xl
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            32px
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            2rem
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            <div
-              class="Spacing-square-0-1-9"
-              style="width: 32px; height: 32px; color: green;"
-            />
-          </td>
-        </tr>
-        <tr
-          class="Spacing-tr-0-1-3"
-        >
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-            scope="row"
-          >
-            zep-spacing--xxl
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            48px
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            3rem
-          </td>
-          <td
-            class="Spacing-th-0-1-2 Spacing-borderBottom-0-1-8 zep-typo--normal-7"
-          >
-            <div
-              class="Spacing-square-0-1-9"
-              style="width: 48px; height: 48px; color: green;"
-            />
-          </td>
-        </tr>
-      </tbody>
-    </table>
   </div>,
   "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
   "getAllByAltText": [Function],
   "getAllByDisplayValue": [Function],
   "getAllByLabelText": [Function],

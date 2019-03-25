@@ -1,17 +1,14 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import Code from '../Code'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../data/theme'
+import theme from '../../../data/theme'
+import DownloadSketch from '../DownloadSketch'
 
-describe('Code', () => {
+describe('DownloadSketch', () => {
   it('renders correctly', () => {
-    const mockProps = {
-      code: 'mockCode',
-    }
     const component = render(
       <ThemeProvider theme={theme}>
-        <Code {...mockProps} />
+        <DownloadSketch />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

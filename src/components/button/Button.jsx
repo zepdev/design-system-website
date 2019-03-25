@@ -1,32 +1,24 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
+import ButtonBase from './ButtonBase'
 
-class Button extends Component {
-  render() {
-    const {
-      onClick,
-      children,
-      className: classNameProp,
-      fullWidth,
-      disabled,
-      ...other
-    } = this.props
-    const className = classNames(
-      'zep-button',
-      {
-        // eslint-disable-next-line
-        ['zep-button__full']: fullWidth,
-        'zep-button__disabled': disabled,
-      },
-      classNameProp
-    )
-    return (
-      <button className={className} onClick={onClick} {...other}>
-        {children}
-      </button>
-    )
-  }
+function Button({ children, className: classNameProp, color, disabled, ...other }) {
+  const className = classNames(
+    'zep-button',
+    {
+      // eslint-disable-next-line
+      ['zep-button-primary']: color === 'primary',
+      // eslint-disable-next-line
+      ['zep-button-secondary']: color === 'secondary',
+    },
+    classNameProp
+  )
+  return (
+    <ButtonBase className={className} disabled={disabled} {...other}>
+      {children}
+    </ButtonBase>
+  )
 }
 
 Button.propTypes = {
@@ -34,11 +26,7 @@ Button.propTypes = {
   onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
   disabled: PropTypes.bool,
-}
-
-Button.defaultProps = {
-  fullWidth: false,
-  disabled: false,
+  color: PropTypes.oneOf(['primary', 'secondary']),
 }
 
 export default Button

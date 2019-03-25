@@ -5,9 +5,6 @@
       "about-carbon": {
         "title": "About"
       },
-      "designers": {
-        "title": "Designers"
-      },
       "developers": {
         "title": "Developers"
       }
@@ -18,12 +15,6 @@
     "subnav": {
       "color": {
         "title": "Color"
-      },
-      "grid": {
-        "title": "Grid"
-      },
-      "iconography": {
-        "title": "Iconography"
       },
       "typography": {
         "title": "Typography"
@@ -38,12 +29,6 @@
     "subnav": {
       "button": {
         "title": "Button"
-      },
-      "input": {
-        "title": "Input"
-      },
-      "tabs": {
-        "title": "Tabs"
       }
     }
   },

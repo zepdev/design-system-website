@@ -15,41 +15,26 @@ const styles = theme => ({
     top: 0,
     zIndex: 3,
     transition: 'transform 0.2s',
+    borderRight: `1px solid ${ theme.colors.gray.grayMid.hex }`,
   },
   hidden: {
     transform: 'translateX(-100%)',
     MsTransform: 'translateX(-100%)',
   },
-  containerLink: {
-    background: theme.colors.primary.indigoBlue.hex,
-    color: theme.colors.gray.white.hex,
-    width: '100%',
-    visibility: 'hidden',
-    pointerEvents: 'none',
-  },
-  containerSidebarNav: {
-    height: `calc(100vh - 46px)`,
-    padding: '1.5rem 1.5rem',
-    borderRight: `1px solid ${ theme.colors.gray.grayMid.hex }`,
-    overflow: 'auto',
-    backgroundColor: theme.colors.gray.white.hex,
-  },
-  containerHeader: {
-    height: 46,
-    display: 'flex',
-    alignItems: 'center',
-    border: 0,
-    paddingTop: 0,
-    paddingBottom: 0,
-    background: 'transparent',
-  },
   link: {
+    height: 46,
+    marginBottom: `${ theme.spacing.xl.rem }rem`,
     display: 'block',
-    width: '100%',
-    height: 'auto',
+    pointerEvents: 'none',
   },
   logo: {
     color: theme.colors.gray.white.hex,
+  },
+  containerSidebarNav: {
+    height: `calc(100vh - 46px)`,
+    paddingBottom: `${ theme.spacing.xxl.rem }rem`,
+    overflow: 'auto',
+    backgroundColor: theme.colors.gray.white.hex,
   },
   [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     root: {
@@ -57,21 +42,19 @@ const styles = theme => ({
     },
     containerSidebarNav: {
       height: `calc(100vh - 68px)`,
-      padding: '1.5rem 2em',
-    },
-    containerHeader: {
-      height: 68,
+      paddingBottom: `${ theme.spacing.l.rem }rem`,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     root: {
       width: 300,
     },
-    containerSidebarNav: {
-      padding: '2rem 3rem',
-    },
-    containerHeader: {
+    link: {
       height: 84,
+      marginBottom: `${ theme.spacing.xxl.rem }rem`,
+    },
+    containerSidebarNav: {
+      paddingBottom: `${ theme.spacing.xl.rem }rem`,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
@@ -83,15 +66,21 @@ const styles = theme => ({
       transform: 'translateX(0)',
       MsTransform: 'translateX(0)',
     },
-    containerLink: {
+    link: {
       visibility: 'visible',
+      width: '100%',
+      padding: `0 ${ theme.spacing.xl.rem }rem`,
+      display: 'flex',
+      alignItems: 'center',
+      height: 104,
+      background: theme.colors.primary.indigoBlue.hex,
+      color: theme.colors.gray.white.hex,
+      cursor: 'pointer',
+      pointerEvents: 'all',
     },
     containerSidebarNav: {
       height: `calc(100vh - 104px)`,
-      padding: '2em',
-    },
-    containerHeader: {
-      height: 104,
+      paddingBottom: `${ theme.spacing.xl.rem }rem`,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
@@ -104,30 +93,27 @@ const styles = theme => ({
       width: 300,
     },
     containerSidebarNav: {
-      padding: '3rem',
+      paddingBottom: '3rem',
     },
-    containerHeader: {
+    link: {
       height: 136,
+      marginBottom: `${ theme.spacing.l.rem * 2 }rem`,
     },
   },
 })
 
-const Sidebar = ({ isMenuOpen, classes }) => {
+const Sidebar = ({ isMenuOpen, setMenu, classes }) => {
   return (
     <div
       className={classnames(classes.root, {
         [classes.hidden]: !isMenuOpen,
       })}
     >
-      <div className={classes.containerLink}>
-        <div className={classnames(classes.containerSidebarNav, classes.containerHeader)}>
-          <Link className={classes.link} to="/">
-            <ZeppelinIcon className={classes.logo} height="100%" width="100%" />
-          </Link>
-        </div>
-      </div>
+      <Link className={classes.link} to="/">
+        <ZeppelinIcon className={classes.logo} height="100%" width="100%" />
+      </Link>
       <div className={classes.containerSidebarNav}>
-        <SidebarNav />
+        <SidebarNav setMenu={setMenu} />
       </div>
     </div>
   )
@@ -136,6 +122,7 @@ const Sidebar = ({ isMenuOpen, classes }) => {
 Sidebar.propTypes = {
   classes: PropTypes.object.isRequired,
   isMenuOpen: PropTypes.bool.isRequired,
+  setMenu: PropTypes.func.isRequired,
 }
 
 export default withStyles(styles)(Sidebar)

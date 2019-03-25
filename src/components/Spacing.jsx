@@ -54,7 +54,7 @@ const Spacing = ({ classes }) => {
             {header.map(elem => (
               <th
                 scope="col"
-                className={classnames(classes.th, 'zep-typo--normal-8', {
+                className={classnames(classes.th, 'zep-typo--normal-1', {
                   [classes.lowercase]: elem === 'rem' || elem === 'px',
                   [classes.capitalize]: elem !== 'rem' && elem !== 'px',
                 })}
@@ -70,7 +70,11 @@ const Spacing = ({ classes }) => {
             <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
-                  className={classnames(classes.th, classes.borderBottom, 'zep-typo--normal-7')}
+                  className={classnames(
+                    classes.th,
+                    classes.borderBottom,
+                    'zep-typo--normal-2'
+                  )}
                   key={`spacing${ idx }`}
                   scope={idx === 0 ? 'row' : null}
                 >
@@ -85,8 +89,10 @@ const Spacing = ({ classes }) => {
                     />
                   ) : item === 'name' ? (
                     `zep-spacing--${ elem }`
+                  ) : item === 'px' ? (
+                    `${ theme.spacing[elem][item] }px`
                   ) : (
-                    theme.spacing[elem][item]
+                    `${ theme.spacing[elem][item] }rem`
                   )}
                 </td>
               ))}

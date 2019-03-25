@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import MediumIcon from '../MediumIcon'
+import DownloadIcon from '../DownloadIcon'
 
-describe('MediumIcon', () => {
+describe('CopyIcon', () => {
   it('renders correctly', () => {
-    const component = render(<MediumIcon />)
+    const component = render(<DownloadIcon />)
     expect(component).toMatchSnapshot()
   })
 })

@@ -83,19 +83,31 @@ const styles = theme => ({
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   // Styles for mdx/md pages
-  const h1Styled = props => <h1 className="zep-typo--display-1" {...props} />
+  const h1Styled = props => <h1 className="zep-typo--display-4" {...props} />
   const h2Styled = props => (
-    <h2 className={classnames(classes.hStyled, 'zep-typo--normal-3')} {...props} />
+    <h2
+      className={classnames(classes.hStyled, 'zep-typo--normal-8')}
+      {...props}
+    />
   )
   const h3Styled = props => (
-    <h3 className={classnames(classes.hStyled, 'zep-typo--normal-5')} {...props} />
+    <h3
+      className={classnames(classes.hStyled, 'zep-typo--normal-6')}
+      {...props}
+    />
   )
   const pStyled = props => (
-    <p className={classnames(classes.pStyled, 'zep-typo--normal-6')} {...props} />
+    <p
+      className={classnames(classes.pStyled, 'zep-typo--normal-3')}
+      {...props}
+    />
   )
   const hrStyled = () => (
-    <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
+    <hr
+      className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')}
+    />
   )
+  const preStyled = props => <div {...props} />
 
   const components = {
     h1: h1Styled,
@@ -103,6 +115,7 @@ function Layout({ children, classes }) {
     h3: h3Styled,
     p: pStyled,
     hr: hrStyled,
+    pre: preStyled,
     code: CodeStyle,
   }
   return (
@@ -125,7 +138,7 @@ function Layout({ children, classes }) {
           <>
             <SkipNavLink className={classes.skipLink} />
             <div className={classes.root}>
-              <Sidebar isMenuOpen={isMenuOpen} />
+              <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
               <div className={classes.content}>
                 <Header
                   siteTitle={data.mdx.frontmatter.title}
