@@ -30,8 +30,8 @@
       "button": {
         "title": "Button"
       },
-      "tags": {
-        "title": "Tags"
+      "tag": {
+        "title": "Tag"
       }
     }
   },

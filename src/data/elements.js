@@ -69,7 +69,7 @@ module.exports = {
   tag: {
     demo: {
       primary: {
-        js: [`<span class="zep-tag zep-button-primary">tag</span>`],
+        js: [`<span class="zep-tag">tag</span>`],
         react: false,
         angular: false,
         vue: false,
