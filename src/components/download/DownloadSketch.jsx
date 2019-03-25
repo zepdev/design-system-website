@@ -7,15 +7,15 @@ import sketchImg from '../../assets/images/sketch-symbol.svg'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${theme.spacing.l.rem * 2}rem`,
+    marginBottom: `${ theme.spacing.l.rem * 2 }rem`,
     background: theme.colors.gray.grayLighter.hex,
-    padding: `${theme.spacing.l.rem}rem`,
+    padding: `${ theme.spacing.l.rem }rem`,
     flexBasis: '40%',
   },
   fixedWidth: {
     width: '100%',
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     fixedWidth: {
       width: 350,
     },
@@ -25,7 +25,7 @@ const styles = theme => ({
     justifyContent: 'space-between',
   },
   text: {
-    marginBottom: `${theme.spacing.xl.rem * 2}rem`,
+    marginBottom: `${ theme.spacing.xl.rem * 2 }rem`,
   },
   trademark: {
     marginBottom: 5,
@@ -40,7 +40,7 @@ const styles = theme => ({
     width: 46,
     height: 46,
     background: theme.colors.gray.white.hex,
-    padding: `${theme.spacing.xs.rem}rem`,
+    padding: `${ theme.spacing.xs.rem }rem`,
   },
   icon: {
     color: theme.colors.gray.grayLight.hex,
