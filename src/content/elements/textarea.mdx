@@ -1,0 +1,39 @@
+---
+label: Elements
+title: Textarea
+---
+
+import ElementPreview from '../../components/ElementPreview.jsx'
+import Table from '../../components/table/Table.jsx'
+import elements from '../../data/elements.js'
+import Structure from '../../components/structure/Structure.jsx'
+
+# Textarea
+
+This is how a Textarea looks like
+
+---
+
+<ElementPreview element={'textarea'} />
+
+---
+
+## Textarea Styles
+
+### Typography
+
+<Table
+  title="Textarea typography"
+  content={elements.textarea.typography}
+  header={['name', 'px', 'rem', 'specifications', 'actual size']}
+/>
+
+### Structure
+
+<Structure element="textarea" />
+
+<Table
+  title="textarea structure"
+  content={elements.textarea.structure}
+  header={['name', 'property', 'px', 'rem']}
+/>
