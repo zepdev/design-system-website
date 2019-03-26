@@ -33,7 +33,7 @@
     "react-helmet": "^5.2.0",
     "react-jss": "^10.0.0-alpha.16",
     "sonarqube-scanner": "^2.4.0",
-    "zeppelin-element-library": "^0.2.6-development"
+    "zeppelin-element-library": "0.2.6-8e23c5b"
   },
   "scripts": {
     "build": "gatsby build",

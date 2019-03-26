@@ -45,14 +45,12 @@ const Typography = ({ section, classes }) => {
       ? ['specification', 'px', 'rem', 'weight']
       : ['name', 'rem', 'px', 'specifications', 'actual size']
   const content =
-    section === 'basics'
-      ? theme.typography.basics
-      : theme.typography.headings[section]
+    section === 'basics' ? theme.typography.basics : theme.typography.headings[section]
 
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">{`${ section } typography variations`}</caption>
+        <caption className="zep-visually-hidden">{`${ section } typography variations`}</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (
@@ -78,9 +76,7 @@ const Typography = ({ section, classes }) => {
                     classes.th,
                     classes.borderBottom,
                     item !== 'actual size' ? 'zep-typo--normal-2' : `${ elem }`,
-                    item === 'actual size' && section === 'special'
-                      ? null
-                      : classes.lowercase
+                    item === 'actual size' && section === 'special' ? null : classes.lowercase
                   )}
                   key={`typography${ idx }`}
                   scope={idx === 0 ? 'row' : null}
@@ -92,10 +88,7 @@ const Typography = ({ section, classes }) => {
                   ) : item === 'specifications' ? (
                     <span>
                       {content[elem][item].map(p => (
-                        <p
-                          key={`specification_${ p }`}
-                          className="zep-typo--normal-2"
-                        >
+                        <p key={`specification_${ p }`} className="zep-typo--normal-2">
                           {p}
                         </p>
                       ))}
