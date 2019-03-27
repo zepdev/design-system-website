@@ -85,27 +85,16 @@ function Layout({ children, classes }) {
   // Styles for mdx/md pages
   const h1Styled = props => <h1 className="zep-typo--display-4" {...props} />
   const h2Styled = props => (
-    <h2
-      className={classnames(classes.hStyled, 'zep-typo--normal-8')}
-      {...props}
-    />
+    <h2 className={classnames(classes.hStyled, 'zep-typo--normal-8')} {...props} />
   )
   const h3Styled = props => (
-    <h3
-      className={classnames(classes.hStyled, 'zep-typo--normal-6')}
-      {...props}
-    />
+    <h3 className={classnames(classes.hStyled, 'zep-typo--normal-6')} {...props} />
   )
   const pStyled = props => (
-    <p
-      className={classnames(classes.pStyled, 'zep-typo--normal-3')}
-      {...props}
-    />
+    <p className={classnames(classes.pStyled, 'zep-typo--normal-3')} {...props} />
   )
   const hrStyled = () => (
-    <hr
-      className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')}
-    />
+    <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
   )
   const preStyled = props => <div {...props} />
 
