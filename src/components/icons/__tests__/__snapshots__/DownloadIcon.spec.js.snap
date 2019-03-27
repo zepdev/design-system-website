@@ -1,31 +1,55 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tab renders correctly 1`] = `
+exports[`CopyIcon renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="ButtonBase-button-0-1-8 Tab-root-0-1-1 Tab-normal-0-1-2"
+      <svg
+        aria-labelledby="title"
+        height="32"
+        viewBox="0 0 24 24"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <p
-          class="Tab-label-0-1-4 Tab-labelPrimary-0-1-5 zep-typo--normal-4"
+        <title
+          id="title_copy"
         >
-          mockTabLabel
-        </p>
-      </button>
+          Download Icon
+        </title>
+        <path
+          d="M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z"
+          fill="currentColor"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="ButtonBase-button-0-1-8 Tab-root-0-1-1 Tab-normal-0-1-2"
+    <svg
+      aria-labelledby="title"
+      height="32"
+      viewBox="0 0 24 24"
+      width="32"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <p
-        class="Tab-label-0-1-4 Tab-labelPrimary-0-1-5 zep-typo--normal-4"
+      <title
+        id="title_copy"
       >
-        mockTabLabel
-      </p>
-    </button>
+        Download Icon
+      </title>
+      <path
+        d="M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z"
+        fill="currentColor"
+      />
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+    </svg>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

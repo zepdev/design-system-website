@@ -36,52 +36,16 @@ Object {
           </div>
         </div>
       </div>
-      <div
-        class="CodeBlock-root-0-1-4"
+      <pre
+        class="prism-code language-js"
+        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
       >
         <div
-          class="CodeBlock-tabsContainer-0-1-6"
-        >
-          <p
-            class="CodeBlock-noTabs-0-1-11 zep-typo--normal-2"
-          >
-            Vanilla JS
-          </p>
-          <button
-            class="ButtonBase-button-0-1-12 CodeBlock-button-0-1-8"
-            data-testid="codeBlockButton"
-          >
-            <svg
-              aria-labelledby="title"
-              class="CodeBlock-icon-0-1-7"
-              height="32"
-              viewBox="0 0 24 24"
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title
-                id="title_copy"
-              >
-                Copy Icon
-              </title>
-              <path
-                d="M0 0h24v24H0V0z"
-                fill="none"
-              />
-              <path
-                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
-                fill="currentColor"
-              />
-            </svg>
-          </button>
-        </div>
-        <pre
-          class="prism-code language-js"
-          style="background-color: rgb(55, 61, 63); color: rgb(236, 238, 239); padding: 32px; font-size: 0.75rem; margin-top: 0px; margin-bottom: 64px; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+          style="padding-top: 16px;"
         >
           <div
             class="token-line"
-            style="margin-bottom: 12px;"
+            style="padding-bottom: 12px;"
           >
             <span
               class="token operator"
@@ -184,7 +148,6 @@ Object {
           </div>
           <div
             class="token-line"
-            style="margin-bottom: 12px;"
           >
             <span
               class="token plain"
@@ -291,6 +254,198 @@ Object {
               &gt;
             </span>
           </div>
+        </div>
+        <button
+          class="ButtonBase-button-0-1-6 CopyButton-button-0-1-4"
+          data-testid="copyButton"
+        >
+          <svg
+            aria-labelledby="title"
+            class="CopyButton-icon-0-1-5"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Copy Icon
+            </title>
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </pre>
+      <div
+        class="CodeUsage-root-0-1-8"
+      >
+        <h3
+          class="CodeUsage-heading-0-1-9 zep-typo--normal-4"
+        >
+          Code Usage Examples
+        </h3>
+        <div
+          class="Tabs-root-0-1-10"
+        >
+          <button
+            class="ButtonBase-button-0-1-6 Tab-root-0-1-11 Tab-selected-0-1-17 Tab-fullWidth-0-1-13"
+          >
+            <p
+              class="Tab-label-0-1-14 Tab-selected-0-1-17 Tab-labelPrimary-0-1-15 zep-typo--normal-4"
+            >
+              React
+            </p>
+          </button>
+          <button
+            class="ButtonBase-button-0-1-6 Tab-root-0-1-11 Tab-fullWidth-0-1-13"
+          >
+            <p
+              class="Tab-label-0-1-14 Tab-labelPrimary-0-1-15 zep-typo--normal-4"
+            >
+              Vue
+            </p>
+          </button>
+        </div>
+        <pre
+          class="prism-code language-js"
+          style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+        >
+          <div
+            style="padding-top: 16px;"
+          >
+            <div
+              class="token-line"
+            >
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                &lt;
+              </span>
+              <span
+                class="token plain"
+                data-testid="code"
+              >
+                button type
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                =
+              </span>
+              <span
+                class="token string"
+                data-testid="code"
+                style="color: rgb(255, 101, 98);"
+              >
+                "button"
+              </span>
+              <span
+                class="token plain"
+                data-testid="code"
+              >
+                 
+              </span>
+              <span
+                class="token keyword"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                class
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                =
+              </span>
+              <span
+                class="token string"
+                data-testid="code"
+                style="color: rgb(255, 101, 98);"
+              >
+                "zep-button zep-button-secondary"
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                &gt;
+              </span>
+              <span
+                class="token plain"
+                data-testid="code"
+              >
+                secondary
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                &lt;
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                /
+              </span>
+              <span
+                class="token plain"
+                data-testid="code"
+              >
+                button
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                &gt;
+              </span>
+            </div>
+          </div>
+          <button
+            class="ButtonBase-button-0-1-6 CopyButton-button-0-1-4"
+            data-testid="copyButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="CopyButton-icon-0-1-5"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_copy"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
         </pre>
       </div>
       <p
@@ -326,52 +481,16 @@ Object {
           </div>
         </div>
       </div>
-      <div
-        class="CodeBlock-root-0-1-4"
+      <pre
+        class="prism-code language-js"
+        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
       >
         <div
-          class="CodeBlock-tabsContainer-0-1-6"
-        >
-          <p
-            class="CodeBlock-noTabs-0-1-11 zep-typo--normal-2"
-          >
-            Vanilla JS
-          </p>
-          <button
-            class="ButtonBase-button-0-1-12 CodeBlock-button-0-1-8"
-            data-testid="codeBlockButton"
-          >
-            <svg
-              aria-labelledby="title"
-              class="CodeBlock-icon-0-1-7"
-              height="32"
-              viewBox="0 0 24 24"
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title
-                id="title_copy"
-              >
-                Copy Icon
-              </title>
-              <path
-                d="M0 0h24v24H0V0z"
-                fill="none"
-              />
-              <path
-                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
-                fill="currentColor"
-              />
-            </svg>
-          </button>
-        </div>
-        <pre
-          class="prism-code language-js"
-          style="background-color: rgb(55, 61, 63); color: rgb(236, 238, 239); padding: 32px; font-size: 0.75rem; margin-top: 0px; margin-bottom: 64px; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+          style="padding-top: 16px;"
         >
           <div
             class="token-line"
-            style="margin-bottom: 12px;"
+            style="padding-bottom: 12px;"
           >
             <span
               class="token operator"
@@ -474,7 +593,7 @@ Object {
           </div>
           <div
             class="token-line"
-            style="margin-bottom: 12px;"
+            style="padding-bottom: 12px;"
           >
             <span
               class="token plain"
@@ -554,7 +673,7 @@ Object {
           </div>
           <div
             class="token-line"
-            style="margin-bottom: 12px;"
+            style="padding-bottom: 12px;"
           >
             <span
               class="token plain"
@@ -565,7 +684,6 @@ Object {
           </div>
           <div
             class="token-line"
-            style="margin-bottom: 12px;"
           >
             <span
               class="token plain"
@@ -601,6 +719,198 @@ Object {
               &gt;
             </span>
           </div>
+        </div>
+        <button
+          class="ButtonBase-button-0-1-6 CopyButton-button-0-1-4"
+          data-testid="copyButton"
+        >
+          <svg
+            aria-labelledby="title"
+            class="CopyButton-icon-0-1-5"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Copy Icon
+            </title>
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </pre>
+      <div
+        class="CodeUsage-root-0-1-8"
+      >
+        <h3
+          class="CodeUsage-heading-0-1-9 zep-typo--normal-4"
+        >
+          Code Usage Examples
+        </h3>
+        <div
+          class="Tabs-root-0-1-10"
+        >
+          <button
+            class="ButtonBase-button-0-1-6 Tab-root-0-1-11 Tab-selected-0-1-17 Tab-fullWidth-0-1-13"
+          >
+            <p
+              class="Tab-label-0-1-14 Tab-selected-0-1-17 Tab-labelPrimary-0-1-15 zep-typo--normal-4"
+            >
+              React
+            </p>
+          </button>
+          <button
+            class="ButtonBase-button-0-1-6 Tab-root-0-1-11 Tab-fullWidth-0-1-13"
+          >
+            <p
+              class="Tab-label-0-1-14 Tab-labelPrimary-0-1-15 zep-typo--normal-4"
+            >
+              Vue
+            </p>
+          </button>
+        </div>
+        <pre
+          class="prism-code language-js"
+          style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+        >
+          <div
+            style="padding-top: 16px;"
+          >
+            <div
+              class="token-line"
+            >
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                &lt;
+              </span>
+              <span
+                class="token plain"
+                data-testid="code"
+              >
+                button type
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                =
+              </span>
+              <span
+                class="token string"
+                data-testid="code"
+                style="color: rgb(255, 101, 98);"
+              >
+                "button"
+              </span>
+              <span
+                class="token plain"
+                data-testid="code"
+              >
+                 
+              </span>
+              <span
+                class="token keyword"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                class
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                =
+              </span>
+              <span
+                class="token string"
+                data-testid="code"
+                style="color: rgb(255, 101, 98);"
+              >
+                "zep-button zep-button-secondary"
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                &gt;
+              </span>
+              <span
+                class="token plain"
+                data-testid="code"
+              >
+                secondary
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                &lt;
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                /
+              </span>
+              <span
+                class="token plain"
+                data-testid="code"
+              >
+                button
+              </span>
+              <span
+                class="token operator"
+                data-testid="code"
+                style="color: rgb(91, 192, 222);"
+              >
+                &gt;
+              </span>
+            </div>
+          </div>
+          <button
+            class="ButtonBase-button-0-1-6 CopyButton-button-0-1-4"
+            data-testid="copyButton"
+          >
+            <svg
+              aria-labelledby="title"
+              class="CopyButton-icon-0-1-5"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_copy"
+              >
+                Copy Icon
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
         </pre>
       </div>
     </div>
@@ -637,52 +947,16 @@ Object {
         </div>
       </div>
     </div>
-    <div
-      class="CodeBlock-root-0-1-4"
+    <pre
+      class="prism-code language-js"
+      style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
     >
       <div
-        class="CodeBlock-tabsContainer-0-1-6"
-      >
-        <p
-          class="CodeBlock-noTabs-0-1-11 zep-typo--normal-2"
-        >
-          Vanilla JS
-        </p>
-        <button
-          class="ButtonBase-button-0-1-12 CodeBlock-button-0-1-8"
-          data-testid="codeBlockButton"
-        >
-          <svg
-            aria-labelledby="title"
-            class="CodeBlock-icon-0-1-7"
-            height="32"
-            viewBox="0 0 24 24"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title
-              id="title_copy"
-            >
-              Copy Icon
-            </title>
-            <path
-              d="M0 0h24v24H0V0z"
-              fill="none"
-            />
-            <path
-              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
-              fill="currentColor"
-            />
-          </svg>
-        </button>
-      </div>
-      <pre
-        class="prism-code language-js"
-        style="background-color: rgb(55, 61, 63); color: rgb(236, 238, 239); padding: 32px; font-size: 0.75rem; margin-top: 0px; margin-bottom: 64px; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+        style="padding-top: 16px;"
       >
         <div
           class="token-line"
-          style="margin-bottom: 12px;"
+          style="padding-bottom: 12px;"
         >
           <span
             class="token operator"
@@ -785,7 +1059,6 @@ Object {
         </div>
         <div
           class="token-line"
-          style="margin-bottom: 12px;"
         >
           <span
             class="token plain"
@@ -892,6 +1165,198 @@ Object {
             &gt;
           </span>
         </div>
+      </div>
+      <button
+        class="ButtonBase-button-0-1-6 CopyButton-button-0-1-4"
+        data-testid="copyButton"
+      >
+        <svg
+          aria-labelledby="title"
+          class="CopyButton-icon-0-1-5"
+          height="32"
+          viewBox="0 0 24 24"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_copy"
+          >
+            Copy Icon
+          </title>
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </pre>
+    <div
+      class="CodeUsage-root-0-1-8"
+    >
+      <h3
+        class="CodeUsage-heading-0-1-9 zep-typo--normal-4"
+      >
+        Code Usage Examples
+      </h3>
+      <div
+        class="Tabs-root-0-1-10"
+      >
+        <button
+          class="ButtonBase-button-0-1-6 Tab-root-0-1-11 Tab-selected-0-1-17 Tab-fullWidth-0-1-13"
+        >
+          <p
+            class="Tab-label-0-1-14 Tab-selected-0-1-17 Tab-labelPrimary-0-1-15 zep-typo--normal-4"
+          >
+            React
+          </p>
+        </button>
+        <button
+          class="ButtonBase-button-0-1-6 Tab-root-0-1-11 Tab-fullWidth-0-1-13"
+        >
+          <p
+            class="Tab-label-0-1-14 Tab-labelPrimary-0-1-15 zep-typo--normal-4"
+          >
+            Vue
+          </p>
+        </button>
+      </div>
+      <pre
+        class="prism-code language-js"
+        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+      >
+        <div
+          style="padding-top: 16px;"
+        >
+          <div
+            class="token-line"
+          >
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              data-testid="code"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              data-testid="code"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-secondary"
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+              secondary
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+          </div>
+        </div>
+        <button
+          class="ButtonBase-button-0-1-6 CopyButton-button-0-1-4"
+          data-testid="copyButton"
+        >
+          <svg
+            aria-labelledby="title"
+            class="CopyButton-icon-0-1-5"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Copy Icon
+            </title>
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
       </pre>
     </div>
     <p
@@ -927,52 +1392,16 @@ Object {
         </div>
       </div>
     </div>
-    <div
-      class="CodeBlock-root-0-1-4"
+    <pre
+      class="prism-code language-js"
+      style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
     >
       <div
-        class="CodeBlock-tabsContainer-0-1-6"
-      >
-        <p
-          class="CodeBlock-noTabs-0-1-11 zep-typo--normal-2"
-        >
-          Vanilla JS
-        </p>
-        <button
-          class="ButtonBase-button-0-1-12 CodeBlock-button-0-1-8"
-          data-testid="codeBlockButton"
-        >
-          <svg
-            aria-labelledby="title"
-            class="CodeBlock-icon-0-1-7"
-            height="32"
-            viewBox="0 0 24 24"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title
-              id="title_copy"
-            >
-              Copy Icon
-            </title>
-            <path
-              d="M0 0h24v24H0V0z"
-              fill="none"
-            />
-            <path
-              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
-              fill="currentColor"
-            />
-          </svg>
-        </button>
-      </div>
-      <pre
-        class="prism-code language-js"
-        style="background-color: rgb(55, 61, 63); color: rgb(236, 238, 239); padding: 32px; font-size: 0.75rem; margin-top: 0px; margin-bottom: 64px; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+        style="padding-top: 16px;"
       >
         <div
           class="token-line"
-          style="margin-bottom: 12px;"
+          style="padding-bottom: 12px;"
         >
           <span
             class="token operator"
@@ -1075,7 +1504,7 @@ Object {
         </div>
         <div
           class="token-line"
-          style="margin-bottom: 12px;"
+          style="padding-bottom: 12px;"
         >
           <span
             class="token plain"
@@ -1155,7 +1584,7 @@ Object {
         </div>
         <div
           class="token-line"
-          style="margin-bottom: 12px;"
+          style="padding-bottom: 12px;"
         >
           <span
             class="token plain"
@@ -1166,7 +1595,6 @@ Object {
         </div>
         <div
           class="token-line"
-          style="margin-bottom: 12px;"
         >
           <span
             class="token plain"
@@ -1202,6 +1630,198 @@ Object {
             &gt;
           </span>
         </div>
+      </div>
+      <button
+        class="ButtonBase-button-0-1-6 CopyButton-button-0-1-4"
+        data-testid="copyButton"
+      >
+        <svg
+          aria-labelledby="title"
+          class="CopyButton-icon-0-1-5"
+          height="32"
+          viewBox="0 0 24 24"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_copy"
+          >
+            Copy Icon
+          </title>
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </pre>
+    <div
+      class="CodeUsage-root-0-1-8"
+    >
+      <h3
+        class="CodeUsage-heading-0-1-9 zep-typo--normal-4"
+      >
+        Code Usage Examples
+      </h3>
+      <div
+        class="Tabs-root-0-1-10"
+      >
+        <button
+          class="ButtonBase-button-0-1-6 Tab-root-0-1-11 Tab-selected-0-1-17 Tab-fullWidth-0-1-13"
+        >
+          <p
+            class="Tab-label-0-1-14 Tab-selected-0-1-17 Tab-labelPrimary-0-1-15 zep-typo--normal-4"
+          >
+            React
+          </p>
+        </button>
+        <button
+          class="ButtonBase-button-0-1-6 Tab-root-0-1-11 Tab-fullWidth-0-1-13"
+        >
+          <p
+            class="Tab-label-0-1-14 Tab-labelPrimary-0-1-15 zep-typo--normal-4"
+          >
+            Vue
+          </p>
+        </button>
+      </div>
+      <pre
+        class="prism-code language-js"
+        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+      >
+        <div
+          style="padding-top: 16px;"
+        >
+          <div
+            class="token-line"
+          >
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              data-testid="code"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              data-testid="code"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-secondary"
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+              secondary
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+              data-testid="code"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              data-testid="code"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+          </div>
+        </div>
+        <button
+          class="ButtonBase-button-0-1-6 CopyButton-button-0-1-4"
+          data-testid="copyButton"
+        >
+          <svg
+            aria-labelledby="title"
+            class="CopyButton-icon-0-1-5"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Copy Icon
+            </title>
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
       </pre>
     </div>
   </div>,

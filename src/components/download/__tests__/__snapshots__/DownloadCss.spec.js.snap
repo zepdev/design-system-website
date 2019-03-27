@@ -11,7 +11,7 @@ Object {
         <a
           class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
           download="zeppelin-element-library.css"
-          href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css"
+          href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
           target="_blank"
         >
           Download
@@ -26,7 +26,7 @@ Object {
       <a
         class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
         download="zeppelin-element-library.css"
-        href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css"
+        href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
         target="_blank"
       >
         Download

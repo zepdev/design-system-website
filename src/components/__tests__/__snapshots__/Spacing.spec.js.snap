@@ -12,7 +12,7 @@ Object {
           class="Spacing-table-0-1-2"
         >
           <caption
-            class="visually-hidden"
+            class="zep-visually-hidden"
           >
             Spacing Scale
           </caption>
@@ -260,7 +260,7 @@ Object {
         class="Spacing-table-0-1-2"
       >
         <caption
-          class="visually-hidden"
+          class="zep-visually-hidden"
         >
           Spacing Scale
         </caption>

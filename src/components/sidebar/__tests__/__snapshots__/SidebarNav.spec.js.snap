@@ -98,7 +98,7 @@ Object {
         <li>
           <a
             class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
-            href="/content/download"
+            href="/content/download/"
           >
             Download
           </a>
@@ -200,7 +200,7 @@ Object {
       <li>
         <a
           class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
-          href="/content/download"
+          href="/content/download/"
         >
           Download
         </a>

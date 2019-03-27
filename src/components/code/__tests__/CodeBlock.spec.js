@@ -1,20 +1,22 @@
+/**
+ * @jest-environment jsdom
+ */
 import React from 'react'
 import { render } from 'react-testing-library'
+import CodeBlock from '../CodeBlock'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../../data/theme'
-import CodeUsage from '../CodeUsage'
 
-describe('CodeUsage', () => {
+jest.useFakeTimers()
+
+describe('CodeBlock', () => {
   it('renders correctly', () => {
     const mockProps = {
-      element: {
-        react: ['mockCode'],
-        vue: ['mockCode'],
-      },
+      children: 'mockCode',
     }
     const component = render(
       <ThemeProvider theme={theme}>
-        <CodeUsage {...mockProps} />
+        <CodeBlock {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

@@ -44,7 +44,7 @@ function CopyButton({ element, classes }) {
   }
 
   return (
-    <ButtonBase data-testid="codeBlockButton" onClick={handleCopy} className={classes.button}>
+    <ButtonBase data-testid="copyButton" onClick={handleCopy} className={classes.button}>
       {!isTextCopied && <CopyIcon className={classes.icon} />}
       {isTextCopied && 'Copied!'}
       {copyError && 'Error!'}
