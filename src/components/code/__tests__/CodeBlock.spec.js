@@ -7,8 +7,6 @@ import CodeBlock from '../CodeBlock'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../../data/theme'
 
-jest.useFakeTimers()
-
 describe('CodeBlock', () => {
   it('renders correctly', () => {
     const mockProps = {

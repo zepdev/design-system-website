@@ -44,12 +44,12 @@ const CodeUsage = ({ element, classes }) => {
         }
       `}
       render={data => {
-        const react = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${ elem }CodeExample_React`
-        )
-        const vue = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`
-        )
+        const react = data
+          ? data.allMdx.edges.find(x => x.node.frontmatter.label === `${ elem }CodeExample_React`)
+          : 'no example yet, please check back later!'
+        const vue = data
+          ? data.allMdx.edges.find(x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`)
+          : 'no example yet, please check back later!'
         return (
           <div className={classes.root}>
             <h3 className={classnames(classes.heading, 'zep-typo--normal-4')}>
