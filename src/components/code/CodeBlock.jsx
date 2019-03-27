@@ -2,16 +2,22 @@
 
 import React from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
-import theme from '../data/theme'
+import CopyButton from '../button/CopyButton'
+import theme from '../../data/theme'
 
 const codeTheme = {
   plain: {
     backgroundColor: theme.colors.gray.grayMidDark.hex,
+    marginBottom: `${ theme.spacing.xxl.rem }rem`,
     color: theme.colors.gray.grayLighter.hex,
-    padding: theme.spacing.xl.px,
-    fontSize: '0.75rem',
+    paddingLeft: `${ theme.spacing.l.rem }rem`,
+    paddingBottom: `${ theme.spacing.l.rem }rem`,
+    paddingTop: 8,
+    paddingRight: 8,
+    fontSize: '0.875rem',
     marginTop: 0,
-    marginBottom: theme.spacing.xl.px * 2,
+    display: 'flex',
+    justifyContent: 'space-between',
     overflowX: 'auto',
     whiteSpace: 'pre-wrap',
     wordWrap: 'break-word',
@@ -105,19 +111,24 @@ export default ({ children, className }) => {
             ...style,
           }}
         >
-          {tokens.map((line, i) =>
-            line[0].empty === true ? null : (
-              <div
-                key={i}
-                {...getLineProps({ line, key: i })}
-                style={{ marginBottom: theme.spacing.s.px }}
-              >
-                {line.map((token, key) => (
-                  <span data-testid="code" key={key} {...getTokenProps({ token, key })} />
-                ))}
-              </div>
-            )
-          )}
+          <div style={{ paddingTop: 16 }}>
+            {tokens.map((line, i) =>
+              line[0].empty === true ? null : (
+                <div
+                  key={i}
+                  {...getLineProps({ line, key: i })}
+                  style={{
+                    paddingBottom: tokens.length - 1 === i ? null : theme.spacing.s.px,
+                  }}
+                >
+                  {line.map((token, key) => (
+                    <span data-testid="code" key={key} {...getTokenProps({ token, key })} />
+                  ))}
+                </div>
+              )
+            )}
+          </div>
+          <CopyButton element={children} />
         </pre>
       )}
     </Highlight>

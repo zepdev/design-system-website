@@ -13,7 +13,14 @@ const styles = theme => ({
 
 class Tabs extends Component {
   render() {
-    const { className: classNameProp, children: childrenProp, onClick, value, classes } = this.props
+    const {
+      className: classNameProp,
+      children: childrenProp,
+      fullWidth,
+      onClick,
+      value,
+      classes,
+    } = this.props
     this.valueToIndex = new Map()
     let childIndex = 0
     const children = React.Children.map(childrenProp, child => {
@@ -29,8 +36,10 @@ class Tabs extends Component {
         selected,
         onClick,
         value: childValue,
+        fullWidth,
       })
     })
+
     return <div className={classnames(classes.root, classNameProp)}>{children}</div>
   }
 }
@@ -40,6 +49,7 @@ Tabs.propTypes = {
   children: PropTypes.array.isRequired,
   onClick: PropTypes.func,
   value: PropTypes.number,
+  fullWidth: PropTypes.bool,
 }
 
 export default withStyles(styles)(Tabs)
