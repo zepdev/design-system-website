@@ -11,20 +11,84 @@ module.exports = {
           `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
         ],
         angular: false,
-        vue: [],
+        vue: [
+          `/*
+ vue.js Single File Component example 
+ name: ZepButton.vue
+ use as:
+ <ZepButton
+  class="zep-button zep-button-primary"
+  onClick="console.log('outside function triggers after inside function')"
+ />
+*/
+<template>
+  <button v-on:click="handleClick">
+    You clicked me {{ count }} times
+  </button>
+</template>
+<script>
+  export default {
+    name: "ZepButton",
+    data() {
+      return { count: 0 };
+    },
+    methods: {
+      handleClick() {
+        console.log("inside function triggers first");
+        this.count++;
+      }
+    }
+  };
+</script>
+
+<style>
+  /* insert component styles here */
+</style>`,
+        ],
       },
       secondary: {
         js: [
           `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
-          `<button type="button" class="zep-button zep-button-secondary" disabled>
-            disabled
-          </button>`,
+          `<button type="button" class="zep-button zep-button-secondary" disabled>disabled</button>`,
         ],
         react: [
           `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
         ],
         angular: false,
-        vue: [],
+        vue: [
+          `/*
+ vue.js Single File Component example 
+ name: ZepButton.vue
+ use as:
+ <ZepButton
+  class="zep-button zep-button-secondary"
+  onClick="console.log('outside function triggers after inside function')"
+ />
+*/
+<template>
+  <button v-on:click="handleClick">
+    You clicked me {{ count }} times
+  </button>
+</template>
+<script>
+  export default {
+    name: "ZepButton",
+    data() {
+      return { count: 0 };
+    },
+    methods: {
+      handleClick() {
+        console.log("inside function triggers first");
+        this.count++;
+      }
+    }
+  };
+</script>
+
+<style>
+  /* insert component styles here */
+</style>`,
+        ],
       },
     },
     typography: {
