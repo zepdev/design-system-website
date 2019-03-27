@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import image1 from '../../assets/images/zeppelin_icon.png'
+import image1 from '../../assets/images/sketch_button.png'
 
 const styles = theme => ({
   root: {
@@ -9,14 +9,13 @@ const styles = theme => ({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: theme.colors.gray.grayLighter.hex,
-    padding: `${ theme.spacing.xl.rem * 2 }rem`,
+    padding: `${ theme.spacing.xxl.rem }rem`,
   },
 })
 
 const Structure = ({ element, classes }) => {
   return (
     <div className={classes.root}>
-      <img src={image1} />
       <img src={image1} />
     </div>
   )

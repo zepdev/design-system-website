@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="Tab-root-0-1-1 zep-button"
+        class="ButtonBase-button-0-1-8 Tab-root-0-1-1 Tab-normal-0-1-2"
       >
         <p
-          class="Tab-label-0-1-2 Tab-labelPrimary-0-1-3"
+          class="Tab-label-0-1-4 Tab-labelPrimary-0-1-5 zep-typo--normal-4"
         >
           mockTabLabel
         </p>
@@ -18,10 +18,10 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="Tab-root-0-1-1 zep-button"
+      class="ButtonBase-button-0-1-8 Tab-root-0-1-1 Tab-normal-0-1-2"
     >
       <p
-        class="Tab-label-0-1-2 Tab-labelPrimary-0-1-3"
+        class="Tab-label-0-1-4 Tab-labelPrimary-0-1-5 zep-typo--normal-4"
       >
         mockTabLabel
       </p>

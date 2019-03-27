@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import withStyles from 'react-jss'
+import ButtonBase from '../button/ButtonBase'
 
 const styles = theme => ({
   root: {
-    flexBasis: '20%',
+    paddingTop: `${ theme.spacing.s.rem }rem`,
     '&:hover': {
       borderBottom: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
       '& $labelPrimary': {
@@ -19,12 +20,17 @@ const styles = theme => ({
       borderBottom: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
     },
   },
+  normal: {
+    flexBasis: '20%',
+  },
+  fullWidth: {
+    flexBasis: '100%',
+  },
   label: {
     textAlign: 'center',
-    textTransform: 'uppercase',
   },
   labelPrimary: {
-    color: theme.colors.gray.hex,
+    color: theme.colors.gray.grayLight.hex,
     '&$selected': {
       color: theme.colors.gray.grayDark.hex,
     },
@@ -38,29 +44,40 @@ const styles = theme => ({
   selected: {},
 })
 
-class Tab extends Component {
-  render() {
-    const { className: classNameProp, label, color, onClick, value, selected, classes } = this.props
-
-    return (
-      <button
-        className={classnames(classes.root, classNameProp, 'zep-button', {
-          [classes.selected]: selected,
-        })}
-        onClick={e => onClick(e, value)}
-      >
-        <p
-          className={classnames(classes.label, {
+const Tab = ({
+  className: classNameProp,
+  label,
+  fullWidth,
+  color,
+  onClick,
+  value,
+  selected,
+  classes,
+}) => {
+  return (
+    <ButtonBase
+      className={classnames(classes.root, classNameProp, {
+        [classes.selected]: selected,
+        [classes.normal]: !fullWidth,
+        [classes.fullWidth]: fullWidth,
+      })}
+      onClick={e => onClick(e, value)}
+    >
+      <p
+        className={classnames(
+          classes.label,
+          {
             [classes.selected]: selected,
             [classes.labelPrimary]: color === 'primary',
             [classes.labelSecondary]: color === 'secondary',
-          })}
-        >
-          {label}
-        </p>
-      </button>
-    )
-  }
+          },
+          'zep-typo--normal-4'
+        )}
+      >
+        {label}
+      </p>
+    </ButtonBase>
+  )
 }
 
 Tab.propTypes = {
