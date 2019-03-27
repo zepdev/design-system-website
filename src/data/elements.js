@@ -7,11 +7,6 @@ module.exports = {
           `<button type="button" class="zep-button zep-button-primary">primary</button>`,
           `<button type="button" class="zep-button zep-button-primary" disabled>disabled</button>`,
         ],
-        react: [
-          `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
-        ],
-        angular: false,
-        vue: [],
       },
       secondary: {
         js: [
@@ -20,11 +15,6 @@ module.exports = {
             disabled
           </button>`,
         ],
-        react: [
-          `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
-        ],
-        angular: false,
-        vue: [],
       },
     },
     typography: {
