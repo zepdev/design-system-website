@@ -5,7 +5,7 @@ title: Typography
 
 import Table from '../../components/table/Table.jsx'
 import Typefaces from '../../components/Typefaces.jsx'
-import theme from '../../data/theme.js'
+import { typography } from 'zeppelin-element-library/bundle/themes/theme.json'
 
 # Typography
 
@@ -24,7 +24,7 @@ These are the official Typography styles for Zeppelin.
 <Table
   title="basics typography variations"
   header={['specification', 'px', 'rem', 'weight']}
-  content={theme.typography.basics}
+  content={typography.basics}
 />
 
 ---
@@ -33,12 +33,24 @@ These are the official Typography styles for Zeppelin.
 
 ### Normal Sizes
 
-<Table title="normal typography variations" header={['name', 'rem', 'px', 'specifications', 'actual size']} content={theme.typography.headings.normal}/>
+<Table
+  title="normal typography variations"
+  header={['name', 'rem', 'px', 'specifications', 'actual size']}
+  content={typography.headings.normal}
+/>
 
 ### Display Sizes
 
-<Table title="display typography variations" header={['name', 'rem', 'px', 'specifications', 'actual size']} content={theme.typography.headings.display}/>
+<Table
+  title="display typography variations"
+  header={['name', 'rem', 'px', 'specifications', 'actual size']}
+  content={typography.headings.display}
+/>
 
 ### Special Sizes
 
-<Table title="special typography variations" header={['name', 'rem', 'px', 'specifications', 'actual size']} content={theme.typography.headings.special}/>
+<Table
+  title="special typography variations"
+  header={['name', 'rem', 'px', 'specifications', 'actual size']}
+  content={typography.headings.special}
+/>

@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import withStyles from 'react-jss'
-import theme from '../data/theme'
+import { spacing } from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
   root: {
@@ -66,7 +66,7 @@ const Spacing = ({ classes }) => {
           </tr>
         </thead>
         <tbody className={classes.tbody}>
-          {Object.keys(theme.spacing).map(elem => (
+          {Object.keys(spacing).map(elem => (
             <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
@@ -77,8 +77,8 @@ const Spacing = ({ classes }) => {
                   {item === 'actual size' ? (
                     <div
                       style={{
-                        width: theme.spacing[elem].px,
-                        height: theme.spacing[elem].px,
+                        width: spacing[elem].px,
+                        height: spacing[elem].px,
                         color: 'green',
                       }}
                       className={classes.square}
@@ -86,9 +86,9 @@ const Spacing = ({ classes }) => {
                   ) : item === 'name' ? (
                     `zep-spacing--${ elem }`
                   ) : item === 'px' ? (
-                    `${ theme.spacing[elem][item] }px`
+                    `${ spacing[elem][item] }px`
                   ) : (
-                    `${ theme.spacing[elem][item] }rem`
+                    `${ spacing[elem][item] }rem`
                   )}
                 </td>
               ))}

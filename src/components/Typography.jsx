@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import theme from '../data/theme'
+import { typography } from 'zeppelin-element-library/bundle/themes/theme.json'
 import withStyles from 'react-jss'
 
 const styles = theme => ({
@@ -44,8 +44,7 @@ const Typography = ({ section, classes }) => {
     section === 'basics'
       ? ['specification', 'px', 'rem', 'weight']
       : ['name', 'rem', 'px', 'specifications', 'actual size']
-  const content =
-    section === 'basics' ? theme.typography.basics : theme.typography.headings[section]
+  const content = section === 'basics' ? typography.basics : typography.headings[section]
 
   return (
     <div className={classes.root}>

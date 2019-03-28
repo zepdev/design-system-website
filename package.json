@@ -13,15 +13,15 @@
     "@mdx-js/tag": "^0.20.3",
     "@reach/skip-nav": "^0.1.2",
     "classnames": "^2.2.6",
-    "gatsby": "^2.3.2",
-    "gatsby-image": "^2.0.34",
+    "gatsby": "^2.3.3",
+    "gatsby-image": "^2.0.35",
     "gatsby-mdx": "^0.4.4",
     "gatsby-plugin-jss": "^2.0.9",
-    "gatsby-plugin-layout": "^1.0.13",
-    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-layout": "^1.0.14",
+    "gatsby-plugin-manifest": "^2.0.25",
     "gatsby-plugin-offline": "^2.0.25",
-    "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sharp": "^2.0.30",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-sharp": "^2.0.32",
     "gatsby-remark-images": "^3.0.10",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-remark": "^2.3.8",
@@ -31,9 +31,9 @@
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0",
-    "react-jss": "^10.0.0-alpha.16",
+    "react-jss": "^8.6.1",
     "sonarqube-scanner": "^2.4.0",
-    "zeppelin-element-library": "0.2.6-8e23c5b"
+    "zeppelin-element-library": "^0.3.0-08a8efe"
   },
   "scripts": {
     "build": "gatsby build",
@@ -60,6 +60,12 @@
       "git add"
     ]
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie >= 9",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "babel-eslint": "^10.0.1",
