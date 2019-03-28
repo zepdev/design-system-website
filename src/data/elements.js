@@ -5,12 +5,16 @@ module.exports = {
       primary: {
         js: [
           `<button type="button" class="zep-button zep-button-primary">primary</button>`,
+          `<button type="button" class="zep-button zep-button-primary zep-button-primary--cat">primary</button>`,
+          `<button type="button" class="zep-button zep-button-primary zep-button-primary--rental">primary</button>`,
           `<button type="button" class="zep-button zep-button-primary" disabled>disabled</button>`,
         ],
       },
       secondary: {
         js: [
           `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
+          `<button type="button" class="zep-button zep-button-secondary zep-button-secondary--cat">secondary</button>`,
+          `<button type="button" class="zep-button zep-button-secondary zep-button-secondary--rental">secondary</button>`,
           `<button type="button" class="zep-button zep-button-secondary" disabled>
             disabled
           </button>`,
