@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
 import Swatch from './Swatch'
-import { colors } from '../../data/theme'
+import { colors } from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
   root: {

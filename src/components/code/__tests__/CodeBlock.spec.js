@@ -1,17 +1,20 @@
+/**
+ * @jest-environment jsdom
+ */
 import React from 'react'
 import { render } from 'react-testing-library'
+import CodeBlock from '../CodeBlock'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../data/theme'
-import ElementPreview from '../ElementPreview'
+import theme from '../../../data/theme'
 
-describe('ElementPreview', () => {
+describe('CodeBlock', () => {
   it('renders correctly', () => {
     const mockProps = {
-      element: 'button',
+      children: 'mockCode',
     }
     const component = render(
       <ThemeProvider theme={theme}>
-        <ElementPreview {...mockProps} />
+        <CodeBlock {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()
