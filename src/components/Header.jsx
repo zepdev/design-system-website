@@ -5,7 +5,7 @@ import classnames from 'classnames'
 import ButtonBase from '../components/button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
-import Searchbar from './searchbar/Searchbar'
+// import Searchbar from './searchbar/Searchbar'
 
 const styles = theme => ({
   root: {

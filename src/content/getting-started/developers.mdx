@@ -49,11 +49,23 @@ export default MyButton
 ## Using theme.js
 
 Also available from Zeppelin Element Library is a javascript object called theme. The theme file contains
-everything outlined in the Guidelines section. These variables can easily be accessed and used in your project.
+everything outlined in the Guidelines section. These variables can easily be accessed and used in your project using any CCS-in-JS solution.
 
-JSS example;
+JSS in Gatsby example;
 
 ```jsx
+// gatsby-config.js
+const zeppelinTheme = require('zeppelin-element-library/bundle/themes/theme.json')
+module.exports = {
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-jss',
+      options: { zeppelinTheme },
+    },
+  ],
+}
+
+// MyComponent.jsx
 import React from 'react'
 import withStyles from 'react-jss'
 
@@ -61,23 +73,19 @@ const styles = theme => ({
   root: {
     marginBottom: theme.spacing.l.px * 2,
   },
-  link: {
+  p: {
     color: theme.colors.gray.white.hex,
     background: theme.colors.primary.indigoBlue.hex,
-    padding: '12px 16px',
-    cursor: 'pointer',
   },
 })
 
-const LinkComponent = ({ classes }) => {
+const MyComponent = ({ classes }) => {
   return (
     <div className={classes.root}>
-      <a className={classes.link} href="">
-        MyLink
-      </a>
+      <p className={classes.p}>This is a React Component!</p>
     </div>
   )
 }
 
-export default withStyles(styles)(LinkComponent)
+export default withStyles(styles)(MyComponent)
 ```
