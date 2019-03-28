@@ -2,7 +2,8 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
 import classnames from 'classnames'
-import CodeBlock from './CodeBlock'
+import CodeBlock from './code/CodeBlock'
+import CodeUsage from './code/CodeUsage'
 import elements from '../data/elements'
 
 const styles = theme => ({
@@ -56,7 +57,8 @@ const ElementPreview = ({ element, classes }) => {
               ))}
             </div>
           </div>
-          <CodeBlock element={elements[element].demo[elem]} />
+          <CodeBlock>{elements[element].demo[elem].js.join('\n')}</CodeBlock>
+          <CodeUsage element={element} />
         </Fragment>
       ))}
     </Fragment>

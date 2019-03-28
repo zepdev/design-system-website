@@ -1,4 +1,4 @@
-const theme = require(__dirname + '/src/data/theme.js')
+const theme = require('zeppelin-element-library/bundle/themes/theme.json')
 
 module.exports = {
   siteMetadata: {

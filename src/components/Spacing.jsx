@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import withStyles from 'react-jss'
-import theme from '../data/theme'
+import { spacing } from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
   root: {
@@ -48,7 +48,7 @@ const Spacing = ({ classes }) => {
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">Spacing Scale</caption>
+        <caption className="zep-visually-hidden">Spacing Scale</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (
@@ -66,23 +66,19 @@ const Spacing = ({ classes }) => {
           </tr>
         </thead>
         <tbody className={classes.tbody}>
-          {Object.keys(theme.spacing).map(elem => (
+          {Object.keys(spacing).map(elem => (
             <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
-                  className={classnames(
-                    classes.th,
-                    classes.borderBottom,
-                    'zep-typo--normal-2'
-                  )}
+                  className={classnames(classes.th, classes.borderBottom, 'zep-typo--normal-2')}
                   key={`spacing${ idx }`}
                   scope={idx === 0 ? 'row' : null}
                 >
                   {item === 'actual size' ? (
                     <div
                       style={{
-                        width: theme.spacing[elem].px,
-                        height: theme.spacing[elem].px,
+                        width: spacing[elem].px,
+                        height: spacing[elem].px,
                         color: 'green',
                       }}
                       className={classes.square}
@@ -90,9 +86,9 @@ const Spacing = ({ classes }) => {
                   ) : item === 'name' ? (
                     `zep-spacing--${ elem }`
                   ) : item === 'px' ? (
-                    `${ theme.spacing[elem][item] }px`
+                    `${ spacing[elem][item] }px`
                   ) : (
-                    `${ theme.spacing[elem][item] }rem`
+                    `${ spacing[elem][item] }rem`
                   )}
                 </td>
               ))}

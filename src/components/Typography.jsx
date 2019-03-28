@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import theme from '../data/theme'
+import { typography } from 'zeppelin-element-library/bundle/themes/theme.json'
 import withStyles from 'react-jss'
 
 const styles = theme => ({
@@ -10,11 +10,11 @@ const styles = theme => ({
   },
   table: {
     width: '100%',
-    marginBottom: theme.spacing.xl.px * 2,
+    marginBottom: `${ theme.spacing.xxl.rem }rem`,
     borderCollapse: 'collapse',
   },
   th: {
-    padding: `${ theme.spacing.m.px }px ${ theme.spacing.l.px }px`,
+    padding: `${ theme.spacing.s.rem }rem ${ theme.spacing.l.rem }rem`,
     textAlign: 'left',
     display: 'table-cell',
   },
@@ -44,15 +44,12 @@ const Typography = ({ section, classes }) => {
     section === 'basics'
       ? ['specification', 'px', 'rem', 'weight']
       : ['name', 'rem', 'px', 'specifications', 'actual size']
-  const content =
-    section === 'basics'
-      ? theme.typography.basics
-      : theme.typography.headings[section]
+  const content = section === 'basics' ? typography.basics : typography.headings[section]
 
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">{`${ section } typography variations`}</caption>
+        <caption className="zep-visually-hidden">{`${ section } typography variations`}</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (
@@ -78,9 +75,7 @@ const Typography = ({ section, classes }) => {
                     classes.th,
                     classes.borderBottom,
                     item !== 'actual size' ? 'zep-typo--normal-2' : `${ elem }`,
-                    item === 'actual size' && section === 'special'
-                      ? null
-                      : classes.lowercase
+                    item === 'actual size' && section === 'special' ? null : classes.lowercase
                   )}
                   key={`typography${ idx }`}
                   scope={idx === 0 ? 'row' : null}
@@ -92,10 +87,7 @@ const Typography = ({ section, classes }) => {
                   ) : item === 'specifications' ? (
                     <span>
                       {content[elem][item].map(p => (
-                        <p
-                          key={`specification_${ p }`}
-                          className="zep-typo--normal-2"
-                        >
+                        <p key={`specification_${ p }`} className="zep-typo--normal-2">
                           {p}
                         </p>
                       ))}

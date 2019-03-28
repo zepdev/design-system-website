@@ -1,0 +1,52 @@
+---
+label: buttonCodeExample_React
+title: Code
+---
+
+```jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classNames from 'classnames'
+
+function MyButton({
+  children,
+  className: classNameProp,
+  color,
+  disabled,
+  ...other
+}) {
+  const className = classNames(
+    'zep-button',
+    {
+      // eslint-disable-next-line
+      ['zep-button-primary']: color === 'primary',
+      // eslint-disable-next-line
+      ['zep-button-secondary']: color === 'secondary',
+    },
+    classNameProp
+  )
+  return (
+    <button
+      className={className}
+      disabled={disabled}
+      onClick={disabled ? null : onClick}
+      {...other}
+    >
+      {children}
+    </button>
+  )
+}
+
+MyButton.propTypes = {
+  onClick: PropTypes.func,
+  children: PropTypes.node.isRequired,
+  disabled: PropTypes.bool,
+  color: PropTypes.oneOf(['primary', 'secondary']),
+}
+
+MyButton.defaultProps = {
+  disabled: false,
+}
+
+export default MyButton
+```
