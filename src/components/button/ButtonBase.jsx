@@ -12,8 +12,6 @@ const styles = {
     cursor: 'pointer',
     textAlign: 'left',
     background: 'transparent',
-    fontSize: '100%',
-    font: 'inherit',
     '&:hover, &:focus, &:active, &::focus:not(.focus-visible), &:active:focus': {
       backgroundColor: 'transparent',
       outline: 'none',

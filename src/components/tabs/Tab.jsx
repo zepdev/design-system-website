@@ -6,6 +6,8 @@ import ButtonBase from '../button/ButtonBase'
 
 const styles = theme => ({
   root: {
+    fontSize: '100%',
+    font: 'inherit',
     paddingTop: `${ theme.spacing.s.rem }rem`,
     '&:hover': {
       borderBottom: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
