@@ -46,6 +46,10 @@ const styles = theme => ({
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
+    main: {
+      width: '83%',
+      margin: `104px 0 3rem`,
+    },
     content: {
       marginLeft: 276,
     },
