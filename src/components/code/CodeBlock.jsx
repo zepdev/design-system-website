@@ -2,7 +2,6 @@
 
 import React from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
-
 import CopyButton from '../button/CopyButton'
 import theme from '../../data/theme'
 

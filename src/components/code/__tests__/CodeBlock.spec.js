@@ -1,6 +1,3 @@
-/**
- * @jest-environment jsdom
- */
 import React from 'react'
 import { render } from 'react-testing-library'
 import CodeBlock from '../CodeBlock'
