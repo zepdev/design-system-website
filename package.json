@@ -32,6 +32,7 @@
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0",
     "react-jss": "^8.6.1",
+    "react-live": "^2.0.0",
     "sonarqube-scanner": "^2.4.0",
     "zeppelin-element-library": "^0.3.0-08a8efe"
   },

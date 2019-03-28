@@ -16,4 +16,16 @@ describe('Typography', () => {
     )
     expect(component).toMatchSnapshot()
   })
+  it('renders the a list of p for specifications', () => {
+    const mockProps = {
+      section: 'normal',
+    }
+    const { getByTestId } = render(
+      <ThemeProvider theme={theme}>
+        <Typography {...mockProps} />
+      </ThemeProvider>
+    )
+    const span = getByTestId('specifications')
+    expect(span.children).toHaveLength(4)
+  })
 })

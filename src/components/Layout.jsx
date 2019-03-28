@@ -9,6 +9,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
+import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
@@ -82,6 +83,14 @@ const styles = theme => ({
   },
 })
 
+const MyCodeComponent = ({ children, ...props }) => (
+  <LiveProvider code={children}>
+    <LiveEditor />
+
+    <LivePreview />
+  </LiveProvider>
+)
+
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   // Styles for mdx/md pages
@@ -109,7 +118,7 @@ function Layout({ children, classes }) {
     p: pStyled,
     hr: hrStyled,
     pre: preStyled,
-    code: CodeBlock,
+    code: MyCodeComponent,
   }
   return (
     <StaticQuery

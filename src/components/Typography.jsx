@@ -85,7 +85,7 @@ const Typography = ({ section, classes }) => {
                   ) : item === 'name' ? (
                     elem
                   ) : item === 'specifications' ? (
-                    <span>
+                    <span data-testid="specifications">
                       {content[elem][item].map(p => (
                         <p key={`specification_${ p }`} className="zep-typo--normal-2">
                           {p}
