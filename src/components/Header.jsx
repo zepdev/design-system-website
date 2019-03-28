@@ -82,7 +82,7 @@ const Header = ({ handleMenu, classes }) => (
           <MenuIcon />
         </ButtonBase>
         <ZeppelinIcon className={classes.icon} />
-        <Searchbar />
+        {/* <Searchbar /> */}
       </div>
     </div>
   </header>
