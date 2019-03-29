@@ -12,7 +12,14 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.xxl.rem }rem`,
   },
   container: {
-    flexBasis: '48%',
+    flexBasis: '100%',
+    paddingBottom: `${ theme.spacing.m.rem }rem`,
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    container: {
+      flexBasis: '48%',
+      paddingBottom: 0,
+    },
   },
   titleContainer: {
     display: 'flex',
