@@ -67,6 +67,7 @@ const Download = ({ classes }) => {
         target="_blank"
         href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
         download="zeppelin-element-library.css"
+        data-testid="downloadCss"
       >
         Download
       </Button>
