@@ -40,7 +40,11 @@ class Tabs extends Component {
       })
     })
 
-    return <div className={classnames(classes.root, classNameProp)}>{children}</div>
+    return (
+      <div className={classnames(classes.root, classNameProp)} data-testid="tabs">
+        {children}
+      </div>
+    )
   }
 }
 

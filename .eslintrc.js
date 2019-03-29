@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     'standard',
     'react',
-    'cypress',
+    'eslint-plugin-cypress',
     'jest',
     'chai-friendly',
     'react-hooks',
