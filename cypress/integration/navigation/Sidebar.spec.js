@@ -24,4 +24,24 @@ describe('sidebar', () => {
       .get('.Layout-h1Styled-0-1-7')
       .should('have.text', 'Developers')
   })
+  it('can opens drawer when in mobile view', () => {
+    cy.visit('http://localhost:8000')
+      .viewport('iphone-6+')
+      .get(
+        '.SidebarNav-list-0-1-14 > :nth-child(1) > .ButtonBase-button-0-1-22'
+      )
+      .should('not.be.visible')
+      .get('[data-testid=mobileMenuButton]')
+      .click()
+      .get(
+        '.SidebarNav-list-0-1-14 > :nth-child(1) > .ButtonBase-button-0-1-22'
+      )
+      .should('be.visible')
+      .get(':nth-child(4) > .SidebarNavItem-button-0-1-15')
+      .click()
+      .get(
+        '.SidebarNav-list-0-1-14 > :nth-child(1) > .ButtonBase-button-0-1-22'
+      )
+      .should('not.be.visible')
+  })
 })

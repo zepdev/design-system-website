@@ -1,6 +1,6 @@
 describe('links', () => {
   it('can navigate to a page from a link: Developers to Download', () => {
-    cy.visit('http://localhost:8000/getting-started/developers/')
+    cy.visit('http://localhost:8000/content/getting-started/developers/')
       .get(
         '.SidebarNav-list-0-1-14 > :nth-child(1) > .ButtonBase-button-0-1-22'
       )
