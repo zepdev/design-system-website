@@ -10,6 +10,7 @@ Object {
       >
         <a
           class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
+          data-testid="downloadCss"
           download="zeppelin-element-library.css"
           href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
           rel="noopener"
@@ -26,6 +27,7 @@ Object {
     >
       <a
         class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
+        data-testid="downloadCss"
         download="zeppelin-element-library.css"
         href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
         rel="noopener"

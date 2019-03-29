@@ -14,6 +14,7 @@ Object {
           >
             <button
               class="ButtonBase-button-0-1-5 Header-button-0-1-3 zep-button"
+              data-testid="mobileMenuButton"
             >
               <svg
                 aria-labelledby="title"
@@ -132,6 +133,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         >
           <button
             class="ButtonBase-button-0-1-5 Header-button-0-1-3 zep-button"
+            data-testid="mobileMenuButton"
           >
             <svg
               aria-labelledby="title"
