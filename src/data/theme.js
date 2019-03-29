@@ -1,4 +1,5 @@
 module.exports = {
+  /* breakpoints */
   breakpoints: {
     xs: '36em' /* 576px */,
     s: '48em' /* 768px */,
