@@ -7,12 +7,14 @@ Object {
     <div>
       <div
         class="Tabs-root-0-1-1"
+        data-testid="tabs"
       />
     </div>
   </body>,
   "container": <div>
     <div
       class="Tabs-root-0-1-1"
+      data-testid="tabs"
     />
   </div>,
   "debug": [Function],
