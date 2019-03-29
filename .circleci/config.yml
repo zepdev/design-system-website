@@ -18,9 +18,6 @@ jobs:
       - node/with-cache:
           steps:
             - run:
-                name: Yarn update
-                command: npm upgrade --global yarn
-            - run:
                 name: Yarn install
                 command: yarn install
             - run:
