@@ -15,7 +15,12 @@ const styles = theme => ({
     flexBasis: '30%',
   },
   quarter: {
-    flexBasis: '22%',
+    flexBasis: '48%',
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    quarter: {
+      flexBasis: '22%',
+    },
   },
   button: {
     height: '8rem',
@@ -103,10 +108,7 @@ function Swatch({ color, section, classes }) {
 
   return (
     <div
-      className={classnames(
-        classes.root,
-        section === 'primary' ? classes.third : classes.quarter
-      )}
+      className={classnames(classes.root, section === 'primary' ? classes.third : classes.quarter)}
     >
       <Button
         className={classes.button}
@@ -115,27 +117,21 @@ function Swatch({ color, section, classes }) {
       >
         <span className={classes.backdrop} />
         <span className={classes.backdropContent}>
-          {!isTextCopied && <CopyIcon className={classes.icon} />}
+          {!isTextCopied && (
+            <CopyIcon className={classes.icon} ariaLabel={`copy hex:${ color.hex }`} />
+          )}
           <span className={classes.buttonText} data-testid="swatch-text">
             {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color.hex}
           </span>
         </span>
       </Button>
-      <p className={classnames(classes.name, 'zep-typo--normal-2')}>
-        {color.name}
-      </p>
-      <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HEX: ${
-        color.hex
-      }`}</p>
+      <p className={classnames(classes.name, 'zep-typo--normal-2')}>{color.name}</p>
+      <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HEX: ${ color.hex }`}</p>
       {color.rgb && (
-        <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`RGB: ${
-          color.rgb
-        }`}</p>
+        <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`RGB: ${ color.rgb }`}</p>
       )}
       {color.hsb && (
-        <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HSB: ${
-          color.hsb
-        }`}</p>
+        <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HSB: ${ color.hsb }`}</p>
       )}
     </div>
   )

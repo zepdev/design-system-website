@@ -5,52 +5,15 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="CodeBlock-root-0-1-1"
+      <pre
+        class="prism-code language-js"
+        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
       >
         <div
-          class="CodeBlock-tabsContainer-0-1-3"
-        >
-          <p
-            class="CodeBlock-noTabs-0-1-8 zep-typo--normal-2"
-          >
-            Vanilla JS
-          </p>
-          <button
-            class="ButtonBase-button-0-1-9 CodeBlock-button-0-1-5"
-            data-testid="codeBlockButton"
-          >
-            <svg
-              aria-labelledby="title"
-              class="CodeBlock-icon-0-1-4"
-              height="32"
-              viewBox="0 0 24 24"
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title
-                id="title_copy"
-              >
-                Copy Icon
-              </title>
-              <path
-                d="M0 0h24v24H0V0z"
-                fill="none"
-              />
-              <path
-                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
-                fill="currentColor"
-              />
-            </svg>
-          </button>
-        </div>
-        <pre
-          class="prism-code language-js"
-          style="background-color: rgb(55, 61, 63); color: rgb(236, 238, 239); padding: 32px; font-size: 0.75rem; margin-top: 0px; margin-bottom: 64px; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+          style="padding-top: 16px;"
         >
           <div
             class="token-line"
-            style="margin-bottom: 12px;"
           >
             <span
               class="token plain"
@@ -59,29 +22,14 @@ Object {
               mockCode
             </span>
           </div>
-        </pre>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="CodeBlock-root-0-1-1"
-    >
-      <div
-        class="CodeBlock-tabsContainer-0-1-3"
-      >
-        <p
-          class="CodeBlock-noTabs-0-1-8 zep-typo--normal-2"
-        >
-          Vanilla JS
-        </p>
+        </div>
         <button
-          class="ButtonBase-button-0-1-9 CodeBlock-button-0-1-5"
-          data-testid="codeBlockButton"
+          class="ButtonBase-button-0-1-3 CopyButton-button-0-1-1"
+          data-testid="copyButton"
         >
           <svg
             aria-labelledby="title"
-            class="CodeBlock-icon-0-1-4"
+            class="CopyButton-icon-0-1-2"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -102,14 +50,19 @@ Object {
             />
           </svg>
         </button>
-      </div>
-      <pre
-        class="prism-code language-js"
-        style="background-color: rgb(55, 61, 63); color: rgb(236, 238, 239); padding: 32px; font-size: 0.75rem; margin-top: 0px; margin-bottom: 64px; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+      </pre>
+    </div>
+  </body>,
+  "container": <div>
+    <pre
+      class="prism-code language-js"
+      style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+    >
+      <div
+        style="padding-top: 16px;"
       >
         <div
           class="token-line"
-          style="margin-bottom: 12px;"
         >
           <span
             class="token plain"
@@ -118,8 +71,35 @@ Object {
             mockCode
           </span>
         </div>
-      </pre>
-    </div>
+      </div>
+      <button
+        class="ButtonBase-button-0-1-3 CopyButton-button-0-1-1"
+        data-testid="copyButton"
+      >
+        <svg
+          aria-labelledby="title"
+          class="CopyButton-icon-0-1-2"
+          height="32"
+          viewBox="0 0 24 24"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_copy"
+          >
+            Copy Icon
+          </title>
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </pre>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

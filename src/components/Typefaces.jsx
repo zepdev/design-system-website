@@ -9,10 +9,17 @@ const styles = theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-    marginBottom: theme.spacing.xl.px * 2,
+    marginBottom: `${ theme.spacing.xxl.rem }rem`,
   },
   container: {
-    flexBasis: '48%',
+    flexBasis: '100%',
+    paddingBottom: `${ theme.spacing.m.rem }rem`,
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    container: {
+      flexBasis: '48%',
+      paddingBottom: 0,
+    },
   },
   titleContainer: {
     display: 'flex',
@@ -29,8 +36,8 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'space-between',
     background: theme.colors.gray.grayLightest.hex,
-    paddingTop: theme.spacing.m.px,
-    paddingBottom: theme.spacing.m.px,
+    paddingTop: theme.spacing.s.px,
+    paddingBottom: theme.spacing.s.px,
     paddingLeft: theme.spacing.l.px,
     paddingRight: theme.spacing.l.px,
     borderTop: `1px solid ${ theme.colors.gray.grayLight.hex }`,

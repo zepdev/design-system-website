@@ -9,11 +9,11 @@ const styles = theme => ({
   },
   table: {
     width: '100%',
-    marginBottom: theme.spacing.xl.px * 2,
+    marginBottom: `${ theme.spacing.xxl.rem }rem`,
     borderCollapse: 'collapse',
   },
   th: {
-    padding: `${ theme.spacing.m.rem }rem ${ theme.spacing.l.rem }rem`,
+    padding: `${ theme.spacing.s.rem }rem ${ theme.spacing.l.rem }rem`,
     textAlign: 'left',
     display: 'table-cell',
   },
@@ -42,7 +42,7 @@ const Table = ({ header, content, title, classes }) => {
   return (
     <div className={classes.root}>
       <table className={classes.table}>
-        <caption className="visually-hidden">{title}</caption>
+        <caption className="zep-visually-hidden">{title}</caption>
         <thead className={classes.header}>
           <tr className={classes.tr}>
             {header.map(elem => (
@@ -59,41 +59,43 @@ const Table = ({ header, content, title, classes }) => {
             ))}
           </tr>
         </thead>
-        <tbody className={classes.tbody}>
-          {Object.keys(content).map(elem => (
-            <tr key={`row_${ elem }`} className={classes.tr}>
-              {header.map((item, idx) => (
-                <td
-                  className={classnames(
-                    classes.th,
-                    classes.borderBottom,
-                    item !== 'actual size' ? 'zep-typo--normal-2' : `${ elem }`
-                  )}
-                  key={`typography${ idx }`}
-                  scope={idx === 0 ? 'row' : null}
-                >
-                  {item === 'actual size' ? (
-                    'lorem ipsum'
-                  ) : item === 'name' ? (
-                    elem
-                  ) : item === 'specifications' ? (
-                    <span>
-                      {content[elem][item].map(p => (
-                        <p key={`specification_${ p }`} className="zep-typo--normal-2">
-                          {p}
-                        </p>
-                      ))}
-                    </span>
-                  ) : content[elem][item] ? (
-                    content[elem][item]
-                  ) : (
-                    '-'
-                  )}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
+        {content && (
+          <tbody className={classes.tbody}>
+            {Object.keys(content).map(elem => (
+              <tr key={`row_${ elem }`} className={classes.tr}>
+                {header.map((item, idx) => (
+                  <td
+                    className={classnames(
+                      classes.th,
+                      classes.borderBottom,
+                      item !== 'actual size' ? 'zep-typo--normal-2' : `${ elem }`
+                    )}
+                    key={`typography${ idx }`}
+                    scope={idx === 0 ? 'row' : null}
+                  >
+                    {item === 'actual size' ? (
+                      'lorem ipsum'
+                    ) : item === 'name' ? (
+                      elem
+                    ) : item === 'specifications' ? (
+                      <span>
+                        {content[elem][item].map(p => (
+                          <p key={`specification_${ p }`} className="zep-typo--normal-2">
+                            {p}
+                          </p>
+                        ))}
+                      </span>
+                    ) : content[elem][item] ? (
+                      content[elem][item]
+                    ) : (
+                      '-'
+                    )}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        )}
       </table>
     </div>
   )

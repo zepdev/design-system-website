@@ -103,7 +103,7 @@ const Footer = ({ classes }) => (
     <div className={classes.root}>
       <div className={classes.container}>
         <div className={classes.containerLinks}>
-          <ZeppelinIcon className={classes.logo} />
+          <ZeppelinIcon className={classes.logo} ariaLabel="footer logo" />
           <Link to="/" className={classes.link}>
             Privacy Policy
           </Link>

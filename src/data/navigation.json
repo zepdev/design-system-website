@@ -2,9 +2,6 @@
   "getting-started": {
     "title": "Getting started",
     "subnav": {
-      "about-carbon": {
-        "title": "About"
-      },
       "developers": {
         "title": "Developers"
       }

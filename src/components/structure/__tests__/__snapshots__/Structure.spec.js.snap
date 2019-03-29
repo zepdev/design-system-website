@@ -11,9 +11,6 @@ Object {
         <img
           src="test-file-stub"
         />
-        <img
-          src="test-file-stub"
-        />
       </div>
     </div>
   </body>,
@@ -21,9 +18,6 @@ Object {
     <div
       class="Structure-root-0-1-1"
     >
-      <img
-        src="test-file-stub"
-      />
       <img
         src="test-file-stub"
       />

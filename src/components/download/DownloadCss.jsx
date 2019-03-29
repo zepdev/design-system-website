@@ -63,8 +63,9 @@ const Download = ({ classes }) => {
       <Button
         color="primary"
         // onClick={handleDownload}
+        rel="noopener"
         target="_blank"
-        href="https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css"
+        href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
         download="zeppelin-element-library.css"
       >
         Download

@@ -8,7 +8,7 @@ import withStyles from 'react-jss'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
-import CodeStyle from '../components/CodeStyle'
+import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
@@ -46,6 +46,10 @@ const styles = theme => ({
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
+    main: {
+      width: '83%',
+      margin: `104px 0 3rem`,
+    },
     content: {
       marginLeft: 276,
     },
@@ -60,18 +64,20 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: theme.spacing.xxl.px,
+    marginBottom: `${ theme.spacing.xxl.rem }rem`,
   },
   hrStyled: {
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     marginTop: 0,
-    marginBottom: theme.spacing.xxl.px,
+    marginBottom: `${ theme.spacing.xxl.rem }rem`,
   },
   hStyled: {
-    marginTop: 0,
-    marginBottom: theme.spacing.xl.px,
+    marginBottom: `${ theme.spacing.l.rem }rem`,
+  },
+  h1Styled: {
+    marginBottom: `${ theme.spacing.m.rem }rem`,
   },
   skipLink: {
     position: 'absolute',
@@ -83,29 +89,20 @@ const styles = theme => ({
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   // Styles for mdx/md pages
-  const h1Styled = props => <h1 className="zep-typo--display-4" {...props} />
+  const h1Styled = props => (
+    <h1 className={classnames(classes.h1Styled, 'zep-typo--display-1')} {...props} />
+  )
   const h2Styled = props => (
-    <h2
-      className={classnames(classes.hStyled, 'zep-typo--normal-8')}
-      {...props}
-    />
+    <h2 className={classnames(classes.hStyled, 'zep-typo--normal-6')} {...props} />
   )
   const h3Styled = props => (
-    <h3
-      className={classnames(classes.hStyled, 'zep-typo--normal-6')}
-      {...props}
-    />
+    <h3 className={classnames(classes.hStyled, 'zep-typo--normal-4')} {...props} />
   )
   const pStyled = props => (
-    <p
-      className={classnames(classes.pStyled, 'zep-typo--normal-3')}
-      {...props}
-    />
+    <p className={classnames(classes.pStyled, 'zep-typo--normal-3')} {...props} />
   )
   const hrStyled = () => (
-    <hr
-      className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')}
-    />
+    <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
   )
   const preStyled = props => <div {...props} />
 
@@ -116,7 +113,7 @@ function Layout({ children, classes }) {
     p: pStyled,
     hr: hrStyled,
     pre: preStyled,
-    code: CodeStyle,
+    code: CodeBlock,
   }
   return (
     <StaticQuery

@@ -1,0 +1,50 @@
+---
+label: buttonCodeExample_Vue
+title: Code
+---
+
+```html
+<!-- 
+    ------------------------------------
+    vue.js Single File Component example
+    ------------------------------------
+
+    use as:
+
+    <ZepButton
+        title="PRIMARY"
+        class="zep-button zep-button-primary"
+        onClick="console.log('outside function triggers after inside function')"
+    />
+
+    add "disabled" attribute like on standard HTMLElement, if needed
+
+-->
+
+<template>
+  <button @click="handleClick" v-text="(title || `set title`)"></button>
+</template>
+<script>
+  export default {
+    name: 'ZepButton',
+    data() {
+      return { count: 0 }
+    },
+    props: {
+      title: String,
+    },
+    methods: {
+      handleClick() {
+        this.count++
+        console.log(
+          `inside function triggers first - clickcount: ${this.count}`
+        )
+      },
+    },
+  }
+</script>
+
+<style>
+  /* insert component styles here */
+</style>
+```
