@@ -17,7 +17,7 @@ jobs:
           at: ~/project
       - node/with-cache:
           steps:
-           - run:
+            - run:
                 name: Yarn update
                 command: npm upgrade --global yarn
             - run:
