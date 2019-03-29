@@ -32,7 +32,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  Copy Icon
+                  copy hex:#27166f
                 </title>
                 <path
                   d="M0 0h24v24H0V0z"
@@ -91,7 +91,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  Copy Icon
+                  copy hex:#f0b823
                 </title>
                 <path
                   d="M0 0h24v24H0V0z"
@@ -150,7 +150,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  Copy Icon
+                  copy hex:#af0e0e
                 </title>
                 <path
                   d="M0 0h24v24H0V0z"
@@ -216,7 +216,7 @@ Object {
               <title
                 id="title_copy"
               >
-                Copy Icon
+                copy hex:#27166f
               </title>
               <path
                 d="M0 0h24v24H0V0z"
@@ -275,7 +275,7 @@ Object {
               <title
                 id="title_copy"
               >
-                Copy Icon
+                copy hex:#f0b823
               </title>
               <path
                 d="M0 0h24v24H0V0z"
@@ -334,7 +334,7 @@ Object {
               <title
                 id="title_copy"
               >
-                Copy Icon
+                copy hex:#af0e0e
               </title>
               <path
                 d="M0 0h24v24H0V0z"

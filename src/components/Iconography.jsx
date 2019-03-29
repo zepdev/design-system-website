@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import { iconography } from '../data/elements'
+import elements from '../data/elements'
 
 const styles = theme => ({
   root: {
@@ -12,20 +12,26 @@ const styles = theme => ({
   container: {
     padding: `${ theme.spacing.m.rem }rem`,
     marginRight: `${ theme.spacing.m.rem }rem`,
+    textAlign: 'center',
   },
   img: {
     width: 32,
     height: 32,
+    marginBottom: `${ theme.spacing.m.rem }rem`,
   },
 })
 
 const Iconography = ({ classes }) => {
   return (
     <div className={classes.root}>
-      {Object.keys(iconography).map((elem, idx) => (
-        <div className={classes.container}>
-          <img src={elem.src} alt={elem.title} className={classes.img} />
-          <p className="zep-typo-normal-3">{elem.title}</p>
+      {Object.keys(elements.iconography).map(elem => (
+        <div className={classes.container} key={`icon${ elements.iconography[elem].title }`}>
+          <img
+            src={elements.iconography[elem].src}
+            alt={elements.iconography[elem].title}
+            className={classes.img}
+          />
+          <p className="zep-typo-normal-3">{elements.iconography[elem].title}</p>
         </div>
       ))}
     </div>

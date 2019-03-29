@@ -1,6 +1,6 @@
 ---
 label: Elements
-title: Tag
+title: Input
 ---
 
 import ElementPreview from '../../components/ElementPreview.jsx'
@@ -8,32 +8,32 @@ import Table from '../../components/table/Table.jsx'
 import Structure from '../../components/structure/Structure.jsx'
 import elements from '../../data/elements.js'
 
-# Tag
+# Input
 
-The Zeppelin Tag
-
----
-
-<ElementPreview element={'tag'} />
+The Zeppelin Input
 
 ---
 
-## Tag Styles
+<ElementPreview element={'input'} />
+
+---
+
+## Input Styles
 
 ### Typography
 
 <Table
-  title="tag typography"
-  content={elements.tag.typography}
+  title="input typography"
+  content={elements.input.typography}
   header={['name', 'px', 'rem', 'specifications', 'actual size']}
 />
 
 ### Structure
 
-<Structure element="tag" />
+<Structure element="input" />
 
 <Table
-  title="tag structure"
-  content={elements.tag.structure}
+  title="input structure"
+  content={elements.input.structure}
   header={['name', 'property', 'px', 'rem']}
 />

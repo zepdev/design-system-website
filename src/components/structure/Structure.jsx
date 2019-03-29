@@ -16,7 +16,7 @@ const styles = theme => ({
 const Structure = ({ element, classes }) => {
   return (
     <div className={classes.root}>
-      <img src={image1} />
+      <img src={element === 'button' ? image1 : null} />
     </div>
   )
 }

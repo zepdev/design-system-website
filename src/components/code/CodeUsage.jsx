@@ -6,6 +6,7 @@ import withStyles from 'react-jss'
 import classnames from 'classnames'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
+import CodeBlock from './CodeBlock'
 
 const styles = theme => ({
   root: {
@@ -44,12 +45,13 @@ const CodeUsage = ({ element, classes }) => {
         }
       `}
       render={data => {
-        const react = data
-          ? data.allMdx.edges.find(x => x.node.frontmatter.label === `${ elem }CodeExample_React`)
-          : 'no example yet, please check back later!'
-        const vue = data
-          ? data.allMdx.edges.find(x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`)
-          : 'no example yet, please check back later!'
+        const react = data.allMdx.edges.find(
+          x => x.node.frontmatter.label === `${ elem }CodeExample_React`
+        )
+        const vue = data.allMdx.edges.find(
+          x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`
+        )
+
         return (
           <div className={classes.root}>
             <h3 className={classnames(classes.heading, 'zep-typo--normal-4')}>
@@ -59,7 +61,18 @@ const CodeUsage = ({ element, classes }) => {
               <Tab label="React" />
               <Tab label="Vue" />
             </Tabs>
-            <MDXRenderer>{tab === 0 ? react.node.code.body : vue.node.code.body}</MDXRenderer>
+            {tab === 0 &&
+              (react ? (
+                <MDXRenderer>{react.node.code.body}</MDXRenderer>
+              ) : (
+                <CodeBlock>no example yet, please check back later!</CodeBlock>
+              ))}
+            {tab === 1 &&
+              (vue ? (
+                <MDXRenderer>{react.node.code.body}</MDXRenderer>
+              ) : (
+                <CodeBlock>no example yet, please check back later!</CodeBlock>
+              ))}
           </div>
         )
       }}

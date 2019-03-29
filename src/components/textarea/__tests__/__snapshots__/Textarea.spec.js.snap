@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tag renders correctly 1`] = `
+exports[`Textarea renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <span
-        class="Tag-root-0-1-1 zep-tag"
+      <textarea
+        class="Textarea-root-0-1-1 zep-textarea"
       />
     </div>
   </body>,
   "container": <div>
-    <span
-      class="Tag-root-0-1-1 zep-tag"
+    <textarea
+      class="Textarea-root-0-1-1 zep-textarea"
     />
   </div>,
   "debug": [Function],

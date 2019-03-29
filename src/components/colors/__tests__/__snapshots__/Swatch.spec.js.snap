@@ -29,7 +29,7 @@ Object {
               <title
                 id="title_copy"
               >
-                Copy Icon
+                copy hex:#fff
               </title>
               <path
                 d="M0 0h24v24H0V0z"
@@ -86,7 +86,7 @@ Object {
             <title
               id="title_copy"
             >
-              Copy Icon
+              copy hex:#fff
             </title>
             <path
               d="M0 0h24v24H0V0z"
