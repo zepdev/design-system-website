@@ -17,15 +17,18 @@ jobs:
           at: ~/project
       - node/with-cache:
           steps:
+           - run:
+                name: Yarn update
+                command: npm upgrade --global yarn
             - run:
                 name: Yarn install
-                command: npm install
+                command: yarn install
             - run:
                 name: Prettier
-                command: npm format
+                command: yarn format
             - run:
                 name: Run all tests
-                command: npm test
+                command: yarn test
       - persist_to_workspace:
           root: .
           paths: coverage
@@ -39,14 +42,14 @@ jobs:
           steps:
             - run:
                 name: Generate eslint report
-                command: npm eslint-sonarqube
+                command: yarn eslint-sonarqube
             - restore_cache:
                 keys:
                   - sonar-scanner-{{ .Branch }}
                   - sonar-scanner
             - run:
                 name: Run sonar scanner
-                command: npm sonar-scanner -Dsonar.login=$SONAR_LOGIN || true
+                command: yarn sonar-scanner -Dsonar.login=$SONAR_LOGIN || true
             - save_cache:
                 key: sonar-scanner-{{ .Branch }}
                 paths:
@@ -61,7 +64,7 @@ jobs:
           steps:
             - run:
                 name: Build public dir
-                command: npm build
+                command: yarn build
       - persist_to_workspace:
           root: .
           paths: public
