@@ -54,6 +54,7 @@ const styles = theme => ({
 const ElementPreview = ({ element, classes }) => {
   return (
     <Fragment>
+      {' '}
       {Object.keys(elements[element].demo).map((elem, idx) => (
         <Fragment key={`codeBlock${ idx }`}>
           <p

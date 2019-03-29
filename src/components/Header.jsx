@@ -78,7 +78,11 @@ const Header = ({ handleMenu, classes }) => (
   <header>
     <div className={classes.root}>
       <div className={classes.container}>
-        <ButtonBase onClick={handleMenu} className={classnames(classes.button, 'zep-button')}>
+        <ButtonBase
+          onClick={handleMenu}
+          className={classnames(classes.button, 'zep-button')}
+          data-testid="mobileMenuButton"
+        >
           <MenuIcon />
         </ButtonBase>
         <ZeppelinIcon className={classes.icon} />

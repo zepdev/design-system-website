@@ -111,10 +111,11 @@ export default ({ children, className }) => {
             ...style,
           }}
         >
-          <div style={{ paddingTop: 16 }}>
+          <div style={{ paddingTop: 16 }} data-testid="codeDiv">
             {tokens.map((line, i) =>
               line[0].empty === true ? null : (
                 <div
+                  data-testid="code"
                   key={i}
                   {...getLineProps({ line, key: i })}
                   style={{
@@ -122,7 +123,7 @@ export default ({ children, className }) => {
                   }}
                 >
                   {line.map((token, key) => (
-                    <span data-testid="code" key={key} {...getTokenProps({ token, key })} />
+                    <span key={key} {...getTokenProps({ token, key })} />
                   ))}
                 </div>
               )

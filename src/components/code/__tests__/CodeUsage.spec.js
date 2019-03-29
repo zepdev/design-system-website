@@ -16,18 +16,4 @@ describe('CodeBlock', () => {
     )
     expect(component).toMatchSnapshot()
   })
-  it('renders children correctly', () => {
-    const mockProps = {
-      children: 'p',
-    }
-    const { getByTestId } = render(
-      <ThemeProvider theme={theme}>
-        <CodeBlock {...mockProps} />
-      </ThemeProvider>
-    )
-    const div1 = getByTestId('codeDiv')
-    const div2 = getByTestId('code')
-    expect(div1.children).toHaveLength(1)
-    expect(div2.children).toHaveLength(1)
-  })
 })

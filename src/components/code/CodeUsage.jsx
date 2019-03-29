@@ -59,7 +59,8 @@ const CodeUsage = ({ element, classes }) => {
               <Tab label="React" />
               <Tab label="Vue" />
             </Tabs>
-            <MDXRenderer>{tab === 0 ? react.node.code.body : vue.node.code.body}</MDXRenderer>
+            {tab === 0 && <MDXRenderer>{react.node.code.body}</MDXRenderer>}
+            {tab === 1 && <MDXRenderer>{vue.node.code.body}</MDXRenderer>}
           </div>
         )
       }}
