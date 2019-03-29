@@ -12,7 +12,7 @@ jobs:
   test:
     executor: node_10
     steps:
-      - checkout  # check out the code in the project directory
+      - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
       - node/with-cache:
@@ -32,7 +32,7 @@ jobs:
   sonarqube:
     executor: node_10
     steps:
-      - checkout  # check out the code in the project directory
+      - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
       - node/with-cache:
@@ -54,7 +54,7 @@ jobs:
   build:
     executor: node_10
     steps:
-      - checkout  # check out the code in the project directory
+      - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
       - node/with-cache:
@@ -84,7 +84,7 @@ jobs:
     environment:
       AWS_REGION: << parameters.aws_region >>
     steps:
-      - checkout  # check out the code in the project directory
+      - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
       - run:
@@ -102,7 +102,7 @@ jobs:
           overwrite: true
       - aws-s3/sync:
           from: badges
-          to: "s3://com.zeppelin.zds.assets/badges/zds"
+          to: 's3://com.zeppelin.zds.assets/badges/zds'
           overwrite: true
       - run:
           name: Invalidate CloudFront Distribution Cache
@@ -132,7 +132,7 @@ workflows:
       - build:
           requires:
             - test
-      - deploy:  # deployment step only for development environment
+      - deploy: # deployment step only for development environment
           bucket: com.zeppelin.zds.website.dev
           aws_region: eu-central-1
           cloudfront_distribution: ET351YZOMAVPH
@@ -151,7 +151,7 @@ workflows:
             branches:
               only:
                 - master
-      - deploy:  # deployment step for live environment
+      - deploy: # deployment step for live environment
           bucket: com.zeppelin.zds.website.live
           aws_region: eu-central-1
           cloudfront_distribution: E3N62GDZMDUN0M

@@ -1,41 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DownloadCss renders correctly 1`] = `
+exports[`Textarea renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="Download-root-0-1-1"
-      >
-        <a
-          class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
-          data-testid="downloadCss"
-          download="zeppelin-element-library.css"
-          href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
-          rel="noopener"
-          target="_blank"
-        >
-          Download
-        </a>
-      </div>
+      <textarea
+        class="Textarea-root-0-1-1 zep-textarea"
+      />
     </div>
   </body>,
   "container": <div>
-    <div
-      class="Download-root-0-1-1"
-    >
-      <a
-        class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
-        data-testid="downloadCss"
-        download="zeppelin-element-library.css"
-        href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
-        rel="noopener"
-        target="_blank"
-      >
-        Download
-      </a>
-    </div>
+    <textarea
+      class="Textarea-root-0-1-1 zep-textarea"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

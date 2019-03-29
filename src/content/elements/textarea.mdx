@@ -1,0 +1,39 @@
+---
+label: Elements
+title: Textarea
+---
+
+import ElementPreview from '../../components/ElementPreview.jsx'
+import Table from '../../components/table/Table.jsx'
+import Structure from '../../components/structure/Structure.jsx'
+import elements from '../../data/elements.js'
+
+# Textarea
+
+The Zeppelin Textarea
+
+---
+
+<ElementPreview element={'textarea'} />
+
+---
+
+## Textarea Styles
+
+### Typography
+
+<Table
+  title="textarea typography"
+  content={elements.textarea.typography}
+  header={['name', 'px', 'rem', 'specifications', 'actual size']}
+/>
+
+### Structure
+
+<Structure element="textarea" />
+
+<Table
+  title="textarea structure"
+  content={elements.textarea.structure}
+  header={['name', 'property', 'px', 'rem']}
+/>

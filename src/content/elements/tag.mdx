@@ -1,0 +1,39 @@
+---
+label: Elements
+title: Tag
+---
+
+import ElementPreview from '../../components/ElementPreview.jsx'
+import Table from '../../components/table/Table.jsx'
+import Structure from '../../components/structure/Structure.jsx'
+import elements from '../../data/elements.js'
+
+# Tag
+
+The Zeppelin Tag
+
+---
+
+<ElementPreview element={'tag'} />
+
+---
+
+## Tag Styles
+
+### Typography
+
+<Table
+  title="tag typography"
+  content={elements.tag.typography}
+  header={['name', 'px', 'rem', 'specifications', 'actual size']}
+/>
+
+### Structure
+
+<Structure element="tag" />
+
+<Table
+  title="tag structure"
+  content={elements.tag.structure}
+  header={['name', 'property', 'px', 'rem']}
+/>

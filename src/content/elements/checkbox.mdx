@@ -1,0 +1,39 @@
+---
+label: Elements
+title: Checkbox
+---
+
+import ElementPreview from '../../components/ElementPreview.jsx'
+import Table from '../../components/table/Table.jsx'
+import Structure from '../../components/structure/Structure.jsx'
+import elements from '../../data/elements.js'
+
+# Checkbox
+
+The Zeppelin Checkbox
+
+---
+
+<ElementPreview element={'checkbox'} />
+
+---
+
+## Checkbox Styles
+
+### Typography
+
+<Table
+  title="checkbox typography"
+  content={elements.checkbox.typography}
+  header={['name', 'px', 'rem', 'specifications', 'actual size']}
+/>
+
+### Structure
+
+<Structure element="checkbox" />
+
+<Table
+  title="checkbox structure"
+  content={elements.checkbox.structure}
+  header={['name', 'property', 'px', 'rem']}
+/>

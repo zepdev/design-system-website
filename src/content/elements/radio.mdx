@@ -1,0 +1,39 @@
+---
+label: Elements
+title: Radio
+---
+
+import ElementPreview from '../../components/ElementPreview.jsx'
+import Table from '../../components/table/Table.jsx'
+import Structure from '../../components/structure/Structure.jsx'
+import elements from '../../data/elements.js'
+
+# Radio
+
+The Zeppelin Radio
+
+---
+
+<ElementPreview element={'radio'} />
+
+---
+
+## Radio Styles
+
+### Typography
+
+<Table
+  title="radio typography"
+  content={elements.radio.typography}
+  header={['name', 'px', 'rem', 'specifications', 'actual size']}
+/>
+
+### Structure
+
+<Structure element="radio" />
+
+<Table
+  title="radio structure"
+  content={elements.radio.structure}
+  header={['name', 'property', 'px', 'rem']}
+/>

@@ -1,0 +1,39 @@
+---
+label: Elements
+title: List
+---
+
+import ElementPreview from '../../components/ElementPreview.jsx'
+import Table from '../../components/table/Table.jsx'
+import Structure from '../../components/structure/Structure.jsx'
+import elements from '../../data/elements.js'
+
+# List
+
+The Zeppelin List
+
+---
+
+<ElementPreview element={'list'} />
+
+---
+
+## List Styles
+
+### Typography
+
+<Table
+  title="list typography"
+  content={elements.list.typography}
+  header={['name', 'px', 'rem', 'specifications', 'actual size']}
+/>
+
+### Structure
+
+<Structure element="list" />
+
+<Table
+  title="list structure"
+  content={elements.list.structure}
+  header={['name', 'property', 'px', 'rem']}
+/>

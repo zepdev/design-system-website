@@ -26,7 +26,7 @@ Object {
                 <title
                   id="title_zeppelin"
                 >
-                  Zeppelin Icon
+                  footer logo
                 </title>
                 <path
                   d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
@@ -257,7 +257,7 @@ l-95.93-175.584v-0.284L435.613,14.847z"
               <title
                 id="title_zeppelin"
               >
-                Zeppelin Icon
+                footer logo
               </title>
               <path
                 d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
