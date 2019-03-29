@@ -17,6 +17,9 @@ jobs:
           at: ~/project
       - node/with-cache:
           steps:
+             - run:
+                name: Yarn update
+                command: yarn --version
             - run:
                 name: Yarn install
                 command: yarn install
