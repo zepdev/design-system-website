@@ -246,38 +246,38 @@ module.exports = {
         // },
       },
     },
-    list: {
-      demo: {
-        primary: {
-          js: [`<ul class="zep-list zep-list-primary">primary</ul>`],
-        },
-        secondary: {
-          js: [`<ul  class="zep-list zep-list-secondary">secondary</ul>`],
-        },
+  },
+  list: {
+    demo: {
+      primary: {
+        js: [`<ul class="zep-list zep-list-primary">primary</ul>`],
       },
-      typography: {
-        // 'zep-typo--special-4': {
-        //   px: '24px',
-        //   rem: '1.5rem',
-        //   specifications: [
-        //     'font-family: "Teko"',
-        //     'font-weight: 400 (regular)',
-        //     'line-height: 1.5 (24px)',
-        //     'text-transform: uppercase',
-        //   ],
-        // },
+      secondary: {
+        js: [`<ul  class="zep-list zep-list-secondary">secondary</ul>`],
       },
-      structure: {
-        'btn-height': {
-          // property: 'height',
-          // rem: '3rem',
-          // px: '48px',
-        },
-        'btn-padding': {
-          // property: 'padding',
-          // rem: '1rem, 1.125rem',
-          // px: '16px, 18px',
-        },
+    },
+    typography: {
+      // 'zep-typo--special-4': {
+      //   px: '24px',
+      //   rem: '1.5rem',
+      //   specifications: [
+      //     'font-family: "Teko"',
+      //     'font-weight: 400 (regular)',
+      //     'line-height: 1.5 (24px)',
+      //     'text-transform: uppercase',
+      //   ],
+      // },
+    },
+    structure: {
+      'btn-height': {
+        // property: 'height',
+        // rem: '3rem',
+        // px: '48px',
+      },
+      'btn-padding': {
+        // property: 'padding',
+        // rem: '1rem, 1.125rem',
+        // px: '16px, 18px',
       },
     },
   },
