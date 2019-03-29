@@ -5580,7 +5580,7 @@ g-status@^2.0.2:
     matcher "^1.0.0"
     simple-git "^1.85.0"
 
-gatsby-cli@^2.4.17:
+gatsby-cli@^2.5.4:
   version "2.5.4"
   resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.5.4.tgz#d11a00f61227a6db7965e71ac93e142d73b25587"
   integrity sha512-tjkE0+H6ZV0hVwH/A4ld3/M2C12Apd5HMgjfI9r5hjSeN0yMEsohnky/mm4uFF8Pt3zfqPrL8XXpg2D9kY16Hg==
@@ -5688,7 +5688,7 @@ gatsby-plugin-offline@^2.0.25:
     lodash "^4.17.10"
     workbox-build "^3.6.3"
 
-gatsby-plugin-page-creator@^2.0.11:
+gatsby-plugin-page-creator@^2.0.12:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.0.12.tgz#00a5103715881e141c81b68b670ad8fb06291b7d"
   integrity sha512-Pb4jpcI4Fqr6pqDdwm1+8DsyesZwBcvoQyDDvLBF+hbWD33iURjBqTrL8quTNtIO4svLkfieIdQ8D4IhlpFCmw==
@@ -5731,7 +5731,7 @@ gatsby-plugin-sharp@^2.0.32:
     sharp "^0.21.3"
     svgo "^1.2.0"
 
-gatsby-react-router-scroll@^2.0.6:
+gatsby-react-router-scroll@^2.0.7:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-2.0.7.tgz#b9425e366d4be546036080d85664d60ae76e6c29"
   integrity sha512-Yq8UBgurjt5XqezkBr67ZmMmsxFPdGG/7OERlju34PL05mAwOB1P2wdcZfjpVZM/k2xfVPcTRYk2zoUbtB/adg==
@@ -5834,10 +5834,10 @@ gatsby-transformer-sharp@^2.1.17:
     probe-image-size "^4.0.0"
     sharp "^0.21.3"
 
-gatsby@2.1.5-alpha.75:
-  version "2.1.5-alpha.75"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.5-alpha.75.tgz#419995a9bd550e804ffff79e10abf557f1e7d84a"
-  integrity sha512-ZkobsPvNrDVJGjinQ95YnDV6RtXkm0GjvFQEzUJLLw/oLIVuA4l1EZSUjmTUfKP9QMv9iTQrfFi4sgpWpf2z3g==
+gatsby@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.3.4.tgz#4f8b2a7649b645779333535860c34e576eb8321a"
+  integrity sha512-H23UIbrYtjpSnzzE8VxW3U25fP9eM5CY/RQs4obv1sYaHI6sFUN3S97v+hvdMRg64zfkAnTGRZ2gsjHQUOTHlA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5893,10 +5893,11 @@ gatsby@2.1.5-alpha.75:
     flat "^4.0.0"
     fs-exists-cached "1.0.0"
     fs-extra "^5.0.0"
-    gatsby-cli "^2.4.17"
+    gatsby-cli "^2.5.4"
     gatsby-link "^2.0.16"
-    gatsby-plugin-page-creator "^2.0.11"
-    gatsby-react-router-scroll "^2.0.6"
+    gatsby-plugin-page-creator "^2.0.12"
+    gatsby-react-router-scroll "^2.0.7"
+    gatsby-telemetry "^1.0.4"
     glob "^7.1.1"
     graphql "^14.1.1"
     graphql-compose "^6.0.3"
