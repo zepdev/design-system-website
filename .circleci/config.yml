@@ -19,7 +19,7 @@ jobs:
           steps:
             - run:
                 name: Yarn update
-                command: yarn --version
+                command: yarn upgrade yarn
             - run:
                 name: Yarn install
                 command: yarn install
