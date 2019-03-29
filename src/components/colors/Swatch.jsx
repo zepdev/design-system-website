@@ -15,7 +15,12 @@ const styles = theme => ({
     flexBasis: '30%',
   },
   quarter: {
-    flexBasis: '22%',
+    flexBasis: '48%',
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    quarter: {
+      flexBasis: '22%',
+    },
   },
   button: {
     height: '8rem',

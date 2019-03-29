@@ -13,28 +13,40 @@ const styles = theme => ({
   },
   htmlContainer: {
     backgroundColor: theme.colors.gray.grayLightest.hex,
-    padding: `${ theme.spacing.xxl.rem }rem`,
+    padding: `${ theme.spacing.l.rem }rem`,
     display: 'flex',
     justifyContent: 'center',
   },
   innerContainer: {
     flexBasis: '100%',
+    flexWrap: 'wrap',
     display: 'flex',
     justifyContent: 'space-around',
   },
+  element: {
+    paddingBottom: `${ theme.spacing.l.rem }rem`,
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    element: {
+      paddingBottom: 0,
+    },
+    innerContainer: {
+      flexWrap: 'nowrap',
+    },
+  },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
     innerContainer: {
-      flexBasis: '50%',
+      flexBasis: '80%',
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
     innerContainer: {
-      flexBasis: '40%',
+      flexBasis: '70%',
     },
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     innerContainer: {
-      flexBasis: '30%',
+      flexBasis: '40%',
     },
   },
 })
@@ -53,7 +65,11 @@ const ElementPreview = ({ element, classes }) => {
           <div className={classes.htmlContainer}>
             <div className={classes.innerContainer}>
               {elements[element].demo[elem].js.map((item, idx) => (
-                <div dangerouslySetInnerHTML={{ __html: item }} key={`preview ${ idx }`} />
+                <div
+                  dangerouslySetInnerHTML={{ __html: item }}
+                  key={`preview ${ idx }`}
+                  className={classes.element}
+                />
               ))}
             </div>
           </div>
