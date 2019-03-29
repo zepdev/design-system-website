@@ -148,4 +148,10 @@ module.exports = {
       },
     },
   },
+  iconography: {
+    logo: {
+      title: 'zep-logo',
+      src: '../assets/images/zep-logo-new.svg',
+    },
+  },
 }
