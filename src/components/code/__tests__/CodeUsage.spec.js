@@ -1,17 +1,39 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import CodeBlock from '../CodeBlock'
+import CodeUsage from '../CodeUsage'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../../data/theme'
+import { StaticQuery } from 'gatsby'
 
-describe('CodeBlock', () => {
+beforeEach(() => {
+  StaticQuery.mockImplementationOnce(({ render }) =>
+    render({
+      allMdx: {
+        edges: {
+          node: {
+            frontmatter: {
+              title: `Mock Title`,
+              label: `Mock Label`,
+            },
+            code: {
+              body: `Mock Code`,
+            },
+          },
+          find: jest.fn(),
+        },
+      },
+    })
+  )
+})
+
+describe('CodeUsage', () => {
   it('renders correctly', () => {
     const mockProps = {
-      children: 'mockCode',
+      element: 'button',
     }
     const component = render(
       <ThemeProvider theme={theme}>
-        <CodeBlock {...mockProps} />
+        <CodeUsage {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()
