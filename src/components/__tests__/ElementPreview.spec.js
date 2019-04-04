@@ -21,8 +21,6 @@ describe('ElementPreview', () => {
       </ThemeProvider>
     )
 
-    console.log(component)
-
     expect(component).toMatchSnapshot()
   })
 })
