@@ -87,33 +87,36 @@ jobs:
       - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
-      - run:
-          name: create and upload badges
-          command: |
-            mkdir badges
-            cd badges
-            curl -u $SONAR_LOGIN "http://sq.zepdev.net/api/project_badges/measure?project=design-system-website&\
-            metric={bugs,code_smells,coverage,duplicated_lines_density,ncloc,sqale_rating,alert_status,\
-            reliability_rating,security_rating,sqale_index,vulnerabilities}" -o "#1.svg" \
-            --max-time 2 || true
+      # disabled badges. see: https://jira.sonarsource.com/browse/MMF-1178
+      # - run:
+      #     name: create and upload badges
+      #     command: |
+      #       mkdir badges
+      #       cd badges
+      #       curl -u $SONAR_LOGIN "http://sq.zepdev.net/api/project_badges/measure?project=design-system-website&\
+      #       metric={bugs,code_smells,coverage,duplicated_lines_density,ncloc,sqale_rating,alert_status,\
+      #       reliability_rating,security_rating,sqale_index,vulnerabilities}" -o "#1.svg" \
+      #       --max-time 2 || true
       - aws-s3/sync:
           from: public
           to: 's3://<< parameters.bucket >>/'
           overwrite: true
-      - aws-s3/sync:
-          from: badges
-          to: 's3://com.zeppelin.zds.assets/badges/zds'
-          overwrite: true
+      # disabled badges. see: https://jira.sonarsource.com/browse/MMF-1178
+      # - aws-s3/sync:
+      #     from: badges
+      #     to: 's3://com.zeppelin.zds.assets/badges/zds'
+      #     overwrite: true
       - run:
           name: Invalidate CloudFront Distribution Cache
           command: |
             aws cloudfront create-invalidation \
             --distribution-id << parameters.cloudfront_distribution >> --paths "/*"
-      - run:
-          name: Invalidate Assets CloudFront Distribution Cache for badges
-          command: |
-            aws cloudfront create-invalidation \
-            --distribution-id E3BEUB4XQDLXXN --paths "/badges/zds/*"
+      # disabled badges. see: https://jira.sonarsource.com/browse/MMF-1178
+      # - run:
+      #     name: Invalidate Assets CloudFront Distribution Cache for badges
+      #     command: |
+      #       aws cloudfront create-invalidation \
+      #       --distribution-id E3BEUB4XQDLXXN --paths "/badges/zds/*"
 
 workflows:
   version: 2
