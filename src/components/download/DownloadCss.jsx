@@ -1,10 +1,48 @@
 import React from 'react'
 import withStyles from 'react-jss'
-import Button from '../button/Button'
+import classnames from 'classnames'
+import ButtonBase from '../button/ButtonBase'
+import DownloadIcon from '../icons/DownloadIcon'
 
 const styles = theme => ({
   root: {
-    marginBottom: theme.spacing.l.px * 2,
+    marginBottom: `${ theme.spacing.l.rem * 2 }rem`,
+    background: theme.colors.gray.grayLighter.hex,
+    padding: `${ theme.spacing.l.rem }rem`,
+    width: 450,
+  },
+  fixedWidth: {
+    width: '100%',
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    fixedWidth: {
+      width: 350,
+    },
+  },
+  container: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+  },
+  text: {
+    marginBottom: `${ theme.spacing.xl.rem * 2 }rem`,
+  },
+  trademark: {
+    marginBottom: 5,
+    textTransform: 'capitalize',
+    fontSize: 10,
+  },
+  img: {
+    width: 46,
+    height: 46,
+  },
+  button: {
+    width: 46,
+    height: 46,
+    background: theme.colors.gray.white.hex,
+    padding: `${ theme.spacing.xs.rem }rem`,
+  },
+  icon: {
+    color: theme.colors.gray.grayLight.hex,
   },
 })
 
@@ -60,17 +98,19 @@ const Download = ({ classes }) => {
   // }
   return (
     <div className={classes.root}>
-      <Button
-        color="primary"
-        // onClick={handleDownload}
-        rel="noopener"
-        target="_blank"
-        href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
-        download="zeppelin-element-library.css"
-        data-testid="downloadCss"
-      >
-        Download
-      </Button>
+      <p className={classnames('zep-typo--normal-3', classes.text)}>Zeppelin Element Library CSS</p>
+      <div className={classes.container}>
+        <ButtonBase
+          // onClick={handleDownload}
+          className={classes.button}
+          target="_blank"
+          href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
+          download="zeppelin-element-library.css"
+          aria-label="download sketch file"
+        >
+          <DownloadIcon className={classes.icon} />
+        </ButtonBase>
+      </div>
     </div>
   )
 }
