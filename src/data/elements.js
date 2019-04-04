@@ -3,8 +3,7 @@ module.exports = {
   iconography: {
     zepLogo: {
       title: 'zep-logo',
-      src:
-        'https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/zeppelin_icon.png',
+      src: 'https://cdn-zel.zepdev.net/zel/zeppelin_icon.png',
     },
   },
   button: {

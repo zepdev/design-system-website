@@ -1,39 +1,31 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import CodeUsage from '../CodeUsage'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../../data/theme'
+import theme from '../../data/theme'
+import Layout from '../Layout'
 import { StaticQuery } from 'gatsby'
 
 beforeEach(() => {
   StaticQuery.mockImplementationOnce(({ render }) =>
     render({
-      allMdx: {
-        edges: {
-          node: {
-            frontmatter: {
-              title: `Mock Title`,
-              label: `Mock Label`,
-            },
-            code: {
-              body: `Mock Code`,
-            },
-          },
-          find: jest.fn(),
+      mdx: {
+        frontmatter: {
+          title: `Mock Title`,
         },
       },
     })
   )
 })
 
-describe('CodeUsage', () => {
+describe('Layout', () => {
   it('renders correctly', () => {
     const mockProps = {
-      element: 'button',
+      children: '<div>mock-div</div>',
     }
+
     const component = render(
       <ThemeProvider theme={theme}>
-        <CodeUsage {...mockProps} />
+        <Layout {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()
