@@ -6,10 +6,12 @@
   Zeppelin Design System
 </h1>
 
-<span align="center">  
-    
+<span align="center">
+
 [![CircleCI](https://circleci.com/gh/zepdev/design-system-website.svg?style=svg&circle-token=d4f1730edfe9173ba0e0fde81dc6a97c3ba467a9)](https://circleci.com/gh/zepdev/design-system-website)
-[![SonarCube_QualityGate](https://cdn-zel.zepdev.net/badges/zds/alert_status.svg)](https://cdn-zel.zepdev.net/badges/zds/alert_status.svg)
+
+<!-- disabled Sonar badges. see: https://jira.sonarsource.com/browse/MMF-1178 -->
+<!-- [![SonarCube_QualityGate](https://cdn-zel.zepdev.net/badges/zds/alert_status.svg)](https://cdn-zel.zepdev.net/badges/zds/alert_status.svg)
 [![SonarCube_bugs](https://cdn-zel.zepdev.net/badges/zds/bugs.svg)](https://cdn-zel.zepdev.net/badges/zds/bugs.svg)
 [![SonarCube_code_smells](https://cdn-zel.zepdev.net/badges/zds/code_smells.svg)](https://cdn-zel.zepdev.net/badges/zds/code_smells.svg)
 [![SonarCube_coverage](https://cdn-zel.zepdev.net/badges/zds/coverage.svg)](https://cdn-zel.zepdev.net/badges/zds/coverage.svg)
@@ -19,7 +21,7 @@
 [![SonarCube_security_rating](https://cdn-zel.zepdev.net/badges/zds/security_rating.svg)](https://cdn-zel.zepdev.net/badges/zds/security_rating.svg)
 [![SonarCube_sqale_index](https://cdn-zel.zepdev.net/badges/zds/sqale_index.svg)](https://cdn-zel.zepdev.net/badges/zds/sqale_index.svg)
 [![SonarCube_sqale_rating](https://cdn-zel.zepdev.net/badges/zds/sqale_rating.svg)](https://cdn-zel.zepdev.net/badges/zds/sqale_rating.svg)
-[![SonarCube_vulnerabilities](https://cdn-zel.zepdev.net/badges/zds/vulnerabilities.svg)](https://cdn-zel.zepdev.net/badges/zds/vulnerabilities.svg)
+[![SonarCube_vulnerabilities](https://cdn-zel.zepdev.net/badges/zds/vulnerabilities.svg)](https://cdn-zel.zepdev.net/badges/zds/vulnerabilities.svg) -->
 
 </span>
 
