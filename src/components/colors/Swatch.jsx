@@ -62,7 +62,6 @@ const styles = theme => ({
     color: theme.colors.gray.white.hex,
   },
   icon: {
-    position: 'relative,',
     color: theme.colors.gray.white.hex,
     display: 'block',
   },

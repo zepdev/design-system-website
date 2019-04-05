@@ -25,12 +25,6 @@ const styles = theme => ({
     padding: '1rem 1.5rem',
     margin: `46px 0 1.5rem`,
   },
-  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
-    main: {
-      padding: '1.5rem 2rem',
-      margin: `68px 0 2rem`,
-    },
-  },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
       padding: '2rem 3rem',
