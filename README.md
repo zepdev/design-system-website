@@ -9,19 +9,18 @@
 <span align="center">
 
 [![CircleCI](https://circleci.com/gh/zepdev/design-system-website.svg?style=svg&circle-token=d4f1730edfe9173ba0e0fde81dc6a97c3ba467a9)](https://circleci.com/gh/zepdev/design-system-website)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=alert_status)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=bugs)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=code_smells)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=coverage)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
 
-<!-- disabled Sonar badges. see: https://jira.sonarsource.com/browse/MMF-1178 -->
-<!-- [![SonarCube_QualityGate](https://cdn-zel.zepdev.net/badges/zds/alert_status.svg)](https://cdn-zel.zepdev.net/badges/zds/alert_status.svg)
-[![SonarCube_bugs](https://cdn-zel.zepdev.net/badges/zds/bugs.svg)](https://cdn-zel.zepdev.net/badges/zds/bugs.svg)
-[![SonarCube_code_smells](https://cdn-zel.zepdev.net/badges/zds/code_smells.svg)](https://cdn-zel.zepdev.net/badges/zds/code_smells.svg)
-[![SonarCube_coverage](https://cdn-zel.zepdev.net/badges/zds/coverage.svg)](https://cdn-zel.zepdev.net/badges/zds/coverage.svg)
-[![SonarCube_duplicated_lines_density](https://cdn-zel.zepdev.net/badges/zds/duplicated_lines_density.svg)](https://cdn-zel.zepdev.net/badges/zds/duplicated_lines_density.svg)
-[![SonarCube_ncloc](https://cdn-zel.zepdev.net/badges/zds/ncloc.svg)](https://cdn-zel.zepdev.net/badges/zds/ncloc.svg)
-[![SonarCube_reliability_rating](https://cdn-zel.zepdev.net/badges/zds/reliability_rating.svg)](https://cdn-zel.zepdev.net/badges/zds/reliability_rating.svg)
-[![SonarCube_security_rating](https://cdn-zel.zepdev.net/badges/zds/security_rating.svg)](https://cdn-zel.zepdev.net/badges/zds/security_rating.svg)
-[![SonarCube_sqale_index](https://cdn-zel.zepdev.net/badges/zds/sqale_index.svg)](https://cdn-zel.zepdev.net/badges/zds/sqale_index.svg)
-[![SonarCube_sqale_rating](https://cdn-zel.zepdev.net/badges/zds/sqale_rating.svg)](https://cdn-zel.zepdev.net/badges/zds/sqale_rating.svg)
-[![SonarCube_vulnerabilities](https://cdn-zel.zepdev.net/badges/zds/vulnerabilities.svg)](https://cdn-zel.zepdev.net/badges/zds/vulnerabilities.svg) -->
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=ncloc)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=security_rating)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=sqale_index)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=zepdev_design-system-website&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=zepdev_design-system-website)
 
 </span>
 
