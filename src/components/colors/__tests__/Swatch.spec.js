@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, fireEvent } from 'react-testing-library'
+import { act, render, fireEvent } from 'react-testing-library'
 import Swatch from '../Swatch'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../../data/theme'
@@ -49,7 +49,11 @@ describe('Swatch', () => {
     // check that timeout is called and changes text back
     expect(setTimeout).toHaveBeenCalledTimes(1)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
-    jest.runAllTimers()
+
+    act(() => {
+      jest.runAllTimers()
+    })
+
     expect(getByTestId('swatch-text')).toHaveTextContent(mockProps.color.hex)
   })
 
@@ -82,7 +86,11 @@ describe('Swatch', () => {
     // check that timeout is called and changes text back
     expect(setTimeout).toHaveBeenCalledTimes(2)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
-    jest.runAllTimers()
+
+    act(() => {
+      jest.runAllTimers()
+    })
+
     expect(getByTestId('swatch-text')).toHaveTextContent(mockProps.color.hex)
   })
 })
