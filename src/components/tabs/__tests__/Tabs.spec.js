@@ -3,6 +3,7 @@ import { render } from 'react-testing-library'
 import { ThemeProvider } from 'react-jss'
 import theme from '../../../data/theme'
 import Tabs from '../Tabs'
+import Tab from '../Tab'
 
 describe('Tabs', () => {
   it('renders correctly', () => {
@@ -17,11 +18,13 @@ describe('Tabs', () => {
     expect(component).toMatchSnapshot()
   })
   it('renders children component', () => {
+    jest.mock('../Tab')
+    const mockProps = {
+      children: [<Tab label="MockLabel" />],
+    }
     const { getByTestId } = render(
       <ThemeProvider theme={theme}>
-        <Tabs>
-          <div>mockItem</div>
-        </Tabs>
+        <Tabs {...mockProps} />
       </ThemeProvider>
     )
     const tabs = getByTestId('tabs')
