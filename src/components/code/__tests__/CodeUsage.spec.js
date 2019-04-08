@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import CodeUsage from '../CodeUsage'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 import { StaticQuery } from 'gatsby'
 
 beforeEach(() => {

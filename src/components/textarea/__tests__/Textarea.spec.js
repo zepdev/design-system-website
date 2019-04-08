@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import Textarea from '../Textarea'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 describe('Textarea', () => {
   it('renders correctly', () => {

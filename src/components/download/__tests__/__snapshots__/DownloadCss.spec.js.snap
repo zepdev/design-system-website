@@ -8,16 +8,45 @@ Object {
       <div
         class="Download-root-0-1-1"
       >
-        <a
-          class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
-          data-testid="downloadCss"
-          download="zeppelin-element-library.css"
-          href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
-          rel="noopener"
-          target="_blank"
+        <p
+          class="zep-typo--normal-3 Download-text-0-1-4"
         >
-          Download
-        </a>
+          Zeppelin Element Library CSS
+        </p>
+        <div
+          class="Download-container-0-1-3"
+        >
+          <a
+            aria-label="download sketch file"
+            class="ButtonBase-button-0-1-9 Download-button-0-1-7"
+            download="zeppelin-element-library.css"
+            href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
+            target="_blank"
+          >
+            <svg
+              aria-labelledby="title"
+              class="Download-icon-0-1-8"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_copy"
+              >
+                Download Icon
+              </title>
+              <path
+                d="M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z"
+                fill="currentColor"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
   </body>,
@@ -25,16 +54,45 @@ Object {
     <div
       class="Download-root-0-1-1"
     >
-      <a
-        class="ButtonBase-button-0-1-2 zep-button zep-button-primary"
-        data-testid="downloadCss"
-        download="zeppelin-element-library.css"
-        href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
-        rel="noopener"
-        target="_blank"
+      <p
+        class="zep-typo--normal-3 Download-text-0-1-4"
       >
-        Download
-      </a>
+        Zeppelin Element Library CSS
+      </p>
+      <div
+        class="Download-container-0-1-3"
+      >
+        <a
+          aria-label="download sketch file"
+          class="ButtonBase-button-0-1-9 Download-button-0-1-7"
+          download="zeppelin-element-library.css"
+          href="https://cdn-zel.zepdev.net/zel/css/zeppelin-element-library.css"
+          target="_blank"
+        >
+          <svg
+            aria-labelledby="title"
+            class="Download-icon-0-1-8"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Download Icon
+            </title>
+            <path
+              d="M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z"
+              fill="currentColor"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </a>
+      </div>
     </div>
   </div>,
   "debug": [Function],

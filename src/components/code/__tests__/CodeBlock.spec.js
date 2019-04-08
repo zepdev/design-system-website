@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import CodeBlock from '../CodeBlock'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 describe('CodeBlock', () => {
   it('renders correctly', () => {

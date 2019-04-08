@@ -3,7 +3,7 @@
 import React from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
 import CopyButton from '../button/CopyButton'
-import theme from '../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const codeTheme = {
   plain: {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { act, render, fireEvent } from 'react-testing-library'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 import CopyButton from '../CopyButton'
 
 jest.useFakeTimers()
