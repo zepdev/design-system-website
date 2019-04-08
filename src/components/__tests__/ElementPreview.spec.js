@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-testing-library'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 import ElementPreview from '../ElementPreview'
 // import CodeUsage from '../CodeUsage'
 import elements from '../../data/elements'

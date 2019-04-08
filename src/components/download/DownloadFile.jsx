@@ -55,6 +55,28 @@ const styles = theme => ({
 })
 
 const DownloadFile = ({ title, sketch, href, download, ariaLabel, demo, classes }) => {
+  const handleDownload = () => {
+    const a = document.createElement('a')
+    // check if browser supports modern features like download
+    if (a.download === undefined) {
+      // workaround for IE
+      if (typeof window.navigator.msSaveBlob !== 'undefined') {
+        const blob = new Blob([href], { type: 'application/octet-stream' })
+        window.navigator.msSaveBlob(blob, download)
+      } else {
+        console.log('error: this browser does not support downloads')
+      }
+    } else {
+      a.href = href
+      // a.download = download
+      // a.target = '_blank'
+      console.log(a)
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+    }
+  }
+
   return (
     <div className={classes.root}>
       <p className={classnames('zep-typo--normal-3', classes.text)}>
@@ -68,10 +90,11 @@ const DownloadFile = ({ title, sketch, href, download, ariaLabel, demo, classes 
         {sketch && <img src={sketchImg} alt="sketch logo" className={classes.img} />}
         <ButtonBase
           className={classes.button}
-          target="_blank"
           disabled={demo}
-          href={href}
-          download={download}
+          onClick={() => handleDownload()}
+          // href={href}
+          // target="_blank"
+          // download={download}
           aria-label={ariaLabel}
         >
           <DownloadIcon className={classes.icon} />
@@ -92,53 +115,3 @@ DownloadFile.propTypes = {
 }
 
 export default withStyles(styles)(DownloadFile)
-
-// const handleDownload = () => {
-//   let myHeaders = new Headers({
-//     'Content-Type': 'text/css',
-//   })
-//   fetch(
-//     'https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/css/zeppelin-element-library.css',
-//     {
-//       headers: myHeaders,
-//     }
-//   )
-//     .then(function(response) {
-//       console.log(response.text())
-//       return response.json()
-//     })
-//     .then(function(json) {
-//       console.log(json)
-//     })
-//     .catch(function(err) {
-//       console.log('Fetch problem: ' + err.message)
-//     })
-//   const filename = 'zeppelin-element-library.css'
-// const blob = new Blob([data], { type: 'application/octet-stream' })
-// if (typeof window.navigator.msSaveBlob !== 'undefined') {
-//   // IE workaround for "HTML7007: One or more blob URLs were
-//   // revoked by closing the blob for which they were created.
-//   // These URLs will no longer resolve as the data backing
-//   // the URL has been freed."
-//   window.navigator.msSaveBlob(blob, filename)
-// } else {
-//   let blobURL = window.URL.createObjectURL(blob)
-//   let tempLink = document.createElement('a')
-//   tempLink.style.display = 'none'
-//   tempLink.href = blobURL
-//   tempLink.setAttribute('download', filename)
-
-//   // Safari thinks _blank anchor are pop ups. We only want to set _blank
-//   // target if the browser does not support the HTML5 download attribute.
-//   // This allows you to download files in desktop safari if pop up blocking
-//   // is enabled.
-//   if (typeof tempLink.download === 'undefined') {
-//     tempLink.setAttribute('target', '_blank')
-//   }
-
-//   document.body.appendChild(tempLink)
-//   tempLink.click()
-//   document.body.removeChild(tempLink)
-//   window.URL.revokeObjectURL(blobURL)
-// }
-// }

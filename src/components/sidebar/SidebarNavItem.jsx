@@ -5,7 +5,7 @@ import classnames from 'classnames'
 import withStyles from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import ArrowDownIcon from '../icons/ArrowDownIcon'
-import theme from '../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
   button: {
