@@ -9,18 +9,8 @@ const styles = theme => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
-    marginBottom: theme.spacing.component.xl.px,
-  },
-  third: {
-    flexBasis: '30%',
-  },
-  quarter: {
     flexBasis: '48%',
-  },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
-    quarter: {
-      flexBasis: '22%',
-    },
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   button: {
     height: '8rem',
@@ -37,6 +27,28 @@ const styles = theme => ({
       '& $backdropContent': {
         opacity: 1,
       },
+    },
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    root: {
+      flexBasis: '22%',
+    },
+    button: {
+      height: '8rem',
+    },
+  },
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+    root: {
+      marginRight: `${ theme.spacing.component.m.rem }rem`,
+    },
+  },
+  [`@media (min-width: ${ theme.breakpoints.xxl })`]: {
+    root: {
+      marginRight: `${ theme.spacing.component.m.rem }rem`,
+      flexBasis: '24%',
+    },
+    button: {
+      height: '16rem',
     },
   },
   backdrop: {
@@ -106,9 +118,7 @@ function Swatch({ color, section, classes }) {
   }
 
   return (
-    <div
-      className={classnames(classes.root, section === 'primary' ? classes.third : classes.quarter)}
-    >
+    <div className={classes.root}>
       <Button
         className={classes.button}
         style={{ background: color.hex }}

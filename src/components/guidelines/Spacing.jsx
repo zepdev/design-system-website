@@ -66,7 +66,7 @@ const Spacing = ({ classes }) => {
           </tr>
         </thead>
         <tbody className={classes.tbody}>
-          {Object.keys(spacing).map(elem => (
+          {Object.keys(spacing.component).map(elem => (
             <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
@@ -77,8 +77,8 @@ const Spacing = ({ classes }) => {
                   {item === 'actual size' ? (
                     <div
                       style={{
-                        width: spacing[elem].px,
-                        height: spacing[elem].px,
+                        width: spacing.component[elem].px,
+                        height: spacing.component[elem].px,
                         color: 'green',
                       }}
                       className={classes.square}
@@ -86,9 +86,9 @@ const Spacing = ({ classes }) => {
                   ) : item === 'name' ? (
                     `zep-spacing--${ elem }`
                   ) : item === 'px' ? (
-                    `${ spacing[elem][item] }px`
+                    `${ spacing.component[elem][item] }px`
                   ) : (
-                    `${ spacing[elem][item] }rem`
+                    `${ spacing.component[elem][item] }rem`
                   )}
                 </td>
               ))}

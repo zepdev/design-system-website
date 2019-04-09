@@ -1,16 +1,12 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
-import CodeBlock from './code/CodeBlock'
-import CodeUsage from './code/CodeUsage'
-import elements from '../data/elements'
+import Headline from '../typography/Headline'
+import CodeBlock from '../code/CodeBlock'
+import CodeUsage from '../code/CodeUsage'
+import elements from '../../data/elements'
 
 const styles = theme => ({
-  text: {
-    marginBottom: `${ theme.spacing.component.xl.rem }rem`,
-    textTransform: 'capitalize',
-  },
   htmlContainer: {
     backgroundColor: theme.colors.gray.grayLightest.hex,
     padding: `${ theme.spacing.component.l.rem }rem`,
@@ -53,16 +49,10 @@ const styles = theme => ({
 
 const ElementPreview = ({ element, classes }) => {
   return (
-    <Fragment>
-      {' '}
+    <>
       {Object.keys(elements[element].demo).map((elem, idx) => (
         <Fragment key={`codeBlock${ idx }`}>
-          <p
-            className={classnames(classes.text, 'zep-typo--normal-6')}
-            data-testid="elementPreviewText"
-          >
-            {elem}
-          </p>
+          <Headline variant="sm">{elem}</Headline>
           <div className={classes.htmlContainer}>
             <div className={classes.innerContainer}>
               {elements[element].demo[elem].js.map((item, idx) => (
@@ -78,7 +68,7 @@ const ElementPreview = ({ element, classes }) => {
           <CodeUsage element={element} />
         </Fragment>
       ))}
-    </Fragment>
+    </>
   )
 }
 

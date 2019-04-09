@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import LaunchIcon from './icons/LaunchIcon'
+import LaunchIcon from '../icons/LaunchIcon'
 import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
