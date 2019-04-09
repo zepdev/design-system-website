@@ -8,7 +8,7 @@ import { iconography } from '../../data/elements'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${ theme.spacing.xxl.rem }rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
     display: 'flex',
     flexWrap: 'wrap',
   },
@@ -85,7 +85,7 @@ const styles = theme => ({
     position: 'absolute',
     height: '100%',
     width: '100%',
-    padding: `${ theme.spacing.s.rem }rem`,
+    padding: `${ theme.spacing.component.s.rem }rem`,
   },
   text: {
     textAlign: 'left',
@@ -103,8 +103,6 @@ const styles = theme => ({
 })
 
 const Iconography = ({ section, classes }) => {
-  const icon = 'IconsMiscActionBell'
-
   return (
     <div className={classes.root}>
       {iconography[section].map(elem => (
@@ -112,7 +110,7 @@ const Iconography = ({ section, classes }) => {
           className={classes.container}
           key={`icon${ elem }`}
           target="_blank"
-          href={require(`../../assets/icons/${ icon }.svg`)}
+          href={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
           download={`zepicons-${ elem }.svg`}
           aria-label={elem}
         >
@@ -123,7 +121,7 @@ const Iconography = ({ section, classes }) => {
             </span>
             <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`zepicons-${ elem }`}</p>
             <img
-              src={require(`../../assets/icons/${ icon }.svg`)}
+              src={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
               alt={elem}
               className={classes.img}
             />

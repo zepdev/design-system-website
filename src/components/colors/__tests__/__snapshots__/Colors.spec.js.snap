@@ -185,6 +185,65 @@ Object {
             RGB: 175/14/14
           </p>
         </div>
+        <div
+          class="Swatch-root-0-1-2 Swatch-third-0-1-3"
+        >
+          <button
+            class="ButtonBase-button-0-1-12 zep-button Swatch-button-0-1-5"
+            style="background: rgb(0, 174, 239);"
+          >
+            <span
+              class="Swatch-backdrop-0-1-6"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-7"
+            >
+              <svg
+                aria-labelledby="title"
+                class="Swatch-icon-0-1-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#00aeef
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-9"
+                data-testid="swatch-text"
+              >
+                #00aeef
+              </span>
+            </span>
+          </button>
+          <p
+            class="Swatch-name-0-1-11 zep-typo--normal-2"
+          >
+            zlab-blue
+          </p>
+          <p
+            class="Swatch-text-0-1-10 zep-typo--normal-1"
+          >
+            HEX: #00aeef
+          </p>
+          <p
+            class="Swatch-text-0-1-10 zep-typo--normal-1"
+          >
+            RGB: 0/174/239
+          </p>
+        </div>
       </div>
     </div>
   </body>,
@@ -367,6 +426,65 @@ Object {
           class="Swatch-text-0-1-10 zep-typo--normal-1"
         >
           RGB: 175/14/14
+        </p>
+      </div>
+      <div
+        class="Swatch-root-0-1-2 Swatch-third-0-1-3"
+      >
+        <button
+          class="ButtonBase-button-0-1-12 zep-button Swatch-button-0-1-5"
+          style="background: rgb(0, 174, 239);"
+        >
+          <span
+            class="Swatch-backdrop-0-1-6"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-7"
+          >
+            <svg
+              aria-labelledby="title"
+              class="Swatch-icon-0-1-8"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_copy"
+              >
+                copy hex:#00aeef
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-9"
+              data-testid="swatch-text"
+            >
+              #00aeef
+            </span>
+          </span>
+        </button>
+        <p
+          class="Swatch-name-0-1-11 zep-typo--normal-2"
+        >
+          zlab-blue
+        </p>
+        <p
+          class="Swatch-text-0-1-10 zep-typo--normal-1"
+        >
+          HEX: #00aeef
+        </p>
+        <p
+          class="Swatch-text-0-1-10 zep-typo--normal-1"
+        >
+          RGB: 0/174/239
         </p>
       </div>
     </div>

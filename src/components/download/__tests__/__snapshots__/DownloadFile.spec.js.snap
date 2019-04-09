@@ -18,7 +18,6 @@ Object {
         >
           <button
             class="ButtonBase-button-0-1-9 DownloadFile-button-0-1-7"
-            target="_blank"
           >
             <svg
               aria-labelledby="title"
@@ -61,7 +60,6 @@ Object {
       >
         <button
           class="ButtonBase-button-0-1-9 DownloadFile-button-0-1-7"
-          target="_blank"
         >
           <svg
             aria-labelledby="title"

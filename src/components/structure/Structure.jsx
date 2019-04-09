@@ -9,7 +9,7 @@ const styles = theme => ({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: theme.colors.gray.grayLighter.hex,
-    padding: `${ theme.spacing.xxl.rem }rem`,
+    padding: `${ theme.spacing.component.xxl.rem }rem`,
   },
 })
 

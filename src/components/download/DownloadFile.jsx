@@ -8,9 +8,9 @@ import sketchImg from '../../assets/images/sketch-symbol.svg'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${ theme.spacing.l.rem * 2 }rem`,
+    marginBottom: `${ theme.spacing.component.l.rem * 2 }rem`,
     background: theme.colors.gray.grayLighter.hex,
-    padding: `${ theme.spacing.l.rem }rem`,
+    padding: `${ theme.spacing.component.l.rem }rem`,
     width: '100%',
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
@@ -21,7 +21,7 @@ const styles = theme => ({
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
       width: 450,
-      marginRight: `${ theme.spacing.l.rem }rem`,
+      marginRight: `${ theme.spacing.component.l.rem }rem`,
     },
   },
   container: {
@@ -32,7 +32,7 @@ const styles = theme => ({
     justifyContent: 'space-between',
   },
   text: {
-    marginBottom: `${ theme.spacing.xl.rem * 2 }rem`,
+    marginBottom: `${ theme.spacing.component.xl.rem * 2 }rem`,
   },
   trademark: {
     marginBottom: 5,
@@ -47,7 +47,7 @@ const styles = theme => ({
     width: 46,
     height: 46,
     background: theme.colors.gray.white.hex,
-    padding: `${ theme.spacing.xs.rem }rem`,
+    padding: `${ theme.spacing.component.xs.rem }rem`,
   },
   icon: {
     color: theme.colors.gray.grayLight.hex,
@@ -68,9 +68,8 @@ const DownloadFile = ({ title, sketch, href, download, ariaLabel, demo, classes 
       }
     } else {
       a.href = href
-      // a.download = download
-      // a.target = '_blank'
-      console.log(a)
+      a.download = download
+      a.target = '_blank'
       document.body.appendChild(a)
       a.click()
       document.body.removeChild(a)
@@ -92,9 +91,6 @@ const DownloadFile = ({ title, sketch, href, download, ariaLabel, demo, classes 
           className={classes.button}
           disabled={demo}
           onClick={() => handleDownload()}
-          // href={href}
-          // target="_blank"
-          // download={download}
           aria-label={ariaLabel}
         >
           <DownloadIcon className={classes.icon} />

@@ -8,12 +8,12 @@ import elements from '../data/elements'
 
 const styles = theme => ({
   text: {
-    marginBottom: `${ theme.spacing.xl.rem }rem`,
+    marginBottom: `${ theme.spacing.component.xl.rem }rem`,
     textTransform: 'capitalize',
   },
   htmlContainer: {
     backgroundColor: theme.colors.gray.grayLightest.hex,
-    padding: `${ theme.spacing.l.rem }rem`,
+    padding: `${ theme.spacing.component.l.rem }rem`,
     display: 'flex',
     justifyContent: 'center',
   },
@@ -24,7 +24,7 @@ const styles = theme => ({
     justifyContent: 'space-around',
   },
   element: {
-    paddingBottom: `${ theme.spacing.l.rem }rem`,
+    paddingBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     element: {

@@ -9,11 +9,11 @@ const styles = theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-    marginBottom: `${ theme.spacing.xxl.rem }rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   container: {
     flexBasis: '100%',
-    paddingBottom: `${ theme.spacing.m.rem }rem`,
+    paddingBottom: `${ theme.spacing.component.m.rem }rem`,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     container: {
@@ -36,10 +36,10 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'space-between',
     background: theme.colors.gray.grayLightest.hex,
-    paddingTop: theme.spacing.s.px,
-    paddingBottom: theme.spacing.s.px,
-    paddingLeft: theme.spacing.l.px,
-    paddingRight: theme.spacing.l.px,
+    paddingTop: theme.spacing.component.s.px,
+    paddingBottom: theme.spacing.component.s.px,
+    paddingLeft: theme.spacing.component.l.px,
+    paddingRight: theme.spacing.component.l.px,
     borderTop: `1px solid ${ theme.colors.gray.grayLight.hex }`,
   },
   text: {

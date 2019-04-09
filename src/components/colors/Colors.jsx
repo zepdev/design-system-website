@@ -9,7 +9,7 @@ const styles = theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-    marginBottom: theme.spacing.xl.px,
+    marginBottom: theme.spacing.component.xl.px,
   },
 })
 

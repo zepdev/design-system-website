@@ -10,11 +10,11 @@ const styles = theme => ({
   },
   table: {
     width: '100%',
-    marginBottom: theme.spacing.xl.px * 2,
+    marginBottom: theme.spacing.component.xl.px * 2,
     borderCollapse: 'collapse',
   },
   th: {
-    padding: `${ theme.spacing.m.px }px ${ theme.spacing.l.px }px`,
+    padding: `${ theme.spacing.component.m.px }px ${ theme.spacing.component.l.px }px`,
     textAlign: 'left',
     display: 'table-cell',
   },

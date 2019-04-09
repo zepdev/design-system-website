@@ -58,20 +58,20 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: `${ theme.spacing.xxl.rem }rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     marginTop: 0,
-    marginBottom: `${ theme.spacing.xxl.rem }rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hStyled: {
-    marginBottom: `${ theme.spacing.l.rem }rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   h1Styled: {
-    marginBottom: `${ theme.spacing.m.rem }rem`,
+    marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
   skipLink: {
     position: 'absolute',

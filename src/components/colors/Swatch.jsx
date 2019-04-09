@@ -9,7 +9,7 @@ const styles = theme => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
-    marginBottom: theme.spacing.xl.px,
+    marginBottom: theme.spacing.component.xl.px,
   },
   third: {
     flexBasis: '30%',
@@ -25,7 +25,7 @@ const styles = theme => ({
   button: {
     height: '8rem',
     width: '100%',
-    marginBottom: theme.spacing.s.px,
+    marginBottom: theme.spacing.component.s.px,
     position: 'relative',
     cursor: 'pointer',
     border: `1px solid ${ theme.colors.gray.grayMid.hex }`,
@@ -77,7 +77,7 @@ const styles = theme => ({
   name: {
     marginTop: 0,
     fontWeight: 500,
-    marginBottom: theme.spacing.s.px,
+    marginBottom: theme.spacing.component.s.px,
   },
 })
 

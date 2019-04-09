@@ -19,7 +19,7 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: `${ theme.spacing.m.rem }rem ${ theme.spacing.l.rem }rem`,
+    padding: `${ theme.spacing.component.m.rem }rem ${ theme.spacing.component.l.rem }rem`,
     height: 46,
   },
   button: {
@@ -33,13 +33,13 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     container: {
-      padding: `${ theme.spacing.l.rem }rem ${ theme.spacing.xl.rem }rem`,
+      padding: `${ theme.spacing.component.l.rem }rem ${ theme.spacing.component.xl.rem }rem`,
       height: 68,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     container: {
-      padding: `${ theme.spacing.xl.rem }rem ${ theme.spacing.xxl.rem }rem`,
+      padding: `${ theme.spacing.component.xl.rem }rem ${ theme.spacing.component.xxl.rem }rem`,
       height: 84,
     },
   },
@@ -68,7 +68,7 @@ const styles = theme => ({
       width: `calc(100% - 300px)`,
     },
     container: {
-      padding: `${ theme.spacing.xl.rem }rem`,
+      padding: `${ theme.spacing.component.xl.rem }rem`,
       height: 136,
     },
   },
