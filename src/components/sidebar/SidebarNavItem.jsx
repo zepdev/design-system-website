@@ -5,7 +5,7 @@ import classnames from 'classnames'
 import withStyles from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import ArrowDownIcon from '../icons/ArrowDownIcon'
-import theme from '../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
   button: {
@@ -14,7 +14,7 @@ const styles = theme => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     color: theme.colors.gray.gray.hex,
-    padding: `${ theme.spacing.s.px }px ${ theme.spacing.xl.px }px`,
+    padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl.px }px`,
     '&:hover': {
       background: theme.colors.gray.grayLightest.hex,
     },
@@ -30,7 +30,7 @@ const styles = theme => ({
   subnav: {
     textTransform: 'capitalize',
     color: theme.colors.gray.grayLight.hex,
-    padding: `${ theme.spacing.s.px }px ${ theme.spacing.xl.px * 1.5 }px`,
+    padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl.px * 1.5 }px`,
     '&:hover': {
       background: theme.colors.gray.grayLightest.hex,
     },

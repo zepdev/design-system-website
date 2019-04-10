@@ -10,10 +10,10 @@ import CodeBlock from './CodeBlock'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${ theme.spacing.xxl.rem }rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   heading: {
-    marginBottom: `${ theme.spacing.l.rem }rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
 })
 
