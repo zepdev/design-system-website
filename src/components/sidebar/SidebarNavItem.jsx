@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import classnames from 'classnames'
 import withStyles from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
-import ArrowDownIcon from '../icons/ArrowDownIcon'
+import ChevronDownIcon from '../icons/ChevronDownIcon'
 import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
@@ -65,7 +65,7 @@ function SidebarNavItem({ item, setMenu, classes }) {
           })}
         >
           {item.title}
-          <ArrowDownIcon
+          <ChevronDownIcon
             width="20"
             height="20"
             className={classnames(classes.icon, {

@@ -104,6 +104,7 @@ const styles = theme => ({
   name: {
     textAlign: 'left',
     fontSize: 12,
+    color: theme.colors.gray.black.hex,
   },
   img: {
     width: 32,
@@ -169,11 +170,17 @@ const Iconography = ({ classes }) => {
           <DownloadContainer>
             <DownloadFile
               title="Zeppelin iconography library"
-              href=""
+              href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zepicons.zip"
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
-            <DownloadFile title="iconography kit" sketch href="" download="" ariaLabel="download" />
+            <DownloadFile
+              title="iconography kit"
+              sketch
+              href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
+              download=""
+              ariaLabel="download"
+            />
           </DownloadContainer>
           <Divider />
           {Object.keys(sections).map(section => (
@@ -197,7 +204,6 @@ const Iconography = ({ classes }) => {
                       <p
                         className={classnames(classes.name, 'zep-typo--normal-1')}
                       >{`zepicons-${ elem }`}</p>
-
                       <img
                         src={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
                         alt={elem}
