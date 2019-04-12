@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ArrowDownIcon renders correctly 1`] = `
+exports[`ChevronDownIcon renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -17,13 +17,9 @@ Object {
         >
           Arrow Down Icon
         </title>
-        <path
-          d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+        <polygon
           fill="currentColor"
-        />
-        <path
-          d="M0 0h24v24H0V0z"
-          fill="none"
+          points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
         />
       </svg>
     </div>
@@ -41,13 +37,9 @@ Object {
       >
         Arrow Down Icon
       </title>
-      <path
-        d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+      <polygon
         fill="currentColor"
-      />
-      <path
-        d="M0 0h24v24H0V0z"
-        fill="none"
+        points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
       />
     </svg>
   </div>,
