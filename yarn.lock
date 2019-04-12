@@ -15214,10 +15214,10 @@ zen-observable@^0.8.0:
   resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.14.tgz#d33058359d335bc0db1f0af66158b32872af3bf7"
   integrity sha512-kQz39uonEjEESwh+qCi83kcC3rZJGh4mrZW7xjkSQYXkq//JZHTtKo+6yuVloTgMtzsIWOJrjIrKvk/dqm0L5g==
 
-zeppelin-element-library@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.4.3.tgz#12e0f4efd077745b825e83dd4d488b23f6a2ac8a"
-  integrity sha512-S1dNdhOWTao0nT1MtPWa+yORylprQPbB1g9bL8UCI7e12GR3mZYM2jqZNFZTpA7LkrTocE0QB8gxTznd69mRdw==
+zeppelin-element-library@^0.4.5:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.4.5.tgz#cdf5b76d79b1f2f78c12de6cd24e6cf4e7ea97e9"
+  integrity sha512-Z2q3C8AA4TuMHW9gLSOCP1Z0VnjQHNzlc3bgbhNV9I5KYxfIqX52a10V47d9TnEx2uozgml4K8Lq7poNe+tfCA==
 
 zwitch@^1.0.0:
   version "1.0.3"
