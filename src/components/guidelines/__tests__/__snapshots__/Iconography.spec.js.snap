@@ -182,9 +182,10 @@ Object {
             >
               zepicons-list-plus
             </p>
-            <image
+            <img
+              alt="list-plus"
               class="Iconography-img-0-1-10"
-              elem="list-plus"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -232,9 +233,10 @@ Object {
             >
               zepicons-print
             </p>
-            <image
+            <img
+              alt="print"
               class="Iconography-img-0-1-10"
-              elem="print"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -282,9 +284,10 @@ Object {
             >
               zepicons-minus
             </p>
-            <image
+            <img
+              alt="minus"
               class="Iconography-img-0-1-10"
-              elem="minus"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -332,9 +335,10 @@ Object {
             >
               zepicons-timer
             </p>
-            <image
+            <img
+              alt="timer"
               class="Iconography-img-0-1-10"
-              elem="timer"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -382,9 +386,10 @@ Object {
             >
               zepicons-users
             </p>
-            <image
+            <img
+              alt="users"
               class="Iconography-img-0-1-10"
-              elem="users"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -432,9 +437,10 @@ Object {
             >
               zepicons-unfold
             </p>
-            <image
+            <img
+              alt="unfold"
               class="Iconography-img-0-1-10"
-              elem="unfold"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -482,9 +488,10 @@ Object {
             >
               zepicons-bookmark
             </p>
-            <image
+            <img
+              alt="bookmark"
               class="Iconography-img-0-1-10"
-              elem="bookmark"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -532,9 +539,10 @@ Object {
             >
               zepicons-upload
             </p>
-            <image
+            <img
+              alt="upload"
               class="Iconography-img-0-1-10"
-              elem="upload"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -582,9 +590,10 @@ Object {
             >
               zepicons-filter
             </p>
-            <image
+            <img
+              alt="filter"
               class="Iconography-img-0-1-10"
-              elem="filter"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -632,9 +641,10 @@ Object {
             >
               zepicons-sort
             </p>
-            <image
+            <img
+              alt="sort"
               class="Iconography-img-0-1-10"
-              elem="sort"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -682,9 +692,10 @@ Object {
             >
               zepicons-share
             </p>
-            <image
+            <img
+              alt="share"
               class="Iconography-img-0-1-10"
-              elem="share"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -732,9 +743,10 @@ Object {
             >
               zepicons-view-grid
             </p>
-            <image
+            <img
+              alt="view-grid"
               class="Iconography-img-0-1-10"
-              elem="view-grid"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -782,9 +794,10 @@ Object {
             >
               zepicons-phone
             </p>
-            <image
+            <img
+              alt="phone"
               class="Iconography-img-0-1-10"
-              elem="phone"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -832,9 +845,10 @@ Object {
             >
               zepicons-clock
             </p>
-            <image
+            <img
+              alt="clock"
               class="Iconography-img-0-1-10"
-              elem="clock"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -882,9 +896,10 @@ Object {
             >
               zepicons-delete
             </p>
-            <image
+            <img
+              alt="delete"
               class="Iconography-img-0-1-10"
-              elem="delete"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -932,9 +947,10 @@ Object {
             >
               zepicons-image-album
             </p>
-            <image
+            <img
+              alt="image-album"
               class="Iconography-img-0-1-10"
-              elem="image-album"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -982,9 +998,10 @@ Object {
             >
               zepicons-edit
             </p>
-            <image
+            <img
+              alt="edit"
               class="Iconography-img-0-1-10"
-              elem="edit"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1032,9 +1049,10 @@ Object {
             >
               zepicons-star
             </p>
-            <image
+            <img
+              alt="star"
               class="Iconography-img-0-1-10"
-              elem="star"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1082,9 +1100,10 @@ Object {
             >
               zepicons-contacts
             </p>
-            <image
+            <img
+              alt="contacts"
               class="Iconography-img-0-1-10"
-              elem="contacts"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1132,9 +1151,10 @@ Object {
             >
               zepicons-attachment
             </p>
-            <image
+            <img
+              alt="attachment"
               class="Iconography-img-0-1-10"
-              elem="attachment"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1182,9 +1202,10 @@ Object {
             >
               zepicons-camera
             </p>
-            <image
+            <img
+              alt="camera"
               class="Iconography-img-0-1-10"
-              elem="camera"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1232,9 +1253,10 @@ Object {
             >
               zepicons-chat
             </p>
-            <image
+            <img
+              alt="chat"
               class="Iconography-img-0-1-10"
-              elem="chat"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1282,9 +1304,10 @@ Object {
             >
               zepicons-solutions
             </p>
-            <image
+            <img
+              alt="solutions"
               class="Iconography-img-0-1-10"
-              elem="solutions"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1332,9 +1355,10 @@ Object {
             >
               zepicons-contact-mail
             </p>
-            <image
+            <img
+              alt="contact-mail"
               class="Iconography-img-0-1-10"
-              elem="contact-mail"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1382,9 +1406,10 @@ Object {
             >
               zepicons-image
             </p>
-            <image
+            <img
+              alt="image"
               class="Iconography-img-0-1-10"
-              elem="image"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1432,9 +1457,10 @@ Object {
             >
               zepicons-compare
             </p>
-            <image
+            <img
+              alt="compare"
               class="Iconography-img-0-1-10"
-              elem="compare"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1482,9 +1508,10 @@ Object {
             >
               zepicons-hide
             </p>
-            <image
+            <img
+              alt="hide"
               class="Iconography-img-0-1-10"
-              elem="hide"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1532,9 +1559,10 @@ Object {
             >
               zepicons-reload
             </p>
-            <image
+            <img
+              alt="reload"
               class="Iconography-img-0-1-10"
-              elem="reload"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1582,9 +1610,10 @@ Object {
             >
               zepicons-copy
             </p>
-            <image
+            <img
+              alt="copy"
               class="Iconography-img-0-1-10"
-              elem="copy"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1632,9 +1661,10 @@ Object {
             >
               zepicons-close
             </p>
-            <image
+            <img
+              alt="close"
               class="Iconography-img-0-1-10"
-              elem="close"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1682,9 +1712,10 @@ Object {
             >
               zepicons-email
             </p>
-            <image
+            <img
+              alt="email"
               class="Iconography-img-0-1-10"
-              elem="email"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1732,9 +1763,10 @@ Object {
             >
               zepicons-calendar-range
             </p>
-            <image
+            <img
+              alt="calendar-range"
               class="Iconography-img-0-1-10"
-              elem="calendar-range"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1782,9 +1814,10 @@ Object {
             >
               zepicons-global
             </p>
-            <image
+            <img
+              alt="global"
               class="Iconography-img-0-1-10"
-              elem="global"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1832,9 +1865,10 @@ Object {
             >
               zepicons-check
             </p>
-            <image
+            <img
+              alt="check"
               class="Iconography-img-0-1-10"
-              elem="check"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1882,9 +1916,10 @@ Object {
             >
               zepicons-plus
             </p>
-            <image
+            <img
+              alt="plus"
               class="Iconography-img-0-1-10"
-              elem="plus"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1932,9 +1967,10 @@ Object {
             >
               zepicons-direction
             </p>
-            <image
+            <img
+              alt="direction"
               class="Iconography-img-0-1-10"
-              elem="direction"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -1982,9 +2018,10 @@ Object {
             >
               zepicons-flag
             </p>
-            <image
+            <img
+              alt="flag"
               class="Iconography-img-0-1-10"
-              elem="flag"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2032,9 +2069,10 @@ Object {
             >
               zepicons-bell
             </p>
-            <image
+            <img
+              alt="bell"
               class="Iconography-img-0-1-10"
-              elem="bell"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2082,9 +2120,10 @@ Object {
             >
               zepicons-dots-vertical
             </p>
-            <image
+            <img
+              alt="dots-vertical"
               class="Iconography-img-0-1-10"
-              elem="dots-vertical"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2132,9 +2171,10 @@ Object {
             >
               zepicons-add-solution
             </p>
-            <image
+            <img
+              alt="add-solution"
               class="Iconography-img-0-1-10"
-              elem="add-solution"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2182,9 +2222,10 @@ Object {
             >
               zepicons-add-cart
             </p>
-            <image
+            <img
+              alt="add-cart"
               class="Iconography-img-0-1-10"
-              elem="add-cart"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2232,9 +2273,10 @@ Object {
             >
               zepicons-expand
             </p>
-            <image
+            <img
+              alt="expand"
               class="Iconography-img-0-1-10"
-              elem="expand"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2282,9 +2324,10 @@ Object {
             >
               zepicons-download
             </p>
-            <image
+            <img
+              alt="download"
               class="Iconography-img-0-1-10"
-              elem="download"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2332,9 +2375,10 @@ Object {
             >
               zepicons-cart
             </p>
-            <image
+            <img
+              alt="cart"
               class="Iconography-img-0-1-10"
-              elem="cart"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2382,9 +2426,10 @@ Object {
             >
               zepicons-settings
             </p>
-            <image
+            <img
+              alt="settings"
               class="Iconography-img-0-1-10"
-              elem="settings"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2432,9 +2477,10 @@ Object {
             >
               zepicons-map-marker
             </p>
-            <image
+            <img
+              alt="map-marker"
               class="Iconography-img-0-1-10"
-              elem="map-marker"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2482,9 +2528,10 @@ Object {
             >
               zepicons-link
             </p>
-            <image
+            <img
+              alt="link"
               class="Iconography-img-0-1-10"
-              elem="link"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2532,9 +2579,10 @@ Object {
             >
               zepicons-dots-horizontal
             </p>
-            <image
+            <img
+              alt="dots-horizontal"
               class="Iconography-img-0-1-10"
-              elem="dots-horizontal"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2582,9 +2630,10 @@ Object {
             >
               zepicons-user-edit
             </p>
-            <image
+            <img
+              alt="user-edit"
               class="Iconography-img-0-1-10"
-              elem="user-edit"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2632,9 +2681,10 @@ Object {
             >
               zepicons-average
             </p>
-            <image
+            <img
+              alt="average"
               class="Iconography-img-0-1-10"
-              elem="average"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2682,9 +2732,10 @@ Object {
             >
               zepicons-file-document
             </p>
-            <image
+            <img
+              alt="file-document"
               class="Iconography-img-0-1-10"
-              elem="file-document"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2732,9 +2783,10 @@ Object {
             >
               zepicons-file
             </p>
-            <image
+            <img
+              alt="file"
               class="Iconography-img-0-1-10"
-              elem="file"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2782,9 +2834,10 @@ Object {
             >
               zepicons-map
             </p>
-            <image
+            <img
+              alt="map"
               class="Iconography-img-0-1-10"
-              elem="map"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2832,9 +2885,10 @@ Object {
             >
               zepicons-headset
             </p>
-            <image
+            <img
+              alt="headset"
               class="Iconography-img-0-1-10"
-              elem="headset"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2882,9 +2936,10 @@ Object {
             >
               zepicons-show
             </p>
-            <image
+            <img
+              alt="show"
               class="Iconography-img-0-1-10"
-              elem="show"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2932,9 +2987,10 @@ Object {
             >
               zepicons-zoom-in
             </p>
-            <image
+            <img
+              alt="zoom-in"
               class="Iconography-img-0-1-10"
-              elem="zoom-in"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -2982,9 +3038,10 @@ Object {
             >
               zepicons-briefcase
             </p>
-            <image
+            <img
+              alt="briefcase"
               class="Iconography-img-0-1-10"
-              elem="briefcase"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3032,9 +3089,10 @@ Object {
             >
               zepicons-logout
             </p>
-            <image
+            <img
+              alt="logout"
               class="Iconography-img-0-1-10"
-              elem="logout"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3082,9 +3140,10 @@ Object {
             >
               zepicons-account
             </p>
-            <image
+            <img
+              alt="account"
               class="Iconography-img-0-1-10"
-              elem="account"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3132,9 +3191,10 @@ Object {
             >
               zepicons-user
             </p>
-            <image
+            <img
+              alt="user"
               class="Iconography-img-0-1-10"
-              elem="user"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3182,9 +3242,10 @@ Object {
             >
               zepicons-open-in-new
             </p>
-            <image
+            <img
+              alt="open-in-new"
               class="Iconography-img-0-1-10"
-              elem="open-in-new"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3232,9 +3293,10 @@ Object {
             >
               zepicons-crosshair
             </p>
-            <image
+            <img
+              alt="crosshair"
               class="Iconography-img-0-1-10"
-              elem="crosshair"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3282,9 +3344,10 @@ Object {
             >
               zepicons-zoom-out
             </p>
-            <image
+            <img
+              alt="zoom-out"
               class="Iconography-img-0-1-10"
-              elem="zoom-out"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3332,9 +3395,10 @@ Object {
             >
               zepicons-search
             </p>
-            <image
+            <img
+              alt="search"
               class="Iconography-img-0-1-10"
-              elem="search"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3382,9 +3446,10 @@ Object {
             >
               zepicons-calendar-clock
             </p>
-            <image
+            <img
+              alt="calendar-clock"
               class="Iconography-img-0-1-10"
-              elem="calendar-clock"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3441,9 +3506,10 @@ Object {
             >
               zepicons-ps-ps
             </p>
-            <image
+            <img
+              alt="ps-ps"
               class="Iconography-img-0-1-10"
-              elem="ps-ps"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3491,9 +3557,10 @@ Object {
             >
               zepicons-ps-service
             </p>
-            <image
+            <img
+              alt="ps-service"
               class="Iconography-img-0-1-10"
-              elem="ps-service"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3541,9 +3608,10 @@ Object {
             >
               zepicons-ps-used
             </p>
-            <image
+            <img
+              alt="ps-used"
               class="Iconography-img-0-1-10"
-              elem="ps-used"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3600,9 +3668,10 @@ Object {
             >
               zepicons-cat-new
             </p>
-            <image
+            <img
+              alt="cat-new"
               class="Iconography-img-0-1-10"
-              elem="cat-new"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3650,9 +3719,10 @@ Object {
             >
               zepicons-cat-service
             </p>
-            <image
+            <img
+              alt="cat-service"
               class="Iconography-img-0-1-10"
-              elem="cat-service"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3700,9 +3770,10 @@ Object {
             >
               zepicons-cat-used
             </p>
-            <image
+            <img
+              alt="cat-used"
               class="Iconography-img-0-1-10"
-              elem="cat-used"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3759,9 +3830,10 @@ Object {
             >
               zepicons-systems-products
             </p>
-            <image
+            <img
+              alt="systems-products"
               class="Iconography-img-0-1-10"
-              elem="systems-products"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3809,9 +3881,10 @@ Object {
             >
               zepicons-systems-aviation
             </p>
-            <image
+            <img
+              alt="systems-aviation"
               class="Iconography-img-0-1-10"
-              elem="systems-aviation"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3859,9 +3932,10 @@ Object {
             >
               zepicons-systems-systems
             </p>
-            <image
+            <img
+              alt="systems-systems"
               class="Iconography-img-0-1-10"
-              elem="systems-systems"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3909,9 +3983,10 @@ Object {
             >
               zepicons-systems-service
             </p>
-            <image
+            <img
+              alt="systems-service"
               class="Iconography-img-0-1-10"
-              elem="systems-service"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -3968,9 +4043,10 @@ Object {
             >
               zepicons-rental-infrastructure
             </p>
-            <image
+            <img
+              alt="rental-infrastructure"
               class="Iconography-img-0-1-10"
-              elem="rental-infrastructure"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4018,9 +4094,10 @@ Object {
             >
               zepicons-rental-logistics
             </p>
-            <image
+            <img
+              alt="rental-logistics"
               class="Iconography-img-0-1-10"
-              elem="rental-logistics"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4068,9 +4145,10 @@ Object {
             >
               zepicons-rental-rent
             </p>
-            <image
+            <img
+              alt="rental-rent"
               class="Iconography-img-0-1-10"
-              elem="rental-rent"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4127,9 +4205,10 @@ Object {
             >
               zepicons-chevron-down
             </p>
-            <image
+            <img
+              alt="chevron-down"
               class="Iconography-img-0-1-10"
-              elem="chevron-down"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4177,9 +4256,10 @@ Object {
             >
               zepicons-menu
             </p>
-            <image
+            <img
+              alt="menu"
               class="Iconography-img-0-1-10"
-              elem="menu"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4227,9 +4307,10 @@ Object {
             >
               zepicons-previous-page
             </p>
-            <image
+            <img
+              alt="previous-page"
               class="Iconography-img-0-1-10"
-              elem="previous-page"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4277,9 +4358,10 @@ Object {
             >
               zepicons-chevron-up
             </p>
-            <image
+            <img
+              alt="chevron-up"
               class="Iconography-img-0-1-10"
-              elem="chevron-up"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4327,9 +4409,10 @@ Object {
             >
               zepicons-next-page
             </p>
-            <image
+            <img
+              alt="next-page"
               class="Iconography-img-0-1-10"
-              elem="next-page"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4377,9 +4460,10 @@ Object {
             >
               zepicons-chevron-right
             </p>
-            <image
+            <img
+              alt="chevron-right"
               class="Iconography-img-0-1-10"
-              elem="chevron-right"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4427,9 +4511,10 @@ Object {
             >
               zepicons-chevron-left
             </p>
-            <image
+            <img
+              alt="chevron-left"
               class="Iconography-img-0-1-10"
-              elem="chevron-left"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4477,9 +4562,10 @@ Object {
             >
               zepicons-home
             </p>
-            <image
+            <img
+              alt="home"
               class="Iconography-img-0-1-10"
-              elem="home"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4536,9 +4622,10 @@ Object {
             >
               zepicons-help
             </p>
-            <image
+            <img
+              alt="help"
               class="Iconography-img-0-1-10"
-              elem="help"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4586,9 +4673,10 @@ Object {
             >
               zepicons-info
             </p>
-            <image
+            <img
+              alt="info"
               class="Iconography-img-0-1-10"
-              elem="info"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4636,9 +4724,10 @@ Object {
             >
               zepicons-warning
             </p>
-            <image
+            <img
+              alt="warning"
               class="Iconography-img-0-1-10"
-              elem="warning"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4695,9 +4784,10 @@ Object {
             >
               zepicons-english
             </p>
-            <image
+            <img
+              alt="english"
               class="Iconography-img-0-1-10"
-              elem="english"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4745,9 +4835,10 @@ Object {
             >
               zepicons-russian
             </p>
-            <image
+            <img
+              alt="russian"
               class="Iconography-img-0-1-10"
-              elem="russian"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4795,9 +4886,10 @@ Object {
             >
               zepicons-german
             </p>
-            <image
+            <img
+              alt="german"
               class="Iconography-img-0-1-10"
-              elem="german"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4854,9 +4946,10 @@ Object {
             >
               zepicons-twitter
             </p>
-            <image
+            <img
+              alt="twitter"
               class="Iconography-img-0-1-10"
-              elem="twitter"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4904,9 +4997,10 @@ Object {
             >
               zepicons-linkedin
             </p>
-            <image
+            <img
+              alt="linkedin"
               class="Iconography-img-0-1-10"
-              elem="linkedin"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -4954,9 +5048,10 @@ Object {
             >
               zepicons-youtube
             </p>
-            <image
+            <img
+              alt="youtube"
               class="Iconography-img-0-1-10"
-              elem="youtube"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -5004,9 +5099,10 @@ Object {
             >
               zepicons-xing
             </p>
-            <image
+            <img
+              alt="xing"
               class="Iconography-img-0-1-10"
-              elem="xing"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -5054,9 +5150,10 @@ Object {
             >
               zepicons-facebook
             </p>
-            <image
+            <img
+              alt="facebook"
               class="Iconography-img-0-1-10"
-              elem="facebook"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -5104,9 +5201,10 @@ Object {
             >
               zepicons-googleplus
             </p>
-            <image
+            <img
+              alt="googleplus"
               class="Iconography-img-0-1-10"
-              elem="googleplus"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -5154,9 +5252,10 @@ Object {
             >
               zepicons-kununu
             </p>
-            <image
+            <img
+              alt="kununu"
               class="Iconography-img-0-1-10"
-              elem="kununu"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -5204,9 +5303,10 @@ Object {
             >
               zepicons-instagram
             </p>
-            <image
+            <img
+              alt="instagram"
               class="Iconography-img-0-1-10"
-              elem="instagram"
+              src="test-file-stub"
             />
           </div>
         </a>
@@ -5391,9 +5491,10 @@ Object {
           >
             zepicons-list-plus
           </p>
-          <image
+          <img
+            alt="list-plus"
             class="Iconography-img-0-1-10"
-            elem="list-plus"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5441,9 +5542,10 @@ Object {
           >
             zepicons-print
           </p>
-          <image
+          <img
+            alt="print"
             class="Iconography-img-0-1-10"
-            elem="print"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5491,9 +5593,10 @@ Object {
           >
             zepicons-minus
           </p>
-          <image
+          <img
+            alt="minus"
             class="Iconography-img-0-1-10"
-            elem="minus"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5541,9 +5644,10 @@ Object {
           >
             zepicons-timer
           </p>
-          <image
+          <img
+            alt="timer"
             class="Iconography-img-0-1-10"
-            elem="timer"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5591,9 +5695,10 @@ Object {
           >
             zepicons-users
           </p>
-          <image
+          <img
+            alt="users"
             class="Iconography-img-0-1-10"
-            elem="users"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5641,9 +5746,10 @@ Object {
           >
             zepicons-unfold
           </p>
-          <image
+          <img
+            alt="unfold"
             class="Iconography-img-0-1-10"
-            elem="unfold"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5691,9 +5797,10 @@ Object {
           >
             zepicons-bookmark
           </p>
-          <image
+          <img
+            alt="bookmark"
             class="Iconography-img-0-1-10"
-            elem="bookmark"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5741,9 +5848,10 @@ Object {
           >
             zepicons-upload
           </p>
-          <image
+          <img
+            alt="upload"
             class="Iconography-img-0-1-10"
-            elem="upload"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5791,9 +5899,10 @@ Object {
           >
             zepicons-filter
           </p>
-          <image
+          <img
+            alt="filter"
             class="Iconography-img-0-1-10"
-            elem="filter"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5841,9 +5950,10 @@ Object {
           >
             zepicons-sort
           </p>
-          <image
+          <img
+            alt="sort"
             class="Iconography-img-0-1-10"
-            elem="sort"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5891,9 +6001,10 @@ Object {
           >
             zepicons-share
           </p>
-          <image
+          <img
+            alt="share"
             class="Iconography-img-0-1-10"
-            elem="share"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5941,9 +6052,10 @@ Object {
           >
             zepicons-view-grid
           </p>
-          <image
+          <img
+            alt="view-grid"
             class="Iconography-img-0-1-10"
-            elem="view-grid"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -5991,9 +6103,10 @@ Object {
           >
             zepicons-phone
           </p>
-          <image
+          <img
+            alt="phone"
             class="Iconography-img-0-1-10"
-            elem="phone"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6041,9 +6154,10 @@ Object {
           >
             zepicons-clock
           </p>
-          <image
+          <img
+            alt="clock"
             class="Iconography-img-0-1-10"
-            elem="clock"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6091,9 +6205,10 @@ Object {
           >
             zepicons-delete
           </p>
-          <image
+          <img
+            alt="delete"
             class="Iconography-img-0-1-10"
-            elem="delete"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6141,9 +6256,10 @@ Object {
           >
             zepicons-image-album
           </p>
-          <image
+          <img
+            alt="image-album"
             class="Iconography-img-0-1-10"
-            elem="image-album"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6191,9 +6307,10 @@ Object {
           >
             zepicons-edit
           </p>
-          <image
+          <img
+            alt="edit"
             class="Iconography-img-0-1-10"
-            elem="edit"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6241,9 +6358,10 @@ Object {
           >
             zepicons-star
           </p>
-          <image
+          <img
+            alt="star"
             class="Iconography-img-0-1-10"
-            elem="star"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6291,9 +6409,10 @@ Object {
           >
             zepicons-contacts
           </p>
-          <image
+          <img
+            alt="contacts"
             class="Iconography-img-0-1-10"
-            elem="contacts"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6341,9 +6460,10 @@ Object {
           >
             zepicons-attachment
           </p>
-          <image
+          <img
+            alt="attachment"
             class="Iconography-img-0-1-10"
-            elem="attachment"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6391,9 +6511,10 @@ Object {
           >
             zepicons-camera
           </p>
-          <image
+          <img
+            alt="camera"
             class="Iconography-img-0-1-10"
-            elem="camera"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6441,9 +6562,10 @@ Object {
           >
             zepicons-chat
           </p>
-          <image
+          <img
+            alt="chat"
             class="Iconography-img-0-1-10"
-            elem="chat"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6491,9 +6613,10 @@ Object {
           >
             zepicons-solutions
           </p>
-          <image
+          <img
+            alt="solutions"
             class="Iconography-img-0-1-10"
-            elem="solutions"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6541,9 +6664,10 @@ Object {
           >
             zepicons-contact-mail
           </p>
-          <image
+          <img
+            alt="contact-mail"
             class="Iconography-img-0-1-10"
-            elem="contact-mail"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6591,9 +6715,10 @@ Object {
           >
             zepicons-image
           </p>
-          <image
+          <img
+            alt="image"
             class="Iconography-img-0-1-10"
-            elem="image"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6641,9 +6766,10 @@ Object {
           >
             zepicons-compare
           </p>
-          <image
+          <img
+            alt="compare"
             class="Iconography-img-0-1-10"
-            elem="compare"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6691,9 +6817,10 @@ Object {
           >
             zepicons-hide
           </p>
-          <image
+          <img
+            alt="hide"
             class="Iconography-img-0-1-10"
-            elem="hide"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6741,9 +6868,10 @@ Object {
           >
             zepicons-reload
           </p>
-          <image
+          <img
+            alt="reload"
             class="Iconography-img-0-1-10"
-            elem="reload"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6791,9 +6919,10 @@ Object {
           >
             zepicons-copy
           </p>
-          <image
+          <img
+            alt="copy"
             class="Iconography-img-0-1-10"
-            elem="copy"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6841,9 +6970,10 @@ Object {
           >
             zepicons-close
           </p>
-          <image
+          <img
+            alt="close"
             class="Iconography-img-0-1-10"
-            elem="close"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6891,9 +7021,10 @@ Object {
           >
             zepicons-email
           </p>
-          <image
+          <img
+            alt="email"
             class="Iconography-img-0-1-10"
-            elem="email"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6941,9 +7072,10 @@ Object {
           >
             zepicons-calendar-range
           </p>
-          <image
+          <img
+            alt="calendar-range"
             class="Iconography-img-0-1-10"
-            elem="calendar-range"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -6991,9 +7123,10 @@ Object {
           >
             zepicons-global
           </p>
-          <image
+          <img
+            alt="global"
             class="Iconography-img-0-1-10"
-            elem="global"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7041,9 +7174,10 @@ Object {
           >
             zepicons-check
           </p>
-          <image
+          <img
+            alt="check"
             class="Iconography-img-0-1-10"
-            elem="check"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7091,9 +7225,10 @@ Object {
           >
             zepicons-plus
           </p>
-          <image
+          <img
+            alt="plus"
             class="Iconography-img-0-1-10"
-            elem="plus"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7141,9 +7276,10 @@ Object {
           >
             zepicons-direction
           </p>
-          <image
+          <img
+            alt="direction"
             class="Iconography-img-0-1-10"
-            elem="direction"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7191,9 +7327,10 @@ Object {
           >
             zepicons-flag
           </p>
-          <image
+          <img
+            alt="flag"
             class="Iconography-img-0-1-10"
-            elem="flag"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7241,9 +7378,10 @@ Object {
           >
             zepicons-bell
           </p>
-          <image
+          <img
+            alt="bell"
             class="Iconography-img-0-1-10"
-            elem="bell"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7291,9 +7429,10 @@ Object {
           >
             zepicons-dots-vertical
           </p>
-          <image
+          <img
+            alt="dots-vertical"
             class="Iconography-img-0-1-10"
-            elem="dots-vertical"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7341,9 +7480,10 @@ Object {
           >
             zepicons-add-solution
           </p>
-          <image
+          <img
+            alt="add-solution"
             class="Iconography-img-0-1-10"
-            elem="add-solution"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7391,9 +7531,10 @@ Object {
           >
             zepicons-add-cart
           </p>
-          <image
+          <img
+            alt="add-cart"
             class="Iconography-img-0-1-10"
-            elem="add-cart"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7441,9 +7582,10 @@ Object {
           >
             zepicons-expand
           </p>
-          <image
+          <img
+            alt="expand"
             class="Iconography-img-0-1-10"
-            elem="expand"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7491,9 +7633,10 @@ Object {
           >
             zepicons-download
           </p>
-          <image
+          <img
+            alt="download"
             class="Iconography-img-0-1-10"
-            elem="download"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7541,9 +7684,10 @@ Object {
           >
             zepicons-cart
           </p>
-          <image
+          <img
+            alt="cart"
             class="Iconography-img-0-1-10"
-            elem="cart"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7591,9 +7735,10 @@ Object {
           >
             zepicons-settings
           </p>
-          <image
+          <img
+            alt="settings"
             class="Iconography-img-0-1-10"
-            elem="settings"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7641,9 +7786,10 @@ Object {
           >
             zepicons-map-marker
           </p>
-          <image
+          <img
+            alt="map-marker"
             class="Iconography-img-0-1-10"
-            elem="map-marker"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7691,9 +7837,10 @@ Object {
           >
             zepicons-link
           </p>
-          <image
+          <img
+            alt="link"
             class="Iconography-img-0-1-10"
-            elem="link"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7741,9 +7888,10 @@ Object {
           >
             zepicons-dots-horizontal
           </p>
-          <image
+          <img
+            alt="dots-horizontal"
             class="Iconography-img-0-1-10"
-            elem="dots-horizontal"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7791,9 +7939,10 @@ Object {
           >
             zepicons-user-edit
           </p>
-          <image
+          <img
+            alt="user-edit"
             class="Iconography-img-0-1-10"
-            elem="user-edit"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7841,9 +7990,10 @@ Object {
           >
             zepicons-average
           </p>
-          <image
+          <img
+            alt="average"
             class="Iconography-img-0-1-10"
-            elem="average"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7891,9 +8041,10 @@ Object {
           >
             zepicons-file-document
           </p>
-          <image
+          <img
+            alt="file-document"
             class="Iconography-img-0-1-10"
-            elem="file-document"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7941,9 +8092,10 @@ Object {
           >
             zepicons-file
           </p>
-          <image
+          <img
+            alt="file"
             class="Iconography-img-0-1-10"
-            elem="file"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -7991,9 +8143,10 @@ Object {
           >
             zepicons-map
           </p>
-          <image
+          <img
+            alt="map"
             class="Iconography-img-0-1-10"
-            elem="map"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8041,9 +8194,10 @@ Object {
           >
             zepicons-headset
           </p>
-          <image
+          <img
+            alt="headset"
             class="Iconography-img-0-1-10"
-            elem="headset"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8091,9 +8245,10 @@ Object {
           >
             zepicons-show
           </p>
-          <image
+          <img
+            alt="show"
             class="Iconography-img-0-1-10"
-            elem="show"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8141,9 +8296,10 @@ Object {
           >
             zepicons-zoom-in
           </p>
-          <image
+          <img
+            alt="zoom-in"
             class="Iconography-img-0-1-10"
-            elem="zoom-in"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8191,9 +8347,10 @@ Object {
           >
             zepicons-briefcase
           </p>
-          <image
+          <img
+            alt="briefcase"
             class="Iconography-img-0-1-10"
-            elem="briefcase"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8241,9 +8398,10 @@ Object {
           >
             zepicons-logout
           </p>
-          <image
+          <img
+            alt="logout"
             class="Iconography-img-0-1-10"
-            elem="logout"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8291,9 +8449,10 @@ Object {
           >
             zepicons-account
           </p>
-          <image
+          <img
+            alt="account"
             class="Iconography-img-0-1-10"
-            elem="account"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8341,9 +8500,10 @@ Object {
           >
             zepicons-user
           </p>
-          <image
+          <img
+            alt="user"
             class="Iconography-img-0-1-10"
-            elem="user"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8391,9 +8551,10 @@ Object {
           >
             zepicons-open-in-new
           </p>
-          <image
+          <img
+            alt="open-in-new"
             class="Iconography-img-0-1-10"
-            elem="open-in-new"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8441,9 +8602,10 @@ Object {
           >
             zepicons-crosshair
           </p>
-          <image
+          <img
+            alt="crosshair"
             class="Iconography-img-0-1-10"
-            elem="crosshair"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8491,9 +8653,10 @@ Object {
           >
             zepicons-zoom-out
           </p>
-          <image
+          <img
+            alt="zoom-out"
             class="Iconography-img-0-1-10"
-            elem="zoom-out"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8541,9 +8704,10 @@ Object {
           >
             zepicons-search
           </p>
-          <image
+          <img
+            alt="search"
             class="Iconography-img-0-1-10"
-            elem="search"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8591,9 +8755,10 @@ Object {
           >
             zepicons-calendar-clock
           </p>
-          <image
+          <img
+            alt="calendar-clock"
             class="Iconography-img-0-1-10"
-            elem="calendar-clock"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8650,9 +8815,10 @@ Object {
           >
             zepicons-ps-ps
           </p>
-          <image
+          <img
+            alt="ps-ps"
             class="Iconography-img-0-1-10"
-            elem="ps-ps"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8700,9 +8866,10 @@ Object {
           >
             zepicons-ps-service
           </p>
-          <image
+          <img
+            alt="ps-service"
             class="Iconography-img-0-1-10"
-            elem="ps-service"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8750,9 +8917,10 @@ Object {
           >
             zepicons-ps-used
           </p>
-          <image
+          <img
+            alt="ps-used"
             class="Iconography-img-0-1-10"
-            elem="ps-used"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8809,9 +8977,10 @@ Object {
           >
             zepicons-cat-new
           </p>
-          <image
+          <img
+            alt="cat-new"
             class="Iconography-img-0-1-10"
-            elem="cat-new"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8859,9 +9028,10 @@ Object {
           >
             zepicons-cat-service
           </p>
-          <image
+          <img
+            alt="cat-service"
             class="Iconography-img-0-1-10"
-            elem="cat-service"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8909,9 +9079,10 @@ Object {
           >
             zepicons-cat-used
           </p>
-          <image
+          <img
+            alt="cat-used"
             class="Iconography-img-0-1-10"
-            elem="cat-used"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -8968,9 +9139,10 @@ Object {
           >
             zepicons-systems-products
           </p>
-          <image
+          <img
+            alt="systems-products"
             class="Iconography-img-0-1-10"
-            elem="systems-products"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9018,9 +9190,10 @@ Object {
           >
             zepicons-systems-aviation
           </p>
-          <image
+          <img
+            alt="systems-aviation"
             class="Iconography-img-0-1-10"
-            elem="systems-aviation"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9068,9 +9241,10 @@ Object {
           >
             zepicons-systems-systems
           </p>
-          <image
+          <img
+            alt="systems-systems"
             class="Iconography-img-0-1-10"
-            elem="systems-systems"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9118,9 +9292,10 @@ Object {
           >
             zepicons-systems-service
           </p>
-          <image
+          <img
+            alt="systems-service"
             class="Iconography-img-0-1-10"
-            elem="systems-service"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9177,9 +9352,10 @@ Object {
           >
             zepicons-rental-infrastructure
           </p>
-          <image
+          <img
+            alt="rental-infrastructure"
             class="Iconography-img-0-1-10"
-            elem="rental-infrastructure"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9227,9 +9403,10 @@ Object {
           >
             zepicons-rental-logistics
           </p>
-          <image
+          <img
+            alt="rental-logistics"
             class="Iconography-img-0-1-10"
-            elem="rental-logistics"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9277,9 +9454,10 @@ Object {
           >
             zepicons-rental-rent
           </p>
-          <image
+          <img
+            alt="rental-rent"
             class="Iconography-img-0-1-10"
-            elem="rental-rent"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9336,9 +9514,10 @@ Object {
           >
             zepicons-chevron-down
           </p>
-          <image
+          <img
+            alt="chevron-down"
             class="Iconography-img-0-1-10"
-            elem="chevron-down"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9386,9 +9565,10 @@ Object {
           >
             zepicons-menu
           </p>
-          <image
+          <img
+            alt="menu"
             class="Iconography-img-0-1-10"
-            elem="menu"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9436,9 +9616,10 @@ Object {
           >
             zepicons-previous-page
           </p>
-          <image
+          <img
+            alt="previous-page"
             class="Iconography-img-0-1-10"
-            elem="previous-page"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9486,9 +9667,10 @@ Object {
           >
             zepicons-chevron-up
           </p>
-          <image
+          <img
+            alt="chevron-up"
             class="Iconography-img-0-1-10"
-            elem="chevron-up"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9536,9 +9718,10 @@ Object {
           >
             zepicons-next-page
           </p>
-          <image
+          <img
+            alt="next-page"
             class="Iconography-img-0-1-10"
-            elem="next-page"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9586,9 +9769,10 @@ Object {
           >
             zepicons-chevron-right
           </p>
-          <image
+          <img
+            alt="chevron-right"
             class="Iconography-img-0-1-10"
-            elem="chevron-right"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9636,9 +9820,10 @@ Object {
           >
             zepicons-chevron-left
           </p>
-          <image
+          <img
+            alt="chevron-left"
             class="Iconography-img-0-1-10"
-            elem="chevron-left"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9686,9 +9871,10 @@ Object {
           >
             zepicons-home
           </p>
-          <image
+          <img
+            alt="home"
             class="Iconography-img-0-1-10"
-            elem="home"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9745,9 +9931,10 @@ Object {
           >
             zepicons-help
           </p>
-          <image
+          <img
+            alt="help"
             class="Iconography-img-0-1-10"
-            elem="help"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9795,9 +9982,10 @@ Object {
           >
             zepicons-info
           </p>
-          <image
+          <img
+            alt="info"
             class="Iconography-img-0-1-10"
-            elem="info"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9845,9 +10033,10 @@ Object {
           >
             zepicons-warning
           </p>
-          <image
+          <img
+            alt="warning"
             class="Iconography-img-0-1-10"
-            elem="warning"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9904,9 +10093,10 @@ Object {
           >
             zepicons-english
           </p>
-          <image
+          <img
+            alt="english"
             class="Iconography-img-0-1-10"
-            elem="english"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -9954,9 +10144,10 @@ Object {
           >
             zepicons-russian
           </p>
-          <image
+          <img
+            alt="russian"
             class="Iconography-img-0-1-10"
-            elem="russian"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10004,9 +10195,10 @@ Object {
           >
             zepicons-german
           </p>
-          <image
+          <img
+            alt="german"
             class="Iconography-img-0-1-10"
-            elem="german"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10063,9 +10255,10 @@ Object {
           >
             zepicons-twitter
           </p>
-          <image
+          <img
+            alt="twitter"
             class="Iconography-img-0-1-10"
-            elem="twitter"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10113,9 +10306,10 @@ Object {
           >
             zepicons-linkedin
           </p>
-          <image
+          <img
+            alt="linkedin"
             class="Iconography-img-0-1-10"
-            elem="linkedin"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10163,9 +10357,10 @@ Object {
           >
             zepicons-youtube
           </p>
-          <image
+          <img
+            alt="youtube"
             class="Iconography-img-0-1-10"
-            elem="youtube"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10213,9 +10408,10 @@ Object {
           >
             zepicons-xing
           </p>
-          <image
+          <img
+            alt="xing"
             class="Iconography-img-0-1-10"
-            elem="xing"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10263,9 +10459,10 @@ Object {
           >
             zepicons-facebook
           </p>
-          <image
+          <img
+            alt="facebook"
             class="Iconography-img-0-1-10"
-            elem="facebook"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10313,9 +10510,10 @@ Object {
           >
             zepicons-googleplus
           </p>
-          <image
+          <img
+            alt="googleplus"
             class="Iconography-img-0-1-10"
-            elem="googleplus"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10363,9 +10561,10 @@ Object {
           >
             zepicons-kununu
           </p>
-          <image
+          <img
+            alt="kununu"
             class="Iconography-img-0-1-10"
-            elem="kununu"
+            src="test-file-stub"
           />
         </div>
       </a>
@@ -10413,9 +10612,10 @@ Object {
           >
             zepicons-instagram
           </p>
-          <image
+          <img
+            alt="instagram"
             class="Iconography-img-0-1-10"
-            elem="instagram"
+            src="test-file-stub"
           />
         </div>
       </a>

@@ -7,13 +7,17 @@ Object {
     <div>
       <p
         class="Headline-text-0-1-1"
-      />
+      >
+        mockHeadline
+      </p>
     </div>
   </body>,
   "container": <div>
     <p
       class="Headline-text-0-1-1"
-    />
+    >
+      mockHeadline
+    </p>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

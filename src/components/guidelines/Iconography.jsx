@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+/* eslint-disable max-len */
+import React, { useState, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import withStyles from 'react-jss'
@@ -115,14 +116,6 @@ const styles = theme => ({
   },
 })
 
-const image = ({ props }) => (
-  <img
-    src={require(`'zeppelin-element-library/bundle/assets/icons/zepicons-'${ props.elem }.svg`)}
-    alt={props.elem}
-    {...props}
-  />
-)
-
 const Iconography = ({ classes }) => {
   const [value, setValue] = useState(0)
 
@@ -159,7 +152,7 @@ const Iconography = ({ classes }) => {
       title: 'Social Icons',
     },
   }
-  const path = 'zeppelin-element-library/bundle/assets/icons/zepicons-'
+
   return (
     <>
       <Tabs value={value} onClick={handleChange} className={classes.tabs}>
@@ -184,7 +177,7 @@ const Iconography = ({ classes }) => {
           </DownloadContainer>
           <Divider />
           {Object.keys(sections).map(section => (
-            <>
+            <Fragment key={`section${ section }`}>
               <Headline variant="md">{sections[section].title}</Headline>
               <div className={classes.root}>
                 {iconography[section].map(elem => (
@@ -192,7 +185,7 @@ const Iconography = ({ classes }) => {
                     className={classes.container}
                     key={`icon${ elem }`}
                     target="_blank"
-                    href={require(`${ path }${ elem }.svg`)}
+                    href={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
                     download={`zepicons-${ elem }.svg`}
                     aria-label={elem}
                   >
@@ -204,12 +197,17 @@ const Iconography = ({ classes }) => {
                       <p
                         className={classnames(classes.name, 'zep-typo--normal-1')}
                       >{`zepicons-${ elem }`}</p>
-                      <image elem={elem} className={classes.img} />
+
+                      <img
+                        src={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
+                        alt={elem}
+                        className={classes.img}
+                      />
                     </div>
                   </ButtonBase>
                 ))}
               </div>
-            </>
+            </Fragment>
           ))}
         </>
       )}

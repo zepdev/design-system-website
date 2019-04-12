@@ -276,6 +276,69 @@ Object {
       <p
         class="Headline-text-0-1-13 zep-typo--normal-6"
       >
+        hover
+      </p>
+      <div
+        class="Colors-container-0-1-2"
+      >
+        <div
+          class="Swatch-root-0-1-14"
+        >
+          <button
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            style="background: rgb(250, 230, 178);"
+          >
+            <span
+              class="Swatch-backdrop-0-1-16"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-17"
+            >
+              <svg
+                aria-labelledby="title"
+                class="Swatch-icon-0-1-18"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#fae6b2
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-19"
+                data-testid="swatch-text"
+              >
+                #fae6b2
+              </span>
+            </span>
+          </button>
+          <p
+            class="Swatch-name-0-1-21 zep-typo--normal-2"
+          >
+            cat-yellow-hover
+          </p>
+          <p
+            class="Swatch-text-0-1-20 zep-typo--normal-1"
+          >
+            HEX: #fae6b2
+          </p>
+        </div>
+      </div>
+      <p
+        class="Headline-text-0-1-13 zep-typo--normal-6"
+      >
         gray
       </p>
       <div
@@ -1866,6 +1929,69 @@ Object {
           class="Swatch-text-0-1-20 zep-typo--normal-1"
         >
           RGB: 0/174/239
+        </p>
+      </div>
+    </div>
+    <p
+      class="Headline-text-0-1-13 zep-typo--normal-6"
+    >
+      hover
+    </p>
+    <div
+      class="Colors-container-0-1-2"
+    >
+      <div
+        class="Swatch-root-0-1-14"
+      >
+        <button
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          style="background: rgb(250, 230, 178);"
+        >
+          <span
+            class="Swatch-backdrop-0-1-16"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-17"
+          >
+            <svg
+              aria-labelledby="title"
+              class="Swatch-icon-0-1-18"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_copy"
+              >
+                copy hex:#fae6b2
+              </title>
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-19"
+              data-testid="swatch-text"
+            >
+              #fae6b2
+            </span>
+          </span>
+        </button>
+        <p
+          class="Swatch-name-0-1-21 zep-typo--normal-2"
+        >
+          cat-yellow-hover
+        </p>
+        <p
+          class="Swatch-text-0-1-20 zep-typo--normal-1"
+        >
+          HEX: #fae6b2
         </p>
       </div>
     </div>

@@ -1,33 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import withStyles from 'react-jss'
 
-const styles = theme => ({
-  root: {
-  },
-})
-
-class Tag extends Component {
-  render() {
-    const { className: classNameProp, classes } = this.props
-
-    return (
-      <span
-        className={classnames(classes.root, classNameProp, 'zep-tag', {
-        })}
-      >
-      </span>
-    )
-  }
+const Tag = ({ className: classNameProp }) => {
+  return (
+    <span className={classnames(classNameProp, 'zep-tag')}>
+      Tag
+      <i className="zepicons zepicons-close" />
+    </span>
+  )
 }
 
 Tag.propTypes = {
-  classes: PropTypes.object.isRequired,
+  className: PropTypes.object,
 }
 
-Tag.defaultProps = {
-  color: 'primary',
-}
-
-export default withStyles(styles)(Tag)
+export default Tag

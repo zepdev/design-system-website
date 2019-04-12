@@ -6,9 +6,12 @@ import DownloadContainer from '../DownloadContainer'
 
 describe('DownloadContainer', () => {
   it('renders correctly', () => {
+    const mockProps = {
+      children: [],
+    }
     const component = render(
       <ThemeProvider theme={theme}>
-        <DownloadContainer />
+        <DownloadContainer {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()
