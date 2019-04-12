@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
 import withStyles from 'react-jss'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import classnames from 'classnames'
 
 const styles = theme => ({
@@ -18,13 +20,37 @@ const styles = theme => ({
 
 const ElementUsage = ({ element, classes }) => {
   return (
-    <p className={classnames(classes.text, 'zep-typo--normal-3')}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+    <StaticQuery
+      query={graphql`
+        query {
+          allMdx {
+            edges {
+              node {
+                id
+                frontmatter {
+                  title
+                  label
+                }
+                code {
+                  body
+                }
+              }
+            }
+          }
+        }
+      `}
+      render={data => {
+        const documentation = data.allMdx.edges.find(
+          x => x.node.frontmatter.label === `${ element }Usage`
+        )
+
+        return documentation ? (
+          <MDXRenderer>{documentation.node.code.body}</MDXRenderer>
+        ) : (
+          <p className={classnames(classes.text, 'zep-typo--normal-3')}>Content unavailable!</p>
+        )
+      }}
+    />
   )
 }
 
