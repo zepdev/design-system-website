@@ -170,10 +170,9 @@ module.exports = {
   tag: {
     demo: {
       primary: {
-        js: [`<div class="zep-tag zep-tag-primary">primary</div>`],
-      },
-      secondary: {
-        js: [`<div class="zep-tag zep-tag-secondary">secondary</div>`],
+        js: [
+          `<span class="zep-tag">Tag<i class="zepicons zepicons-close"></i></span>`,
+        ],
       },
     },
     typography: {

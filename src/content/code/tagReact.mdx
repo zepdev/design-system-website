@@ -1,0 +1,27 @@
+---
+label: tagCodeExample_React
+title: Code
+---
+
+```jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import closeIcon from 'zeppelin-element-library/bundle/assets/icons/zepicons-close.svg'
+
+function Tag() {
+  return (
+    <div>
+      <div role="button" className="zep-tag">
+        Tag
+        {onClick && <img src={closeIcon} alt="close" onClick={onClick} />}
+      </div>
+    </div>
+  )
+}
+
+Tag.propTypes = {
+  onClick: PropTypes.func,
+}
+
+export default Tag
+```

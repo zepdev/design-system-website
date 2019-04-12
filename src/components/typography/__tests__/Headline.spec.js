@@ -6,7 +6,9 @@ import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 describe('Headline', () => {
   it('renders correctly', () => {
-    const mockProps = {}
+    const mockProps = {
+      children: 'mockHeadline',
+    }
     const component = render(
       <ThemeProvider theme={theme}>
         <Headline {...mockProps} />
