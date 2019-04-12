@@ -1,0 +1,86 @@
+---
+label: IconographyUsage
+title: Iconography Usage
+---
+
+#Designers
+
+## Icon Size
+
+All icons were developed using a 24 by 24 viewport.
+
+# Developers
+
+Icons in svg format and an icon font are readily available with the zeppelin-element-library. However, all icons in svg format may also be downloaded as a for individual use from the iconography page if your project only requires a select number of icons.
+
+## Using icons as an Icon Font
+
+Decorative Icons (icons that if removed would not hinder the user in understanding anything on your webpage)
+
+```
+<i class="zepicons zepicons-rental-rent" aria-hidden="true"></i>
+```
+
+Informative Icons (icons that if removed would make the webpage difficult to use, this is usually icons that are used for interactive purposes such as as a link or a button)
+
+```
+// icons as a link
+<a href="path/to/linkedin" aria-label="LinkedIn">
+  <i aria-hidden="true" class="zepicons zepicons-linkedin"></i>
+</a>
+
+// standalone icons
+<p>Clicking on
+<i class="zepicons zepicons-help" aria-hidden="true" title="help">
+    <span class="sr-only">"help"</span>
+</i>
+will put you in contact with a customer service representative immediately.
+</p>
+```
+
+## Using icons as an SVG
+
+Standalone svg
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>Clost</title>
+  <polygon points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12"/>
+</svg>
+```
+
+React Component
+```
+import React from 'react'
+import PropTypes from 'prop-types'
+
+const CloseIcon = ({ className, width, height, fill, viewBox, ariaLabel }) => (
+  <svg
+    width={width}
+    height={height}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox={viewBox}
+    aria-labelledby="title"
+    className={className}
+  >
+    <title id="title_copy">{ariaLabel || 'Close Icon'}</title>
+    <polygon fill={fill} points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12"/>
+  </svg>
+)
+
+CloseIcon.propTypes = {
+  width: PropTypes.string,
+  height: PropTypes.string,
+  viewBox: PropTypes.string,
+  fill: PropTypes.string,
+  ariaLabel: PropTypes.string,
+}
+
+CloseIcon.defaultProps = {
+  width: '32',
+  height: '32',
+  viewBox: '0 0 24 24',
+  fill: 'currentColor',
+}
+
+export default CloseIcon
+```
