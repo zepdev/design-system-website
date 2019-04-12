@@ -12,17 +12,24 @@ const ElementStyles = ({ element }) => {
 
       <Table
         title="typography"
-        content={elements.button.typography}
+        content={elements[element].typography}
         header={['name', 'px', 'rem', 'specifications', 'actual size']}
       />
 
+      <Headline variant="sm">Colors</Headline>
+
+      <Table
+        title="typography"
+        content={elements[element].colors}
+        header={['name', 'property', 'zeppelin', 'cat', 'rental']}
+      />
       <Headline variant="sm">Structure</Headline>
 
       <Structure element="button" />
 
       <Table
         title="structure"
-        content={elements.button.structure}
+        content={elements[element].structure}
         header={['name', 'property', 'px', 'rem']}
       />
     </>
