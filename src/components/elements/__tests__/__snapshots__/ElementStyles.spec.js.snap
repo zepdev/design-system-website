@@ -119,6 +119,62 @@ Object {
       <p
         class="Headline-text-0-1-1 zep-typo--normal-4"
       >
+        Colors
+      </p>
+      <div
+        class="Table-root-0-1-2"
+      >
+        <table
+          class="Table-table-0-1-3"
+        >
+          <caption
+            class="zep-visually-hidden"
+          >
+            typography
+          </caption>
+          <thead
+            class="Table-header-0-1-7"
+          >
+            <tr
+              class="Table-tr-0-1-5"
+            >
+              <th
+                class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+                scope="col"
+              >
+                name
+              </th>
+              <th
+                class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+                scope="col"
+              >
+                property
+              </th>
+              <th
+                class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+                scope="col"
+              >
+                zeppelin
+              </th>
+              <th
+                class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+                scope="col"
+              >
+                cat
+              </th>
+              <th
+                class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+                scope="col"
+              >
+                rental
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <p
+        class="Headline-text-0-1-1 zep-typo--normal-4"
+      >
         Structure
       </p>
       <div
@@ -339,6 +395,62 @@ Object {
             </td>
           </tr>
         </tbody>
+      </table>
+    </div>
+    <p
+      class="Headline-text-0-1-1 zep-typo--normal-4"
+    >
+      Colors
+    </p>
+    <div
+      class="Table-root-0-1-2"
+    >
+      <table
+        class="Table-table-0-1-3"
+      >
+        <caption
+          class="zep-visually-hidden"
+        >
+          typography
+        </caption>
+        <thead
+          class="Table-header-0-1-7"
+        >
+          <tr
+            class="Table-tr-0-1-5"
+          >
+            <th
+              class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+              scope="col"
+            >
+              name
+            </th>
+            <th
+              class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+              scope="col"
+            >
+              property
+            </th>
+            <th
+              class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+              scope="col"
+            >
+              zeppelin
+            </th>
+            <th
+              class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+              scope="col"
+            >
+              cat
+            </th>
+            <th
+              class="Table-th-0-1-4 zep-typo--normal-1 Table-capitalize-0-1-9"
+              scope="col"
+            >
+              rental
+            </th>
+          </tr>
+        </thead>
       </table>
     </div>
     <p

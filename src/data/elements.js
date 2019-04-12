@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 /* eslint-disable max-len */
 module.exports = {
   button: {
