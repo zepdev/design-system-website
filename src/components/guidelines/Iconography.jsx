@@ -217,7 +217,7 @@ const Iconography = ({ classes }) => {
           ))}
         </>
       )}
-      {value === 1 && <ElementUsage element="colors" />}
+      {value === 1 && <ElementUsage element="iconography" />}
     </>
   )
 }
