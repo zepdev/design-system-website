@@ -361,7 +361,7 @@ module.exports = {
       'home',
     ],
     indicator: ['help', 'info', 'warning'],
-    language: ['english', 'russian', 'german'],
+    language: ['br', 'gb', 'ger', 'in', 'it', 'ru', 'sa', 'sg'],
     social: [
       'twitter',
       'linkedin',

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import LaunchIcon from '../icons/LaunchIcon'
+import OpenInNewIcon from '../icons/OpenInNewIcon'
 import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
@@ -73,7 +73,7 @@ const Typefaces = ({ classes }) => (
             aria-label="Launch"
             className={classes.link}
           >
-            <LaunchIcon width="24" height="24" />
+            <OpenInNewIcon width="24" height="24" />
           </a>
         </div>
       </div>
