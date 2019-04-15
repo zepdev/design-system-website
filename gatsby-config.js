@@ -1,5 +1,9 @@
 const theme = require('zeppelin-element-library/bundle/themes/theme.json')
 
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Zeppelin Design System`,
@@ -48,6 +52,19 @@ module.exports = {
         theme_color: theme.colors.primary.indigoBlue.hex,
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `@mosch/gatsby-source-github`,
+      options: {
+        repository: 'zeppelin-element-library',
+        tree: true,
+        // releases: true,
+        user: 'zepdev',
+        secrets: {
+          // token: process.env.GITHUB_TOKEN,
+          token: process.env.GITHUB_TOKEN,
+        },
       },
     },
     `gatsby-transformer-remark`,
