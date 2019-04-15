@@ -12,7 +12,7 @@ jobs:
   test:
     executor: node_10
     steps:
-      - checkout  # check out the code in the project directory
+      - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
       - node/with-cache:
@@ -32,7 +32,7 @@ jobs:
   sonarqube:
     executor: node_10
     steps:
-      - checkout  # check out the code in the project directory
+      - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
       - node/with-cache:
@@ -54,7 +54,7 @@ jobs:
   build:
     executor: node_10
     steps:
-      - checkout  # check out the code in the project directory
+      - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
       - node/with-cache:
@@ -84,36 +84,18 @@ jobs:
     environment:
       AWS_REGION: << parameters.aws_region >>
     steps:
-      - checkout  # check out the code in the project directory
+      - checkout # check out the code in the project directory
       - attach_workspace:
           at: ~/project
-      - run:
-          name: create and upload badges
-          command: |
-            mkdir badges
-            cd badges
-            curl -u $SONAR_LOGIN "http://sq.zepdev.net/api/project_badges/measure?project=design-system-website&\
-            metric={bugs,code_smells,coverage,duplicated_lines_density,ncloc,sqale_rating,alert_status,\
-            reliability_rating,security_rating,sqale_index,vulnerabilities}" -o "#1.svg" \
-            --max-time 2 || true
       - aws-s3/sync:
           from: public
           to: 's3://<< parameters.bucket >>/'
-          overwrite: true
-      - aws-s3/sync:
-          from: badges
-          to: "s3://com.zeppelin.zds.assets/badges/zds"
           overwrite: true
       - run:
           name: Invalidate CloudFront Distribution Cache
           command: |
             aws cloudfront create-invalidation \
             --distribution-id << parameters.cloudfront_distribution >> --paths "/*"
-      - run:
-          name: Invalidate Assets CloudFront Distribution Cache for badges
-          command: |
-            aws cloudfront create-invalidation \
-            --distribution-id E3BEUB4XQDLXXN --paths "/badges/zds/*"
 
 workflows:
   version: 2
@@ -132,7 +114,7 @@ workflows:
       - build:
           requires:
             - test
-      - deploy:  # deployment step only for development environment
+      - deploy: # deployment step only for development environment
           bucket: com.zeppelin.zds.website.dev
           aws_region: eu-central-1
           cloudfront_distribution: ET351YZOMAVPH
@@ -151,7 +133,7 @@ workflows:
             branches:
               only:
                 - master
-      - deploy:  # deployment step for live environment
+      - deploy: # deployment step for live environment
           bucket: com.zeppelin.zds.website.live
           aws_region: eu-central-1
           cloudfront_distribution: E3N62GDZMDUN0M

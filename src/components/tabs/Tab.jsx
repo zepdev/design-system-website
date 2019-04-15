@@ -8,7 +8,7 @@ const styles = theme => ({
   root: {
     fontSize: '100%',
     font: 'inherit',
-    paddingTop: `${ theme.spacing.s.rem }rem`,
+    paddingTop: `${ theme.spacing.component.s.rem }rem`,
     '&:hover': {
       borderBottom: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
       '& $labelPrimary': {

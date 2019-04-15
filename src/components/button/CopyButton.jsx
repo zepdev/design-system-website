@@ -6,7 +6,7 @@ import CopyIcon from '../icons/CopyIcon'
 
 const styles = theme => ({
   button: {
-    padding: `${ theme.spacing.m.rem }rem`,
+    padding: `${ theme.spacing.component.m.rem }rem`,
     float: 'right',
     color: theme.colors.gray.white.hex,
     height: 52,

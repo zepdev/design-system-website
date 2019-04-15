@@ -9,14 +9,14 @@ const styles = theme => ({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: theme.colors.gray.grayLighter.hex,
-    padding: `${ theme.spacing.xxl.rem }rem`,
+    padding: `${ theme.spacing.component.xxl.rem }rem`,
   },
 })
 
 const Structure = ({ element, classes }) => {
   return (
     <div className={classes.root}>
-      <img src={image1} />
+      <img src={element === 'button' ? image1 : null} />
     </div>
   )
 }

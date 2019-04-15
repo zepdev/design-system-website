@@ -6,13 +6,14 @@ import withStyles from 'react-jss'
 import classnames from 'classnames'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
+import CodeBlock from './CodeBlock'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${ theme.spacing.xxl.rem }rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   heading: {
-    marginBottom: `${ theme.spacing.l.rem }rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
 })
 
@@ -44,12 +45,13 @@ const CodeUsage = ({ element, classes }) => {
         }
       `}
       render={data => {
-        const react = data
-          ? data.allMdx.edges.find(x => x.node.frontmatter.label === `${ elem }CodeExample_React`)
-          : 'no example yet, please check back later!'
-        const vue = data
-          ? data.allMdx.edges.find(x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`)
-          : 'no example yet, please check back later!'
+        const react = data.allMdx.edges.find(
+          x => x.node.frontmatter.label === `${ elem }CodeExample_React`
+        )
+        const vue = data.allMdx.edges.find(
+          x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`
+        )
+
         return (
           <div className={classes.root}>
             <h3 className={classnames(classes.heading, 'zep-typo--normal-4')}>
@@ -59,8 +61,18 @@ const CodeUsage = ({ element, classes }) => {
               <Tab label="React" />
               <Tab label="Vue" />
             </Tabs>
-            {tab === 0 && <MDXRenderer>{react.node.code.body}</MDXRenderer>}
-            {tab === 1 && <MDXRenderer>{vue.node.code.body}</MDXRenderer>}
+            {tab === 0 &&
+              (react ? (
+                <MDXRenderer>{react.node.code.body}</MDXRenderer>
+              ) : (
+                <CodeBlock>no example yet, please check back later!</CodeBlock>
+              ))}
+            {tab === 1 &&
+              (vue ? (
+                <MDXRenderer>{react.node.code.body}</MDXRenderer>
+              ) : (
+                <CodeBlock>no example yet, please check back later!</CodeBlock>
+              ))}
           </div>
         )
       }}

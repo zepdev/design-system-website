@@ -18,6 +18,12 @@
       },
       "spacing": {
         "title": "Spacing"
+      },
+      "iconography": {
+        "title": "Iconography"
+      },
+      "grid": {
+        "title": "Grid"
       }
     }
   },
@@ -26,6 +32,24 @@
     "subnav": {
       "button": {
         "title": "Button"
+      },
+      "tag": {
+        "title": "Tag"
+      },
+      "list": {
+        "title": "list"
+      },
+      "textarea": {
+        "title": "textarea"
+      },
+      "input": {
+        "title": "input"
+      },
+      "radio": {
+        "title": "radio"
+      },
+      "checkbox": {
+        "title": "checkbox"
       }
     }
   },

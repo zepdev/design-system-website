@@ -8,7 +8,7 @@ module.exports = {
       '<rootDir>/__mocks__/fileMock.js',
   },
   testPathIgnorePatterns: ['node_modules', '.cache', 'cypress'],
-  transformIgnorePatterns: ['node_modules/(?!(gatsby)/)'],
+  transformIgnorePatterns: ['node_modules/(?!(gatsby|gatsby-mdx)/)'],
   globals: {
     __PATH_PREFIX__: '',
   },

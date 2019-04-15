@@ -23,7 +23,7 @@ const styles = theme => ({
   },
   link: {
     height: 46,
-    marginBottom: `${ theme.spacing.xl.rem }rem`,
+    marginBottom: `${ theme.spacing.component.xl.rem }rem`,
     display: 'block',
     pointerEvents: 'none',
   },
@@ -32,7 +32,7 @@ const styles = theme => ({
   },
   containerSidebarNav: {
     height: `calc(100vh - 46px)`,
-    paddingBottom: `${ theme.spacing.xxl.rem }rem`,
+    paddingBottom: `${ theme.spacing.component.xxl.rem }rem`,
     overflow: 'auto',
     backgroundColor: theme.colors.gray.white.hex,
   },
@@ -42,7 +42,7 @@ const styles = theme => ({
     },
     containerSidebarNav: {
       height: `calc(100vh - 68px)`,
-      paddingBottom: `${ theme.spacing.l.rem }rem`,
+      paddingBottom: `${ theme.spacing.component.l.rem }rem`,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
@@ -51,10 +51,10 @@ const styles = theme => ({
     },
     link: {
       height: 84,
-      marginBottom: `${ theme.spacing.xxl.rem }rem`,
+      marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
     },
     containerSidebarNav: {
-      paddingBottom: `${ theme.spacing.xl.rem }rem`,
+      paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
@@ -69,7 +69,7 @@ const styles = theme => ({
     link: {
       visibility: 'visible',
       width: '100%',
-      padding: `0 ${ theme.spacing.xl.rem }rem`,
+      padding: `0 ${ theme.spacing.component.xl.rem }rem`,
       display: 'flex',
       alignItems: 'center',
       height: 104,
@@ -80,7 +80,7 @@ const styles = theme => ({
     },
     containerSidebarNav: {
       height: `calc(100vh - 104px)`,
-      paddingBottom: `${ theme.spacing.xl.rem }rem`,
+      paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
@@ -97,7 +97,7 @@ const styles = theme => ({
     },
     link: {
       height: 136,
-      marginBottom: `${ theme.spacing.l.rem * 2 }rem`,
+      marginBottom: `${ theme.spacing.component.l.rem * 2 }rem`,
     },
   },
 })

@@ -11,8 +11,7 @@ const DownloadIcon = ({ className, width, height, fill, viewBox }) => (
     className={className}
   >
     <title id="title_copy">Download Icon</title>
-    <path fill={fill} d="M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z" />
-    <path d="M0 0h24v24H0z" fill="none" />
+    <path fill={fill} d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"/>
   </svg>
 )
 

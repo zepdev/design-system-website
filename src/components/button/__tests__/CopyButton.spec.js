@@ -1,7 +1,7 @@
 import React from 'react'
-import { render, fireEvent } from 'react-testing-library'
+import { act, render, fireEvent } from 'react-testing-library'
 import { ThemeProvider } from 'react-jss'
-import theme from '../../../data/theme'
+import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 import CopyButton from '../CopyButton'
 
 jest.useFakeTimers()
@@ -43,7 +43,11 @@ describe('CopyButton', () => {
     // check that timeout is called and changes text back
     expect(setTimeout).toHaveBeenCalledTimes(1)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
-    jest.runAllTimers()
+
+    act(() => {
+      jest.runAllTimers()
+    })
+
     expect(getByTestId('copyButton')).toHaveTextContent(/copy icon/i)
   })
   it('renders "Error!" if document.execCommand is not supported by browser', () => {
@@ -71,7 +75,11 @@ describe('CopyButton', () => {
     // check that timeout is called and changes text back
     expect(setTimeout).toHaveBeenCalledTimes(2)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
-    jest.runAllTimers()
+
+    act(() => {
+      jest.runAllTimers()
+    })
+
     expect(getByTestId('copyButton')).toHaveTextContent(/copy icon/i)
   })
 })

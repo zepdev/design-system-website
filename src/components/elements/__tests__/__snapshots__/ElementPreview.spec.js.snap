@@ -1,0 +1,1928 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ElementPreview renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <p
+        class="Headline-text-0-1-4 zep-typo--normal-4"
+      >
+        primary
+      </p>
+      <div
+        class="ElementPreview-htmlContainer-0-1-1"
+      >
+        <div
+          class="ElementPreview-innerContainer-0-1-2"
+        >
+          <div
+            class="ElementPreview-element-0-1-3"
+          >
+            <button
+              class="zep-button zep-button-primary"
+              type="button"
+            >
+              primary
+            </button>
+          </div>
+          <div
+            class="ElementPreview-element-0-1-3"
+          >
+            <button
+              class="zep-button zep-button-primary zep-button-primary--cat"
+              type="button"
+            >
+              primary
+            </button>
+          </div>
+          <div
+            class="ElementPreview-element-0-1-3"
+          >
+            <button
+              class="zep-button zep-button-primary zep-button-primary--rental"
+              type="button"
+            >
+              primary
+            </button>
+          </div>
+          <div
+            class="ElementPreview-element-0-1-3"
+          >
+            <button
+              class="zep-button zep-button-primary"
+              disabled=""
+              type="button"
+            >
+              disabled
+            </button>
+          </div>
+        </div>
+      </div>
+      <pre
+        class="prism-code language-js"
+        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+      >
+        <div
+          data-testid="codeDiv"
+          style="padding-top: 16px;"
+        >
+          <div
+            class="token-line"
+            data-testid="code"
+            style="padding-bottom: 12px;"
+          >
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-primary"
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            >
+              primary
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            />
+          </div>
+          <div
+            class="token-line"
+            data-testid="code"
+            style="padding-bottom: 12px;"
+          >
+            <span
+              class="token plain"
+            />
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-primary zep-button-primary--cat"
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            >
+              primary
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            />
+          </div>
+          <div
+            class="token-line"
+            data-testid="code"
+            style="padding-bottom: 12px;"
+          >
+            <span
+              class="token plain"
+            />
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-primary zep-button-primary--rental"
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            >
+              primary
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            />
+          </div>
+          <div
+            class="token-line"
+            data-testid="code"
+          >
+            <span
+              class="token plain"
+            />
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-primary"
+            </span>
+            <span
+              class="token plain"
+            >
+               disabled
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            >
+              disabled
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+          </div>
+        </div>
+        <button
+          class="ButtonBase-button-0-1-7 CopyButton-button-0-1-5"
+          data-testid="copyButton"
+        >
+          <svg
+            aria-labelledby="title"
+            class="CopyButton-icon-0-1-6"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Copy Icon
+            </title>
+            <path
+              d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </pre>
+      <p
+        class="Headline-text-0-1-4 zep-typo--normal-4"
+      >
+        secondary
+      </p>
+      <div
+        class="ElementPreview-htmlContainer-0-1-1"
+      >
+        <div
+          class="ElementPreview-innerContainer-0-1-2"
+        >
+          <div
+            class="ElementPreview-element-0-1-3"
+          >
+            <button
+              class="zep-button zep-button-secondary"
+              type="button"
+            >
+              secondary
+            </button>
+          </div>
+          <div
+            class="ElementPreview-element-0-1-3"
+          >
+            <button
+              class="zep-button zep-button-secondary zep-button-secondary--cat"
+              type="button"
+            >
+              secondary
+            </button>
+          </div>
+          <div
+            class="ElementPreview-element-0-1-3"
+          >
+            <button
+              class="zep-button zep-button-secondary zep-button-secondary--rental"
+              type="button"
+            >
+              secondary
+            </button>
+          </div>
+          <div
+            class="ElementPreview-element-0-1-3"
+          >
+            <button
+              class="zep-button zep-button-secondary"
+              disabled=""
+              type="button"
+            >
+              
+            disabled
+          
+            </button>
+          </div>
+        </div>
+      </div>
+      <pre
+        class="prism-code language-js"
+        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+      >
+        <div
+          data-testid="codeDiv"
+          style="padding-top: 16px;"
+        >
+          <div
+            class="token-line"
+            data-testid="code"
+            style="padding-bottom: 12px;"
+          >
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-secondary"
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            >
+              secondary
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            />
+          </div>
+          <div
+            class="token-line"
+            data-testid="code"
+            style="padding-bottom: 12px;"
+          >
+            <span
+              class="token plain"
+            />
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-secondary zep-button-secondary--cat"
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            >
+              secondary
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            />
+          </div>
+          <div
+            class="token-line"
+            data-testid="code"
+            style="padding-bottom: 12px;"
+          >
+            <span
+              class="token plain"
+            />
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-secondary zep-button-secondary--rental"
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            >
+              secondary
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            />
+          </div>
+          <div
+            class="token-line"
+            data-testid="code"
+            style="padding-bottom: 12px;"
+          >
+            <span
+              class="token plain"
+            />
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token plain"
+            >
+              button type
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "button"
+            </span>
+            <span
+              class="token plain"
+            >
+               
+            </span>
+            <span
+              class="token keyword"
+              style="color: rgb(91, 192, 222);"
+            >
+              class
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              =
+            </span>
+            <span
+              class="token string"
+              style="color: rgb(255, 101, 98);"
+            >
+              "zep-button zep-button-secondary"
+            </span>
+            <span
+              class="token plain"
+            >
+               disabled
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+            <span
+              class="token plain"
+            />
+          </div>
+          <div
+            class="token-line"
+            data-testid="code"
+            style="padding-bottom: 12px;"
+          >
+            <span
+              class="token plain"
+            >
+                          disabled
+            </span>
+          </div>
+          <div
+            class="token-line"
+            data-testid="code"
+          >
+            <span
+              class="token plain"
+            >
+                        
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &lt;
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              /
+            </span>
+            <span
+              class="token plain"
+            >
+              button
+            </span>
+            <span
+              class="token operator"
+              style="color: rgb(91, 192, 222);"
+            >
+              &gt;
+            </span>
+          </div>
+        </div>
+        <button
+          class="ButtonBase-button-0-1-7 CopyButton-button-0-1-5"
+          data-testid="copyButton"
+        >
+          <svg
+            aria-labelledby="title"
+            class="CopyButton-icon-0-1-6"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_copy"
+            >
+              Copy Icon
+            </title>
+            <path
+              d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </pre>
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="Headline-text-0-1-4 zep-typo--normal-4"
+    >
+      primary
+    </p>
+    <div
+      class="ElementPreview-htmlContainer-0-1-1"
+    >
+      <div
+        class="ElementPreview-innerContainer-0-1-2"
+      >
+        <div
+          class="ElementPreview-element-0-1-3"
+        >
+          <button
+            class="zep-button zep-button-primary"
+            type="button"
+          >
+            primary
+          </button>
+        </div>
+        <div
+          class="ElementPreview-element-0-1-3"
+        >
+          <button
+            class="zep-button zep-button-primary zep-button-primary--cat"
+            type="button"
+          >
+            primary
+          </button>
+        </div>
+        <div
+          class="ElementPreview-element-0-1-3"
+        >
+          <button
+            class="zep-button zep-button-primary zep-button-primary--rental"
+            type="button"
+          >
+            primary
+          </button>
+        </div>
+        <div
+          class="ElementPreview-element-0-1-3"
+        >
+          <button
+            class="zep-button zep-button-primary"
+            disabled=""
+            type="button"
+          >
+            disabled
+          </button>
+        </div>
+      </div>
+    </div>
+    <pre
+      class="prism-code language-js"
+      style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+    >
+      <div
+        data-testid="codeDiv"
+        style="padding-top: 16px;"
+      >
+        <div
+          class="token-line"
+          data-testid="code"
+          style="padding-bottom: 12px;"
+        >
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token plain"
+          >
+            button type
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "button"
+          </span>
+          <span
+            class="token plain"
+          >
+             
+          </span>
+          <span
+            class="token keyword"
+            style="color: rgb(91, 192, 222);"
+          >
+            class
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "zep-button zep-button-primary"
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          >
+            primary
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            /
+          </span>
+          <span
+            class="token plain"
+          >
+            button
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          />
+        </div>
+        <div
+          class="token-line"
+          data-testid="code"
+          style="padding-bottom: 12px;"
+        >
+          <span
+            class="token plain"
+          />
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token plain"
+          >
+            button type
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "button"
+          </span>
+          <span
+            class="token plain"
+          >
+             
+          </span>
+          <span
+            class="token keyword"
+            style="color: rgb(91, 192, 222);"
+          >
+            class
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "zep-button zep-button-primary zep-button-primary--cat"
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          >
+            primary
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            /
+          </span>
+          <span
+            class="token plain"
+          >
+            button
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          />
+        </div>
+        <div
+          class="token-line"
+          data-testid="code"
+          style="padding-bottom: 12px;"
+        >
+          <span
+            class="token plain"
+          />
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token plain"
+          >
+            button type
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "button"
+          </span>
+          <span
+            class="token plain"
+          >
+             
+          </span>
+          <span
+            class="token keyword"
+            style="color: rgb(91, 192, 222);"
+          >
+            class
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "zep-button zep-button-primary zep-button-primary--rental"
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          >
+            primary
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            /
+          </span>
+          <span
+            class="token plain"
+          >
+            button
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          />
+        </div>
+        <div
+          class="token-line"
+          data-testid="code"
+        >
+          <span
+            class="token plain"
+          />
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token plain"
+          >
+            button type
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "button"
+          </span>
+          <span
+            class="token plain"
+          >
+             
+          </span>
+          <span
+            class="token keyword"
+            style="color: rgb(91, 192, 222);"
+          >
+            class
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "zep-button zep-button-primary"
+          </span>
+          <span
+            class="token plain"
+          >
+             disabled
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          >
+            disabled
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            /
+          </span>
+          <span
+            class="token plain"
+          >
+            button
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+        </div>
+      </div>
+      <button
+        class="ButtonBase-button-0-1-7 CopyButton-button-0-1-5"
+        data-testid="copyButton"
+      >
+        <svg
+          aria-labelledby="title"
+          class="CopyButton-icon-0-1-6"
+          height="32"
+          viewBox="0 0 24 24"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_copy"
+          >
+            Copy Icon
+          </title>
+          <path
+            d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </pre>
+    <p
+      class="Headline-text-0-1-4 zep-typo--normal-4"
+    >
+      secondary
+    </p>
+    <div
+      class="ElementPreview-htmlContainer-0-1-1"
+    >
+      <div
+        class="ElementPreview-innerContainer-0-1-2"
+      >
+        <div
+          class="ElementPreview-element-0-1-3"
+        >
+          <button
+            class="zep-button zep-button-secondary"
+            type="button"
+          >
+            secondary
+          </button>
+        </div>
+        <div
+          class="ElementPreview-element-0-1-3"
+        >
+          <button
+            class="zep-button zep-button-secondary zep-button-secondary--cat"
+            type="button"
+          >
+            secondary
+          </button>
+        </div>
+        <div
+          class="ElementPreview-element-0-1-3"
+        >
+          <button
+            class="zep-button zep-button-secondary zep-button-secondary--rental"
+            type="button"
+          >
+            secondary
+          </button>
+        </div>
+        <div
+          class="ElementPreview-element-0-1-3"
+        >
+          <button
+            class="zep-button zep-button-secondary"
+            disabled=""
+            type="button"
+          >
+            
+            disabled
+          
+          </button>
+        </div>
+      </div>
+    </div>
+    <pre
+      class="prism-code language-js"
+      style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+    >
+      <div
+        data-testid="codeDiv"
+        style="padding-top: 16px;"
+      >
+        <div
+          class="token-line"
+          data-testid="code"
+          style="padding-bottom: 12px;"
+        >
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token plain"
+          >
+            button type
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "button"
+          </span>
+          <span
+            class="token plain"
+          >
+             
+          </span>
+          <span
+            class="token keyword"
+            style="color: rgb(91, 192, 222);"
+          >
+            class
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "zep-button zep-button-secondary"
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          >
+            secondary
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            /
+          </span>
+          <span
+            class="token plain"
+          >
+            button
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          />
+        </div>
+        <div
+          class="token-line"
+          data-testid="code"
+          style="padding-bottom: 12px;"
+        >
+          <span
+            class="token plain"
+          />
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token plain"
+          >
+            button type
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "button"
+          </span>
+          <span
+            class="token plain"
+          >
+             
+          </span>
+          <span
+            class="token keyword"
+            style="color: rgb(91, 192, 222);"
+          >
+            class
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "zep-button zep-button-secondary zep-button-secondary--cat"
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          >
+            secondary
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            /
+          </span>
+          <span
+            class="token plain"
+          >
+            button
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          />
+        </div>
+        <div
+          class="token-line"
+          data-testid="code"
+          style="padding-bottom: 12px;"
+        >
+          <span
+            class="token plain"
+          />
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token plain"
+          >
+            button type
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "button"
+          </span>
+          <span
+            class="token plain"
+          >
+             
+          </span>
+          <span
+            class="token keyword"
+            style="color: rgb(91, 192, 222);"
+          >
+            class
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "zep-button zep-button-secondary zep-button-secondary--rental"
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          >
+            secondary
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            /
+          </span>
+          <span
+            class="token plain"
+          >
+            button
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          />
+        </div>
+        <div
+          class="token-line"
+          data-testid="code"
+          style="padding-bottom: 12px;"
+        >
+          <span
+            class="token plain"
+          />
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token plain"
+          >
+            button type
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "button"
+          </span>
+          <span
+            class="token plain"
+          >
+             
+          </span>
+          <span
+            class="token keyword"
+            style="color: rgb(91, 192, 222);"
+          >
+            class
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            =
+          </span>
+          <span
+            class="token string"
+            style="color: rgb(255, 101, 98);"
+          >
+            "zep-button zep-button-secondary"
+          </span>
+          <span
+            class="token plain"
+          >
+             disabled
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+          <span
+            class="token plain"
+          />
+        </div>
+        <div
+          class="token-line"
+          data-testid="code"
+          style="padding-bottom: 12px;"
+        >
+          <span
+            class="token plain"
+          >
+                        disabled
+          </span>
+        </div>
+        <div
+          class="token-line"
+          data-testid="code"
+        >
+          <span
+            class="token plain"
+          >
+                      
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &lt;
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            /
+          </span>
+          <span
+            class="token plain"
+          >
+            button
+          </span>
+          <span
+            class="token operator"
+            style="color: rgb(91, 192, 222);"
+          >
+            &gt;
+          </span>
+        </div>
+      </div>
+      <button
+        class="ButtonBase-button-0-1-7 CopyButton-button-0-1-5"
+        data-testid="copyButton"
+      >
+        <svg
+          aria-labelledby="title"
+          class="CopyButton-icon-0-1-6"
+          height="32"
+          viewBox="0 0 24 24"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_copy"
+          >
+            Copy Icon
+          </title>
+          <path
+            d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </pre>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllBySelectText": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getAllByValue": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getBySelectText": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "getByValue": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllBySelectText": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryAllByValue": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryBySelectText": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "queryByValue": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
