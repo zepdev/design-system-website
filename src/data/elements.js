@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 /* eslint-disable max-len */
 module.exports = {
   button: {
@@ -143,27 +144,41 @@ module.exports = {
       },
     },
     typography: {
-      // 'zep-typo--special-4': {
-      //   px: '24px',
-      //   rem: '1.5rem',
-      //   specifications: [
-      //     'font-family: "Teko"',
-      //     'font-weight: 400 (regular)',
-      //     'line-height: 1.5 (24px)',
-      //     'text-transform: uppercase',
-      //   ],
-      // },
+      'zep-typo--special-3': {
+        px: '16px',
+        rem: '1rem',
+        specifications: [
+          'font-family: "Roboto"',
+          'font-weight: 400 (regular)',
+          'line-height: 1.5 (21px)',
+          'text-transform: none',
+        ],
+      },
+    },
+    colors: {
+      'zep-tag': {
+        property: 'border-color',
+        zeppelin: 'cat-yellow',
+        cat: null,
+        rental: null,
+      },
+      'zep-tag': {
+        property: 'background-color',
+        zeppelin: 'white',
+        cat: null,
+        rental: null,
+      },
     },
     structure: {
-      'btn-height': {
-        // property: 'height',
-        // rem: '3rem',
-        // px: '48px',
+      'zep-tag': {
+        property: 'padding',
+        rem: '0.675rem',
+        px: '10px',
       },
-      'btn-padding': {
-        // property: 'padding',
-        // rem: '1rem, 1.125rem',
-        // px: '16px, 18px',
+      'zep-tag': {
+        property: 'border',
+        rem: '0.675rem',
+        px: '2px',
       },
     },
   },
@@ -176,27 +191,41 @@ module.exports = {
       },
     },
     typography: {
-      // 'zep-typo--special-4': {
-      //   px: '24px',
-      //   rem: '1.5rem',
-      //   specifications: [
-      //     'font-family: "Teko"',
-      //     'font-weight: 400 (regular)',
-      //     'line-height: 1.5 (24px)',
-      //     'text-transform: uppercase',
-      //   ],
-      // },
+      'zep-typo--special-3': {
+        px: '16px',
+        rem: '1rem',
+        specifications: [
+          'font-family: "Roboto"',
+          'font-weight: 400 (regular)',
+          'line-height: 1.5 (21px)',
+          'text-transform: none',
+        ],
+      },
+    },
+    colors: {
+      'zep-tag': {
+        property: 'border-color',
+        zeppelin: 'cat-yellow',
+        cat: null,
+        rental: null,
+      },
+      'zep-tag': {
+        property: 'background-color',
+        zeppelin: 'white',
+        cat: null,
+        rental: null,
+      },
     },
     structure: {
-      'btn-height': {
-        // property: 'height',
-        // rem: '3rem',
-        // px: '48px',
+      'zep-tag': {
+        property: 'padding',
+        rem: '0.675rem',
+        px: '10px',
       },
-      'btn-padding': {
-        // property: 'padding',
-        // rem: '1rem, 1.125rem',
-        // px: '16px, 18px',
+      'zep-tag': {
+        property: 'border',
+        rem: '0.675rem',
+        px: '2px',
       },
     },
   },
@@ -361,7 +390,7 @@ module.exports = {
       'home',
     ],
     indicator: ['help', 'info', 'warning'],
-    language: ['english', 'russian', 'german'],
+    language: ['br', 'gb', 'ger', 'in', 'it', 'ru', 'sa', 'sg'],
     social: [
       'twitter',
       'linkedin',

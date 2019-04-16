@@ -11,8 +11,7 @@ const MenuIcon = ({ className, width, height, fill, viewBox }) => (
     className={className}
   >
     <title id="title_menu">Menu Icon</title>
-    <path d="M0 0h24v24H0z" fill="none" />
-    <path fill={fill} d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+    <path fill={fill} d="M3,6 L21,6 L21,8 L3,8 L3,6 L3,6 Z M3,11 L21,11 L21,13 L3,13 L3,11 L3,11 Z M3,16 L21,16 L21,18 L3,18 L3,16 Z"/>
   </svg>
 )
 

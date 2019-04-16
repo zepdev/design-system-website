@@ -4,22 +4,18 @@ import withStyles from 'react-jss'
 import navigation from '../../data/navigation.json'
 import SidebarNavItem from './SidebarNavItem.jsx'
 
-const styles = {
+const styles = theme => ({
   list: {
     listStyle: 'none',
     padding: 0,
-    margin: 0,
+    marginBottom: `${ theme.spacing.component.xxl.rem * 2 }rem`,
   },
-}
+})
 
 const SidebarNav = ({ setMenu, classes }) => (
   <ul className={classes.list}>
     {Object.keys(navigation).map((elem, idx) => (
-      <SidebarNavItem
-        key={`li-${ idx }`}
-        item={navigation[elem]}
-        setMenu={setMenu}
-      />
+      <SidebarNavItem key={`li-${ idx }`} item={navigation[elem]} setMenu={setMenu} />
     ))}
   </ul>
 )

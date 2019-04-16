@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import ArrowDownIcon from '../ArrowDownIcon'
+import ChevronDownIcon from '../ChevronDownIcon'
 
-describe('ArrowDownIcon', () => {
+describe('ChevronDownIcon', () => {
   it('renders correctly', () => {
-    const component = render(<ArrowDownIcon />)
+    const component = render(<ChevronDownIcon />)
     expect(component).toMatchSnapshot()
   })
 })
