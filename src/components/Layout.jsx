@@ -25,13 +25,13 @@ const styles = theme => ({
     padding: '1rem 1.5rem',
     margin: `46px 0 1.5rem`,
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
       padding: '2rem 3rem',
       margin: `84px 0 3rem`,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     main: {
       margin: `104px 0 3rem`,
     },
@@ -39,7 +39,7 @@ const styles = theme => ({
       marginLeft: 224,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.l})`]: {
+  [`@media (min-width: ${ theme.breakpoints.l })`]: {
     main: {
       width: '83%',
       margin: `104px 0 3rem`,
@@ -48,7 +48,7 @@ const styles = theme => ({
       marginLeft: 276,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     main: {
       padding: '3rem',
       margin: `136px 0 3rem`,
@@ -58,20 +58,20 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     marginTop: 0,
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hStyled: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   h1Styled: {
-    marginBottom: `${theme.spacing.component.m.rem}rem`,
+    marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
 
   aStyled: {
