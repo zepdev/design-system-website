@@ -6,44 +6,16 @@ module.exports = {
       primary: {
         js: [
           `<button type="button" class="zep-button zep-button-primary">primary</button>`,
-          `<button type="button" class="zep-button zep-button-primary zep-button-primary--cat">primary</button>`,
-          `<button type="button" class="zep-button zep-button-primary zep-button-primary--rental">primary</button>`,
           `<button type="button" class="zep-button zep-button-primary" disabled>disabled</button>`,
         ],
       },
       secondary: {
         js: [
           `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
-          `<button type="button" class="zep-button zep-button-secondary zep-button-secondary--cat">secondary</button>`,
-          `<button type="button" class="zep-button zep-button-secondary zep-button-secondary--rental">secondary</button>`,
           `<button type="button" class="zep-button zep-button-secondary" disabled>
             disabled
           </button>`,
         ],
-      },
-    },
-    typography: {
-      'zep-typo--special-4': {
-        px: '24px',
-        rem: '1.5rem',
-        specifications: [
-          'font-family: "Teko"',
-          'font-weight: 400 (regular)',
-          'line-height: 1.5 (24px)',
-          'text-transform: uppercase',
-        ],
-      },
-    },
-    structure: {
-      'btn-height': {
-        property: 'height',
-        rem: '3rem',
-        px: '48px',
-      },
-      'btn-padding': {
-        property: 'padding',
-        rem: '1rem, 1.125rem',
-        px: '16px, 18px',
       },
     },
   },
@@ -58,30 +30,6 @@ module.exports = {
         js: [
           `<input type="checkbox" name="Checkbox" value="A" class="zep-checkbox zep-button-secondary">`,
         ],
-      },
-    },
-    typography: {
-      // 'zep-typo--special-4': {
-      //   px: '24px',
-      //   rem: '1.5rem',
-      //   specifications: [
-      //     'font-family: "Teko"',
-      //     'font-weight: 400 (regular)',
-      //     'line-height: 1.5 (24px)',
-      //     'text-transform: uppercase',
-      //   ],
-      // },
-    },
-    structure: {
-      'btn-height': {
-        // property: 'height',
-        // rem: '3rem',
-        // px: '48px',
-      },
-      'btn-padding': {
-        // property: 'padding',
-        // rem: '1rem, 1.125rem',
-        // px: '16px, 18px',
       },
     },
   },
@@ -103,30 +51,6 @@ module.exports = {
         ],
       },
     },
-    typography: {
-      // 'zep-typo--special-4': {
-      //   px: '24px',
-      //   rem: '1.5rem',
-      //   specifications: [
-      //     'font-family: "Teko"',
-      //     'font-weight: 400 (regular)',
-      //     'line-height: 1.5 (24px)',
-      //     'text-transform: uppercase',
-      //   ],
-      // },
-    },
-    structure: {
-      'btn-height': {
-        // property: 'height',
-        // rem: '3rem',
-        // px: '48px',
-      },
-      'btn-padding': {
-        // property: 'padding',
-        // rem: '1rem, 1.125rem',
-        // px: '16px, 18px',
-      },
-    },
   },
   radio: {
     demo: {
@@ -143,44 +67,6 @@ module.exports = {
         ],
       },
     },
-    typography: {
-      'zep-typo--special-3': {
-        px: '16px',
-        rem: '1rem',
-        specifications: [
-          'font-family: "Roboto"',
-          'font-weight: 400 (regular)',
-          'line-height: 1.5 (21px)',
-          'text-transform: none',
-        ],
-      },
-    },
-    colors: {
-      'zep-tag': {
-        property: 'border-color',
-        zeppelin: 'cat-yellow',
-        cat: null,
-        rental: null,
-      },
-      'zep-tag': {
-        property: 'background-color',
-        zeppelin: 'white',
-        cat: null,
-        rental: null,
-      },
-    },
-    structure: {
-      'zep-tag': {
-        property: 'padding',
-        rem: '0.675rem',
-        px: '10px',
-      },
-      'zep-tag': {
-        property: 'border',
-        rem: '0.675rem',
-        px: '2px',
-      },
-    },
   },
   tag: {
     demo: {
@@ -188,44 +74,6 @@ module.exports = {
         js: [
           `<span class="zep-tag">Tag<i class="zepicons zepicons-close"></i></span>`,
         ],
-      },
-    },
-    typography: {
-      'zep-typo--special-3': {
-        px: '16px',
-        rem: '1rem',
-        specifications: [
-          'font-family: "Roboto"',
-          'font-weight: 400 (regular)',
-          'line-height: 1.5 (21px)',
-          'text-transform: none',
-        ],
-      },
-    },
-    colors: {
-      'zep-tag': {
-        property: 'border-color',
-        zeppelin: 'cat-yellow',
-        cat: null,
-        rental: null,
-      },
-      'zep-tag': {
-        property: 'background-color',
-        zeppelin: 'white',
-        cat: null,
-        rental: null,
-      },
-    },
-    structure: {
-      'zep-tag': {
-        property: 'padding',
-        rem: '0.675rem',
-        px: '10px',
-      },
-      'zep-tag': {
-        property: 'border',
-        rem: '0.675rem',
-        px: '2px',
       },
     },
   },
@@ -242,31 +90,6 @@ module.exports = {
         ],
       },
     },
-    typography: {
-      // 'zep-typo--special-4': {
-      //   px: '24px',
-      //   rem: '1.5rem',
-      //   specifications: [
-      //     'font-family: "Teko"',
-      //     'font-weight: 400 (regular)',
-      //     'line-height: 1.5 (24px)',
-      //     'text-transform: uppercase',
-      //   ],
-      // },
-    },
-    structure: {
-      'btn-height': {
-        // property: 'height',
-        // rem: '3rem',
-        // px: '48px',
-      },
-      'btn-padding': {
-        //   property: 'padding',
-        //   rem: '1rem, 1.125rem',
-        //   px: '16px, 18px',
-        // },
-      },
-    },
   },
   list: {
     demo: {
@@ -275,30 +98,6 @@ module.exports = {
       },
       secondary: {
         js: [`<ul  class="zep-list zep-list-secondary">secondary</ul>`],
-      },
-    },
-    typography: {
-      // 'zep-typo--special-4': {
-      //   px: '24px',
-      //   rem: '1.5rem',
-      //   specifications: [
-      //     'font-family: "Teko"',
-      //     'font-weight: 400 (regular)',
-      //     'line-height: 1.5 (24px)',
-      //     'text-transform: uppercase',
-      //   ],
-      // },
-    },
-    structure: {
-      'btn-height': {
-        // property: 'height',
-        // rem: '3rem',
-        // px: '48px',
-      },
-      'btn-padding': {
-        // property: 'padding',
-        // rem: '1rem, 1.125rem',
-        // px: '16px, 18px',
       },
     },
   },
