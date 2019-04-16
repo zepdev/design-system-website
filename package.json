@@ -11,6 +11,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^0.20.3",
     "@mdx-js/tag": "^0.20.3",
+    "@reach/menu-button": "^0.1.10",
     "@reach/skip-nav": "^0.1.2",
     "classnames": "^2.2.6",
     "gatsby": "^2.3.21",
@@ -33,7 +34,7 @@
     "react-helmet": "^5.2.0",
     "react-jss": "^8.6.1",
     "sonarqube-scanner": "^2.4.0",
-    "zeppelin-element-library": "^0.4.5"
+    "zeppelin-element-library": "^0.5.0"
   },
   "scripts": {
     "build": "gatsby build",
