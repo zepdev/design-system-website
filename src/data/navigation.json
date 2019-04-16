@@ -53,6 +53,9 @@
       }
     }
   },
+  "changelog": {
+    "title": "Changelog"
+  },
   "download": {
     "title": "Download"
   }

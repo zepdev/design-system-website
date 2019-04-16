@@ -10,6 +10,19 @@
  */
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const request = require(`request`)
+const fs = require(`fs`)
+
+exports.onPreInit = () => {
+  request
+    .get(
+      'https://raw.githubusercontent.com/zepdev/zeppelin-element-library/master/CHANGELOG.md'
+    )
+    .on('error', function(err) {
+      console.log(err)
+    })
+    .pipe(fs.createWriteStream('src/content/changelog.md'))
+}
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -43,6 +56,7 @@ exports.createPages = ({ graphql, actions }) => {
       console.error(result.errors)
       reject(result.errors)
     }
+
     result.data.allMdx.edges.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
