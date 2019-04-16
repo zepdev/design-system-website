@@ -5,7 +5,6 @@ import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import ElementPreview from './ElementPreview'
 import ElementUsage from './ElementUsage'
-import ElementStyles from './ElementStyles'
 
 const styles = theme => ({
   tabs: {
@@ -29,11 +28,9 @@ const ElementLayout = ({ element, classes }) => {
       <Tabs value={value} onClick={handleChange} className={classes.tabs}>
         <Tab label="Code" />
         <Tab label="Usage" />
-        <Tab label="Styles" />
       </Tabs>
       {value === 0 && <ElementPreview element={element} />}
       {value === 1 && <ElementUsage element={element} />}
-      {value === 2 && <ElementStyles element={element} />}
     </>
   )
 }

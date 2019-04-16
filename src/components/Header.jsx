@@ -5,6 +5,7 @@ import classnames from 'classnames'
 import ButtonBase from '../components/button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
+import Dropdown from './dropdown/Dropdown'
 // import Searchbar from './searchbar/Searchbar'
 
 const styles = theme => ({
@@ -74,7 +75,7 @@ const styles = theme => ({
   },
 })
 
-const Header = ({ handleMenu, classes }) => (
+const Header = ({ handleMenu, handleTheme, classes }) => (
   <header>
     <div className={classes.root}>
       <div className={classes.container}>
@@ -87,6 +88,12 @@ const Header = ({ handleMenu, classes }) => (
         </ButtonBase>
         <ZeppelinIcon className={classes.icon} />
         {/* <Searchbar /> */}
+        <div />
+        <Dropdown
+          menuItems={['zeppelin', 'cat', 'rental']}
+          menuTitle="Theme"
+          onSelect={handleTheme}
+        />
       </div>
     </div>
   </header>
@@ -95,6 +102,7 @@ const Header = ({ handleMenu, classes }) => (
 Header.propTypes = {
   classes: PropTypes.object.isRequired,
   handleMenu: PropTypes.func.isRequired,
+  handleTheme: PropTypes.func.isRequired,
 }
 
 export default withStyles(styles)(Header)

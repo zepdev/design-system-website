@@ -1,0 +1,7 @@
+[data-reach-menu] {
+  z-index: 1001;
+}
+
+[data-reach-menu-item][data-selected] {
+  background: #27166f;
+}
