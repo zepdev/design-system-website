@@ -25,13 +25,13 @@ const styles = theme => ({
     padding: '1rem 1.5rem',
     margin: `46px 0 1.5rem`,
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${theme.breakpoints.s})`]: {
     main: {
       padding: '2rem 3rem',
       margin: `84px 0 3rem`,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${theme.breakpoints.m})`]: {
     main: {
       margin: `104px 0 3rem`,
     },
@@ -39,7 +39,7 @@ const styles = theme => ({
       marginLeft: 224,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${theme.breakpoints.l})`]: {
     main: {
       width: '83%',
       margin: `104px 0 3rem`,
@@ -48,7 +48,7 @@ const styles = theme => ({
       marginLeft: 276,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${theme.breakpoints.xl})`]: {
     main: {
       padding: '3rem',
       margin: `136px 0 3rem`,
@@ -58,21 +58,26 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   hrStyled: {
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     marginTop: 0,
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   hStyled: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${theme.spacing.component.l.rem}rem`,
   },
   h1Styled: {
-    marginBottom: `${ theme.spacing.component.m.rem }rem`,
+    marginBottom: `${theme.spacing.component.m.rem}rem`,
   },
+
+  aStyled: {
+    color: theme.colors.primary.indigoBlue.hex,
+  },
+
   skipLink: {
     position: 'absolute',
     left: '-999em',
@@ -84,20 +89,36 @@ function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   // Styles for mdx/md pages
   const h1Styled = props => (
-    <h1 className={classnames(classes.h1Styled, 'zep-typo--display-1')} {...props} />
+    <h1
+      className={classnames(classes.h1Styled, 'zep-typo--display-1')}
+      {...props}
+    />
   )
   const h2Styled = props => (
-    <h2 className={classnames(classes.hStyled, 'zep-typo--normal-6')} {...props} />
+    <h2
+      className={classnames(classes.hStyled, 'zep-typo--normal-6')}
+      {...props}
+    />
   )
   const h3Styled = props => (
-    <h3 className={classnames(classes.hStyled, 'zep-typo--normal-4')} {...props} />
+    <h3
+      className={classnames(classes.hStyled, 'zep-typo--normal-4')}
+      {...props}
+    />
   )
   const pStyled = props => (
-    <p className={classnames(classes.pStyled, 'zep-typo--normal-3')} {...props} />
+    <p
+      className={classnames(classes.pStyled, 'zep-typo--normal-3')}
+      {...props}
+    />
   )
   const hrStyled = () => (
-    <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
+    <hr
+      className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')}
+    />
   )
+
+  const aStyled = props => <a className={classes.aStyled} {...props} />
   const preStyled = props => <div {...props} />
 
   const components = {
@@ -108,6 +129,7 @@ function Layout({ children, classes }) {
     hr: hrStyled,
     pre: preStyled,
     code: CodeBlock,
+    a: aStyled,
   }
   return (
     <StaticQuery
