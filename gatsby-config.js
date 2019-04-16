@@ -1,9 +1,5 @@
 const theme = require('zeppelin-element-library/bundle/themes/theme.json')
 
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
 module.exports = {
   siteMetadata: {
     title: `Zeppelin Design System`,
@@ -52,22 +48,6 @@ module.exports = {
         theme_color: theme.colors.primary.indigoBlue.hex,
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: 'gatsby-source-graphql',
-      options: {
-        typeName: 'GitHub',
-        fieldName: 'github',
-        // Url to query from
-        url: 'https://api.github.com/graphql',
-        // HTTP headers
-        headers: {
-          // Learn about environment variables: https://gatsby.dev/env-vars
-          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
-        },
-        // Additional options to pass to node-fetch
-        fetchOptions: {},
       },
     },
     `gatsby-transformer-remark`,
