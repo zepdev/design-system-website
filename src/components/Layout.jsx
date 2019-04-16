@@ -82,6 +82,13 @@ const styles = theme => ({
 
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
+  const [theme, setTheme] = useState('zeppelin')
+
+  const handleTheme = theme => {
+    console.log(theme)
+    setTheme(theme)
+  }
+
   // Styles for mdx/md pages
   const h1Styled = props => (
     <h1 className={classnames(classes.h1Styled, 'zep-typo--display-1')} {...props} />
@@ -109,6 +116,7 @@ function Layout({ children, classes }) {
     pre: preStyled,
     code: CodeBlock,
   }
+
   return (
     <StaticQuery
       query={graphql`
@@ -128,11 +136,18 @@ function Layout({ children, classes }) {
         return (
           <>
             <SkipNavLink className={classes.skipLink} />
-            <div className={classes.root}>
+            <div
+              className={classnames(classes.root, {
+                'theme-zeppelin': theme === 'zeppelin',
+                'theme-cat': theme === 'cat',
+                'theme-rental': theme === 'rental',
+              })}
+            >
               <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
               <div className={classes.content}>
                 <Header
                   siteTitle={data.mdx.frontmatter.title}
+                  handleTheme={handleTheme}
                   handleMenu={() => {
                     setMenu(!isMenuOpen)
                   }}

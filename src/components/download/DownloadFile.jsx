@@ -92,6 +92,7 @@ const DownloadFile = ({ title, sketch, href, download, ariaLabel, demo, classes 
           disabled={demo}
           onClick={() => handleDownload()}
           aria-label={ariaLabel}
+          data-testid="downloadButton"
         >
           <DownloadIcon className={classes.icon} />
         </ButtonBase>

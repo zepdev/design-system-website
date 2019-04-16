@@ -114,6 +114,26 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 fill="currentColor"
               />
             </svg>
+            <div />
+            <button
+              aria-expanded="false"
+              aria-haspopup="menu"
+              class="zep-button zep-button-primary"
+              data-reach-menu-button="true"
+              id="button-aacvrfmr"
+              type="button"
+            >
+              <span
+                class="zep-button__text"
+              >
+                Theme
+              </span>
+              <span
+                aria-hidden="true"
+              >
+                ▾
+              </span>
+            </button>
           </div>
         </div>
       </header>
@@ -229,6 +249,26 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               fill="currentColor"
             />
           </svg>
+          <div />
+          <button
+            aria-expanded="false"
+            aria-haspopup="menu"
+            class="zep-button zep-button-primary"
+            data-reach-menu-button="true"
+            id="button-aacvrfmr"
+            type="button"
+          >
+            <span
+              class="zep-button__text"
+            >
+              Theme
+            </span>
+            <span
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </button>
         </div>
       </div>
     </header>

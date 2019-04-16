@@ -5,15 +5,15 @@ module.exports = {
     demo: {
       primary: {
         js: [
-          `<button type="button" class="zep-button zep-button-primary">primary</button>`,
-          `<button type="button" class="zep-button zep-button-primary" disabled>disabled</button>`,
+          `<button type="button" class="zep-button zep-button-primary"><span class="zep-button__text">Primary Button</span></button>`,
+          `<button type="button" class="zep-button zep-button-primary zep-button-primary--disabled"><span class="zep-button__text">Disabled</span></button>`,
         ],
       },
       secondary: {
         js: [
-          `<button type="button" class="zep-button zep-button-secondary">secondary</button>`,
-          `<button type="button" class="zep-button zep-button-secondary" disabled>
-            disabled
+          `<button type="button" class="zep-button zep-button-secondary"><span class="zep-button__text">Secondary Button</span></button>`,
+          `<button type="button" class="zep-button zep-button-secondary zep-button-secondary--disabled">
+          <span class="zep-button__text">Disabled</span>
           </button>`,
         ],
       },
