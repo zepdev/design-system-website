@@ -11,6 +11,33 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+/*
+exports.sourceNodes = async ({ actions, createNodeId }, graphql) => {
+  const { data } = await graphql(`
+    query {
+      github {
+        repository(owner: "zepdev", name: "zeppelin-element-library") {
+          readme: object(expression: "master:CHANGELOG.md") {
+            ... on GitHub_Blob {
+              id
+              text
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  const githubChangelog = data.github.repository.readme
+
+  actions.createMDXNode({
+    id: createNodeId(githubChangelog.id),
+    node: null,
+    content: githubChangelog.text,
+  })
+}
+*/
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === 'Mdx') {
@@ -43,6 +70,7 @@ exports.createPages = ({ graphql, actions }) => {
       console.error(result.errors)
       reject(result.errors)
     }
+
     result.data.allMdx.edges.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,

@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer, MDXProvider } from 'gatsby-mdx/mdx-renderer'
+import mdx from '@mdx-js/mdx'
 import withStyles from 'react-jss'
 
 const styles = theme => ({
@@ -14,19 +15,12 @@ const Changelog = ({ element, classes }) => {
     <StaticQuery
       query={graphql`
         query {
-          allMdx {
-            edges {
-              node {
-                id
-                frontmatter {
-                  title
-                  label
-                }
-                fields {
-                  slug
-                }
-                code {
-                  body
+          github {
+            repository(owner: "zepdev", name: "zeppelin-element-library") {
+              readme: object(expression: "master:CHANGELOG.md") {
+                ... on GitHub_Blob {
+                  id
+                  text
                 }
               }
             }
@@ -34,13 +28,14 @@ const Changelog = ({ element, classes }) => {
         }
       `}
       render={data => {
-        const markdown = data.allMdx.edges.find(
-          x => x.node.fields.slug === `/CHANGELOG/`
-        )
+        const markdown = data.github.repository.readme.text
+        const newMDX = mdx.sync(markdown)
 
         return (
           <div className={classes.root}>
-            <MDXRenderer>{markdown.node.code.body}</MDXRenderer>
+            {/* <MDXRenderer>{newMDX}</MDXRenderer> */}
+            {/* <MDXProvider>{newMDX}</MDXProvider> */}
+            {newMDX}
           </div>
         )
       }}

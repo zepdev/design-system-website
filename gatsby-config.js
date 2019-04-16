@@ -55,16 +55,19 @@ module.exports = {
       },
     },
     {
-      resolve: `@mosch/gatsby-source-github`,
+      resolve: 'gatsby-source-graphql',
       options: {
-        repository: 'zeppelin-element-library',
-        tree: true,
-        // releases: true,
-        user: 'zepdev',
-        secrets: {
-          // token: process.env.GITHUB_TOKEN,
-          token: process.env.GITHUB_TOKEN,
+        typeName: 'GitHub',
+        fieldName: 'github',
+        // Url to query from
+        url: 'https://api.github.com/graphql',
+        // HTTP headers
+        headers: {
+          // Learn about environment variables: https://gatsby.dev/env-vars
+          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
         },
+        // Additional options to pass to node-fetch
+        fetchOptions: {},
       },
     },
     `gatsby-transformer-remark`,
