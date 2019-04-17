@@ -73,6 +73,11 @@ const styles = theme => ({
   h1Styled: {
     marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
+
+  aStyled: {
+    color: theme.colors.primary.indigoBlue.hex,
+  },
+
   skipLink: {
     position: 'absolute',
     left: '-999em',
@@ -82,22 +87,45 @@ const styles = theme => ({
 
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
+  const [theme, setTheme] = useState('zeppelin')
+
+  const handleTheme = theme => {
+    console.log(theme)
+    setTheme(theme)
+  }
+
   // Styles for mdx/md pages
   const h1Styled = props => (
-    <h1 className={classnames(classes.h1Styled, 'zep-typo--display-1')} {...props} />
+    <h1
+      className={classnames(classes.h1Styled, 'zep-typo--display-1')}
+      {...props}
+    />
   )
   const h2Styled = props => (
-    <h2 className={classnames(classes.hStyled, 'zep-typo--normal-6')} {...props} />
+    <h2
+      className={classnames(classes.hStyled, 'zep-typo--normal-6')}
+      {...props}
+    />
   )
   const h3Styled = props => (
-    <h3 className={classnames(classes.hStyled, 'zep-typo--normal-4')} {...props} />
+    <h3
+      className={classnames(classes.hStyled, 'zep-typo--normal-4')}
+      {...props}
+    />
   )
   const pStyled = props => (
-    <p className={classnames(classes.pStyled, 'zep-typo--normal-3')} {...props} />
+    <p
+      className={classnames(classes.pStyled, 'zep-typo--normal-3')}
+      {...props}
+    />
   )
   const hrStyled = () => (
-    <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
+    <hr
+      className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')}
+    />
   )
+
+  const aStyled = props => <a className={classes.aStyled} {...props} />
   const preStyled = props => <div {...props} />
 
   const components = {
@@ -108,7 +136,9 @@ function Layout({ children, classes }) {
     hr: hrStyled,
     pre: preStyled,
     code: CodeBlock,
+    a: aStyled,
   }
+
   return (
     <StaticQuery
       query={graphql`
@@ -128,11 +158,18 @@ function Layout({ children, classes }) {
         return (
           <>
             <SkipNavLink className={classes.skipLink} />
-            <div className={classes.root}>
+            <div
+              className={classnames(classes.root, {
+                'theme-zeppelin': theme === 'zeppelin',
+                'theme-cat': theme === 'cat',
+                'theme-rental': theme === 'rental',
+              })}
+            >
               <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
               <div className={classes.content}>
                 <Header
                   siteTitle={data.mdx.frontmatter.title}
+                  handleTheme={handleTheme}
                   handleMenu={() => {
                     setMenu(!isMenuOpen)
                   }}

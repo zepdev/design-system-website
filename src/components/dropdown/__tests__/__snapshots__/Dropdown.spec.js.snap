@@ -1,85 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DownloadFile renders correctly 1`] = `
+exports[`Dropdown renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="DownloadFile-root-0-1-1"
+      <button
+        aria-expanded="false"
+        aria-haspopup="menu"
+        class="zep-button zep-button-primary"
+        data-reach-menu-button="true"
+        id="button-adokvvbb"
+        type="button"
       >
-        <p
-          class="zep-typo--normal-3 DownloadFile-text-0-1-4"
+        <span
+          class="zep-button__text"
         >
           mockTitle
-        </p>
-        <div
-          class="DownloadFile-container-0-1-2"
+        </span>
+        <span
+          aria-hidden="true"
         >
-          <button
-            class="ButtonBase-button-0-1-9 DownloadFile-button-0-1-7"
-            data-testid="downloadButton"
-          >
-            <svg
-              aria-labelledby="title"
-              class="DownloadFile-icon-0-1-8"
-              height="32"
-              viewBox="0 0 24 24"
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title
-                id="title_copy"
-              >
-                Download Icon
-              </title>
-              <path
-                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
-                fill="currentColor"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
+          ▾
+        </span>
+      </button>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="DownloadFile-root-0-1-1"
+    <button
+      aria-expanded="false"
+      aria-haspopup="menu"
+      class="zep-button zep-button-primary"
+      data-reach-menu-button="true"
+      id="button-adokvvbb"
+      type="button"
     >
-      <p
-        class="zep-typo--normal-3 DownloadFile-text-0-1-4"
+      <span
+        class="zep-button__text"
       >
         mockTitle
-      </p>
-      <div
-        class="DownloadFile-container-0-1-2"
+      </span>
+      <span
+        aria-hidden="true"
       >
-        <button
-          class="ButtonBase-button-0-1-9 DownloadFile-button-0-1-7"
-          data-testid="downloadButton"
-        >
-          <svg
-            aria-labelledby="title"
-            class="DownloadFile-icon-0-1-8"
-            height="32"
-            viewBox="0 0 24 24"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title
-              id="title_copy"
-            >
-              Download Icon
-            </title>
-            <path
-              d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
-              fill="currentColor"
-            />
-          </svg>
-        </button>
-      </div>
-    </div>
+        ▾
+      </span>
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

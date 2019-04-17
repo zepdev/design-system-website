@@ -55,6 +55,7 @@ Object {
             <button
               aria-label="download"
               class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-29"
+              data-testid="downloadButton"
             >
               <svg
                 aria-labelledby="title"
@@ -96,6 +97,7 @@ Object {
             <button
               aria-label="download"
               class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-29"
+              data-testid="downloadButton"
             >
               <svg
                 aria-labelledby="title"
@@ -5191,6 +5193,7 @@ Object {
           <button
             aria-label="download"
             class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-29"
+            data-testid="downloadButton"
           >
             <svg
               aria-labelledby="title"
@@ -5232,6 +5235,7 @@ Object {
           <button
             aria-label="download"
             class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-29"
+            data-testid="downloadButton"
           >
             <svg
               aria-labelledby="title"

@@ -65,9 +65,9 @@ const ElementPreview = ({ element, classes }) => {
             </div>
           </div>
           <CodeBlock>{elements[element].demo[elem].js.join('\n')}</CodeBlock>
-          <CodeUsage element={element} />
         </Fragment>
       ))}
+      <CodeUsage element={element} />
     </>
   )
 }
