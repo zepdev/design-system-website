@@ -47,7 +47,9 @@ const ElementUsage = ({ element, classes }) => {
         return documentation ? (
           <MDXRenderer>{documentation.node.code.body}</MDXRenderer>
         ) : (
-          <p className={classnames(classes.text, 'zep-typo--normal-3')}>Content unavailable!</p>
+          <p className={classnames(classes.text, 'zep-typo--normal-3')}>
+            No content yet, please check back later
+          </p>
         )
       }}
     />

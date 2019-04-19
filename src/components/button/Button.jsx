@@ -16,7 +16,7 @@ function Button({ children, className: classNameProp, color, disabled, ...other 
   )
   return (
     <ButtonBase className={className} disabled={disabled} {...other}>
-      {children}
+      <span className="zep-button__text">{children}</span>
     </ButtonBase>
   )
 }
