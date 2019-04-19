@@ -51,7 +51,6 @@ const CodeUsage = ({ element, classes }) => {
         const vue = data.allMdx.edges.find(
           x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`
         )
-
         return (
           <div className={classes.root}>
             <h3 className={classnames(classes.heading, 'zep-typo--normal-4')}>
@@ -69,7 +68,7 @@ const CodeUsage = ({ element, classes }) => {
               ))}
             {tab === 1 &&
               (vue ? (
-                <MDXRenderer>{react.node.code.body}</MDXRenderer>
+                <MDXRenderer>{vue.node.code.body}</MDXRenderer>
               ) : (
                 <CodeBlock>no example yet, please check back later!</CodeBlock>
               ))}
