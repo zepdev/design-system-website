@@ -32,6 +32,14 @@ const styles = theme => ({
     height: '125%',
     width: '100%',
   },
+  menuContainer: {
+    display: 'flex',
+    alignItems: 'center',
+  },
+  menuText: {
+    color: theme.colors.gray.black.hex,
+    paddingRight: `${ theme.spacing.component.s.rem }rem`,
+  },
   [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     container: {
       padding: `${ theme.spacing.component.l.rem }rem ${ theme.spacing.component.xl.rem }rem`,
@@ -75,7 +83,7 @@ const styles = theme => ({
   },
 })
 
-const Header = ({ handleMenu, handleTheme, classes }) => (
+const Header = ({ handleMenu, theme, handleTheme, classes }) => (
   <header>
     <div className={classes.root}>
       <div className={classes.container}>
@@ -89,11 +97,14 @@ const Header = ({ handleMenu, handleTheme, classes }) => (
         <ZeppelinIcon className={classes.icon} />
         {/* <Searchbar /> */}
         <div />
-        <Dropdown
-          menuItems={['zeppelin', 'cat', 'rental']}
-          menuTitle="Theme"
-          onSelect={handleTheme}
-        />
+        <div className={classes.menuContainer}>
+          <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
+          <Dropdown
+            menuItems={['zeppelin', 'cat', 'rental']}
+            selected={theme}
+            onSelect={handleTheme}
+          />
+        </div>
       </div>
     </div>
   </header>
@@ -103,6 +114,7 @@ Header.propTypes = {
   classes: PropTypes.object.isRequired,
   handleMenu: PropTypes.func.isRequired,
   handleTheme: PropTypes.func.isRequired,
+  theme: PropTypes.string.isRequired,
 }
 
 export default withStyles(styles)(Header)
