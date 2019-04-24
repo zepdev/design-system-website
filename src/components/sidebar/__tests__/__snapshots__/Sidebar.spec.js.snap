@@ -177,6 +177,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             <li>
               <a
                 class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
+                href="/content/changelog/"
+              >
+                Changelog
+              </a>
+            </li>
+            <li>
+              <a
+                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
                 href="/content/download/"
               >
                 Download
@@ -356,6 +364,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 />
               </svg>
             </button>
+          </li>
+          <li>
+            <a
+              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
+              href="/content/changelog/"
+            >
+              Changelog
+            </a>
           </li>
           <li>
             <a

@@ -8,7 +8,11 @@ Object {
       <button
         class="ButtonBase-button-0-1-1 zep-button"
       >
-        buttonText
+        <span
+          class="zep-button__text"
+        >
+          buttonText
+        </span>
       </button>
     </div>
   </body>,
@@ -16,7 +20,11 @@ Object {
     <button
       class="ButtonBase-button-0-1-1 zep-button"
     >
-      buttonText
+      <span
+        class="zep-button__text"
+      >
+        buttonText
+      </span>
     </button>
   </div>,
   "debug": [Function],

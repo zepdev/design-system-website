@@ -158,6 +158,7 @@ function Layout({ children, classes }) {
                   handleMenu={() => {
                     setMenu(!isMenuOpen)
                   }}
+                  theme={theme}
                 />
                 <SkipNavContent />
                 <MDXProvider components={components}>
