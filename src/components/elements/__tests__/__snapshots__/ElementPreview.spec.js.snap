@@ -34,7 +34,8 @@ Object {
             class="ElementPreview-element-0-1-3"
           >
             <button
-              class="zep-button zep-button-primary zep-button-primary--disabled"
+              class="zep-button zep-button-primary"
+              disabled=""
               type="button"
             >
               <span
@@ -252,7 +253,12 @@ Object {
               class="token string"
               style="color: rgb(255, 101, 98);"
             >
-              "zep-button zep-button-primary zep-button-primary--disabled"
+              "zep-button zep-button-primary"
+            </span>
+            <span
+              class="token plain"
+            >
+               disabled
             </span>
             <span
               class="token operator"
@@ -401,18 +407,15 @@ Object {
             class="ElementPreview-element-0-1-3"
           >
             <button
-              class="zep-button zep-button-secondary zep-button-secondary--disabled"
+              class="zep-button zep-button-secondary"
+              disabled=""
               type="button"
             >
-              
-          
               <span
                 class="zep-button__text"
               >
                 Disabled
               </span>
-              
-          
             </button>
           </div>
         </div>
@@ -575,7 +578,6 @@ Object {
           <div
             class="token-line"
             data-testid="code"
-            style="padding-bottom: 12px;"
           >
             <span
               class="token plain"
@@ -624,27 +626,18 @@ Object {
               class="token string"
               style="color: rgb(255, 101, 98);"
             >
-              "zep-button zep-button-secondary zep-button-secondary--disabled"
+              "zep-button zep-button-secondary"
+            </span>
+            <span
+              class="token plain"
+            >
+               disabled
             </span>
             <span
               class="token operator"
               style="color: rgb(91, 192, 222);"
             >
               &gt;
-            </span>
-            <span
-              class="token plain"
-            />
-          </div>
-          <div
-            class="token-line"
-            data-testid="code"
-            style="padding-bottom: 12px;"
-          >
-            <span
-              class="token plain"
-            >
-                        
             </span>
             <span
               class="token operator"
@@ -708,19 +701,6 @@ Object {
               style="color: rgb(91, 192, 222);"
             >
               &gt;
-            </span>
-            <span
-              class="token plain"
-            />
-          </div>
-          <div
-            class="token-line"
-            data-testid="code"
-          >
-            <span
-              class="token plain"
-            >
-                        
             </span>
             <span
               class="token operator"
@@ -803,7 +783,8 @@ Object {
           class="ElementPreview-element-0-1-3"
         >
           <button
-            class="zep-button zep-button-primary zep-button-primary--disabled"
+            class="zep-button zep-button-primary"
+            disabled=""
             type="button"
           >
             <span
@@ -1021,7 +1002,12 @@ Object {
             class="token string"
             style="color: rgb(255, 101, 98);"
           >
-            "zep-button zep-button-primary zep-button-primary--disabled"
+            "zep-button zep-button-primary"
+          </span>
+          <span
+            class="token plain"
+          >
+             disabled
           </span>
           <span
             class="token operator"
@@ -1170,18 +1156,15 @@ Object {
           class="ElementPreview-element-0-1-3"
         >
           <button
-            class="zep-button zep-button-secondary zep-button-secondary--disabled"
+            class="zep-button zep-button-secondary"
+            disabled=""
             type="button"
           >
-            
-          
             <span
               class="zep-button__text"
             >
               Disabled
             </span>
-            
-          
           </button>
         </div>
       </div>
@@ -1344,7 +1327,6 @@ Object {
         <div
           class="token-line"
           data-testid="code"
-          style="padding-bottom: 12px;"
         >
           <span
             class="token plain"
@@ -1393,27 +1375,18 @@ Object {
             class="token string"
             style="color: rgb(255, 101, 98);"
           >
-            "zep-button zep-button-secondary zep-button-secondary--disabled"
+            "zep-button zep-button-secondary"
+          </span>
+          <span
+            class="token plain"
+          >
+             disabled
           </span>
           <span
             class="token operator"
             style="color: rgb(91, 192, 222);"
           >
             &gt;
-          </span>
-          <span
-            class="token plain"
-          />
-        </div>
-        <div
-          class="token-line"
-          data-testid="code"
-          style="padding-bottom: 12px;"
-        >
-          <span
-            class="token plain"
-          >
-                      
           </span>
           <span
             class="token operator"
@@ -1477,19 +1450,6 @@ Object {
             style="color: rgb(91, 192, 222);"
           >
             &gt;
-          </span>
-          <span
-            class="token plain"
-          />
-        </div>
-        <div
-          class="token-line"
-          data-testid="code"
-        >
-          <span
-            class="token plain"
-          >
-                      
           </span>
           <span
             class="token operator"

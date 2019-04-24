@@ -7,10 +7,10 @@ function Button({ children, className: classNameProp, color, disabled, ...other 
   const className = classNames(
     'zep-button',
     {
-      // eslint-disable-next-line
-      ['zep-button-primary']: color === 'primary',
-      // eslint-disable-next-line
-      ['zep-button-secondary']: color === 'secondary',
+      'zep-button-primary': color === 'primary',
+      'zep-button-secondary': color === 'secondary',
+      'zep-button-primary--disabled': color === 'primary' && disabled,
+      'zep-button-secondary--disabled': color === 'secondary' && disabled,
     },
     classNameProp
   )

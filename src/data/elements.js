@@ -21,12 +21,14 @@ module.exports = {
     demo: {
       primary: {
         js: [
-          `<input type="checkbox" name="Checkbox" value="A" class="zep-checkbox zep-button-primary">`,
-        ],
-      },
-      secondary: {
-        js: [
-          `<input type="checkbox" name="Checkbox" value="A" class="zep-checkbox zep-button-secondary">`,
+          `<div class="zep-checkbox">
+        <input class="zep-checkbox__input" type="checkbox" value="" id="checkboxZep" />
+        <label class="zep-checkbox__label" for="checkboxZep">Zeppelin Checkbox</label>
+</div>`,
+          `<div class="zep-checkbox">
+          <input class="zep-checkbox__input" type="checkbox" value="" id="checkboxDisabled" disabled />
+          <label class="zep-checkbox__label" for="checkboxDisabled">Disabled Checkbox</label>
+</div>`,
         ],
       },
     },

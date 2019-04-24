@@ -29,7 +29,7 @@ Object {
         </button>
       </div>
       <p
-        class="Headline-text-0-1-13 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         primary
       </p>
@@ -37,24 +37,24 @@ Object {
         class="Colors-container-0-1-2"
       >
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(39, 22, 111);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -71,7 +71,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #27166f
@@ -80,40 +80,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             indigo-blue
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #27166f
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 39/22/111
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(240, 184, 35);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -130,7 +130,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #f0b823
@@ -139,40 +139,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             cat-yellow
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #f0b823
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 240/184/35
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(175, 14, 14);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -189,7 +189,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #af0e0e
@@ -198,40 +198,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             rental-red
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #af0e0e
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 175/14/14
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(0, 174, 239);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -248,7 +248,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #00aeef
@@ -257,24 +257,24 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             zlab-blue
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #00aeef
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 0/174/239
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-13 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         secondary
       </p>
@@ -282,24 +282,24 @@ Object {
         class="Colors-container-0-1-2"
       >
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(250, 230, 178);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -316,7 +316,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #fae6b2
@@ -325,35 +325,35 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             cat-yellow-lightest
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #fae6b2
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(243, 199, 83);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -370,7 +370,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #f3c753
@@ -379,35 +379,35 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             cat-yellow-lighter
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #f3c753
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(54, 30, 154);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -424,7 +424,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #361e9a
@@ -433,19 +433,19 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             indigo-blue-lighter
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #361e9a
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-13 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         gray
       </p>
@@ -453,24 +453,24 @@ Object {
         class="Colors-container-0-1-2"
       >
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(0, 0, 0);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -487,7 +487,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #000000
@@ -496,40 +496,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             black
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #000000
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 0/0/0
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(16, 17, 17);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -546,7 +546,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #101111
@@ -555,40 +555,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             gray-dark
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #101111
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 16/17/17
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(55, 61, 63);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -605,7 +605,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #373d3f
@@ -614,40 +614,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             gray-mid-dark
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #373d3f
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 55/61/63
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(70, 74, 76);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -664,7 +664,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #464a4c
@@ -673,40 +673,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             gray
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #464a4c
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 70/74/76
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(85, 95, 97);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -723,7 +723,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #555f61
@@ -732,40 +732,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             text-gray
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #555f61
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 85/95/97
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(111, 124, 128);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -782,7 +782,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #6f7c80
@@ -791,40 +791,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             gray-light
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #6f7c80
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 111/124/128
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(193, 199, 201);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -841,7 +841,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #c1c7c9
@@ -850,40 +850,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             disabled
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #c1c7c9
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 193/199/201
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(236, 238, 239);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -900,7 +900,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #eceeef
@@ -909,40 +909,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             gray-lighter
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #eceeef
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 236/238/239
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(242, 243, 244);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -959,7 +959,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #f2f3f4
@@ -968,40 +968,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             gray-mid
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #f2f3f4
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 242/243/244
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(247, 247, 249);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1018,7 +1018,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #f7f7f9
@@ -1027,40 +1027,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             gray-lightest
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #f7f7f9
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 247/247/249
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(255, 255, 255);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1077,7 +1077,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #ffffff
@@ -1086,24 +1086,24 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             white
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #ffffff
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 255/255/255
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-13 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         support
       </p>
@@ -1111,24 +1111,24 @@ Object {
         class="Colors-container-0-1-2"
       >
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(255, 101, 98);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1145,7 +1145,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #ff6562
@@ -1154,40 +1154,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             alert
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #ff6562
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 255/101/98
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(240, 173, 78);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1204,7 +1204,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #f0ad4e
@@ -1213,40 +1213,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             warning
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #f0ad4e
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 240/73/78
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(92, 184, 92);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1263,7 +1263,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #5cb85c
@@ -1272,40 +1272,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             success
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #5cb85c
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 92/184/92
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(91, 192, 222);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1322,7 +1322,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #5bc0de
@@ -1331,40 +1331,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             info
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #5bc0de
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 91/192/222
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(255, 226, 226);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1381,7 +1381,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #ffe2e2
@@ -1390,35 +1390,35 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             alert-lighter
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #ffe2e2
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(252, 248, 227);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1435,7 +1435,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #fcf8e3
@@ -1444,35 +1444,35 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             warning-lighter
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #fcf8e3
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(223, 240, 216);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1489,7 +1489,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #dff0d8
@@ -1498,34 +1498,34 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             success-lighter
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #dff0d8
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1542,7 +1542,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   ##d9edf7
@@ -1551,19 +1551,19 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             info
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: ##d9edf7
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-13 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         socialMedia
       </p>
@@ -1571,24 +1571,24 @@ Object {
         class="Colors-container-0-1-2"
       >
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(2, 100, 102);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1605,7 +1605,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #026466
@@ -1614,40 +1614,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             xing
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #026466
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 2/100/102
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(66, 103, 178);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1664,7 +1664,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #4267b2
@@ -1673,40 +1673,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             facebook
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #4267b2
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 66/103/178
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(29, 161, 242);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1723,7 +1723,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #1da1f2
@@ -1732,40 +1732,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             twitter
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #1da1f2
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 29/161/242
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(0, 119, 181);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1782,7 +1782,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #0077b5
@@ -1791,40 +1791,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             linkedin
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #0077b5
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 0/119/181
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(153, 198, 19);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1841,7 +1841,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #99c613
@@ -1850,40 +1850,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             kununu
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #99c613
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 153/198/19
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(255, 0, 0);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1900,7 +1900,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #ff0000
@@ -1909,40 +1909,40 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             youtube
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #ff0000
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 255/0/0
           </p>
         </div>
         <div
-          class="Swatch-root-0-1-14"
+          class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
             style="background: rgb(221, 75, 57);"
           >
             <span
               class="zep-button__text"
             >
               <span
-                class="Swatch-backdrop-0-1-16"
+                class="Swatch-backdrop-0-1-15"
               />
               <span
-                class="Swatch-backdropContent-0-1-17"
+                class="Swatch-backdropContent-0-1-16"
               >
                 <svg
                   aria-labelledby="title"
-                  class="Swatch-icon-0-1-18"
+                  class="Swatch-icon-0-1-17"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -1959,7 +1959,7 @@ Object {
                   />
                 </svg>
                 <span
-                  class="Swatch-buttonText-0-1-19"
+                  class="Swatch-buttonText-0-1-18"
                   data-testid="swatch-text"
                 >
                   #dd4b39
@@ -1968,17 +1968,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-21 zep-typo--normal-2"
+            class="Swatch-name-0-1-20 zep-typo--normal-2"
           >
             googleplus
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             HEX: #dd4b39
           </p>
           <p
-            class="Swatch-text-0-1-20 zep-typo--normal-1"
+            class="Swatch-text-0-1-19 zep-typo--normal-1"
           >
             RGB: 221/75/57
           </p>
@@ -2011,7 +2011,7 @@ Object {
       </button>
     </div>
     <p
-      class="Headline-text-0-1-13 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       primary
     </p>
@@ -2019,24 +2019,24 @@ Object {
       class="Colors-container-0-1-2"
     >
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(39, 22, 111);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2053,7 +2053,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #27166f
@@ -2062,40 +2062,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           indigo-blue
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #27166f
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 39/22/111
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(240, 184, 35);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2112,7 +2112,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #f0b823
@@ -2121,40 +2121,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           cat-yellow
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #f0b823
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 240/184/35
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(175, 14, 14);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2171,7 +2171,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #af0e0e
@@ -2180,40 +2180,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           rental-red
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #af0e0e
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 175/14/14
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(0, 174, 239);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2230,7 +2230,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #00aeef
@@ -2239,24 +2239,24 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           zlab-blue
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #00aeef
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 0/174/239
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-13 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       secondary
     </p>
@@ -2264,24 +2264,24 @@ Object {
       class="Colors-container-0-1-2"
     >
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(250, 230, 178);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2298,7 +2298,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #fae6b2
@@ -2307,35 +2307,35 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           cat-yellow-lightest
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #fae6b2
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(243, 199, 83);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2352,7 +2352,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #f3c753
@@ -2361,35 +2361,35 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           cat-yellow-lighter
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #f3c753
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(54, 30, 154);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2406,7 +2406,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #361e9a
@@ -2415,19 +2415,19 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           indigo-blue-lighter
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #361e9a
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-13 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       gray
     </p>
@@ -2435,24 +2435,24 @@ Object {
       class="Colors-container-0-1-2"
     >
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(0, 0, 0);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2469,7 +2469,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #000000
@@ -2478,40 +2478,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           black
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #000000
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 0/0/0
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(16, 17, 17);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2528,7 +2528,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #101111
@@ -2537,40 +2537,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           gray-dark
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #101111
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 16/17/17
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(55, 61, 63);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2587,7 +2587,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #373d3f
@@ -2596,40 +2596,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           gray-mid-dark
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #373d3f
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 55/61/63
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(70, 74, 76);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2646,7 +2646,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #464a4c
@@ -2655,40 +2655,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           gray
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #464a4c
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 70/74/76
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(85, 95, 97);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2705,7 +2705,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #555f61
@@ -2714,40 +2714,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           text-gray
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #555f61
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 85/95/97
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(111, 124, 128);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2764,7 +2764,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #6f7c80
@@ -2773,40 +2773,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           gray-light
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #6f7c80
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 111/124/128
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(193, 199, 201);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2823,7 +2823,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #c1c7c9
@@ -2832,40 +2832,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           disabled
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #c1c7c9
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 193/199/201
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(236, 238, 239);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2882,7 +2882,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #eceeef
@@ -2891,40 +2891,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           gray-lighter
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #eceeef
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 236/238/239
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(242, 243, 244);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2941,7 +2941,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #f2f3f4
@@ -2950,40 +2950,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           gray-mid
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #f2f3f4
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 242/243/244
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(247, 247, 249);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3000,7 +3000,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #f7f7f9
@@ -3009,40 +3009,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           gray-lightest
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #f7f7f9
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 247/247/249
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(255, 255, 255);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3059,7 +3059,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #ffffff
@@ -3068,24 +3068,24 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           white
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #ffffff
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 255/255/255
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-13 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       support
     </p>
@@ -3093,24 +3093,24 @@ Object {
       class="Colors-container-0-1-2"
     >
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(255, 101, 98);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3127,7 +3127,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #ff6562
@@ -3136,40 +3136,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           alert
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #ff6562
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 255/101/98
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(240, 173, 78);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3186,7 +3186,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #f0ad4e
@@ -3195,40 +3195,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           warning
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #f0ad4e
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 240/73/78
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(92, 184, 92);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3245,7 +3245,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #5cb85c
@@ -3254,40 +3254,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           success
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #5cb85c
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 92/184/92
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(91, 192, 222);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3304,7 +3304,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #5bc0de
@@ -3313,40 +3313,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           info
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #5bc0de
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 91/192/222
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(255, 226, 226);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3363,7 +3363,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #ffe2e2
@@ -3372,35 +3372,35 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           alert-lighter
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #ffe2e2
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(252, 248, 227);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3417,7 +3417,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #fcf8e3
@@ -3426,35 +3426,35 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           warning-lighter
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #fcf8e3
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(223, 240, 216);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3471,7 +3471,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #dff0d8
@@ -3480,34 +3480,34 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           success-lighter
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #dff0d8
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3524,7 +3524,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 ##d9edf7
@@ -3533,19 +3533,19 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           info
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: ##d9edf7
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-13 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       socialMedia
     </p>
@@ -3553,24 +3553,24 @@ Object {
       class="Colors-container-0-1-2"
     >
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(2, 100, 102);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3587,7 +3587,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #026466
@@ -3596,40 +3596,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           xing
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #026466
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 2/100/102
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(66, 103, 178);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3646,7 +3646,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #4267b2
@@ -3655,40 +3655,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           facebook
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #4267b2
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 66/103/178
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(29, 161, 242);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3705,7 +3705,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #1da1f2
@@ -3714,40 +3714,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           twitter
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #1da1f2
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 29/161/242
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(0, 119, 181);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3764,7 +3764,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #0077b5
@@ -3773,40 +3773,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           linkedin
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #0077b5
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 0/119/181
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(153, 198, 19);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3823,7 +3823,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #99c613
@@ -3832,40 +3832,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           kununu
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #99c613
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 153/198/19
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(255, 0, 0);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3882,7 +3882,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #ff0000
@@ -3891,40 +3891,40 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           youtube
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #ff0000
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 255/0/0
         </p>
       </div>
       <div
-        class="Swatch-root-0-1-14"
+        class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-15"
+          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
           style="background: rgb(221, 75, 57);"
         >
           <span
             class="zep-button__text"
           >
             <span
-              class="Swatch-backdrop-0-1-16"
+              class="Swatch-backdrop-0-1-15"
             />
             <span
-              class="Swatch-backdropContent-0-1-17"
+              class="Swatch-backdropContent-0-1-16"
             >
               <svg
                 aria-labelledby="title"
-                class="Swatch-icon-0-1-18"
+                class="Swatch-icon-0-1-17"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -3941,7 +3941,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-19"
+                class="Swatch-buttonText-0-1-18"
                 data-testid="swatch-text"
               >
                 #dd4b39
@@ -3950,17 +3950,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-21 zep-typo--normal-2"
+          class="Swatch-name-0-1-20 zep-typo--normal-2"
         >
           googleplus
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           HEX: #dd4b39
         </p>
         <p
-          class="Swatch-text-0-1-20 zep-typo--normal-1"
+          class="Swatch-text-0-1-19 zep-typo--normal-1"
         >
           RGB: 221/75/57
         </p>
