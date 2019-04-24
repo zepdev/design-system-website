@@ -4,13 +4,9 @@ import withStyles from 'react-jss'
 import classnames from 'classnames'
 import '@reach/menu-button/styles.css'
 import { Menu, MenuList, MenuButton, MenuItem } from '@reach/menu-button'
+import './dropdown.css'
 
 const styles = theme => ({
-  menu: {
-    '[data-reach-menu]': {
-      zIndex: 1001,
-    },
-  },
   circle: {
     width: 12,
     height: 12,
@@ -38,19 +34,22 @@ const styles = theme => ({
     borderLeft: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
   },
   text: {
-    textTransform: 'capitalize',
-    '[data-reach-menu-item][data-selected]': {
-      fontWeight: 700,
+    display: 'flex',
+    alignItems: 'center',
+    '&[data-reach-menu-item][data-selected]': {
+      fontWeight: 600,
+      color: theme.colors.gray.black.hex,
       background: theme.colors.gray.white.hex,
     },
   },
   menuList: {
     border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
+    width: 200,
   },
 })
 
-const Dropdown = ({ onSelect, menuItems, selected, menuTitle, classes }) => (
-  <Menu className={classes.menu}>
+const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
+  <Menu>
     <MenuButton className={classnames(classes.menuButton, 'zep-button zep-input')}>
       <span
         className={classnames(classes.circle, {
@@ -59,7 +58,10 @@ const Dropdown = ({ onSelect, menuItems, selected, menuTitle, classes }) => (
           [classes.rental]: selected === 'rental',
         })}
       />
-      <i aria-hidden className={classnames(classes.icon, 'zepicons zepicons-unfold')} />
+      <i
+        aria-hidden
+        className={classnames(classes.icon, 'zepicons zepicons-navigation-dropdown')}
+      />
     </MenuButton>
     <MenuList className={classes.menuList}>
       {menuItems.map(elem => (
@@ -68,14 +70,18 @@ const Dropdown = ({ onSelect, menuItems, selected, menuTitle, classes }) => (
           key={`dropdownItem_${ elem }`}
           className={classnames(classes.text, 'zep-typo--normal-3')}
         >
-          <span
+          <div
             className={classnames(classes.circle, {
               [classes.zeppelin]: elem === 'zeppelin',
               [classes.cat]: elem === 'cat',
               [classes.rental]: elem === 'rental',
             })}
           />
-          {elem}
+          {elem === 'zeppelin'
+            ? 'Zeppelin Holding'
+            : elem === 'cat'
+              ? 'Zeppelin CAT'
+              : 'Zeppelin Rental'}
         </MenuItem>
       ))}
     </MenuList>
@@ -86,7 +92,7 @@ Dropdown.propTypes = {
   classes: PropTypes.object.isRequired,
   onSelect: PropTypes.func.isRequired,
   menuItems: PropTypes.array.isRequired,
-  menuTitle: PropTypes.string,
+  selected: PropTypes.string.isRequired,
 }
 
 export default withStyles(styles)(Dropdown)
