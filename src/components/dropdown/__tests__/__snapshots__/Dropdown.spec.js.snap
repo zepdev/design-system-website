@@ -8,21 +8,18 @@ Object {
       <button
         aria-expanded="false"
         aria-haspopup="menu"
-        class="zep-button zep-button-primary"
+        class="Dropdown-menuButton-0-1-5 zep-button zep-input"
         data-reach-menu-button="true"
-        id="button-adokvvbb"
+        id="button-1uc1nesu"
         type="button"
       >
         <span
-          class="zep-button__text"
-        >
-          mockTitle
-        </span>
-        <span
+          class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
+        />
+        <i
           aria-hidden="true"
-        >
-          ▾
-        </span>
+          class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
+        />
       </button>
     </div>
   </body>,
@@ -30,21 +27,18 @@ Object {
     <button
       aria-expanded="false"
       aria-haspopup="menu"
-      class="zep-button zep-button-primary"
+      class="Dropdown-menuButton-0-1-5 zep-button zep-input"
       data-reach-menu-button="true"
-      id="button-adokvvbb"
+      id="button-1uc1nesu"
       type="button"
     >
       <span
-        class="zep-button__text"
-      >
-        mockTitle
-      </span>
-      <span
+        class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
+      />
+      <i
         aria-hidden="true"
-      >
-        ▾
-      </span>
+        class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
+      />
     </button>
   </div>,
   "debug": [Function],
