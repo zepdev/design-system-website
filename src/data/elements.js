@@ -201,4 +201,15 @@ module.exports = {
       'instagram',
     ],
   },
+  numberInput: {
+    demo: {
+      primary: {
+        js: [
+          `<div class="zep-numberinput">
+          <button class="zep-button zep-button--number-input"><span class="zepicons zepicons-minus" /></button><input type="text" class="zep-input zep-input--number" value="1"/><button class="zep-button zep-button--number-input"><span class="zepicons zepicons-plus" /></button>
+          </div>`,
+        ],
+      },
+    },
+  },
 }

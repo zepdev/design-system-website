@@ -1,0 +1,36 @@
+---
+label: numberInputCodeExample_React
+title: Code
+---
+
+```jsx
+// NumberInput.jsx
+import React, { useState } from 'react'
+
+function NumberInput() {
+  const [count, setCount] = useState(0)
+  return (
+    <>
+      <button
+        className="zep-button zep-button--number-input"
+        onClick={() => setCount(count - 1)}
+      >
+        <span className="zepicons zepicons-minus" />
+      </button>
+      <input
+        type="text"
+        className="zep-input zep-input--number"
+        defaultValue="1"
+        value={count}
+      />
+      <button
+        className="zep-button zep-button--number-input"
+        onClick={() => setCount(count + 1)}
+      >
+        <span className="zepicons zepicons-plus" />
+      </button>
+    </>
+  )
+}
+export default NumberInput
+```

@@ -50,6 +50,9 @@
       },
       "checkbox": {
         "title": "checkbox"
+      },
+      "numberInput": {
+        "title": "Number Input"
       }
     }
   },
