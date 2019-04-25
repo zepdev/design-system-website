@@ -20,8 +20,8 @@ function NumberInput() {
       <input
         type="text"
         className="zep-input zep-input--number"
-        defaultValue="1"
         value={count}
+        onChange={e => setCount(parseInt(e.target.value, 10))
       />
       <button
         className="zep-button zep-button--number-input"

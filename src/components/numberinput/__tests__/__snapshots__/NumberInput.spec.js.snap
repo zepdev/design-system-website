@@ -9,7 +9,7 @@ Object {
         class="zep-button zep-button--number-input"
       >
         <span
-          arialabel="minus"
+          aria-label="minus"
           class="zepicons zepicons-minus"
         />
       </button>
@@ -21,7 +21,7 @@ Object {
         class="zep-button zep-button--number-input"
       >
         <span
-          arialabel="plus"
+          aria-label="plus"
           class="zepicons zepicons-plus"
         />
       </button>
@@ -32,7 +32,7 @@ Object {
       class="zep-button zep-button--number-input"
     >
       <span
-        arialabel="minus"
+        aria-label="minus"
         class="zepicons zepicons-minus"
       />
     </button>
@@ -44,7 +44,7 @@ Object {
       class="zep-button zep-button--number-input"
     >
       <span
-        arialabel="plus"
+        aria-label="plus"
         class="zepicons zepicons-plus"
       />
     </button>

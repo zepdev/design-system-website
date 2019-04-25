@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 
-const Input = ({ className: classNameProp, startValue, value }) => {
+const Input = ({ className: classNameProp, startValue, value, onChange }) => {
   return (
     <input
       className={classnames(classNameProp, 'zep-input')}
-      defaultValue={startValue}
       value={value}
+      onChange={onChange}
     />
   )
 }
@@ -15,8 +15,8 @@ const Input = ({ className: classNameProp, startValue, value }) => {
 Input.propTypes = {
   className: PropTypes.string,
   type: PropTypes.string.isRequired,
-  startValue: PropTypes.number,
   value: PropTypes.number,
+  onChange: PropTypes.func,
 }
 
 export default Input

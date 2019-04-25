@@ -7,14 +7,14 @@ Object {
     <div>
       <input
         class="zep-input"
-        value="0"
+        value=""
       />
     </div>
   </body>,
   "container": <div>
     <input
       class="zep-input"
-      value="0"
+      value=""
     />
   </div>,
   "debug": [Function],
