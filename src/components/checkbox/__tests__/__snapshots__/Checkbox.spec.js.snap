@@ -1,45 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Dropdown renders correctly 1`] = `
+exports[`Checkbox  renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        aria-expanded="false"
-        aria-haspopup="menu"
-        class="Dropdown-menuButton-0-1-5 zep-button zep-input"
-        data-reach-menu-button="true"
-        id="button-fa54hbif"
-        type="button"
+      <div
+        class="zep-checkbox"
       >
-        <span
-          class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
+        <input
+          class="zep-checkbox__input"
+          id="checkbox_mockLabel"
+          type="checkbox"
         />
-        <i
-          aria-hidden="true"
-          class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
-        />
-      </button>
+        <label
+          class="zep-checkbox__label"
+          for="checkbox_mockLabel"
+        >
+          mockLabel
+        </label>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <button
-      aria-expanded="false"
-      aria-haspopup="menu"
-      class="Dropdown-menuButton-0-1-5 zep-button zep-input"
-      data-reach-menu-button="true"
-      id="button-fa54hbif"
-      type="button"
+    <div
+      class="zep-checkbox"
     >
-      <span
-        class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
+      <input
+        class="zep-checkbox__input"
+        id="checkbox_mockLabel"
+        type="checkbox"
       />
-      <i
-        aria-hidden="true"
-        class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
-      />
-    </button>
+      <label
+        class="zep-checkbox__label"
+        for="checkbox_mockLabel"
+      >
+        mockLabel
+      </label>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
