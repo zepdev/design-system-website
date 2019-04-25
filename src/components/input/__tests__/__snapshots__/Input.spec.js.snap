@@ -1,31 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button renders correctly 1`] = `
+exports[`Input renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="ButtonBase-button-0-1-1 zep-button"
-      >
-        <span
-          class="zep-button__text"
-        >
-          buttonText
-        </span>
-      </button>
+      <input
+        class="zep-input"
+        value="0"
+      />
     </div>
   </body>,
   "container": <div>
-    <button
-      class="ButtonBase-button-0-1-1 zep-button"
-    >
-      <span
-        class="zep-button__text"
-      >
-        buttonText
-      </span>
-    </button>
+    <input
+      class="zep-input"
+      value="0"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

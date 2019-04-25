@@ -86,6 +86,14 @@ Object {
         <li>
           <a
             class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
+            href="/content/changelog/"
+          >
+            Changelog
+          </a>
+        </li>
+        <li>
+          <a
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
             href="/content/download/"
           >
             Download
@@ -172,6 +180,14 @@ Object {
             />
           </svg>
         </button>
+      </li>
+      <li>
+        <a
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
+          href="/content/changelog/"
+        >
+          Changelog
+        </a>
       </li>
       <li>
         <a
