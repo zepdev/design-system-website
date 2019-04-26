@@ -1,45 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Dropdown renders correctly 1`] = `
+exports[`ListItem renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        aria-expanded="false"
-        aria-haspopup="menu"
-        class="Dropdown-menuButton-0-1-5 zep-button zep-input"
-        data-reach-menu-button="true"
-        id="button-1f7ietfr"
-        type="button"
-      >
-        <span
-          class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
-        />
-        <i
-          aria-hidden="true"
-          class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
-        />
-      </button>
+      <li
+        class="zep-list__item"
+        data-testid="listItem"
+      />
     </div>
   </body>,
   "container": <div>
-    <button
-      aria-expanded="false"
-      aria-haspopup="menu"
-      class="Dropdown-menuButton-0-1-5 zep-button zep-input"
-      data-reach-menu-button="true"
-      id="button-1f7ietfr"
-      type="button"
-    >
-      <span
-        class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
-      />
-      <i
-        aria-hidden="true"
-        class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
-      />
-    </button>
+    <li
+      class="zep-list__item"
+      data-testid="listItem"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

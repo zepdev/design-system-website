@@ -34,7 +34,7 @@
     "react-helmet": "^5.2.0",
     "react-jss": "^8.6.1",
     "sonarqube-scanner": "^2.4.0",
-    "zeppelin-element-library": "^0.6.3"
+    "zeppelin-element-library": "^0.7.1"
   },
   "scripts": {
     "build": "gatsby build",
