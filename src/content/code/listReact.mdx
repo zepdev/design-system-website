@@ -1,0 +1,73 @@
+---
+label: listCodeExample_React
+title: Code
+---
+
+```jsx
+// List.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'classnames'
+
+const List = ({
+  variant: variantProp,
+  className: classNameProp,
+  children: childrenProp,
+}) => {
+  const variant = variantProp || 'bullet'
+  const children = React.Children.map(childrenProp, child => {
+    return React.cloneElement(child, {
+      variant,
+    })
+  })
+
+  return (
+    <ul
+      className={classnames(
+        {
+          'zep-list-bullet': variant === 'bullet',
+        },
+        classNameProp
+      )}
+    >
+      {children}
+    </ul>
+  )
+}
+
+List.propTypes = {
+  className: PropTypes.object,
+  children: PropTypes.array,
+  variant: PropTypes.oneOf(['bullet', 'attribute']),
+}
+
+export default List
+
+// ListItem.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'classnames'
+
+const ListItem = ({ variant, label, children, className: classNameProp }) => (
+  <li
+    className={classnames(
+      {
+        'zep-list-bullet__item': variant === 'bullet',
+        'zep-list-attribute__item': variant === 'attribute',
+      },
+      classNameProp
+    )}
+  >
+    {variant === 'attribute' && label && <span className="zep-list-attribute__label">{label}</span>}
+    {children}
+  </li>
+)
+
+ListItem.propTypes = {
+  classNames: PropTypes.object,
+  label: PropTypes.string,
+  variant: PropTypes.oneOf(['bullet', 'attribute']),
+}
+
+export default ListItem
+```

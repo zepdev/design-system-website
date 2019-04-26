@@ -93,11 +93,15 @@ module.exports = {
   },
   list: {
     demo: {
-      primary: {
-        js: [`<ul class="zep-list zep-list-primary">primary</ul>`],
+      bullet: {
+        js: [
+          `<ul class="zep-list-bullet"><li class="zep-list-bullet__item">Bullet List Item</li></ul>`,
+        ],
       },
-      secondary: {
-        js: [`<ul  class="zep-list zep-list-secondary">secondary</ul>`],
+      attribute: {
+        js: [
+          `<ul><li class="zep-list-attribute__item"><span class="zep-list-attribute__label">label</span>Attribute List Item</li></ul>`,
+        ],
       },
     },
   },
