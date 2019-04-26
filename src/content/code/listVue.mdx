@@ -1,0 +1,54 @@
+---
+label: listCodeExample_Vue
+title: Code
+---
+
+```html
+/* Bullet List */
+<template>
+  <ul id="ZepList_Bullet" class="zep-list-bullet">
+    <li v-for="item in listItems" class="zep-list-bullet__item">
+      {{ item.text }}
+    </li>
+  </ul>
+</template>
+<script>
+  export default {
+    name: 'ZepList_Bullet',
+    data() {
+      return { listItems: [{ text: 'item 1' }, { text: 'item 2' }] }
+    },
+  }
+</script>
+
+<style>
+  /* insert component styles here */
+</style>
+
+/* Attribute List */
+<template>
+  <ul id="ZepList_Attribute">
+    <li v-for="item in listItems" class="zep-list-attribute__item">
+      <span class="zep-list-attribute__label">{{ item.label }}</span>{{
+      item.text }}
+    </li>
+  </ul>
+</template>
+<script>
+  export default {
+    name: 'ZepList_Attribute',
+    data() {
+      return {
+        listItems: [
+          { text: 'item 1', label: 'label 1' },
+          { text: 'item 2', label: 'label 2' },
+        ],
+      }
+    },
+  }
+</script>
+
+<style>
+  /* insert component styles here */
+</style>
+```
