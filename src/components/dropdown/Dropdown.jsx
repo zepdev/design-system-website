@@ -8,9 +8,11 @@ import './dropdown.css'
 
 const styles = theme => ({
   circle: {
-    width: 12,
-    height: 12,
+    width: 18,
+    height: 18,
     borderRadius: '50%',
+  },
+  spacer: {
     marginRight: `${ theme.spacing.component.s.rem }rem`,
   },
   zeppelin: {
@@ -23,12 +25,21 @@ const styles = theme => ({
     backgroundColor: theme.colors.primary.rentalRed.hex,
   },
   menuButton: {
-    background: theme.colors.gray.white.hex, // remove
     display: 'flex',
     alignItems: 'center',
-    padding: `${ theme.spacing.component.s.rem }rem`,
+    justifyContent: 'center',
+    borderRadius: '50%',
+    height: 28,
+    width: 28,
+    padding: 0,
+    minHeight: 24,
+    '&:focus': {
+      outline: 'none',
+      boxShadow: `0 0 0 2pt ${ theme.colors.primary.catYellow.hex }`,
+    },
   },
   icon: {
+    display: 'none',
     fontSize: 18,
     paddingLeft: `${ theme.spacing.component.s.rem }rem`,
     borderLeft: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
@@ -45,6 +56,33 @@ const styles = theme => ({
   menuList: {
     border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
     width: 200,
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    circle: {
+      width: 20,
+      height: 20,
+    },
+    menuButton: {
+      height: 32,
+      width: 32,
+    },
+  },
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+    circle: {
+      width: 12,
+      height: 12,
+      marginRight: `${ theme.spacing.component.s.rem }rem`,
+    },
+    icon: {
+      display: 'inline-block',
+    },
+    menuButton: {
+      borderRadius: 0,
+      height: 'auto',
+      width: 'auto',
+      justifyContent: 'flex-start',
+      padding: `${ theme.spacing.component.s.rem }rem`,
+    },
   },
 })
 
@@ -71,7 +109,7 @@ const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
           className={classnames(classes.text, 'zep-typo--normal-3')}
         >
           <div
-            className={classnames(classes.circle, {
+            className={classnames(classes.circle, classes.spacer, {
               [classes.zeppelin]: elem === 'zeppelin',
               [classes.cat]: elem === 'cat',
               [classes.rental]: elem === 'rental',
