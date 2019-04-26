@@ -4,6 +4,7 @@ import withStyles from 'react-jss'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import ElementUsage from '../elements/ElementUsage'
+import ReactPlayer from 'react-player'
 
 const styles = theme => ({
   tabs: {
@@ -27,9 +28,13 @@ function Grid({ classes }) {
       {value === 0 && (
         <>
           <div>
-            <p>
-              <img src="https://cdn-zel.zepdev.net/zel/grid.png" />
-            </p>
+            <ReactPlayer
+              url="https://cdn-zel.zepdev.net/zel/animation_grid.mp4"
+              playing
+              width="1906"
+              height=" 1218"
+              loop
+            />
           </div>
         </>
       )}
