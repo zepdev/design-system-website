@@ -1,43 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Dropdown renders correctly 1`] = `
+exports[`NumberInput renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <button
-        aria-expanded="false"
-        aria-haspopup="menu"
-        class="Dropdown-menuButton-0-1-5 zep-button zep-input"
-        data-reach-menu-button="true"
-        id="button-amg60kp8"
-        type="button"
+        class="zep-button zep-button--number-input"
       >
         <span
-          class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
+          aria-label="minus"
+          class="zepicons zepicons-minus"
         />
-        <i
-          aria-hidden="true"
-          class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
+      </button>
+      <label
+        class="zep-visually-hidden"
+        for="numberInput_mockLabel"
+      >
+        mockLabel
+      </label>
+      <input
+        class="zep-input zep-input--number zep-input"
+        value="0"
+      />
+      <button
+        class="zep-button zep-button--number-input"
+      >
+        <span
+          aria-label="plus"
+          class="zepicons zepicons-plus"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      aria-expanded="false"
-      aria-haspopup="menu"
-      class="Dropdown-menuButton-0-1-5 zep-button zep-input"
-      data-reach-menu-button="true"
-      id="button-amg60kp8"
-      type="button"
+      class="zep-button zep-button--number-input"
     >
       <span
-        class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
+        aria-label="minus"
+        class="zepicons zepicons-minus"
       />
-      <i
-        aria-hidden="true"
-        class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
+    </button>
+    <label
+      class="zep-visually-hidden"
+      for="numberInput_mockLabel"
+    >
+      mockLabel
+    </label>
+    <input
+      class="zep-input zep-input--number zep-input"
+      value="0"
+    />
+    <button
+      class="zep-button zep-button--number-input"
+    >
+      <span
+        aria-label="plus"
+        class="zepicons zepicons-plus"
       />
     </button>
   </div>,

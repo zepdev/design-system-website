@@ -7,14 +7,12 @@ Object {
     <div>
       <li
         class="zep-list__item"
-        data-testid="listItem"
       />
     </div>
   </body>,
   "container": <div>
     <li
       class="zep-list__item"
-      data-testid="listItem"
     />
   </div>,
   "debug": [Function],
