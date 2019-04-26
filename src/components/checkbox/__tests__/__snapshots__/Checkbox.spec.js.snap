@@ -1,51 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Dropdown renders correctly 1`] = `
+exports[`Checkbox  renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        aria-expanded="false"
-        aria-haspopup="menu"
-        class="zep-button zep-button-primary"
-        data-reach-menu-button="true"
-        id="button-vek6ft4f"
-        type="button"
+      <div
+        class="zep-checkbox"
       >
-        <span
-          class="zep-button__text"
+        <input
+          class="zep-checkbox__input"
+          id="checkbox_mockLabel"
+          type="checkbox"
+        />
+        <label
+          class="zep-checkbox__label"
+          for="checkbox_mockLabel"
         >
-          mockTitle
-        </span>
-        <span
-          aria-hidden="true"
-        >
-          ▾
-        </span>
-      </button>
+          mockLabel
+        </label>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <button
-      aria-expanded="false"
-      aria-haspopup="menu"
-      class="zep-button zep-button-primary"
-      data-reach-menu-button="true"
-      id="button-vek6ft4f"
-      type="button"
+    <div
+      class="zep-checkbox"
     >
-      <span
-        class="zep-button__text"
+      <input
+        class="zep-checkbox__input"
+        id="checkbox_mockLabel"
+        type="checkbox"
+      />
+      <label
+        class="zep-checkbox__label"
+        for="checkbox_mockLabel"
       >
-        mockTitle
-      </span>
-      <span
-        aria-hidden="true"
-      >
-        ▾
-      </span>
-    </button>
+        mockLabel
+      </label>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

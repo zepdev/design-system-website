@@ -10,6 +10,9 @@
   "guidelines": {
     "title": "Guidelines",
     "subnav": {
+      "theme": {
+        "title": "Theme"
+      },
       "color": {
         "title": "Color"
       },
