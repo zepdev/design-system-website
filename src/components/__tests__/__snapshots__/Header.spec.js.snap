@@ -115,18 +115,8 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               />
             </svg>
             <div />
-<<<<<<< HEAD
-            <button
-              aria-expanded="false"
-              aria-haspopup="menu"
-              class="zep-button zep-button-primary"
-              data-reach-menu-button="true"
-              id="button-bubrdu8f"
-              type="button"
-=======
             <div
               class="Header-menuContainer-0-1-5"
->>>>>>> development
             >
               <p
                 class="Header-menuText-0-1-6 zep-typo-normal-2"
@@ -138,7 +128,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 aria-haspopup="menu"
                 class="Dropdown-menuButton-0-1-12 zep-button zep-input"
                 data-reach-menu-button="true"
-                id="button-r31ducsm"
+                id="button-8aakv4gj"
                 type="button"
               >
                 <span
@@ -266,18 +256,8 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             />
           </svg>
           <div />
-<<<<<<< HEAD
-          <button
-            aria-expanded="false"
-            aria-haspopup="menu"
-            class="zep-button zep-button-primary"
-            data-reach-menu-button="true"
-            id="button-bubrdu8f"
-            type="button"
-=======
           <div
             class="Header-menuContainer-0-1-5"
->>>>>>> development
           >
             <p
               class="Header-menuText-0-1-6 zep-typo-normal-2"
@@ -289,7 +269,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               aria-haspopup="menu"
               class="Dropdown-menuButton-0-1-12 zep-button zep-input"
               data-reach-menu-button="true"
-              id="button-r31ducsm"
+              id="button-8aakv4gj"
               type="button"
             >
               <span

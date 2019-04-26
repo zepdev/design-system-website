@@ -1,63 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NumberInput renders correctly 1`] = `
+exports[`Dropdown renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <button
-        class="zep-button zep-button--number-input"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        class="Dropdown-menuButton-0-1-5 zep-button zep-input"
+        data-reach-menu-button="true"
+        id="button-7h4okute"
+        type="button"
       >
         <span
-          aria-label="minus"
-          class="zepicons zepicons-minus"
+          class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
         />
-      </button>
-      <label
-        class="zep-visually-hidden"
-        for="numberInput_mockLabel"
-      >
-        mockLabel
-      </label>
-      <input
-        class="zep-input zep-input--number zep-input"
-        value="0"
-      />
-      <button
-        class="zep-button zep-button--number-input"
-      >
-        <span
-          aria-label="plus"
-          class="zepicons zepicons-plus"
+        <i
+          aria-hidden="true"
+          class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="zep-button zep-button--number-input"
+      aria-expanded="false"
+      aria-haspopup="menu"
+      class="Dropdown-menuButton-0-1-5 zep-button zep-input"
+      data-reach-menu-button="true"
+      id="button-7h4okute"
+      type="button"
     >
       <span
-        aria-label="minus"
-        class="zepicons zepicons-minus"
+        class="Dropdown-circle-0-1-1 Dropdown-zeppelin-0-1-2"
       />
-    </button>
-    <label
-      class="zep-visually-hidden"
-      for="numberInput_mockLabel"
-    >
-      mockLabel
-    </label>
-    <input
-      class="zep-input zep-input--number zep-input"
-      value="0"
-    />
-    <button
-      class="zep-button zep-button--number-input"
-    >
-      <span
-        aria-label="plus"
-        class="zepicons zepicons-plus"
+      <i
+        aria-hidden="true"
+        class="Dropdown-icon-0-1-6 zepicons zepicons-navigation-dropdown"
       />
     </button>
   </div>,

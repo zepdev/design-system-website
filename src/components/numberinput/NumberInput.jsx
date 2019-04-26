@@ -11,7 +11,7 @@ function NumberInput({ label }) {
       <button className="zep-button zep-button--number-input" onClick={() => setCount(count - 1)}>
         <span className="zepicons zepicons-minus" aria-label="minus" />
       </button>
-      <label className="zep-visually-hidden" for={`numberInput_${ label }`}>
+      <label className="zep-visually-hidden" htmlFor={`numberInput_${ label }`}>
         {label}
       </label>
       <Input

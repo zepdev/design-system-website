@@ -1,24 +1,22 @@
 import React from 'react'
 import { fireEvent, render } from 'react-testing-library'
 import NumberInput from '../NumberInput'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
 describe('NumberInput', () => {
   it('renders correctly', () => {
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <NumberInput />
-      </ThemeProvider>
-    )
+    const mockProps = {
+      label: 'mockLabel',
+    }
+    const component = render(<NumberInput {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 
   it('increases/decreseas value if plus/minus button clicked', () => {
+    const mockProps = {
+      label: 'mockLabel',
+    }
     const { getByLabelText, getByDisplayValue } = render(
-      <ThemeProvider theme={theme}>
-        <NumberInput />
-      </ThemeProvider>
+      <NumberInput {...mockProps} />
     )
 
     const minusButton = getByLabelText('minus')
