@@ -6,15 +6,15 @@ const ListItem = ({ variant, label, children, className: classNameProp }) => (
   <li
     data-testid="listItem"
     className={classnames(
+      'zep-list__item',
       {
-        'zep-list-bullet__item': variant === 'bullet',
-        'zep-list-attribute__item': variant === 'attribute',
+        'zep-list__item--attribute': variant === 'attribute',
       },
       classNameProp
     )}
   >
     {variant === 'attribute' && label && (
-      <span data-testid="listItemLabel" className="zep-list-attribute__label">
+      <span data-testid="listItemLabel" className="zep-list__label">
         {label}
       </span>
     )}

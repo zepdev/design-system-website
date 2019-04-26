@@ -10,18 +10,7 @@ const List = ({ variant: variantProp, className: classNameProp, children: childr
     })
   })
 
-  return (
-    <ul
-      className={classnames(
-        {
-          'zep-list-bullet': variant === 'bullet',
-        },
-        classNameProp
-      )}
-    >
-      {children}
-    </ul>
-  )
+  return <ul className={classnames('zep-list', classNameProp)}>{children}</ul>
 }
 
 List.propTypes = {

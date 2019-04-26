@@ -6,13 +6,13 @@ Object {
   "baseElement": <body>
     <div>
       <ul
-        class="zep-list-bullet"
+        class="zep-list"
       />
     </div>
   </body>,
   "container": <div>
     <ul
-      class="zep-list-bullet"
+      class="zep-list"
     />
   </div>,
   "debug": [Function],

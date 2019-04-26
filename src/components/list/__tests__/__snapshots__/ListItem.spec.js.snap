@@ -6,14 +6,14 @@ Object {
   "baseElement": <body>
     <div>
       <li
-        class=""
+        class="zep-list__item"
         data-testid="listItem"
       />
     </div>
   </body>,
   "container": <div>
     <li
-      class=""
+      class="zep-list__item"
       data-testid="listItem"
     />
   </div>,

@@ -95,12 +95,12 @@ module.exports = {
     demo: {
       bullet: {
         js: [
-          `<ul class="zep-list-bullet"><li class="zep-list-bullet__item">Bullet List Item</li></ul>`,
+          '<ul class="zep-list"><li class="zep-list__item">Bullet List Item</li></ul>',
         ],
       },
       attribute: {
         js: [
-          `<ul><li class="zep-list-attribute__item"><span class="zep-list-attribute__label">label</span>Attribute List Item</li></ul>`,
+          '<ul class="zep-list"><li class="zep-list__item zep-list__item--attribute"><span class="zep-list__label">label</span>Attribute List Item</li></ul>',
         ],
       },
     },
