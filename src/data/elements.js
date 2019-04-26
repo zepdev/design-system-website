@@ -45,9 +45,15 @@ module.exports = {
           '<input type="text" id="text" name="text" min="10" max="100" class="zep-input zep-input-text">',
         ],
       },
-      number: {
+    },
+  },
+  numberInput: {
+    demo: {
+      primary: {
         js: [
-          '<input type="number" id="number" name="number" min="10" max="100" class="zep-input zep-input-number">',
+          `<div class="zep-numberinput">
+          <button class="zep-button zep-button--number-input"><span class="zepicons zepicons-minus" /></button><input type="text" class="zep-input zep-input--number" value="1"/><button class="zep-button zep-button--number-input"><span class="zepicons zepicons-plus" /></button>
+          </div>`,
         ],
       },
     },
@@ -200,16 +206,5 @@ module.exports = {
       'kununu',
       'instagram',
     ],
-  },
-  numberInput: {
-    demo: {
-      primary: {
-        js: [
-          `<div class="zep-numberinput">
-          <button class="zep-button zep-button--number-input"><span class="zepicons zepicons-minus" /></button><input type="text" class="zep-input zep-input--number" value="1"/><button class="zep-button zep-button--number-input"><span class="zepicons zepicons-plus" /></button>
-          </div>`,
-        ],
-      },
-    },
   },
 }
