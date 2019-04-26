@@ -1,0 +1,38 @@
+---
+label: numberInputCodeExample_Vue
+title: Code
+---
+
+```html
+<!--
+    ------------------------------------
+    vue.js Single File Component example
+    ------------------------------------
+
+    use as:
+
+    <NumberInput />
+-->
+<template>
+  <div class="zep-numberinput">
+    <button class="zep-button zep-button--number-input" v-on:click="count--">
+      <span class="zepicons zepicons-minus" />
+    </button>
+    <input class="zep-input zep-input--number" v-model.number="count" />
+    <button class="zep-button zep-button--number-input" v-on:click="count++">
+      <span class="zepicons zepicons-plus" />
+    </button>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'NumberInput',
+    data: function() {
+      return {
+        count: 0,
+      }
+    },
+  }
+</script>
+```

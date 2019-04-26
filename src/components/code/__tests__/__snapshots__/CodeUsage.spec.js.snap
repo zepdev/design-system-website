@@ -73,12 +73,12 @@ Object {
             </div>
           </div>
           <button
-            class="ButtonBase-button-0-1-11 CopyButton-button-0-1-13"
+            class="ButtonBase-button-0-1-11 CopyButton-button-0-1-12"
             data-testid="copyButton"
           >
             <svg
               aria-labelledby="title"
-              class="CopyButton-icon-0-1-14"
+              class="CopyButton-icon-0-1-13"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -168,12 +168,12 @@ Object {
           </div>
         </div>
         <button
-          class="ButtonBase-button-0-1-11 CopyButton-button-0-1-13"
+          class="ButtonBase-button-0-1-11 CopyButton-button-0-1-12"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title"
-            class="CopyButton-icon-0-1-14"
+            class="CopyButton-icon-0-1-13"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -215,41 +215,33 @@ Object {
   "getAllByLabelText": [Function],
   "getAllByPlaceholderText": [Function],
   "getAllByRole": [Function],
-  "getAllBySelectText": [Function],
   "getAllByTestId": [Function],
   "getAllByText": [Function],
   "getAllByTitle": [Function],
-  "getAllByValue": [Function],
   "getByAltText": [Function],
   "getByDisplayValue": [Function],
   "getByLabelText": [Function],
   "getByPlaceholderText": [Function],
   "getByRole": [Function],
-  "getBySelectText": [Function],
   "getByTestId": [Function],
   "getByText": [Function],
   "getByTitle": [Function],
-  "getByValue": [Function],
   "queryAllByAltText": [Function],
   "queryAllByDisplayValue": [Function],
   "queryAllByLabelText": [Function],
   "queryAllByPlaceholderText": [Function],
   "queryAllByRole": [Function],
-  "queryAllBySelectText": [Function],
   "queryAllByTestId": [Function],
   "queryAllByText": [Function],
   "queryAllByTitle": [Function],
-  "queryAllByValue": [Function],
   "queryByAltText": [Function],
   "queryByDisplayValue": [Function],
   "queryByLabelText": [Function],
   "queryByPlaceholderText": [Function],
   "queryByRole": [Function],
-  "queryBySelectText": [Function],
   "queryByTestId": [Function],
   "queryByText": [Function],
   "queryByTitle": [Function],
-  "queryByValue": [Function],
   "rerender": [Function],
   "unmount": [Function],
 }

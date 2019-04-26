@@ -16,12 +16,14 @@ function Button({ children, className: classNameProp, color, disabled, ...other 
     {
       ['zep-button-primary']: color === 'primary',
       ['zep-button-secondary']: color === 'secondary',
+      ['zep-button-primary--disabled']: color === 'primary' && disabled,
+      ['zep-button-secondary--disabled']: color === 'secondary' && disabled,
     },
     classNameProp
   )
   return (
     <ButtonBase className={className} disabled={disabled} {...other}>
-      {children}
+      <span className="zep-button__text">{children}</span>
     </ButtonBase>
   )
 }
@@ -56,9 +58,6 @@ const styles = {
       outline: 'none',
     },
   },
-  disabled: {
-    cursor: 'auto',
-  },
 }
 
 function ButtonBase({
@@ -75,7 +74,6 @@ function ButtonBase({
     classes.button,
     {
       ['zep-button--full']: fullWidth,
-      [classes.disabled]: disabled,
     },
     classNameProp
   )

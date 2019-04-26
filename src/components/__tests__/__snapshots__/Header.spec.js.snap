@@ -13,7 +13,7 @@ Object {
             class="Header-container-0-1-2"
           >
             <button
-              class="ButtonBase-button-0-1-5 Header-button-0-1-3 zep-button"
+              class="ButtonBase-button-0-1-7 Header-button-0-1-3 zep-button"
               data-testid="mobileMenuButton"
             >
               <svg
@@ -115,25 +115,31 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               />
             </svg>
             <div />
-            <button
-              aria-expanded="false"
-              aria-haspopup="menu"
-              class="zep-button zep-button-primary"
-              data-reach-menu-button="true"
-              id="button-aacvrfmr"
-              type="button"
+            <div
+              class="Header-menuContainer-0-1-5"
             >
-              <span
-                class="zep-button__text"
+              <p
+                class="Header-menuText-0-1-6 zep-typo-normal-2"
               >
-                Theme
-              </span>
-              <span
-                aria-hidden="true"
+                Theme:
+              </p>
+              <button
+                aria-expanded="false"
+                aria-haspopup="menu"
+                class="Dropdown-menuButton-0-1-13 zep-button zep-input"
+                data-reach-menu-button="true"
+                id="button-sau74fhs"
+                type="button"
               >
-                ▾
-              </span>
-            </button>
+                <span
+                  class="Dropdown-circle-0-1-8"
+                />
+                <i
+                  aria-hidden="true"
+                  class="Dropdown-icon-0-1-14 zepicons zepicons-navigation-dropdown"
+                />
+              </button>
+            </div>
           </div>
         </div>
       </header>
@@ -148,7 +154,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           class="Header-container-0-1-2"
         >
           <button
-            class="ButtonBase-button-0-1-5 Header-button-0-1-3 zep-button"
+            class="ButtonBase-button-0-1-7 Header-button-0-1-3 zep-button"
             data-testid="mobileMenuButton"
           >
             <svg
@@ -250,25 +256,31 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             />
           </svg>
           <div />
-          <button
-            aria-expanded="false"
-            aria-haspopup="menu"
-            class="zep-button zep-button-primary"
-            data-reach-menu-button="true"
-            id="button-aacvrfmr"
-            type="button"
+          <div
+            class="Header-menuContainer-0-1-5"
           >
-            <span
-              class="zep-button__text"
+            <p
+              class="Header-menuText-0-1-6 zep-typo-normal-2"
             >
-              Theme
-            </span>
-            <span
-              aria-hidden="true"
+              Theme:
+            </p>
+            <button
+              aria-expanded="false"
+              aria-haspopup="menu"
+              class="Dropdown-menuButton-0-1-13 zep-button zep-input"
+              data-reach-menu-button="true"
+              id="button-sau74fhs"
+              type="button"
             >
-              ▾
-            </span>
-          </button>
+              <span
+                class="Dropdown-circle-0-1-8"
+              />
+              <i
+                aria-hidden="true"
+                class="Dropdown-icon-0-1-14 zepicons zepicons-navigation-dropdown"
+              />
+            </button>
+          </div>
         </div>
       </div>
     </header>
@@ -295,41 +307,33 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
   "getAllByLabelText": [Function],
   "getAllByPlaceholderText": [Function],
   "getAllByRole": [Function],
-  "getAllBySelectText": [Function],
   "getAllByTestId": [Function],
   "getAllByText": [Function],
   "getAllByTitle": [Function],
-  "getAllByValue": [Function],
   "getByAltText": [Function],
   "getByDisplayValue": [Function],
   "getByLabelText": [Function],
   "getByPlaceholderText": [Function],
   "getByRole": [Function],
-  "getBySelectText": [Function],
   "getByTestId": [Function],
   "getByText": [Function],
   "getByTitle": [Function],
-  "getByValue": [Function],
   "queryAllByAltText": [Function],
   "queryAllByDisplayValue": [Function],
   "queryAllByLabelText": [Function],
   "queryAllByPlaceholderText": [Function],
   "queryAllByRole": [Function],
-  "queryAllBySelectText": [Function],
   "queryAllByTestId": [Function],
   "queryAllByText": [Function],
   "queryAllByTitle": [Function],
-  "queryAllByValue": [Function],
   "queryByAltText": [Function],
   "queryByDisplayValue": [Function],
   "queryByLabelText": [Function],
   "queryByPlaceholderText": [Function],
   "queryByRole": [Function],
-  "queryBySelectText": [Function],
   "queryByTestId": [Function],
   "queryByText": [Function],
   "queryByTitle": [Function],
-  "queryByValue": [Function],
   "rerender": [Function],
   "unmount": [Function],
 }

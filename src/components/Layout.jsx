@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import { StaticQuery, graphql } from 'gatsby'
-import { MDXProvider } from '@mdx-js/tag'
+import { MDXProvider } from '@mdx-js/react'
 import classnames from 'classnames'
 import withStyles from 'react-jss'
 import Header from './Header'
@@ -90,39 +90,24 @@ function Layout({ children, classes }) {
   const [theme, setTheme] = useState('zeppelin')
 
   const handleTheme = theme => {
-    console.log(theme)
     setTheme(theme)
   }
 
   // Styles for mdx/md pages
   const h1Styled = props => (
-    <h1
-      className={classnames(classes.h1Styled, 'zep-typo--display-1')}
-      {...props}
-    />
+    <h1 className={classnames(classes.h1Styled, 'zep-typo--display-1')} {...props} />
   )
   const h2Styled = props => (
-    <h2
-      className={classnames(classes.hStyled, 'zep-typo--normal-6')}
-      {...props}
-    />
+    <h2 className={classnames(classes.hStyled, 'zep-typo--normal-6')} {...props} />
   )
   const h3Styled = props => (
-    <h3
-      className={classnames(classes.hStyled, 'zep-typo--normal-4')}
-      {...props}
-    />
+    <h3 className={classnames(classes.hStyled, 'zep-typo--normal-4')} {...props} />
   )
   const pStyled = props => (
-    <p
-      className={classnames(classes.pStyled, 'zep-typo--normal-3')}
-      {...props}
-    />
+    <p className={classnames(classes.pStyled, 'zep-typo--normal-3')} {...props} />
   )
   const hrStyled = () => (
-    <hr
-      className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')}
-    />
+    <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
   )
 
   const aStyled = props => <a className={classes.aStyled} {...props} />
@@ -173,6 +158,7 @@ function Layout({ children, classes }) {
                   handleMenu={() => {
                     setMenu(!isMenuOpen)
                   }}
+                  theme={theme}
                 />
                 <SkipNavContent />
                 <MDXProvider components={components}>

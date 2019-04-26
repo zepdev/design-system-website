@@ -1,3 +1,35 @@
+# [0.7.0](https://github.com/zepdev/zeppelin-element-library/compare/v0.6.0...v0.7.0) (2019-04-25)
+
+### Bug Fixes
+
+- **checkbox:** fixed disable colors ([2c72c6e](https://github.com/zepdev/zeppelin-element-library/commit/2c72c6e))
+- **style:** fixed button disabled styles ([0af8cb5](https://github.com/zepdev/zeppelin-element-library/commit/0af8cb5))
+- **style:** fixed iconfont path issues in ([54c5443](https://github.com/zepdev/zeppelin-element-library/commit/54c5443))
+- **theme:** Mapped theme.json color objects to sass color maps ([0852bcf](https://github.com/zepdev/zeppelin-element-library/commit/0852bcf))
+
+### Features
+
+- **list:** Attribute and Buttet List Items ([430d30c](https://github.com/zepdev/zeppelin-element-library/commit/430d30c))
+
+# [0.6.0](https://github.com/zepdev/zeppelin-element-library/compare/v0.5.0...v0.6.0) (2019-04-23)
+
+### Bug Fixes
+
+- **checkbox:** integrate new icons ([af838b1](https://github.com/zepdev/zeppelin-element-library/commit/af838b1))
+- **checkbox:** styled checkbox according to zeppelin designs ([5084d10](https://github.com/zepdev/zeppelin-element-library/commit/5084d10))
+- **CSS:** Isolate icons classes to extra css ([545dc00](https://github.com/zepdev/zeppelin-element-library/commit/545dc00))
+- **Input:** Add styles for base input, refactor numberInput ([7b030cb](https://github.com/zepdev/zeppelin-element-library/commit/7b030cb))
+- **layout:** fixed grid margins ([bdd90a9](https://github.com/zepdev/zeppelin-element-library/commit/bdd90a9))
+- **layout:** grid col calculation ([182cacd](https://github.com/zepdev/zeppelin-element-library/commit/182cacd))
+- **NumberInput:** Switch to icon font ([ea8f2e8](https://github.com/zepdev/zeppelin-element-library/commit/ea8f2e8))
+
+### Features
+
+- **checkbox:** basic layout of checkbox added ([e69a739](https://github.com/zepdev/zeppelin-element-library/commit/e69a739))
+- **layout:** added basic flexbox grid ([b626321](https://github.com/zepdev/zeppelin-element-library/commit/b626321))
+- **layout:** added cards grid ([db68b8c](https://github.com/zepdev/zeppelin-element-library/commit/db68b8c))
+- **number-input:** Added new number-input component ([9d069ed](https://github.com/zepdev/zeppelin-element-library/commit/9d069ed))
+
 # [0.5.0](https://github.com/zepdev/zeppelin-element-library/compare/v0.4.5...v0.5.0) (2019-04-16)
 
 ### Bug Fixes

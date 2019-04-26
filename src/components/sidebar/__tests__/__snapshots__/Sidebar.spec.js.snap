@@ -177,6 +177,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             <li>
               <a
                 class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
+                href="/content/changelog/"
+              >
+                Changelog
+              </a>
+            </li>
+            <li>
+              <a
+                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
                 href="/content/download/"
               >
                 Download
@@ -360,6 +368,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           <li>
             <a
               class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
+              href="/content/changelog/"
+            >
+              Changelog
+            </a>
+          </li>
+          <li>
+            <a
+              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
               href="/content/download/"
             >
               Download
@@ -391,41 +407,33 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
   "getAllByLabelText": [Function],
   "getAllByPlaceholderText": [Function],
   "getAllByRole": [Function],
-  "getAllBySelectText": [Function],
   "getAllByTestId": [Function],
   "getAllByText": [Function],
   "getAllByTitle": [Function],
-  "getAllByValue": [Function],
   "getByAltText": [Function],
   "getByDisplayValue": [Function],
   "getByLabelText": [Function],
   "getByPlaceholderText": [Function],
   "getByRole": [Function],
-  "getBySelectText": [Function],
   "getByTestId": [Function],
   "getByText": [Function],
   "getByTitle": [Function],
-  "getByValue": [Function],
   "queryAllByAltText": [Function],
   "queryAllByDisplayValue": [Function],
   "queryAllByLabelText": [Function],
   "queryAllByPlaceholderText": [Function],
   "queryAllByRole": [Function],
-  "queryAllBySelectText": [Function],
   "queryAllByTestId": [Function],
   "queryAllByText": [Function],
   "queryAllByTitle": [Function],
-  "queryAllByValue": [Function],
   "queryByAltText": [Function],
   "queryByDisplayValue": [Function],
   "queryByLabelText": [Function],
   "queryByPlaceholderText": [Function],
   "queryByRole": [Function],
-  "queryBySelectText": [Function],
   "queryByTestId": [Function],
   "queryByText": [Function],
   "queryByTitle": [Function],
-  "queryByValue": [Function],
   "rerender": [Function],
   "unmount": [Function],
 }

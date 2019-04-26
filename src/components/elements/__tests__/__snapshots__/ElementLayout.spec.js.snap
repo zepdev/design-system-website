@@ -29,18 +29,18 @@ Object {
         </button>
       </div>
       <p
-        class="Headline-text-0-1-16 zep-typo--normal-4"
+        class="Headline-text-0-1-15 zep-typo--normal-4"
       >
         primary
       </p>
       <div
-        class="ElementPreview-htmlContainer-0-1-13"
+        class="ElementPreview-htmlContainer-0-1-12"
       >
         <div
-          class="ElementPreview-innerContainer-0-1-14"
+          class="ElementPreview-innerContainer-0-1-13"
         >
           <div
-            class="ElementPreview-element-0-1-15"
+            class="ElementPreview-element-0-1-14"
           >
             <button
               class="zep-button zep-button-primary"
@@ -54,10 +54,11 @@ Object {
             </button>
           </div>
           <div
-            class="ElementPreview-element-0-1-15"
+            class="ElementPreview-element-0-1-14"
           >
             <button
-              class="zep-button zep-button-primary zep-button-primary--disabled"
+              class="zep-button zep-button-primary"
+              disabled=""
               type="button"
             >
               <span
@@ -275,7 +276,12 @@ Object {
               class="token string"
               style="color: rgb(255, 101, 98);"
             >
-              "zep-button zep-button-primary zep-button-primary--disabled"
+              "zep-button zep-button-primary"
+            </span>
+            <span
+              class="token plain"
+            >
+               disabled
             </span>
             <span
               class="token operator"
@@ -372,12 +378,12 @@ Object {
           </div>
         </div>
         <button
-          class="ButtonBase-button-0-1-11 CopyButton-button-0-1-17"
+          class="ButtonBase-button-0-1-11 CopyButton-button-0-1-16"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title"
-            class="CopyButton-icon-0-1-18"
+            class="CopyButton-icon-0-1-17"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -396,18 +402,18 @@ Object {
         </button>
       </pre>
       <p
-        class="Headline-text-0-1-16 zep-typo--normal-4"
+        class="Headline-text-0-1-15 zep-typo--normal-4"
       >
         secondary
       </p>
       <div
-        class="ElementPreview-htmlContainer-0-1-13"
+        class="ElementPreview-htmlContainer-0-1-12"
       >
         <div
-          class="ElementPreview-innerContainer-0-1-14"
+          class="ElementPreview-innerContainer-0-1-13"
         >
           <div
-            class="ElementPreview-element-0-1-15"
+            class="ElementPreview-element-0-1-14"
           >
             <button
               class="zep-button zep-button-secondary"
@@ -421,21 +427,18 @@ Object {
             </button>
           </div>
           <div
-            class="ElementPreview-element-0-1-15"
+            class="ElementPreview-element-0-1-14"
           >
             <button
-              class="zep-button zep-button-secondary zep-button-secondary--disabled"
+              class="zep-button zep-button-secondary"
+              disabled=""
               type="button"
             >
-              
-          
               <span
                 class="zep-button__text"
               >
                 Disabled
               </span>
-              
-          
             </button>
           </div>
         </div>
@@ -598,7 +601,6 @@ Object {
           <div
             class="token-line"
             data-testid="code"
-            style="padding-bottom: 12px;"
           >
             <span
               class="token plain"
@@ -647,27 +649,18 @@ Object {
               class="token string"
               style="color: rgb(255, 101, 98);"
             >
-              "zep-button zep-button-secondary zep-button-secondary--disabled"
+              "zep-button zep-button-secondary"
+            </span>
+            <span
+              class="token plain"
+            >
+               disabled
             </span>
             <span
               class="token operator"
               style="color: rgb(91, 192, 222);"
             >
               &gt;
-            </span>
-            <span
-              class="token plain"
-            />
-          </div>
-          <div
-            class="token-line"
-            data-testid="code"
-            style="padding-bottom: 12px;"
-          >
-            <span
-              class="token plain"
-            >
-                        
             </span>
             <span
               class="token operator"
@@ -733,19 +726,6 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
-            />
-          </div>
-          <div
-            class="token-line"
-            data-testid="code"
-          >
-            <span
-              class="token plain"
-            >
-                        
-            </span>
-            <span
               class="token operator"
               style="color: rgb(91, 192, 222);"
             >
@@ -771,12 +751,12 @@ Object {
           </div>
         </div>
         <button
-          class="ButtonBase-button-0-1-11 CopyButton-button-0-1-17"
+          class="ButtonBase-button-0-1-11 CopyButton-button-0-1-16"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title"
-            class="CopyButton-icon-0-1-18"
+            class="CopyButton-icon-0-1-17"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -821,18 +801,18 @@ Object {
       </button>
     </div>
     <p
-      class="Headline-text-0-1-16 zep-typo--normal-4"
+      class="Headline-text-0-1-15 zep-typo--normal-4"
     >
       primary
     </p>
     <div
-      class="ElementPreview-htmlContainer-0-1-13"
+      class="ElementPreview-htmlContainer-0-1-12"
     >
       <div
-        class="ElementPreview-innerContainer-0-1-14"
+        class="ElementPreview-innerContainer-0-1-13"
       >
         <div
-          class="ElementPreview-element-0-1-15"
+          class="ElementPreview-element-0-1-14"
         >
           <button
             class="zep-button zep-button-primary"
@@ -846,10 +826,11 @@ Object {
           </button>
         </div>
         <div
-          class="ElementPreview-element-0-1-15"
+          class="ElementPreview-element-0-1-14"
         >
           <button
-            class="zep-button zep-button-primary zep-button-primary--disabled"
+            class="zep-button zep-button-primary"
+            disabled=""
             type="button"
           >
             <span
@@ -1067,7 +1048,12 @@ Object {
             class="token string"
             style="color: rgb(255, 101, 98);"
           >
-            "zep-button zep-button-primary zep-button-primary--disabled"
+            "zep-button zep-button-primary"
+          </span>
+          <span
+            class="token plain"
+          >
+             disabled
           </span>
           <span
             class="token operator"
@@ -1164,12 +1150,12 @@ Object {
         </div>
       </div>
       <button
-        class="ButtonBase-button-0-1-11 CopyButton-button-0-1-17"
+        class="ButtonBase-button-0-1-11 CopyButton-button-0-1-16"
         data-testid="copyButton"
       >
         <svg
           aria-labelledby="title"
-          class="CopyButton-icon-0-1-18"
+          class="CopyButton-icon-0-1-17"
           height="32"
           viewBox="0 0 24 24"
           width="32"
@@ -1188,18 +1174,18 @@ Object {
       </button>
     </pre>
     <p
-      class="Headline-text-0-1-16 zep-typo--normal-4"
+      class="Headline-text-0-1-15 zep-typo--normal-4"
     >
       secondary
     </p>
     <div
-      class="ElementPreview-htmlContainer-0-1-13"
+      class="ElementPreview-htmlContainer-0-1-12"
     >
       <div
-        class="ElementPreview-innerContainer-0-1-14"
+        class="ElementPreview-innerContainer-0-1-13"
       >
         <div
-          class="ElementPreview-element-0-1-15"
+          class="ElementPreview-element-0-1-14"
         >
           <button
             class="zep-button zep-button-secondary"
@@ -1213,21 +1199,18 @@ Object {
           </button>
         </div>
         <div
-          class="ElementPreview-element-0-1-15"
+          class="ElementPreview-element-0-1-14"
         >
           <button
-            class="zep-button zep-button-secondary zep-button-secondary--disabled"
+            class="zep-button zep-button-secondary"
+            disabled=""
             type="button"
           >
-            
-          
             <span
               class="zep-button__text"
             >
               Disabled
             </span>
-            
-          
           </button>
         </div>
       </div>
@@ -1390,7 +1373,6 @@ Object {
         <div
           class="token-line"
           data-testid="code"
-          style="padding-bottom: 12px;"
         >
           <span
             class="token plain"
@@ -1439,27 +1421,18 @@ Object {
             class="token string"
             style="color: rgb(255, 101, 98);"
           >
-            "zep-button zep-button-secondary zep-button-secondary--disabled"
+            "zep-button zep-button-secondary"
+          </span>
+          <span
+            class="token plain"
+          >
+             disabled
           </span>
           <span
             class="token operator"
             style="color: rgb(91, 192, 222);"
           >
             &gt;
-          </span>
-          <span
-            class="token plain"
-          />
-        </div>
-        <div
-          class="token-line"
-          data-testid="code"
-          style="padding-bottom: 12px;"
-        >
-          <span
-            class="token plain"
-          >
-                      
           </span>
           <span
             class="token operator"
@@ -1525,19 +1498,6 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
-          />
-        </div>
-        <div
-          class="token-line"
-          data-testid="code"
-        >
-          <span
-            class="token plain"
-          >
-                      
-          </span>
-          <span
             class="token operator"
             style="color: rgb(91, 192, 222);"
           >
@@ -1563,12 +1523,12 @@ Object {
         </div>
       </div>
       <button
-        class="ButtonBase-button-0-1-11 CopyButton-button-0-1-17"
+        class="ButtonBase-button-0-1-11 CopyButton-button-0-1-16"
         data-testid="copyButton"
       >
         <svg
           aria-labelledby="title"
-          class="CopyButton-icon-0-1-18"
+          class="CopyButton-icon-0-1-17"
           height="32"
           viewBox="0 0 24 24"
           width="32"
@@ -1609,41 +1569,33 @@ Object {
   "getAllByLabelText": [Function],
   "getAllByPlaceholderText": [Function],
   "getAllByRole": [Function],
-  "getAllBySelectText": [Function],
   "getAllByTestId": [Function],
   "getAllByText": [Function],
   "getAllByTitle": [Function],
-  "getAllByValue": [Function],
   "getByAltText": [Function],
   "getByDisplayValue": [Function],
   "getByLabelText": [Function],
   "getByPlaceholderText": [Function],
   "getByRole": [Function],
-  "getBySelectText": [Function],
   "getByTestId": [Function],
   "getByText": [Function],
   "getByTitle": [Function],
-  "getByValue": [Function],
   "queryAllByAltText": [Function],
   "queryAllByDisplayValue": [Function],
   "queryAllByLabelText": [Function],
   "queryAllByPlaceholderText": [Function],
   "queryAllByRole": [Function],
-  "queryAllBySelectText": [Function],
   "queryAllByTestId": [Function],
   "queryAllByText": [Function],
   "queryAllByTitle": [Function],
-  "queryAllByValue": [Function],
   "queryByAltText": [Function],
   "queryByDisplayValue": [Function],
   "queryByLabelText": [Function],
   "queryByPlaceholderText": [Function],
   "queryByRole": [Function],
-  "queryBySelectText": [Function],
   "queryByTestId": [Function],
   "queryByText": [Function],
   "queryByTitle": [Function],
-  "queryByValue": [Function],
   "rerender": [Function],
   "unmount": [Function],
 }

@@ -10,6 +10,9 @@
   "guidelines": {
     "title": "Guidelines",
     "subnav": {
+      "theme": {
+        "title": "Theme"
+      },
       "color": {
         "title": "Color"
       },
@@ -50,6 +53,9 @@
       },
       "checkbox": {
         "title": "checkbox"
+      },
+      "numberInput": {
+        "title": "Number Input"
       }
     }
   },

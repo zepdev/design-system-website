@@ -17,9 +17,6 @@ const styles = {
       outline: 'none',
     },
   },
-  disabled: {
-    cursor: 'auto',
-  },
 }
 
 function ButtonBase({
@@ -37,7 +34,6 @@ function ButtonBase({
     {
       // eslint-disable-next-line
       ['zep-button--full']: fullWidth,
-      [classes.disabled]: disabled,
     },
     classNameProp
   )

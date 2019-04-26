@@ -29,7 +29,7 @@ Object {
         </button>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Icon Packages
       </p>
@@ -39,27 +39,27 @@ Object {
         If you would like to download and use these styles for your own purposes directly in your project you may download the minified file below.
       </p>
       <div
-        class="DownloadContainer-root-0-1-22"
+        class="DownloadContainer-root-0-1-21"
       >
         <div
-          class="DownloadFile-root-0-1-23"
+          class="DownloadFile-root-0-1-22"
         >
           <p
-            class="zep-typo--normal-3 DownloadFile-text-0-1-26"
+            class="zep-typo--normal-3 DownloadFile-text-0-1-25"
           >
             Zeppelin iconography library
           </p>
           <div
-            class="DownloadFile-container-0-1-24"
+            class="DownloadFile-container-0-1-23"
           >
             <button
               aria-label="download"
-              class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-29"
+              class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-28"
               data-testid="downloadButton"
             >
               <svg
                 aria-labelledby="title"
-                class="DownloadFile-icon-0-1-30"
+                class="DownloadFile-icon-0-1-29"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -79,29 +79,29 @@ Object {
           </div>
         </div>
         <div
-          class="DownloadFile-root-0-1-23"
+          class="DownloadFile-root-0-1-22"
         >
           <p
-            class="zep-typo--normal-3 DownloadFile-text-0-1-26"
+            class="zep-typo--normal-3 DownloadFile-text-0-1-25"
           >
             Sketch iconography kit
           </p>
           <div
-            class="DownloadFile-container-0-1-24 DownloadFile-iconContainer-0-1-25"
+            class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
           >
             <img
               alt="sketch logo"
-              class="DownloadFile-img-0-1-28"
+              class="DownloadFile-img-0-1-27"
               src="test-file-stub"
             />
             <button
               aria-label="download"
-              class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-29"
+              class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-28"
               data-testid="downloadButton"
             >
               <svg
                 aria-labelledby="title"
-                class="DownloadFile-icon-0-1-30"
+                class="DownloadFile-icon-0-1-29"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -122,10 +122,10 @@ Object {
         </div>
       </div>
       <hr
-        class="Divider-hr-0-1-31"
+        class="Divider-hr-0-1-30"
       />
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Action Icons
       </p>
@@ -3189,7 +3189,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Strategic Business Units Icons: Power Systems
       </p>
@@ -3339,7 +3339,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Strategic Business Units Icons: Zeppelin Cat
       </p>
@@ -3489,7 +3489,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Strategic Business Units Icons: Systems
       </p>
@@ -3686,7 +3686,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Strategic Business Units Icons: Rental
       </p>
@@ -3836,7 +3836,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Navigation Icons
       </p>
@@ -4221,7 +4221,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Indicator Icons
       </p>
@@ -4371,7 +4371,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Language Icons
       </p>
@@ -4756,7 +4756,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-21 zep-typo--normal-6"
+        class="Headline-text-0-1-20 zep-typo--normal-6"
       >
         Social Icons
       </p>
@@ -5167,7 +5167,7 @@ Object {
       </button>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Icon Packages
     </p>
@@ -5177,27 +5177,27 @@ Object {
       If you would like to download and use these styles for your own purposes directly in your project you may download the minified file below.
     </p>
     <div
-      class="DownloadContainer-root-0-1-22"
+      class="DownloadContainer-root-0-1-21"
     >
       <div
-        class="DownloadFile-root-0-1-23"
+        class="DownloadFile-root-0-1-22"
       >
         <p
-          class="zep-typo--normal-3 DownloadFile-text-0-1-26"
+          class="zep-typo--normal-3 DownloadFile-text-0-1-25"
         >
           Zeppelin iconography library
         </p>
         <div
-          class="DownloadFile-container-0-1-24"
+          class="DownloadFile-container-0-1-23"
         >
           <button
             aria-label="download"
-            class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-29"
+            class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-28"
             data-testid="downloadButton"
           >
             <svg
               aria-labelledby="title"
-              class="DownloadFile-icon-0-1-30"
+              class="DownloadFile-icon-0-1-29"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -5217,29 +5217,29 @@ Object {
         </div>
       </div>
       <div
-        class="DownloadFile-root-0-1-23"
+        class="DownloadFile-root-0-1-22"
       >
         <p
-          class="zep-typo--normal-3 DownloadFile-text-0-1-26"
+          class="zep-typo--normal-3 DownloadFile-text-0-1-25"
         >
           Sketch iconography kit
         </p>
         <div
-          class="DownloadFile-container-0-1-24 DownloadFile-iconContainer-0-1-25"
+          class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
         >
           <img
             alt="sketch logo"
-            class="DownloadFile-img-0-1-28"
+            class="DownloadFile-img-0-1-27"
             src="test-file-stub"
           />
           <button
             aria-label="download"
-            class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-29"
+            class="ButtonBase-button-0-1-19 DownloadFile-button-0-1-28"
             data-testid="downloadButton"
           >
             <svg
               aria-labelledby="title"
-              class="DownloadFile-icon-0-1-30"
+              class="DownloadFile-icon-0-1-29"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -5260,10 +5260,10 @@ Object {
       </div>
     </div>
     <hr
-      class="Divider-hr-0-1-31"
+      class="Divider-hr-0-1-30"
     />
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Action Icons
     </p>
@@ -8327,7 +8327,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Strategic Business Units Icons: Power Systems
     </p>
@@ -8477,7 +8477,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Strategic Business Units Icons: Zeppelin Cat
     </p>
@@ -8627,7 +8627,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Strategic Business Units Icons: Systems
     </p>
@@ -8824,7 +8824,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Strategic Business Units Icons: Rental
     </p>
@@ -8974,7 +8974,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Navigation Icons
     </p>
@@ -9359,7 +9359,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Indicator Icons
     </p>
@@ -9509,7 +9509,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Language Icons
     </p>
@@ -9894,7 +9894,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-21 zep-typo--normal-6"
+      class="Headline-text-0-1-20 zep-typo--normal-6"
     >
       Social Icons
     </p>
@@ -10301,41 +10301,33 @@ Object {
   "getAllByLabelText": [Function],
   "getAllByPlaceholderText": [Function],
   "getAllByRole": [Function],
-  "getAllBySelectText": [Function],
   "getAllByTestId": [Function],
   "getAllByText": [Function],
   "getAllByTitle": [Function],
-  "getAllByValue": [Function],
   "getByAltText": [Function],
   "getByDisplayValue": [Function],
   "getByLabelText": [Function],
   "getByPlaceholderText": [Function],
   "getByRole": [Function],
-  "getBySelectText": [Function],
   "getByTestId": [Function],
   "getByText": [Function],
   "getByTitle": [Function],
-  "getByValue": [Function],
   "queryAllByAltText": [Function],
   "queryAllByDisplayValue": [Function],
   "queryAllByLabelText": [Function],
   "queryAllByPlaceholderText": [Function],
   "queryAllByRole": [Function],
-  "queryAllBySelectText": [Function],
   "queryAllByTestId": [Function],
   "queryAllByText": [Function],
   "queryAllByTitle": [Function],
-  "queryAllByValue": [Function],
   "queryByAltText": [Function],
   "queryByDisplayValue": [Function],
   "queryByLabelText": [Function],
   "queryByPlaceholderText": [Function],
   "queryByRole": [Function],
-  "queryBySelectText": [Function],
   "queryByTestId": [Function],
   "queryByText": [Function],
   "queryByTitle": [Function],
-  "queryByValue": [Function],
   "rerender": [Function],
   "unmount": [Function],
 }
