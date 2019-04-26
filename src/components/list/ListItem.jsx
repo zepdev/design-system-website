@@ -4,7 +4,6 @@ import classnames from 'classnames'
 
 const ListItem = ({ variant, label, children, className: classNameProp }) => (
   <li
-    data-testid="listItem"
     className={classnames(
       'zep-list__item',
       {
@@ -13,11 +12,7 @@ const ListItem = ({ variant, label, children, className: classNameProp }) => (
       classNameProp
     )}
   >
-    {variant === 'attribute' && label && (
-      <span data-testid="listItemLabel" className="zep-list__label">
-        {label}
-      </span>
-    )}
+    {variant === 'attribute' && label && <span className="zep-list__label">{label}</span>}
     {children}
   </li>
 )

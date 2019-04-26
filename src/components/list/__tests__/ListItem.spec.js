@@ -13,21 +13,18 @@ describe('ListItem', () => {
       label: 'mockLabel',
       variant: 'bullet',
     }
-    const { getByTestId } = render(<ListItem {...mockProps} />)
-    const listItem = getByTestId('listItem')
-    expect(listItem).toHaveTextContent('mockText')
+    const { getByText } = render(<ListItem {...mockProps} />)
+    const listItem = getByText('mockText')
     expect(listItem).not.toHaveTextContent('mockLabel')
   })
   it('conditionally renders a label: label for attribute list', () => {
     const mockProps = {
+      children: 'mockText',
       label: 'mockLabel',
       variant: 'attribute',
     }
-    const { getByTestId, queryAllByTestId } = render(
-      <ListItem {...mockProps} />
-    )
-    const listItemLabel = getByTestId('listItemLabel')
-    expect(listItemLabel).toHaveTextContent('mockLabel')
-    expect(queryAllByTestId('listItemLabel')).not.toBeNull()
+    const { getByText } = render(<ListItem {...mockProps} />)
+    const listItem = getByText('mockText')
+    expect(listItem).toHaveTextContent('mockLabel')
   })
 })
