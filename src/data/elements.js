@@ -51,8 +51,8 @@ module.exports = {
     demo: {
       primary: {
         js: [
-          `<div class="zep-numberinput">
-          <button class="zep-button zep-button--number-input"><span class="zepicons zepicons-minus" /></button><input type="text" class="zep-input zep-input--number" value="1"/><button class="zep-button zep-button--number-input"><span class="zepicons zepicons-plus" /></button>
+          `<div>
+          <button class="zep-button zep-button--number-input"><span class="zepicons zepicons-minus" aria-label="minus" /></button><label for="counter" class="zep-visually-hidden">Counter</label><input type="text" class="zep-input zep-input--number" value="1" id="counter" /><button class="zep-button zep-button--number-input"><span class="zepicons zepicons-plus" aria-label="plus" /></button>
           </div>`,
         ],
       },

@@ -5,7 +5,15 @@ title: Number Input Usage
 
 # Developers
 
-### JS functionality
+### type="number" or type="text"
+
+Internet Explorer 9 does not support type="number" and so we have included this in our example code. However, if your project does not require ie9 compatibility, please feel free to use the more modern type="number" instead (check out the React Code Usage tab for an example).
+
+### Accessibility
+
+All input fields require a label to help explain the purpose of the field. In this specific case, since there is no label we still want to ensure that a label is present with the css 'zep-visually-hidden' so that it still accessible to assisitive technologies.
+
+### Vanilla Javascript functionality
 
 At the moment we do not provide any vanillaJS functionality for the number input, but this will be added in the future.
 If you use ReactJS or VueJS feel free to look into the provided examples.
