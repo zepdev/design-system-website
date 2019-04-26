@@ -6,7 +6,6 @@ import ButtonBase from '../components/button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
 import Dropdown from './dropdown/Dropdown'
-// import Searchbar from './searchbar/Searchbar'
 
 const styles = theme => ({
   root: {
@@ -37,6 +36,7 @@ const styles = theme => ({
     alignItems: 'center',
   },
   menuText: {
+    display: 'none',
     color: theme.colors.gray.black.hex,
     paddingRight: `${ theme.spacing.component.s.rem }rem`,
   },
@@ -65,6 +65,9 @@ const styles = theme => ({
     },
     icon: {
       display: 'none',
+    },
+    menuText: {
+      display: 'block',
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
@@ -95,7 +98,6 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => (
           <MenuIcon />
         </ButtonBase>
         <ZeppelinIcon className={classes.icon} />
-        {/* <Searchbar /> */}
         <div />
         <div className={classes.menuContainer}>
           <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>

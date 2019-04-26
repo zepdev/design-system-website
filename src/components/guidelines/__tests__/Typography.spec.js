@@ -25,7 +25,7 @@ describe('Typography', () => {
         <Typography {...mockProps} />
       </ThemeProvider>
     )
-    const span = getByTestId('specifications')
+    const span = getByTestId('specificationszep-typo--normal-1')
     expect(span.children).toHaveLength(4)
   })
 })
