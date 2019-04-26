@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player'
 
 const styles = theme => ({
   tabs: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
 })
 
