@@ -45,9 +45,15 @@ module.exports = {
           '<input type="text" id="text" name="text" min="10" max="100" class="zep-input zep-input-text">',
         ],
       },
-      number: {
+    },
+  },
+  numberInput: {
+    demo: {
+      primary: {
         js: [
-          '<input type="number" id="number" name="number" min="10" max="100" class="zep-input zep-input-number">',
+          `<div>
+          <button class="zep-button zep-button--number-input"><span class="zepicons zepicons-minus" aria-label="minus" /></button><label for="counter" class="zep-visually-hidden">Counter</label><input type="text" class="zep-input zep-input--number" value="1" id="counter" /><button class="zep-button zep-button--number-input"><span class="zepicons zepicons-plus" aria-label="plus" /></button>
+          </div>`,
         ],
       },
     },
@@ -93,11 +99,15 @@ module.exports = {
   },
   list: {
     demo: {
-      primary: {
-        js: [`<ul class="zep-list zep-list-primary">primary</ul>`],
+      bullet: {
+        js: [
+          '<ul class="zep-list"><li class="zep-list__item">Bullet List Item</li></ul>',
+        ],
       },
-      secondary: {
-        js: [`<ul  class="zep-list zep-list-secondary">secondary</ul>`],
+      attribute: {
+        js: [
+          '<ul class="zep-list"><li class="zep-list__item zep-list__item--attribute"><span class="zep-list__label">label</span>Attribute List Item</li></ul>',
+        ],
       },
     },
   },
