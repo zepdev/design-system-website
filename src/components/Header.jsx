@@ -15,49 +15,47 @@ const styles = theme => ({
     color: theme.colors.gray.white.hex,
     zIndex: 1000,
   },
-  container: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: `${ theme.spacing.component.m.rem }rem ${ theme.spacing.component.l.rem }rem`,
+  height: {
     height: 46,
   },
   button: {
     color: theme.colors.gray.white.hex,
-    display: 'flex',
+    padding: 0,
   },
   icon: {
     color: theme.colors.gray.white.hex,
-    height: '125%',
     width: '100%',
+    maxHeight: 24,
   },
   menuContainer: {
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'flex-end',
   },
   menuText: {
     display: 'none',
     color: theme.colors.gray.black.hex,
-    paddingRight: `${ theme.spacing.component.s.rem }rem`,
+    paddingRight: `${theme.spacing.component.s.rem}rem`,
   },
-  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
-    container: {
-      padding: `${ theme.spacing.component.l.rem }rem ${ theme.spacing.component.xl.rem }rem`,
+  [`@media (min-width: ${theme.breakpoints.xs})`]: {
+    height: {
       height: 68,
     },
+    icon: {
+      maxHeight: 'initial',
+    },
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
-    container: {
-      padding: `${ theme.spacing.component.xl.rem }rem ${ theme.spacing.component.xxl.rem }rem`,
+  [`@media (min-width: ${theme.breakpoints.s})`]: {
+    height: {
       height: 84,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${theme.breakpoints.m})`]: {
     root: {
       width: `calc(100% - 224px)`,
       background: theme.colors.gray.grayMid.hex,
     },
-    container: {
+    height: {
       height: 104,
     },
     button: {
@@ -70,17 +68,16 @@ const styles = theme => ({
       display: 'block',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${theme.breakpoints.l})`]: {
     root: {
       width: `calc(100% - 276px)`,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${theme.breakpoints.xl})`]: {
     root: {
       width: `calc(100% - 300px)`,
     },
-    container: {
-      padding: `${ theme.spacing.component.xl.rem }rem`,
+    height: {
       height: 136,
     },
   },
@@ -89,23 +86,39 @@ const styles = theme => ({
 const Header = ({ handleMenu, theme, handleTheme, classes }) => (
   <header>
     <div className={classes.root}>
-      <div className={classes.container}>
-        <ButtonBase
-          onClick={handleMenu}
-          className={classnames(classes.button, 'zep-button')}
-          data-testid="mobileMenuButton"
-        >
-          <MenuIcon />
-        </ButtonBase>
-        <ZeppelinIcon className={classes.icon} />
-        <div />
-        <div className={classes.menuContainer}>
-          <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
-          <Dropdown
-            menuItems={['zeppelin', 'cat', 'rental']}
-            selected={theme}
-            onSelect={handleTheme}
-          />
+      <div
+        className={classnames(
+          classes.height,
+          'zep-grid',
+          'zep-grid--valign-center'
+        )}
+      >
+        <div className="zep-grid__row">
+          <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 ">
+            <ButtonBase
+              onClick={handleMenu}
+              className={classnames(classes.button, 'zep-button')}
+              data-testid="mobileMenuButton"
+            >
+              <MenuIcon />
+            </ButtonBase>
+          </div>
+          <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-2-4 zep-grid__col--xs-4-6 zep-grid__col--m-4-8">
+            <ZeppelinIcon className={classes.icon} />
+          </div>
+
+          <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8">
+            <div className={classes.menuContainer}>
+              <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>
+                Theme:
+              </p>
+              <Dropdown
+                menuItems={['zeppelin', 'cat', 'rental']}
+                selected={theme}
+                onSelect={handleTheme}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
