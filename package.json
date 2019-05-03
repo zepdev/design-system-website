@@ -42,7 +42,7 @@
     "develop": "gatsby develop",
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx src",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote 'src/**/*.js' 'src/**/*.md' --write",
-    "eslint-sonarqube": "yarn lint:code -f json -o report.json",
+    "eslint-sonarqube": "yarn lint -f json -o report.json",
     "cy:open": "cypress open",
     "test": "yarn lint && jest --coverage -u",
     "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
