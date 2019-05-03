@@ -21,25 +21,25 @@ const styles = theme => ({
     minHeight: '100vh',
   },
   main: {
-    paddingTop: `${theme.spacing.layout.xxs.rem}rem`,
-    paddingBottom: `${theme.spacing.layout.xxs.rem}rem`,
+    paddingTop: `${ theme.spacing.layout.xxs.rem }rem`,
+    paddingBottom: `${ theme.spacing.layout.xxs.rem }rem`,
     marginTop: 46,
-    marginBottom: `${theme.spacing.layout.xs.rem}rem`,
+    marginBottom: `${ theme.spacing.layout.xs.rem }rem`,
   },
-  [`@media (min-width: ${theme.breakpoints.xs})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     main: {
       marginTop: 68,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
-      paddingTop: `${theme.spacing.layout.s.rem}rem`,
-      paddingBottom: `${theme.spacing.layout.s.rem}rem`,
+      paddingTop: `${ theme.spacing.layout.s.rem }rem`,
+      paddingBottom: `${ theme.spacing.layout.s.rem }rem`,
       marginTop: 84,
-      marginBottom: `${theme.spacing.layout.m.rem}rem`,
+      marginBottom: `${ theme.spacing.layout.m.rem }rem`,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     main: {
       marginTop: 104,
     },
@@ -47,15 +47,15 @@ const styles = theme => ({
       marginLeft: 224,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.l})`]: {
+  [`@media (min-width: ${ theme.breakpoints.l })`]: {
     content: {
       marginLeft: 276,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     main: {
-      paddingTop: `${theme.spacing.layout.m.rem}rem`,
-      paddingBottom: `${theme.spacing.layout.m.rem}rem`,
+      paddingTop: `${ theme.spacing.layout.m.rem }rem`,
+      paddingBottom: `${ theme.spacing.layout.m.rem }rem`,
       marginTop: 134,
     },
     content: {
@@ -63,20 +63,20 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     marginTop: 0,
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hStyled: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   h1Styled: {
-    marginBottom: `${theme.spacing.component.m.rem}rem`,
+    marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
 
   aStyled: {
@@ -100,33 +100,19 @@ function Layout({ children, classes }) {
 
   // Styles for mdx/md pages
   const h1Styled = props => (
-    <h1
-      className={classnames(classes.h1Styled, 'zep-typo--display-1')}
-      {...props}
-    />
+    <h1 className={classnames(classes.h1Styled, 'zep-typo--display-1')} {...props} />
   )
   const h2Styled = props => (
-    <h2
-      className={classnames(classes.hStyled, 'zep-typo--normal-6')}
-      {...props}
-    />
+    <h2 className={classnames(classes.hStyled, 'zep-typo--normal-6')} {...props} />
   )
   const h3Styled = props => (
-    <h3
-      className={classnames(classes.hStyled, 'zep-typo--normal-4')}
-      {...props}
-    />
+    <h3 className={classnames(classes.hStyled, 'zep-typo--normal-4')} {...props} />
   )
   const pStyled = props => (
-    <p
-      className={classnames(classes.pStyled, 'zep-typo--normal-3')}
-      {...props}
-    />
+    <p className={classnames(classes.pStyled, 'zep-typo--normal-3')} {...props} />
   )
   const hrStyled = () => (
-    <hr
-      className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')}
-    />
+    <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
   )
 
   const aStyled = props => <a className={classes.aStyled} {...props} />

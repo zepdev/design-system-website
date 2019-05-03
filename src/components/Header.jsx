@@ -35,9 +35,9 @@ const styles = theme => ({
   menuText: {
     display: 'none',
     color: theme.colors.gray.black.hex,
-    paddingRight: `${theme.spacing.component.s.rem}rem`,
+    paddingRight: `${ theme.spacing.component.s.rem }rem`,
   },
-  [`@media (min-width: ${theme.breakpoints.xs})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     height: {
       height: 68,
     },
@@ -45,12 +45,12 @@ const styles = theme => ({
       maxHeight: 'initial',
     },
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     height: {
       height: 84,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
       width: `calc(100% - 224px)`,
       background: theme.colors.gray.grayMid.hex,
@@ -68,12 +68,12 @@ const styles = theme => ({
       display: 'block',
     },
   },
-  [`@media (min-width: ${theme.breakpoints.l})`]: {
+  [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
       width: `calc(100% - 276px)`,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     root: {
       width: `calc(100% - 300px)`,
     },
@@ -86,13 +86,7 @@ const styles = theme => ({
 const Header = ({ handleMenu, theme, handleTheme, classes }) => (
   <header>
     <div className={classes.root}>
-      <div
-        className={classnames(
-          classes.height,
-          'zep-grid',
-          'zep-grid--valign-center'
-        )}
-      >
+      <div className={classnames(classes.height, 'zep-grid', 'zep-grid--valign-center')}>
         <div className="zep-grid__row">
           <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 ">
             <ButtonBase
@@ -109,9 +103,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => (
 
           <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8">
             <div className={classes.menuContainer}>
-              <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>
-                Theme:
-              </p>
+              <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
               <Dropdown
                 menuItems={['zeppelin', 'cat', 'rental']}
                 selected={theme}
