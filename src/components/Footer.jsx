@@ -11,7 +11,8 @@ import TwitterIcon from './icons/TwitterIcon'
 const styles = theme => ({
   root: {
     borderTop: `1px solid ${ theme.colors.gray.grayMid.hex }`,
-    padding: '1.5rem 1.5rem',
+    paddingTop: `${ theme.spacing.layout.xs.rem }rem`,
+    paddingBottom: `${ theme.spacing.layout.xs.rem }rem`,
   },
   container: {
     display: 'flex',
@@ -44,7 +45,9 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     root: {
-      padding: '1.25rem 2rem',
+      paddingTop: `1.25rem`,
+      paddingBottom: `1.25rem`,
+      // padding: '1.25rem 2rem',
     },
     container: {
       height: '1.5rem',
@@ -70,12 +73,16 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     root: {
-      padding: '1.6875rem 3rem',
+      paddingTop: `1.6875rem`,
+      paddingBottom: `1.6875rem`,
+      // padding: '1.6875rem 3rem',
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
-      padding: '1.875rem 3rem',
+      paddingTop: `1.875rem`,
+      paddingBottom: `1.875rem`,
+      // padding: '1.875rem 3rem',
     },
     logo: {
       display: 'block',
@@ -87,7 +94,9 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     root: {
-      padding: '2.875rem 3rem',
+      paddingTop: `2.875rem`,
+      paddingBottom: `2.875rem`,
+      // padding: '2.875rem 3rem',
     },
     logo: {
       marginRight: 95,
@@ -101,37 +110,39 @@ const styles = theme => ({
 const Footer = ({ classes }) => (
   <footer>
     <div className={classes.root}>
-      <div className={classes.container}>
-        <div className={classes.containerLinks}>
-          <ZeppelinIcon className={classes.logo} ariaLabel="footerLogo" />
-          <Link to="/" className={classes.link}>
-            Privacy Policy
-          </Link>
-          <Link to="/" className={classes.link}>
-            Terms & Conditions
-          </Link>
-          <Link to="/" className={classes.link}>
-            Feedback
-          </Link>
-        </div>
-        <div className={classes.containerIcons}>
-          <ButtonBase
-            href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
-            target="_blank"
-            rel="noopener"
-          >
-            <LinkedinIcon className={classes.icon} />
-          </ButtonBase>
-          <ButtonBase
-            href="https://www.xing.com/company/zeppelinkonzern"
-            target="_blank"
-            rel="noopener"
-          >
-            <XingIcon className={classes.icon} />
-          </ButtonBase>
-          <ButtonBase href="https://twitter.com/Zeppelin_Group" target="_blank" rel="noopener">
-            <TwitterIcon className={classes.icon} />
-          </ButtonBase>
+      <div className={'zep-grid'}>
+        <div className={classes.container}>
+          <div className={classes.containerLinks}>
+            <ZeppelinIcon className={classes.logo} ariaLabel="footerLogo" />
+            <Link to="/" className={classes.link}>
+              Privacy Policy
+            </Link>
+            <Link to="/" className={classes.link}>
+              Terms & Conditions
+            </Link>
+            <Link to="/" className={classes.link}>
+              Feedback
+            </Link>
+          </div>
+          <div className={classes.containerIcons}>
+            <ButtonBase
+              href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
+              target="_blank"
+              rel="noopener"
+            >
+              <LinkedinIcon className={classes.icon} />
+            </ButtonBase>
+            <ButtonBase
+              href="https://www.xing.com/company/zeppelinkonzern"
+              target="_blank"
+              rel="noopener"
+            >
+              <XingIcon className={classes.icon} />
+            </ButtonBase>
+            <ButtonBase href="https://twitter.com/Zeppelin_Group" target="_blank" rel="noopener">
+              <TwitterIcon className={classes.icon} />
+            </ButtonBase>
+          </div>
         </div>
       </div>
     </div>

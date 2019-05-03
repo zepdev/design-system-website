@@ -21,37 +21,42 @@ const styles = theme => ({
     minHeight: '100vh',
   },
   main: {
-    flexGrow: 1,
-    padding: '1rem 1.5rem',
-    margin: `46px 0 1.5rem`,
+    paddingTop: `${ theme.spacing.layout.xxs.rem }rem`,
+    paddingBottom: `${ theme.spacing.layout.xxs.rem }rem`,
+    marginTop: 46,
+    marginBottom: `${ theme.spacing.layout.xs.rem }rem`,
+  },
+  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
+    main: {
+      marginTop: 68,
+    },
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
-      padding: '2rem 3rem',
-      margin: `84px 0 3rem`,
+      paddingTop: `${ theme.spacing.layout.s.rem }rem`,
+      paddingBottom: `${ theme.spacing.layout.s.rem }rem`,
+      marginTop: 84,
+      marginBottom: `${ theme.spacing.layout.m.rem }rem`,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
     main: {
-      margin: `104px 0 3rem`,
+      marginTop: 104,
     },
     content: {
       marginLeft: 224,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
-    main: {
-      width: '83%',
-      margin: `104px 0 3rem`,
-    },
     content: {
       marginLeft: 276,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     main: {
-      padding: '3rem',
-      margin: `136px 0 3rem`,
+      paddingTop: `${ theme.spacing.layout.m.rem }rem`,
+      paddingBottom: `${ theme.spacing.layout.m.rem }rem`,
+      marginTop: 134,
     },
     content: {
       marginLeft: 300,
@@ -162,7 +167,9 @@ function Layout({ children, classes }) {
                 />
                 <SkipNavContent />
                 <MDXProvider components={components}>
-                  <main className={classes.main}>{children}</main>
+                  <main className={classes.main}>
+                    <div className="zep-grid">{children}</div>
+                  </main>
                 </MDXProvider>
                 <Footer />
               </div>

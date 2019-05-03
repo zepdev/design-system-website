@@ -9,6 +9,8 @@ describe('Header', () => {
     const mockProps = {
       section: 'basics',
       handleMenu: jest.fn(),
+      handleTheme: jest.fn(),
+      theme: 'zeppelin',
     }
     const component = render(
       <ThemeProvider theme={theme}>
