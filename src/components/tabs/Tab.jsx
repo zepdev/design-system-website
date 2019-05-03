@@ -23,7 +23,12 @@ const styles = theme => ({
     },
   },
   normal: {
-    flexBasis: '20%',
+    flexBasis: '100%',
+  },
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+    normal: {
+      flexBasis: '25%',
+    },
   },
   fullWidth: {
     flexBasis: '100%',

@@ -201,9 +201,7 @@ const Iconography = ({ classes }) => {
                       <span className={classes.backdropContent}>
                         <DownloadIcon className={classes.icon} ariaLabel="download" />
                       </span>
-                      <p
-                        className={classnames(classes.name, 'zep-typo--normal-1')}
-                      >{`zepicons-${ elem }`}</p>
+                      <p className={classnames(classes.name, 'zep-typo--normal-1')}>{elem}</p>
                       <img
                         src={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
                         alt={elem}

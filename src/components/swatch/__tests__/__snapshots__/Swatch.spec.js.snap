@@ -22,7 +22,7 @@ Object {
               class="Swatch-backdropContent-0-1-4"
             >
               <svg
-                aria-labelledby="title"
+                aria-labelledby="title_copy"
                 class="Swatch-icon-0-1-5"
                 height="32"
                 viewBox="0 0 24 24"
@@ -79,7 +79,7 @@ Object {
             class="Swatch-backdropContent-0-1-4"
           >
             <svg
-              aria-labelledby="title"
+              aria-labelledby="title_copy"
               class="Swatch-icon-0-1-5"
               height="32"
               viewBox="0 0 24 24"

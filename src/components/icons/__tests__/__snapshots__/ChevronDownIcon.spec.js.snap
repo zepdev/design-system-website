@@ -6,16 +6,16 @@ Object {
   "baseElement": <body>
     <div>
       <svg
-        aria-labelledby="title"
+        aria-labelledby="title_chevronDown"
         height="32"
         viewBox="0 0 24 24"
         width="32"
         xmlns="http://www.w3.org/2000/svg"
       >
         <title
-          id="title_copy"
+          id="title_chevronDown"
         >
-          Arrow Down Icon
+          Chevron Down
         </title>
         <polygon
           fill="currentColor"
@@ -26,16 +26,16 @@ Object {
   </body>,
   "container": <div>
     <svg
-      aria-labelledby="title"
+      aria-labelledby="title_chevronDown"
       height="32"
       viewBox="0 0 24 24"
       width="32"
       xmlns="http://www.w3.org/2000/svg"
     >
       <title
-        id="title_copy"
+        id="title_chevronDown"
       >
-        Arrow Down Icon
+        Chevron Down
       </title>
       <polygon
         fill="currentColor"
