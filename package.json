@@ -35,16 +35,13 @@
     "react-jss": "^8.6.1",
     "react-player": "^1.11.0",
     "sonarqube-scanner": "^2.4.0",
-    "zeppelin-element-library": "^0.7.1"
+    "zeppelin-element-library": "^0.7.2"
   },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "prettier": "prettier --trailing-comma es5 --no-semi --single-quote 'src/**/*.js' 'src/**/*.md'",
-    "lint": "yarn lint:code && yarn lint:other",
-    "lint:code": "eslint --ignore-path .gitignore --ext .js,.jsx src",
-    "lint:other": "yarn prettier --check",
-    "format": "yarn prettier --write",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.jsx src",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote 'src/**/*.js' 'src/**/*.md' --write",
     "eslint-sonarqube": "yarn lint:code -f json -o report.json",
     "cy:open": "cypress open",
     "test": "yarn lint && jest --coverage -u",
@@ -58,7 +55,7 @@
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
-      "prettier --write",
+      "yarn format",
       "git add"
     ]
   },

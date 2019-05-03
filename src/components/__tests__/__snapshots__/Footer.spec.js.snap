@@ -7,7 +7,7 @@ Object {
     <div>
       <footer>
         <div
-          class="Footer-root-0-1-1"
+          class="Footer-root-0-1-1 zep-grid"
         >
           <div
             class="Footer-container-0-1-2"
@@ -201,7 +201,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
   "container": <div>
     <footer>
       <div
-        class="Footer-root-0-1-1"
+        class="Footer-root-0-1-1 zep-grid"
       >
         <div
           class="Footer-container-0-1-2"
