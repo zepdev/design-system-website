@@ -40,11 +40,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "prettier": "prettier --trailing-comma es5 --no-semi --single-quote 'src/**/*.js' 'src/**/*.md'",
-    "lint": "yarn lint:code && yarn lint:other",
-    "lint:code": "eslint --ignore-path .gitignore --ext .js,.jsx src",
-    "lint:other": "yarn prettier --check",
-    "format": "yarn prettier --write",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.jsx src",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote 'src/**/*.js' 'src/**/*.md' --write",
     "eslint-sonarqube": "yarn lint:code -f json -o report.json",
     "cy:open": "cypress open",
     "test": "yarn lint && jest --coverage -u",
@@ -58,7 +55,7 @@
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
-      "prettier --write",
+      "yarn format",
       "git add"
     ]
   },

@@ -110,38 +110,40 @@ const styles = theme => ({
 
 const Footer = ({ classes }) => (
   <footer>
-    <div className={classnames(classes.root, 'zep-grid')}>
-      <div className={classes.container}>
-        <div className={classes.containerLinks}>
-          <ZeppelinIcon className={classes.logo} ariaLabel="footer logo" />
-          <Link to="/" className={classes.link}>
-            Privacy Policy
-          </Link>
-          <Link to="/" className={classes.link}>
-            Terms & Conditions
-          </Link>
-          <Link to="/" className={classes.link}>
-            Feedback
-          </Link>
-        </div>
-        <div className={classes.containerIcons}>
-          <ButtonBase
-            href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
-            target="_blank"
-            rel="noopener"
-          >
-            <LinkedinIcon className={classes.icon} />
-          </ButtonBase>
-          <ButtonBase
-            href="https://www.xing.com/company/zeppelinkonzern"
-            target="_blank"
-            rel="noopener"
-          >
-            <XingIcon className={classes.icon} />
-          </ButtonBase>
-          <ButtonBase href="https://twitter.com/Zeppelin_Group" target="_blank" rel="noopener">
-            <TwitterIcon className={classes.icon} />
-          </ButtonBase>
+    <div className={classes.root}>
+      <div className={'zep-grid'}>
+        <div className={classes.container}>
+          <div className={classes.containerLinks}>
+            <ZeppelinIcon className={classes.logo} ariaLabel="footer logo" />
+            <Link to="/" className={classes.link}>
+              Privacy Policy
+            </Link>
+            <Link to="/" className={classes.link}>
+              Terms & Conditions
+            </Link>
+            <Link to="/" className={classes.link}>
+              Feedback
+            </Link>
+          </div>
+          <div className={classes.containerIcons}>
+            <ButtonBase
+              href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
+              target="_blank"
+              rel="noopener"
+            >
+              <LinkedinIcon className={classes.icon} />
+            </ButtonBase>
+            <ButtonBase
+              href="https://www.xing.com/company/zeppelinkonzern"
+              target="_blank"
+              rel="noopener"
+            >
+              <XingIcon className={classes.icon} />
+            </ButtonBase>
+            <ButtonBase href="https://twitter.com/Zeppelin_Group" target="_blank" rel="noopener">
+              <TwitterIcon className={classes.icon} />
+            </ButtonBase>
+          </div>
         </div>
       </div>
     </div>
