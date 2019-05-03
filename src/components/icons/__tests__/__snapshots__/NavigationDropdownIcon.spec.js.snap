@@ -1,65 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NumberInput renders correctly 1`] = `
+exports[`NavigationDropdownIcon renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="zep-button zep-button--number-input"
+      <svg
+        aria-labelledby="title_launch"
+        height="32"
+        viewBox="0 0 24 24"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          aria-label="minus"
-          class="zepicons zepicons-minus"
+        <title
+          id="title_launch"
+        >
+          Navigation Dropdown
+        </title>
+        <path
+          d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
+          fill="currentColor"
         />
-      </button>
-      <label
-        class="zep-visually-hidden"
-        for="numberInput_mockLabel"
-      >
-        mockLabel
-      </label>
-      <input
-        class="zep-input zep-input--number zep-input"
-        value="0"
-      />
-      <button
-        class="zep-button zep-button--number-input"
-      >
-        <span
-          aria-label="plus"
-          class="zepicons zepicons-plus"
-        />
-      </button>
+      </svg>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="zep-button zep-button--number-input"
+    <svg
+      aria-labelledby="title_launch"
+      height="32"
+      viewBox="0 0 24 24"
+      width="32"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <span
-        aria-label="minus"
-        class="zepicons zepicons-minus"
+      <title
+        id="title_launch"
+      >
+        Navigation Dropdown
+      </title>
+      <path
+        d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
+        fill="currentColor"
       />
-    </button>
-    <label
-      class="zep-visually-hidden"
-      for="numberInput_mockLabel"
-    >
-      mockLabel
-    </label>
-    <input
-      class="zep-input zep-input--number zep-input"
-      value="0"
-    />
-    <button
-      class="zep-button zep-button--number-input"
-    >
-      <span
-        aria-label="plus"
-        class="zepicons zepicons-plus"
-      />
-    </button>
+    </svg>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

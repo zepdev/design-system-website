@@ -4,7 +4,13 @@ import Radio from '../Radio'
 
 describe('Radio', () => {
   it('renders correctly', () => {
-    const component = render(<Radio />)
+    const mockProps = {
+      checked: false,
+      name: 'mockName',
+      value: 'mockValue',
+      onChange: jest.fn(),
+    }
+    const component = render(<Radio {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

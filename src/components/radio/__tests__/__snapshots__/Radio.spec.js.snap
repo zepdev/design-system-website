@@ -1,65 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NumberInput renders correctly 1`] = `
+exports[`Radio renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="zep-button zep-button--number-input"
-      >
-        <span
-          aria-label="minus"
-          class="zepicons zepicons-minus"
-        />
-      </button>
       <label
-        class="zep-visually-hidden"
-        for="numberInput_mockLabel"
+        class="zep-radio"
       >
-        mockLabel
-      </label>
-      <input
-        class="zep-input zep-input--number zep-input"
-        value="0"
-      />
-      <button
-        class="zep-button zep-button--number-input"
-      >
-        <span
-          aria-label="plus"
-          class="zepicons zepicons-plus"
+        <input
+          class="zep-radio__input"
+          name="mockName"
+          type="radio"
+          value="mockValue"
         />
-      </button>
+        <span
+          class="zep-radio__indicator"
+        />
+        <span
+          class="zep-radio__label"
+        >
+          mockName
+        </span>
+      </label>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="zep-button zep-button--number-input"
-    >
-      <span
-        aria-label="minus"
-        class="zepicons zepicons-minus"
-      />
-    </button>
     <label
-      class="zep-visually-hidden"
-      for="numberInput_mockLabel"
+      class="zep-radio"
     >
-      mockLabel
-    </label>
-    <input
-      class="zep-input zep-input--number zep-input"
-      value="0"
-    />
-    <button
-      class="zep-button zep-button--number-input"
-    >
-      <span
-        aria-label="plus"
-        class="zepicons zepicons-plus"
+      <input
+        class="zep-radio__input"
+        name="mockName"
+        type="radio"
+        value="mockValue"
       />
-    </button>
+      <span
+        class="zep-radio__indicator"
+      />
+      <span
+        class="zep-radio__label"
+      >
+        mockName
+      </span>
+    </label>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

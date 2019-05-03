@@ -1,65 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NumberInput renders correctly 1`] = `
+exports[`RadioGroup renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="zep-button zep-button--number-input"
+      <fieldset
+        aria-labelledby="radio_mockTitle"
+        class="zep-typo--normal-3"
+        role="group"
       >
-        <span
-          aria-label="minus"
-          class="zepicons zepicons-minus"
-        />
-      </button>
-      <label
-        class="zep-visually-hidden"
-        for="numberInput_mockLabel"
-      >
-        mockLabel
-      </label>
-      <input
-        class="zep-input zep-input--number zep-input"
-        value="0"
-      />
-      <button
-        class="zep-button zep-button--number-input"
-      >
-        <span
-          aria-label="plus"
-          class="zepicons zepicons-plus"
-        />
-      </button>
+        <legend
+          id="radio_mockTitle"
+        >
+          mockTitle
+        </legend>
+      </fieldset>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="zep-button zep-button--number-input"
+    <fieldset
+      aria-labelledby="radio_mockTitle"
+      class="zep-typo--normal-3"
+      role="group"
     >
-      <span
-        aria-label="minus"
-        class="zepicons zepicons-minus"
-      />
-    </button>
-    <label
-      class="zep-visually-hidden"
-      for="numberInput_mockLabel"
-    >
-      mockLabel
-    </label>
-    <input
-      class="zep-input zep-input--number zep-input"
-      value="0"
-    />
-    <button
-      class="zep-button zep-button--number-input"
-    >
-      <span
-        aria-label="plus"
-        class="zepicons zepicons-plus"
-      />
-    </button>
+      <legend
+        id="radio_mockTitle"
+      >
+        mockTitle
+      </legend>
+    </fieldset>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

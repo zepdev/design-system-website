@@ -62,10 +62,10 @@ module.exports = {
     demo: {
       primary: {
         js: [
-          `<label class="zep-radio" style={{ marginBottom: 15 }}>
-          <input type="radio" name="radio" class="zep-radio__input" />
+          `<label class="zep-radio" >
+          Radio Button
+          <input type="radio" name="myRadio" class="zep-radio__input" />
           <span class="zep-radio__indicator" />
-          <span class="zep-radio__label">Radio Button</span>
 </label>`,
         ],
       },

@@ -17,7 +17,7 @@ Object {
               data-testid="mobileMenuButton"
             >
               <svg
-                aria-labelledby="title"
+                aria-labelledby="title_menu"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -26,7 +26,7 @@ Object {
                 <title
                   id="title_menu"
                 >
-                  Menu Icon
+                  Menu
                 </title>
                 <path
                   d="M3,6 L21,6 L21,8 L3,8 L3,6 L3,6 Z M3,11 L21,11 L21,13 L3,13 L3,11 L3,11 Z M3,16 L21,16 L21,18 L3,18 L3,16 Z"
@@ -35,7 +35,7 @@ Object {
               </svg>
             </button>
             <svg
-              aria-labelledby="title"
+              aria-labelledby="title_headerLogo"
               class="Header-icon-0-1-4"
               height="32"
               viewBox="0 0 119.1 19.1"
@@ -43,9 +43,9 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <title
-                id="title_zeppelin"
+                id="title_headerLogo"
               >
-                Zeppelin Icon
+                headerLogo
               </title>
               <path
                 d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
@@ -128,16 +128,30 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 aria-haspopup="menu"
                 class="Dropdown-menuButton-0-1-13 zep-button zep-input"
                 data-reach-menu-button="true"
-                id="button-sau74fhs"
+                id="button-76sflkk7"
                 type="button"
               >
                 <span
                   class="Dropdown-circle-0-1-8"
                 />
-                <i
-                  aria-hidden="true"
-                  class="Dropdown-icon-0-1-14 zepicons zepicons-navigation-dropdown"
-                />
+                <svg
+                  aria-labelledby="title_launch"
+                  class="Dropdown-icon-0-1-14"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_launch"
+                  >
+                    Navigation Dropdown
+                  </title>
+                  <path
+                    d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
+                    fill="currentColor"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -158,7 +172,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             data-testid="mobileMenuButton"
           >
             <svg
-              aria-labelledby="title"
+              aria-labelledby="title_menu"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -167,7 +181,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               <title
                 id="title_menu"
               >
-                Menu Icon
+                Menu
               </title>
               <path
                 d="M3,6 L21,6 L21,8 L3,8 L3,6 L3,6 Z M3,11 L21,11 L21,13 L3,13 L3,11 L3,11 Z M3,16 L21,16 L21,18 L3,18 L3,16 Z"
@@ -176,7 +190,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </svg>
           </button>
           <svg
-            aria-labelledby="title"
+            aria-labelledby="title_headerLogo"
             class="Header-icon-0-1-4"
             height="32"
             viewBox="0 0 119.1 19.1"
@@ -184,9 +198,9 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title
-              id="title_zeppelin"
+              id="title_headerLogo"
             >
-              Zeppelin Icon
+              headerLogo
             </title>
             <path
               d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
@@ -269,16 +283,30 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               aria-haspopup="menu"
               class="Dropdown-menuButton-0-1-13 zep-button zep-input"
               data-reach-menu-button="true"
-              id="button-sau74fhs"
+              id="button-76sflkk7"
               type="button"
             >
               <span
                 class="Dropdown-circle-0-1-8"
               />
-              <i
-                aria-hidden="true"
-                class="Dropdown-icon-0-1-14 zepicons zepicons-navigation-dropdown"
-              />
+              <svg
+                aria-labelledby="title_launch"
+                class="Dropdown-icon-0-1-14"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_launch"
+                >
+                  Navigation Dropdown
+                </title>
+                <path
+                  d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
             </button>
           </div>
         </div>

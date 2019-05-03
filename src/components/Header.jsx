@@ -97,7 +97,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => (
         >
           <MenuIcon />
         </ButtonBase>
-        <ZeppelinIcon className={classes.icon} />
+        <ZeppelinIcon className={classes.icon} ariaLabel="headerLogo" />
         <div />
         <div className={classes.menuContainer}>
           <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
