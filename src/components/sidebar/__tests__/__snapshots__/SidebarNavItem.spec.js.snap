@@ -11,7 +11,7 @@ Object {
         >
           sectionTitle
           <svg
-            aria-labelledby="title"
+            aria-labelledby="title_chevronDown"
             class="SidebarNavItem-icon-0-1-5 SidebarNavItem-iconReset-0-1-7"
             height="20"
             viewBox="0 0 24 24"
@@ -19,9 +19,9 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <title
-              id="title_copy"
+              id="title_chevronDown"
             >
-              Arrow Down Icon
+              Chevron Down
             </title>
             <polygon
               fill="currentColor"
@@ -39,7 +39,7 @@ Object {
       >
         sectionTitle
         <svg
-          aria-labelledby="title"
+          aria-labelledby="title_chevronDown"
           class="SidebarNavItem-icon-0-1-5 SidebarNavItem-iconReset-0-1-7"
           height="20"
           viewBox="0 0 24 24"
@@ -47,9 +47,9 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <title
-            id="title_copy"
+            id="title_chevronDown"
           >
-            Arrow Down Icon
+            Chevron Down
           </title>
           <polygon
             fill="currentColor"

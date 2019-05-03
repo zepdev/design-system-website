@@ -21,7 +21,7 @@ Object {
             data-testid="downloadButton"
           >
             <svg
-              aria-labelledby="title"
+              aria-labelledby="title_download"
               class="DownloadFile-icon-0-1-8"
               height="32"
               viewBox="0 0 24 24"
@@ -29,9 +29,9 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <title
-                id="title_copy"
+                id="title_download"
               >
-                Download Icon
+                Download
               </title>
               <path
                 d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
@@ -60,7 +60,7 @@ Object {
           data-testid="downloadButton"
         >
           <svg
-            aria-labelledby="title"
+            aria-labelledby="title_download"
             class="DownloadFile-icon-0-1-8"
             height="32"
             viewBox="0 0 24 24"
@@ -68,9 +68,9 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <title
-              id="title_copy"
+              id="title_download"
             >
-              Download Icon
+              Download
             </title>
             <path
               d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"

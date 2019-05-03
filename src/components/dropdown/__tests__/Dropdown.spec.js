@@ -7,7 +7,7 @@ import Dropdown from '../Dropdown'
 describe('Dropdown', () => {
   it('renders correctly', () => {
     const mockProps = {
-      onSelect: jest.fn(() => {}),
+      onSelect: jest.fn(),
       selected: 'zeppelin',
       menuItems: ['mockItem'],
     }
