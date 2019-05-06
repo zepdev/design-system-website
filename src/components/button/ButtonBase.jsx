@@ -19,6 +19,9 @@ const styles = {
   },
 }
 
+// ButtonBase has a link element, however a link should not be used as a button.
+// Its function here is only to for styling
+
 function ButtonBase({
   onClick,
   children,

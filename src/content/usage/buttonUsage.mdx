@@ -16,3 +16,23 @@ To implement colors please make sure that you have a theme included. For more in
   ...
 </main>
 ```
+
+## Accessibility
+
+Button should contain text, if contains icon then icon need aria-label to describe button.
+
+We recommend using button styles on html button elements only (<button />) to ensure that it is accessible to accessibility tools. However, if you are using another element (such as a <div /> or an <a />) make sure to inlcude the following;
+
+1. the element must include the role="button"
+2. the element must include enter and spacebar events (as a button would)
+3. span and div elements must include proper tabindex properties
+
+```html
+<a href="#" role="button" onClick="{fn()}" onKeyDown="{fn()}"
+  >Link that looks like a button</a
+>
+
+<span role="button" tabIndex="0" onClick="{fn()}" onKeyDown="{fn()}"
+  >Custom Button</span
+>
+```
