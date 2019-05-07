@@ -35,7 +35,7 @@
     "react-jss": "^8.6.1",
     "react-player": "^1.11.0",
     "sonarqube-scanner": "^2.4.0",
-    "zeppelin-element-library": "^0.7.2"
+    "zeppelin-element-library": "^0.7.6"
   },
   "scripts": {
     "build": "gatsby build",

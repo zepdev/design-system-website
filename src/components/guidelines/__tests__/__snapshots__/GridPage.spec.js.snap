@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Grid renders correctly 1`] = `
+exports[`GridPage renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="Tabs-root-0-1-2 Grid-tabs-0-1-1"
+        class="Tabs-root-0-1-2 GridPage-tabs-0-1-1"
         data-testid="tabs"
       >
         <button
@@ -43,7 +43,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="Tabs-root-0-1-2 Grid-tabs-0-1-1"
+      class="Tabs-root-0-1-2 GridPage-tabs-0-1-1"
       data-testid="tabs"
     >
       <button

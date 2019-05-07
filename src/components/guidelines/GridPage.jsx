@@ -12,7 +12,7 @@ const styles = theme => ({
   },
 })
 
-function Grid({ classes }) {
+function GridPage({ classes }) {
   const [value, setValue] = useState(0)
 
   function handleChange(event, newValue) {
@@ -43,8 +43,8 @@ function Grid({ classes }) {
   )
 }
 
-Grid.propTypes = {
+GridPage.propTypes = {
   classes: PropTypes.object,
 }
 
-export default withStyles(styles)(Grid)
+export default withStyles(styles)(GridPage)
