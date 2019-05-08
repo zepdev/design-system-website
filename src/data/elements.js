@@ -5,14 +5,28 @@ module.exports = {
     demo: {
       primary: {
         js: [
-          `<button type="button" class="zep-button zep-button-primary"><span class="zep-button__text">Primary Button</span></button>`,
-          `<button type="button" class="zep-button zep-button-primary" disabled><span class="zep-button__text">Disabled</span></button>`,
+          `<button class="zep-button zep-button-primary"><span class="zep-button__text">Primary Button</span></button>`,
+          `<button class="zep-button zep-button-primary" disabled><span class="zep-button__text">Disabled</span></button>`,
+          `<button class="zep-button zep-button-secondary zep-button-icon"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon zep-button__icon--tertiary"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg></button>`,
         ],
       },
       secondary: {
         js: [
-          `<button type="button" class="zep-button zep-button-secondary"><span class="zep-button__text">Secondary Button</span></button>`,
-          `<button type="button" class="zep-button zep-button-secondary" disabled><span class="zep-button__text">Disabled</span></button>`,
+          `<button class="zep-button zep-button-secondary"><span class="zep-button__text">Secondary Button</span></button>`,
+          `<button class="zep-button zep-button-secondary" disabled><span class="zep-button__text">Disabled</span></button>`,
+          `<button class="zep-button zep-button-secondary zep-button-icon"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon zep-button__icon--tertiary"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg></button>`,
+        ],
+      },
+      tertiary: {
+        js: [
+          `<button class="zep-button zep-button-tertiary"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon zep-button__icon--tertiary"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg><span class="zep-button__text zep-button__text--tertiary">Primary Button</span></button>`,
+          `<button class="zep-button zep-button-tertiary" disabled><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon zep-button__icon--tertiary"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg><span class="zep-button__text zep-button__text--tertiary">Disabled</span></button>`,
+        ],
+      },
+      other: {
+        js: [
+          `<button class="zep-button zep-button-primary zep-button--full"><span class="zep-button__text">Full Width</span></button>`,
+          `<button class="zep-button zep-button-primary zep-button--small"><span class="zep-button__text">Small</span></button>`,
         ],
       },
     },
