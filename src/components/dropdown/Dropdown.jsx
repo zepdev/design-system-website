@@ -114,10 +114,10 @@ const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
             })}
           />
           {elem === 'zeppelin'
-            ? 'Zeppelin Holding'
+            ? 'Zeppelin Blue'
             : elem === 'cat'
-              ? 'Zeppelin CAT'
-              : 'Zeppelin Rental'}
+              ? 'Zeppelin Yellow'
+              : 'Zeppelin Red'}
         </MenuItem>
       ))}
     </MenuList>
