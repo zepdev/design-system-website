@@ -7,7 +7,9 @@ const styles = theme => ({
   demoGrid: {
     boxSizing: 'border-box',
     width: '100%',
-    marginBottom: '2rem',
+    paddingTop: `${ theme.spacing.component.xl.rem }rem`,
+    paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
+    backgroundColor: theme.colors.gray.grayLightest.hex,
   },
   demoGridRow: {},
   demoGridCol: {

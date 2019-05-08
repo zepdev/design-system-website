@@ -9,16 +9,6 @@ import Grid from '../../components/grid/Grid'
 
 # Developers
 
-## Grid Options
-
-<Table
-  title="basics grid data"
-  header={['screensize', 'columns', 'margin', 'gutter']}
-  content={grid}
-/>
-
----
-
 ## Implementation
 
 The Zeppelin Design System grid is build with flexbox for modern browsers and has a fallback float grid for legacy browsers.
@@ -52,6 +42,40 @@ It uses a basic grid container, rows and columns to layout the content.
   </div>
 </div>
 ```
+
+The above example creates four equal-width columns on extra extra small, extra small, medium and large devices using predefined grid classes.
+The width of the columns is always a fixed percentage value, depending on the screensize and the related amount of colums.
+
+Here is the grid data for the used column classes:
+
+<Table
+  title="basics grid data"
+  header={['identifier', 'screensize', 'columns', 'margin', 'gutter']}
+  content={{
+    xxs: { identifier: 'xxs', ...grid.xxs },
+    xs: { identifier: 'xs', ...grid.xs },
+    m: { identifier: 'm', ...grid.m },
+    l: { identifier: 'l', ...grid.l },
+  }}
+/>
+
+The `.zep-grid` class is for the main grid container with a 100% width. It has the horizontal margins that are defined in the grid data table for each screensize breakpoint.
+A main grid has to contain `.zep-grid__row` elements for each row.
+Each row can hold the needed amount of `.zep-grid__col` column elements.
+Each column has horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins.
+The maximum amount of columns per row is depending on the screensize.
+Therefore it is necessary to define the column sizes based on this max. amount.
+
+Define a colum width of 25% from total grid width:
+
+- screensize < 576px = xxs = max. amount of columns: 4 = 25% of 4: 1 => zep-grid\*\*col--xxs-1-4
+- screensize ≥ 576px = xs = max. amount of columns: 6 = 25% of 6: 1.5 => impossible to split 6 for 25%
+- screensize ≥ 768px = s = max. amount of columns: 6 = 25% of 6: 1.5 => does not fit into grid
+- screensize ≥ 992px = m = max. amount of columns: 8 = 25% of 8: 2 => zep-grid\*\*col--m-2-8
+- screensize ≥ 1200px = l = max. amount of columns: 12 = 25% of 12: 3 => zep-grid\*\*col--l-3-12
+- screensize ≥ 1680px = xl = max. amount of columns: 12 = 25% of 12: 3 => zep-grid\*\*col--xl-3-12
+
+Columns that exceed the provided space per row are visually wrapped into the next row, but technically stay in the same row element.
 
 # Designers
 

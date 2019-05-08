@@ -3,12 +3,21 @@ import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
+import classnames from 'classnames'
 import ElementUsage from '../elements/ElementUsage'
 import ReactPlayer from 'react-player'
+import Table from '../table/Table'
+import { grid } from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
   tabs: {
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+  },
+  player: {
+    marginBottom: `${ theme.spacing.component.xl.rem }rem`,
+  },
+  headline: {
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
 })
 
@@ -27,7 +36,8 @@ function GridPage({ classes }) {
       </Tabs>
       {value === 0 && (
         <>
-          <div>
+          <h2 className={classnames('zep-typo--normal-8', classes.headline)}>Basic Grid</h2>
+          <div className={classes.player}>
             <ReactPlayer
               url="https://cdn-zel.zepdev.net/zel/animation_grid.mp4"
               playing
@@ -36,6 +46,20 @@ function GridPage({ classes }) {
               loop
             />
           </div>
+
+          <h3 className={classnames('zep-typo--normal-6', classes.headline)}>Basic Grid Data</h3>
+          <Table
+            title="basic grid data"
+            header={['identifier', 'screensize', 'columns', 'margin', 'gutter']}
+            content={{
+              xxs: { identifier: 'xxs', ...grid.xxs },
+              xs: { identifier: 'xs', ...grid.xs },
+              s: { identifier: 's', ...grid.s },
+              m: { identifier: 'm', ...grid.m },
+              l: { identifier: 'l', ...grid.l },
+              xl: { identifier: 'xl', ...grid.xl },
+            }}
+          />
         </>
       )}
       {value === 1 && <ElementUsage element="grid" />}
