@@ -6,29 +6,41 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="Tabs-root-0-1-2 GridPage-tabs-0-1-1"
+        class="Tabs-root-0-1-4 GridPage-tabs-0-1-1"
         data-testid="tabs"
       >
         <button
-          class="ButtonBase-button-0-1-10 Tab-root-0-1-3 Tab-selected-0-1-9 Tab-normal-0-1-4"
+          class="ButtonBase-button-0-1-12 Tab-root-0-1-5 Tab-selected-0-1-11 Tab-normal-0-1-6"
         >
           <p
-            class="Tab-label-0-1-6 Tab-selected-0-1-9 Tab-labelPrimary-0-1-7 zep-typo--normal-4"
+            class="Tab-label-0-1-8 Tab-selected-0-1-11 Tab-labelPrimary-0-1-9 zep-typo--normal-4"
           >
             Overview
           </p>
         </button>
         <button
-          class="ButtonBase-button-0-1-10 Tab-root-0-1-3 Tab-normal-0-1-4"
+          class="ButtonBase-button-0-1-12 Tab-root-0-1-5 Tab-normal-0-1-6"
         >
           <p
-            class="Tab-label-0-1-6 Tab-labelPrimary-0-1-7 zep-typo--normal-4"
+            class="Tab-label-0-1-8 Tab-labelPrimary-0-1-9 zep-typo--normal-4"
           >
             Usage
           </p>
         </button>
       </div>
-      <div>
+      <h2
+        class="zep-typo--normal-8 GridPage-headline-0-1-3"
+      >
+        Basic Grid
+      </h2>
+      <p
+        class="zep-typo--normal-3 GridPage-headline-0-1-3"
+      >
+        Zeppelin uses a hybrid grid layout as demonstrated below
+      </p>
+      <div
+        class="GridPage-player-0-1-2"
+      >
         <div>
           <video
             autoplay=""
@@ -39,33 +51,285 @@ Object {
           />
         </div>
       </div>
+      <h3
+        class="zep-typo--normal-6 GridPage-headline-0-1-3"
+      >
+        Basic Grid Data
+      </h3>
+      <div
+        class="Table-root-0-1-13"
+      >
+        <table
+          class="Table-table-0-1-14"
+        >
+          <caption
+            class="zep-visually-hidden"
+          >
+            basic grid data
+          </caption>
+          <thead
+            class="Table-header-0-1-18"
+          >
+            <tr
+              class="Table-tr-0-1-16"
+            >
+              <th
+                class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+                scope="col"
+              >
+                identifier
+              </th>
+              <th
+                class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+                scope="col"
+              >
+                screensize
+              </th>
+              <th
+                class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+                scope="col"
+              >
+                columns
+              </th>
+              <th
+                class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+                scope="col"
+              >
+                margin
+              </th>
+              <th
+                class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+                scope="col"
+              >
+                gutter
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="Table-tbody-0-1-17"
+          >
+            <tr
+              class="Table-tr-0-1-16"
+            >
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+                scope="row"
+              >
+                xxs
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                &lt;576px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                4
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                24px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                24px
+              </td>
+            </tr>
+            <tr
+              class="Table-tr-0-1-16"
+            >
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+                scope="row"
+              >
+                xs
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                ≥576px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                6
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                32px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                32px
+              </td>
+            </tr>
+            <tr
+              class="Table-tr-0-1-16"
+            >
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+                scope="row"
+              >
+                s
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                ≥768px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                6
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                48px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                32px
+              </td>
+            </tr>
+            <tr
+              class="Table-tr-0-1-16"
+            >
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+                scope="row"
+              >
+                m
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                ≥992px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                8
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                64px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                32px
+              </td>
+            </tr>
+            <tr
+              class="Table-tr-0-1-16"
+            >
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+                scope="row"
+              >
+                l
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                ≥1200px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                12
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                64px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                32px
+              </td>
+            </tr>
+            <tr
+              class="Table-tr-0-1-16"
+            >
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+                scope="row"
+              >
+                xl
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                ≥1680px
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                12
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                auto
+              </td>
+              <td
+                class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              >
+                32px
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="Tabs-root-0-1-2 GridPage-tabs-0-1-1"
+      class="Tabs-root-0-1-4 GridPage-tabs-0-1-1"
       data-testid="tabs"
     >
       <button
-        class="ButtonBase-button-0-1-10 Tab-root-0-1-3 Tab-selected-0-1-9 Tab-normal-0-1-4"
+        class="ButtonBase-button-0-1-12 Tab-root-0-1-5 Tab-selected-0-1-11 Tab-normal-0-1-6"
       >
         <p
-          class="Tab-label-0-1-6 Tab-selected-0-1-9 Tab-labelPrimary-0-1-7 zep-typo--normal-4"
+          class="Tab-label-0-1-8 Tab-selected-0-1-11 Tab-labelPrimary-0-1-9 zep-typo--normal-4"
         >
           Overview
         </p>
       </button>
       <button
-        class="ButtonBase-button-0-1-10 Tab-root-0-1-3 Tab-normal-0-1-4"
+        class="ButtonBase-button-0-1-12 Tab-root-0-1-5 Tab-normal-0-1-6"
       >
         <p
-          class="Tab-label-0-1-6 Tab-labelPrimary-0-1-7 zep-typo--normal-4"
+          class="Tab-label-0-1-8 Tab-labelPrimary-0-1-9 zep-typo--normal-4"
         >
           Usage
         </p>
       </button>
     </div>
-    <div>
+    <h2
+      class="zep-typo--normal-8 GridPage-headline-0-1-3"
+    >
+      Basic Grid
+    </h2>
+    <p
+      class="zep-typo--normal-3 GridPage-headline-0-1-3"
+    >
+      Zeppelin uses a hybrid grid layout as demonstrated below
+    </p>
+    <div
+      class="GridPage-player-0-1-2"
+    >
       <div>
         <video
           autoplay=""
@@ -75,6 +339,246 @@ Object {
           style="width: 100%; height: 100%;"
         />
       </div>
+    </div>
+    <h3
+      class="zep-typo--normal-6 GridPage-headline-0-1-3"
+    >
+      Basic Grid Data
+    </h3>
+    <div
+      class="Table-root-0-1-13"
+    >
+      <table
+        class="Table-table-0-1-14"
+      >
+        <caption
+          class="zep-visually-hidden"
+        >
+          basic grid data
+        </caption>
+        <thead
+          class="Table-header-0-1-18"
+        >
+          <tr
+            class="Table-tr-0-1-16"
+          >
+            <th
+              class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+              scope="col"
+            >
+              identifier
+            </th>
+            <th
+              class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+              scope="col"
+            >
+              screensize
+            </th>
+            <th
+              class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+              scope="col"
+            >
+              columns
+            </th>
+            <th
+              class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+              scope="col"
+            >
+              margin
+            </th>
+            <th
+              class="Table-th-0-1-15 zep-typo--normal-1 Table-capitalize-0-1-20"
+              scope="col"
+            >
+              gutter
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="Table-tbody-0-1-17"
+        >
+          <tr
+            class="Table-tr-0-1-16"
+          >
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              scope="row"
+            >
+              xxs
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              &lt;576px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              4
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              24px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              24px
+            </td>
+          </tr>
+          <tr
+            class="Table-tr-0-1-16"
+          >
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              scope="row"
+            >
+              xs
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              ≥576px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              6
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              32px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              32px
+            </td>
+          </tr>
+          <tr
+            class="Table-tr-0-1-16"
+          >
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              scope="row"
+            >
+              s
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              ≥768px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              6
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              48px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              32px
+            </td>
+          </tr>
+          <tr
+            class="Table-tr-0-1-16"
+          >
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              scope="row"
+            >
+              m
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              ≥992px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              8
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              64px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              32px
+            </td>
+          </tr>
+          <tr
+            class="Table-tr-0-1-16"
+          >
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              scope="row"
+            >
+              l
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              ≥1200px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              12
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              64px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              32px
+            </td>
+          </tr>
+          <tr
+            class="Table-tr-0-1-16"
+          >
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+              scope="row"
+            >
+              xl
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              ≥1680px
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              12
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              auto
+            </td>
+            <td
+              class="Table-th-0-1-15 Table-borderBottom-0-1-21 zep-typo--normal-2"
+            >
+              32px
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>,
   "debug": [Function],
