@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="ButtonBase-button-0-1-1 zep-button"
+        class="zep-button"
       >
         <span
           class="zep-button__text"
@@ -18,7 +18,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="ButtonBase-button-0-1-1 zep-button"
+      class="zep-button"
     >
       <span
         class="zep-button__text"

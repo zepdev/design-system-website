@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="ButtonBase-button-0-1-3 CopyButton-button-0-1-1"
+        class="CopyButton-button-0-1-1 ButtonBase-button-0-1-3"
         data-testid="copyButton"
       >
         <svg
@@ -32,7 +32,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="ButtonBase-button-0-1-3 CopyButton-button-0-1-1"
+      class="CopyButton-button-0-1-1 ButtonBase-button-0-1-3"
       data-testid="copyButton"
     >
       <svg

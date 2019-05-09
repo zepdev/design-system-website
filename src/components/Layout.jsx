@@ -12,54 +12,34 @@ import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
-  root: {
-    position: 'relative',
-  },
-  content: {
-    flexDirection: 'column',
-    display: 'flex',
-    minHeight: '100vh',
-  },
   main: {
-    paddingTop: `${ theme.spacing.layout.xxs.rem }rem`,
-    paddingBottom: `${ theme.spacing.layout.xxs.rem }rem`,
-    marginTop: 46,
-    marginBottom: `${ theme.spacing.layout.xs.rem }rem`,
-  },
-  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
-    main: {
-      marginTop: 68,
-    },
+    minHeight: '100vh',
+    paddingTop: 62,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
-      paddingTop: `${ theme.spacing.layout.s.rem }rem`,
-      paddingBottom: `${ theme.spacing.layout.s.rem }rem`,
-      marginTop: 84,
-      marginBottom: `${ theme.spacing.layout.m.rem }rem`,
+      paddingTop: 116,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
-    main: {
-      marginTop: 104,
-    },
-    content: {
+    root: {
       marginLeft: 224,
+    },
+    main: {
+      paddingTop: 136,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
-    content: {
+    root: {
       marginLeft: 276,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
-    main: {
-      paddingTop: `${ theme.spacing.layout.m.rem }rem`,
-      paddingBottom: `${ theme.spacing.layout.m.rem }rem`,
-      marginTop: 134,
-    },
-    content: {
+    root: {
       marginLeft: 300,
+    },
+    main: {
+      paddingTop: 184,
     },
   },
   pStyled: {
@@ -78,11 +58,9 @@ const styles = theme => ({
   h1Styled: {
     marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
-
   aStyled: {
     color: theme.colors.primary.indigoBlue.hex,
   },
-
   skipLink: {
     position: 'absolute',
     left: '-999em',
@@ -146,17 +124,17 @@ function Layout({ children, classes }) {
       `}
       render={data => {
         return (
-          <>
+          <div className={classes.root}>
             <SkipNavLink className={classes.skipLink} />
             <div
-              className={classnames(classes.root, {
+              className={classnames({
                 'theme-zeppelin': theme === 'zeppelin',
                 'theme-cat': theme === 'cat',
                 'theme-rental': theme === 'rental',
               })}
             >
               <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
-              <div className={classes.content}>
+              <div>
                 <Header
                   siteTitle={data.mdx.frontmatter.title}
                   handleTheme={handleTheme}
@@ -167,14 +145,12 @@ function Layout({ children, classes }) {
                 />
                 <SkipNavContent />
                 <MDXProvider components={components}>
-                  <main className={classes.main}>
-                    <div className="zep-grid">{children}</div>
-                  </main>
+                  <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
                 </MDXProvider>
                 <Footer />
               </div>
             </div>
-          </>
+          </div>
         )
       }}
     />

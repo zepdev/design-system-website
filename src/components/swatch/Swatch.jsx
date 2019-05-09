@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import withStyles from 'react-jss'
-import Button from '../button/Button'
+import ButtonBase from '../button/ButtonBase'
 import CopyIcon from '../icons/CopyIcon'
 
 const styles = theme => ({
@@ -81,10 +81,12 @@ const styles = theme => ({
     position: 'relative,',
     paddingLeft: 5,
     display: 'block',
+    textTransform: 'uppercase',
   },
   text: {
     margin: 0,
     color: theme.colors.gray.grayLight.hex,
+    textTransform: 'uppercase',
   },
   name: {
     marginTop: 0,
@@ -93,7 +95,7 @@ const styles = theme => ({
   },
 })
 
-function Swatch({ color, section, classes }) {
+function Swatch({ color, classes }) {
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
 
@@ -119,21 +121,25 @@ function Swatch({ color, section, classes }) {
 
   return (
     <div className={classes.root}>
-      <Button
+      <ButtonBase
         className={classes.button}
         style={{ background: color.hex }}
         onClick={() => handleCopy(color.hex)}
+        data-testid="swatchButton"
       >
         <span className={classes.backdrop} />
         <span className={classes.backdropContent}>
           {!isTextCopied && (
             <CopyIcon className={classes.icon} ariaLabel={`copy hex:${ color.hex }`} />
           )}
-          <span className={classes.buttonText} data-testid="swatch-text">
+          <span
+            className={classnames(classes.buttonText, 'zep-typo--normal-4')}
+            data-testid="swatchText"
+          >
             {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color.hex}
           </span>
         </span>
-      </Button>
+      </ButtonBase>
       <p className={classnames(classes.name, 'zep-typo--normal-2')}>{color.name}</p>
       <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HEX: ${ color.hex }`}</p>
       {color.rgb && (
@@ -149,7 +155,6 @@ function Swatch({ color, section, classes }) {
 Swatch.propTypes = {
   classes: PropTypes.object.isRequired,
   color: PropTypes.object.isRequired,
-  section: PropTypes.string,
 }
 
 export default withStyles(styles)(Swatch)

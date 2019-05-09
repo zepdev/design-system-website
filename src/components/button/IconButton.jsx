@@ -4,15 +4,14 @@ import classnames from 'classnames'
 import ButtonBase from './ButtonBase'
 
 function IconButton({ classes, className: classNameProp, children: childrenProp, ...other }) {
-  const children = React.cloneElement(childrenProp, {
-    className: classnames('zep-button__icon', classes.icon),
-  })
+  const children = childrenProp
+    ? React.cloneElement(childrenProp, {
+      className: classnames('zep-button__icon', childrenProp.props.className),
+    })
+    : null
+
   return (
-    <ButtonBase
-      data-testid="iconButton"
-      className="zep-button zep-button-primary zep-button-icon"
-      {...other}
-    >
+    <ButtonBase className="zep-button zep-button-primary zep-button-icon" {...other}>
       {children}
     </ButtonBase>
   )

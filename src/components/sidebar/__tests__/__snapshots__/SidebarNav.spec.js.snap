@@ -10,7 +10,7 @@ Object {
       >
         <li>
           <button
-            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
           >
             Getting started
             <svg
@@ -35,7 +35,7 @@ Object {
         </li>
         <li>
           <button
-            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
           >
             Guidelines
             <svg
@@ -60,7 +60,7 @@ Object {
         </li>
         <li>
           <button
-            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
           >
             Elements
             <svg
@@ -108,7 +108,7 @@ Object {
     >
       <li>
         <button
-          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
         >
           Getting started
           <svg
@@ -133,7 +133,7 @@ Object {
       </li>
       <li>
         <button
-          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
         >
           Guidelines
           <svg
@@ -158,7 +158,7 @@ Object {
       </li>
       <li>
         <button
-          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
         >
           Elements
           <svg

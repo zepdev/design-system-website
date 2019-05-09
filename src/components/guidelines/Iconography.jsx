@@ -63,11 +63,6 @@ const styles = theme => ({
       width: '12.5%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xxl })`]: {
-    container: {
-      width: '8.3%',
-    },
-  },
   backdrop: {
     position: 'absolute',
     left: 0,

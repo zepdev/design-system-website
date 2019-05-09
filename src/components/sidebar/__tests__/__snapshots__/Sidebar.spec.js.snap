@@ -99,7 +99,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             <li>
               <button
-                class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
               >
                 Getting started
                 <svg
@@ -124,7 +124,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
               >
                 Guidelines
                 <svg
@@ -149,7 +149,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
               >
                 Elements
                 <svg
@@ -288,7 +288,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         >
           <li>
             <button
-              class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
             >
               Getting started
               <svg
@@ -313,7 +313,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
             >
               Guidelines
               <svg
@@ -338,7 +338,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
             >
               Elements
               <svg
