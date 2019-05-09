@@ -21,36 +21,29 @@ const styles = theme => ({
   },
 })
 
-const Grid = ({ classes }) => {
+const Grid = ({ classes, rows }) => {
   return (
     <>
       <div className={classnames(classes.demoGrid, 'zep-grid')}>
-        <div className={classnames(classes.demoGridRow, 'zep-grid__row')}>
-          {[1, 2, 3, 4].map(n => {
-            return (
+        {rows.map(row => (
+          <div className={classnames(classes.demoGridRow, row.class)}>
+            {row.cols.map(col => (
               <div
-                key={n}
-                className={classnames(
-                  classes.demoGridCol,
-                  'zep-grid__col',
-                  'zep-grid__col--xxs-1-4',
-                  'zep-grid__col--xs-3-6',
-                  'zep-grid__col--m-2-8',
-                  'zep-grid__col--l-3-12'
-                )}
-              >
-                Column {n}
-              </div>
-            )
-          })}
-        </div>
+                className={classnames(classes.demoGridCol, col.class)}
+                style={col.style}
+                dangerouslySetInnerHTML={{ __html: col.content }}
+              />
+            ))}
+          </div>
+        ))}
       </div>
     </>
   )
 }
 
 Grid.propTypes = {
-  classes: PropTypes.object,
+  classes: PropTypes.object.isRequired,
+  rows: PropTypes.array.isRequired,
 }
 
 export default withStyles(styles)(Grid)

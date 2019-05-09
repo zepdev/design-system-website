@@ -37,6 +37,11 @@ function GridPage({ classes }) {
       {value === 0 && (
         <>
           <h2 className={classnames('zep-typo--normal-8', classes.headline)}>Basic Grid</h2>
+
+          <p className={classnames('zep-typo--normal-3', classes.headline)}>
+            Zeppelin uses a hybrid grid layout as demonstrated below
+          </p>
+
           <div className={classes.player}>
             <ReactPlayer
               url="https://cdn-zel.zepdev.net/zel/animation_grid.mp4"

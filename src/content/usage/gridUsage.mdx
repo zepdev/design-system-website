@@ -14,7 +14,35 @@ import Grid from '../../components/grid/Grid'
 The Zeppelin Design System grid is build with flexbox for modern browsers and has a fallback float grid for legacy browsers.
 It uses a basic grid container, rows and columns to layout the content.
 
-<Grid />
+<Grid
+  rows={[
+    {
+      class: 'zep-grid__row',
+      cols: [
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 2',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 3',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 4',
+        },
+      ],
+    },
+  ]}
+/>
 
 ```html
 <div class="zep-grid">
@@ -43,8 +71,13 @@ It uses a basic grid container, rows and columns to layout the content.
 </div>
 ```
 
-The above example creates four equal-width columns on extra extra small, extra small, medium and large devices using predefined grid classes.
+There are six grid breakpoints to make the grid responsive, one for each breakpoint: (extra extra small), extra small, small, medium, large, and extra large.
+Grid column breakpoints are based on minimum and maximum width media queries, they apply only to that one breakpoint and not to those above or below. Above and below they will cover 100% of the row.
+
+The above example creates four equal width columns on extra extra small, extra small, medium and large devices using predefined grid classes.
 The width of the columns is always a fixed percentage value, depending on the screensize and the related amount of colums.
+Our Grid displays four columns side by side in one row, except on screensizes between 576px and 991px because the max. amount of columns in this case is six. A six column row can't be devided into four equal width columns.
+In that specific case we chose to display four equal width (50%) columns in two lines by providing the class `.zep-grid__col--xs-3-6`.
 
 Here is the grid data for the used column classes:
 
@@ -66,17 +99,459 @@ Each column has horizontal padding (called a gutter) for controlling the space b
 The maximum amount of columns per row is depending on the screensize.
 Therefore it is necessary to define the column sizes based on this max. amount.
 
-Define a colum width of 25% from total grid width:
+## What class to use for colum width of 25% from total grid width?
 
-- screensize < 576px = xxs = max. amount of columns: 4 = 25% of 4: 1 => zep-grid\*\*col--xxs-1-4
-- screensize ≥ 576px = xs = max. amount of columns: 6 = 25% of 6: 1.5 => impossible to split 6 for 25%
-- screensize ≥ 768px = s = max. amount of columns: 6 = 25% of 6: 1.5 => does not fit into grid
-- screensize ≥ 992px = m = max. amount of columns: 8 = 25% of 8: 2 => zep-grid\*\*col--m-2-8
-- screensize ≥ 1200px = l = max. amount of columns: 12 = 25% of 12: 3 => zep-grid\*\*col--l-3-12
-- screensize ≥ 1680px = xl = max. amount of columns: 12 = 25% of 12: 3 => zep-grid\*\*col--xl-3-12
+<Table
+  title="basics grid data"
+  header={['identifier', 'screensize', 'columns', 'calculation', 'class']}
+  content={{
+    xxs: {
+      identifier: 'xxs',
+      screensize: grid.xxs.screensize,
+      columns: grid.xxs.columns,
+      calculation: '25% of 4 = 1',
+      class: '.zep-grid__col--xxs-1-4',
+    },
+    xs: {
+      identifier: 'xs',
+      screensize: grid.xs.screensize,
+      columns: grid.xs.columns,
+      calculation: '25% of 6 = 1.5',
+      class: 'none - does not fit into grid!',
+    },
+    s: {
+      identifier: 's',
+      screensize: grid.s.screensize,
+      columns: grid.s.columns,
+      calculation: '25% of 6 = 1.5',
+      class: 'none - does not fit into grid!',
+    },
+    m: {
+      identifier: 'm',
+      screensize: grid.m.screensize,
+      columns: grid.m.columns,
+      calculation: '25% of 8 = 2',
+      class: '.zep-grid__col--m-2-8',
+    },
+    l: {
+      identifier: 'l',
+      screensize: grid.l.screensize,
+      columns: grid.l.columns,
+      calculation: '25% of 12 = 3',
+      class: '.zep-grid__col--l-3-12',
+    },
+    xl: {
+      identifier: 'xl',
+      screensize: grid.xl.screensize,
+      columns: grid.xl.columns,
+      calculation: '25% of 12 = 3',
+      class: '.zep-grid__col--xl-3-12',
+    },
+  }}
+/>
 
-Columns that exceed the provided space per row are visually wrapped into the next row, but technically stay in the same row element.
+## Column wrapping
 
-# Designers
+Columns that exceed the provided space per row are wrapped onto a new line (but technically remain in the same row element).
+All columns are always horizontally aligned right. Unused column space in the grid remains free.
+The following example shows the result of a 3-row grid with different column sizes.
+Feel free to change the screensize to see how the grid behaves.
 
-No content yet, please check back later
+<Grid
+  rows={[
+    {
+      class: 'zep-grid__row',
+      cols: [
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-1',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-2-4 zep-grid__col--xs-2-6 zep-grid__col--m-4-8 zep-grid__col--l-6-12',
+          content: 'Column 1-2',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-6-8 zep-grid__col--l-9-12',
+          content: 'Column 1-3',
+        },
+      ],
+    },
+    {
+      class: 'zep-grid__row',
+      cols: [
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-2-4 zep-grid__col--xs-3-6 zep-grid__col--m-4-8 zep-grid__col--l-6-12',
+          content: 'Column 2-1 (50%)',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-2-4 zep-grid__col--xs-3-6 zep-grid__col--m-4-8 zep-grid__col--l-6-12',
+          content: 'Column 2-2 (50%)',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--xs-6-6 zep-grid__col--m-8-8 zep-grid__col--l-12-12',
+          content: 'Column 2-3 (100%)',
+        },
+      ],
+    },
+  ]}
+/>
+
+```html
+<div class="zep-grid">
+  <div class="zep-grid__row">
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-1
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-2-4 zep-grid__col--xs-2-6 zep-grid__col--m-4-8 zep-grid__col--l-6-12"
+    >
+      Column 1-2
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-6-8 zep-grid__col--l-9-12"
+    >
+      Column 1-3
+    </div>
+  </div>
+  <div class="zep-grid__row">
+    <div
+      class="zep-grid__col zep-grid__col--xxs-2-4 zep-grid__col--xs-3-6 zep-grid__col--m-4-8 zep-grid__col--l-6-12"
+    >
+      Column 2-1 (50%)
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-2-4 zep-grid__col--xs-3-6 zep-grid__col--m-4-8 zep-grid__col--l-6-12"
+    >
+      Column 2-2 (50%)
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--xs-6-6 zep-grid__col--m-8-8 zep-grid__col--l-12-12"
+    >
+      Column 2-3 (100%)
+    </div>
+  </div>
+</div>
+```
+
+## Alignment
+
+Default alignment of columns is top left. This can be changed for browsers that support flex-box by using flexbox alignment utilities.
+**The horizontal alignment should not be changed.**
+
+### Vertical Alignment
+
+It is possible to change the vertical alignment of columns by using additional classes with alignment modifiers on grid row elements.
+
+### Vertical Alignment - default = 'stretch'
+
+<Grid
+  rows={[
+    {
+      class: 'zep-grid__row',
+      cols: [
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content:
+            'Column 1-1<br>with more than one line<br>of text in this column',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-2',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-3',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-4',
+        },
+      ],
+    },
+  ]}
+/>
+
+```html
+<div class="zep-grid">
+  <div class="zep-grid__row">
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-1<br />with more than one line<br />of text in this column
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-2
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-3
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-4
+    </div>
+  </div>
+</div>
+```
+
+### Vertical Alignment - bottom ='flex-end'
+
+<Grid
+  rows={[
+    {
+      class: 'zep-grid__row zep-grid__row--align-items-flex-end ',
+      cols: [
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content:
+            'Column 1-1<br>with more than one line<br>of text in this column',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-2',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-3',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-4',
+        },
+      ],
+    },
+  ]}
+/>
+
+```html
+<div class="zep-grid">
+  <div class="zep-grid__row zep-grid__row--align-items-flex-end">
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-1<br />with more than one line<br />of text in this column
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-2
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-3
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-4
+    </div>
+  </div>
+</div>
+```
+
+### Vertical Alignment - center ='center'
+
+<Grid
+  rows={[
+    {
+      class: 'zep-grid__row zep-grid__row--align-items-center',
+      cols: [
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content:
+            'Column 1-1<br>with more than one line<br>of text in this column',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-2',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-3',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-4',
+        },
+      ],
+    },
+  ]}
+/>
+
+```html
+<div class="zep-grid">
+  <div class="zep-grid__row zep-grid__row--align-items-center">
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-1<br />with more than one line<br />of text in this column
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-2
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-3
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-4
+    </div>
+  </div>
+</div>
+```
+
+### Vertical Alignment - baseline = 'baseline'
+
+<Grid
+  rows={[
+    {
+      class: 'zep-grid__row zep-grid__row--align-items-baseline',
+      cols: [
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content:
+            'Column 1-1<br>with more than one line<br>of text in this column',
+          style: { paddingTop: '40px' },
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-2',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-3',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content: 'Column 1-4',
+        },
+      ],
+    },
+  ]}
+/>
+
+```html
+<div class="zep-grid">
+  <div class="zep-grid__row zep-grid__row--align-items-baseline">
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+      style="padding-top: 40px"
+    >
+      Column 1-1<br />with more than one line<br />of text in this column
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-2
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-3
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+    >
+      Column 1-4
+    </div>
+  </div>
+</div>
+```
+
+### Vertical Alignment - individual
+
+For individual vertical alignment of columns use classes with alignment modifiers on the column elements itself.
+
+<Grid
+  rows={[
+    {
+      class: 'zep-grid__row',
+      cols: [
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
+          content:
+            'Column 1-1<br>with more than one line<br>of text in this column',
+          style: { paddingTop: '40px' },
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-flex-start',
+          content: 'Column 1-2 / flex-start',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-center',
+          content: 'Column 1-3 / center',
+        },
+        {
+          class:
+            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-flex-end',
+          content: 'Column 1-4 / flex-end',
+        },
+      ],
+    },
+  ]}
+/>
+
+```html
+<div class="zep-grid">
+  <div class="zep-grid__row zep-grid__row--align-items-baseline">
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+      style="padding-top: 40px"
+    >
+      Column 1-1<br />with more than one line<br />of text in this column
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-flex-start"
+    >
+      Column 1-2 / flex-start
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-center"
+    >
+      Column 1-3 / center
+    </div>
+    <div
+      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-flex-end"
+    >
+      Column 1-4 / flex-end
+    </div>
+  </div>
+</div>
+```
