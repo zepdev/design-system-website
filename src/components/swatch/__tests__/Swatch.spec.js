@@ -38,14 +38,14 @@ describe('Swatch', () => {
       color: { name: 'name', hex: '#fff' },
       classes: {},
     }
-    const { getByTestId, getByText } = render(
+    const { getByTestId } = render(
       <ThemeProvider theme={theme}>
         <Swatch {...mockProps} />
       </ThemeProvider>
     )
-    const button = getByText(mockProps.color.hex)
+    const button = getByTestId('swatchButton')
     fireEvent.click(button)
-    expect(getByTestId('swatch-text')).toHaveTextContent(/copied!/i)
+    expect(getByTestId('swatchText')).toHaveTextContent(/copied!/i)
     // check that timeout is called and changes text back
     expect(setTimeout).toHaveBeenCalledTimes(1)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
@@ -54,7 +54,7 @@ describe('Swatch', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('swatch-text')).toHaveTextContent(mockProps.color.hex)
+    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color.hex)
   })
 
   it('renders "Error!" if document.execCommand is not supported by browser', () => {
@@ -75,14 +75,14 @@ describe('Swatch', () => {
       color: { name: 'name', hex: '#fff' },
       classes: {},
     }
-    const { getByTestId, getByText } = render(
+    const { getByTestId } = render(
       <ThemeProvider theme={theme}>
         <Swatch {...mockProps} />
       </ThemeProvider>
     )
-    const button = getByText(mockProps.color.hex)
+    const button = getByTestId(`swatchButton`)
     fireEvent.click(button)
-    expect(getByTestId('swatch-text')).toHaveTextContent(/error!/i)
+    expect(getByTestId('swatchText')).toHaveTextContent(/error!/i)
     // check that timeout is called and changes text back
     expect(setTimeout).toHaveBeenCalledTimes(2)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
@@ -91,6 +91,6 @@ describe('Swatch', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('swatch-text')).toHaveTextContent(mockProps.color.hex)
+    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color.hex)
   })
 })

@@ -17,7 +17,7 @@ Object {
           class="DownloadFile-container-0-1-2"
         >
           <button
-            class="ButtonBase-button-0-1-9 DownloadFile-button-0-1-7"
+            class="DownloadFile-button-0-1-7 ButtonBase-button-0-1-9"
             data-testid="downloadButton"
           >
             <svg
@@ -56,7 +56,7 @@ Object {
         class="DownloadFile-container-0-1-2"
       >
         <button
-          class="ButtonBase-button-0-1-9 DownloadFile-button-0-1-7"
+          class="DownloadFile-button-0-1-7 ButtonBase-button-0-1-9"
           data-testid="downloadButton"
         >
           <svg

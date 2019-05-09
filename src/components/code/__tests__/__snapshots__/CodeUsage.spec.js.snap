@@ -18,7 +18,7 @@ Object {
           data-testid="tabs"
         >
           <button
-            class="ButtonBase-button-0-1-11 Tab-root-0-1-4 Tab-selected-0-1-10 Tab-fullWidth-0-1-6"
+            class="Tab-root-0-1-4 Tab-selected-0-1-10 Tab-fullWidth-0-1-6 ButtonBase-button-0-1-11"
           >
             <p
               class="Tab-label-0-1-7 Tab-selected-0-1-10 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
@@ -27,7 +27,7 @@ Object {
             </p>
           </button>
           <button
-            class="ButtonBase-button-0-1-11 Tab-root-0-1-4 Tab-fullWidth-0-1-6"
+            class="Tab-root-0-1-4 Tab-fullWidth-0-1-6 ButtonBase-button-0-1-11"
           >
             <p
               class="Tab-label-0-1-7 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
@@ -73,7 +73,7 @@ Object {
             </div>
           </div>
           <button
-            class="ButtonBase-button-0-1-11 CopyButton-button-0-1-12"
+            class="CopyButton-button-0-1-12 ButtonBase-button-0-1-11"
             data-testid="copyButton"
           >
             <svg
@@ -113,7 +113,7 @@ Object {
         data-testid="tabs"
       >
         <button
-          class="ButtonBase-button-0-1-11 Tab-root-0-1-4 Tab-selected-0-1-10 Tab-fullWidth-0-1-6"
+          class="Tab-root-0-1-4 Tab-selected-0-1-10 Tab-fullWidth-0-1-6 ButtonBase-button-0-1-11"
         >
           <p
             class="Tab-label-0-1-7 Tab-selected-0-1-10 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
@@ -122,7 +122,7 @@ Object {
           </p>
         </button>
         <button
-          class="ButtonBase-button-0-1-11 Tab-root-0-1-4 Tab-fullWidth-0-1-6"
+          class="Tab-root-0-1-4 Tab-fullWidth-0-1-6 ButtonBase-button-0-1-11"
         >
           <p
             class="Tab-label-0-1-7 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
@@ -168,7 +168,7 @@ Object {
           </div>
         </div>
         <button
-          class="ButtonBase-button-0-1-11 CopyButton-button-0-1-12"
+          class="CopyButton-button-0-1-12 ButtonBase-button-0-1-11"
           data-testid="copyButton"
         >
           <svg
