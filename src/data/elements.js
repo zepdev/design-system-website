@@ -51,12 +51,10 @@ module.exports = {
     demo: {
       form: {
         js: [
-          '<input type="text" id="text" name="text" min="10" max="100" class="zep-input zep-input-text">',
-        ],
-      },
-      static: {
-        js: [
-          '<input type="text" id="text" name="text" min="10" max="100" class="zep-input zep-input-text">',
+          `<div class="zep-form-container">
+          <input type="text" id="inputZeppelin" min="10" max="100" placeholder="Placeholder"  class="zep-input">
+          <label class="zep-form-container__label" for="inputZeppelin">Input Field</label>
+        </div>`,
         ],
       },
     },
