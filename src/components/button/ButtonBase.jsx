@@ -10,7 +10,6 @@ const styles = {
     border: 'none',
     outline: 'none',
     cursor: 'pointer',
-    textAlign: 'left',
     background: 'transparent',
     '&:hover, &:focus, &:active, &::focus:not(.focus-visible), &:active:focus': {
       backgroundColor: 'transparent',
@@ -19,23 +18,28 @@ const styles = {
   },
 }
 
+// ButtonBase has a link element, however a link should not be used as a button.
+// Its function here is only to for styling
+
 function ButtonBase({
   onClick,
   children,
   className: classNameProp,
   fullWidth,
+  size,
   disabled,
   href,
   classes,
   ...other
 }) {
   const className = classnames(
-    classes.button,
+    classNameProp,
     {
       // eslint-disable-next-line
-      ['zep-button--full']: fullWidth,
+      'zep-button--full': fullWidth,
+      'zep-button--small': size === 'small',
     },
-    classNameProp
+    classes.button
   )
 
   return href ? (
@@ -54,11 +58,13 @@ ButtonBase.propTypes = {
   fullWidth: PropTypes.bool,
   onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
+  size: PropTypes.oneOf(['small', 'large']),
 }
 
 ButtonBase.defaultProps = {
   fullWidth: false,
   disabled: false,
+  size: 'large',
 }
 
 export default withStyles(styles)(ButtonBase)

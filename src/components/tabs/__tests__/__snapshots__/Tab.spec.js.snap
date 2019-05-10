@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="ButtonBase-button-0-1-8 Tab-root-0-1-1 Tab-normal-0-1-2"
+        class="Tab-root-0-1-1 Tab-normal-0-1-2 ButtonBase-button-0-1-8"
       >
         <p
           class="Tab-label-0-1-4 Tab-labelPrimary-0-1-5 zep-typo--normal-4"
@@ -18,7 +18,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="ButtonBase-button-0-1-8 Tab-root-0-1-1 Tab-normal-0-1-2"
+      class="Tab-root-0-1-1 Tab-normal-0-1-2 ButtonBase-button-0-1-8"
     >
       <p
         class="Tab-label-0-1-4 Tab-labelPrimary-0-1-5 zep-typo--normal-4"

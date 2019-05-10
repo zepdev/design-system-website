@@ -10,11 +10,11 @@ Object {
       >
         <li>
           <button
-            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
           >
             Getting started
             <svg
-              aria-labelledby="title"
+              aria-labelledby="title_chevronDown"
               class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
               height="20"
               viewBox="0 0 24 24"
@@ -22,9 +22,9 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <title
-                id="title_copy"
+                id="title_chevronDown"
               >
-                Arrow Down Icon
+                Chevron Down
               </title>
               <polygon
                 fill="currentColor"
@@ -35,11 +35,11 @@ Object {
         </li>
         <li>
           <button
-            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
           >
             Guidelines
             <svg
-              aria-labelledby="title"
+              aria-labelledby="title_chevronDown"
               class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
               height="20"
               viewBox="0 0 24 24"
@@ -47,9 +47,9 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <title
-                id="title_copy"
+                id="title_chevronDown"
               >
-                Arrow Down Icon
+                Chevron Down
               </title>
               <polygon
                 fill="currentColor"
@@ -60,11 +60,11 @@ Object {
         </li>
         <li>
           <button
-            class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
           >
             Elements
             <svg
-              aria-labelledby="title"
+              aria-labelledby="title_chevronDown"
               class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
               height="20"
               viewBox="0 0 24 24"
@@ -72,9 +72,9 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <title
-                id="title_copy"
+                id="title_chevronDown"
               >
-                Arrow Down Icon
+                Chevron Down
               </title>
               <polygon
                 fill="currentColor"
@@ -108,11 +108,11 @@ Object {
     >
       <li>
         <button
-          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
         >
           Getting started
           <svg
-            aria-labelledby="title"
+            aria-labelledby="title_chevronDown"
             class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
             height="20"
             viewBox="0 0 24 24"
@@ -120,9 +120,9 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <title
-              id="title_copy"
+              id="title_chevronDown"
             >
-              Arrow Down Icon
+              Chevron Down
             </title>
             <polygon
               fill="currentColor"
@@ -133,11 +133,11 @@ Object {
       </li>
       <li>
         <button
-          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
         >
           Guidelines
           <svg
-            aria-labelledby="title"
+            aria-labelledby="title_chevronDown"
             class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
             height="20"
             viewBox="0 0 24 24"
@@ -145,9 +145,9 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <title
-              id="title_copy"
+              id="title_chevronDown"
             >
-              Arrow Down Icon
+              Chevron Down
             </title>
             <polygon
               fill="currentColor"
@@ -158,11 +158,11 @@ Object {
       </li>
       <li>
         <button
-          class="ButtonBase-button-0-1-9 zep-button--full SidebarNavItem-button-0-1-2 zep-typo--normal-3"
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
         >
           Elements
           <svg
-            aria-labelledby="title"
+            aria-labelledby="title_chevronDown"
             class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
             height="20"
             viewBox="0 0 24 24"
@@ -170,9 +170,9 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <title
-              id="title_copy"
+              id="title_chevronDown"
             >
-              Arrow Down Icon
+              Chevron Down
             </title>
             <polygon
               fill="currentColor"

@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
 import classnames from 'classnames'
+import NavigationDropdownIcon from '../icons/NavigationDropdownIcon'
 import '@reach/menu-button/styles.css'
 import { Menu, MenuList, MenuButton, MenuItem } from '@reach/menu-button'
 import './dropdown.css'
@@ -96,10 +97,7 @@ const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
           [classes.rental]: selected === 'rental',
         })}
       />
-      <i
-        aria-hidden
-        className={classnames(classes.icon, 'zepicons zepicons-navigation-dropdown')}
-      />
+      <NavigationDropdownIcon className={classes.icon} />
     </MenuButton>
     <MenuList className={classes.menuList}>
       {menuItems.map(elem => (
@@ -116,10 +114,10 @@ const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
             })}
           />
           {elem === 'zeppelin'
-            ? 'Zeppelin Holding'
+            ? 'Zeppelin Blue'
             : elem === 'cat'
-              ? 'Zeppelin CAT'
-              : 'Zeppelin Rental'}
+              ? 'Zeppelin Yellow'
+              : 'Zeppelin Red'}
         </MenuItem>
       ))}
     </MenuList>

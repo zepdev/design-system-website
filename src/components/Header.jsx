@@ -84,32 +84,30 @@ const styles = theme => ({
 })
 
 const Header = ({ handleMenu, theme, handleTheme, classes }) => (
-  <header>
-    <div className={classes.root}>
-      <div className={classnames(classes.height, 'zep-grid', 'zep-grid--valign-center')}>
-        <div className="zep-grid__row">
-          <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 ">
-            <ButtonBase
-              onClick={handleMenu}
-              className={classnames(classes.button, 'zep-button')}
-              data-testid="mobileMenuButton"
-            >
-              <MenuIcon />
-            </ButtonBase>
-          </div>
-          <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-2-4 zep-grid__col--xs-4-6 zep-grid__col--m-4-8">
-            <ZeppelinIcon className={classes.icon} />
-          </div>
+  <header className={classnames(classes.root, classes.height)}>
+    <div className={classnames(classes.height, 'zep-grid', 'zep-grid--valign-center')}>
+      <div className="zep-grid__row">
+        <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 ">
+          <ButtonBase
+            onClick={handleMenu}
+            className={classnames(classes.button, 'zep-button')}
+            data-testid="mobileMenuButton"
+          >
+            <MenuIcon />
+          </ButtonBase>
+        </div>
+        <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-2-4 zep-grid__col--xs-4-6 zep-grid__col--m-4-8">
+          <ZeppelinIcon className={classes.icon} />
+        </div>
 
-          <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8">
-            <div className={classes.menuContainer}>
-              <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
-              <Dropdown
-                menuItems={['zeppelin', 'cat', 'rental']}
-                selected={theme}
-                onSelect={handleTheme}
-              />
-            </div>
+        <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8">
+          <div className={classes.menuContainer}>
+            <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
+            <Dropdown
+              menuItems={['zeppelin', 'cat', 'rental']}
+              selected={theme}
+              onSelect={handleTheme}
+            />
           </div>
         </div>
       </div>

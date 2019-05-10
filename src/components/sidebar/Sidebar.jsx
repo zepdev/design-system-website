@@ -14,6 +14,7 @@ const styles = theme => ({
     left: 0,
     top: 0,
     zIndex: 3,
+    background: theme.colors.gray.white.hex,
     transition: 'transform 0.2s',
     borderRight: `1px solid ${ theme.colors.gray.grayMid.hex }`,
   },

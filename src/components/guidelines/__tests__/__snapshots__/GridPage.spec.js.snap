@@ -10,7 +10,7 @@ Object {
         data-testid="tabs"
       >
         <button
-          class="ButtonBase-button-0-1-12 Tab-root-0-1-5 Tab-selected-0-1-11 Tab-normal-0-1-6"
+          class="Tab-root-0-1-5 Tab-selected-0-1-11 Tab-normal-0-1-6 ButtonBase-button-0-1-12"
         >
           <p
             class="Tab-label-0-1-8 Tab-selected-0-1-11 Tab-labelPrimary-0-1-9 zep-typo--normal-4"
@@ -19,7 +19,7 @@ Object {
           </p>
         </button>
         <button
-          class="ButtonBase-button-0-1-12 Tab-root-0-1-5 Tab-normal-0-1-6"
+          class="Tab-root-0-1-5 Tab-normal-0-1-6 ButtonBase-button-0-1-12"
         >
           <p
             class="Tab-label-0-1-8 Tab-labelPrimary-0-1-9 zep-typo--normal-4"
@@ -299,7 +299,7 @@ Object {
       data-testid="tabs"
     >
       <button
-        class="ButtonBase-button-0-1-12 Tab-root-0-1-5 Tab-selected-0-1-11 Tab-normal-0-1-6"
+        class="Tab-root-0-1-5 Tab-selected-0-1-11 Tab-normal-0-1-6 ButtonBase-button-0-1-12"
       >
         <p
           class="Tab-label-0-1-8 Tab-selected-0-1-11 Tab-labelPrimary-0-1-9 zep-typo--normal-4"
@@ -308,7 +308,7 @@ Object {
         </p>
       </button>
       <button
-        class="ButtonBase-button-0-1-12 Tab-root-0-1-5 Tab-normal-0-1-6"
+        class="Tab-root-0-1-5 Tab-normal-0-1-6 ButtonBase-button-0-1-12"
       >
         <p
           class="Tab-label-0-1-8 Tab-labelPrimary-0-1-9 zep-typo--normal-4"
