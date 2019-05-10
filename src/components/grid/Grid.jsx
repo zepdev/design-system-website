@@ -25,13 +25,14 @@ const Grid = ({ classes, rows }) => {
   return (
     <>
       <div className={classnames(classes.demoGrid, 'zep-grid')}>
-        {rows.map(row => (
-          <div className={classnames(classes.demoGridRow, row.class)}>
-            {row.cols.map(col => (
+        {rows.map((row, idx) => (
+          <div className={classnames(classes.demoGridRow, row.class)} key={`row${ idx }`}>
+            {row.cols.map((col, idx) => (
               <div
                 className={classnames(classes.demoGridCol, col.class)}
                 style={col.style}
                 dangerouslySetInnerHTML={{ __html: col.content }}
+                key={`col${ idx }`}
               />
             ))}
           </div>

@@ -6,13 +6,30 @@ title: Grid Usage
 import Table from '../../components/table/Table'
 import { grid } from 'zeppelin-element-library/bundle/themes/theme.json'
 import Grid from '../../components/grid/Grid'
+import GridImage from '../../components/grid/GridImage'
 
 # Developers
 
 ## Implementation
 
 The Zeppelin Design System grid is build with flexbox for modern browsers and has a fallback float grid for legacy browsers.
-It uses a basic grid container, rows and columns to layout the content.
+The grid is componsed of a container: **.zep-grid**, rows: **.zep-grid\_\_row** and columns **.zep-grid\_\_col**.
+
+A container has a width a 100% width and contains grid margins.
+A row is the container to hold all individual elements, called columns. Columns MUST be used within a row.
+Each column has horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins.
+The maximum amount of columns per row depends on the screensize.
+Therefore it is necessary to define the column sizes based on this maximum amount.
+
+<GridImage />
+
+## Breakpoints
+
+There are six grid breakpoints to make the grid responsive, at: (xxs), xs, s, m, l, and xl.
+Grid column breakpoints are based on minimum and maximum width media queries, and apply only to that breakpoint (not to those above or below). Above and below they will cover 100% of the row.
+
+This example creates 3 columns using predefined grid classes, that will change width on differnt breakpoints.
+The width of the columns is always a fixed percentage value, depending on the screensize and the related amount of colums.
 
 <Grid
   rows={[
@@ -22,22 +39,17 @@ It uses a basic grid container, rows and columns to layout the content.
         {
           class:
             'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
-          content: 'Column 1',
+          content: 'xxs=1 xs=3 m=2 l=3',
         },
         {
           class:
             'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
-          content: 'Column 2',
+          content: 'xxs=1 xs=3 m=2 l=3',
         },
         {
           class:
-            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
-          content: 'Column 3',
-        },
-        {
-          class:
-            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
-          content: 'Column 4',
+            'zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12',
+          content: 'xxs=4 m=4 l=6',
         },
       ],
     },
@@ -50,54 +62,21 @@ It uses a basic grid container, rows and columns to layout the content.
     <div
       class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
     >
-      Column 1
+      xxs=1 xs=3 m=2 l=3
     </div>
     <div
       class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
     >
-      Column 2
+      xxs=1 xs=3 m=2 l=3
     </div>
     <div
-      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
+      class="zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12"
     >
-      Column 3
-    </div>
-    <div
-      class="zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
-    >
-      Column 4
+      xxs=4 m=4 l=6
     </div>
   </div>
 </div>
 ```
-
-There are six grid breakpoints to make the grid responsive, one for each breakpoint: (extra extra small), extra small, small, medium, large, and extra large.
-Grid column breakpoints are based on minimum and maximum width media queries, they apply only to that one breakpoint and not to those above or below. Above and below they will cover 100% of the row.
-
-The above example creates four equal width columns on extra extra small, extra small, medium and large devices using predefined grid classes.
-The width of the columns is always a fixed percentage value, depending on the screensize and the related amount of colums.
-Our Grid displays four columns side by side in one row, except on screensizes between 576px and 991px because the max. amount of columns in this case is six. A six column row can't be devided into four equal width columns.
-In that specific case we chose to display four equal width (50%) columns in two lines by providing the class `.zep-grid__col--xs-3-6`.
-
-Here is the grid data for the used column classes:
-
-<Table
-  title="basics grid data"
-  header={['identifier', 'screensize', 'columns', 'margin', 'gutter']}
-  content={{
-    xxs: { identifier: 'xxs', ...grid.xxs },
-    xs: { identifier: 'xs', ...grid.xs },
-    m: { identifier: 'm', ...grid.m },
-    l: { identifier: 'l', ...grid.l },
-  }}
-/>
-
-The `.zep-grid` class is for the main grid container with a 100% width. It has the horizontal margins that are defined in the grid data table for each screensize breakpoint.
-A main grid has to contain `.zep-grid__row` elements for each row.
-Each row can hold the needed amount of `.zep-grid__col` column elements.
-Each column has horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins.
-The maximum amount of columns per row is depending on the screensize.
-Therefore it is necessary to define the column sizes based on this max. amount.
 
 ## What class to use for colum width of 25% from total grid width?
 
@@ -248,9 +227,11 @@ Default alignment of columns is top left. This can be changed for browsers that 
 
 ### Vertical Alignment
 
-It is possible to change the vertical alignment of columns by using additional classes with alignment modifiers on grid row elements.
+Change the vertical alignment of columns with the addition of modifiers on **zep-grid\_\_row**.
 
-### Vertical Alignment - default = 'stretch'
+### Vertical Alignment Default: 'zep-grid\_\_row' (no modifier)
+
+This corresponds to the flexbox = align-items: 'stretch'. No modifer needs to be added to this class as it is the default setting.
 
 <Grid
   rows={[
@@ -310,12 +291,14 @@ It is possible to change the vertical alignment of columns by using additional c
 </div>
 ```
 
-### Vertical Alignment - bottom ='flex-end'
+### Vertical Alignment Bottom ='zep-grid\_\_row--align-items-flex-end'
+
+This corresponds to the flexbox = align-items: 'flex-end'.
 
 <Grid
   rows={[
     {
-      class: 'zep-grid__row zep-grid__row--align-items-flex-end ',
+      class: 'zep-grid__row zep-grid__row--align-items-flex-end',
       cols: [
         {
           class:
@@ -370,7 +353,9 @@ It is possible to change the vertical alignment of columns by using additional c
 </div>
 ```
 
-### Vertical Alignment - center ='center'
+### Vertical Alignment Center ='zep-grid\_\_row--align-items-center'
+
+This corresponds to the flexbox = align-items: 'center'.
 
 <Grid
   rows={[
@@ -430,7 +415,9 @@ It is possible to change the vertical alignment of columns by using additional c
 </div>
 ```
 
-### Vertical Alignment - baseline = 'baseline'
+### Vertical Alignment Baseline = 'zep-grid\_\_row--align-items-baseline'
+
+This corresponds to the flexbox = align-items: 'baseline'.
 
 <Grid
   rows={[
@@ -492,9 +479,9 @@ It is possible to change the vertical alignment of columns by using additional c
 </div>
 ```
 
-### Vertical Alignment - individual
+### Vertical Alignment - Individual
 
-For individual vertical alignment of columns use classes with alignment modifiers on the column elements itself.
+For individual vertical alignment of columns, use classes with alignment modifiers on the column elements itself (ie, 'zep-grid\_\_col--align-self-flex-start').
 
 <Grid
   rows={[
