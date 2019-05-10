@@ -46,11 +46,11 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
-    borderTop: 'none',
-    borderLeft: 'none',
-    borderRight: 'none',
-    marginTop: 0,
+    border: 0,
+    borderTop: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    width: '100%',
+    borderColor: theme.colors.gray.grayLighter.hex,
   },
   hStyled: {
     marginBottom: `${ theme.spacing.component.l.rem }rem`,
