@@ -61,6 +61,9 @@ const styles = theme => ({
   aStyled: {
     color: theme.colors.primary.indigoBlue.hex,
   },
+  strongStyled: {
+    fontWeight: 'bold',
+  },
   skipLink: {
     position: 'absolute',
     left: '-999em',
@@ -95,6 +98,7 @@ function Layout({ children, classes }) {
 
   const aStyled = props => <a className={classes.aStyled} {...props} />
   const preStyled = props => <div {...props} />
+  const strongStyled = props => <strong className={classes.strongStyled} {...props} />
 
   const components = {
     h1: h1Styled,
@@ -105,6 +109,7 @@ function Layout({ children, classes }) {
     pre: preStyled,
     code: CodeBlock,
     a: aStyled,
+    strong: strongStyled,
   }
 
   return (
