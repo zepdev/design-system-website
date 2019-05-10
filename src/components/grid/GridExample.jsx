@@ -22,34 +22,35 @@ const styles = theme => ({
   },
 })
 
-const GridExample = ({ classes, cols }) => {
+const GridExample = ({ classes, rows }) => {
   return (
     <GridContainer className={classes.demoGrid}>
-      {cols && (
-        <GridRow>
-          {cols.map((col, idx) => (
-            <GridCol
-              className={classes.demoGridCol}
-              key={`col${ idx }`}
-              xxs={col.xxs}
-              xs={col.xs}
-              s={col.s}
-              m={col.m}
-              l={col.l}
-              xl={col.xl}
-            >
-              {col.text}
-            </GridCol>
-          ))}
-        </GridRow>
-      )}
+      {rows &&
+        rows.map((row, idx) => (
+          <GridRow align={row.align} key={`row${ idx }`}>
+            {row.cols.map((col, iidx) => (
+              <GridCol
+                className={classes.demoGridCol}
+                key={`row${ idx }-col${ iidx }`}
+                xxs={col.xxs}
+                xs={col.xs}
+                s={col.s}
+                m={col.m}
+                l={col.l}
+                xl={col.xl}
+              >
+                {col.text}
+              </GridCol>
+            ))}
+          </GridRow>
+        ))}
     </GridContainer>
   )
 }
 
 GridExample.propTypes = {
   classes: PropTypes.object,
-  col: PropTypes.array,
+  rows: PropTypes.array,
 }
 
 export default withStyles(styles)(GridExample)

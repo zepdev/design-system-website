@@ -17,7 +17,7 @@ function GridCol({ children, className: classNameProp, align, xxs, xs, s, m, l, 
     classNameProp
   )
 
-  return <div className={className}>{children}</div>
+  return <div className={className} dangerouslySetInnerHTML={{ __html: children }} />
 }
 
 GridCol.propTypes = {
@@ -32,7 +32,7 @@ GridCol.propTypes = {
 }
 
 GridCol.defaultProps = {
-  size: 'stretch',
+  align: 'stretch',
 }
 
 export default GridCol

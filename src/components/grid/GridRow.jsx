@@ -6,7 +6,7 @@ function GridRow({ children, className: classNameProp, align }) {
   const className = classnames(
     'zep-grid__row',
     {
-      [`zep-grid__row--align-self-${ align }`]: align !== undefined,
+      [`zep-grid__row--align-items-${ align }`]: align !== undefined,
     },
     classNameProp
   )
@@ -20,7 +20,7 @@ GridRow.propTypes = {
 }
 
 GridRow.defaultProps = {
-  size: 'stretch',
+  align: 'stretch',
 }
 
 export default GridRow
