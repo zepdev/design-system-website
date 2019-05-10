@@ -170,7 +170,7 @@ const Iconography = ({ classes }) => {
               ariaLabel="download"
             />
             <DownloadFile
-              title="iconography kit"
+              title="Zeppelin Sketch Library"
               sketch
               href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
               download=""
