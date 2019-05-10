@@ -2,9 +2,9 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import { ThemeProvider } from 'react-jss'
 import theme from 'zeppelin-element-library/bundle/themes/theme.json'
-import Grid from '../Grid'
+import GridExample from '../GridExample'
 
-describe('GridPage', () => {
+describe('GridExample', () => {
   it('renders correctly', () => {
     const mockProps = {
       rows: [
@@ -39,7 +39,7 @@ describe('GridPage', () => {
     }
     const component = render(
       <ThemeProvider theme={theme}>
-        <Grid {...mockProps} />
+        <GridExample {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

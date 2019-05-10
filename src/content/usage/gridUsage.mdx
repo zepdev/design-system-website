@@ -5,7 +5,7 @@ title: Grid Usage
 
 import Table from '../../components/table/Table'
 import { grid } from 'zeppelin-element-library/bundle/themes/theme.json'
-import Grid from '../../components/grid/Grid'
+import GridExample from '../../components/grid/GridExample'
 import GridImage from '../../components/grid/GridImage'
 
 # Developers
@@ -31,27 +31,27 @@ Grid column breakpoints are based on minimum and maximum width media queries, an
 This example creates 3 columns using predefined grid classes, that will change width on differnt breakpoints.
 The width of the columns is always a fixed percentage value, depending on the screensize and the related amount of colums.
 
-<Grid
-  rows={[
+<GridExample
+  cols={[
     {
-      class: 'zep-grid__row',
-      cols: [
-        {
-          class:
-            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
-          content: 'xxs=1 xs=3 m=2 l=3',
-        },
-        {
-          class:
-            'zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12',
-          content: 'xxs=1 xs=3 m=2 l=3',
-        },
-        {
-          class:
-            'zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12',
-          content: 'xxs=4 m=4 l=6',
-        },
-      ],
+      xxs: 3,
+      xs: 3,
+      m: 2,
+      l: 3,
+      text: 'xxs=1 xs=3 m=2 l=3',
+    },
+    {
+      xxs: 3,
+      xs: 3,
+      m: 2,
+      l: 3,
+      text: 'xxs=1 xs=3 m=2 l=3',
+    },
+    {
+      xxs: 4,
+      m: 4,
+      l: 6,
+      text: 'xxs=4 m=4 l=6',
     },
   ]}
 />
@@ -136,7 +136,7 @@ All columns are always horizontally aligned right. Unused column space in the gr
 The following example shows the result of a 3-row grid with different column sizes.
 Feel free to change the screensize to see how the grid behaves.
 
-<Grid
+<GridExample
   rows={[
     {
       class: 'zep-grid__row',
@@ -233,7 +233,7 @@ Change the vertical alignment of columns with the addition of modifiers on **zep
 
 This corresponds to the flexbox = align-items: 'stretch'. No modifer needs to be added to this class as it is the default setting.
 
-<Grid
+<GridExample
   rows={[
     {
       class: 'zep-grid__row',
@@ -295,7 +295,7 @@ This corresponds to the flexbox = align-items: 'stretch'. No modifer needs to be
 
 This corresponds to the flexbox = align-items: 'flex-end'.
 
-<Grid
+<GridExample
   rows={[
     {
       class: 'zep-grid__row zep-grid__row--align-items-flex-end',
@@ -357,7 +357,7 @@ This corresponds to the flexbox = align-items: 'flex-end'.
 
 This corresponds to the flexbox = align-items: 'center'.
 
-<Grid
+<GridExample
   rows={[
     {
       class: 'zep-grid__row zep-grid__row--align-items-center',
@@ -419,7 +419,7 @@ This corresponds to the flexbox = align-items: 'center'.
 
 This corresponds to the flexbox = align-items: 'baseline'.
 
-<Grid
+<GridExample
   rows={[
     {
       class: 'zep-grid__row zep-grid__row--align-items-baseline',
@@ -483,7 +483,7 @@ This corresponds to the flexbox = align-items: 'baseline'.
 
 For individual vertical alignment of columns, use classes with alignment modifiers on the column elements itself (ie, 'zep-grid\_\_col--align-self-flex-start').
 
-<Grid
+<GridExample
   rows={[
     {
       class: 'zep-grid__row',
