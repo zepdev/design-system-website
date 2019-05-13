@@ -13,7 +13,7 @@ Object {
           href="/"
         >
           <svg
-            aria-labelledby="title"
+            aria-labelledby="title_undefined"
             class="Sidebar-logo-0-1-4"
             height="100%"
             viewBox="0 0 119.1 19.1"
@@ -21,10 +21,8 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <title
-              id="title_zeppelin"
-            >
-              Zeppelin Icon
-            </title>
+              id="title_undefined"
+            />
             <path
               d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
 c0-0.1,0-0.1-0.1-0.2c0-0.1-0.1-0.1-0.2-0.1c0.1,0,0.1,0,0.2-0.1c0.1-0.1,0.1-0.1,0.1-0.3c0-0.2-0.1-0.3-0.2-0.3c-0.1,0-0.2,0-0.3,0
@@ -101,11 +99,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             <li>
               <button
-                class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
               >
                 Getting started
                 <svg
-                  aria-labelledby="title"
+                  aria-labelledby="title_chevronDown"
                   class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
                   height="20"
                   viewBox="0 0 24 24"
@@ -113,9 +111,9 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <title
-                    id="title_copy"
+                    id="title_chevronDown"
                   >
-                    Arrow Down Icon
+                    Chevron Down
                   </title>
                   <polygon
                     fill="currentColor"
@@ -126,11 +124,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
               >
                 Guidelines
                 <svg
-                  aria-labelledby="title"
+                  aria-labelledby="title_chevronDown"
                   class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
                   height="20"
                   viewBox="0 0 24 24"
@@ -138,9 +136,9 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <title
-                    id="title_copy"
+                    id="title_chevronDown"
                   >
-                    Arrow Down Icon
+                    Chevron Down
                   </title>
                   <polygon
                     fill="currentColor"
@@ -151,11 +149,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
               >
                 Elements
                 <svg
-                  aria-labelledby="title"
+                  aria-labelledby="title_chevronDown"
                   class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
                   height="20"
                   viewBox="0 0 24 24"
@@ -163,9 +161,9 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <title
-                    id="title_copy"
+                    id="title_chevronDown"
                   >
-                    Arrow Down Icon
+                    Chevron Down
                   </title>
                   <polygon
                     fill="currentColor"
@@ -204,7 +202,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         href="/"
       >
         <svg
-          aria-labelledby="title"
+          aria-labelledby="title_undefined"
           class="Sidebar-logo-0-1-4"
           height="100%"
           viewBox="0 0 119.1 19.1"
@@ -212,10 +210,8 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           xmlns="http://www.w3.org/2000/svg"
         >
           <title
-            id="title_zeppelin"
-          >
-            Zeppelin Icon
-          </title>
+            id="title_undefined"
+          />
           <path
             d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
 c0-0.1,0-0.1-0.1-0.2c0-0.1-0.1-0.1-0.2-0.1c0.1,0,0.1,0,0.2-0.1c0.1-0.1,0.1-0.1,0.1-0.3c0-0.2-0.1-0.3-0.2-0.3c-0.1,0-0.2,0-0.3,0
@@ -292,11 +288,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         >
           <li>
             <button
-              class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
             >
               Getting started
               <svg
-                aria-labelledby="title"
+                aria-labelledby="title_chevronDown"
                 class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
                 height="20"
                 viewBox="0 0 24 24"
@@ -304,9 +300,9 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <title
-                  id="title_copy"
+                  id="title_chevronDown"
                 >
-                  Arrow Down Icon
+                  Chevron Down
                 </title>
                 <polygon
                   fill="currentColor"
@@ -317,11 +313,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
             >
               Guidelines
               <svg
-                aria-labelledby="title"
+                aria-labelledby="title_chevronDown"
                 class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
                 height="20"
                 viewBox="0 0 24 24"
@@ -329,9 +325,9 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <title
-                  id="title_copy"
+                  id="title_chevronDown"
                 >
-                  Arrow Down Icon
+                  Chevron Down
                 </title>
                 <polygon
                   fill="currentColor"
@@ -342,11 +338,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="ButtonBase-button-0-1-14 zep-button--full SidebarNavItem-button-0-1-7 zep-typo--normal-3"
+              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
             >
               Elements
               <svg
-                aria-labelledby="title"
+                aria-labelledby="title_chevronDown"
                 class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
                 height="20"
                 viewBox="0 0 24 24"
@@ -354,9 +350,9 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <title
-                  id="title_copy"
+                  id="title_chevronDown"
                 >
-                  Arrow Down Icon
+                  Chevron Down
                 </title>
                 <polygon
                   fill="currentColor"

@@ -1,0 +1,62 @@
+---
+label: radioUsage
+title: Radio Usage
+---
+
+# Developers
+
+## Theme
+
+To implement colors please make sure that you have a theme included. For more information on themes, please visit the Theme Page in the Guidelines Section.
+
+```jsx
+<main class="theme-zeppelin" id="app-root">
+  ...
+  <Radio />
+  ...
+</main>
+```
+
+## Accessibility
+
+All input elements must be accompanied by a label element.
+
+## Grouping
+
+Grouping radio buttons makes this form element more undstandable for all users. Grouping is something that should be done both in the UI and in the code.
+
+Option 1: Fieldset and Legend
+
+```html
+<fieldset>
+  <legend>Plesase Select One</legend>
+  <div>
+    <input type="radio" name="1" id="option1" value="1" />
+    <label for="option1">Option 1</label>
+    <input type="radio" name="2" id="option2" value="2" />
+    <label for="option2">Option 2</label>
+    <input type="radio" name="3" id="option3" value="3" />
+    <label for="option3">Option 3</label>
+  </div>
+</fieldset>
+```
+
+Option 1: ARIA group options
+
+```html
+<div role="radiogroup" aria-labelledby="radioGroup">
+  <h4 id="radioGroup">
+    Please Select One
+  </h4>
+  <div>
+    <input type="radio" name="1" id="option1" value="1" />
+    <label for="option1">Option 1</label>
+    <input type="radio" name="2" id="option2" value="2" />
+    <label for="option2">Option 2</label>
+    <input type="radio" name="3" id="option3" value="3" />
+    <label for="option3">Option 3</label>
+  </div>
+</div>
+```
+
+Please see

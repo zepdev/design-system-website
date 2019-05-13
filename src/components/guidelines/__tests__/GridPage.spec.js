@@ -2,17 +2,14 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import { ThemeProvider } from 'react-jss'
 import theme from 'zeppelin-element-library/bundle/themes/theme.json'
-import Colors from '../../guidelines/Colors'
+import GridPage from '../GridPage'
 
-describe('Colors', () => {
+describe('GridPage', () => {
   it('renders correctly', () => {
-    const mockProps = {
-      classes: {},
-      section: 'primary',
-    }
+    const mockProps = {}
     const component = render(
       <ThemeProvider theme={theme}>
-        <Colors {...mockProps} />
+        <GridPage {...mockProps} />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

@@ -48,7 +48,7 @@ describe('CopyButton', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('copyButton')).toHaveTextContent(/copy icon/i)
+    expect(getByTestId('copyButton')).toHaveTextContent(/copy/i)
   })
   it('renders "Error!" if document.execCommand is not supported by browser', () => {
     // mock document as not implemented by jsdom (https://jestjs.io/docs/en/manual-mocks#mocking-methods-which-are-not-implemented-in-jsdom)
@@ -80,6 +80,6 @@ describe('CopyButton', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('copyButton')).toHaveTextContent(/copy icon/i)
+    expect(getByTestId('copyButton')).toHaveTextContent(/copy/i)
   })
 })

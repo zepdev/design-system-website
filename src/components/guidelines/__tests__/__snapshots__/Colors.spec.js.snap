@@ -10,7 +10,7 @@ Object {
         data-testid="tabs"
       >
         <button
-          class="ButtonBase-button-0-1-11 Tab-root-0-1-4 Tab-selected-0-1-10 Tab-normal-0-1-5"
+          class="Tab-root-0-1-4 Tab-selected-0-1-10 Tab-normal-0-1-5 ButtonBase-button-0-1-11"
         >
           <p
             class="Tab-label-0-1-7 Tab-selected-0-1-10 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
@@ -19,7 +19,7 @@ Object {
           </p>
         </button>
         <button
-          class="ButtonBase-button-0-1-11 Tab-root-0-1-4 Tab-normal-0-1-5"
+          class="Tab-root-0-1-4 Tab-normal-0-1-5 ButtonBase-button-0-1-11"
         >
           <p
             class="Tab-label-0-1-7 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
@@ -40,42 +40,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(39, 22, 111);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#27166f
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #27166f
-                </span>
+                  copy hex:#27166f
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #27166f
               </span>
             </span>
           </button>
@@ -99,42 +96,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(240, 184, 35);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#f0b823
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #f0b823
-                </span>
+                  copy hex:#f0b823
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #f0b823
               </span>
             </span>
           </button>
@@ -158,42 +152,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(175, 14, 14);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#af0e0e
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #af0e0e
-                </span>
+                  copy hex:#af0e0e
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #af0e0e
               </span>
             </span>
           </button>
@@ -217,42 +208,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(0, 174, 239);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#00aeef
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #00aeef
-                </span>
+                  copy hex:#00aeef
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #00aeef
               </span>
             </span>
           </button>
@@ -285,42 +273,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(250, 230, 178);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#fae6b2
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #fae6b2
-                </span>
+                  copy hex:#fae6b2
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #fae6b2
               </span>
             </span>
           </button>
@@ -339,42 +324,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(243, 199, 83);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#f3c753
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #f3c753
-                </span>
+                  copy hex:#f3c753
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #f3c753
               </span>
             </span>
           </button>
@@ -393,42 +375,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(240, 184, 35);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#f0b823
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #f0b823
-                </span>
+                  copy hex:#f0b823
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #f0b823
               </span>
             </span>
           </button>
@@ -447,42 +426,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(54, 30, 154);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#361e9a
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #361e9a
-                </span>
+                  copy hex:#361e9a
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #361e9a
               </span>
             </span>
           </button>
@@ -510,42 +486,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(0, 0, 0);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#000000
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #000000
-                </span>
+                  copy hex:#000000
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #000000
               </span>
             </span>
           </button>
@@ -569,42 +542,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(16, 17, 17);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#101111
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #101111
-                </span>
+                  copy hex:#101111
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #101111
               </span>
             </span>
           </button>
@@ -628,42 +598,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(55, 61, 63);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#373d3f
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #373d3f
-                </span>
+                  copy hex:#373d3f
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #373d3f
               </span>
             </span>
           </button>
@@ -687,42 +654,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(70, 74, 76);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#464a4c
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #464a4c
-                </span>
+                  copy hex:#464a4c
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #464a4c
               </span>
             </span>
           </button>
@@ -746,42 +710,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(85, 95, 97);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#555f61
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #555f61
-                </span>
+                  copy hex:#555f61
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #555f61
               </span>
             </span>
           </button>
@@ -805,42 +766,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(111, 124, 128);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#6f7c80
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #6f7c80
-                </span>
+                  copy hex:#6f7c80
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #6f7c80
               </span>
             </span>
           </button>
@@ -864,42 +822,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(193, 199, 201);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#c1c7c9
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #c1c7c9
-                </span>
+                  copy hex:#c1c7c9
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #c1c7c9
               </span>
             </span>
           </button>
@@ -923,42 +878,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(236, 238, 239);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#eceeef
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #eceeef
-                </span>
+                  copy hex:#eceeef
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #eceeef
               </span>
             </span>
           </button>
@@ -982,42 +934,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(242, 243, 244);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#f2f3f4
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #f2f3f4
-                </span>
+                  copy hex:#f2f3f4
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #f2f3f4
               </span>
             </span>
           </button>
@@ -1041,42 +990,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(247, 247, 249);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#f7f7f9
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #f7f7f9
-                </span>
+                  copy hex:#f7f7f9
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #f7f7f9
               </span>
             </span>
           </button>
@@ -1100,42 +1046,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(255, 255, 255);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#ffffff
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #ffffff
-                </span>
+                  copy hex:#ffffff
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #ffffff
               </span>
             </span>
           </button>
@@ -1168,42 +1111,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(255, 101, 98);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#ff6562
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #ff6562
-                </span>
+                  copy hex:#ff6562
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #ff6562
               </span>
             </span>
           </button>
@@ -1227,42 +1167,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(240, 173, 78);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#f0ad4e
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #f0ad4e
-                </span>
+                  copy hex:#f0ad4e
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #f0ad4e
               </span>
             </span>
           </button>
@@ -1286,42 +1223,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(92, 184, 92);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#5cb85c
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #5cb85c
-                </span>
+                  copy hex:#5cb85c
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #5cb85c
               </span>
             </span>
           </button>
@@ -1345,42 +1279,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(91, 192, 222);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#5bc0de
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #5bc0de
-                </span>
+                  copy hex:#5bc0de
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #5bc0de
               </span>
             </span>
           </button>
@@ -1404,42 +1335,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(255, 226, 226);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#ffe2e2
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #ffe2e2
-                </span>
+                  copy hex:#ffe2e2
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #ffe2e2
               </span>
             </span>
           </button>
@@ -1458,42 +1386,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(252, 248, 227);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#fcf8e3
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #fcf8e3
-                </span>
+                  copy hex:#fcf8e3
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #fcf8e3
               </span>
             </span>
           </button>
@@ -1512,42 +1437,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(223, 240, 216);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#dff0d8
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #dff0d8
-                </span>
+                  copy hex:#dff0d8
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #dff0d8
               </span>
             </span>
           </button>
@@ -1566,42 +1488,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(217, 237, 247);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#d9edf7
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #d9edf7
-                </span>
+                  copy hex:#d9edf7
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #d9edf7
               </span>
             </span>
           </button>
@@ -1629,42 +1548,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(2, 100, 102);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#026466
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #026466
-                </span>
+                  copy hex:#026466
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #026466
               </span>
             </span>
           </button>
@@ -1688,42 +1604,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(66, 103, 178);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#4267b2
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #4267b2
-                </span>
+                  copy hex:#4267b2
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #4267b2
               </span>
             </span>
           </button>
@@ -1747,42 +1660,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(29, 161, 242);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#1da1f2
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #1da1f2
-                </span>
+                  copy hex:#1da1f2
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #1da1f2
               </span>
             </span>
           </button>
@@ -1806,42 +1716,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(0, 119, 181);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#0077b5
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #0077b5
-                </span>
+                  copy hex:#0077b5
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #0077b5
               </span>
             </span>
           </button>
@@ -1865,42 +1772,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(153, 198, 19);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#99c613
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #99c613
-                </span>
+                  copy hex:#99c613
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #99c613
               </span>
             </span>
           </button>
@@ -1924,42 +1828,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(255, 0, 0);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#ff0000
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #ff0000
-                </span>
+                  copy hex:#ff0000
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #ff0000
               </span>
             </span>
           </button>
@@ -1983,42 +1884,39 @@ Object {
           class="Swatch-root-0-1-13"
         >
           <button
-            class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+            class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+            data-testid="swatchButton"
             style="background: rgb(221, 75, 57);"
           >
             <span
-              class="zep-button__text"
+              class="Swatch-backdrop-0-1-15"
+            />
+            <span
+              class="Swatch-backdropContent-0-1-16"
             >
-              <span
-                class="Swatch-backdrop-0-1-15"
-              />
-              <span
-                class="Swatch-backdropContent-0-1-16"
+              <svg
+                aria-labelledby="title_copy"
+                class="Swatch-icon-0-1-17"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  aria-labelledby="title"
-                  class="Swatch-icon-0-1-17"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
+                <title
+                  id="title_copy"
                 >
-                  <title
-                    id="title_copy"
-                  >
-                    copy hex:#dd4b39
-                  </title>
-                  <path
-                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <span
-                  class="Swatch-buttonText-0-1-18"
-                  data-testid="swatch-text"
-                >
-                  #dd4b39
-                </span>
+                  copy hex:#dd4b39
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+                data-testid="swatchText"
+              >
+                #dd4b39
               </span>
             </span>
           </button>
@@ -2047,7 +1945,7 @@ Object {
       data-testid="tabs"
     >
       <button
-        class="ButtonBase-button-0-1-11 Tab-root-0-1-4 Tab-selected-0-1-10 Tab-normal-0-1-5"
+        class="Tab-root-0-1-4 Tab-selected-0-1-10 Tab-normal-0-1-5 ButtonBase-button-0-1-11"
       >
         <p
           class="Tab-label-0-1-7 Tab-selected-0-1-10 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
@@ -2056,7 +1954,7 @@ Object {
         </p>
       </button>
       <button
-        class="ButtonBase-button-0-1-11 Tab-root-0-1-4 Tab-normal-0-1-5"
+        class="Tab-root-0-1-4 Tab-normal-0-1-5 ButtonBase-button-0-1-11"
       >
         <p
           class="Tab-label-0-1-7 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
@@ -2077,42 +1975,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(39, 22, 111);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#27166f
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #27166f
-              </span>
+                copy hex:#27166f
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #27166f
             </span>
           </span>
         </button>
@@ -2136,42 +2031,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(240, 184, 35);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#f0b823
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #f0b823
-              </span>
+                copy hex:#f0b823
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #f0b823
             </span>
           </span>
         </button>
@@ -2195,42 +2087,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(175, 14, 14);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#af0e0e
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #af0e0e
-              </span>
+                copy hex:#af0e0e
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #af0e0e
             </span>
           </span>
         </button>
@@ -2254,42 +2143,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(0, 174, 239);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#00aeef
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #00aeef
-              </span>
+                copy hex:#00aeef
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #00aeef
             </span>
           </span>
         </button>
@@ -2322,42 +2208,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(250, 230, 178);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#fae6b2
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #fae6b2
-              </span>
+                copy hex:#fae6b2
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #fae6b2
             </span>
           </span>
         </button>
@@ -2376,42 +2259,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(243, 199, 83);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#f3c753
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #f3c753
-              </span>
+                copy hex:#f3c753
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #f3c753
             </span>
           </span>
         </button>
@@ -2430,42 +2310,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(240, 184, 35);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#f0b823
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #f0b823
-              </span>
+                copy hex:#f0b823
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #f0b823
             </span>
           </span>
         </button>
@@ -2484,42 +2361,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(54, 30, 154);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#361e9a
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #361e9a
-              </span>
+                copy hex:#361e9a
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #361e9a
             </span>
           </span>
         </button>
@@ -2547,42 +2421,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(0, 0, 0);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#000000
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #000000
-              </span>
+                copy hex:#000000
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #000000
             </span>
           </span>
         </button>
@@ -2606,42 +2477,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(16, 17, 17);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#101111
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #101111
-              </span>
+                copy hex:#101111
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #101111
             </span>
           </span>
         </button>
@@ -2665,42 +2533,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(55, 61, 63);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#373d3f
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #373d3f
-              </span>
+                copy hex:#373d3f
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #373d3f
             </span>
           </span>
         </button>
@@ -2724,42 +2589,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(70, 74, 76);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#464a4c
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #464a4c
-              </span>
+                copy hex:#464a4c
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #464a4c
             </span>
           </span>
         </button>
@@ -2783,42 +2645,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(85, 95, 97);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#555f61
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #555f61
-              </span>
+                copy hex:#555f61
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #555f61
             </span>
           </span>
         </button>
@@ -2842,42 +2701,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(111, 124, 128);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#6f7c80
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #6f7c80
-              </span>
+                copy hex:#6f7c80
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #6f7c80
             </span>
           </span>
         </button>
@@ -2901,42 +2757,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(193, 199, 201);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#c1c7c9
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #c1c7c9
-              </span>
+                copy hex:#c1c7c9
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #c1c7c9
             </span>
           </span>
         </button>
@@ -2960,42 +2813,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(236, 238, 239);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#eceeef
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #eceeef
-              </span>
+                copy hex:#eceeef
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #eceeef
             </span>
           </span>
         </button>
@@ -3019,42 +2869,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(242, 243, 244);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#f2f3f4
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #f2f3f4
-              </span>
+                copy hex:#f2f3f4
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #f2f3f4
             </span>
           </span>
         </button>
@@ -3078,42 +2925,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(247, 247, 249);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#f7f7f9
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #f7f7f9
-              </span>
+                copy hex:#f7f7f9
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #f7f7f9
             </span>
           </span>
         </button>
@@ -3137,42 +2981,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(255, 255, 255);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#ffffff
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #ffffff
-              </span>
+                copy hex:#ffffff
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #ffffff
             </span>
           </span>
         </button>
@@ -3205,42 +3046,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(255, 101, 98);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#ff6562
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #ff6562
-              </span>
+                copy hex:#ff6562
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #ff6562
             </span>
           </span>
         </button>
@@ -3264,42 +3102,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(240, 173, 78);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#f0ad4e
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #f0ad4e
-              </span>
+                copy hex:#f0ad4e
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #f0ad4e
             </span>
           </span>
         </button>
@@ -3323,42 +3158,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(92, 184, 92);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#5cb85c
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #5cb85c
-              </span>
+                copy hex:#5cb85c
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #5cb85c
             </span>
           </span>
         </button>
@@ -3382,42 +3214,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(91, 192, 222);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#5bc0de
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #5bc0de
-              </span>
+                copy hex:#5bc0de
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #5bc0de
             </span>
           </span>
         </button>
@@ -3441,42 +3270,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(255, 226, 226);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#ffe2e2
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #ffe2e2
-              </span>
+                copy hex:#ffe2e2
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #ffe2e2
             </span>
           </span>
         </button>
@@ -3495,42 +3321,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(252, 248, 227);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#fcf8e3
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #fcf8e3
-              </span>
+                copy hex:#fcf8e3
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #fcf8e3
             </span>
           </span>
         </button>
@@ -3549,42 +3372,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(223, 240, 216);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#dff0d8
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #dff0d8
-              </span>
+                copy hex:#dff0d8
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #dff0d8
             </span>
           </span>
         </button>
@@ -3603,42 +3423,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(217, 237, 247);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#d9edf7
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #d9edf7
-              </span>
+                copy hex:#d9edf7
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #d9edf7
             </span>
           </span>
         </button>
@@ -3666,42 +3483,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(2, 100, 102);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#026466
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #026466
-              </span>
+                copy hex:#026466
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #026466
             </span>
           </span>
         </button>
@@ -3725,42 +3539,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(66, 103, 178);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#4267b2
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #4267b2
-              </span>
+                copy hex:#4267b2
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #4267b2
             </span>
           </span>
         </button>
@@ -3784,42 +3595,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(29, 161, 242);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#1da1f2
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #1da1f2
-              </span>
+                copy hex:#1da1f2
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #1da1f2
             </span>
           </span>
         </button>
@@ -3843,42 +3651,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(0, 119, 181);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#0077b5
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #0077b5
-              </span>
+                copy hex:#0077b5
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #0077b5
             </span>
           </span>
         </button>
@@ -3902,42 +3707,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(153, 198, 19);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#99c613
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #99c613
-              </span>
+                copy hex:#99c613
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #99c613
             </span>
           </span>
         </button>
@@ -3961,42 +3763,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(255, 0, 0);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#ff0000
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #ff0000
-              </span>
+                copy hex:#ff0000
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #ff0000
             </span>
           </span>
         </button>
@@ -4020,42 +3819,39 @@ Object {
         class="Swatch-root-0-1-13"
       >
         <button
-          class="ButtonBase-button-0-1-11 zep-button Swatch-button-0-1-14"
+          class="Swatch-button-0-1-14 ButtonBase-button-0-1-11"
+          data-testid="swatchButton"
           style="background: rgb(221, 75, 57);"
         >
           <span
-            class="zep-button__text"
+            class="Swatch-backdrop-0-1-15"
+          />
+          <span
+            class="Swatch-backdropContent-0-1-16"
           >
-            <span
-              class="Swatch-backdrop-0-1-15"
-            />
-            <span
-              class="Swatch-backdropContent-0-1-16"
+            <svg
+              aria-labelledby="title_copy"
+              class="Swatch-icon-0-1-17"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-labelledby="title"
-                class="Swatch-icon-0-1-17"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+              <title
+                id="title_copy"
               >
-                <title
-                  id="title_copy"
-                >
-                  copy hex:#dd4b39
-                </title>
-                <path
-                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span
-                class="Swatch-buttonText-0-1-18"
-                data-testid="swatch-text"
-              >
-                #dd4b39
-              </span>
+                copy hex:#dd4b39
+              </title>
+              <path
+                d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="Swatch-buttonText-0-1-18 zep-typo--normal-4"
+              data-testid="swatchText"
+            >
+              #dd4b39
             </span>
           </span>
         </button>

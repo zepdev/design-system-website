@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <svg
-        aria-labelledby="title"
+        aria-labelledby="title_menu"
         height="32"
         viewBox="0 0 24 24"
         width="32"
@@ -15,7 +15,7 @@ Object {
         <title
           id="title_menu"
         >
-          Menu Icon
+          Menu
         </title>
         <path
           d="M3,6 L21,6 L21,8 L3,8 L3,6 L3,6 Z M3,11 L21,11 L21,13 L3,13 L3,11 L3,11 Z M3,16 L21,16 L21,18 L3,18 L3,16 Z"
@@ -26,7 +26,7 @@ Object {
   </body>,
   "container": <div>
     <svg
-      aria-labelledby="title"
+      aria-labelledby="title_menu"
       height="32"
       viewBox="0 0 24 24"
       width="32"
@@ -35,7 +35,7 @@ Object {
       <title
         id="title_menu"
       >
-        Menu Icon
+        Menu
       </title>
       <path
         d="M3,6 L21,6 L21,8 L3,8 L3,6 L3,6 Z M3,11 L21,11 L21,13 L3,13 L3,11 L3,11 Z M3,16 L21,16 L21,18 L3,18 L3,16 Z"

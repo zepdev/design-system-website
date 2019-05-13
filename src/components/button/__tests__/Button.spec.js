@@ -6,7 +6,7 @@ describe('Button', () => {
   it('renders correctly', () => {
     const mockProps = {
       onClick: jest.fn(() => {}),
-      children: 'buttonText',
+      children: ['buttonText'],
     }
     const component = render(<Button {...mockProps} />)
     expect(component).toMatchSnapshot()

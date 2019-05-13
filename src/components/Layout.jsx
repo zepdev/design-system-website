@@ -12,60 +12,45 @@ import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
-  root: {
-    position: 'relative',
-  },
-  content: {
-    flexDirection: 'column',
-    display: 'flex',
-    minHeight: '100vh',
-  },
   main: {
-    flexGrow: 1,
-    padding: '1rem 1.5rem',
-    margin: `46px 0 1.5rem`,
+    minHeight: '100vh',
+    paddingTop: 62,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
-      padding: '2rem 3rem',
-      margin: `84px 0 3rem`,
+      paddingTop: 116,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
-    main: {
-      margin: `104px 0 3rem`,
-    },
-    content: {
+    root: {
       marginLeft: 224,
+    },
+    main: {
+      paddingTop: 136,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
-    main: {
-      width: '83%',
-      margin: `104px 0 3rem`,
-    },
-    content: {
+    root: {
       marginLeft: 276,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
-    main: {
-      padding: '3rem',
-      margin: `136px 0 3rem`,
-    },
-    content: {
+    root: {
       marginLeft: 300,
+    },
+    main: {
+      paddingTop: 184,
     },
   },
   pStyled: {
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
-    borderTop: 'none',
-    borderLeft: 'none',
-    borderRight: 'none',
-    marginTop: 0,
+    border: 0,
+    borderTop: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    width: '100%',
+    borderColor: theme.colors.gray.grayLighter.hex,
   },
   hStyled: {
     marginBottom: `${ theme.spacing.component.l.rem }rem`,
@@ -73,11 +58,12 @@ const styles = theme => ({
   h1Styled: {
     marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
-
   aStyled: {
     color: theme.colors.primary.indigoBlue.hex,
   },
-
+  strongStyled: {
+    fontWeight: 'bold',
+  },
   skipLink: {
     position: 'absolute',
     left: '-999em',
@@ -112,6 +98,7 @@ function Layout({ children, classes }) {
 
   const aStyled = props => <a className={classes.aStyled} {...props} />
   const preStyled = props => <div {...props} />
+  const strongStyled = props => <strong className={classes.strongStyled} {...props} />
 
   const components = {
     h1: h1Styled,
@@ -122,6 +109,7 @@ function Layout({ children, classes }) {
     pre: preStyled,
     code: CodeBlock,
     a: aStyled,
+    strong: strongStyled,
   }
 
   return (
@@ -141,17 +129,17 @@ function Layout({ children, classes }) {
       `}
       render={data => {
         return (
-          <>
+          <div className={classes.root}>
             <SkipNavLink className={classes.skipLink} />
             <div
-              className={classnames(classes.root, {
+              className={classnames({
                 'theme-zeppelin': theme === 'zeppelin',
                 'theme-cat': theme === 'cat',
                 'theme-rental': theme === 'rental',
               })}
             >
               <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
-              <div className={classes.content}>
+              <div>
                 <Header
                   siteTitle={data.mdx.frontmatter.title}
                   handleTheme={handleTheme}
@@ -162,12 +150,12 @@ function Layout({ children, classes }) {
                 />
                 <SkipNavContent />
                 <MDXProvider components={components}>
-                  <main className={classes.main}>{children}</main>
+                  <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
                 </MDXProvider>
                 <Footer />
               </div>
             </div>
-          </>
+          </div>
         )
       }}
     />

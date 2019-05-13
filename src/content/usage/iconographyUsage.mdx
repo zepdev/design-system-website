@@ -5,40 +5,16 @@ title: Iconography Usage
 
 # Developers
 
-Icons in svg format and an icon font are readily available with the zeppelin-element-library. However, all icons in svg format may also be downloaded as a for individual use from the iconography page if your project only requires a select number of icons.
-
-## Using icons as an Icon Font
-
-Decorative Icons (icons that if removed would not hinder the user in understanding anything on your webpage)
-
-```
-<i class="zepicons zepicons-rental-rent" aria-hidden="true"></i>
-```
-
-Informative Icons (icons that if removed would make the webpage difficult to use, this is usually icons that are used for interactive purposes such as as a link or a button)
-
-```
-// icons as a link
-<a href="path/to/linkedin" aria-label="LinkedIn">
-  <i aria-hidden="true" class="zepicons zepicons-linkedin"></i>
-</a>
-
-// standalone icons
-<p>Clicking on
-<i class="zepicons zepicons-help" aria-hidden="true" title="help">
-    <span class="sr-only">"help"</span>
-</i>
-will put you in contact with a customer service representative immediately.
-</p>
-```
+Icons in SVG format and as an SVG sprite are available with the zeppelin-element-library. However, all icons in svg format may also be downloaded as a for individual use from the iconography page if your project only requires a select number of icons.
+All individual icons can be found in the folder **'zeppelin-element-library/assets/icons/SVG'** and the SVG sprite in **'zeppelin-element-library/assets/icons/sprite.svg'**.
 
 ## Using icons as an SVG
 
-Standalone svg
+Standalone svgs must include a title to be able to be read by accessibility tools.
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <title>Clost</title>
+  <title>Close</title>
   <polygon points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12"/>
 </svg>
 ```
@@ -58,7 +34,7 @@ const CloseIcon = ({ className, width, height, fill, viewBox, ariaLabel }) => (
     aria-labelledby="title"
     className={className}
   >
-    <title id="title_copy">{ariaLabel || 'Close Icon'}</title>
+    <title id="title_copy">{ariaLabel || 'Close'}</title>
     <polygon fill={fill} points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12"/>
   </svg>
 )
@@ -79,6 +55,97 @@ CloseIcon.defaultProps = {
 }
 
 export default CloseIcon
+```
+
+## Using SVG sprites
+
+The SVG sprite is available at 'zeppelin-element-library/assets/icons/sprite.svg'. You must also add the file 'zeppelin-element-library/assets/icons/svgxuse.min.js' for Internet Explorer compatibility (it uses already available .png files in place of the svg files as a fallback).
+
+```html
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    ...
+  </head>
+  <body>
+    <!-- SVG Sprite -->
+    <svg width="0" height="0" class="hidden">
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        id="zepicons-account"
+      >
+        <path
+          d="M6 17c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6v-1zm9-8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"
+        ></path>
+      </symbol>
+    </svg>
+
+    <svg class="icon">
+      <use xlink:href="#zepicons-account"></use>
+    </svg>
+  </body>
+</html>
+```
+
+SVG sprites in React
+
+```jsx
+//Apps.js
+import './svgxuse.min.js' // ie fallback for sprites
+
+// Icon.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import svg from 'zeppelin-element-library/assets/icons/sprite.svg'
+
+const Icon = ({ className, width, height, icon, viewBox, ariaLabel }) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      xmlns="http://www.w3.org/2000/svg"
+      aria-label={ariaLabel}
+      viewBox={viewBox}
+      className={className}
+      fill="currentColor"
+    >
+      <use xlinkHref={`${svg}#${icon}`} />
+    </svg>
+  )
+}
+
+Icon.propTypes = {
+  width: PropTypes.string,
+  height: PropTypes.string,
+  viewBox: PropTypes.string,
+  icon: PropTypes.string.isRequired,
+  ariaLabel: PropTypes.string,
+  className: PropTypes.object
+}
+
+Icon.defaultProps = {
+  width: '32',
+  height: '32',
+  viewBox: '0 0 24 24',
+}
+
+export default Icon
+
+// MyTagComponent.jsx
+import React from 'react'
+import Icon from '../icon/Icon';
+
+function MyTagComponent() {
+  return (
+      <span role="button" className="zep-tag">
+        Tag
+        <Icon icon="zepicons-close" />
+      </span>
+  );
+}
+
+export default MyTagComponent;
 ```
 
 # Designers

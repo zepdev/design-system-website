@@ -63,11 +63,6 @@ const styles = theme => ({
       width: '12.5%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xxl })`]: {
-    container: {
-      width: '8.3%',
-    },
-  },
   backdrop: {
     position: 'absolute',
     left: 0,
@@ -169,13 +164,13 @@ const Iconography = ({ classes }) => {
           </p>
           <DownloadContainer>
             <DownloadFile
-              title="Zeppelin iconography library"
+              title="Zeppelin Iconography Library"
               href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zepicons.zip"
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
-              title="iconography kit"
+              title="Zeppelin Sketch Library"
               sketch
               href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
               download=""
