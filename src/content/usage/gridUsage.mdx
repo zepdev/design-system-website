@@ -13,10 +13,10 @@ import GridImage from '../../components/grid/GridImage'
 ## Implementation
 
 The Zeppelin Design System grid is build with flexbox for modern browsers and has a fallback float grid for legacy browsers.
-The grid is componsed of a container: **.zep-grid**, rows: **.zep-grid\_\_row** and columns **.zep-grid\_\_col**.
+The grid is composed of a container: **.zep-grid**, rows: **.zep-grid\_\_row** and columns **.zep-grid\_\_col**.
 
-A container has a width a 100% width and contains grid margins.
-A row is the container to hold all individual elements, called columns. Columns MUST be used within a row.
+A container has a 100% width and contains grid margins.
+A row is the sub container to hold all individual elements, called columns. Columns MUST be used within a row.
 Each column has horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins.
 The maximum amount of columns per row depends on the screensize.
 Therefore it is necessary to define the column sizes based on this maximum amount.
@@ -137,7 +137,7 @@ The width of the columns is always a fixed percentage value, depending on the sc
 ## Column wrapping
 
 Columns that exceed the provided space per row are wrapped onto a new line (but technically remain in the same row element).
-All columns are always horizontally aligned right. Unused column space in the grid remains free.
+All columns are always horizontally aligned left. Unused column space in the grid remains free.
 The following example shows the result of a 3-row grid with different column sizes.
 Feel free to change the screensize to see how the grid behaves.
 
