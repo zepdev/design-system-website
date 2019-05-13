@@ -1,40 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GridPage renders correctly 1`] = `
+exports[`GridUsageExample renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="Grid-demoGrid-0-1-1 zep-grid"
+        class="zep-grid GridUsageExample-demoGrid-0-1-1"
       >
         <div
-          class="Grid-demoGridRow-0-1-2 zep-grid__row"
+          class="zep-grid__row zep-grid__row--align-items-stretch"
         >
           <div
-            class="Grid-demoGridCol-0-1-3 zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
-            style="padding-top: 40px;"
+            class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 GridUsageExample-demoGridCol-0-1-2"
           >
-            Column 1-1
-            <br />
-            with more than one line
-            <br />
-            of text in this column
+            <div>
+              xxs=1 xs=3 m=2 l=3
+            </div>
           </div>
           <div
-            class="Grid-demoGridCol-0-1-3 zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-flex-start"
+            class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 GridUsageExample-demoGridCol-0-1-2"
           >
-            Column 1-2 / flex-start
+            <div>
+              xxs=1 xs=3 m=2 l=3
+            </div>
           </div>
           <div
-            class="Grid-demoGridCol-0-1-3 zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-center"
+            class="zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12 GridUsageExample-demoGridCol-0-1-2"
           >
-            Column 1-3 / center
-          </div>
-          <div
-            class="Grid-demoGridCol-0-1-3 zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-flex-end"
-          >
-            Column 1-4 / flex-end
+            <div>
+              xxs=4 m=4 l=6
+            </div>
           </div>
         </div>
       </div>
@@ -42,35 +38,31 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="Grid-demoGrid-0-1-1 zep-grid"
+      class="zep-grid GridUsageExample-demoGrid-0-1-1"
     >
       <div
-        class="Grid-demoGridRow-0-1-2 zep-grid__row"
+        class="zep-grid__row zep-grid__row--align-items-stretch"
       >
         <div
-          class="Grid-demoGridCol-0-1-3 zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
-          style="padding-top: 40px;"
+          class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 GridUsageExample-demoGridCol-0-1-2"
         >
-          Column 1-1
-          <br />
-          with more than one line
-          <br />
-          of text in this column
+          <div>
+            xxs=1 xs=3 m=2 l=3
+          </div>
         </div>
         <div
-          class="Grid-demoGridCol-0-1-3 zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-flex-start"
+          class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 GridUsageExample-demoGridCol-0-1-2"
         >
-          Column 1-2 / flex-start
+          <div>
+            xxs=1 xs=3 m=2 l=3
+          </div>
         </div>
         <div
-          class="Grid-demoGridCol-0-1-3 zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-center"
+          class="zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12 GridUsageExample-demoGridCol-0-1-2"
         >
-          Column 1-3 / center
-        </div>
-        <div
-          class="Grid-demoGridCol-0-1-3 zep-grid__col zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 zep-grid__col--align-self-flex-end"
-        >
-          Column 1-4 / flex-end
+          <div>
+            xxs=4 m=4 l=6
+          </div>
         </div>
       </div>
     </div>
