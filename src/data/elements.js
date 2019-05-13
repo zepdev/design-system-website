@@ -51,12 +51,10 @@ module.exports = {
     demo: {
       form: {
         js: [
-          '<input type="text" id="text" name="text" min="10" max="100" class="zep-input zep-input-text">',
-        ],
-      },
-      static: {
-        js: [
-          '<input type="text" id="text" name="text" min="10" max="100" class="zep-input zep-input-text">',
+          `<div class="zep-form-container">
+          <input type="text" id="inputZeppelin" placeholder="Placeholder" class="zep-input">
+          <label class="zep-form-container__label" for="inputZeppelin">Input Field</label>
+  </div>`,
         ],
       },
     },
@@ -67,7 +65,7 @@ module.exports = {
         js: [
           `<div>
           <button class="zep-button zep-button--number-input"><span class="zepicons zepicons-minus" aria-label="minus" /></button><label for="counter" class="zep-visually-hidden">Counter</label><input type="text" class="zep-input zep-input--number" value="1" id="counter" /><button class="zep-button zep-button--number-input"><span class="zepicons zepicons-plus" aria-label="plus" /></button>
-          </div>`,
+</div>`,
         ],
       },
     },
