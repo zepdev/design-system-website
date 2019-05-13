@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
+import ReactPlayer from 'react-player'
+import classnames from 'classnames'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
-import classnames from 'classnames'
 import ElementUsage from '../elements/ElementUsage'
-import ReactPlayer from 'react-player'
 import Table from '../table/Table'
+import GridExample from '../grid/GridExample'
 import { grid } from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
@@ -53,6 +54,7 @@ function GridPage({ classes }) {
           </div>
 
           <h3 className={classnames('zep-typo--normal-6', classes.headline)}>Basic Grid Data</h3>
+          <GridExample />
           <Table
             title="basic grid data"
             header={['identifier', 'screensize', 'columns', 'margin', 'gutter']}

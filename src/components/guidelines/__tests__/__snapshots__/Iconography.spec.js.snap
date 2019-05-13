@@ -47,7 +47,7 @@ Object {
           <p
             class="zep-typo--normal-3 DownloadFile-text-0-1-25"
           >
-            Zeppelin iconography library
+            Zeppelin Iconography Library
           </p>
           <div
             class="DownloadFile-container-0-1-23"
@@ -84,7 +84,7 @@ Object {
           <p
             class="zep-typo--normal-3 DownloadFile-text-0-1-25"
           >
-            Sketch iconography kit
+            Sketch Zeppelin Sketch Library
           </p>
           <div
             class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
@@ -170,7 +170,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              list-plus
+              zepicons-list-plus
             </p>
             <img
               alt="list-plus"
@@ -217,7 +217,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              print
+              zepicons-print
             </p>
             <img
               alt="print"
@@ -264,7 +264,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              minus
+              zepicons-minus
             </p>
             <img
               alt="minus"
@@ -311,7 +311,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              timer
+              zepicons-timer
             </p>
             <img
               alt="timer"
@@ -358,7 +358,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              users
+              zepicons-users
             </p>
             <img
               alt="users"
@@ -405,7 +405,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              unfold
+              zepicons-unfold
             </p>
             <img
               alt="unfold"
@@ -452,7 +452,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              bookmark
+              zepicons-bookmark
             </p>
             <img
               alt="bookmark"
@@ -499,7 +499,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              upload
+              zepicons-upload
             </p>
             <img
               alt="upload"
@@ -546,7 +546,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              filter
+              zepicons-filter
             </p>
             <img
               alt="filter"
@@ -593,7 +593,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              sort
+              zepicons-sort
             </p>
             <img
               alt="sort"
@@ -640,7 +640,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              share
+              zepicons-share
             </p>
             <img
               alt="share"
@@ -687,7 +687,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              view-grid
+              zepicons-view-grid
             </p>
             <img
               alt="view-grid"
@@ -734,7 +734,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              phone
+              zepicons-phone
             </p>
             <img
               alt="phone"
@@ -781,7 +781,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              clock
+              zepicons-clock
             </p>
             <img
               alt="clock"
@@ -828,7 +828,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              delete
+              zepicons-delete
             </p>
             <img
               alt="delete"
@@ -875,7 +875,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              image-album
+              zepicons-image-album
             </p>
             <img
               alt="image-album"
@@ -922,7 +922,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              edit
+              zepicons-edit
             </p>
             <img
               alt="edit"
@@ -969,7 +969,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              star
+              zepicons-star
             </p>
             <img
               alt="star"
@@ -1016,7 +1016,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              contacts
+              zepicons-contacts
             </p>
             <img
               alt="contacts"
@@ -1063,7 +1063,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              attachment
+              zepicons-attachment
             </p>
             <img
               alt="attachment"
@@ -1110,7 +1110,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              camera
+              zepicons-camera
             </p>
             <img
               alt="camera"
@@ -1157,7 +1157,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              chat
+              zepicons-chat
             </p>
             <img
               alt="chat"
@@ -1204,7 +1204,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              solutions
+              zepicons-solutions
             </p>
             <img
               alt="solutions"
@@ -1251,7 +1251,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              contact-mail
+              zepicons-contact-mail
             </p>
             <img
               alt="contact-mail"
@@ -1298,7 +1298,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              image
+              zepicons-image
             </p>
             <img
               alt="image"
@@ -1345,7 +1345,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              compare
+              zepicons-compare
             </p>
             <img
               alt="compare"
@@ -1392,7 +1392,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              hide
+              zepicons-hide
             </p>
             <img
               alt="hide"
@@ -1439,7 +1439,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              reload
+              zepicons-reload
             </p>
             <img
               alt="reload"
@@ -1486,7 +1486,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              copy
+              zepicons-copy
             </p>
             <img
               alt="copy"
@@ -1533,7 +1533,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              close
+              zepicons-close
             </p>
             <img
               alt="close"
@@ -1580,7 +1580,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              email
+              zepicons-email
             </p>
             <img
               alt="email"
@@ -1627,7 +1627,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              calendar-range
+              zepicons-calendar-range
             </p>
             <img
               alt="calendar-range"
@@ -1674,7 +1674,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              global
+              zepicons-global
             </p>
             <img
               alt="global"
@@ -1721,7 +1721,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              check
+              zepicons-check
             </p>
             <img
               alt="check"
@@ -1768,7 +1768,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              plus
+              zepicons-plus
             </p>
             <img
               alt="plus"
@@ -1815,7 +1815,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              direction
+              zepicons-direction
             </p>
             <img
               alt="direction"
@@ -1862,7 +1862,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              flag
+              zepicons-flag
             </p>
             <img
               alt="flag"
@@ -1909,7 +1909,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              bell
+              zepicons-bell
             </p>
             <img
               alt="bell"
@@ -1956,7 +1956,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              dots-vertical
+              zepicons-dots-vertical
             </p>
             <img
               alt="dots-vertical"
@@ -2003,7 +2003,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              add-solution
+              zepicons-add-solution
             </p>
             <img
               alt="add-solution"
@@ -2050,7 +2050,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              add-cart
+              zepicons-add-cart
             </p>
             <img
               alt="add-cart"
@@ -2097,7 +2097,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              expand
+              zepicons-expand
             </p>
             <img
               alt="expand"
@@ -2144,7 +2144,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              download
+              zepicons-download
             </p>
             <img
               alt="download"
@@ -2191,7 +2191,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              cart
+              zepicons-cart
             </p>
             <img
               alt="cart"
@@ -2238,7 +2238,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              settings
+              zepicons-settings
             </p>
             <img
               alt="settings"
@@ -2285,7 +2285,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              map-marker
+              zepicons-map-marker
             </p>
             <img
               alt="map-marker"
@@ -2332,7 +2332,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              link
+              zepicons-link
             </p>
             <img
               alt="link"
@@ -2379,7 +2379,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              dots-horizontal
+              zepicons-dots-horizontal
             </p>
             <img
               alt="dots-horizontal"
@@ -2426,7 +2426,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              user-edit
+              zepicons-user-edit
             </p>
             <img
               alt="user-edit"
@@ -2473,7 +2473,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              average
+              zepicons-average
             </p>
             <img
               alt="average"
@@ -2520,7 +2520,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              file-document
+              zepicons-file-document
             </p>
             <img
               alt="file-document"
@@ -2567,7 +2567,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              file
+              zepicons-file
             </p>
             <img
               alt="file"
@@ -2614,7 +2614,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              map
+              zepicons-map
             </p>
             <img
               alt="map"
@@ -2661,7 +2661,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              headset
+              zepicons-headset
             </p>
             <img
               alt="headset"
@@ -2708,7 +2708,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              show
+              zepicons-show
             </p>
             <img
               alt="show"
@@ -2755,7 +2755,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              zoom-in
+              zepicons-zoom-in
             </p>
             <img
               alt="zoom-in"
@@ -2802,7 +2802,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              briefcase
+              zepicons-briefcase
             </p>
             <img
               alt="briefcase"
@@ -2849,7 +2849,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              logout
+              zepicons-logout
             </p>
             <img
               alt="logout"
@@ -2896,7 +2896,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              account
+              zepicons-account
             </p>
             <img
               alt="account"
@@ -2943,7 +2943,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              user
+              zepicons-user
             </p>
             <img
               alt="user"
@@ -2990,7 +2990,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              open-in-new
+              zepicons-open-in-new
             </p>
             <img
               alt="open-in-new"
@@ -3037,7 +3037,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              crosshair
+              zepicons-crosshair
             </p>
             <img
               alt="crosshair"
@@ -3084,7 +3084,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              zoom-out
+              zepicons-zoom-out
             </p>
             <img
               alt="zoom-out"
@@ -3131,7 +3131,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              search
+              zepicons-search
             </p>
             <img
               alt="search"
@@ -3178,7 +3178,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              calendar-clock
+              zepicons-calendar-clock
             </p>
             <img
               alt="calendar-clock"
@@ -3234,7 +3234,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              ps-ps
+              zepicons-ps-ps
             </p>
             <img
               alt="ps-ps"
@@ -3281,7 +3281,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              ps-service
+              zepicons-ps-service
             </p>
             <img
               alt="ps-service"
@@ -3328,7 +3328,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              ps-used
+              zepicons-ps-used
             </p>
             <img
               alt="ps-used"
@@ -3384,7 +3384,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              cat-new
+              zepicons-cat-new
             </p>
             <img
               alt="cat-new"
@@ -3431,7 +3431,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              cat-service
+              zepicons-cat-service
             </p>
             <img
               alt="cat-service"
@@ -3478,7 +3478,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              cat-used
+              zepicons-cat-used
             </p>
             <img
               alt="cat-used"
@@ -3534,7 +3534,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              systems-products
+              zepicons-systems-products
             </p>
             <img
               alt="systems-products"
@@ -3581,7 +3581,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              systems-aviation
+              zepicons-systems-aviation
             </p>
             <img
               alt="systems-aviation"
@@ -3628,7 +3628,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              systems-systems
+              zepicons-systems-systems
             </p>
             <img
               alt="systems-systems"
@@ -3675,7 +3675,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              systems-service
+              zepicons-systems-service
             </p>
             <img
               alt="systems-service"
@@ -3731,7 +3731,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              rental-infrastructure
+              zepicons-rental-infrastructure
             </p>
             <img
               alt="rental-infrastructure"
@@ -3778,7 +3778,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              rental-logistics
+              zepicons-rental-logistics
             </p>
             <img
               alt="rental-logistics"
@@ -3825,7 +3825,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              rental-rent
+              zepicons-rental-rent
             </p>
             <img
               alt="rental-rent"
@@ -3881,7 +3881,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              chevron-down
+              zepicons-chevron-down
             </p>
             <img
               alt="chevron-down"
@@ -3928,7 +3928,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              menu
+              zepicons-menu
             </p>
             <img
               alt="menu"
@@ -3975,7 +3975,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              previous-page
+              zepicons-previous-page
             </p>
             <img
               alt="previous-page"
@@ -4022,7 +4022,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              chevron-up
+              zepicons-chevron-up
             </p>
             <img
               alt="chevron-up"
@@ -4069,7 +4069,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              next-page
+              zepicons-next-page
             </p>
             <img
               alt="next-page"
@@ -4116,7 +4116,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              chevron-right
+              zepicons-chevron-right
             </p>
             <img
               alt="chevron-right"
@@ -4163,7 +4163,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              chevron-left
+              zepicons-chevron-left
             </p>
             <img
               alt="chevron-left"
@@ -4210,7 +4210,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              home
+              zepicons-home
             </p>
             <img
               alt="home"
@@ -4266,7 +4266,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              help
+              zepicons-help
             </p>
             <img
               alt="help"
@@ -4313,7 +4313,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              info
+              zepicons-info
             </p>
             <img
               alt="info"
@@ -4360,7 +4360,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              warning
+              zepicons-warning
             </p>
             <img
               alt="warning"
@@ -4416,7 +4416,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              br
+              zepicons-br
             </p>
             <img
               alt="br"
@@ -4463,7 +4463,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              gb
+              zepicons-gb
             </p>
             <img
               alt="gb"
@@ -4510,7 +4510,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              ger
+              zepicons-ger
             </p>
             <img
               alt="ger"
@@ -4557,7 +4557,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              in
+              zepicons-in
             </p>
             <img
               alt="in"
@@ -4604,7 +4604,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              it
+              zepicons-it
             </p>
             <img
               alt="it"
@@ -4651,7 +4651,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              ru
+              zepicons-ru
             </p>
             <img
               alt="ru"
@@ -4698,7 +4698,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              sa
+              zepicons-sa
             </p>
             <img
               alt="sa"
@@ -4745,7 +4745,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              sg
+              zepicons-sg
             </p>
             <img
               alt="sg"
@@ -4801,7 +4801,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              twitter
+              zepicons-twitter
             </p>
             <img
               alt="twitter"
@@ -4848,7 +4848,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              linkedin
+              zepicons-linkedin
             </p>
             <img
               alt="linkedin"
@@ -4895,7 +4895,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              youtube
+              zepicons-youtube
             </p>
             <img
               alt="youtube"
@@ -4942,7 +4942,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              xing
+              zepicons-xing
             </p>
             <img
               alt="xing"
@@ -4989,7 +4989,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              facebook
+              zepicons-facebook
             </p>
             <img
               alt="facebook"
@@ -5036,7 +5036,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              googleplus
+              zepicons-googleplus
             </p>
             <img
               alt="googleplus"
@@ -5083,7 +5083,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              kununu
+              zepicons-kununu
             </p>
             <img
               alt="kununu"
@@ -5130,7 +5130,7 @@ Object {
             <p
               class="Iconography-name-0-1-9 zep-typo--normal-1"
             >
-              instagram
+              zepicons-instagram
             </p>
             <img
               alt="instagram"
@@ -5185,7 +5185,7 @@ Object {
         <p
           class="zep-typo--normal-3 DownloadFile-text-0-1-25"
         >
-          Zeppelin iconography library
+          Zeppelin Iconography Library
         </p>
         <div
           class="DownloadFile-container-0-1-23"
@@ -5222,7 +5222,7 @@ Object {
         <p
           class="zep-typo--normal-3 DownloadFile-text-0-1-25"
         >
-          Sketch iconography kit
+          Sketch Zeppelin Sketch Library
         </p>
         <div
           class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
@@ -5308,7 +5308,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            list-plus
+            zepicons-list-plus
           </p>
           <img
             alt="list-plus"
@@ -5355,7 +5355,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            print
+            zepicons-print
           </p>
           <img
             alt="print"
@@ -5402,7 +5402,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            minus
+            zepicons-minus
           </p>
           <img
             alt="minus"
@@ -5449,7 +5449,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            timer
+            zepicons-timer
           </p>
           <img
             alt="timer"
@@ -5496,7 +5496,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            users
+            zepicons-users
           </p>
           <img
             alt="users"
@@ -5543,7 +5543,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            unfold
+            zepicons-unfold
           </p>
           <img
             alt="unfold"
@@ -5590,7 +5590,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            bookmark
+            zepicons-bookmark
           </p>
           <img
             alt="bookmark"
@@ -5637,7 +5637,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            upload
+            zepicons-upload
           </p>
           <img
             alt="upload"
@@ -5684,7 +5684,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            filter
+            zepicons-filter
           </p>
           <img
             alt="filter"
@@ -5731,7 +5731,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            sort
+            zepicons-sort
           </p>
           <img
             alt="sort"
@@ -5778,7 +5778,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            share
+            zepicons-share
           </p>
           <img
             alt="share"
@@ -5825,7 +5825,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            view-grid
+            zepicons-view-grid
           </p>
           <img
             alt="view-grid"
@@ -5872,7 +5872,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            phone
+            zepicons-phone
           </p>
           <img
             alt="phone"
@@ -5919,7 +5919,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            clock
+            zepicons-clock
           </p>
           <img
             alt="clock"
@@ -5966,7 +5966,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            delete
+            zepicons-delete
           </p>
           <img
             alt="delete"
@@ -6013,7 +6013,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            image-album
+            zepicons-image-album
           </p>
           <img
             alt="image-album"
@@ -6060,7 +6060,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            edit
+            zepicons-edit
           </p>
           <img
             alt="edit"
@@ -6107,7 +6107,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            star
+            zepicons-star
           </p>
           <img
             alt="star"
@@ -6154,7 +6154,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            contacts
+            zepicons-contacts
           </p>
           <img
             alt="contacts"
@@ -6201,7 +6201,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            attachment
+            zepicons-attachment
           </p>
           <img
             alt="attachment"
@@ -6248,7 +6248,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            camera
+            zepicons-camera
           </p>
           <img
             alt="camera"
@@ -6295,7 +6295,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            chat
+            zepicons-chat
           </p>
           <img
             alt="chat"
@@ -6342,7 +6342,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            solutions
+            zepicons-solutions
           </p>
           <img
             alt="solutions"
@@ -6389,7 +6389,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            contact-mail
+            zepicons-contact-mail
           </p>
           <img
             alt="contact-mail"
@@ -6436,7 +6436,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            image
+            zepicons-image
           </p>
           <img
             alt="image"
@@ -6483,7 +6483,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            compare
+            zepicons-compare
           </p>
           <img
             alt="compare"
@@ -6530,7 +6530,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            hide
+            zepicons-hide
           </p>
           <img
             alt="hide"
@@ -6577,7 +6577,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            reload
+            zepicons-reload
           </p>
           <img
             alt="reload"
@@ -6624,7 +6624,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            copy
+            zepicons-copy
           </p>
           <img
             alt="copy"
@@ -6671,7 +6671,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            close
+            zepicons-close
           </p>
           <img
             alt="close"
@@ -6718,7 +6718,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            email
+            zepicons-email
           </p>
           <img
             alt="email"
@@ -6765,7 +6765,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            calendar-range
+            zepicons-calendar-range
           </p>
           <img
             alt="calendar-range"
@@ -6812,7 +6812,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            global
+            zepicons-global
           </p>
           <img
             alt="global"
@@ -6859,7 +6859,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            check
+            zepicons-check
           </p>
           <img
             alt="check"
@@ -6906,7 +6906,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            plus
+            zepicons-plus
           </p>
           <img
             alt="plus"
@@ -6953,7 +6953,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            direction
+            zepicons-direction
           </p>
           <img
             alt="direction"
@@ -7000,7 +7000,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            flag
+            zepicons-flag
           </p>
           <img
             alt="flag"
@@ -7047,7 +7047,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            bell
+            zepicons-bell
           </p>
           <img
             alt="bell"
@@ -7094,7 +7094,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            dots-vertical
+            zepicons-dots-vertical
           </p>
           <img
             alt="dots-vertical"
@@ -7141,7 +7141,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            add-solution
+            zepicons-add-solution
           </p>
           <img
             alt="add-solution"
@@ -7188,7 +7188,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            add-cart
+            zepicons-add-cart
           </p>
           <img
             alt="add-cart"
@@ -7235,7 +7235,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            expand
+            zepicons-expand
           </p>
           <img
             alt="expand"
@@ -7282,7 +7282,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            download
+            zepicons-download
           </p>
           <img
             alt="download"
@@ -7329,7 +7329,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            cart
+            zepicons-cart
           </p>
           <img
             alt="cart"
@@ -7376,7 +7376,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            settings
+            zepicons-settings
           </p>
           <img
             alt="settings"
@@ -7423,7 +7423,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            map-marker
+            zepicons-map-marker
           </p>
           <img
             alt="map-marker"
@@ -7470,7 +7470,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            link
+            zepicons-link
           </p>
           <img
             alt="link"
@@ -7517,7 +7517,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            dots-horizontal
+            zepicons-dots-horizontal
           </p>
           <img
             alt="dots-horizontal"
@@ -7564,7 +7564,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            user-edit
+            zepicons-user-edit
           </p>
           <img
             alt="user-edit"
@@ -7611,7 +7611,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            average
+            zepicons-average
           </p>
           <img
             alt="average"
@@ -7658,7 +7658,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            file-document
+            zepicons-file-document
           </p>
           <img
             alt="file-document"
@@ -7705,7 +7705,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            file
+            zepicons-file
           </p>
           <img
             alt="file"
@@ -7752,7 +7752,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            map
+            zepicons-map
           </p>
           <img
             alt="map"
@@ -7799,7 +7799,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            headset
+            zepicons-headset
           </p>
           <img
             alt="headset"
@@ -7846,7 +7846,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            show
+            zepicons-show
           </p>
           <img
             alt="show"
@@ -7893,7 +7893,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            zoom-in
+            zepicons-zoom-in
           </p>
           <img
             alt="zoom-in"
@@ -7940,7 +7940,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            briefcase
+            zepicons-briefcase
           </p>
           <img
             alt="briefcase"
@@ -7987,7 +7987,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            logout
+            zepicons-logout
           </p>
           <img
             alt="logout"
@@ -8034,7 +8034,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            account
+            zepicons-account
           </p>
           <img
             alt="account"
@@ -8081,7 +8081,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            user
+            zepicons-user
           </p>
           <img
             alt="user"
@@ -8128,7 +8128,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            open-in-new
+            zepicons-open-in-new
           </p>
           <img
             alt="open-in-new"
@@ -8175,7 +8175,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            crosshair
+            zepicons-crosshair
           </p>
           <img
             alt="crosshair"
@@ -8222,7 +8222,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            zoom-out
+            zepicons-zoom-out
           </p>
           <img
             alt="zoom-out"
@@ -8269,7 +8269,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            search
+            zepicons-search
           </p>
           <img
             alt="search"
@@ -8316,7 +8316,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            calendar-clock
+            zepicons-calendar-clock
           </p>
           <img
             alt="calendar-clock"
@@ -8372,7 +8372,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            ps-ps
+            zepicons-ps-ps
           </p>
           <img
             alt="ps-ps"
@@ -8419,7 +8419,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            ps-service
+            zepicons-ps-service
           </p>
           <img
             alt="ps-service"
@@ -8466,7 +8466,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            ps-used
+            zepicons-ps-used
           </p>
           <img
             alt="ps-used"
@@ -8522,7 +8522,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            cat-new
+            zepicons-cat-new
           </p>
           <img
             alt="cat-new"
@@ -8569,7 +8569,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            cat-service
+            zepicons-cat-service
           </p>
           <img
             alt="cat-service"
@@ -8616,7 +8616,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            cat-used
+            zepicons-cat-used
           </p>
           <img
             alt="cat-used"
@@ -8672,7 +8672,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            systems-products
+            zepicons-systems-products
           </p>
           <img
             alt="systems-products"
@@ -8719,7 +8719,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            systems-aviation
+            zepicons-systems-aviation
           </p>
           <img
             alt="systems-aviation"
@@ -8766,7 +8766,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            systems-systems
+            zepicons-systems-systems
           </p>
           <img
             alt="systems-systems"
@@ -8813,7 +8813,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            systems-service
+            zepicons-systems-service
           </p>
           <img
             alt="systems-service"
@@ -8869,7 +8869,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            rental-infrastructure
+            zepicons-rental-infrastructure
           </p>
           <img
             alt="rental-infrastructure"
@@ -8916,7 +8916,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            rental-logistics
+            zepicons-rental-logistics
           </p>
           <img
             alt="rental-logistics"
@@ -8963,7 +8963,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            rental-rent
+            zepicons-rental-rent
           </p>
           <img
             alt="rental-rent"
@@ -9019,7 +9019,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            chevron-down
+            zepicons-chevron-down
           </p>
           <img
             alt="chevron-down"
@@ -9066,7 +9066,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            menu
+            zepicons-menu
           </p>
           <img
             alt="menu"
@@ -9113,7 +9113,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            previous-page
+            zepicons-previous-page
           </p>
           <img
             alt="previous-page"
@@ -9160,7 +9160,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            chevron-up
+            zepicons-chevron-up
           </p>
           <img
             alt="chevron-up"
@@ -9207,7 +9207,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            next-page
+            zepicons-next-page
           </p>
           <img
             alt="next-page"
@@ -9254,7 +9254,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            chevron-right
+            zepicons-chevron-right
           </p>
           <img
             alt="chevron-right"
@@ -9301,7 +9301,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            chevron-left
+            zepicons-chevron-left
           </p>
           <img
             alt="chevron-left"
@@ -9348,7 +9348,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            home
+            zepicons-home
           </p>
           <img
             alt="home"
@@ -9404,7 +9404,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            help
+            zepicons-help
           </p>
           <img
             alt="help"
@@ -9451,7 +9451,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            info
+            zepicons-info
           </p>
           <img
             alt="info"
@@ -9498,7 +9498,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            warning
+            zepicons-warning
           </p>
           <img
             alt="warning"
@@ -9554,7 +9554,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            br
+            zepicons-br
           </p>
           <img
             alt="br"
@@ -9601,7 +9601,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            gb
+            zepicons-gb
           </p>
           <img
             alt="gb"
@@ -9648,7 +9648,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            ger
+            zepicons-ger
           </p>
           <img
             alt="ger"
@@ -9695,7 +9695,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            in
+            zepicons-in
           </p>
           <img
             alt="in"
@@ -9742,7 +9742,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            it
+            zepicons-it
           </p>
           <img
             alt="it"
@@ -9789,7 +9789,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            ru
+            zepicons-ru
           </p>
           <img
             alt="ru"
@@ -9836,7 +9836,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            sa
+            zepicons-sa
           </p>
           <img
             alt="sa"
@@ -9883,7 +9883,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            sg
+            zepicons-sg
           </p>
           <img
             alt="sg"
@@ -9939,7 +9939,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            twitter
+            zepicons-twitter
           </p>
           <img
             alt="twitter"
@@ -9986,7 +9986,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            linkedin
+            zepicons-linkedin
           </p>
           <img
             alt="linkedin"
@@ -10033,7 +10033,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            youtube
+            zepicons-youtube
           </p>
           <img
             alt="youtube"
@@ -10080,7 +10080,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            xing
+            zepicons-xing
           </p>
           <img
             alt="xing"
@@ -10127,7 +10127,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            facebook
+            zepicons-facebook
           </p>
           <img
             alt="facebook"
@@ -10174,7 +10174,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            googleplus
+            zepicons-googleplus
           </p>
           <img
             alt="googleplus"
@@ -10221,7 +10221,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            kununu
+            zepicons-kununu
           </p>
           <img
             alt="kununu"
@@ -10268,7 +10268,7 @@ Object {
           <p
             class="Iconography-name-0-1-9 zep-typo--normal-1"
           >
-            instagram
+            zepicons-instagram
           </p>
           <img
             alt="instagram"
