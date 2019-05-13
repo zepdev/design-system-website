@@ -164,13 +164,13 @@ const Iconography = ({ classes }) => {
           </p>
           <DownloadContainer>
             <DownloadFile
-              title="Zeppelin iconography library"
+              title="Zeppelin Iconography Library"
               href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zepicons.zip"
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
-              title="iconography kit"
+              title="Zeppelin Sketch Library"
               sketch
               href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
               download=""
@@ -196,7 +196,9 @@ const Iconography = ({ classes }) => {
                       <span className={classes.backdropContent}>
                         <DownloadIcon className={classes.icon} ariaLabel="download" />
                       </span>
-                      <p className={classnames(classes.name, 'zep-typo--normal-1')}>{elem}</p>
+                      <p
+                        className={classnames(classes.name, 'zep-typo--normal-1')}
+                      >{`zepicons-${ elem }`}</p>
                       <img
                         src={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
                         alt={elem}

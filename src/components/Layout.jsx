@@ -46,11 +46,11 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
-    borderTop: 'none',
-    borderLeft: 'none',
-    borderRight: 'none',
-    marginTop: 0,
+    border: 0,
+    borderTop: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    width: '100%',
+    borderColor: theme.colors.gray.grayLighter.hex,
   },
   hStyled: {
     marginBottom: `${ theme.spacing.component.l.rem }rem`,
@@ -60,6 +60,9 @@ const styles = theme => ({
   },
   aStyled: {
     color: theme.colors.primary.indigoBlue.hex,
+  },
+  strongStyled: {
+    fontWeight: 'bold',
   },
   skipLink: {
     position: 'absolute',
@@ -95,6 +98,7 @@ function Layout({ children, classes }) {
 
   const aStyled = props => <a className={classes.aStyled} {...props} />
   const preStyled = props => <div {...props} />
+  const strongStyled = props => <strong className={classes.strongStyled} {...props} />
 
   const components = {
     h1: h1Styled,
@@ -105,6 +109,7 @@ function Layout({ children, classes }) {
     pre: preStyled,
     code: CodeBlock,
     a: aStyled,
+    strong: strongStyled,
   }
 
   return (
