@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
 
-function GridCol({ children, className: classNameProp, align, xxs, xs, s, m, l, xl }) {
+function GridCol({ children, className: classNameProp, align, xxs, xs, s, m, l, xl, ...other }) {
   const className = clsx(
     'zep-grid__col',
     {
-      [`zep-grid__row--align-self-${ align }`]: align !== undefined,
+      [`zep-grid__col--align-self-${ align }`]: align !== undefined,
       [`zep-grid__col--xxs-${ String(xxs) }-4`]: xxs !== undefined,
       [`zep-grid__col--xs-${ String(xs) }-6`]: xs !== undefined,
       [`zep-grid__col--s-${ String(s) }-6`]: s !== undefined,
@@ -17,7 +17,11 @@ function GridCol({ children, className: classNameProp, align, xxs, xs, s, m, l, 
     classNameProp
   )
 
-  return <div className={className} dangerouslySetInnerHTML={{ __html: children }} />
+  return (
+    <div className={className} {...other}>
+      {children}
+    </div>
+  )
 }
 
 GridCol.propTypes = {
@@ -29,10 +33,6 @@ GridCol.propTypes = {
   m: PropTypes.oneOf([1, 2, 3, 4, 5, 6, 7, 8]),
   l: PropTypes.oneOf([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
   xl: PropTypes.oneOf([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
-}
-
-GridCol.defaultProps = {
-  align: 'stretch',
 }
 
 export default GridCol

@@ -20,9 +20,12 @@ const styles = theme => ({
     paddingTop: '.5rem',
     paddingBottom: '.5rem',
   },
+  demoGridColBaseline: {
+    paddingTop: '30px',
+  },
 })
-
-const GridExample = ({ classes, rows }) => {
+// This is just a demo for usage in markdown files
+const GridUsageExample = ({ classes, rows }) => {
   return (
     <GridContainer className={classes.demoGrid}>
       {rows &&
@@ -38,8 +41,10 @@ const GridExample = ({ classes, rows }) => {
                 m={col.m}
                 l={col.l}
                 xl={col.xl}
+                align={col.align}
+                style={col.inlineStyle}
               >
-                {col.text}
+                <div dangerouslySetInnerHTML={{ __html: col.text }} />
               </GridCol>
             ))}
           </GridRow>
@@ -48,9 +53,9 @@ const GridExample = ({ classes, rows }) => {
   )
 }
 
-GridExample.propTypes = {
+GridUsageExample.propTypes = {
   classes: PropTypes.object,
   rows: PropTypes.array,
 }
 
-export default withStyles(styles)(GridExample)
+export default withStyles(styles)(GridUsageExample)
