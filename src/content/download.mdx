@@ -3,6 +3,7 @@ label: Download
 title: Download
 ---
 
+import { version as zelVersion } from 'zeppelin-element-library/package.json'
 import DownloadFile from '../components/download/DownloadFile.jsx'
 import DownloadContainer from '../components/download/DownloadContainer.jsx'
 
@@ -11,7 +12,11 @@ import DownloadContainer from '../components/download/DownloadContainer.jsx'
 <DownloadFile
   title="Zeppelin Sketch Library"
   variant="sketch"
-  href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
+  href={
+    'https://cdn-zel.zepdev.net/zel/' +
+    zelVersion.version +
+    '/css/assets/dist/zds-library.sketch'
+  }
   download=""
   ariaLabel="download"
 />
@@ -37,17 +42,16 @@ yarn add zeppelin-element-library
 Use the cached version of our files from our CDN
 
 ```js
-<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.css" >
-<script src="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.min.js" ></script>
+<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.css" >
+<script src="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.min.js" ></script>
 
 ```
 
 Use the gzipped cached version of our files from our CDN
 
 ```js
-<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.css.gz" >
-<script src="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.min.js.gz" ></script>
-
+<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.css.gz" >
+<script src="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.min.js.gz" ></script>
 ```
 
 ---
@@ -58,7 +62,7 @@ If you would like to download and use these styles for your own purposes directl
 
 <DownloadFile
   title="Zeppelin Element Library CSS"
-  href="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.css"
+  href="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.css"
   download="zeppelin-element-library.css"
   ariaLabel="download sketch file"
 />
