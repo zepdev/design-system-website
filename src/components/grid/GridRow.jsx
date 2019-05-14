@@ -15,7 +15,7 @@ function GridRow({ children, className: classNameProp, align }) {
 }
 
 GridRow.propTypes = {
-  children: PropTypes.array.isRequired,
+  children: PropTypes.array,
   align: PropTypes.oneOf(['stretch', 'flex-end', 'center', 'flex-start', 'baseline']),
 }
 
