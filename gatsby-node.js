@@ -21,7 +21,7 @@ exports.onPreInit = () => {
     .on('error', function(err) {
       console.log(err)
     })
-    .pipe(fs.createWriteStream('src/content/changelog.md'))
+    .pipe(fs.createWriteStream('src/content/changelog/changelog.md'))
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {

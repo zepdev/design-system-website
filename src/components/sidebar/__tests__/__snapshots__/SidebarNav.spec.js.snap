@@ -84,12 +84,29 @@ Object {
           </button>
         </li>
         <li>
-          <a
-            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
-            href="/content/changelog/"
+          <button
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
           >
             Changelog
-          </a>
+            <svg
+              aria-labelledby="title_chevronDown"
+              class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_chevronDown"
+              >
+                Chevron Down
+              </title>
+              <polygon
+                fill="currentColor"
+                points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+              />
+            </svg>
+          </button>
         </li>
         <li>
           <a
@@ -182,12 +199,29 @@ Object {
         </button>
       </li>
       <li>
-        <a
-          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full"
-          href="/content/changelog/"
+        <button
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-9"
         >
           Changelog
-        </a>
+          <svg
+            aria-labelledby="title_chevronDown"
+            class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_chevronDown"
+            >
+              Chevron Down
+            </title>
+            <polygon
+              fill="currentColor"
+              points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+            />
+          </svg>
+        </button>
       </li>
       <li>
         <a
