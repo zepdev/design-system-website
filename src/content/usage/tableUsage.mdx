@@ -1,0 +1,48 @@
+---
+label: tableUsage
+title: Table Usage
+---
+
+# Developers
+
+## Theme
+
+To implement colors please make sure that you have a theme included. For more information on themes, please visit the Theme Page in the Guidelines Section.
+
+```jsx
+<main class="theme-zeppelin" id="app-root">
+  ...
+  <Table />
+  ...
+</main>
+```
+
+## Accesibility
+
+Please use appropiate html elements for a table as outlined below as well as the following guidelines;
+
+Table elements must include a caption (it can be visually hidden if you don't want it to show visually).
+
+Header Table Cell elements must include the property 'scope="col"'.
+
+The first Table Cell element in the row must include the property 'scope="row"'.
+
+```html
+<table>
+  <caption className="zep-visually-hidden">
+    Table Title
+  </caption>
+  <thead>
+    <tr scrope="col">
+      Header Table Cell
+    </tr>
+    <tr scrope="col">
+      Header Table Cell
+    </tr>
+  </thead>
+  <tbody>
+    <th scrope="row">Table Cell</th>
+    <td>Table Cell</td>
+  </tbody>
+</table>
+```

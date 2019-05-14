@@ -187,7 +187,7 @@ const Iconography = ({ classes }) => {
                     className={classes.container}
                     key={`icon${ elem }`}
                     target="_blank"
-                    href={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
+                    href={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}
                     download={`zepicons-${ elem }.svg`}
                     aria-label={elem}
                   >
@@ -200,7 +200,7 @@ const Iconography = ({ classes }) => {
                         className={classnames(classes.name, 'zep-typo--normal-1')}
                       >{`zepicons-${ elem }`}</p>
                       <img
-                        src={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
+                        src={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}
                         alt={elem}
                         className={classes.img}
                       />
