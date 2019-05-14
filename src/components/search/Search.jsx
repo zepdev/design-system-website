@@ -44,24 +44,17 @@ const styles = theme => ({
   },
 })
 
-const Searchbar = ({ classes }) => (
+const Search = ({ classes }) => (
   <div className={classes.root}>
-    <button
-      onClick={() => {}}
-      className={classnames(classes.button, 'zep-button')}
-    >
+    <button onClick={() => {}} className={classnames(classes.button, 'zep-button')}>
       <SearchIcon className={classes.icon} />
     </button>
-    <input
-      type="text"
-      className={classes.input}
-      placeholder="Type here to search"
-    />
+    <input type="text" className={classes.input} placeholder="Type here to search" />
   </div>
 )
 
-Searchbar.propTypes = {
+Search.propTypes = {
   classes: PropTypes.object.isRequired,
 }
 
-export default withStyles(styles)(Searchbar)
+export default withStyles(styles)(Search)

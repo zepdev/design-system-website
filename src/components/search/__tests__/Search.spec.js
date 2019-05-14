@@ -1,14 +1,14 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import Searchbar from '../Searchbar'
+import Search from '../Search'
 import { ThemeProvider } from 'react-jss'
 import theme from 'zeppelin-element-library/bundle/themes/theme.json'
 
-describe('Searchbar', () => {
+describe('Search', () => {
   it('renders correctly', () => {
     const component = render(
       <ThemeProvider theme={theme}>
-        <Searchbar />
+        <Search />
       </ThemeProvider>
     )
     expect(component).toMatchSnapshot()

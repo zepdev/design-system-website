@@ -59,6 +59,18 @@ module.exports = {
       },
     },
   },
+  search: {
+    demo: {
+      form: {
+        js: [
+          `<div class="zep-form-container">
+          <input type="text" id="inputZeppelin" placeholder="Placeholder" class="zep-input">
+          <label class="zep-form-container__label" for="inputZeppelin">Input Field</label>
+  </div>`,
+        ],
+      },
+    },
+  },
   numberInput: {
     demo: {
       primary: {
