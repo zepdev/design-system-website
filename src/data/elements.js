@@ -92,6 +92,41 @@ module.exports = {
       },
     },
   },
+  table: {
+    demo: {
+      primary: {
+        js: [
+          `<table class="zep-table">
+<caption class="zep-visually-hidden">Zeppelin Table</caption>
+<thead>
+  <tr class="zep-table__row zep-table__row--header">
+      <th scope="col" class="zep-table__cell zep-table__cell--header">
+        Header 1
+      </th>
+      <th scope="col" class="zep-table__cell zep-table__cell--header">
+        Header 2
+      </th>
+  </tr>
+</thead>
+<tbody>
+    <tr class='zep-table__row zep-table__row--white'>
+      <th class="zep-table__cell" scope="row">Cell 1</th>
+      <th class="zep-table__cell">Cell 1</th>
+    </tr>
+    <tr class='zep-table__row zep-table__row--gray'>
+      <th class="zep-table__cell" scope="row">Cell 1</th>
+      <th class="zep-table__cell">Cell 1</th>
+    </tr>
+    <tr class='zep-table__row zep-table__row--white'>
+      <th class="zep-table__cell" scope="row">Cell 1</th>
+      <th class="zep-table__cell">Cell 1</th>
+    </tr>
+</tbody>
+</table>`,
+        ],
+      },
+    },
+  },
   textarea: {
     demo: {
       primary: {

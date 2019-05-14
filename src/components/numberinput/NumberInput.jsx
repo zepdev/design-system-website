@@ -29,7 +29,7 @@ function NumberInput({ label }) {
 }
 
 NumberInput.propTypes = {
-  label: PropTypes.string.isRequired,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
 
 export default NumberInput
