@@ -1,10 +1,21 @@
+---
+label: searchCodeExample_React
+title: Search Code
+---
+
+```jsx
 import React from 'react'
 import PropTypes from 'prop-types'
 import SearchIcon from '../icons/SearchIcon'
 
 const Search = landmark => (
   <div className="zep-form-container" role={landmark ? 'search' : null}>
-    <input type="text" className="zep-search" placeholder="Search" id="search" />
+    <input
+      type="text"
+      className="zep-search"
+      placeholder="Search"
+      id="search"
+    />
     <SearchIcon className="zep-search__icon" />
     <label className="zep-visually-hidden" htmlFor="search">
       Search
@@ -17,3 +28,4 @@ Search.propTypes = {
 }
 
 export default Search
+```
