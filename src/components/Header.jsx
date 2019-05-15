@@ -7,6 +7,7 @@ import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
 import Dropdown from './dropdown/Dropdown'
 import Search from './search/Search'
+import navigation from '../data/navigation.json'
 
 const styles = theme => ({
   root: {
@@ -28,10 +29,20 @@ const styles = theme => ({
     width: '100%',
     maxHeight: 24,
   },
-  menuContainer: {
+  searchLarge: {
+    display: 'none',
+  },
+  searchMobile: {
+    display: 'block',
+    paddingTop: 46,
+  },
+  container: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-end',
+  },
+  menu: {
+    marginLeft: `${ theme.spacing.component.s.rem }rem`,
   },
   menuText: {
     display: 'none',
@@ -45,10 +56,16 @@ const styles = theme => ({
     icon: {
       maxHeight: 'initial',
     },
+    searchMobile: {
+      paddingTop: 68,
+    },
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     height: {
       height: 84,
+    },
+    searchMobile: {
+      paddingTop: 84,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
@@ -68,6 +85,12 @@ const styles = theme => ({
     menuText: {
       display: 'block',
     },
+    searchLarge: {
+      display: 'block',
+    },
+    searchMobile: {
+      display: 'none',
+    },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
@@ -84,39 +107,64 @@ const styles = theme => ({
   },
 })
 
-const Header = ({ handleMenu, theme, handleTheme, classes }) => (
-  <header className={classnames(classes.root, classes.height)}>
-    <div className={classnames(classes.height, 'zep-grid', 'zep-grid--valign-center')}>
-      <div className="zep-grid__row">
-        <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8 ">
-          <ButtonBase
-            onClick={handleMenu}
-            className={classnames(classes.button, 'zep-button')}
-            data-testid="mobileMenuButton"
-          >
-            <MenuIcon />
-          </ButtonBase>
-        </div>
-        <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-2-4 zep-grid__col--xs-4-6 zep-grid__col--m-4-8">
-          <ZeppelinIcon className={classes.icon} />
-        </div>
-        <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-6-8">
-          <Search />
-        </div>
-        <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8">
-          <div className={classes.menuContainer}>
-            <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
-            <Dropdown
-              menuItems={['zeppelin', 'cat', 'rental']}
-              selected={theme}
-              onSelect={handleTheme}
-            />
+const Header = ({ handleMenu, theme, handleTheme, classes }) => {
+  const search = []
+  Object.keys(navigation).forEach(elem => {
+    if (navigation[elem].subnav) {
+      Object.keys(navigation[elem].subnav).forEach(item => {
+        search.push({ value: item, link: `/content/${ elem }/${ item }/` })
+      })
+    }
+  })
+
+  return (
+    <>
+      <header className={classnames(classes.root, classes.height)}>
+        <div className={classnames(classes.height, 'zep-grid zep-grid--valign-center')}>
+          <div className="zep-grid__row">
+            <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 ">
+              <ButtonBase
+                onClick={handleMenu}
+                className={classnames(classes.button, 'zep-button')}
+                data-testid="mobileMenuButton"
+              >
+                <MenuIcon />
+              </ButtonBase>
+            </div>
+            <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-2-4 zep-grid__col--xs-2-6 zep-grid__col--m-4-8">
+              <ZeppelinIcon className={classes.icon} />
+            </div>
+            <div
+              className={classnames(
+                'zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-0-4  zep-grid__col--m-6-8',
+                classes.searchLarge
+              )}
+            >
+              <Search items={search} landmark="search" />
+            </div>
+            <div
+              className={
+                'zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8'
+              }
+            >
+              <div className={classes.container}>
+                <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
+                <Dropdown
+                  menuItems={['zeppelin', 'cat', 'rental']}
+                  selected={theme}
+                  onSelect={handleTheme}
+                />
+              </div>
+            </div>
           </div>
         </div>
+      </header>
+      <div className={classnames(classes.searchMobile)}>
+        <Search items={search} landmark="search" />
       </div>
-    </div>
-  </header>
-)
+    </>
+  )
+}
 
 Header.propTypes = {
   classes: PropTypes.object.isRequired,
