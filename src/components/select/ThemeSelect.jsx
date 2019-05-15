@@ -5,7 +5,7 @@ import classnames from 'classnames'
 import NavigationDropdownIcon from '../icons/NavigationDropdownIcon'
 import '@reach/menu-button/styles.css'
 import { Menu, MenuList, MenuButton, MenuItem } from '@reach/menu-button'
-import './dropdown.css'
+import './themeSelect.css'
 
 const styles = theme => ({
   circle: {
@@ -87,7 +87,7 @@ const styles = theme => ({
   },
 })
 
-const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
+const ThemeSelect = ({ onSelect, menuItems, selected, classes }) => (
   <Menu>
     <MenuButton className={classnames(classes.menuButton, 'zep-button zep-input')}>
       <span
@@ -124,11 +124,11 @@ const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
   </Menu>
 )
 
-Dropdown.propTypes = {
+ThemeSelect.propTypes = {
   classes: PropTypes.object.isRequired,
   onSelect: PropTypes.func.isRequired,
   menuItems: PropTypes.array.isRequired,
   selected: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(Dropdown)
+export default withStyles(styles)(ThemeSelect)

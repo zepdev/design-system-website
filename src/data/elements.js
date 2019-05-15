@@ -59,6 +59,21 @@ module.exports = {
       },
     },
   },
+  select: {
+    demo: {
+      form: {
+        js: [
+          `<div class="zep-form-container">
+          <select class="zep-input">
+              <option value="a">option A</option>
+              <option value="b">option B</option>
+              <option value="c">option C</option>
+          </select>
+  </div>`,
+        ],
+      },
+    },
+  },
   numberInput: {
     demo: {
       primary: {
