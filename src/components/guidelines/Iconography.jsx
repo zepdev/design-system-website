@@ -171,7 +171,7 @@ const Iconography = ({ classes }) => {
             />
             <DownloadFile
               title="Zeppelin Sketch Library"
-              sketch
+              variant="sketch"
               href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
               download=""
               ariaLabel="download"
