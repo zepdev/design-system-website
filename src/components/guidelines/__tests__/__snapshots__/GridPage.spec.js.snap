@@ -1279,233 +1279,229 @@ Object {
         </div>
       </div>
       <div
-        class="Table-root-0-1-20"
+        class="ContentTable-root-0-1-20"
       >
         <table
-          class="Table-table-0-1-21"
+          class="zep-table ContentTable-table-0-1-21"
         >
           <caption
             class="zep-visually-hidden"
           >
             basic grid data
           </caption>
-          <thead
-            class="Table-header-0-1-25"
-          >
+          <thead>
             <tr
-              class="Table-tr-0-1-23"
+              class="zep-table__row zep-table__row--header"
             >
               <th
-                class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+                class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
                 scope="col"
               >
                 identifier
               </th>
               <th
-                class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+                class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
                 scope="col"
               >
                 screensize
               </th>
               <th
-                class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+                class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
                 scope="col"
               >
                 columns
               </th>
               <th
-                class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+                class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
                 scope="col"
               >
                 margin
               </th>
               <th
-                class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+                class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
                 scope="col"
               >
                 gutter
               </th>
             </tr>
           </thead>
-          <tbody
-            class="Table-tbody-0-1-24"
-          >
+          <tbody>
             <tr
-              class="Table-tr-0-1-23"
+              class="zep-table__row zep-table__row--white"
             >
-              <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              <th
+                class="zep-table__cell"
                 scope="row"
               >
                 xxs
-              </td>
+              </th>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 &lt;576px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 4
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 24px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 24px
               </td>
             </tr>
             <tr
-              class="Table-tr-0-1-23"
+              class="zep-table__row zep-table__row--gray"
             >
-              <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              <th
+                class="zep-table__cell"
                 scope="row"
               >
                 xs
-              </td>
+              </th>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 ≥576px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 6
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 32px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 32px
               </td>
             </tr>
             <tr
-              class="Table-tr-0-1-23"
+              class="zep-table__row zep-table__row--white"
             >
-              <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              <th
+                class="zep-table__cell"
                 scope="row"
               >
                 s
-              </td>
+              </th>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 ≥768px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 6
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 48px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 32px
               </td>
             </tr>
             <tr
-              class="Table-tr-0-1-23"
+              class="zep-table__row zep-table__row--gray"
             >
-              <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              <th
+                class="zep-table__cell"
                 scope="row"
               >
                 m
-              </td>
+              </th>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 ≥992px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 8
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 64px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 32px
               </td>
             </tr>
             <tr
-              class="Table-tr-0-1-23"
+              class="zep-table__row zep-table__row--white"
             >
-              <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              <th
+                class="zep-table__cell"
                 scope="row"
               >
                 l
-              </td>
+              </th>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 ≥1200px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 12
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 64px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 32px
               </td>
             </tr>
             <tr
-              class="Table-tr-0-1-23"
+              class="zep-table__row zep-table__row--gray"
             >
-              <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              <th
+                class="zep-table__cell"
                 scope="row"
               >
                 xl
-              </td>
+              </th>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 ≥1680px
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 12
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 auto
               </td>
               <td
-                class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+                class="zep-table__cell"
               >
                 32px
               </td>
@@ -2790,233 +2786,229 @@ Object {
       </div>
     </div>
     <div
-      class="Table-root-0-1-20"
+      class="ContentTable-root-0-1-20"
     >
       <table
-        class="Table-table-0-1-21"
+        class="zep-table ContentTable-table-0-1-21"
       >
         <caption
           class="zep-visually-hidden"
         >
           basic grid data
         </caption>
-        <thead
-          class="Table-header-0-1-25"
-        >
+        <thead>
           <tr
-            class="Table-tr-0-1-23"
+            class="zep-table__row zep-table__row--header"
           >
             <th
-              class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+              class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
               scope="col"
             >
               identifier
             </th>
             <th
-              class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+              class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
               scope="col"
             >
               screensize
             </th>
             <th
-              class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+              class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
               scope="col"
             >
               columns
             </th>
             <th
-              class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+              class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
               scope="col"
             >
               margin
             </th>
             <th
-              class="Table-th-0-1-22 zep-typo--normal-1 Table-capitalize-0-1-27"
+              class="zep-table__cell zep-table__cell--header ContentTable-capitalize-0-1-23"
               scope="col"
             >
               gutter
             </th>
           </tr>
         </thead>
-        <tbody
-          class="Table-tbody-0-1-24"
-        >
+        <tbody>
           <tr
-            class="Table-tr-0-1-23"
+            class="zep-table__row zep-table__row--white"
           >
-            <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+            <th
+              class="zep-table__cell"
               scope="row"
             >
               xxs
-            </td>
+            </th>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               &lt;576px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               4
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               24px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               24px
             </td>
           </tr>
           <tr
-            class="Table-tr-0-1-23"
+            class="zep-table__row zep-table__row--gray"
           >
-            <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+            <th
+              class="zep-table__cell"
               scope="row"
             >
               xs
-            </td>
+            </th>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               ≥576px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               6
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               32px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               32px
             </td>
           </tr>
           <tr
-            class="Table-tr-0-1-23"
+            class="zep-table__row zep-table__row--white"
           >
-            <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+            <th
+              class="zep-table__cell"
               scope="row"
             >
               s
-            </td>
+            </th>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               ≥768px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               6
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               48px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               32px
             </td>
           </tr>
           <tr
-            class="Table-tr-0-1-23"
+            class="zep-table__row zep-table__row--gray"
           >
-            <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+            <th
+              class="zep-table__cell"
               scope="row"
             >
               m
-            </td>
+            </th>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               ≥992px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               8
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               64px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               32px
             </td>
           </tr>
           <tr
-            class="Table-tr-0-1-23"
+            class="zep-table__row zep-table__row--white"
           >
-            <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+            <th
+              class="zep-table__cell"
               scope="row"
             >
               l
-            </td>
+            </th>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               ≥1200px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               12
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               64px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               32px
             </td>
           </tr>
           <tr
-            class="Table-tr-0-1-23"
+            class="zep-table__row zep-table__row--gray"
           >
-            <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+            <th
+              class="zep-table__cell"
               scope="row"
             >
               xl
-            </td>
+            </th>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               ≥1680px
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               12
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               auto
             </td>
             <td
-              class="Table-th-0-1-22 Table-borderBottom-0-1-28 zep-typo--normal-2"
+              class="zep-table__cell"
             >
               32px
             </td>

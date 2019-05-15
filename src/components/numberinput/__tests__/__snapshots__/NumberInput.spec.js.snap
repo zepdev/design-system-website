@@ -19,10 +19,20 @@ Object {
       >
         mockLabel
       </label>
-      <input
-        class="zep-input zep-input--number zep-input"
-        value="0"
-      />
+      <div
+        class="zep-form-container"
+      >
+        <input
+          class="zep-input zep-input--number zep-input"
+          id="numberInput_mockLabel"
+          type="text"
+          value="0"
+        />
+        <label
+          class="zep-form-container__label"
+          for="numberInput_mockLabel"
+        />
+      </div>
       <button
         class="zep-button zep-button--number-input"
       >
@@ -48,10 +58,20 @@ Object {
     >
       mockLabel
     </label>
-    <input
-      class="zep-input zep-input--number zep-input"
-      value="0"
-    />
+    <div
+      class="zep-form-container"
+    >
+      <input
+        class="zep-input zep-input--number zep-input"
+        id="numberInput_mockLabel"
+        type="text"
+        value="0"
+      />
+      <label
+        class="zep-form-container__label"
+        for="numberInput_mockLabel"
+      />
+    </div>
     <button
       class="zep-button zep-button--number-input"
     >

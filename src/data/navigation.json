@@ -59,6 +59,9 @@
       },
       "search": {
         "title": "Search"
+      },
+      "table": {
+        "title": "Table"
       }
     }
   },

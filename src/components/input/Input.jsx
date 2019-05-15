@@ -24,7 +24,7 @@ Input.propTypes = {
   className: PropTypes.string,
   value: PropTypes.string,
   onChange: PropTypes.func,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
   id: PropTypes.string.isRequired,
   placeholder: PropTypes.string,
 }

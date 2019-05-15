@@ -5,17 +5,33 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <input
-        class="zep-input"
-        value=""
-      />
+      <div
+        class="zep-form-container"
+      >
+        <input
+          class="zep-input"
+          type="text"
+          value=""
+        />
+        <label
+          class="zep-form-container__label"
+        />
+      </div>
     </div>
   </body>,
   "container": <div>
-    <input
-      class="zep-input"
-      value=""
-    />
+    <div
+      class="zep-form-container"
+    >
+      <input
+        class="zep-input"
+        type="text"
+        value=""
+      />
+      <label
+        class="zep-form-container__label"
+      />
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

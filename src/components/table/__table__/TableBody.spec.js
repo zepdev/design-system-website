@@ -1,15 +1,13 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import Input from '../Input'
+import TableBody from '../TableBody'
 
-describe('Input', () => {
+describe('TableBody', () => {
   it('renders correctly', () => {
     const mockProps = {
-      type: 'text',
-      startValue: 0,
-      id: 'mockId',
+      children: 'mockString',
     }
-    const component = render(<Input {...mockProps} />)
+    const component = render(<TableBody {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })
