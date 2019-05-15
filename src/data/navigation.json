@@ -66,7 +66,15 @@
     }
   },
   "changelog": {
-    "title": "Changelog"
+    "title": "Changelog",
+    "subnav": {
+      "developers": {
+        "title": "Developers"
+      },
+      "designers": {
+        "title": "Designers"
+      }
+    }
   },
   "download": {
     "title": "Download"

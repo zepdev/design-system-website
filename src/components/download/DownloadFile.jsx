@@ -4,7 +4,10 @@ import withStyles from 'react-jss'
 import classnames from 'classnames'
 import ButtonBase from '../button/ButtonBase'
 import DownloadIcon from '../icons/DownloadIcon'
+import OpenInNewIcon from '../icons/OpenInNewIcon'
 import sketchImg from '../../assets/images/sketch-symbol.svg'
+import githubImg from '../../assets/images/github.svg'
+import npmImg from '../../assets/images/npm.svg'
 
 const styles = theme => ({
   root: {
@@ -54,7 +57,7 @@ const styles = theme => ({
   },
 })
 
-const DownloadFile = ({ title, sketch, href, download, ariaLabel, demo, classes }) => {
+const DownloadFile = ({ title, variant, href, download, ariaLabel, demo, classes }) => {
   const handleDownload = () => {
     const a = document.createElement('a')
     // check if browser supports modern features like download
@@ -79,14 +82,16 @@ const DownloadFile = ({ title, sketch, href, download, ariaLabel, demo, classes 
   return (
     <div className={classes.root}>
       <p className={classnames('zep-typo--normal-3', classes.text)}>
-        {sketch ? `Sketch ${ title }` : title}
+        {variant === 'sketch' ? `Sketch ${ title }` : title}
       </p>
       <div
         className={classnames(classes.container, {
-          [classes.iconContainer]: sketch,
+          [classes.iconContainer]: variant !== undefined,
         })}
       >
-        {sketch && <img src={sketchImg} alt="sketch logo" className={classes.img} />}
+        {variant === 'sketch' && <img src={sketchImg} alt="sketch logo" className={classes.img} />}
+        {variant === 'github' && <img src={githubImg} alt="github logo" className={classes.img} />}
+        {variant === 'npm' && <img src={npmImg} alt="github logo" className={classes.img} />}
         <ButtonBase
           className={classes.button}
           disabled={demo}
@@ -94,7 +99,10 @@ const DownloadFile = ({ title, sketch, href, download, ariaLabel, demo, classes 
           aria-label={ariaLabel}
           data-testid="downloadButton"
         >
-          <DownloadIcon className={classes.icon} />
+          {variant === 'npm' && <OpenInNewIcon className={classes.icon} />}
+          {variant === 'github' && <OpenInNewIcon className={classes.icon} />}
+          {variant === 'sketch' && <DownloadIcon className={classes.icon} />}
+          {variant === undefined && <DownloadIcon className={classes.icon} />}
         </ButtonBase>
       </div>
     </div>
@@ -105,10 +113,12 @@ DownloadFile.propTypes = {
   classes: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
   sketch: PropTypes.bool,
+  github: PropTypes.bool,
   href: PropTypes.string,
   download: PropTypes.string,
   ariaLabel: PropTypes.string,
   demo: PropTypes.bool,
+  variant: PropTypes.oneOf(['sketch', 'npm', 'github']),
 }
 
 export default withStyles(styles)(DownloadFile)

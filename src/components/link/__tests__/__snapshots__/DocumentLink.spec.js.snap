@@ -1,40 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Input renders correctly 1`] = `
+exports[`DocumentLink renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="zep-form-container"
+        class="DocumentLink-root-0-1-1"
       >
-        <input
-          class="zep-input"
-          id="mockId"
-          type="text"
-          value=""
-        />
-        <label
-          class="zep-form-container__label"
-          for="mockId"
-        />
+        <a
+          class="zep-button zep-button-primary DocumentLink-link-0-1-2"
+          href="mockLink"
+        >
+          <span
+            class="zep-button__text"
+          >
+            mockString
+          </span>
+        </a>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="zep-form-container"
+      class="DocumentLink-root-0-1-1"
     >
-      <input
-        class="zep-input"
-        id="mockId"
-        type="text"
-        value=""
-      />
-      <label
-        class="zep-form-container__label"
-        for="mockId"
-      />
+      <a
+        class="zep-button zep-button-primary DocumentLink-link-0-1-2"
+        href="mockLink"
+      >
+        <span
+          class="zep-button__text"
+        >
+          mockString
+        </span>
+      </a>
     </div>
   </div>,
   "debug": [Function],
