@@ -31,8 +31,8 @@ const styles = theme => ({
   },
 })
 
-const Search = ({ landmark, items, classes }) => (
-  <div role={landmark ? 'search' : null}>
+const Search = ({ variant, items, classes }) => (
+  <div role={variant === 'landmark' ? 'search' : null}>
     <Downshift itemToString={item => (item ? item.value : '')}>
       {({
         getInputProps,
@@ -87,7 +87,7 @@ const Search = ({ landmark, items, classes }) => (
 
 Search.propTypes = {
   classes: PropTypes.object.isRequired,
-  landmark: PropTypes.bool,
+  variant: PropTypes.oneOf(['landmark']),
   items: PropTypes.array,
 }
 

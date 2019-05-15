@@ -7,7 +7,11 @@ describe('TableHeader', () => {
     const mockProps = {
       children: 'mockString',
     }
-    const component = render(<TableHeader {...mockProps} />)
+    const component = render(
+      <table>
+        <TableHeader {...mockProps} />
+      </table>
+    )
     expect(component).toMatchSnapshot()
   })
 })

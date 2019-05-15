@@ -140,7 +140,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
                 classes.searchLarge
               )}
             >
-              <Search items={search} landmark="search" />
+              <Search items={search} variant="landmark" />
             </div>
             <div
               className={
@@ -160,7 +160,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
         </div>
       </header>
       <div className={classnames(classes.searchMobile)}>
-        <Search items={search} landmark="search" />
+        <Search items={search} variant="landmark" />
       </div>
     </>
   )
