@@ -6,6 +6,7 @@ import ButtonBase from '../components/button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
 import Dropdown from './dropdown/Dropdown'
+import Search from './search/Search'
 
 const styles = theme => ({
   root: {
@@ -99,7 +100,9 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => (
         <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-2-4 zep-grid__col--xs-4-6 zep-grid__col--m-4-8">
           <ZeppelinIcon className={classes.icon} />
         </div>
-
+        <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-6-8">
+          <Search />
+        </div>
         <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-2-8">
           <div className={classes.menuContainer}>
             <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
