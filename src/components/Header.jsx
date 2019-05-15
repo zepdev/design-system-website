@@ -140,7 +140,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
                 classes.searchLarge
               )}
             >
-              <Search items={search} variant="landmark" />
+              <Search items={search} variant="landmark" placeholder="Search" />
             </div>
             <div
               className={

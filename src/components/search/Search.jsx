@@ -31,7 +31,7 @@ const styles = theme => ({
   },
 })
 
-const Search = ({ variant, items, classes }) => (
+const Search = ({ variant, items, placeholder, classes }) => (
   <div role={variant === 'landmark' ? 'search' : null}>
     <Downshift itemToString={item => (item ? item.value : '')}>
       {({
@@ -46,7 +46,7 @@ const Search = ({ variant, items, classes }) => (
       }) => (
         <div className={classnames(classes.container, 'zep-form-container')}>
           <label {...getLabelProps()} className="zep-visually-hidden">
-            Search
+            {placeholder}
           </label>
           <input {...getInputProps()} className="zep-search" />
           <SearchIcon className="zep-search__icon" />
@@ -89,6 +89,7 @@ Search.propTypes = {
   classes: PropTypes.object.isRequired,
   variant: PropTypes.oneOf(['landmark']),
   items: PropTypes.array,
+  placeholder: PropTypes.string.isRequired,
 }
 
 export default withStyles(styles)(Search)
