@@ -25,6 +25,18 @@ const styles = theme => ({
   rental: {
     backgroundColor: theme.colors.primary.rentalRed.hex,
   },
+  zeppelinBorder: {
+    border: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
+    width: 200,
+  },
+  catBorder: {
+    border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
+    width: 200,
+  },
+  rentalBorder: {
+    border: `2px solid ${ theme.colors.primary.rentalRed.hex }`,
+    width: 200,
+  },
   menuButton: {
     display: 'flex',
     alignItems: 'center',
@@ -36,7 +48,7 @@ const styles = theme => ({
     minHeight: 24,
     '&:focus': {
       outline: 'none',
-      boxShadow: `0 0 0 2pt ${ theme.colors.primary.catYellow.hex }`,
+      border: 'none',
     },
   },
   icon: {
@@ -55,7 +67,7 @@ const styles = theme => ({
     },
   },
   menuList: {
-    border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
+    // border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
     width: 200,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
@@ -89,7 +101,7 @@ const styles = theme => ({
 
 const ThemeSelect = ({ onSelect, menuItems, selected, classes }) => (
   <Menu>
-    <MenuButton className={classnames(classes.menuButton, 'zep-button zep-input')}>
+    <MenuButton className={classnames(classes.menuButton, 'zep-select__button')}>
       <span
         className={classnames(classes.circle, {
           [classes.zeppelin]: selected === 'zeppelin',
@@ -99,12 +111,18 @@ const ThemeSelect = ({ onSelect, menuItems, selected, classes }) => (
       />
       <NavigationDropdownIcon className={classes.icon} />
     </MenuButton>
-    <MenuList className={classes.menuList}>
+    <MenuList
+      className={classnames('zep-select__list', {
+        [classes.zeppelinBorder]: selected === 'zeppelin',
+        [classes.catBorder]: selected === 'cat',
+        [classes.rentalBorder]: selected === 'rental',
+      })}
+    >
       {menuItems.map(elem => (
         <MenuItem
           onSelect={() => onSelect(elem)}
           key={`dropdownItem_${ elem }`}
-          className={classnames(classes.text, 'zep-typo--normal-3')}
+          className={classnames(classes.text, 'zep-select__listitem')}
         >
           <div
             className={classnames(classes.circle, classes.spacer, {

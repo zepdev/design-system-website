@@ -9,6 +9,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
+import Select from './select/Select'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
@@ -150,7 +151,10 @@ function Layout({ children, classes }) {
                 />
                 <SkipNavContent />
                 <MDXProvider components={components}>
-                  <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
+                  <main className={classnames(classes.main, 'zep-grid')}>
+                    <Select />
+                    {children}
+                  </main>
                 </MDXProvider>
                 <Footer />
               </div>

@@ -65,15 +65,13 @@ To implement colors please make sure that you have a theme included. For more in
 
 ## Accessibility
 
-In general if you choose to create a custom dropdown component, it must use the ARIA [listbox role](https://www.w3.org/TR/wai-aria-1.1/#listbox) or the [combobox role](https://www.w3.org/TR/wai-aria-1.1/#combobox). A combobox role is reserved for a textarea that has a dropdown list (ie Zeppelin Search Element: a search field component where you can type into the textarea to filter the dropdown list). A listbox role is a component that has the behavior of a native select (ie you cannot type into it to filter results but only click to open a list and then click to select a list item). The most common implementation of this is a complex component from a button and a list. The Zeppelin Select Element should be either a native select or a custom component with a listbox role.
+In general if you choose to create a custom dropdown component, it must use the ARIA [listbox role](https://www.w3.org/TR/wai-aria-1.1/#listbox) or the [combobox role](https://www.w3.org/TR/wai-aria-1.1/#combobox). A combobox role is reserved for a textarea that has a dropdown list (ie Zeppelin Search Element: a search field component where you can type into the textarea to filter the dropdown list). A listbox role is a component that has the behavior of a native select (ie you cannot type into it to filter results but only click to open a list and then click to select a list item). The most common implementation of this is a complex component from a button and a list. The Zeppelin Select element should be either a native select or a custom component with a listbox role.
 
 If you are using modern javascript frameworks (React, Vue or Angular), there are many readily available custom dropdown solutions that have already fully accessible! Here are some that we recommend (that can still be styled using the Zeppelin Element Library of course!):
 
 **React**
-[Material-UI: Selects](https://material-ui.com/demos/selects/)
-[Reach-UI: MenuButton](https://ui.reach.tech/menu-button)
 [Downshift](https://github.com/downshift-js/downshift)
-[React Select](https://react-select.com/home)
+[Reach-UI: MenuButton](https://ui.reach.tech/menu-button)
 
 **Vue**
 Please let us know your suggestions!
