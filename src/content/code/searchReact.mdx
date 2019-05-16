@@ -52,7 +52,7 @@ const Search = ({ variant, items, placeholder, classes }) => (
           <label {...getLabelProps()} className="zep-visually-hidden">
             {placeholder}
           </label>
-          <input {...getInputProps()} className="zep-search__input" />
+          <input {...getInputProps({ placeholder: placeholder })} className="zep-search__input" />
           <SearchIcon className="zep-search__icon" />
           <ul
             {...getMenuProps()}

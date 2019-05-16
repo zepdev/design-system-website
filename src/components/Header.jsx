@@ -160,7 +160,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
         </div>
       </header>
       <div className={classnames(classes.searchMobile)}>
-        <Search items={search} variant="landmark" />
+        <Search items={search} variant="landmark" variant="landmark" placeholder="Search" />
       </div>
     </>
   )
