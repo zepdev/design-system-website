@@ -44,11 +44,11 @@ const Search = ({ variant, items, placeholder, classes }) => (
         highlightedIndex,
         selectedItem,
       }) => (
-        <div className={classnames(classes.container, 'zep-form-container')}>
+        <div className={classnames(classes.container, 'zep-search')}>
           <label {...getLabelProps()} className="zep-visually-hidden">
             {placeholder}
           </label>
-          <input {...getInputProps()} className="zep-search" />
+          <input {...getInputProps()} className="zep-search__input" />
           <SearchIcon className="zep-search__icon" />
           <ul
             {...getMenuProps()}

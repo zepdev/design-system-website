@@ -136,7 +136,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
             </div>
             <div
               className={classnames(
-                'zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-0-4  zep-grid__col--m-6-8',
+                'zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-6-8',
                 classes.searchLarge
               )}
             >
