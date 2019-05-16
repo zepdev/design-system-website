@@ -16,3 +16,21 @@ To implement colors please make sure that you have a theme included. For more in
   ...
 </main>
 ```
+
+## Accessibility
+
+It is recommended to use native selects for accessibility whenever possible as it can be difficult to ensure that custom select dropdowns are fully accessible. In general, if you choose to create a custom dropdown component, it must use the ARIA [listbox role](https://www.w3.org/TR/wai-aria-1.1/#listbox) or the [combobox role](https://www.w3.org/TR/wai-aria-1.1/#combobox) as appropiate. A combobox role is reserved for a textarea that has a dropdown list (ie a search field component, you can type into the textarea to filter the dropdown list). A listbox role is a component that has the behavior of a native select (ie a non editable textfield, that is usually a button with an attached list). The Zeppelin Select Element should be either a native select or a custom component with a listbox role.
+
+If you are using modern javascript frameworks (React, Vue or Angular), there are many readily available custom dropdown solutions that have already fully accessible! Here are some that we recommend (that can still be styled using the Zeppelin Element Library of course!):ç
+
+**React**
+[Material-UI: Selects](https://material-ui.com/demos/selects/)
+[Reach-UI: MenuButton](https://ui.reach.tech/menu-button)
+[Downshift](https://github.com/downshift-js/downshift)
+[React Select](https://react-select.com/home)
+
+**Vue**
+Please let us know your suggestions!
+
+**Angular**
+Please let us know your suggestions!
