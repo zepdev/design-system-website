@@ -5,6 +5,52 @@ title: Select Usage
 
 # Developers
 
+## Why not a native Select?
+
+It is recommended to use native selects for accessibility whenever possible as it can be difficult to ensure that custom select components are fully accessible. However, a native select element is limited in its styling of the dropdown list in that it cannot be styled to open directly underneath the select element. The Zeppelin Select behavior requires that the dropdown list be opened directly under the select element and the only way to achieve this is to create a custom select component. The most common way to achieve this behavior while still maintaining accessibility is to create a complex component from a button and a list (see below for more information on accessibility).
+
+The styles provided in the zeppelin-element-library will still work for native select elements, however please be aware of the above limitation in the presentation of the dropdown list.
+
+```html
+// native select
+<select class="parent">
+  <div class="child">
+    <option value="option-1">Option 1</option>
+    <option value="option-2">Option 2</option>
+  </div>
+</select>
+
+// accesible button and list component
+<div>
+  <span id="exp_elem">
+    Choose an element:
+  </span>
+  <div id="exp_wrapper">
+    <button
+      aria-haspopup="listbox"
+      aria-labelledby="exp_elem exp_button"
+      id="exp_button"
+    >
+      Select One
+    </button>
+    <ul
+      id="exp_elem_list"
+      tabindex="-1"
+      role="listbox"
+      aria-labelledby="exp_elem"
+      class="hidden"
+    >
+      <li id="option-1" role="option">
+        Option 1
+      </li>
+      <li id="option-2" role="option">
+        Option 2
+      </li>
+    </ul>
+  </div>
+</div>
+```
+
 ## Theme
 
 To implement colors please make sure that you have a theme included. For more information on themes, please visit the Theme Page in the Guidelines Section.
@@ -19,9 +65,9 @@ To implement colors please make sure that you have a theme included. For more in
 
 ## Accessibility
 
-It is recommended to use native selects for accessibility whenever possible as it can be difficult to ensure that custom select dropdowns are fully accessible. In general, if you choose to create a custom dropdown component, it must use the ARIA [listbox role](https://www.w3.org/TR/wai-aria-1.1/#listbox) or the [combobox role](https://www.w3.org/TR/wai-aria-1.1/#combobox) as appropiate. A combobox role is reserved for a textarea that has a dropdown list (ie a search field component, you can type into the textarea to filter the dropdown list). A listbox role is a component that has the behavior of a native select (ie a non editable textfield, that is usually a button with an attached list). The Zeppelin Select Element should be either a native select or a custom component with a listbox role.
+In general if you choose to create a custom dropdown component, it must use the ARIA [listbox role](https://www.w3.org/TR/wai-aria-1.1/#listbox) or the [combobox role](https://www.w3.org/TR/wai-aria-1.1/#combobox). A combobox role is reserved for a textarea that has a dropdown list (ie Zeppelin Search Element: a search field component where you can type into the textarea to filter the dropdown list). A listbox role is a component that has the behavior of a native select (ie you cannot type into it to filter results but only click to open a list and then click to select a list item). The most common implementation of this is a complex component from a button and a list. The Zeppelin Select Element should be either a native select or a custom component with a listbox role.
 
-If you are using modern javascript frameworks (React, Vue or Angular), there are many readily available custom dropdown solutions that have already fully accessible! Here are some that we recommend (that can still be styled using the Zeppelin Element Library of course!):ç
+If you are using modern javascript frameworks (React, Vue or Angular), there are many readily available custom dropdown solutions that have already fully accessible! Here are some that we recommend (that can still be styled using the Zeppelin Element Library of course!):
 
 **React**
 [Material-UI: Selects](https://material-ui.com/demos/selects/)
