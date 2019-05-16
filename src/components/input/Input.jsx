@@ -22,7 +22,7 @@ const Input = ({ className: classNameProp, value, onChange, id, label, placehold
 
 Input.propTypes = {
   className: PropTypes.string,
-  value: PropTypes.string,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   onChange: PropTypes.func,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
   id: PropTypes.string.isRequired,

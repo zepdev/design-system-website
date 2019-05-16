@@ -12,7 +12,7 @@ function Table({ children, title, className: classNameProp }) {
 }
 
 Table.propTypes = {
-  children: PropTypes.array.isRequired,
+  children: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
   title: PropTypes.string.isRequired,
   className: PropTypes.string,
 }

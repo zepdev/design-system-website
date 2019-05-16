@@ -5,9 +5,15 @@ import TableRow from '../TableRow'
 describe('TableRow', () => {
   it('renders correctly', () => {
     const mockProps = {
-      children: 'mockString',
+      children: <th />,
     }
-    const component = render(<TableRow {...mockProps} />)
+    const component = render(
+      <table>
+        <tbody>
+          <TableRow {...mockProps} />
+        </tbody>
+      </table>
+    )
     expect(component).toMatchSnapshot()
   })
 })

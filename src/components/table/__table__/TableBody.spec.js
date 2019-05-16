@@ -5,9 +5,13 @@ import TableBody from '../TableBody'
 describe('TableBody', () => {
   it('renders correctly', () => {
     const mockProps = {
-      children: 'mockString',
+      children: <tr />,
     }
-    const component = render(<TableBody {...mockProps} />)
+    const component = render(
+      <table>
+        <TableBody {...mockProps} />
+      </table>
+    )
     expect(component).toMatchSnapshot()
   })
 })

@@ -41,15 +41,24 @@ const styles = theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: '50%',
-    height: 28,
-    width: 28,
-    padding: 0,
-    minHeight: 24,
+    height: 46,
+    width: 46,
     '&:focus': {
       outline: 'none',
       border: 'none',
+      '& $circleContainer': {
+        boxShadow: `0 0 0 2pt ${ theme.colors.gray.grayLight.hex }`,
+      },
     },
+  },
+  circleContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: '50%',
+    background: theme.colors.gray.white.hex,
+    height: 24,
+    width: 24,
   },
   icon: {
     display: 'none',
@@ -72,10 +81,14 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     circle: {
-      width: 20,
-      height: 20,
+      width: 24,
+      height: 24,
     },
     menuButton: {
+      height: 48,
+      width: 48,
+    },
+    circleContainer: {
       height: 32,
       width: 32,
     },
@@ -90,11 +103,16 @@ const styles = theme => ({
       display: 'inline-block',
     },
     menuButton: {
+      background: theme.colors.gray.white.hex,
+      height: 'auto',
+      width: 'auto',
+      padding: '6px 12px',
+    },
+    circleContainer: {
       borderRadius: 0,
       height: 'auto',
       width: 'auto',
       justifyContent: 'flex-start',
-      padding: `${ theme.spacing.component.s.rem }rem`,
     },
   },
 })
@@ -102,13 +120,15 @@ const styles = theme => ({
 const ThemeSelect = ({ onSelect, menuItems, selected, classes }) => (
   <Menu>
     <MenuButton className={classnames(classes.menuButton, 'zep-select__button')}>
-      <span
-        className={classnames(classes.circle, {
-          [classes.zeppelin]: selected === 'zeppelin',
-          [classes.cat]: selected === 'cat',
-          [classes.rental]: selected === 'rental',
-        })}
-      />
+      <span className={classes.circleContainer}>
+        <span
+          className={classnames(classes.circle, {
+            [classes.zeppelin]: selected === 'zeppelin',
+            [classes.cat]: selected === 'cat',
+            [classes.rental]: selected === 'rental',
+          })}
+        />
+      </span>
       <NavigationDropdownIcon className={classes.icon} />
     </MenuButton>
     <MenuList

@@ -7,7 +7,15 @@ describe('TableCell', () => {
     const mockProps = {
       children: 'mockString',
     }
-    const component = render(<TableCell {...mockProps} />)
+    const component = render(
+      <table>
+        <tbody>
+          <tr>
+            <TableCell {...mockProps} />
+          </tr>
+        </tbody>
+      </table>
+    )
     expect(component).toMatchSnapshot()
   })
 })

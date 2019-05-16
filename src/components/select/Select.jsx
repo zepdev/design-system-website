@@ -12,57 +12,37 @@ const Select = () => {
     { value: 'banana' },
   ]
   return (
-    // <div className="zep-select">
-    //   <label id="exp_elem" className="zep-select__label">
-    //     Label
-    //   </label>
-    //   <div id="exp_wrapper">
-    //     <button
-    //       aria-haspopup="listbox"
-    //       aria-labelledby="exp_elem exp_button"
-    //       id="exp_button"
-    //       className="zep-select__button"
-    //     >
-    //       Select One
-    //       <NavigationDropdownIcon className="zep-select__icon" />
-    //     </button>
-    //     <ul
-    //       id="exp_elem_list"
-    //       tabIndex="-1"
-    //       role="listbox"
-    //       aria-labelledby="exp_elem"
-    //       className="zep-select__list"
-    //       // className="zep-visually-hidden"
-    //     >
-    //       <li id="exp_elem_A" role="option" tabIndex="0" className="zep-select__listitem">
-    //         option A
-    //       </li>
-    //       <li id="exp_elem_B" role="option" tabIndex="-1" className="zep-select__listitem">
-    //         option B
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </div>
     <Downshift
       onChange={selection => alert(`You selected ${ selection.value }`)}
       itemToString={item => (item ? item.value : '')}
     >
       {({
-        getButtonProps,
+        getInputProps,
         getItemProps,
         getLabelProps,
         getMenuProps,
+        getToggleButtonProps,
         isOpen,
         inputValue,
         highlightedIndex,
         selectedItem,
       }) => (
-        <div className="zep-select">
+        <div>
           <label {...getLabelProps({ className: 'zep-select__label' })}>Enter a fruit</label>
-          <button {...getButtonProps({ className: 'zep-select__button' })} />
-          <ul {...getMenuProps()}>
-            {isOpen
-              ? items
+          <div className="zep-select">
+            <input
+              {...getInputProps({
+                className: 'zep-select__button',
+                placeholder: 'Select One',
+              })}
+            />
+            <button {...getToggleButtonProps()} className="zep-button">
+              <NavigationDropdownIcon className="zep-select__icon" />
+            </button>
+          </div>
+          {isOpen ? (
+            <ul {...getMenuProps({ className: 'zep-select__list' })}>
+              {items
                 .filter(item => !inputValue || item.value.includes(inputValue))
                 .map((item, index) => (
                   <li
@@ -70,6 +50,7 @@ const Select = () => {
                       key: item.value,
                       index,
                       item,
+                      className: 'zep-select__listitem',
                       style: {
                         backgroundColor: highlightedIndex === index ? 'lightgray' : 'white',
                         fontWeight: selectedItem === item ? 'bold' : 'normal',
@@ -78,9 +59,9 @@ const Select = () => {
                   >
                     {item.value}
                   </li>
-                ))
-              : null}
-          </ul>
+                ))}
+            </ul>
+          ) : null}
         </div>
       )}
     </Downshift>

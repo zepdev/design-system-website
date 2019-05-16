@@ -40,22 +40,25 @@
         "title": "Tag"
       },
       "list": {
-        "title": "list"
+        "title": "List"
       },
       "textarea": {
-        "title": "textarea"
+        "title": "Textarea"
       },
       "input": {
-        "title": "input"
+        "title": "Input"
       },
       "radio": {
-        "title": "radio"
+        "title": "Radio"
       },
       "checkbox": {
-        "title": "checkbox"
+        "title": "Checkbox"
       },
       "numberInput": {
         "title": "Number Input"
+      },
+      "search": {
+        "title": "Search"
       },
       "table": {
         "title": "Table"

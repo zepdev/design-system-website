@@ -15,11 +15,11 @@ import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 const styles = theme => ({
   main: {
     minHeight: '100vh',
-    paddingTop: 62,
+    paddingTop: 16,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
-      paddingTop: 116,
+      paddingTop: 48,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
