@@ -5,19 +5,27 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <tr
-        class="zep-table__row zep-table__row--white"
-      >
-        mockString
-      </tr>
+      <table>
+        <tbody>
+          <tr
+            class="zep-table__row zep-table__row--white"
+          >
+            <th />
+          </tr>
+        </tbody>
+      </table>
     </div>
   </body>,
   "container": <div>
-    <tr
-      class="zep-table__row zep-table__row--white"
-    >
-      mockString
-    </tr>
+    <table>
+      <tbody>
+        <tr
+          class="zep-table__row zep-table__row--white"
+        >
+          <th />
+        </tr>
+      </tbody>
+    </table>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

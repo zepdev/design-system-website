@@ -11,7 +11,12 @@ const styles = theme => ({
     justifyContent: 'center',
   },
   link: {
-    flexBasis: '50%',
+    flexBasis: '100%',
+  },
+  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+    link: {
+      flexBasis: '50%',
+    },
   },
 })
 

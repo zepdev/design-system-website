@@ -10,8 +10,10 @@ Object {
       >
         <caption
           class="zep-visually-hidden"
-        />
-        mockString
+        >
+          mockTitle
+        </caption>
+        <tbody />
       </table>
     </div>
   </body>,
@@ -21,8 +23,10 @@ Object {
     >
       <caption
         class="zep-visually-hidden"
-      />
-      mockString
+      >
+        mockTitle
+      </caption>
+      <tbody />
     </table>
   </div>,
   "debug": [Function],
