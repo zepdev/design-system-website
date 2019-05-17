@@ -4,7 +4,11 @@ import Select from '../Select'
 
 describe('Select', () => {
   it('renders correctly', () => {
-    const component = render(<Select />)
+    const mockProps = {
+      items: [],
+      onChange: () => {},
+    }
+    const component = render(<Select {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

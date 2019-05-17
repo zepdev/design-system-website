@@ -52,7 +52,7 @@ const styles = theme => ({
   },
 })
 
-function SidebarNavItem({ item, setMenu, classes }) {
+function SidebarNavItem({ item, setMenu, home, classes }) {
   const [isButtonOpen, setButton] = useState(false)
   return (
     <li>
@@ -77,7 +77,7 @@ function SidebarNavItem({ item, setMenu, classes }) {
       )}
       {!item.subnav && (
         <Link
-          to={`/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`}
+          to={home ? '/' : `/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`}
           onClick={() => setMenu(false)}
           className={classnames(classes.button, 'zep-typo--normal-3', 'zep-button--full')}
         >

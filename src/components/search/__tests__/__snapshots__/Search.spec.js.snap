@@ -10,7 +10,7 @@ Object {
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="downshift-0-label"
-          class="Search-container-0-1-5 zep-search"
+          class="Search-container-0-1-3 zep-search"
           role="combobox"
         >
           <label
@@ -44,12 +44,6 @@ Object {
               fill="currentColor"
             />
           </svg>
-          <ul
-            aria-labelledby="downshift-0-label"
-            class="Search-ul-0-1-1"
-            id="downshift-0-menu"
-            role="listbox"
-          />
         </div>
       </div>
     </div>
@@ -60,7 +54,7 @@ Object {
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-labelledby="downshift-0-label"
-        class="Search-container-0-1-5 zep-search"
+        class="Search-container-0-1-3 zep-search"
         role="combobox"
       >
         <label
@@ -94,12 +88,6 @@ Object {
             fill="currentColor"
           />
         </svg>
-        <ul
-          aria-labelledby="downshift-0-label"
-          class="Search-ul-0-1-1"
-          id="downshift-0-menu"
-          role="listbox"
-        />
       </div>
     </div>
   </div>,

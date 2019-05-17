@@ -1,28 +1,80 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ThemeSelect renders correctly 1`] = `
+exports[`Select renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-0-label"
+        role="combobox"
+      >
+        <label
+          class="zep-select__label"
+          for="zep-select"
+          id="downshift-0-label"
+        >
+          Form Label
+        </label>
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="zep-select__button"
+          data-toggle="dropdown"
+          id="zep-select"
+          type="button"
+        >
+          Select an item
+          <svg
+            aria-labelledby="title_launch"
+            class="zep-select__icon"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_launch"
+            >
+              Navigation Dropdown
+            </title>
+            <path
+              d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      aria-labelledby="downshift-0-label"
+      role="combobox"
+    >
+      <label
+        class="zep-select__label"
+        for="zep-select"
+        id="downshift-0-label"
+      >
+        Form Label
+      </label>
       <button
         aria-expanded="false"
-        aria-haspopup="menu"
-        class="ThemeSelect-menuButton-0-1-9 zep-select__button"
-        data-reach-menu-button="true"
-        id="button-vo0upt29"
+        aria-haspopup="true"
+        class="zep-select__button"
+        data-toggle="dropdown"
+        id="zep-select"
         type="button"
       >
-        <span
-          class="ThemeSelect-circleContainer-0-1-10"
-        >
-          <span
-            class="ThemeSelect-circle-0-1-1 ThemeSelect-zeppelin-0-1-3"
-          />
-        </span>
+        Select an item
         <svg
           aria-labelledby="title_launch"
-          class="ThemeSelect-icon-0-1-11"
+          class="zep-select__icon"
           height="32"
           viewBox="0 0 24 24"
           width="32"
@@ -40,42 +92,6 @@ Object {
         </svg>
       </button>
     </div>
-  </body>,
-  "container": <div>
-    <button
-      aria-expanded="false"
-      aria-haspopup="menu"
-      class="ThemeSelect-menuButton-0-1-9 zep-select__button"
-      data-reach-menu-button="true"
-      id="button-vo0upt29"
-      type="button"
-    >
-      <span
-        class="ThemeSelect-circleContainer-0-1-10"
-      >
-        <span
-          class="ThemeSelect-circle-0-1-1 ThemeSelect-zeppelin-0-1-3"
-        />
-      </span>
-      <svg
-        aria-labelledby="title_launch"
-        class="ThemeSelect-icon-0-1-11"
-        height="32"
-        viewBox="0 0 24 24"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title
-          id="title_launch"
-        >
-          Navigation Dropdown
-        </title>
-        <path
-          d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
-          fill="currentColor"
-        />
-      </svg>
-    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

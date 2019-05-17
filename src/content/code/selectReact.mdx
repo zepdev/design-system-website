@@ -1,3 +1,11 @@
+---
+label: selectCodeExample_React
+title: Select Code
+---
+
+```jsx
+// We recommend using a fully accessibily solution from Downshift as the base component
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import Downshift from 'downshift'
@@ -20,7 +28,12 @@ const Select = ({ items, onChange }) => {
         selectedItem,
       }) => (
         <div>
-          <label {...getLabelProps({ className: 'zep-select__label', htmlFor: 'zep-select' })}>
+          <label
+            {...getLabelProps({
+              className: 'zep-select__label',
+              htmlFor: 'zep-select',
+            })}
+          >
             Form Label
           </label>
           <button
@@ -37,15 +50,19 @@ const Select = ({ items, onChange }) => {
           </button>
           {isOpen ? (
             <ul {...getMenuProps({ className: 'zep-select__list' })}>
-              {items.filter(item => !inputValue || item.value.includes(inputValue)).length === 0 ? (
+              {items.filter(
+                item => !inputValue || item.value.includes(inputValue)
+              ).length === 0 ? (
                 <li
                   {...getItemProps({
                     item: { value: 'no results' },
                     index: 0,
                     className: 'zep-select__listitem',
                     style: {
-                      backgroundColor: highlightedIndex === 0 ? 'lightgray' : 'white',
-                      fontWeight: selectedItem === undefined ? 'bold' : 'normal',
+                      backgroundColor:
+                        highlightedIndex === 0 ? 'lightgray' : 'white',
+                      fontWeight:
+                        selectedItem === undefined ? 'bold' : 'normal',
                     },
                   })}
                 >
@@ -53,16 +70,19 @@ const Select = ({ items, onChange }) => {
                 </li>
               ) : (
                 items
-                  .filter(item => !inputValue || item.value.includes(inputValue))
+                  .filter(
+                    item => !inputValue || item.value.includes(inputValue)
+                  )
                   .map((item, index) => (
                     <li
                       {...getItemProps({
-                        key: `listItem${ index }`,
+                        key: `listItem${index}`,
                         index,
                         item,
                         className: 'zep-select__listitem',
                         style: {
-                          backgroundColor: highlightedIndex === index ? 'lightgray' : 'white',
+                          backgroundColor:
+                            highlightedIndex === index ? 'lightgray' : 'white',
                           fontWeight: selectedItem === item ? 'bold' : 'normal',
                         },
                       })}
@@ -84,3 +104,4 @@ Select.propTypes = {
   items: PropTypes.array,
 }
 export default Select
+```
