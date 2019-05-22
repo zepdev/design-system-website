@@ -104,9 +104,11 @@ module.exports = {
       primary: {
         js: [
           `<div>
-          <button class="zep-button  zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>zepicons-minus</title><path fill="currentColor" d="M25.333 17.333h-18.667v-2.667h18.667z"></path></svg></button>
+          <button class="zep-button zep-button-icon"><svg class="zep-button__icon"><use xlink:href="https://cdn-zel.zepdev.net/zel/0.10.2/css/assets/icons/sprite/symbol-defs.svg#zepicons-minus"
+          ></use></svg></button>
           <label for="counter" class="zep-visually-hidden">Counter</label><input type="text" class="zep-input zep-input--number" value="1" id="counter" />
-          <button class="zep-button zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>zepicons-plus</title><path fill="currentColor" d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"></path></svg></button>
+          <button class="zep-button zep-button-icon"><svg class="zep-button__icon"><use xlink:href="https://cdn-zel.zepdev.net/zel/0.10.2/css/assets/icons/sprite/symbol-defs.svg#zepicons-plus"
+          ></use></svg</button>
 </div>`,
         ],
       },
