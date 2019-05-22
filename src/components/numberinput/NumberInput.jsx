@@ -10,7 +10,7 @@ function NumberInput({ label }) {
 
   return (
     <>
-      <IconButton onClick={() => setCount(count - 1)}>
+      <IconButton onClick={() => setCount(count - 1)} data-testid="minus">
         <MinusIcon />
       </IconButton>
       <label className="zep-visually-hidden" htmlFor={`numberInput_${ label }`}>
@@ -23,7 +23,7 @@ function NumberInput({ label }) {
         value={count}
         onChange={e => setCount(parseInt(e.target.value, 10))}
       />
-      <IconButton onClick={() => setCount(count + 1)}>
+      <IconButton onClick={() => setCount(count + 1)} data-testid="plus">
         <PlusIcon />
       </IconButton>
     </>
