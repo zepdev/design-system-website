@@ -42,9 +42,6 @@
       "list": {
         "title": "List"
       },
-      "textarea": {
-        "title": "Textarea"
-      },
       "input": {
         "title": "Input"
       },

@@ -36,7 +36,7 @@
     "react-jss": "^8.6.1",
     "react-player": "^1.11.0",
     "react-select": "^2.4.3",
-    "zeppelin-element-library": "^0.10.0"
+    "zeppelin-element-library": "^0.10.1"
   },
   "scripts": {
     "build": "gatsby build",

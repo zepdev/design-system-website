@@ -46,9 +46,6 @@ const styles = theme => ({
     '&:focus': {
       outline: 'none',
       border: 'none',
-      '& $circleContainer': {
-        boxShadow: `0 0 0 2pt ${ theme.colors.gray.grayLight.hex }`,
-      },
     },
   },
   circleContainer: {
@@ -76,7 +73,6 @@ const styles = theme => ({
     },
   },
   menuList: {
-    // border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
     width: 200,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {

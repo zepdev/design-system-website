@@ -13,6 +13,7 @@ import Divider from '../typography/Divider'
 import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
 import { iconography } from '../../data/elements'
+import { version as zelVersion } from 'zeppelin-element-library/package.json'
 
 const styles = theme => ({
   tabs: {
@@ -157,22 +158,30 @@ const Iconography = ({ classes }) => {
       </Tabs>
       {value === 0 && (
         <>
-          <Headline variant="md">Icon Packages</Headline>
+          <Headline variant="md">Zeppelin Icons</Headline>
           <p className={classnames(classes.text, 'zep-typo--normal-3')}>
-            If you would like to download and use these styles for your own purposes directly in
-            your project you may download the minified file below.
+            Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG
+            Sprite) or icons may be downloaded individually from below.
           </p>
           <DownloadContainer>
             <DownloadFile
-              title="Zeppelin Iconography Library"
+              title="Zeppelin Sketch Library"
+              variant="sketch"
+              href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
+              download=""
+              ariaLabel="download"
+            />
+          </DownloadContainer>
+          <DownloadContainer>
+            <DownloadFile
+              title="Zeppelin SVG Icons"
               href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zepicons.zip"
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
-              title="Zeppelin Sketch Library"
-              variant="sketch"
-              href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
+              title="Zeppelin SVG Sprite"
+              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepiconsSprite.zip`}
               download=""
               ariaLabel="download"
             />
