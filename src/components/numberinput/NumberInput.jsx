@@ -1,16 +1,18 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Input from '../input/Input'
+import IconButton from '../button/IconButton'
+import MinusIcon from '../icons/MinusIcon'
+import PlusIcon from '../icons/PlusIcon'
 
 function NumberInput({ label }) {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* TODO: Refactor this to <ButtonBase/> */}
-      <button className="zep-button zep-button--number-input" onClick={() => setCount(count - 1)}>
-        <span className="zepicons zepicons-minus" aria-label="minus" />
-      </button>
+      <IconButton onClick={() => setCount(count - 1)}>
+        <MinusIcon />
+      </IconButton>
       <label className="zep-visually-hidden" htmlFor={`numberInput_${ label }`}>
         {label}
       </label>
@@ -21,9 +23,9 @@ function NumberInput({ label }) {
         value={count}
         onChange={e => setCount(parseInt(e.target.value, 10))}
       />
-      <button className="zep-button zep-button--number-input" onClick={() => setCount(count + 1)}>
-        <span className="zepicons zepicons-plus" aria-label="plus" />
-      </button>
+      <IconButton onClick={() => setCount(count + 1)}>
+        <PlusIcon />
+      </IconButton>
     </>
   )
 }
