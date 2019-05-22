@@ -10,6 +10,7 @@ import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
+import ZepiconsCart from 'zeppelin-element-library-react/ZepiconsCart'
 
 const styles = theme => ({
   main: {
@@ -150,7 +151,10 @@ function Layout({ children, classes }) {
                 />
                 <SkipNavContent />
                 <MDXProvider components={components}>
-                  <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
+                  <main className={classnames(classes.main, 'zep-grid')}>
+                    <ZepiconsCart />
+                    {children}
+                  </main>
                 </MDXProvider>
                 <Footer />
               </div>
