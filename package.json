@@ -35,7 +35,8 @@
     "react-helmet": "^5.2.1",
     "react-jss": "^8.6.1",
     "react-player": "^1.11.0",
-    "zeppelin-element-library": "^0.9.3"
+    "react-select": "^2.4.3",
+    "zeppelin-element-library": "^0.10.0"
   },
   "scripts": {
     "build": "gatsby build",

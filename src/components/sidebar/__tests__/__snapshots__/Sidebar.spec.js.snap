@@ -97,14 +97,26 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           <ul
             class="SidebarNav-list-0-1-6"
           >
+            <span
+              class="SidebarNav-homeLink-0-1-7"
+            >
+              <li>
+                <a
+                  class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+            </span>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
               >
                 Getting started
                 <svg
                   aria-labelledby="title_chevronDown"
-                  class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
+                  class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
                   height="20"
                   viewBox="0 0 24 24"
                   width="20"
@@ -124,12 +136,12 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
               >
                 Guidelines
                 <svg
                   aria-labelledby="title_chevronDown"
-                  class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
+                  class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
                   height="20"
                   viewBox="0 0 24 24"
                   width="20"
@@ -149,12 +161,12 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
               >
                 Elements
                 <svg
                   aria-labelledby="title_chevronDown"
-                  class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
+                  class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
                   height="20"
                   viewBox="0 0 24 24"
                   width="20"
@@ -174,12 +186,12 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
               >
                 Changelog
                 <svg
                   aria-labelledby="title_chevronDown"
-                  class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
+                  class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
                   height="20"
                   viewBox="0 0 24 24"
                   width="20"
@@ -199,7 +211,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <a
-                class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
                 href="/content/download/"
               >
                 Download
@@ -303,14 +315,26 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         <ul
           class="SidebarNav-list-0-1-6"
         >
+          <span
+            class="SidebarNav-homeLink-0-1-7"
+          >
+            <li>
+              <a
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+          </span>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
             >
               Getting started
               <svg
                 aria-labelledby="title_chevronDown"
-                class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
+                class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
                 height="20"
                 viewBox="0 0 24 24"
                 width="20"
@@ -330,12 +354,12 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
             >
               Guidelines
               <svg
                 aria-labelledby="title_chevronDown"
-                class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
+                class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
                 height="20"
                 viewBox="0 0 24 24"
                 width="20"
@@ -355,12 +379,12 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
             >
               Elements
               <svg
                 aria-labelledby="title_chevronDown"
-                class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
+                class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
                 height="20"
                 viewBox="0 0 24 24"
                 width="20"
@@ -380,12 +404,12 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-14"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
             >
               Changelog
               <svg
                 aria-labelledby="title_chevronDown"
-                class="SidebarNavItem-icon-0-1-11 SidebarNavItem-iconReset-0-1-13"
+                class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
                 height="20"
                 viewBox="0 0 24 24"
                 width="20"
@@ -405,7 +429,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <a
-              class="SidebarNavItem-button-0-1-7 zep-typo--normal-3 zep-button--full"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
               href="/content/download/"
             >
               Download

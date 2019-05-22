@@ -54,7 +54,7 @@
       "checkbox": {
         "title": "Checkbox"
       },
-      "numberInput": {
+      "number-input": {
         "title": "Number Input"
       },
       "search": {
@@ -62,6 +62,9 @@
       },
       "table": {
         "title": "Table"
+      },
+      "select": {
+        "title": "Select"
       }
     }
   },

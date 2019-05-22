@@ -59,6 +59,32 @@ module.exports = {
       },
     },
   },
+  select: {
+    demo: {
+      form: {
+        js: [
+          `<div class="zep-select">
+                <label id="exp_elem" class="zep-select__label">Label</label>
+                <div id="exp_wrapper">
+                  <button aria-haspopup="listbox" aria-labelledby="exp_elem exp_button" id="exp_button" class="zep-select__button" >
+                    Select One
+                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="zep-select__icon"><title>zepicons-navigation-dropdown</title><path fill="currentColor" d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"></path></svg>
+                  </button>
+                  <ul id="exp_elem_list" tabIndex="-1" role="listbox" aria-labelledby="exp_elem" class="zep-select__list"
+                    //class="zep-visually-hidden"
+                  >
+                    <li id="exp_elem_A" role="option" tabIndex="0" class="zep-select__listitem">
+                      option A
+                    </li>
+                    <li id="exp_elem_B" role="option" tabIndex="-1" class="zep-select__listitem">
+                      option B
+                    </li>
+                  </ul>
+</div>`,
+        ],
+      },
+    },
+  },
   search: {
     demo: {
       form: {

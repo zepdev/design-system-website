@@ -5,7 +5,7 @@ import classnames from 'classnames'
 import NavigationDropdownIcon from '../icons/NavigationDropdownIcon'
 import '@reach/menu-button/styles.css'
 import { Menu, MenuList, MenuButton, MenuItem } from '@reach/menu-button'
-import './dropdown.css'
+import './themeSelect.css'
 
 const styles = theme => ({
   circle: {
@@ -25,6 +25,18 @@ const styles = theme => ({
   rental: {
     backgroundColor: theme.colors.primary.rentalRed.hex,
   },
+  zeppelinBorder: {
+    border: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
+    width: 200,
+  },
+  catBorder: {
+    border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
+    width: 200,
+  },
+  rentalBorder: {
+    border: `2px solid ${ theme.colors.primary.rentalRed.hex }`,
+    width: 200,
+  },
   menuButton: {
     display: 'flex',
     alignItems: 'center',
@@ -32,6 +44,8 @@ const styles = theme => ({
     height: 46,
     width: 46,
     '&:focus': {
+      outline: 'none',
+      border: 'none',
       '& $circleContainer': {
         boxShadow: `0 0 0 2pt ${ theme.colors.gray.grayLight.hex }`,
       },
@@ -62,7 +76,7 @@ const styles = theme => ({
     },
   },
   menuList: {
-    border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
+    // border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
     width: 200,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
@@ -103,9 +117,9 @@ const styles = theme => ({
   },
 })
 
-const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
+const ThemeSelect = ({ onSelect, menuItems, selected, classes }) => (
   <Menu>
-    <MenuButton className={classnames(classes.menuButton, 'zep-button')}>
+    <MenuButton className={classnames(classes.menuButton, 'zep-select__button')}>
       <span className={classes.circleContainer}>
         <span
           className={classnames(classes.circle, {
@@ -117,12 +131,18 @@ const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
       </span>
       <NavigationDropdownIcon className={classes.icon} />
     </MenuButton>
-    <MenuList className={classes.menuList}>
+    <MenuList
+      className={classnames('zep-select__list', {
+        [classes.zeppelinBorder]: selected === 'zeppelin',
+        [classes.catBorder]: selected === 'cat',
+        [classes.rentalBorder]: selected === 'rental',
+      })}
+    >
       {menuItems.map(elem => (
         <MenuItem
           onSelect={() => onSelect(elem)}
           key={`dropdownItem_${ elem }`}
-          className={classnames(classes.text, 'zep-typo--normal-3')}
+          className={classnames(classes.text, 'zep-select__listitem')}
         >
           <div
             className={classnames(classes.circle, classes.spacer, {
@@ -142,11 +162,11 @@ const Dropdown = ({ onSelect, menuItems, selected, classes }) => (
   </Menu>
 )
 
-Dropdown.propTypes = {
+ThemeSelect.propTypes = {
   classes: PropTypes.object.isRequired,
   onSelect: PropTypes.func.isRequired,
   menuItems: PropTypes.array.isRequired,
   selected: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(Dropdown)
+export default withStyles(styles)(ThemeSelect)
