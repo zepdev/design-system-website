@@ -6,22 +6,14 @@ title: Iconography Usage
 # Developers
 
 Icons in SVG format and as an SVG sprite are available with the zeppelin-element-library. However, all icons in svg format may also be downloaded as a for individual use from the iconography page if your project only requires a select number of icons.
-All individual icons can be found in the folder **'zeppelin-element-library/assets/icons/SVG'** and the SVG sprite in **'zeppelin-element-library/assets/icons/sprite.svg'**.
+All individual icons can be found in the folder **'zeppelin-element-library/assets/icons/SVG/{zepicons-iconname.svg}'** and the SVG sprite in **'zeppelin-element-library/assets/icons/sprite.svg'** (you must also include 'zeppelin-element-library/assets/icons/svgxuse.min.js', see below).
 
 ## Using icons as an SVG
 
-Standalone svgs must include a title to be able to be read by accessibility tools.
+Example as a React Component
 
 ```
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <title>Close</title>
-  <polygon points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12"/>
-</svg>
-```
-
-React Component
-
-```
+// CloseIcon.jsx
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -57,9 +49,32 @@ CloseIcon.defaultProps = {
 export default CloseIcon
 ```
 
-## Using SVG sprites
+## Using SVG Sprite
 
-The SVG sprite is available at 'zeppelin-element-library/assets/icons/sprite.svg'. You must also add the file 'zeppelin-element-library/assets/icons/svgxuse.min.js' for Internet Explorer compatibility (it uses already available .png files in place of the svg files as a fallback).
+To use the SVG Sprite in basic html please download the SVG Sprite file bundle from the Overview Section. The SVG Sprite file must be copied into the body of your html. Make sure that the svgxuse.js file is also added where you add your javascript files.
+
+We reccomend using the SVG Sprite from our CDN however you may download and use it yourself.
+
+CDN:
+
+```html
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    ...
+  </head>
+  <body>
+    <svg>
+      <use
+        xlink:href="https://cdn-zel.zepdev.net/zel/{{ zelVersion }}/css/assets/icons/sprite/symbol-defs.svg#zepicons-account"
+      ></use>
+    </svg>
+  </body>
+  <script defer src="svgxuse.js"></script>
+</html>
+```
+
+Self Hosted:
 
 ```html
 <!DOCTYPE >
@@ -81,23 +96,24 @@ The SVG sprite is available at 'zeppelin-element-library/assets/icons/sprite.svg
       </symbol>
     </svg>
 
-    <svg class="icon">
+    <svg>
       <use xlink:href="#zepicons-account"></use>
     </svg>
   </body>
+  <script defer src="svgxuse.js"></script>
 </html>
 ```
 
-SVG sprites in React
+SVG sprites in React: The SVG sprite is available at 'zeppelin-element-library/assets/icons/sprite.svg'. You must also add the file 'zeppelin-element-library/assets/icons/svgxuse.min.js' for Internet Explorer compatibility (it uses already available .png files in place of the svg files as a fallback).
 
 ```jsx
 //Apps.js
-import './svgxuse.min.js' // ie fallback for sprites
+import 'zeppelin-element-library/assets/icons/sprite/svgxuse.min.js' // ie fallback for sprites
 
 // Icon.jsx
 import React from 'react'
 import PropTypes from 'prop-types'
-import svg from 'zeppelin-element-library/assets/icons/sprite.svg'
+import svg from 'zeppelin-element-library/assets/icons/sprite/sprite.svg'
 
 const Icon = ({ className, width, height, icon, viewBox, ariaLabel }) => {
   return (

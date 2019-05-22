@@ -171,20 +171,6 @@ module.exports = {
       },
     },
   },
-  textarea: {
-    demo: {
-      primary: {
-        js: [
-          `<textarea class="zep-textarea zep-textarea-primary">primary</textarea>`,
-        ],
-      },
-      secondary: {
-        js: [
-          `<textarea class="zep-textarea zep-textarea-secondary">secondary</textarea>`,
-        ],
-      },
-    },
-  },
   list: {
     demo: {
       bullet: {
