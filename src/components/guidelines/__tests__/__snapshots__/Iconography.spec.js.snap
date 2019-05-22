@@ -31,12 +31,12 @@ Object {
       <p
         class="Headline-text-0-1-20 zep-typo--normal-6"
       >
-        Icon Packages
+        Zeppelin Icons
       </p>
       <p
         class="Iconography-text-0-1-2 zep-typo--normal-3"
       >
-        If you would like to download and use these styles for your own purposes directly in your project you may download the minified file below.
+        Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG Sprite) or icons may be downloaded individually from below.
       </p>
       <div
         class="DownloadContainer-root-0-1-21"
@@ -47,7 +47,53 @@ Object {
           <p
             class="zep-typo--normal-3 DownloadFile-text-0-1-25"
           >
-            Zeppelin Iconography Library
+            Sketch Zeppelin Sketch Library
+          </p>
+          <div
+            class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
+          >
+            <img
+              alt="sketch logo"
+              class="DownloadFile-img-0-1-27"
+              src="test-file-stub"
+            />
+            <button
+              aria-label="download"
+              class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
+              data-testid="downloadButton"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="DownloadFile-icon-0-1-29"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  Download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="DownloadContainer-root-0-1-21"
+      >
+        <div
+          class="DownloadFile-root-0-1-22"
+        >
+          <p
+            class="zep-typo--normal-3 DownloadFile-text-0-1-25"
+          >
+            Zeppelin SVG Icons
           </p>
           <div
             class="DownloadFile-container-0-1-23"
@@ -84,16 +130,11 @@ Object {
           <p
             class="zep-typo--normal-3 DownloadFile-text-0-1-25"
           >
-            Sketch Zeppelin Sketch Library
+            Zeppelin SVG Sprite
           </p>
           <div
-            class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
+            class="DownloadFile-container-0-1-23"
           >
-            <img
-              alt="sketch logo"
-              class="DownloadFile-img-0-1-27"
-              src="test-file-stub"
-            />
             <button
               aria-label="download"
               class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
@@ -5169,12 +5210,12 @@ Object {
     <p
       class="Headline-text-0-1-20 zep-typo--normal-6"
     >
-      Icon Packages
+      Zeppelin Icons
     </p>
     <p
       class="Iconography-text-0-1-2 zep-typo--normal-3"
     >
-      If you would like to download and use these styles for your own purposes directly in your project you may download the minified file below.
+      Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG Sprite) or icons may be downloaded individually from below.
     </p>
     <div
       class="DownloadContainer-root-0-1-21"
@@ -5185,7 +5226,53 @@ Object {
         <p
           class="zep-typo--normal-3 DownloadFile-text-0-1-25"
         >
-          Zeppelin Iconography Library
+          Sketch Zeppelin Sketch Library
+        </p>
+        <div
+          class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
+        >
+          <img
+            alt="sketch logo"
+            class="DownloadFile-img-0-1-27"
+            src="test-file-stub"
+          />
+          <button
+            aria-label="download"
+            class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
+            data-testid="downloadButton"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="DownloadFile-icon-0-1-29"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                Download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="DownloadContainer-root-0-1-21"
+    >
+      <div
+        class="DownloadFile-root-0-1-22"
+      >
+        <p
+          class="zep-typo--normal-3 DownloadFile-text-0-1-25"
+        >
+          Zeppelin SVG Icons
         </p>
         <div
           class="DownloadFile-container-0-1-23"
@@ -5222,16 +5309,11 @@ Object {
         <p
           class="zep-typo--normal-3 DownloadFile-text-0-1-25"
         >
-          Sketch Zeppelin Sketch Library
+          Zeppelin SVG Sprite
         </p>
         <div
-          class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
+          class="DownloadFile-container-0-1-23"
         >
-          <img
-            alt="sketch logo"
-            class="DownloadFile-img-0-1-27"
-            src="test-file-stub"
-          />
           <button
             aria-label="download"
             class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"

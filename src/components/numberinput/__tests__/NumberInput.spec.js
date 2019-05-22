@@ -15,12 +15,12 @@ describe('NumberInput', () => {
     const mockProps = {
       label: 'mockLabel',
     }
-    const { getByLabelText, getByDisplayValue } = render(
+    const { getByTestId, getByDisplayValue } = render(
       <NumberInput {...mockProps} />
     )
 
-    const minusButton = getByLabelText('minus')
-    const plusButton = getByLabelText('plus')
+    const minusButton = getByTestId('minus')
+    const plusButton = getByTestId('plus')
     const input = getByDisplayValue('0')
 
     fireEvent.click(plusButton)
