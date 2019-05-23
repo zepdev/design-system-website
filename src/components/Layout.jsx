@@ -9,6 +9,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
+import Pagination from './pagination/Pagination'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
@@ -149,7 +150,10 @@ function Layout({ children, classes }) {
               />
               <SkipNavContent />
               <MDXProvider components={components}>
-                <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
+                <main className={classnames(classes.main, 'zep-grid')}>
+                  <Pagination />
+                  {children}
+                </main>
               </MDXProvider>
               <Footer />
             </div>
