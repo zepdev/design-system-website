@@ -6,15 +6,17 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="Tabs-root-0-1-1"
+        class="Tabs-root-0-1-1 zep-tabs"
         data-testid="tabs"
+        role="tablist"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="Tabs-root-0-1-1"
+      class="Tabs-root-0-1-1 zep-tabs"
       data-testid="tabs"
+      role="tablist"
     />
   </div>,
   "debug": [Function],
