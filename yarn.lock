@@ -15327,8 +15327,10 @@ yurnalist@^1.0.5:
     strip-ansi "^5.0.0"
     strip-bom "^3.0.0"
 
-zeppelin-element-library@../zeppelin-element-library:
-  version "0.10.6"
+zeppelin-element-library@^0.10.7:
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.10.7.tgz#b023b7f3b57d932073ece16031d7654e37c594a6"
+  integrity sha512-5/shKMOFOSOlfr14zOyRHslZLNxvsmYnt32dtXnGz5SIPglVIV3J+soeQB8SmRZFasleooWcWeA4qC/AK1a5sA==
 
 zwitch@^1.0.0:
   version "1.0.4"

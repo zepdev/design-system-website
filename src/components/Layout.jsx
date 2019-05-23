@@ -75,9 +75,14 @@ const styles = theme => ({
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('zeppelin')
+  const [currentPage, setCurrentPage] = useState(1)
 
   const handleTheme = theme => {
     setTheme(theme)
+  }
+
+  const handlePageChange = page => {
+    setCurrentPage(page)
   }
 
   // Styles for mdx/md pages
@@ -151,7 +156,12 @@ function Layout({ children, classes }) {
               <SkipNavContent />
               <MDXProvider components={components}>
                 <main className={classnames(classes.main, 'zep-grid')}>
-                  <Pagination />
+                  <Pagination
+                    pages="15"
+                    pagesToDisplay="5"
+                    onPageChange={handlePageChange}
+                    currentPage={currentPage}
+                  />
                   {children}
                 </main>
               </MDXProvider>

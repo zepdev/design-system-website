@@ -7,26 +7,45 @@ import NextPageIcon from '../icons/NextPageIcon'
 import ChevronLeftIcon from '../icons/ChevronLeftIcon'
 import ChevronRightIcon from '../icons/ChevronRightIcon'
 
-const Pagination = ({ className: classNameProp, count }) => {
-  const numbers = new Array(4).fill(0)
-  console.log(numbers)
+const Pagination = ({
+  className: classNameProp,
+  pages: pagesProp,
+  pagesToDisplay,
+  currentPage,
+  onPageChange,
+}) => {
+  const totalPages = Array.from({ length: pagesProp }, (v, k) => k + 1)
+  const pages = Number(pagesProp)
+  // needs to splice so that the number of page buttons displayed are pages to Display
   return (
     <div className={classnames('zep-pagination', classNameProp)}>
-      <IconButton>
+      <IconButton onClick={() => onPageChange(0)} disabled={currentPage === 1}>
         <PreviousPageIcon className="zep-button__icon" />
       </IconButton>
-      <IconButton>
+      <IconButton
+        onClick={() => onPageChange(currentPage === 1 ? 1 : currentPage - 1)}
+        disabled={currentPage === 1}
+      >
         <ChevronLeftIcon className="zep-button__icon" />
       </IconButton>
-      {numbers.map((elem, idx) => (
-        <button key={`pagination${ idx }`} className="zep-button zep-button-pagination">
-          {idx + 1}
+      {totalPages.map(elem => (
+        <button
+          key={`pagination${ elem }`}
+          className={classnames('zep-button zep-button-pagination', {
+            'zep-pagination--selected': currentPage === elem,
+          })}
+          onClick={() => onPageChange(elem)}
+        >
+          {elem}
         </button>
       ))}
-      <IconButton>
+      <IconButton
+        onClick={() => onPageChange(currentPage === pages ? pages : currentPage + 1)}
+        disabled={currentPage === pages}
+      >
         <ChevronRightIcon className="zep-button__icon" />
       </IconButton>
-      <IconButton>
+      <IconButton onClick={() => onPageChange(pages)} disabled={currentPage === pages}>
         <NextPageIcon className="zep-button__icon" />
       </IconButton>
     </div>
