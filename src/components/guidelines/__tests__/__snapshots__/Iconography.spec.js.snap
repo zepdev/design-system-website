@@ -6,30 +6,39 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="Tabs-root-0-1-11 Iconography-tabs-0-1-1"
+        class="Tabs-root-0-1-11 Iconography-tabs-0-1-1 zep-tabs"
         data-testid="tabs"
+        role="tablist"
       >
-        <button
-          class="Tab-root-0-1-12 Tab-selected-0-1-18 Tab-normal-0-1-13 ButtonBase-button-0-1-19"
+        <div
+          class="zep-tabs__item"
         >
-          <p
-            class="Tab-label-0-1-15 Tab-selected-0-1-18 Tab-labelPrimary-0-1-16 zep-typo--normal-4"
+          <button
+            aria-selected="true"
+            class="zep-tab zep-tab--selected"
+            id="tab-0"
+            role="tab"
+            tabindex="0"
           >
             Overview
-          </p>
-        </button>
-        <button
-          class="Tab-root-0-1-12 Tab-normal-0-1-13 ButtonBase-button-0-1-19"
+          </button>
+        </div>
+        <div
+          class="zep-tabs__item"
         >
-          <p
-            class="Tab-label-0-1-15 Tab-labelPrimary-0-1-16 zep-typo--normal-4"
+          <button
+            aria-selected="false"
+            class="zep-tab"
+            id="tab-1"
+            role="tab"
+            tabindex="0"
           >
             Usage
-          </p>
-        </button>
+          </button>
+        </div>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Zeppelin Icons
       </p>
@@ -39,32 +48,32 @@ Object {
         Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG Sprite) or icons may be downloaded individually from below.
       </p>
       <div
-        class="DownloadContainer-root-0-1-21"
+        class="DownloadContainer-root-0-1-13"
       >
         <div
-          class="DownloadFile-root-0-1-22"
+          class="DownloadFile-root-0-1-14"
         >
           <p
-            class="zep-typo--normal-3 DownloadFile-text-0-1-25"
+            class="zep-typo--normal-3 DownloadFile-text-0-1-17"
           >
             Sketch Zeppelin Sketch Library
           </p>
           <div
-            class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
+            class="DownloadFile-container-0-1-15 DownloadFile-iconContainer-0-1-16"
           >
             <img
               alt="sketch logo"
-              class="DownloadFile-img-0-1-27"
+              class="DownloadFile-img-0-1-19"
               src="test-file-stub"
             />
             <button
               aria-label="download"
-              class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
+              class="DownloadFile-button-0-1-20 ButtonBase-button-0-1-22"
               data-testid="downloadButton"
             >
               <svg
                 aria-labelledby="title_download"
-                class="DownloadFile-icon-0-1-29"
+                class="DownloadFile-icon-0-1-21"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -85,27 +94,27 @@ Object {
         </div>
       </div>
       <div
-        class="DownloadContainer-root-0-1-21"
+        class="DownloadContainer-root-0-1-13"
       >
         <div
-          class="DownloadFile-root-0-1-22"
+          class="DownloadFile-root-0-1-14"
         >
           <p
-            class="zep-typo--normal-3 DownloadFile-text-0-1-25"
+            class="zep-typo--normal-3 DownloadFile-text-0-1-17"
           >
             Zeppelin SVG Icons
           </p>
           <div
-            class="DownloadFile-container-0-1-23"
+            class="DownloadFile-container-0-1-15"
           >
             <button
               aria-label="download"
-              class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
+              class="DownloadFile-button-0-1-20 ButtonBase-button-0-1-22"
               data-testid="downloadButton"
             >
               <svg
                 aria-labelledby="title_download"
-                class="DownloadFile-icon-0-1-29"
+                class="DownloadFile-icon-0-1-21"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -125,24 +134,24 @@ Object {
           </div>
         </div>
         <div
-          class="DownloadFile-root-0-1-22"
+          class="DownloadFile-root-0-1-14"
         >
           <p
-            class="zep-typo--normal-3 DownloadFile-text-0-1-25"
+            class="zep-typo--normal-3 DownloadFile-text-0-1-17"
           >
             Zeppelin SVG Sprite
           </p>
           <div
-            class="DownloadFile-container-0-1-23"
+            class="DownloadFile-container-0-1-15"
           >
             <button
               aria-label="download"
-              class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
+              class="DownloadFile-button-0-1-20 ButtonBase-button-0-1-22"
               data-testid="downloadButton"
             >
               <svg
                 aria-labelledby="title_download"
-                class="DownloadFile-icon-0-1-29"
+                class="DownloadFile-icon-0-1-21"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -163,10 +172,10 @@ Object {
         </div>
       </div>
       <hr
-        class="Divider-hr-0-1-30"
+        class="Divider-hr-0-1-23"
       />
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Action Icons
       </p>
@@ -175,7 +184,7 @@ Object {
       >
         <a
           aria-label="list-plus"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-list-plus.svg"
           href="test-file-stub"
           target="_blank"
@@ -222,7 +231,7 @@ Object {
         </a>
         <a
           aria-label="print"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-print.svg"
           href="test-file-stub"
           target="_blank"
@@ -269,7 +278,7 @@ Object {
         </a>
         <a
           aria-label="minus"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-minus.svg"
           href="test-file-stub"
           target="_blank"
@@ -316,7 +325,7 @@ Object {
         </a>
         <a
           aria-label="timer"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-timer.svg"
           href="test-file-stub"
           target="_blank"
@@ -363,7 +372,7 @@ Object {
         </a>
         <a
           aria-label="users"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-users.svg"
           href="test-file-stub"
           target="_blank"
@@ -410,7 +419,7 @@ Object {
         </a>
         <a
           aria-label="unfold"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-unfold.svg"
           href="test-file-stub"
           target="_blank"
@@ -457,7 +466,7 @@ Object {
         </a>
         <a
           aria-label="bookmark"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-bookmark.svg"
           href="test-file-stub"
           target="_blank"
@@ -504,7 +513,7 @@ Object {
         </a>
         <a
           aria-label="upload"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-upload.svg"
           href="test-file-stub"
           target="_blank"
@@ -551,7 +560,7 @@ Object {
         </a>
         <a
           aria-label="filter"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-filter.svg"
           href="test-file-stub"
           target="_blank"
@@ -598,7 +607,7 @@ Object {
         </a>
         <a
           aria-label="sort"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-sort.svg"
           href="test-file-stub"
           target="_blank"
@@ -645,7 +654,7 @@ Object {
         </a>
         <a
           aria-label="share"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-share.svg"
           href="test-file-stub"
           target="_blank"
@@ -692,7 +701,7 @@ Object {
         </a>
         <a
           aria-label="view-grid"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-view-grid.svg"
           href="test-file-stub"
           target="_blank"
@@ -739,7 +748,7 @@ Object {
         </a>
         <a
           aria-label="phone"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-phone.svg"
           href="test-file-stub"
           target="_blank"
@@ -786,7 +795,7 @@ Object {
         </a>
         <a
           aria-label="clock"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-clock.svg"
           href="test-file-stub"
           target="_blank"
@@ -833,7 +842,7 @@ Object {
         </a>
         <a
           aria-label="delete"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-delete.svg"
           href="test-file-stub"
           target="_blank"
@@ -880,7 +889,7 @@ Object {
         </a>
         <a
           aria-label="image-album"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-image-album.svg"
           href="test-file-stub"
           target="_blank"
@@ -927,7 +936,7 @@ Object {
         </a>
         <a
           aria-label="edit"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-edit.svg"
           href="test-file-stub"
           target="_blank"
@@ -974,7 +983,7 @@ Object {
         </a>
         <a
           aria-label="star"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-star.svg"
           href="test-file-stub"
           target="_blank"
@@ -1021,7 +1030,7 @@ Object {
         </a>
         <a
           aria-label="contacts"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-contacts.svg"
           href="test-file-stub"
           target="_blank"
@@ -1068,7 +1077,7 @@ Object {
         </a>
         <a
           aria-label="attachment"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-attachment.svg"
           href="test-file-stub"
           target="_blank"
@@ -1115,7 +1124,7 @@ Object {
         </a>
         <a
           aria-label="camera"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-camera.svg"
           href="test-file-stub"
           target="_blank"
@@ -1162,7 +1171,7 @@ Object {
         </a>
         <a
           aria-label="chat"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-chat.svg"
           href="test-file-stub"
           target="_blank"
@@ -1209,7 +1218,7 @@ Object {
         </a>
         <a
           aria-label="solutions"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-solutions.svg"
           href="test-file-stub"
           target="_blank"
@@ -1256,7 +1265,7 @@ Object {
         </a>
         <a
           aria-label="contact-mail"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-contact-mail.svg"
           href="test-file-stub"
           target="_blank"
@@ -1303,7 +1312,7 @@ Object {
         </a>
         <a
           aria-label="image"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-image.svg"
           href="test-file-stub"
           target="_blank"
@@ -1350,7 +1359,7 @@ Object {
         </a>
         <a
           aria-label="compare"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-compare.svg"
           href="test-file-stub"
           target="_blank"
@@ -1397,7 +1406,7 @@ Object {
         </a>
         <a
           aria-label="hide"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-hide.svg"
           href="test-file-stub"
           target="_blank"
@@ -1444,7 +1453,7 @@ Object {
         </a>
         <a
           aria-label="reload"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-reload.svg"
           href="test-file-stub"
           target="_blank"
@@ -1491,7 +1500,7 @@ Object {
         </a>
         <a
           aria-label="copy"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-copy.svg"
           href="test-file-stub"
           target="_blank"
@@ -1538,7 +1547,7 @@ Object {
         </a>
         <a
           aria-label="close"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-close.svg"
           href="test-file-stub"
           target="_blank"
@@ -1585,7 +1594,7 @@ Object {
         </a>
         <a
           aria-label="email"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-email.svg"
           href="test-file-stub"
           target="_blank"
@@ -1632,7 +1641,7 @@ Object {
         </a>
         <a
           aria-label="calendar-range"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-calendar-range.svg"
           href="test-file-stub"
           target="_blank"
@@ -1679,7 +1688,7 @@ Object {
         </a>
         <a
           aria-label="global"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-global.svg"
           href="test-file-stub"
           target="_blank"
@@ -1726,7 +1735,7 @@ Object {
         </a>
         <a
           aria-label="check"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-check.svg"
           href="test-file-stub"
           target="_blank"
@@ -1773,7 +1782,7 @@ Object {
         </a>
         <a
           aria-label="plus"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-plus.svg"
           href="test-file-stub"
           target="_blank"
@@ -1820,7 +1829,7 @@ Object {
         </a>
         <a
           aria-label="direction"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-direction.svg"
           href="test-file-stub"
           target="_blank"
@@ -1867,7 +1876,7 @@ Object {
         </a>
         <a
           aria-label="flag"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-flag.svg"
           href="test-file-stub"
           target="_blank"
@@ -1914,7 +1923,7 @@ Object {
         </a>
         <a
           aria-label="bell"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-bell.svg"
           href="test-file-stub"
           target="_blank"
@@ -1961,7 +1970,7 @@ Object {
         </a>
         <a
           aria-label="dots-vertical"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-dots-vertical.svg"
           href="test-file-stub"
           target="_blank"
@@ -2008,7 +2017,7 @@ Object {
         </a>
         <a
           aria-label="add-solution"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-add-solution.svg"
           href="test-file-stub"
           target="_blank"
@@ -2055,7 +2064,7 @@ Object {
         </a>
         <a
           aria-label="add-cart"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-add-cart.svg"
           href="test-file-stub"
           target="_blank"
@@ -2102,7 +2111,7 @@ Object {
         </a>
         <a
           aria-label="expand"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-expand.svg"
           href="test-file-stub"
           target="_blank"
@@ -2149,7 +2158,7 @@ Object {
         </a>
         <a
           aria-label="download"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-download.svg"
           href="test-file-stub"
           target="_blank"
@@ -2196,7 +2205,7 @@ Object {
         </a>
         <a
           aria-label="cart"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-cart.svg"
           href="test-file-stub"
           target="_blank"
@@ -2243,7 +2252,7 @@ Object {
         </a>
         <a
           aria-label="settings"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-settings.svg"
           href="test-file-stub"
           target="_blank"
@@ -2290,7 +2299,7 @@ Object {
         </a>
         <a
           aria-label="map-marker"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-map-marker.svg"
           href="test-file-stub"
           target="_blank"
@@ -2337,7 +2346,7 @@ Object {
         </a>
         <a
           aria-label="link"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-link.svg"
           href="test-file-stub"
           target="_blank"
@@ -2384,7 +2393,7 @@ Object {
         </a>
         <a
           aria-label="dots-horizontal"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-dots-horizontal.svg"
           href="test-file-stub"
           target="_blank"
@@ -2431,7 +2440,7 @@ Object {
         </a>
         <a
           aria-label="user-edit"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-user-edit.svg"
           href="test-file-stub"
           target="_blank"
@@ -2478,7 +2487,7 @@ Object {
         </a>
         <a
           aria-label="average"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-average.svg"
           href="test-file-stub"
           target="_blank"
@@ -2525,7 +2534,7 @@ Object {
         </a>
         <a
           aria-label="file-document"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-file-document.svg"
           href="test-file-stub"
           target="_blank"
@@ -2572,7 +2581,7 @@ Object {
         </a>
         <a
           aria-label="file"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-file.svg"
           href="test-file-stub"
           target="_blank"
@@ -2619,7 +2628,7 @@ Object {
         </a>
         <a
           aria-label="map"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-map.svg"
           href="test-file-stub"
           target="_blank"
@@ -2666,7 +2675,7 @@ Object {
         </a>
         <a
           aria-label="headset"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-headset.svg"
           href="test-file-stub"
           target="_blank"
@@ -2713,7 +2722,7 @@ Object {
         </a>
         <a
           aria-label="show"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-show.svg"
           href="test-file-stub"
           target="_blank"
@@ -2760,7 +2769,7 @@ Object {
         </a>
         <a
           aria-label="zoom-in"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-zoom-in.svg"
           href="test-file-stub"
           target="_blank"
@@ -2807,7 +2816,7 @@ Object {
         </a>
         <a
           aria-label="briefcase"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-briefcase.svg"
           href="test-file-stub"
           target="_blank"
@@ -2854,7 +2863,7 @@ Object {
         </a>
         <a
           aria-label="logout"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-logout.svg"
           href="test-file-stub"
           target="_blank"
@@ -2901,7 +2910,7 @@ Object {
         </a>
         <a
           aria-label="account"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-account.svg"
           href="test-file-stub"
           target="_blank"
@@ -2948,7 +2957,7 @@ Object {
         </a>
         <a
           aria-label="user"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-user.svg"
           href="test-file-stub"
           target="_blank"
@@ -2995,7 +3004,7 @@ Object {
         </a>
         <a
           aria-label="open-in-new"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-open-in-new.svg"
           href="test-file-stub"
           target="_blank"
@@ -3042,7 +3051,7 @@ Object {
         </a>
         <a
           aria-label="crosshair"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-crosshair.svg"
           href="test-file-stub"
           target="_blank"
@@ -3089,7 +3098,7 @@ Object {
         </a>
         <a
           aria-label="zoom-out"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-zoom-out.svg"
           href="test-file-stub"
           target="_blank"
@@ -3136,7 +3145,7 @@ Object {
         </a>
         <a
           aria-label="search"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-search.svg"
           href="test-file-stub"
           target="_blank"
@@ -3183,7 +3192,7 @@ Object {
         </a>
         <a
           aria-label="calendar-clock"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-calendar-clock.svg"
           href="test-file-stub"
           target="_blank"
@@ -3230,7 +3239,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Strategic Business Units Icons: Power Systems
       </p>
@@ -3239,7 +3248,7 @@ Object {
       >
         <a
           aria-label="ps-ps"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-ps-ps.svg"
           href="test-file-stub"
           target="_blank"
@@ -3286,7 +3295,7 @@ Object {
         </a>
         <a
           aria-label="ps-service"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-ps-service.svg"
           href="test-file-stub"
           target="_blank"
@@ -3333,7 +3342,7 @@ Object {
         </a>
         <a
           aria-label="ps-used"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-ps-used.svg"
           href="test-file-stub"
           target="_blank"
@@ -3380,7 +3389,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Strategic Business Units Icons: Zeppelin Cat
       </p>
@@ -3389,7 +3398,7 @@ Object {
       >
         <a
           aria-label="cat-new"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-cat-new.svg"
           href="test-file-stub"
           target="_blank"
@@ -3436,7 +3445,7 @@ Object {
         </a>
         <a
           aria-label="cat-service"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-cat-service.svg"
           href="test-file-stub"
           target="_blank"
@@ -3483,7 +3492,7 @@ Object {
         </a>
         <a
           aria-label="cat-used"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-cat-used.svg"
           href="test-file-stub"
           target="_blank"
@@ -3530,7 +3539,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Strategic Business Units Icons: Systems
       </p>
@@ -3539,7 +3548,7 @@ Object {
       >
         <a
           aria-label="systems-products"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-systems-products.svg"
           href="test-file-stub"
           target="_blank"
@@ -3586,7 +3595,7 @@ Object {
         </a>
         <a
           aria-label="systems-aviation"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-systems-aviation.svg"
           href="test-file-stub"
           target="_blank"
@@ -3633,7 +3642,7 @@ Object {
         </a>
         <a
           aria-label="systems-systems"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-systems-systems.svg"
           href="test-file-stub"
           target="_blank"
@@ -3680,7 +3689,7 @@ Object {
         </a>
         <a
           aria-label="systems-service"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-systems-service.svg"
           href="test-file-stub"
           target="_blank"
@@ -3727,7 +3736,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Strategic Business Units Icons: Rental
       </p>
@@ -3736,7 +3745,7 @@ Object {
       >
         <a
           aria-label="rental-infrastructure"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-rental-infrastructure.svg"
           href="test-file-stub"
           target="_blank"
@@ -3783,7 +3792,7 @@ Object {
         </a>
         <a
           aria-label="rental-logistics"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-rental-logistics.svg"
           href="test-file-stub"
           target="_blank"
@@ -3830,7 +3839,7 @@ Object {
         </a>
         <a
           aria-label="rental-rent"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-rental-rent.svg"
           href="test-file-stub"
           target="_blank"
@@ -3877,7 +3886,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Navigation Icons
       </p>
@@ -3886,7 +3895,7 @@ Object {
       >
         <a
           aria-label="chevron-down"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-chevron-down.svg"
           href="test-file-stub"
           target="_blank"
@@ -3933,7 +3942,7 @@ Object {
         </a>
         <a
           aria-label="menu"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-menu.svg"
           href="test-file-stub"
           target="_blank"
@@ -3980,7 +3989,7 @@ Object {
         </a>
         <a
           aria-label="previous-page"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-previous-page.svg"
           href="test-file-stub"
           target="_blank"
@@ -4027,7 +4036,7 @@ Object {
         </a>
         <a
           aria-label="chevron-up"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-chevron-up.svg"
           href="test-file-stub"
           target="_blank"
@@ -4074,7 +4083,7 @@ Object {
         </a>
         <a
           aria-label="next-page"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-next-page.svg"
           href="test-file-stub"
           target="_blank"
@@ -4121,7 +4130,7 @@ Object {
         </a>
         <a
           aria-label="chevron-right"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-chevron-right.svg"
           href="test-file-stub"
           target="_blank"
@@ -4168,7 +4177,7 @@ Object {
         </a>
         <a
           aria-label="chevron-left"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-chevron-left.svg"
           href="test-file-stub"
           target="_blank"
@@ -4215,7 +4224,7 @@ Object {
         </a>
         <a
           aria-label="home"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-home.svg"
           href="test-file-stub"
           target="_blank"
@@ -4262,7 +4271,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Indicator Icons
       </p>
@@ -4271,7 +4280,7 @@ Object {
       >
         <a
           aria-label="help"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-help.svg"
           href="test-file-stub"
           target="_blank"
@@ -4318,7 +4327,7 @@ Object {
         </a>
         <a
           aria-label="info"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-info.svg"
           href="test-file-stub"
           target="_blank"
@@ -4365,7 +4374,7 @@ Object {
         </a>
         <a
           aria-label="warning"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-warning.svg"
           href="test-file-stub"
           target="_blank"
@@ -4412,7 +4421,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Language Icons
       </p>
@@ -4421,7 +4430,7 @@ Object {
       >
         <a
           aria-label="br"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-br.svg"
           href="test-file-stub"
           target="_blank"
@@ -4468,7 +4477,7 @@ Object {
         </a>
         <a
           aria-label="gb"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-gb.svg"
           href="test-file-stub"
           target="_blank"
@@ -4515,7 +4524,7 @@ Object {
         </a>
         <a
           aria-label="ger"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-ger.svg"
           href="test-file-stub"
           target="_blank"
@@ -4562,7 +4571,7 @@ Object {
         </a>
         <a
           aria-label="in"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-in.svg"
           href="test-file-stub"
           target="_blank"
@@ -4609,7 +4618,7 @@ Object {
         </a>
         <a
           aria-label="it"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-it.svg"
           href="test-file-stub"
           target="_blank"
@@ -4656,7 +4665,7 @@ Object {
         </a>
         <a
           aria-label="ru"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-ru.svg"
           href="test-file-stub"
           target="_blank"
@@ -4703,7 +4712,7 @@ Object {
         </a>
         <a
           aria-label="sa"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-sa.svg"
           href="test-file-stub"
           target="_blank"
@@ -4750,7 +4759,7 @@ Object {
         </a>
         <a
           aria-label="sg"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-sg.svg"
           href="test-file-stub"
           target="_blank"
@@ -4797,7 +4806,7 @@ Object {
         </a>
       </div>
       <p
-        class="Headline-text-0-1-20 zep-typo--normal-6"
+        class="Headline-text-0-1-12 zep-typo--normal-6"
       >
         Social Icons
       </p>
@@ -4806,7 +4815,7 @@ Object {
       >
         <a
           aria-label="twitter"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-twitter.svg"
           href="test-file-stub"
           target="_blank"
@@ -4853,7 +4862,7 @@ Object {
         </a>
         <a
           aria-label="linkedin"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-linkedin.svg"
           href="test-file-stub"
           target="_blank"
@@ -4900,7 +4909,7 @@ Object {
         </a>
         <a
           aria-label="youtube"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-youtube.svg"
           href="test-file-stub"
           target="_blank"
@@ -4947,7 +4956,7 @@ Object {
         </a>
         <a
           aria-label="xing"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-xing.svg"
           href="test-file-stub"
           target="_blank"
@@ -4994,7 +5003,7 @@ Object {
         </a>
         <a
           aria-label="facebook"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-facebook.svg"
           href="test-file-stub"
           target="_blank"
@@ -5041,7 +5050,7 @@ Object {
         </a>
         <a
           aria-label="googleplus"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-googleplus.svg"
           href="test-file-stub"
           target="_blank"
@@ -5088,7 +5097,7 @@ Object {
         </a>
         <a
           aria-label="kununu"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-kununu.svg"
           href="test-file-stub"
           target="_blank"
@@ -5135,7 +5144,7 @@ Object {
         </a>
         <a
           aria-label="instagram"
-          class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+          class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
           download="zepicons-instagram.svg"
           href="test-file-stub"
           target="_blank"
@@ -5185,30 +5194,39 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="Tabs-root-0-1-11 Iconography-tabs-0-1-1"
+      class="Tabs-root-0-1-11 Iconography-tabs-0-1-1 zep-tabs"
       data-testid="tabs"
+      role="tablist"
     >
-      <button
-        class="Tab-root-0-1-12 Tab-selected-0-1-18 Tab-normal-0-1-13 ButtonBase-button-0-1-19"
+      <div
+        class="zep-tabs__item"
       >
-        <p
-          class="Tab-label-0-1-15 Tab-selected-0-1-18 Tab-labelPrimary-0-1-16 zep-typo--normal-4"
+        <button
+          aria-selected="true"
+          class="zep-tab zep-tab--selected"
+          id="tab-0"
+          role="tab"
+          tabindex="0"
         >
           Overview
-        </p>
-      </button>
-      <button
-        class="Tab-root-0-1-12 Tab-normal-0-1-13 ButtonBase-button-0-1-19"
+        </button>
+      </div>
+      <div
+        class="zep-tabs__item"
       >
-        <p
-          class="Tab-label-0-1-15 Tab-labelPrimary-0-1-16 zep-typo--normal-4"
+        <button
+          aria-selected="false"
+          class="zep-tab"
+          id="tab-1"
+          role="tab"
+          tabindex="0"
         >
           Usage
-        </p>
-      </button>
+        </button>
+      </div>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Zeppelin Icons
     </p>
@@ -5218,32 +5236,32 @@ Object {
       Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG Sprite) or icons may be downloaded individually from below.
     </p>
     <div
-      class="DownloadContainer-root-0-1-21"
+      class="DownloadContainer-root-0-1-13"
     >
       <div
-        class="DownloadFile-root-0-1-22"
+        class="DownloadFile-root-0-1-14"
       >
         <p
-          class="zep-typo--normal-3 DownloadFile-text-0-1-25"
+          class="zep-typo--normal-3 DownloadFile-text-0-1-17"
         >
           Sketch Zeppelin Sketch Library
         </p>
         <div
-          class="DownloadFile-container-0-1-23 DownloadFile-iconContainer-0-1-24"
+          class="DownloadFile-container-0-1-15 DownloadFile-iconContainer-0-1-16"
         >
           <img
             alt="sketch logo"
-            class="DownloadFile-img-0-1-27"
+            class="DownloadFile-img-0-1-19"
             src="test-file-stub"
           />
           <button
             aria-label="download"
-            class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
+            class="DownloadFile-button-0-1-20 ButtonBase-button-0-1-22"
             data-testid="downloadButton"
           >
             <svg
               aria-labelledby="title_download"
-              class="DownloadFile-icon-0-1-29"
+              class="DownloadFile-icon-0-1-21"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -5264,27 +5282,27 @@ Object {
       </div>
     </div>
     <div
-      class="DownloadContainer-root-0-1-21"
+      class="DownloadContainer-root-0-1-13"
     >
       <div
-        class="DownloadFile-root-0-1-22"
+        class="DownloadFile-root-0-1-14"
       >
         <p
-          class="zep-typo--normal-3 DownloadFile-text-0-1-25"
+          class="zep-typo--normal-3 DownloadFile-text-0-1-17"
         >
           Zeppelin SVG Icons
         </p>
         <div
-          class="DownloadFile-container-0-1-23"
+          class="DownloadFile-container-0-1-15"
         >
           <button
             aria-label="download"
-            class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
+            class="DownloadFile-button-0-1-20 ButtonBase-button-0-1-22"
             data-testid="downloadButton"
           >
             <svg
               aria-labelledby="title_download"
-              class="DownloadFile-icon-0-1-29"
+              class="DownloadFile-icon-0-1-21"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -5304,24 +5322,24 @@ Object {
         </div>
       </div>
       <div
-        class="DownloadFile-root-0-1-22"
+        class="DownloadFile-root-0-1-14"
       >
         <p
-          class="zep-typo--normal-3 DownloadFile-text-0-1-25"
+          class="zep-typo--normal-3 DownloadFile-text-0-1-17"
         >
           Zeppelin SVG Sprite
         </p>
         <div
-          class="DownloadFile-container-0-1-23"
+          class="DownloadFile-container-0-1-15"
         >
           <button
             aria-label="download"
-            class="DownloadFile-button-0-1-28 ButtonBase-button-0-1-19"
+            class="DownloadFile-button-0-1-20 ButtonBase-button-0-1-22"
             data-testid="downloadButton"
           >
             <svg
               aria-labelledby="title_download"
-              class="DownloadFile-icon-0-1-29"
+              class="DownloadFile-icon-0-1-21"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -5342,10 +5360,10 @@ Object {
       </div>
     </div>
     <hr
-      class="Divider-hr-0-1-30"
+      class="Divider-hr-0-1-23"
     />
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Action Icons
     </p>
@@ -5354,7 +5372,7 @@ Object {
     >
       <a
         aria-label="list-plus"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-list-plus.svg"
         href="test-file-stub"
         target="_blank"
@@ -5401,7 +5419,7 @@ Object {
       </a>
       <a
         aria-label="print"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-print.svg"
         href="test-file-stub"
         target="_blank"
@@ -5448,7 +5466,7 @@ Object {
       </a>
       <a
         aria-label="minus"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-minus.svg"
         href="test-file-stub"
         target="_blank"
@@ -5495,7 +5513,7 @@ Object {
       </a>
       <a
         aria-label="timer"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-timer.svg"
         href="test-file-stub"
         target="_blank"
@@ -5542,7 +5560,7 @@ Object {
       </a>
       <a
         aria-label="users"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-users.svg"
         href="test-file-stub"
         target="_blank"
@@ -5589,7 +5607,7 @@ Object {
       </a>
       <a
         aria-label="unfold"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-unfold.svg"
         href="test-file-stub"
         target="_blank"
@@ -5636,7 +5654,7 @@ Object {
       </a>
       <a
         aria-label="bookmark"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-bookmark.svg"
         href="test-file-stub"
         target="_blank"
@@ -5683,7 +5701,7 @@ Object {
       </a>
       <a
         aria-label="upload"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-upload.svg"
         href="test-file-stub"
         target="_blank"
@@ -5730,7 +5748,7 @@ Object {
       </a>
       <a
         aria-label="filter"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-filter.svg"
         href="test-file-stub"
         target="_blank"
@@ -5777,7 +5795,7 @@ Object {
       </a>
       <a
         aria-label="sort"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-sort.svg"
         href="test-file-stub"
         target="_blank"
@@ -5824,7 +5842,7 @@ Object {
       </a>
       <a
         aria-label="share"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-share.svg"
         href="test-file-stub"
         target="_blank"
@@ -5871,7 +5889,7 @@ Object {
       </a>
       <a
         aria-label="view-grid"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-view-grid.svg"
         href="test-file-stub"
         target="_blank"
@@ -5918,7 +5936,7 @@ Object {
       </a>
       <a
         aria-label="phone"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-phone.svg"
         href="test-file-stub"
         target="_blank"
@@ -5965,7 +5983,7 @@ Object {
       </a>
       <a
         aria-label="clock"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-clock.svg"
         href="test-file-stub"
         target="_blank"
@@ -6012,7 +6030,7 @@ Object {
       </a>
       <a
         aria-label="delete"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-delete.svg"
         href="test-file-stub"
         target="_blank"
@@ -6059,7 +6077,7 @@ Object {
       </a>
       <a
         aria-label="image-album"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-image-album.svg"
         href="test-file-stub"
         target="_blank"
@@ -6106,7 +6124,7 @@ Object {
       </a>
       <a
         aria-label="edit"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-edit.svg"
         href="test-file-stub"
         target="_blank"
@@ -6153,7 +6171,7 @@ Object {
       </a>
       <a
         aria-label="star"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-star.svg"
         href="test-file-stub"
         target="_blank"
@@ -6200,7 +6218,7 @@ Object {
       </a>
       <a
         aria-label="contacts"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-contacts.svg"
         href="test-file-stub"
         target="_blank"
@@ -6247,7 +6265,7 @@ Object {
       </a>
       <a
         aria-label="attachment"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-attachment.svg"
         href="test-file-stub"
         target="_blank"
@@ -6294,7 +6312,7 @@ Object {
       </a>
       <a
         aria-label="camera"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-camera.svg"
         href="test-file-stub"
         target="_blank"
@@ -6341,7 +6359,7 @@ Object {
       </a>
       <a
         aria-label="chat"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-chat.svg"
         href="test-file-stub"
         target="_blank"
@@ -6388,7 +6406,7 @@ Object {
       </a>
       <a
         aria-label="solutions"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-solutions.svg"
         href="test-file-stub"
         target="_blank"
@@ -6435,7 +6453,7 @@ Object {
       </a>
       <a
         aria-label="contact-mail"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-contact-mail.svg"
         href="test-file-stub"
         target="_blank"
@@ -6482,7 +6500,7 @@ Object {
       </a>
       <a
         aria-label="image"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-image.svg"
         href="test-file-stub"
         target="_blank"
@@ -6529,7 +6547,7 @@ Object {
       </a>
       <a
         aria-label="compare"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-compare.svg"
         href="test-file-stub"
         target="_blank"
@@ -6576,7 +6594,7 @@ Object {
       </a>
       <a
         aria-label="hide"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-hide.svg"
         href="test-file-stub"
         target="_blank"
@@ -6623,7 +6641,7 @@ Object {
       </a>
       <a
         aria-label="reload"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-reload.svg"
         href="test-file-stub"
         target="_blank"
@@ -6670,7 +6688,7 @@ Object {
       </a>
       <a
         aria-label="copy"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-copy.svg"
         href="test-file-stub"
         target="_blank"
@@ -6717,7 +6735,7 @@ Object {
       </a>
       <a
         aria-label="close"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-close.svg"
         href="test-file-stub"
         target="_blank"
@@ -6764,7 +6782,7 @@ Object {
       </a>
       <a
         aria-label="email"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-email.svg"
         href="test-file-stub"
         target="_blank"
@@ -6811,7 +6829,7 @@ Object {
       </a>
       <a
         aria-label="calendar-range"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-calendar-range.svg"
         href="test-file-stub"
         target="_blank"
@@ -6858,7 +6876,7 @@ Object {
       </a>
       <a
         aria-label="global"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-global.svg"
         href="test-file-stub"
         target="_blank"
@@ -6905,7 +6923,7 @@ Object {
       </a>
       <a
         aria-label="check"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-check.svg"
         href="test-file-stub"
         target="_blank"
@@ -6952,7 +6970,7 @@ Object {
       </a>
       <a
         aria-label="plus"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-plus.svg"
         href="test-file-stub"
         target="_blank"
@@ -6999,7 +7017,7 @@ Object {
       </a>
       <a
         aria-label="direction"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-direction.svg"
         href="test-file-stub"
         target="_blank"
@@ -7046,7 +7064,7 @@ Object {
       </a>
       <a
         aria-label="flag"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-flag.svg"
         href="test-file-stub"
         target="_blank"
@@ -7093,7 +7111,7 @@ Object {
       </a>
       <a
         aria-label="bell"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-bell.svg"
         href="test-file-stub"
         target="_blank"
@@ -7140,7 +7158,7 @@ Object {
       </a>
       <a
         aria-label="dots-vertical"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-dots-vertical.svg"
         href="test-file-stub"
         target="_blank"
@@ -7187,7 +7205,7 @@ Object {
       </a>
       <a
         aria-label="add-solution"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-add-solution.svg"
         href="test-file-stub"
         target="_blank"
@@ -7234,7 +7252,7 @@ Object {
       </a>
       <a
         aria-label="add-cart"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-add-cart.svg"
         href="test-file-stub"
         target="_blank"
@@ -7281,7 +7299,7 @@ Object {
       </a>
       <a
         aria-label="expand"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-expand.svg"
         href="test-file-stub"
         target="_blank"
@@ -7328,7 +7346,7 @@ Object {
       </a>
       <a
         aria-label="download"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-download.svg"
         href="test-file-stub"
         target="_blank"
@@ -7375,7 +7393,7 @@ Object {
       </a>
       <a
         aria-label="cart"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-cart.svg"
         href="test-file-stub"
         target="_blank"
@@ -7422,7 +7440,7 @@ Object {
       </a>
       <a
         aria-label="settings"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-settings.svg"
         href="test-file-stub"
         target="_blank"
@@ -7469,7 +7487,7 @@ Object {
       </a>
       <a
         aria-label="map-marker"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-map-marker.svg"
         href="test-file-stub"
         target="_blank"
@@ -7516,7 +7534,7 @@ Object {
       </a>
       <a
         aria-label="link"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-link.svg"
         href="test-file-stub"
         target="_blank"
@@ -7563,7 +7581,7 @@ Object {
       </a>
       <a
         aria-label="dots-horizontal"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-dots-horizontal.svg"
         href="test-file-stub"
         target="_blank"
@@ -7610,7 +7628,7 @@ Object {
       </a>
       <a
         aria-label="user-edit"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-user-edit.svg"
         href="test-file-stub"
         target="_blank"
@@ -7657,7 +7675,7 @@ Object {
       </a>
       <a
         aria-label="average"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-average.svg"
         href="test-file-stub"
         target="_blank"
@@ -7704,7 +7722,7 @@ Object {
       </a>
       <a
         aria-label="file-document"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-file-document.svg"
         href="test-file-stub"
         target="_blank"
@@ -7751,7 +7769,7 @@ Object {
       </a>
       <a
         aria-label="file"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-file.svg"
         href="test-file-stub"
         target="_blank"
@@ -7798,7 +7816,7 @@ Object {
       </a>
       <a
         aria-label="map"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-map.svg"
         href="test-file-stub"
         target="_blank"
@@ -7845,7 +7863,7 @@ Object {
       </a>
       <a
         aria-label="headset"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-headset.svg"
         href="test-file-stub"
         target="_blank"
@@ -7892,7 +7910,7 @@ Object {
       </a>
       <a
         aria-label="show"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-show.svg"
         href="test-file-stub"
         target="_blank"
@@ -7939,7 +7957,7 @@ Object {
       </a>
       <a
         aria-label="zoom-in"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-zoom-in.svg"
         href="test-file-stub"
         target="_blank"
@@ -7986,7 +8004,7 @@ Object {
       </a>
       <a
         aria-label="briefcase"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-briefcase.svg"
         href="test-file-stub"
         target="_blank"
@@ -8033,7 +8051,7 @@ Object {
       </a>
       <a
         aria-label="logout"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-logout.svg"
         href="test-file-stub"
         target="_blank"
@@ -8080,7 +8098,7 @@ Object {
       </a>
       <a
         aria-label="account"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-account.svg"
         href="test-file-stub"
         target="_blank"
@@ -8127,7 +8145,7 @@ Object {
       </a>
       <a
         aria-label="user"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-user.svg"
         href="test-file-stub"
         target="_blank"
@@ -8174,7 +8192,7 @@ Object {
       </a>
       <a
         aria-label="open-in-new"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-open-in-new.svg"
         href="test-file-stub"
         target="_blank"
@@ -8221,7 +8239,7 @@ Object {
       </a>
       <a
         aria-label="crosshair"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-crosshair.svg"
         href="test-file-stub"
         target="_blank"
@@ -8268,7 +8286,7 @@ Object {
       </a>
       <a
         aria-label="zoom-out"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-zoom-out.svg"
         href="test-file-stub"
         target="_blank"
@@ -8315,7 +8333,7 @@ Object {
       </a>
       <a
         aria-label="search"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-search.svg"
         href="test-file-stub"
         target="_blank"
@@ -8362,7 +8380,7 @@ Object {
       </a>
       <a
         aria-label="calendar-clock"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-calendar-clock.svg"
         href="test-file-stub"
         target="_blank"
@@ -8409,7 +8427,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Strategic Business Units Icons: Power Systems
     </p>
@@ -8418,7 +8436,7 @@ Object {
     >
       <a
         aria-label="ps-ps"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-ps-ps.svg"
         href="test-file-stub"
         target="_blank"
@@ -8465,7 +8483,7 @@ Object {
       </a>
       <a
         aria-label="ps-service"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-ps-service.svg"
         href="test-file-stub"
         target="_blank"
@@ -8512,7 +8530,7 @@ Object {
       </a>
       <a
         aria-label="ps-used"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-ps-used.svg"
         href="test-file-stub"
         target="_blank"
@@ -8559,7 +8577,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Strategic Business Units Icons: Zeppelin Cat
     </p>
@@ -8568,7 +8586,7 @@ Object {
     >
       <a
         aria-label="cat-new"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-cat-new.svg"
         href="test-file-stub"
         target="_blank"
@@ -8615,7 +8633,7 @@ Object {
       </a>
       <a
         aria-label="cat-service"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-cat-service.svg"
         href="test-file-stub"
         target="_blank"
@@ -8662,7 +8680,7 @@ Object {
       </a>
       <a
         aria-label="cat-used"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-cat-used.svg"
         href="test-file-stub"
         target="_blank"
@@ -8709,7 +8727,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Strategic Business Units Icons: Systems
     </p>
@@ -8718,7 +8736,7 @@ Object {
     >
       <a
         aria-label="systems-products"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-systems-products.svg"
         href="test-file-stub"
         target="_blank"
@@ -8765,7 +8783,7 @@ Object {
       </a>
       <a
         aria-label="systems-aviation"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-systems-aviation.svg"
         href="test-file-stub"
         target="_blank"
@@ -8812,7 +8830,7 @@ Object {
       </a>
       <a
         aria-label="systems-systems"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-systems-systems.svg"
         href="test-file-stub"
         target="_blank"
@@ -8859,7 +8877,7 @@ Object {
       </a>
       <a
         aria-label="systems-service"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-systems-service.svg"
         href="test-file-stub"
         target="_blank"
@@ -8906,7 +8924,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Strategic Business Units Icons: Rental
     </p>
@@ -8915,7 +8933,7 @@ Object {
     >
       <a
         aria-label="rental-infrastructure"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-rental-infrastructure.svg"
         href="test-file-stub"
         target="_blank"
@@ -8962,7 +8980,7 @@ Object {
       </a>
       <a
         aria-label="rental-logistics"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-rental-logistics.svg"
         href="test-file-stub"
         target="_blank"
@@ -9009,7 +9027,7 @@ Object {
       </a>
       <a
         aria-label="rental-rent"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-rental-rent.svg"
         href="test-file-stub"
         target="_blank"
@@ -9056,7 +9074,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Navigation Icons
     </p>
@@ -9065,7 +9083,7 @@ Object {
     >
       <a
         aria-label="chevron-down"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-chevron-down.svg"
         href="test-file-stub"
         target="_blank"
@@ -9112,7 +9130,7 @@ Object {
       </a>
       <a
         aria-label="menu"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-menu.svg"
         href="test-file-stub"
         target="_blank"
@@ -9159,7 +9177,7 @@ Object {
       </a>
       <a
         aria-label="previous-page"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-previous-page.svg"
         href="test-file-stub"
         target="_blank"
@@ -9206,7 +9224,7 @@ Object {
       </a>
       <a
         aria-label="chevron-up"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-chevron-up.svg"
         href="test-file-stub"
         target="_blank"
@@ -9253,7 +9271,7 @@ Object {
       </a>
       <a
         aria-label="next-page"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-next-page.svg"
         href="test-file-stub"
         target="_blank"
@@ -9300,7 +9318,7 @@ Object {
       </a>
       <a
         aria-label="chevron-right"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-chevron-right.svg"
         href="test-file-stub"
         target="_blank"
@@ -9347,7 +9365,7 @@ Object {
       </a>
       <a
         aria-label="chevron-left"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-chevron-left.svg"
         href="test-file-stub"
         target="_blank"
@@ -9394,7 +9412,7 @@ Object {
       </a>
       <a
         aria-label="home"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-home.svg"
         href="test-file-stub"
         target="_blank"
@@ -9441,7 +9459,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Indicator Icons
     </p>
@@ -9450,7 +9468,7 @@ Object {
     >
       <a
         aria-label="help"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-help.svg"
         href="test-file-stub"
         target="_blank"
@@ -9497,7 +9515,7 @@ Object {
       </a>
       <a
         aria-label="info"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-info.svg"
         href="test-file-stub"
         target="_blank"
@@ -9544,7 +9562,7 @@ Object {
       </a>
       <a
         aria-label="warning"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-warning.svg"
         href="test-file-stub"
         target="_blank"
@@ -9591,7 +9609,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Language Icons
     </p>
@@ -9600,7 +9618,7 @@ Object {
     >
       <a
         aria-label="br"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-br.svg"
         href="test-file-stub"
         target="_blank"
@@ -9647,7 +9665,7 @@ Object {
       </a>
       <a
         aria-label="gb"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-gb.svg"
         href="test-file-stub"
         target="_blank"
@@ -9694,7 +9712,7 @@ Object {
       </a>
       <a
         aria-label="ger"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-ger.svg"
         href="test-file-stub"
         target="_blank"
@@ -9741,7 +9759,7 @@ Object {
       </a>
       <a
         aria-label="in"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-in.svg"
         href="test-file-stub"
         target="_blank"
@@ -9788,7 +9806,7 @@ Object {
       </a>
       <a
         aria-label="it"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-it.svg"
         href="test-file-stub"
         target="_blank"
@@ -9835,7 +9853,7 @@ Object {
       </a>
       <a
         aria-label="ru"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-ru.svg"
         href="test-file-stub"
         target="_blank"
@@ -9882,7 +9900,7 @@ Object {
       </a>
       <a
         aria-label="sa"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-sa.svg"
         href="test-file-stub"
         target="_blank"
@@ -9929,7 +9947,7 @@ Object {
       </a>
       <a
         aria-label="sg"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-sg.svg"
         href="test-file-stub"
         target="_blank"
@@ -9976,7 +9994,7 @@ Object {
       </a>
     </div>
     <p
-      class="Headline-text-0-1-20 zep-typo--normal-6"
+      class="Headline-text-0-1-12 zep-typo--normal-6"
     >
       Social Icons
     </p>
@@ -9985,7 +10003,7 @@ Object {
     >
       <a
         aria-label="twitter"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-twitter.svg"
         href="test-file-stub"
         target="_blank"
@@ -10032,7 +10050,7 @@ Object {
       </a>
       <a
         aria-label="linkedin"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-linkedin.svg"
         href="test-file-stub"
         target="_blank"
@@ -10079,7 +10097,7 @@ Object {
       </a>
       <a
         aria-label="youtube"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-youtube.svg"
         href="test-file-stub"
         target="_blank"
@@ -10126,7 +10144,7 @@ Object {
       </a>
       <a
         aria-label="xing"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-xing.svg"
         href="test-file-stub"
         target="_blank"
@@ -10173,7 +10191,7 @@ Object {
       </a>
       <a
         aria-label="facebook"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-facebook.svg"
         href="test-file-stub"
         target="_blank"
@@ -10220,7 +10238,7 @@ Object {
       </a>
       <a
         aria-label="googleplus"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-googleplus.svg"
         href="test-file-stub"
         target="_blank"
@@ -10267,7 +10285,7 @@ Object {
       </a>
       <a
         aria-label="kununu"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-kununu.svg"
         href="test-file-stub"
         target="_blank"
@@ -10314,7 +10332,7 @@ Object {
       </a>
       <a
         aria-label="instagram"
-        class="Iconography-container-0-1-4 ButtonBase-button-0-1-19"
+        class="Iconography-container-0-1-4 ButtonBase-button-0-1-22"
         download="zepicons-instagram.svg"
         href="test-file-stub"
         target="_blank"

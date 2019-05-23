@@ -19,6 +19,11 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'space-around',
   },
+  innerContainerFull: {
+    flexBasis: '80%',
+    display: 'flex',
+    justifyContent: 'center',
+  },
   element: {
     paddingBottom: `${ theme.spacing.component.l.rem }rem`,
   },
@@ -54,15 +59,23 @@ const ElementPreview = ({ element, classes }) => {
         <Fragment key={`codeBlock${ idx }`}>
           <Headline variant="sm">{elem}</Headline>
           <div className={classes.htmlContainer}>
-            <div className={classes.innerContainer}>
-              {elements[element].demo[elem].js.map((item, idx) => (
-                <div
-                  dangerouslySetInnerHTML={{ __html: item }}
-                  key={`preview ${ idx }`}
-                  className={classes.element}
-                />
-              ))}
-            </div>
+            {elements[element].demo[elem].js.length === 1 && (
+              <div
+                className={classes.innerContainerFull}
+                dangerouslySetInnerHTML={{ __html: elements[element].demo[elem].js[0] }}
+              />
+            )}
+            {elements[element].demo[elem].js.length > 1 && (
+              <div className={classes.innerContainer}>
+                {elements[element].demo[elem].js.map((item, idx) => (
+                  <div
+                    dangerouslySetInnerHTML={{ __html: item }}
+                    key={`preview ${ idx }`}
+                    className={classes.element}
+                  />
+                ))}
+              </div>
+            )}
           </div>
           <CodeBlock>{elements[element].demo[elem].js.join('\n')}</CodeBlock>
         </Fragment>

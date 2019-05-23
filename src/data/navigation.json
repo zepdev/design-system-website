@@ -62,6 +62,9 @@
       },
       "select": {
         "title": "Select"
+      },
+      "tabs": {
+        "title": "Tabs"
       }
     }
   },

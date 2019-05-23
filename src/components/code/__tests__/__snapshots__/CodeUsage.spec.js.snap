@@ -14,27 +14,36 @@ Object {
           Code Usage Examples
         </h3>
         <div
-          class="Tabs-root-0-1-3"
+          class="Tabs-root-0-1-3 zep-tabs"
           data-testid="tabs"
+          role="tablist"
         >
-          <button
-            class="Tab-root-0-1-4 Tab-selected-0-1-10 Tab-fullWidth-0-1-6 ButtonBase-button-0-1-11"
+          <div
+            class="zep-tabs__item"
           >
-            <p
-              class="Tab-label-0-1-7 Tab-selected-0-1-10 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
+            <button
+              aria-selected="true"
+              class="zep-tab zep-tab--selected"
+              id="tab-0"
+              role="tab"
+              tabindex="0"
             >
               React
-            </p>
-          </button>
-          <button
-            class="Tab-root-0-1-4 Tab-fullWidth-0-1-6 ButtonBase-button-0-1-11"
+            </button>
+          </div>
+          <div
+            class="zep-tabs__item"
           >
-            <p
-              class="Tab-label-0-1-7 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
+            <button
+              aria-selected="false"
+              class="zep-tab"
+              id="tab-1"
+              role="tab"
+              tabindex="0"
             >
               Vue
-            </p>
-          </button>
+            </button>
+          </div>
         </div>
         <pre
           class="prism-code language-js"
@@ -73,12 +82,12 @@ Object {
             </div>
           </div>
           <button
-            class="CopyButton-button-0-1-12 ButtonBase-button-0-1-11"
+            class="CopyButton-button-0-1-4 ButtonBase-button-0-1-6"
             data-testid="copyButton"
           >
             <svg
               aria-labelledby="title_copy"
-              class="CopyButton-icon-0-1-13"
+              class="CopyButton-icon-0-1-5"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -109,27 +118,36 @@ Object {
         Code Usage Examples
       </h3>
       <div
-        class="Tabs-root-0-1-3"
+        class="Tabs-root-0-1-3 zep-tabs"
         data-testid="tabs"
+        role="tablist"
       >
-        <button
-          class="Tab-root-0-1-4 Tab-selected-0-1-10 Tab-fullWidth-0-1-6 ButtonBase-button-0-1-11"
+        <div
+          class="zep-tabs__item"
         >
-          <p
-            class="Tab-label-0-1-7 Tab-selected-0-1-10 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
+          <button
+            aria-selected="true"
+            class="zep-tab zep-tab--selected"
+            id="tab-0"
+            role="tab"
+            tabindex="0"
           >
             React
-          </p>
-        </button>
-        <button
-          class="Tab-root-0-1-4 Tab-fullWidth-0-1-6 ButtonBase-button-0-1-11"
+          </button>
+        </div>
+        <div
+          class="zep-tabs__item"
         >
-          <p
-            class="Tab-label-0-1-7 Tab-labelPrimary-0-1-8 zep-typo--normal-4"
+          <button
+            aria-selected="false"
+            class="zep-tab"
+            id="tab-1"
+            role="tab"
+            tabindex="0"
           >
             Vue
-          </p>
-        </button>
+          </button>
+        </div>
       </div>
       <pre
         class="prism-code language-js"
@@ -168,12 +186,12 @@ Object {
           </div>
         </div>
         <button
-          class="CopyButton-button-0-1-12 ButtonBase-button-0-1-11"
+          class="CopyButton-button-0-1-4 ButtonBase-button-0-1-6"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title_copy"
-            class="CopyButton-icon-0-1-13"
+            class="CopyButton-icon-0-1-5"
             height="32"
             viewBox="0 0 24 24"
             width="32"

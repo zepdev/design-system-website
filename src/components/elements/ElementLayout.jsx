@@ -19,7 +19,7 @@ const styles = theme => ({
 const ElementLayout = ({ element, classes }) => {
   const [value, setValue] = useState(0)
 
-  function handleChange(event, newValue) {
+  function handleChange(newValue) {
     setValue(newValue)
   }
 
@@ -29,8 +29,8 @@ const ElementLayout = ({ element, classes }) => {
         <Tab label="Code" />
         <Tab label="Usage" />
       </Tabs>
-      {value === 0 && <ElementPreview element={element} />}
-      {value === 1 && <ElementUsage element={element} />}
+      {value === 0 && <ElementPreview element={element} role="tabpanel" tabIndex="0" />}
+      {value === 1 && <ElementUsage element={element} role="tabpanel" tabIndex="0" />}
     </>
   )
 }

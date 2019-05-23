@@ -12,7 +12,7 @@ function TableCell({ children, component, className: classNameProp, ...props }) 
 }
 
 TableCell.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
+  children: PropTypes.oneOfType([PropTypes.any]),
   className: PropTypes.string,
   component: PropTypes.oneOf(['th', 'td']),
 }
