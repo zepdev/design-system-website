@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="zep-button zep-button-primary zep-button-icon ButtonBase-button-0-1-1"
+        class="zep-button zep-button-icon"
         data-testid="minus"
       >
         <svg
@@ -49,7 +49,7 @@ Object {
         />
       </div>
       <button
-        class="zep-button zep-button-primary zep-button-icon ButtonBase-button-0-1-1"
+        class="zep-button zep-button-icon"
         data-testid="plus"
       >
         <svg
@@ -75,7 +75,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="zep-button zep-button-primary zep-button-icon ButtonBase-button-0-1-1"
+      class="zep-button zep-button-icon"
       data-testid="minus"
     >
       <svg
@@ -118,7 +118,7 @@ Object {
       />
     </div>
     <button
-      class="zep-button zep-button-primary zep-button-icon ButtonBase-button-0-1-1"
+      class="zep-button zep-button-icon"
       data-testid="plus"
     >
       <svg

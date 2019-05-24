@@ -65,6 +65,12 @@
       },
       "tabs": {
         "title": "Tabs"
+      },
+      "notification": {
+        "title": "notification"
+      },
+      "pagination": {
+        "title": "pagination"
       }
     }
   },
