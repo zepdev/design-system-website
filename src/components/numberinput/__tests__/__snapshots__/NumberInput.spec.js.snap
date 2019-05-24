@@ -6,12 +6,27 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="zep-button zep-button--number-input"
+        class="zep-button zep-button-icon"
+        data-testid="minus"
       >
-        <span
-          aria-label="minus"
-          class="zepicons zepicons-minus"
-        />
+        <svg
+          aria-labelledby="title_menu"
+          class="zep-button__icon"
+          height="32"
+          viewBox="0 0 24 24"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_menu"
+          >
+            Minus
+          </title>
+          <path
+            d="M25.333 17.333h-18.667v-2.667h18.667z"
+            fill="currentColor"
+          />
+        </svg>
       </button>
       <label
         class="zep-visually-hidden"
@@ -34,23 +49,53 @@ Object {
         />
       </div>
       <button
-        class="zep-button zep-button--number-input"
+        class="zep-button zep-button-icon"
+        data-testid="plus"
       >
-        <span
-          aria-label="plus"
-          class="zepicons zepicons-plus"
-        />
+        <svg
+          aria-labelledby="title_menu"
+          class="zep-button__icon"
+          height="32"
+          viewBox="0 0 24 24"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_menu"
+          >
+            Plus
+          </title>
+          <path
+            d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"
+            fill="currentColor"
+          />
+        </svg>
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="zep-button zep-button--number-input"
+      class="zep-button zep-button-icon"
+      data-testid="minus"
     >
-      <span
-        aria-label="minus"
-        class="zepicons zepicons-minus"
-      />
+      <svg
+        aria-labelledby="title_menu"
+        class="zep-button__icon"
+        height="32"
+        viewBox="0 0 24 24"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="title_menu"
+        >
+          Minus
+        </title>
+        <path
+          d="M25.333 17.333h-18.667v-2.667h18.667z"
+          fill="currentColor"
+        />
+      </svg>
     </button>
     <label
       class="zep-visually-hidden"
@@ -73,12 +118,27 @@ Object {
       />
     </div>
     <button
-      class="zep-button zep-button--number-input"
+      class="zep-button zep-button-icon"
+      data-testid="plus"
     >
-      <span
-        aria-label="plus"
-        class="zepicons zepicons-plus"
-      />
+      <svg
+        aria-labelledby="title_menu"
+        class="zep-button__icon"
+        height="32"
+        viewBox="0 0 24 24"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="title_menu"
+        >
+          Plus
+        </title>
+        <path
+          d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"
+          fill="currentColor"
+        />
+      </svg>
     </button>
   </div>,
   "debug": [Function],

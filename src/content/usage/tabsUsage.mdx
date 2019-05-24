@@ -1,0 +1,53 @@
+---
+label: tabsUsage
+title: Tag Usage
+---
+
+# Developers
+
+## Theme
+
+To implement colors please make sure that you have a theme included. For more information on themes, please visit the Theme Page in the Guidelines Section.
+
+```jsx
+<main class="theme-zeppelin" id="app-root">
+  ...
+  <Tabs />
+  ...
+</main>
+```
+
+## Accessibility
+
+For more information, please see [here](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role).
+
+```html
+<div class="tabs">
+  <div role="tablist" aria-label="Sample Tabs">
+    <button
+      role="tab"
+      aria-selected="true"
+      aria-controls="panel-1"
+      id="tab-1"
+      tabindex="0"
+    >
+      First Tab
+    </button>
+    <button
+      role="tab"
+      aria-selected="false"
+      aria-controls="panel-2"
+      id="tab-2"
+      tabindex="-1"
+    >
+      Second Tab
+    </button>
+  </div>
+  <div id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+    <p>Content for the first panel</p>
+  </div>
+  <div id="panel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" hidden>
+    <p>Content for the second panel</p>
+  </div>
+</div>
+```

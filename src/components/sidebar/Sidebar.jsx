@@ -110,7 +110,7 @@ const Sidebar = ({ isMenuOpen, setMenu, classes }) => {
         [classes.hidden]: !isMenuOpen,
       })}
     >
-      <Link className={classes.link} to="/">
+      <Link className={classes.link} to="/" title="home">
         <ZeppelinIcon className={classes.logo} height="100%" width="100%" />
       </Link>
       <div className={classes.containerSidebarNav}>

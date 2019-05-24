@@ -5,27 +5,33 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="Tab-root-0-1-1 Tab-normal-0-1-2 ButtonBase-button-0-1-8"
+      <div
+        class="zep-tabs__item"
       >
-        <p
-          class="Tab-label-0-1-4 Tab-labelPrimary-0-1-5 zep-typo--normal-4"
+        <button
+          class="zep-tab"
+          id="tab-undefined"
+          role="tab"
+          tabindex="0"
         >
           mockTabLabel
-        </p>
-      </button>
+        </button>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="Tab-root-0-1-1 Tab-normal-0-1-2 ButtonBase-button-0-1-8"
+    <div
+      class="zep-tabs__item"
     >
-      <p
-        class="Tab-label-0-1-4 Tab-labelPrimary-0-1-5 zep-typo--normal-4"
+      <button
+        class="zep-tab"
+        id="tab-undefined"
+        role="tab"
+        tabindex="0"
       >
         mockTabLabel
-      </p>
-    </button>
+      </button>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

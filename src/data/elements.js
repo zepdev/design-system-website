@@ -33,7 +33,7 @@ module.exports = {
   },
   checkbox: {
     demo: {
-      primary: {
+      default: {
         js: [
           `<div class="zep-checkbox">
         <input class="zep-checkbox__input" type="checkbox" value="" id="checkboxZep" />
@@ -49,9 +49,9 @@ module.exports = {
   },
   input: {
     demo: {
-      form: {
+      default: {
         js: [
-          `<div class="zep-form-container">
+          `<div class="zep-form-container" style="width: 100%;">
           <input type="text" id="inputZeppelin" placeholder="Placeholder" class="zep-input">
           <label class="zep-form-container__label" for="inputZeppelin">Input Field</label>
   </div>`,
@@ -59,11 +59,160 @@ module.exports = {
       },
     },
   },
+  pagination: {
+    demo: {
+      default: {
+        js: [
+          `<div class="zep-pagination">
+          <button class="zep-button zep-button-icon" disabled>
+            <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-previous-page</title><path d="M23.213 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8 1.88-1.893zM10.667 8h-2.667v16h2.667v-16z"></path></svg>
+          </button>
+          <button class="zep-button zep-button-icon" disabled>
+            <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-chevron-left</title><path d="M20.547 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8z"></path></svg>
+          </button>
+          <button class="zep-button zep-button-pagination" >
+            1
+          </button>
+          <button class="zep-button zep-button-pagination" >
+            2
+          </button>
+          <button class="zep-button zep-button-pagination" >
+            3
+          </button>
+          <button class="zep-button zep-button-pagination" >
+            4
+          </button>
+          <button class="zep-button zep-button-pagination" >
+            5
+          </button>
+          <button class="zep-button zep-button-icon">
+            <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-chevron-right</title><path d="M11.453 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8z"></path></svg>
+          </button>
+          <button class="zep-button zep-button-icon">
+            <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-next-page</title><path d="M8 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8-1.88-1.893zM20.547 8h2.667v16h-2.667v-16z"></path></svg>
+          </button>
+</div>`,
+        ],
+      },
+    },
+  },
+  notification: {
+    demo: {
+      danger: {
+        js: [
+          `<div class="zep-notification zep-notification--danger" >
+          Notification
+</div>`,
+        ],
+      },
+      info: {
+        js: [
+          `<div class="zep-notification zep-notification--info">
+          Notification
+</div>`,
+        ],
+      },
+      warning: {
+        js: [
+          `<div class="zep-notification zep-notification--warning">
+          Notification
+</div>`,
+        ],
+      },
+      success: {
+        js: [
+          `<div class="zep-notification zep-notification--success">
+          Notification
+</div>`,
+        ],
+      },
+    },
+  },
+  select: {
+    demo: {
+      default: {
+        js: [
+          `<div class="zep-select" style="width: 100%;">
+                <label id="exp_elem" class="zep-select__label">Label</label>
+                <div id="exp_wrapper">
+                  <button aria-haspopup="listbox" aria-labelledby="exp_elem exp_button" id="exp_button" class="zep-select__button" >
+                    Select One
+                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="zep-select__icon"><title>zepicons-navigation-dropdown</title><path fill="currentColor" d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"></path></svg>
+                  </button>
+                  <ul id="exp_elem_list" tabIndex="-1" role="listbox" aria-labelledby="exp_elem" class="zep-select__list"
+                    //class="zep-visually-hidden"
+                  >
+                    <li id="exp_elem_A" role="option" tabIndex="0" class="zep-select__listitem">
+                      option A
+                    </li>
+                    <li id="exp_elem_B" role="option" tabIndex="-1" class="zep-select__listitem">
+                      option B
+                    </li>
+                  </ul>
+</div>`,
+        ],
+      },
+    },
+  },
+  tabs: {
+    demo: {
+      default: {
+        js: [
+          `<div class="zep-tabs" role="tablist" aria-label="Tabs Default">
+          <div class="zep-tabs__item">
+            <button class="zep-tab" role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex="0">
+              Tab 1
+            </button>
+          </div>
+          <div class="zep-tabs__item">
+            <button class="zep-tab" role="tab" aria-selected="false" aria-controls="panel-2" id="tab-2" tabIndex="-1">
+              Tab 2
+            </button>
+          </div>
+</div>`,
+        ],
+      },
+      small: {
+        js: [
+          `<div class="zep-tabs" role="tablist" aria-label="Tabs Default">
+          <div class="zep-tabs__item">
+            <button class="zep-tab zep-tab--small" role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex="0">
+              Tab 1
+            </button>
+          </div>
+          <div class="zep-tabs__item">
+            <button class="zep-tab zep-tab--small" role="tab" aria-selected="false" aria-controls="panel-2" id="tab-2" tabIndex="-1">
+              Tab 2
+            </button>
+          </div>
+</div>`,
+        ],
+      },
+      icon: {
+        js: [
+          `<div class="zep-tabs" role="tablist" aria-label="Tabs Default">
+          <div class="zep-tabs__item">
+            <button class="zep-tab zep-tab--small" role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex="0">
+            <svg class="zep-tab__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-calendar-range</title><path fill="currentColor" d="M12 14.667h-2.667v2.667h2.667v-2.667zM17.333 14.667h-2.667v2.667h2.667v-2.667zM22.667 14.667h-2.667v2.667h2.667v-2.667zM25.333 5.333h-1.333v-2.667h-2.667v2.667h-10.667v-2.667h-2.667v2.667h-1.333c-1.48 0-2.667 1.2-2.667 2.667v18.667c0 1.473 1.194 2.667 2.667 2.667h18.667c1.473 0 2.667-1.194 2.667-2.667v-18.667c0-1.473-1.194-2.667-2.667-2.667v0zM25.333 26.667h-18.667v-14.667h18.667v14.667z"></path></svg>
+              Tab 1
+            </button>
+          </div>
+          <div class="zep-tabs__item">
+            <button class="zep-tab zep-tab--small" role="tab" aria-selected="false" aria-controls="panel-2" id="tab-2" tabIndex="-1">
+            <svg class="zep-tab__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-calendar-range</title><path fill="currentColor" d="M12 14.667h-2.667v2.667h2.667v-2.667zM17.333 14.667h-2.667v2.667h2.667v-2.667zM22.667 14.667h-2.667v2.667h2.667v-2.667zM25.333 5.333h-1.333v-2.667h-2.667v2.667h-10.667v-2.667h-2.667v2.667h-1.333c-1.48 0-2.667 1.2-2.667 2.667v18.667c0 1.473 1.194 2.667 2.667 2.667h18.667c1.473 0 2.667-1.194 2.667-2.667v-18.667c0-1.473-1.194-2.667-2.667-2.667v0zM25.333 26.667h-18.667v-14.667h18.667v14.667z"></path></svg>
+              Tab 2
+            </button>
+          </div>
+</div>`,
+        ],
+      },
+    },
+  },
   search: {
     demo: {
-      form: {
+      default: {
         js: [
-          `<div class="zep-search">
+          `<div class="zep-search" style="width: 100%;">
           <input type="text" class="zep-search__input" placeholder="Search" id="searchbar"
           />
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="zep-search__icon"><title>zepicons-search</title><path fill="currentColor" d="M12.667 4c4.786 0 8.667 3.88 8.667 8.667 0 2.147-0.787 4.12-2.080 5.64l0.36 0.36h1.053l6.667 6.667-2 2-6.667-6.667v-1.053l-0.36-0.36c-1.52 1.293-3.493 2.080-5.64 2.080-4.786 0-8.667-3.88-8.667-8.667s3.88-8.667 8.667-8.667v0zM12.667 6.667c-3.333 0-6 2.667-6 6s2.667 6 6 6c3.333 0 6-2.667 6-6s-2.667-6-6-6z"></path></svg>
@@ -75,12 +224,12 @@ module.exports = {
   },
   numberInput: {
     demo: {
-      primary: {
+      default: {
         js: [
-          `<div>
-          <button class="zep-button  zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>zepicons-minus</title><path fill="currentColor" d="M25.333 17.333h-18.667v-2.667h18.667z"></path></svg></button>
+          `<div class="zep-numberinput">
+          <button class="zep-button zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-minus</title><path fill="currentColor" d="M25.333 17.333h-18.667v-2.667h18.667z"></path></svg></button>
           <label for="counter" class="zep-visually-hidden">Counter</label><input type="text" class="zep-input zep-input--number" value="1" id="counter" />
-          <button class="zep-button zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>zepicons-plus</title><path fill="currentColor" d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"></path></svg></button>
+          <button class="zep-button zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-plus</title><path fill="currentColor" d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"></path></svg></button>
 </div>`,
         ],
       },
@@ -88,7 +237,7 @@ module.exports = {
   },
   radio: {
     demo: {
-      primary: {
+      default: {
         js: [
           `<label class="zep-radio" >
           Radio Button
@@ -101,7 +250,7 @@ module.exports = {
   },
   tag: {
     demo: {
-      primary: {
+      default: {
         js: [
           `<span class="zep-tag">Tag<svg version="1.1" xmlns="http://www.w3.org/2000/
           <svg" width="24" height="24" viewBox="0 0 24 24"><title>zepicons-close</title><path fill="currentColor" d="M25.333 8.547l-1.88-1.88-7.453 7.453-7.453-7.453-1.88 1.88 7.453 7.453-7.453 7.453 1.88 1.88 7.453-7.453 7.453 7.453 1.88-1.88-7.453-7.453z"></path></svg>
@@ -141,20 +290,6 @@ module.exports = {
     </tr>
 </tbody>
 </table>`,
-        ],
-      },
-    },
-  },
-  textarea: {
-    demo: {
-      primary: {
-        js: [
-          `<textarea class="zep-textarea zep-textarea-primary">primary</textarea>`,
-        ],
-      },
-      secondary: {
-        js: [
-          `<textarea class="zep-textarea zep-textarea-secondary">secondary</textarea>`,
         ],
       },
     },

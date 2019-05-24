@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import ButtonBase from './ButtonBase'
 
-function IconButton({ classes, className: classNameProp, children: childrenProp, ...other }) {
+function IconButton({ className: classNameProp, children: childrenProp, variant, ...other }) {
   const children = childrenProp
     ? React.cloneElement(childrenProp, {
       className: classnames('zep-button__icon', childrenProp.props.className),
@@ -11,16 +10,26 @@ function IconButton({ classes, className: classNameProp, children: childrenProp,
     : null
 
   return (
-    <ButtonBase className="zep-button zep-button-primary zep-button-icon" {...other}>
+    <button
+      className={classnames(
+        'zep-button zep-button-icon',
+        {
+          'zep-button-primary': variant === 'primary',
+          'zep-button-secondary': variant === 'secondary',
+        },
+        classNameProp
+      )}
+      {...other}
+    >
       {children}
-    </ButtonBase>
+    </button>
   )
 }
 
 IconButton.propTypes = {
-  className: PropTypes.object,
+  className: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   children: PropTypes.object.isRequired,
-  classes: PropTypes.object,
+  variant: PropTypes.oneOf(['primary', 'secondary']),
 }
 
 export default IconButton

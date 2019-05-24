@@ -5,7 +5,7 @@ import classnames from 'classnames'
 import ButtonBase from '../components/button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
-import Dropdown from './dropdown/Dropdown'
+import ThemeSelect from './select/ThemeSelect'
 import Search from './search/Search'
 import navigation from '../data/navigation.json'
 
@@ -116,7 +116,6 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
       })
     }
   })
-
   return (
     <>
       <header className={classnames(classes.root, classes.height)}>
@@ -149,7 +148,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
             >
               <div className={classes.container}>
                 <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
-                <Dropdown
+                <ThemeSelect
                   menuItems={['zeppelin', 'cat', 'rental']}
                   selected={theme}
                   onSelect={handleTheme}

@@ -10,7 +10,6 @@ import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
-import ZepiconsCart from 'zeppelin-element-library-react/ZepiconsCart'
 
 const styles = theme => ({
   main: {
@@ -130,34 +129,29 @@ function Layout({ children, classes }) {
       `}
       render={data => {
         return (
-          <div className={classes.root}>
+          <div
+            className={classnames(classes.root, {
+              'theme-zeppelin': theme === 'zeppelin',
+              'theme-cat': theme === 'cat',
+              'theme-rental': theme === 'rental',
+            })}
+          >
             <SkipNavLink className={classes.skipLink} />
-            <div
-              className={classnames({
-                'theme-zeppelin': theme === 'zeppelin',
-                'theme-cat': theme === 'cat',
-                'theme-rental': theme === 'rental',
-              })}
-            >
-              <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
-              <div>
-                <Header
-                  siteTitle={data.mdx.frontmatter.title}
-                  handleTheme={handleTheme}
-                  handleMenu={() => {
-                    setMenu(!isMenuOpen)
-                  }}
-                  theme={theme}
-                />
-                <SkipNavContent />
-                <MDXProvider components={components}>
-                  <main className={classnames(classes.main, 'zep-grid')}>
-                    <ZepiconsCart />
-                    {children}
-                  </main>
-                </MDXProvider>
-                <Footer />
-              </div>
+            <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
+            <div>
+              <Header
+                siteTitle={data.mdx.frontmatter.title}
+                handleTheme={handleTheme}
+                handleMenu={() => {
+                  setMenu(!isMenuOpen)
+                }}
+                theme={theme}
+              />
+              <SkipNavContent />
+              <MDXProvider components={components}>
+                <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
+              </MDXProvider>
+              <Footer />
             </div>
           </div>
         )

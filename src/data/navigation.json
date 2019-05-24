@@ -42,9 +42,6 @@
       "list": {
         "title": "List"
       },
-      "textarea": {
-        "title": "Textarea"
-      },
       "input": {
         "title": "Input"
       },
@@ -54,7 +51,7 @@
       "checkbox": {
         "title": "Checkbox"
       },
-      "numberInput": {
+      "number-input": {
         "title": "Number Input"
       },
       "search": {
@@ -62,6 +59,18 @@
       },
       "table": {
         "title": "Table"
+      },
+      "select": {
+        "title": "Select"
+      },
+      "tabs": {
+        "title": "Tabs"
+      },
+      "notification": {
+        "title": "notification"
+      },
+      "pagination": {
+        "title": "pagination"
       }
     }
   },

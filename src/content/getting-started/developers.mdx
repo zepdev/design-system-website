@@ -15,14 +15,36 @@ To access the styleguide, first download the Zeppelin Element Library by your pr
   text="I'm already ready, take me to the Download Page!"
 />
 
-## Basic Usage
+## Basic Usage: Javascript
+
+Import the javascript using your preferred method;
+
+```js
+//Import as ECMAScript Module
+import ZEL from 'zeppelin-element-library'
+
+// OR
+
+//Require as CommonJs Module
+const ZEL = require('zeppelin-element-library')
+```
+
+To get the JavaScript running, initialize ZEL after the DOM has loaded. Place the following script at the bottom of your body element.
+
+```html
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    ZEL.init()
+  })
+</script>
+```
+
+## Basic Usage: Styles
 
 To get started simply import the files you want to use in any project.
 
 ```js
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
-
-import 'zeppelin-element-library'
 ```
 
 All available css classes and javascript can be found under the Elements and Components sections of this website.

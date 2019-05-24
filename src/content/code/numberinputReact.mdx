@@ -8,18 +8,18 @@ title: Code
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Input from '../input/Input'
+import IconButton from '../button/IconButton'
+import MinusIcon from '../icons/MinusIcon'
+import PlusIcon from '../icons/PlusIcon'
 
 function NumberInput({ label }) {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <button
-        className="zep-button zep-button--number-input"
-        onClick={() => setCount(count - 1)}
-      >
-        <span className="zepicons zepicons-minus" aria-label="minus" />
-      </button>
+      <IconButton onClick={() => setCount(count - 1)}>
+        <MinusIcon />
+      </IconButton>
       <label className="zep-visually-hidden" for={`numberInput_${label}`}>
         {label}
       </label>
@@ -30,12 +30,9 @@ function NumberInput({ label }) {
         value={count}
         onChange={e => setCount(parseInt(e.target.value, 10))}
       />
-      <button
-        className="zep-button zep-button--number-input"
-        onClick={() => setCount(count + 1)}
-      >
-        <span className="zepicons zepicons-plus" aria-label="plus" />
-      </button>
+      <IconButton onClick={() => setCount(count + 1)}>
+        <PlusIcon />
+      </IconButton>
     </>
   )
 }
@@ -45,45 +42,40 @@ NumberInput.propTypes = {
 }
 
 // ie10+ compatible
-export default NumberInput
-
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Input from '../input/Input'
+import IconButton from '../button/IconButton'
+import MinusIcon from '../icons/MinusIcon'
+import PlusIcon from '../icons/PlusIcon'
 
 function NumberInput({ label }) {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <button
-        className="zep-button zep-button--number-input"
-        onClick={() => setCount(count - 1)}
-      >
-        <span className="zepicons zepicons-minus" aria-label="minus" />
-      </button>
-      <label className="zep-visually-hidden" for={`numberInput_${label}`}>
+      <IconButton onClick={() => setCount(count - 1)}>
+        <MinusIcon />
+      </IconButton>
+      <label className="zep-visually-hidden" htmlFor={`numberInput_${label}`}>
         {label}
       </label>
       <Input
-        type="number"
+        type="text"
         id={`numberInput_${label}`}
         className="zep-input zep-input--number"
         value={count}
-        onChange={e => setCount(e.target.value)}
+        onChange={e => setCount(parseInt(e.target.value, 10))}
       />
-      <button
-        className="zep-button zep-button--number-input"
-        onClick={() => setCount(count + 1)}
-      >
-        <span className="zepicons zepicons-plus" aria-label="plus" />
-      </button>
+      <IconButton onClick={() => setCount(count + 1)}>
+        <PlusIcon />
+      </IconButton>
     </>
   )
 }
 
 NumberInput.propTypes = {
-  label: PropTypes.string.isRequired,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
 
 export default NumberInput
