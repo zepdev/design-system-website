@@ -35,7 +35,7 @@
     "react-helmet": "^5.2.1",
     "react-jss": "^8.6.1",
     "react-player": "^1.11.0",
-    "zeppelin-element-library": "^0.10.7"
+    "zeppelin-element-library": "^0.10.9"
   },
   "scripts": {
     "build": "gatsby build",
@@ -90,7 +90,6 @@
     "jest-dom": "^3.3.0",
     "jss-snapshot-serializer": "^1.0.0",
     "lint-staged": "^8.1.7",
-    "modernizr-webpack-plugin": "^1.0.7",
     "prettier": "^1.17.1",
     "react-test-renderer": "^16.8.6",
     "react-testing-library": "^7.0.1",
