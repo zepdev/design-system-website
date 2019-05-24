@@ -9,7 +9,6 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import Pagination from './pagination/Pagination'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
@@ -75,14 +74,9 @@ const styles = theme => ({
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('zeppelin')
-  const [currentPage, setCurrentPage] = useState(1)
 
   const handleTheme = theme => {
     setTheme(theme)
-  }
-
-  const handlePageChange = page => {
-    setCurrentPage(page)
   }
 
   // Styles for mdx/md pages
@@ -155,15 +149,7 @@ function Layout({ children, classes }) {
               />
               <SkipNavContent />
               <MDXProvider components={components}>
-                <main className={classnames(classes.main, 'zep-grid')}>
-                  <Pagination
-                    pages="15"
-                    pagesToDisplay="5"
-                    onPageChange={handlePageChange}
-                    currentPage={currentPage}
-                  />
-                  {children}
-                </main>
+                <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
               </MDXProvider>
               <Footer />
             </div>

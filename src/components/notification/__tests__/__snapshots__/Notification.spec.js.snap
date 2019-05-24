@@ -1,47 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ChevronDownIcon renders correctly 1`] = `
+exports[`Notification renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <svg
-        aria-labelledby="title_chevronDown"
-        height="32"
-        viewBox="0 0 32 32"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title
-          id="title_chevronDown"
-        >
-          Chevron Down
-        </title>
-        <polygon
-          fill="currentColor"
-          points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
-        />
-      </svg>
+      <div
+        class="zep-notification"
+      />
     </div>
   </body>,
   "container": <div>
-    <svg
-      aria-labelledby="title_chevronDown"
-      height="32"
-      viewBox="0 0 32 32"
-      width="32"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <title
-        id="title_chevronDown"
-      >
-        Chevron Down
-      </title>
-      <polygon
-        fill="currentColor"
-        points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
-      />
-    </svg>
+    <div
+      class="zep-notification"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
