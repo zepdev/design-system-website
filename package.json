@@ -13,6 +13,7 @@
     "@mdx-js/react": "^1.0.16",
     "@reach/menu-button": "^0.1.17",
     "@reach/skip-nav": "^0.1.3",
+    "@zel-react/icons": "../zeppelin-element-library-react/packages/zel-react-icons",
     "classnames": "^2.2.6",
     "clsx": "^1.0.4",
     "downshift": "^3.2.10",
@@ -36,6 +37,7 @@
     "react-helmet": "^5.2.1",
     "react-jss": "^8.6.1",
     "react-player": "^1.11.0",
+    "zel-react": "../zeppelin-element-library-react/packages/zel-react/build/",
     "zeppelin-element-library": "^0.10.7"
   },
   "scripts": {
@@ -67,7 +69,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/core": "^7.4.5",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.8.0",
     "babel-preset-gatsby": "^0.1.11",

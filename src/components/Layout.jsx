@@ -9,7 +9,8 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
+import Button from 'zel-react/Button'
+import CopyIcon from './icons/CopyIcon'
 
 const styles = theme => ({
   main: {
@@ -68,6 +69,10 @@ const styles = theme => ({
     position: 'absolute',
     left: '-999em',
     width: '990em',
+  },
+  test: {
+    // fill: theme.colors.primary.indigoBlue.hex,
+    // width: 50,
   },
 })
 
@@ -149,7 +154,13 @@ function Layout({ children, classes }) {
               />
               <SkipNavContent />
               <MDXProvider components={components}>
-                <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
+                <main className={classnames(classes.main, 'zep-grid')}>
+                  <Button color="primary">
+                    <CopyIcon />
+                    Test
+                  </Button>
+                  {children}
+                </main>
               </MDXProvider>
               <Footer />
             </div>
