@@ -3,6 +3,8 @@ label: numberInputUsage
 title: Number Input Usage
 ---
 
+import ContentTable from '../../components/table/ContentTable'
+
 # Developers
 
 ### type="number" or type="text"
@@ -25,7 +27,115 @@ To implement colors please make sure that you have a theme included. For more in
 
 All input fields require a label to help explain the purpose of the field. In this specific case, since there is no label we still want to ensure that a label is present with the css 'zep-visually-hidden' so that it still accessible to assisitive technologies.
 
-### Javascript functionality
+## Javascript functionality
 
-At the moment we do not provide any vanillaJS functionality for the number input, but this will be added in the future.
-If you use ReactJS or VueJS feel free to look into the provided examples.
+Any Number Input Element in the DOM with the HTML data property _data-zep-type="number-input"_ will be initialized automatically with the basic Zeppelin Element Library initialization.
+
+### Properties
+
+You can define specific properties by using the HTML data attributes listed in the table below.
+
+<ContentTable
+  title="Number Input Attributes"
+  header={['HTMLElement', 'attribute', 'values', 'default', 'description']}
+  content={{
+    elementType: {
+      HTMLElement: 'div.zep-numberinput',
+      attribute: 'data-zep-type',
+      values: '"number-input"',
+      default: 'null',
+      description:
+        'The type is mandatory and used to identify that Element for initialization.',
+    },
+    elementInit: {
+      HTMLElement: 'div.zep-numberinput',
+      attribute: 'data-zep-init',
+      values: 'true, false',
+      default: 'true',
+      description:
+        "The init variable is optional and used for the auto-initialization process. If you don't want the element to be auto-initialized and use your own JavaScript implementation on that, use the value: false.",
+    },
+    minimumValue: {
+      HTMLElement: 'div.zep-numberinput',
+      attribute: 'data-zep-min',
+      values: '0 - 9999999999',
+      default: '0',
+      description: 'This is optional and defines the minimum number value.',
+    },
+    maxiumumValue: {
+      HTMLElement: 'div.zep-numberinput',
+      attribute: 'data-zep-max',
+      values: '1 - 9999999999',
+      default: '9999999999',
+      description: 'This is optional and defines the maximum number value.',
+    },
+    steps: {
+      HTMLElement: 'div.zep-numberinput',
+      attribute: 'data-zep-step',
+      values: '1 - 9999999999',
+      default: '1',
+      description:
+        'This is optional and defines the number of steps for one ± operation.',
+    },
+    buttonType: {
+      HTMLElement: 'div.zep-numberinput > button.zep-button',
+      attribute: 'data-zep-option',
+      values: '"minus", "plus"',
+      default: 'null',
+      description:
+        'This option is mandatory to identify the counter for increasing or decreasing the number value.',
+    },
+  }}
+/>
+
+Here is an example on using the properties.
+
+```html
+<div
+  class="zep-numberinput"
+  data-zep-type="number-input"
+  data-zep-step="1"
+  data-zep-max="10"
+  data-zep-min="0"
+>
+  <button class="zep-button zep-button-icon">
+    <svg
+      class="zep-button__icon"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+    >
+      <title>zepicons-minus</title>
+      <path
+        fill="currentColor"
+        d="M25.333 17.333h-18.667v-2.667h18.667z"
+      ></path>
+    </svg>
+  </button>
+  <label for="counter" class="zep-visually-hidden">Counter</label
+  ><input
+    type="text"
+    class="zep-input zep-input--number"
+    value="1"
+    id="counter"
+  />
+  <button class="zep-button zep-button-icon">
+    <svg
+      class="zep-button__icon"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+    >
+      <title>zepicons-plus</title>
+      <path
+        fill="currentColor"
+        d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"
+      ></path>
+    </svg>
+  </button>
+</div>
+```
