@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import { StaticQuery, graphql } from 'gatsby'
@@ -10,6 +10,7 @@ import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
+import ZEL from 'zeppelin-element-library'
 
 const styles = theme => ({
   main: {
@@ -71,9 +72,23 @@ const styles = theme => ({
   },
 })
 
+// init ZEL once
+if (typeof window !== `undefined` && typeof document !== `undefined`) {
+  document.addEventListener('DOMContentLoaded', function(event) {
+    ZEL.init()
+    window.ZEL = ZEL
+  })
+}
+
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('zeppelin')
+
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // refreshed ZEL on view change
+    ZEL.refresh()
+  })
 
   const handleTheme = theme => {
     setTheme(theme)
