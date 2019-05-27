@@ -45,6 +45,33 @@ After initializing please make sure to use the refresh function after each DOM m
 ZEL.refresh()
 ```
 
+If you use the Zeppelin Element Library inside a framework with Server Side Rendering or Static Site Generation like Gatsby you might see errors with "browser globals" like **window** or **document** (e.g “window is not defined”).
+If the code is in the render function of a React.js component, use React Hooks (React 16.8+) or move that code into componentDidMount which ensures the code doesn’t run unless it’s in the browser or simply check if window or document is defined.
+
+```jsx
+import React, { useEffect } from 'react';
+import ZEL from 'zeppelin-element-library'
+
+// Wrap the init in check for window
+// init ZEL once
+if (typeof window !== `undefined` && typeof document !== `undefined`) {
+  document.addEventListener('DOMContentLoaded', function(event) {
+    ZEL.init()
+    window.ZEL = ZEL // if you want to access ZEL after uglification
+  })
+}
+
+// React functional component
+function Layout({something}) {
+
+  // Effect Hook
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // refresh ZEL on view change
+    ZEL.refresh()
+  })
+```
+
 ## Basic Usage: Styles
 
 To get started simply import the files you want to use in any project.
