@@ -45,7 +45,7 @@ After initializing please make sure to use the refresh function after each DOM m
 ZEL.refresh()
 ```
 
-If you use the Zeppelin Element Library inside a framework with Server Side Rendering or Static Site Generation like Gatsby you might see errors with "browser globals" like **window** or **document** (e.g “window is not defined”).
+If you use the Zeppelin Element Library inside a framework with Server Side Rendering or Static Site Generation like Gatsby you might see errors with "browser globals" like **window** or **document** (e.g. “window is not defined”).
 If the code is in the render function of a React.js component, use React Hooks (React 16.8+) or move that code into componentDidMount which ensures the code doesn’t run unless it’s in the browser or simply check if window or document is defined.
 
 ```jsx
