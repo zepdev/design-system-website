@@ -29,7 +29,7 @@ import ZEL from 'zeppelin-element-library'
 const ZEL = require('zeppelin-element-library')
 ```
 
-To get the JavaScript running, initialize ZEL after the DOM has loaded. Place the following script at the bottom of your body element.
+To get the JavaScript running, initialize ZEL after the DOM has loaded. Place the following script at the bottom of your body element or to your dedicated JavaScript file to initialize the library after every page load.
 
 ```html
 <script>
@@ -37,6 +37,12 @@ To get the JavaScript running, initialize ZEL after the DOM has loaded. Place th
     ZEL.init()
   })
 </script>
+```
+
+After initializing please make sure to use the refresh function after each DOM manipulation that effects any of the Zeppelin Element Library's elements to keep its functionality.
+
+```js
+ZEL.refresh()
 ```
 
 ## Basic Usage: Styles
