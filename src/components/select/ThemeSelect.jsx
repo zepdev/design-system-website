@@ -2,10 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
 import classnames from 'classnames'
+import Downshift from 'downshift'
 import NavigationDropdownIcon from '../icons/NavigationDropdownIcon'
-import '@reach/menu-button/styles.css'
-import { Menu, MenuList, MenuButton, MenuItem } from '@reach/menu-button'
-import './themeSelect.css'
 
 const styles = theme => ({
   circle: {
@@ -25,22 +23,16 @@ const styles = theme => ({
   rental: {
     backgroundColor: theme.colors.primary.rentalRed.hex,
   },
-  zeppelinBorder: {
-    border: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
-    width: 200,
-  },
-  catBorder: {
-    border: `2px solid ${ theme.colors.primary.catYellow.hex }`,
-    width: 200,
-  },
-  rentalBorder: {
-    border: `2px solid ${ theme.colors.primary.rentalRed.hex }`,
-    width: 200,
+  dropdownIcon: {
+    display: 'none',
   },
   menuButton: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    background: 'transparent',
+    border: 'none',
+    padding: 0,
     height: 46,
     width: 46,
     '&:focus': {
@@ -66,14 +58,11 @@ const styles = theme => ({
   text: {
     display: 'flex',
     alignItems: 'center',
-    '&[data-reach-menu-item][data-selected]': {
-      fontWeight: 600,
-      color: theme.colors.gray.black.hex,
-      background: theme.colors.gray.white.hex,
-    },
+    color: theme.colors.gray.black.hex,
   },
-  menuList: {
-    width: 200,
+  ul: {
+    position: 'fixed',
+    right: 0,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     circle: {
@@ -98,11 +87,18 @@ const styles = theme => ({
     icon: {
       display: 'inline-block',
     },
+    ul: {
+      right: 65,
+      width: 200,
+    },
     menuButton: {
       background: theme.colors.gray.white.hex,
       height: 'auto',
       width: 'auto',
       padding: '6px 12px',
+    },
+    dropdownIcon: {
+      display: 'block',
     },
     circleContainer: {
       borderRadius: 0,
@@ -111,10 +107,99 @@ const styles = theme => ({
       justifyContent: 'flex-start',
     },
   },
+  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+    ul: {
+      right: 'auto',
+      width: 200,
+    },
+  },
 })
 
-const ThemeSelect = ({ onSelect, menuItems, selected, classes }) => (
-  <Menu>
+const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }) => (
+  <Downshift onChange={selection => onChange(selection)} itemToString={item => item || ''}>
+    {({
+      getItemProps,
+      getLabelProps,
+      getMenuProps,
+      toggleMenu,
+      isOpen,
+      inputValue,
+      highlightedIndex,
+      selectedItem,
+    }) => (
+      <div>
+        <label {...getLabelProps({ className: 'zep-visually-hidden', htmlFor: 'zep-select' })}>
+          Theme
+        </label>
+        <button
+          id="zep-select"
+          type="button"
+          className={classnames('zep-select__button', classes.menuButton)}
+          onClick={toggleMenu}
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded={isOpen}
+        >
+          <span className={classes.circleContainer}>
+            <span
+              className={classnames(classes.circle, {
+                [classes.zeppelin]: selected === 'zeppelin',
+                [classes.cat]: selected === 'cat',
+                [classes.rental]: selected === 'rental',
+              })}
+            />
+          </span>
+          <NavigationDropdownIcon
+            className={classnames(classes.dropdownIcon, 'zep-select__icon')}
+          />
+        </button>
+        {isOpen ? (
+          <ul {...getMenuProps({ className: classnames(classes.ul, 'zep-select__list') })}>
+            {items.map((item, index) => (
+              <li
+                {...getItemProps({
+                  key: `listItem${ index }`,
+                  index,
+                  item,
+                  className: classnames(classes.text, 'zep-select__listitem'),
+                  style: {
+                    backgroundColor: highlightedIndex === index ? 'lightgray' : 'white',
+                    fontWeight: selectedItem === item ? 'bold' : 'normal',
+                  },
+                })}
+              >
+                <div
+                  className={classnames(classes.circle, classes.spacer, {
+                    [classes.zeppelin]: item === 'zeppelin',
+                    [classes.cat]: item === 'cat',
+                    [classes.rental]: item === 'rental',
+                  })}
+                />
+                {item === 'zeppelin'
+                  ? 'Zeppelin Blue'
+                  : item === 'cat'
+                    ? 'Zeppelin Yellow'
+                    : 'Zeppelin Red'}
+              </li>
+            ))}
+          </ul>
+        ) : null}
+      </div>
+    )}
+  </Downshift>
+)
+
+ThemeSelect.propTypes = {
+  classes: PropTypes.object.isRequired,
+  onSelect: PropTypes.func.isRequired,
+  menuItems: PropTypes.array.isRequired,
+  selected: PropTypes.string.isRequired,
+}
+
+export default withStyles(styles)(ThemeSelect)
+
+{
+  /* <Menu>
     <MenuButton className={classnames(classes.menuButton, 'zep-select__button')}>
       <span className={classes.circleContainer}>
         <span
@@ -155,14 +240,5 @@ const ThemeSelect = ({ onSelect, menuItems, selected, classes }) => (
         </MenuItem>
       ))}
     </MenuList>
-  </Menu>
-)
-
-ThemeSelect.propTypes = {
-  classes: PropTypes.object.isRequired,
-  onSelect: PropTypes.func.isRequired,
-  menuItems: PropTypes.array.isRequired,
-  selected: PropTypes.string.isRequired,
+  </Menu> */
 }
-
-export default withStyles(styles)(ThemeSelect)
