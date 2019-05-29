@@ -5,6 +5,74 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="zep-numberinput"
+      >
+        <button
+          class="zep-button zep-button-icon"
+          data-testid="minus"
+        >
+          <svg
+            aria-labelledby="title_menu"
+            class="zep-button__icon"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_menu"
+            >
+              Minus
+            </title>
+            <path
+              d="M25.333 17.333h-18.667v-2.667h18.667z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <label
+          class="zep-visually-hidden"
+          for="numberInput_mockLabel"
+        >
+          mockLabel
+        </label>
+        <input
+          class="zep-input zep-input--number"
+          id="numberInput_mockLabel"
+          type="text"
+          value="0"
+        />
+        <button
+          class="zep-button zep-button-icon"
+          data-testid="plus"
+        >
+          <svg
+            aria-labelledby="title_menu"
+            class="zep-button__icon"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_menu"
+            >
+              Plus
+            </title>
+            <path
+              d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="zep-numberinput"
+    >
       <button
         class="zep-button zep-button-icon"
         data-testid="minus"
@@ -34,20 +102,12 @@ Object {
       >
         mockLabel
       </label>
-      <div
-        class="zep-form-container"
-      >
-        <input
-          class="zep-input zep-input--number zep-input"
-          id="numberInput_mockLabel"
-          type="text"
-          value="0"
-        />
-        <label
-          class="zep-form-container__label"
-          for="numberInput_mockLabel"
-        />
-      </div>
+      <input
+        class="zep-input zep-input--number"
+        id="numberInput_mockLabel"
+        type="text"
+        value="0"
+      />
       <button
         class="zep-button zep-button-icon"
         data-testid="plus"
@@ -72,74 +132,6 @@ Object {
         </svg>
       </button>
     </div>
-  </body>,
-  "container": <div>
-    <button
-      class="zep-button zep-button-icon"
-      data-testid="minus"
-    >
-      <svg
-        aria-labelledby="title_menu"
-        class="zep-button__icon"
-        height="32"
-        viewBox="0 0 24 24"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title
-          id="title_menu"
-        >
-          Minus
-        </title>
-        <path
-          d="M25.333 17.333h-18.667v-2.667h18.667z"
-          fill="currentColor"
-        />
-      </svg>
-    </button>
-    <label
-      class="zep-visually-hidden"
-      for="numberInput_mockLabel"
-    >
-      mockLabel
-    </label>
-    <div
-      class="zep-form-container"
-    >
-      <input
-        class="zep-input zep-input--number zep-input"
-        id="numberInput_mockLabel"
-        type="text"
-        value="0"
-      />
-      <label
-        class="zep-form-container__label"
-        for="numberInput_mockLabel"
-      />
-    </div>
-    <button
-      class="zep-button zep-button-icon"
-      data-testid="plus"
-    >
-      <svg
-        aria-labelledby="title_menu"
-        class="zep-button__icon"
-        height="32"
-        viewBox="0 0 24 24"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title
-          id="title_menu"
-        >
-          Plus
-        </title>
-        <path
-          d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"
-          fill="currentColor"
-        />
-      </svg>
-    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -160,14 +160,15 @@ const Iconography = ({ classes }) => {
         <>
           <Headline variant="md">Zeppelin Icons</Headline>
           <p className={classnames(classes.text, 'zep-typo--normal-3')}>
-            Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG
-            Sprite) or icons may be downloaded individually from below.
+            Icons can be downloaded as one large file containing all icons
+            (Sketch, SVGs, or SVG Sprite) or icons may be downloaded
+            individually from below.
           </p>
           <DownloadContainer>
             <DownloadFile
               title="Zeppelin Sketch Library"
               variant="sketch"
-              href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
+              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zds-library.sketch`}
               download=""
               ariaLabel="download"
             />
@@ -175,13 +176,13 @@ const Iconography = ({ classes }) => {
           <DownloadContainer>
             <DownloadFile
               title="Zeppelin SVG Icons"
-              href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zepicons.zip"
+              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepicons.zip`}
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
               title="Zeppelin SVG Sprite"
-              href={`https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/${ zelVersion }/css/assets/dist/zepsprite.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepsprite.zip`}
               download=""
               ariaLabel="download"
             />
@@ -203,10 +204,16 @@ const Iconography = ({ classes }) => {
                     <div className={classes.content}>
                       <span className={classes.backdrop} />
                       <span className={classes.backdropContent}>
-                        <DownloadIcon className={classes.icon} ariaLabel="download" />
+                        <DownloadIcon
+                          className={classes.icon}
+                          ariaLabel="download"
+                        />
                       </span>
                       <p
-                        className={classnames(classes.name, 'zep-typo--normal-1')}
+                        className={classnames(
+                          classes.name,
+                          'zep-typo--normal-1'
+                        )}
                       >{`zepicons-${ elem }`}</p>
                       <img
                         src={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}
