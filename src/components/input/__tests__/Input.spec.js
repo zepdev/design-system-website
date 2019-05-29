@@ -7,6 +7,7 @@ describe('Input', () => {
     const mockProps = {
       type: 'text',
       startValue: 0,
+      id: 'mockId',
     }
     const component = render(<Input {...mockProps} />)
     expect(component).toMatchSnapshot()

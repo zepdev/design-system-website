@@ -40,27 +40,50 @@
         "title": "Tag"
       },
       "list": {
-        "title": "list"
-      },
-      "textarea": {
-        "title": "textarea"
+        "title": "List"
       },
       "input": {
-        "title": "input"
+        "title": "Input"
       },
       "radio": {
-        "title": "radio"
+        "title": "Radio"
       },
       "checkbox": {
-        "title": "checkbox"
+        "title": "Checkbox"
       },
-      "numberInput": {
+      "number-input": {
         "title": "Number Input"
+      },
+      "search": {
+        "title": "Search"
+      },
+      "table": {
+        "title": "Table"
+      },
+      "select": {
+        "title": "Select"
+      },
+      "tabs": {
+        "title": "Tabs"
+      },
+      "notification": {
+        "title": "notification"
+      },
+      "pagination": {
+        "title": "pagination"
       }
     }
   },
   "changelog": {
-    "title": "Changelog"
+    "title": "Changelog",
+    "subnav": {
+      "developers": {
+        "title": "Developers"
+      },
+      "designers": {
+        "title": "Designers"
+      }
+    }
   },
   "download": {
     "title": "Download"

@@ -4,27 +4,80 @@ title: Developers
 ---
 
 import { Link } from 'gatsby'
+import DocumentLink from '../../components/link/DocumentLink.jsx'
 
 # Developers
 
 To access the styleguide, first download the Zeppelin Element Library by your preferred method:
 
-<Link
+<DocumentLink
   to={'/content/download/'}
-  className="zep-button zep-button-primary"
-  style={{ marginBottom: '2rem' }}
->
-  <span className="zep-button__text">Take me to the Download Page</span>
-</Link>
+  text="I'm already ready, take me to the Download Page!"
+/>
 
-## Basic Usage
+## Basic Usage: Javascript
+
+Import the javascript using your preferred method;
+
+```js
+//Import as ECMAScript Module
+import ZEL from 'zeppelin-element-library'
+
+// OR
+
+//Require as CommonJs Module
+const ZEL = require('zeppelin-element-library')
+```
+
+To get the JavaScript running, initialize ZEL after the DOM has loaded. Place the following script at the bottom of your body element or to your dedicated JavaScript file to initialize the library after every page load.
+
+```html
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    ZEL.init()
+  })
+</script>
+```
+
+After initializing please make sure to use the refresh function after each DOM manipulation that effects any of the Zeppelin Element Library's elements to keep its functionality.
+
+```js
+ZEL.refresh()
+```
+
+If you use the Zeppelin Element Library inside a framework with Server Side Rendering or Static Site Generation like Gatsby you might see errors with "browser globals" like **window** or **document** (e.g. “window is not defined”).
+If the code is in the render function of a React.js component, use React Hooks (React 16.8+) or move that code into componentDidMount which ensures the code doesn’t run unless it’s in the browser or simply check if window or document is defined.
+
+```jsx
+import React, { useEffect } from 'react';
+import ZEL from 'zeppelin-element-library'
+
+// Wrap the init in check for window
+// init ZEL once
+if (typeof window !== `undefined` && typeof document !== `undefined`) {
+  document.addEventListener('DOMContentLoaded', function(event) {
+    ZEL.init()
+    window.ZEL = ZEL // if you want to access ZEL after uglification
+  })
+}
+
+// React functional component
+function Layout({something}) {
+
+  // Effect Hook
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // refresh ZEL on view change
+    ZEL.refresh()
+  })
+```
+
+## Basic Usage: Styles
 
 To get started simply import the files you want to use in any project.
 
 ```js
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
-
-import 'zeppelin-element-library'
 ```
 
 All available css classes and javascript can be found under the Elements and Components sections of this website.

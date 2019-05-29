@@ -3,14 +3,20 @@ label: Download
 title: Download
 ---
 
+import { version as zelVersion } from 'zeppelin-element-library/package.json'
 import DownloadFile from '../components/download/DownloadFile.jsx'
+import DownloadContainer from '../components/download/DownloadContainer.jsx'
 
 # Designers: Sketch Library
 
 <DownloadFile
   title="Zeppelin Sketch Library"
-  sketch
-  href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
+  variant="sketch"
+  href={
+    'https://cdn-zel.zepdev.net/zel/' +
+    zelVersion +
+    '/css/assets/dist/zds-library.sketch'
+  }
   download=""
   ariaLabel="download"
 />
@@ -36,17 +42,16 @@ yarn add zeppelin-element-library
 Use the cached version of our files from our CDN
 
 ```js
-<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.css" >
-<script src="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.min.js" ></script>
+<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.css" >
+<script src="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.min.js" ></script>
 
 ```
 
 Use the gzipped cached version of our files from our CDN
 
 ```js
-<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.css.gz" >
-<script src="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.min.js.gz" ></script>
-
+<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.css.gz" >
+<script src="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.min.js.gz" ></script>
 ```
 
 ---
@@ -57,7 +62,71 @@ If you would like to download and use these styles for your own purposes directl
 
 <DownloadFile
   title="Zeppelin Element Library CSS"
-  href="https://unpkg.com/zeppelin-element-library@0.3.5/bundle/zeppelin-element-library.css"
+  href="https://unpkg.com/zeppelin-element-library@latest/bundle/zeppelin-element-library.css"
   download="zeppelin-element-library.css"
   ariaLabel="download sketch file"
 />
+
+# Developers: Code Repositories
+
+<DownloadContainer>
+  <DownloadFile
+    title="Github: Zeppelin Element Library"
+    href="https://github.com/zepdev/zeppelin-element-library"
+    download=""
+    variant="github"
+    ariaLabel="github"
+  />
+  <DownloadFile
+    title="Github: Zeppelin Design System (this website)"
+    href="https://github.com/zepdev/design-system-website"
+    download=""
+    variant="github"
+    ariaLabel="github"
+  />
+</DownloadContainer>
+
+<DownloadContainer>
+  <DownloadFile
+    title="Github: Fork of CRA, react-scripts for ZEL"
+    href="https://github.com/zepdev/create-react-app"
+    download=""
+    variant="github"
+    ariaLabel="github"
+  />
+</DownloadContainer>
+
+---
+
+<DownloadContainer>
+  <DownloadFile
+    title="NPM: zeppelin-element-library"
+    href="https://www.npmjs.com/package/zeppelin-element-library"
+    download=""
+    variant="npm"
+    ariaLabel="npm"
+  />
+  <DownloadFile
+    title="NPM: zepdev-react-scripts"
+    href="https://www.npmjs.com/package/zepdev-react-scripts"
+    download=""
+    variant="npm"
+    ariaLabel="npm"
+  />
+</DownloadContainer>
+<DownloadContainer>
+  <DownloadFile
+    title="NPM: @zlab-de/zel-react"
+    href="https://www.npmjs.com/package/@zlab-de/zel-react"
+    download=""
+    variant="npm"
+    ariaLabel="npm"
+  />
+  <DownloadFile
+    title="NPM: @zlab-de/zel-react-icons"
+    href="https://www.npmjs.com/package/@zlab-de/zel-react-icons"
+    download=""
+    variant="npm"
+    ariaLabel="npm"
+  />
+</DownloadContainer>

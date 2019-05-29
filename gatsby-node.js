@@ -21,7 +21,7 @@ exports.onPreInit = () => {
     .on('error', function(err) {
       console.log(err)
     })
-    .pipe(fs.createWriteStream('src/content/changelog.md'))
+    .pipe(fs.createWriteStream('src/content/changelog/changelog.md'))
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -68,34 +68,5 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-  })
-}
-
-/**
- * Modernizr feature detects for older browsers
- */
-exports.onCreateWebpackConfig = ({ stage, plugins, actions }) => {
-  let ModernizrWebpackPlugin = require('modernizr-webpack-plugin')
-
-  let config = {
-    options: ['setClasses'],
-    // minify: true,
-
-    // help: https://github.com/Modernizr/Modernizr/tree/master/feature-detects
-    // help: https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json
-    'feature-detects': [
-      'css/flexbox',
-      'css/transitions',
-      'css/vmaxunit',
-      'css/vminunit',
-      'input',
-      'canvas',
-      'css/resize',
-      'css/wrapflow',
-    ],
-  }
-
-  actions.setWebpackConfig({
-    plugins: [new ModernizrWebpackPlugin(config)],
   })
 }

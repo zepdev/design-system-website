@@ -20,7 +20,7 @@ const styles = theme => ({
 const CodeUsage = ({ element, classes }) => {
   const [tab, setTab] = useState(0)
   const [elem] = useState(element)
-  const handleClick = (e, value) => {
+  const handleClick = value => {
     setTab(value)
   }
 
@@ -56,7 +56,7 @@ const CodeUsage = ({ element, classes }) => {
             <h3 className={classnames(classes.heading, 'zep-typo--normal-4')}>
               Code Usage Examples
             </h3>
-            <Tabs value={tab} onClick={handleClick} fullWidth>
+            <Tabs value={tab} onClick={handleClick}>
               <Tab label="React" />
               <Tab label="Vue" />
             </Tabs>

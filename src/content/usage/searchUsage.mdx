@@ -1,0 +1,33 @@
+---
+label: searchUsage
+title: Search Usage
+---
+
+# Developers
+
+## Theme
+
+To implement colors please make sure that you have a theme included. For more information on themes, please visit the Theme Page in the Guidelines Section.
+
+```jsx
+<main class="theme-zeppelin" id="app-root">
+  ...
+  <Search />
+  ...
+</main>
+```
+
+## Accessibility
+
+All input elements require the inclusion of a cooresponding label element. It can be visually hidden from designs with 'zep-visually-hidden'.
+
+Include the landmark 'role="search"' around the input element if it searches the website or webpage.
+
+```html
+<form role="search">
+  <label for="search">
+    <span class="zep-visually-hidden">Search</span>
+  </label>
+  <input type="text" id="search" />
+</form>
+```

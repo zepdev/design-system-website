@@ -23,7 +23,7 @@ function Button({
     },
     classNameProp
   )
-
+  // const isString = typeof childrenProp === 'string'
   const childrenIcon = childrenProp.filter(elem => typeof elem !== 'string')[0]
   const childrenIconTertiary = childrenIcon
     ? React.cloneElement(childrenIcon, {

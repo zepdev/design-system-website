@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-4"
+        class="Headline-text-0-1-5 zep-typo--normal-4"
       >
         primary
       </p>
@@ -17,7 +17,7 @@ Object {
           class="ElementPreview-innerContainer-0-1-2"
         >
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-primary"
@@ -30,7 +30,7 @@ Object {
             </button>
           </div>
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-primary"
@@ -44,7 +44,7 @@ Object {
             </button>
           </div>
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-primary zep-button-icon"
@@ -695,12 +695,12 @@ Object {
           </div>
         </div>
         <button
-          class="CopyButton-button-0-1-5 ButtonBase-button-0-1-7"
+          class="CopyButton-button-0-1-6 ButtonBase-button-0-1-8"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title_copy"
-            class="CopyButton-icon-0-1-6"
+            class="CopyButton-icon-0-1-7"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -719,7 +719,7 @@ Object {
         </button>
       </pre>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-4"
+        class="Headline-text-0-1-5 zep-typo--normal-4"
       >
         secondary
       </p>
@@ -730,7 +730,7 @@ Object {
           class="ElementPreview-innerContainer-0-1-2"
         >
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-secondary"
@@ -743,7 +743,7 @@ Object {
             </button>
           </div>
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-secondary"
@@ -757,7 +757,7 @@ Object {
             </button>
           </div>
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-secondary zep-button-icon"
@@ -1408,12 +1408,12 @@ Object {
           </div>
         </div>
         <button
-          class="CopyButton-button-0-1-5 ButtonBase-button-0-1-7"
+          class="CopyButton-button-0-1-6 ButtonBase-button-0-1-8"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title_copy"
-            class="CopyButton-icon-0-1-6"
+            class="CopyButton-icon-0-1-7"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -1432,7 +1432,7 @@ Object {
         </button>
       </pre>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-4"
+        class="Headline-text-0-1-5 zep-typo--normal-4"
       >
         tertiary
       </p>
@@ -1443,7 +1443,7 @@ Object {
           class="ElementPreview-innerContainer-0-1-2"
         >
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-tertiary"
@@ -1474,7 +1474,7 @@ Object {
             </button>
           </div>
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-tertiary"
@@ -2341,12 +2341,12 @@ Object {
           </div>
         </div>
         <button
-          class="CopyButton-button-0-1-5 ButtonBase-button-0-1-7"
+          class="CopyButton-button-0-1-6 ButtonBase-button-0-1-8"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title_copy"
-            class="CopyButton-icon-0-1-6"
+            class="CopyButton-icon-0-1-7"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -2365,7 +2365,7 @@ Object {
         </button>
       </pre>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-4"
+        class="Headline-text-0-1-5 zep-typo--normal-4"
       >
         other
       </p>
@@ -2376,7 +2376,7 @@ Object {
           class="ElementPreview-innerContainer-0-1-2"
         >
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-primary zep-button--full"
@@ -2389,7 +2389,7 @@ Object {
             </button>
           </div>
           <div
-            class="ElementPreview-element-0-1-3"
+            class="ElementPreview-element-0-1-4"
           >
             <button
               class="zep-button zep-button-primary zep-button--small"
@@ -2672,12 +2672,12 @@ Object {
           </div>
         </div>
         <button
-          class="CopyButton-button-0-1-5 ButtonBase-button-0-1-7"
+          class="CopyButton-button-0-1-6 ButtonBase-button-0-1-8"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title_copy"
-            class="CopyButton-icon-0-1-6"
+            class="CopyButton-icon-0-1-7"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -2699,7 +2699,7 @@ Object {
   </body>,
   "container": <div>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-4"
+      class="Headline-text-0-1-5 zep-typo--normal-4"
     >
       primary
     </p>
@@ -2710,7 +2710,7 @@ Object {
         class="ElementPreview-innerContainer-0-1-2"
       >
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-primary"
@@ -2723,7 +2723,7 @@ Object {
           </button>
         </div>
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-primary"
@@ -2737,7 +2737,7 @@ Object {
           </button>
         </div>
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-primary zep-button-icon"
@@ -3388,12 +3388,12 @@ Object {
         </div>
       </div>
       <button
-        class="CopyButton-button-0-1-5 ButtonBase-button-0-1-7"
+        class="CopyButton-button-0-1-6 ButtonBase-button-0-1-8"
         data-testid="copyButton"
       >
         <svg
           aria-labelledby="title_copy"
-          class="CopyButton-icon-0-1-6"
+          class="CopyButton-icon-0-1-7"
           height="32"
           viewBox="0 0 24 24"
           width="32"
@@ -3412,7 +3412,7 @@ Object {
       </button>
     </pre>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-4"
+      class="Headline-text-0-1-5 zep-typo--normal-4"
     >
       secondary
     </p>
@@ -3423,7 +3423,7 @@ Object {
         class="ElementPreview-innerContainer-0-1-2"
       >
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-secondary"
@@ -3436,7 +3436,7 @@ Object {
           </button>
         </div>
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-secondary"
@@ -3450,7 +3450,7 @@ Object {
           </button>
         </div>
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-secondary zep-button-icon"
@@ -4101,12 +4101,12 @@ Object {
         </div>
       </div>
       <button
-        class="CopyButton-button-0-1-5 ButtonBase-button-0-1-7"
+        class="CopyButton-button-0-1-6 ButtonBase-button-0-1-8"
         data-testid="copyButton"
       >
         <svg
           aria-labelledby="title_copy"
-          class="CopyButton-icon-0-1-6"
+          class="CopyButton-icon-0-1-7"
           height="32"
           viewBox="0 0 24 24"
           width="32"
@@ -4125,7 +4125,7 @@ Object {
       </button>
     </pre>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-4"
+      class="Headline-text-0-1-5 zep-typo--normal-4"
     >
       tertiary
     </p>
@@ -4136,7 +4136,7 @@ Object {
         class="ElementPreview-innerContainer-0-1-2"
       >
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-tertiary"
@@ -4167,7 +4167,7 @@ Object {
           </button>
         </div>
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-tertiary"
@@ -5034,12 +5034,12 @@ Object {
         </div>
       </div>
       <button
-        class="CopyButton-button-0-1-5 ButtonBase-button-0-1-7"
+        class="CopyButton-button-0-1-6 ButtonBase-button-0-1-8"
         data-testid="copyButton"
       >
         <svg
           aria-labelledby="title_copy"
-          class="CopyButton-icon-0-1-6"
+          class="CopyButton-icon-0-1-7"
           height="32"
           viewBox="0 0 24 24"
           width="32"
@@ -5058,7 +5058,7 @@ Object {
       </button>
     </pre>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-4"
+      class="Headline-text-0-1-5 zep-typo--normal-4"
     >
       other
     </p>
@@ -5069,7 +5069,7 @@ Object {
         class="ElementPreview-innerContainer-0-1-2"
       >
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-primary zep-button--full"
@@ -5082,7 +5082,7 @@ Object {
           </button>
         </div>
         <div
-          class="ElementPreview-element-0-1-3"
+          class="ElementPreview-element-0-1-4"
         >
           <button
             class="zep-button zep-button-primary zep-button--small"
@@ -5365,12 +5365,12 @@ Object {
         </div>
       </div>
       <button
-        class="CopyButton-button-0-1-5 ButtonBase-button-0-1-7"
+        class="CopyButton-button-0-1-6 ButtonBase-button-0-1-8"
         data-testid="copyButton"
       >
         <svg
           aria-labelledby="title_copy"
-          class="CopyButton-icon-0-1-6"
+          class="CopyButton-icon-0-1-7"
           height="32"
           viewBox="0 0 24 24"
           width="32"

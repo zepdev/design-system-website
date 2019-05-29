@@ -1,103 +1,52 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import withStyles from 'react-jss'
-import ButtonBase from '../button/ButtonBase'
-
-const styles = theme => ({
-  root: {
-    fontSize: '100%',
-    font: 'inherit',
-    paddingTop: `${ theme.spacing.component.s.rem }rem`,
-    '&:hover': {
-      borderBottom: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
-      '& $labelPrimary': {
-        color: theme.colors.gray.grayDark.hex,
-      },
-      '& $labelSecondary': {
-        color: theme.colors.gray.grayLight.hex,
-      },
-    },
-    '&$selected': {
-      borderBottom: `2px solid ${ theme.colors.primary.indigoBlue.hex }`,
-    },
-  },
-  normal: {
-    flexBasis: '100%',
-  },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
-    normal: {
-      flexBasis: '25%',
-    },
-  },
-  fullWidth: {
-    flexBasis: '100%',
-  },
-  label: {
-    textAlign: 'center',
-  },
-  labelPrimary: {
-    color: theme.colors.gray.grayLight.hex,
-    '&$selected': {
-      color: theme.colors.gray.grayDark.hex,
-    },
-  },
-  labelSecondary: {
-    color: theme.colors.gray.white.hex,
-    '&$selected': {
-      color: theme.colors.gray.grayMid.hex,
-    },
-  },
-  selected: {},
-})
 
 const Tab = ({
   className: classNameProp,
   label,
-  fullWidth,
-  color,
+  size,
+  variant,
   onClick,
+  icon,
   value,
   selected,
-  classes,
 }) => {
+  const iconStyled = icon
+    ? React.cloneElement(icon, {
+      className: 'zep-icon__icon',
+    })
+    : null
+
   return (
-    <ButtonBase
-      className={classnames(classes.root, classNameProp, {
-        [classes.selected]: selected,
-        [classes.normal]: !fullWidth,
-        [classes.fullWidth]: fullWidth,
-      })}
-      onClick={e => onClick(e, value)}
-    >
-      <p
-        className={classnames(
-          classes.label,
-          {
-            [classes.selected]: selected,
-            [classes.labelPrimary]: color === 'primary',
-            [classes.labelSecondary]: color === 'secondary',
-          },
-          'zep-typo--normal-4'
-        )}
+    <div className="zep-tabs__item">
+      <button
+        className={classnames('zep-tab', classNameProp, {
+          'zep-tab--selected': selected,
+          'zep-tab--small': size === 'small',
+          'zep-tab--icon': variant === 'icon',
+        })}
+        onClick={() => onClick(value)}
+        role="tab"
+        aria-selected={selected}
+        id={`tab-${ value }`}
+        tabIndex={0}
       >
+        {iconStyled}
         {label}
-      </p>
-    </ButtonBase>
+      </button>
+    </div>
   )
 }
 
 Tab.propTypes = {
-  classes: PropTypes.object.isRequired,
   label: PropTypes.string.isRequired,
-  color: PropTypes.oneOf(['primary', 'secondary']),
+  size: PropTypes.oneOf(['small']),
+  variant: PropTypes.oneOf(['icon']),
   onClick: PropTypes.func,
+  icon: PropTypes.object,
   value: PropTypes.number,
   selected: PropTypes.bool,
 }
 
-Tab.defaultProps = {
-  color: 'primary',
-}
-
-export default withStyles(styles)(Tab)
+export default Tab

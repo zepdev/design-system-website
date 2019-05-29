@@ -1,0 +1,111 @@
+---
+label: tabsCodeExample_React
+title: Code
+---
+
+```jsx
+// Tabs.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'classnames'
+
+const Tabs = ({
+  className: classNameProp,
+  children: childrenProp,
+  onClick,
+  ariaLabel,
+  value,
+}) => {
+  const valueToIndex = new Map()
+  let childIndex = 0
+  const children = React.Children.map(childrenProp, child => {
+    if (!React.isValidElement(child)) {
+      return null
+    }
+    const childValue = child.props.value === undefined ? childIndex : child.props.value
+    valueToIndex.set(childValue, childIndex)
+    const selected = childValue === value
+
+    childIndex += 1
+    return React.cloneElement(child, {
+      selected,
+      onClick,
+      value: childValue,
+    })
+  })
+
+  return (
+    <div
+      className={classnames(classes.root, classNameProp, 'zep-tabs')}
+      data-testid="tabs"
+      role="tablist"
+      aria-label={ariaLabel}
+    >
+      {children}
+    </div>
+  )
+}
+
+Tabs.propTypes = {
+  children: PropTypes.array.isRequired,
+  onClick: PropTypes.func,
+  value: PropTypes.number,
+  ariaLabel: PropTypes.string,
+}
+
+export default Tabs
+
+// Tab.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'classnames'
+
+const Tab = ({
+  className: classNameProp,
+  label,
+  size,
+  variant,
+  onClick,
+  icon,
+  value,
+  selected,
+}) => {
+  const iconStyled = icon
+    ? React.cloneElement(icon, {
+        className: 'zep-icon__icon',
+      })
+    : null
+
+  return (
+    <div className="zep-tabs__item">
+      <button
+        className={classnames('zep-tab', classNameProp, {
+          'zep-tab--selected': selected,
+          'zep-tab--small': size === 'small',
+          'zep-tab--icon': variant === 'icon',
+        })}
+        onClick={() => onClick(value)}
+        role="tab"
+        aria-selected={selected}
+        id={`tab-${value}`}
+        tabIndex={0}
+      >
+        {iconStyled}
+        {label}
+      </button>
+    </div>
+  )
+}
+
+Tab.propTypes = {
+  label: PropTypes.string.isRequired,
+  size: PropTypes.oneOf(['small']),
+  variant: PropTypes.oneOf(['icon']),
+  onClick: PropTypes.func,
+  icon: PropTypes.object,
+  value: PropTypes.number,
+  selected: PropTypes.bool,
+}
+
+export default Tab
+```

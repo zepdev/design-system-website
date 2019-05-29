@@ -13,6 +13,7 @@ import Divider from '../typography/Divider'
 import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
 import { iconography } from '../../data/elements'
+import { version as zelVersion } from 'zeppelin-element-library/package.json'
 
 const styles = theme => ({
   tabs: {
@@ -115,7 +116,7 @@ const styles = theme => ({
 const Iconography = ({ classes }) => {
   const [value, setValue] = useState(0)
 
-  function handleChange(event, newValue) {
+  function handleChange(newValue) {
     setValue(newValue)
   }
 
@@ -157,22 +158,30 @@ const Iconography = ({ classes }) => {
       </Tabs>
       {value === 0 && (
         <>
-          <Headline variant="md">Icon Packages</Headline>
+          <Headline variant="md">Zeppelin Icons</Headline>
           <p className={classnames(classes.text, 'zep-typo--normal-3')}>
-            If you would like to download and use these styles for your own purposes directly in
-            your project you may download the minified file below.
+            Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG
+            Sprite) or icons may be downloaded individually from below.
           </p>
           <DownloadContainer>
             <DownloadFile
-              title="Zeppelin Iconography Library"
+              title="Zeppelin Sketch Library"
+              variant="sketch"
+              href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
+              download=""
+              ariaLabel="download"
+            />
+          </DownloadContainer>
+          <DownloadContainer>
+            <DownloadFile
+              title="Zeppelin SVG Icons"
               href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zepicons.zip"
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
-              title="Zeppelin Sketch Library"
-              sketch
-              href="https://cdn-zel.zepdev.net/zel/0.4.3/css/assets/dist/zds-library.sketch"
+              title="Zeppelin SVG Sprite"
+              href={`https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/${ zelVersion }/css/assets/dist/zepsprite.zip`}
               download=""
               ariaLabel="download"
             />
@@ -187,7 +196,7 @@ const Iconography = ({ classes }) => {
                     className={classes.container}
                     key={`icon${ elem }`}
                     target="_blank"
-                    href={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
+                    href={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}
                     download={`zepicons-${ elem }.svg`}
                     aria-label={elem}
                   >
@@ -200,7 +209,7 @@ const Iconography = ({ classes }) => {
                         className={classnames(classes.name, 'zep-typo--normal-1')}
                       >{`zepicons-${ elem }`}</p>
                       <img
-                        src={require(`zeppelin-element-library/bundle/assets/icons/zepicons-${ elem }.svg`)}
+                        src={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}
                         alt={elem}
                         className={classes.img}
                       />

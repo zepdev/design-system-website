@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import { StaticQuery, graphql } from 'gatsby'
@@ -10,15 +10,16 @@ import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
+import ZEL from 'zeppelin-element-library'
 
 const styles = theme => ({
   main: {
     minHeight: '100vh',
-    paddingTop: 62,
+    paddingTop: 16,
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
-      paddingTop: 116,
+      paddingTop: 48,
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
@@ -69,11 +70,33 @@ const styles = theme => ({
     left: '-999em',
     width: '990em',
   },
+  test: {
+    // fill: theme.colors.primary.indigoBlue.hex,
+    // width: 50,
+  },
 })
+
+// init ZEL once
+if (typeof window !== `undefined` && typeof document !== `undefined`) {
+  document.addEventListener('DOMContentLoaded', function(event) {
+    ZEL.init()
+    window.ZEL = ZEL
+  })
+}
 
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('zeppelin')
+  const [radio, setRadio] = React.useState('a')
+  function handleChange(event) {
+    setRadio(event.target.value)
+  }
+
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // refreshed ZEL on view change
+    ZEL.refresh()
+  })
 
   const handleTheme = theme => {
     setTheme(theme)
@@ -129,31 +152,29 @@ function Layout({ children, classes }) {
       `}
       render={data => {
         return (
-          <div className={classes.root}>
+          <div
+            className={classnames(classes.root, {
+              'theme-zeppelin': theme === 'zeppelin',
+              'theme-cat': theme === 'cat',
+              'theme-rental': theme === 'rental',
+            })}
+          >
             <SkipNavLink className={classes.skipLink} />
-            <div
-              className={classnames({
-                'theme-zeppelin': theme === 'zeppelin',
-                'theme-cat': theme === 'cat',
-                'theme-rental': theme === 'rental',
-              })}
-            >
-              <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
-              <div>
-                <Header
-                  siteTitle={data.mdx.frontmatter.title}
-                  handleTheme={handleTheme}
-                  handleMenu={() => {
-                    setMenu(!isMenuOpen)
-                  }}
-                  theme={theme}
-                />
-                <SkipNavContent />
-                <MDXProvider components={components}>
-                  <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
-                </MDXProvider>
-                <Footer />
-              </div>
+            <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
+            <div>
+              <Header
+                siteTitle={data.mdx.frontmatter.title}
+                handleTheme={handleTheme}
+                handleMenu={() => {
+                  setMenu(!isMenuOpen)
+                }}
+                theme={theme}
+              />
+              <SkipNavContent />
+              <MDXProvider components={components}>
+                <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
+              </MDXProvider>
+              <Footer />
             </div>
           </div>
         )

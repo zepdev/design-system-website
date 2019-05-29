@@ -1,0 +1,165 @@
+---
+label: tableCodeExample_React
+title: Table Code
+---
+
+```jsx
+// MyTableComponent.jsx
+import React from 'react'
+import Table from './Table'
+import TableHeader from './TableHeader'
+import TableCell from './TableCell'
+import TableBody from './TableBody'
+import TableRow from './TableRow'
+
+function MyTableComponent() {
+  return (
+    <Table title="MyTableComponent">
+        <TableHeader>
+          {[1, 2].map(col => (
+            <TableCell key={`header_${ col }`}>Header {col}</TableCell>
+          ))}
+        </TableHeader>
+        <TableBody>
+          {[1, 2].map((row, idx) => (
+            <TableRow key={`row_${ row }`} color={idx % 2 === 0 ? 'white' : 'gray'}>
+              {[1, 2].map((cell, index) => (
+                <TableCell
+                  key={`cell_${ cell }`}
+                  scope={index === 0 ? 'row' : null}
+                  component={index === 0 ? 'th' : null}
+                >
+                  Cell {cell}
+                </TableCell>
+              ))}
+            </TableRow>
+          ))}
+        </TableBody>
+    </Table>
+  )
+}
+
+export default MyTableComponent
+
+
+// Table.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'classnames'
+
+function Table({ children, title, className: classNameProp }) {
+  return (
+    <table className={classnames('zep-table', classNameProp)}>
+      <caption className="zep-visually-hidden">{title}</caption>
+      {children}
+    </table>
+  )
+}
+
+Table.propTypes = {
+  children: PropTypes.array.isRequired,
+  title: PropTypes.string.isRequired,
+  className: PropTypes.string,
+}
+
+export default Table
+
+// TableHeader.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'classnames'
+
+function TableHeader({ children: childrenProp, className: classNameProp }) {
+  const children = React.Children.map(childrenProp, child => {
+    if (!React.isValidElement(child)) {
+      return null
+    }
+    return React.cloneElement(child, {
+      className: classnames('zep-table__cell--header', child.props.className),
+      scope: 'col',
+      component: 'th',
+    })
+  })
+  return (
+    <thead>
+      <tr className={classnames('zep-table__row zep-table__row--header', classNameProp)}>
+        {children}
+      </tr>
+    </thead>
+  )
+}
+
+TableHeader.propTypes = {
+  children: PropTypes.array.isRequired,
+  className: PropTypes.string,
+}
+
+export default TableHeader
+
+// TableBody.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+
+function TableBody({ children, className: classNameProp }) {
+  return <tbody className={classNameProp}>{children}</tbody>
+}
+
+TableBody.propTypes = {
+  children: PropTypes.array.isRequired,
+  className: PropTypes.string,
+}
+
+export default TableBody
+
+// TableRow.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'classnames'
+
+function TableRow({ children, color, className: classNameProp }) {
+  const className = classnames(
+    'zep-table__row',
+    {
+      'zep-table__row--white': color === 'white',
+      'zep-table__row--gray': color === 'gray',
+    },
+    classNameProp
+  )
+
+  return <tr className={className}>{children}</tr>
+}
+
+TableRow.propTypes = {
+  children: PropTypes.array.isRequired,
+  color: PropTypes.oneOf(['white', 'gray']),
+}
+
+TableRow.defaultProps = {
+  color: 'white',
+}
+
+export default TableRow
+
+// TableCell.jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'classnames'
+
+function TableCell({ children, component, className: classNameProp, ...props }) {
+  const Component = component || 'td'
+  return (
+    <Component className={classnames('zep-table__cell', classNameProp)} {...props}>
+      {children}
+    </Component>
+  )
+}
+
+TableCell.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
+  className: PropTypes.string,
+  component: PropTypes.oneOf(['th', 'td']),
+}
+
+export default TableCell
+
+```
