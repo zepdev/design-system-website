@@ -252,8 +252,8 @@ module.exports = {
     demo: {
       default: {
         js: [
-          `<span class="zep-tag">Tag<svg version="1.1" xmlns="http://www.w3.org/2000/
-          <svg" width="24" height="24" viewBox="0 0 24 24"><title>zepicons-close</title><path fill="currentColor" d="M25.333 8.547l-1.88-1.88-7.453 7.453-7.453-7.453-1.88 1.88 7.453 7.453-7.453 7.453 1.88 1.88 7.453-7.453 7.453 7.453 1.88-1.88-7.453-7.453z"></path></svg>
+          `<span class="zep-tag">Tag<button class="zep-tag__button"><svg class="zep-tag__icon" version="1.1" xmlns="http://www.w3.org/2000/
+          <svg" width="24" height="24" viewBox="0 0 24 24"><title>zepicons-close</title><path fill="currentColor" d="M25.333 8.547l-1.88-1.88-7.453 7.453-7.453-7.453-1.88 1.88 7.453 7.453-7.453 7.453 1.88 1.88 7.453-7.453 7.453 7.453 1.88-1.88-7.453-7.453z"></path></svg></button>
 </span>`,
         ],
       },

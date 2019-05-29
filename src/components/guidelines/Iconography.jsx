@@ -116,7 +116,7 @@ const styles = theme => ({
 const Iconography = ({ classes }) => {
   const [value, setValue] = useState(0)
 
-  function handleChange(event, newValue) {
+  function handleChange(newValue) {
     setValue(newValue)
   }
 
@@ -181,7 +181,7 @@ const Iconography = ({ classes }) => {
             />
             <DownloadFile
               title="Zeppelin SVG Sprite"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepiconsSprite.zip`}
+              href={`https://s3.eu-central-1.amazonaws.com/com.zeppelin.zds.assets/zel/${ zelVersion }/css/assets/dist/zepsprite.zip`}
               download=""
               ariaLabel="download"
             />

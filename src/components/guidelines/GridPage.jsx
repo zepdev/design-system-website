@@ -25,7 +25,7 @@ const styles = theme => ({
 function GridPage({ classes }) {
   const [value, setValue] = useState(0)
 
-  function handleChange(event, newValue) {
+  function handleChange(newValue) {
     setValue(newValue)
   }
 

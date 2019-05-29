@@ -14,7 +14,7 @@ import TableRow from './TableRow'
 
 function MyTableComponent() {
   return (
-    <Table className={classes.table} title={title}>
+    <Table title="MyTableComponent">
         <TableHeader>
           {[1, 2].map(col => (
             <TableCell key={`header_${ col }`}>Header {col}</TableCell>

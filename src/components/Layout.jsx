@@ -9,8 +9,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import Button from 'zel-react/Button'
-import CopyIcon from './icons/CopyIcon'
+import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 
 const styles = theme => ({
   main: {
@@ -79,6 +78,10 @@ const styles = theme => ({
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('zeppelin')
+  const [radio, setRadio] = React.useState('a')
+  function handleChange(event) {
+    setRadio(event.target.value)
+  }
 
   const handleTheme = theme => {
     setTheme(theme)
@@ -154,13 +157,7 @@ function Layout({ children, classes }) {
               />
               <SkipNavContent />
               <MDXProvider components={components}>
-                <main className={classnames(classes.main, 'zep-grid')}>
-                  <Button color="primary">
-                    <CopyIcon />
-                    Test
-                  </Button>
-                  {children}
-                </main>
+                <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
               </MDXProvider>
               <Footer />
             </div>
