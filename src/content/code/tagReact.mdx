@@ -6,14 +6,20 @@ title: Code
 ```jsx
 import React from 'react'
 import PropTypes from 'prop-types'
-import closeIcon from 'zeppelin-element-library/bundle/assets/icons/zepicons-close.svg'
+import ZepiconsClose from '@zlab-de/zel-react-icons/ZepiconsClose'
 
-function Tag() {
+function Tag({ children, onClick }) {
   return (
     <div>
       <div role="button" className="zep-tag">
-        Tag
-        {onClick && <img src={closeIcon} alt="close" onClick={onClick} />}
+        {children}
+        <button
+          className="zep-tag__button"
+          aria-label="close"
+          onClick={onClick}
+        >
+          <ZepiconsClose className="zep-tag__icon" />
+        </button>
       </div>
     </div>
   )
@@ -21,6 +27,7 @@ function Tag() {
 
 Tag.propTypes = {
   onClick: PropTypes.func,
+  children: PropTypes.string,
 }
 
 export default Tag

@@ -70,6 +70,10 @@ const styles = theme => ({
     left: '-999em',
     width: '990em',
   },
+  test: {
+    // fill: theme.colors.primary.indigoBlue.hex,
+    // width: 50,
+  },
 })
 
 // init ZEL once
@@ -83,6 +87,10 @@ if (typeof window !== `undefined` && typeof document !== `undefined`) {
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('zeppelin')
+  const [radio, setRadio] = React.useState('a')
+  function handleChange(event) {
+    setRadio(event.target.value)
+  }
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
