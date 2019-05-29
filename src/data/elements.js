@@ -51,9 +51,19 @@ module.exports = {
     demo: {
       default: {
         js: [
-          `<div class="zep-form-container" style="width: 100%;">
+          `<div class="zep-input-container" style="width: 100%;">
           <input type="text" id="inputZeppelin" placeholder="Placeholder" class="zep-input">
-          <label class="zep-form-container__label" for="inputZeppelin">Input Field</label>
+          <label class="zep-input-container__label" for="inputZeppelin">Input Field</label>
+          <label class="zep-input-container__feedback" for="inputZeppelin">Your feedback here</label>
+  </div>`,
+        ],
+      },
+      error: {
+        js: [
+          `<div class="zep-input-container zep-input-container--error" style="width: 100%;">
+          <input type="text" id="inputZeppelin" placeholder="Placeholder" class="zep-input">
+          <label class="zep-input-container__label" for="inputZeppelin">Input Field</label>
+          <label class="zep-input-container__feedback" for="inputZeppelin">Your feedback here</label>
   </div>`,
         ],
       },
