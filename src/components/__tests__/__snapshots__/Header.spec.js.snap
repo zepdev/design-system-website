@@ -183,40 +183,54 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 >
                   Theme:
                 </p>
-                <button
+                <div
                   aria-expanded="false"
-                  aria-haspopup="menu"
-                  class="ThemeSelect-menuButton-0-1-22 zep-select__button"
-                  data-reach-menu-button="true"
-                  id="button-12g0g2ch"
-                  type="button"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-1-label"
+                  role="combobox"
                 >
-                  <span
-                    class="ThemeSelect-circleContainer-0-1-23"
+                  <label
+                    class="zep-visually-hidden"
+                    for="zep-select"
+                    id="downshift-1-label"
+                  >
+                    Theme
+                  </label>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="zep-select__button ThemeSelect-menuButton-0-1-20"
+                    data-toggle="dropdown"
+                    id="zep-select"
+                    type="button"
                   >
                     <span
-                      class="ThemeSelect-circle-0-1-14 ThemeSelect-zeppelin-0-1-16"
-                    />
-                  </span>
-                  <svg
-                    aria-labelledby="title_launch"
-                    class="ThemeSelect-icon-0-1-24"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    width="32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title
-                      id="title_launch"
+                      class="ThemeSelect-circleContainer-0-1-21"
                     >
-                      Navigation Dropdown
-                    </title>
-                    <path
-                      d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
+                      <span
+                        class="ThemeSelect-circle-0-1-14 ThemeSelect-zeppelin-0-1-16"
+                      />
+                    </span>
+                    <svg
+                      aria-labelledby="title_launch"
+                      class="ThemeSelect-dropdownIcon-0-1-19 zep-select__icon"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      width="32"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title
+                        id="title_launch"
+                      >
+                        Navigation Dropdown
+                      </title>
+                      <path
+                        d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -231,23 +245,23 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           <div
             aria-expanded="false"
             aria-haspopup="listbox"
-            aria-labelledby="downshift-1-label"
+            aria-labelledby="downshift-2-label"
             class="Search-container-0-1-13 zep-search"
             role="combobox"
           >
             <label
               class="zep-visually-hidden"
-              for="downshift-1-input"
-              id="downshift-1-label"
+              for="downshift-2-input"
+              id="downshift-2-label"
             >
               Search
             </label>
             <input
               aria-autocomplete="list"
-              aria-labelledby="downshift-1-label"
+              aria-labelledby="downshift-2-label"
               autocomplete="off"
               class="zep-search__input"
-              id="downshift-1-input"
+              id="downshift-2-input"
               placeholder="Search"
               value=""
             />
@@ -453,40 +467,54 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               >
                 Theme:
               </p>
-              <button
+              <div
                 aria-expanded="false"
-                aria-haspopup="menu"
-                class="ThemeSelect-menuButton-0-1-22 zep-select__button"
-                data-reach-menu-button="true"
-                id="button-12g0g2ch"
-                type="button"
+                aria-haspopup="listbox"
+                aria-labelledby="downshift-1-label"
+                role="combobox"
               >
-                <span
-                  class="ThemeSelect-circleContainer-0-1-23"
+                <label
+                  class="zep-visually-hidden"
+                  for="zep-select"
+                  id="downshift-1-label"
+                >
+                  Theme
+                </label>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="zep-select__button ThemeSelect-menuButton-0-1-20"
+                  data-toggle="dropdown"
+                  id="zep-select"
+                  type="button"
                 >
                   <span
-                    class="ThemeSelect-circle-0-1-14 ThemeSelect-zeppelin-0-1-16"
-                  />
-                </span>
-                <svg
-                  aria-labelledby="title_launch"
-                  class="ThemeSelect-icon-0-1-24"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title
-                    id="title_launch"
+                    class="ThemeSelect-circleContainer-0-1-21"
                   >
-                    Navigation Dropdown
-                  </title>
-                  <path
-                    d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </button>
+                    <span
+                      class="ThemeSelect-circle-0-1-14 ThemeSelect-zeppelin-0-1-16"
+                    />
+                  </span>
+                  <svg
+                    aria-labelledby="title_launch"
+                    class="ThemeSelect-dropdownIcon-0-1-19 zep-select__icon"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title
+                      id="title_launch"
+                    >
+                      Navigation Dropdown
+                    </title>
+                    <path
+                      d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -501,23 +529,23 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         <div
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-1-label"
+          aria-labelledby="downshift-2-label"
           class="Search-container-0-1-13 zep-search"
           role="combobox"
         >
           <label
             class="zep-visually-hidden"
-            for="downshift-1-input"
-            id="downshift-1-label"
+            for="downshift-2-input"
+            id="downshift-2-label"
           >
             Search
           </label>
           <input
             aria-autocomplete="list"
-            aria-labelledby="downshift-1-label"
+            aria-labelledby="downshift-2-label"
             autocomplete="off"
             class="zep-search__input"
-            id="downshift-1-input"
+            id="downshift-2-input"
             placeholder="Search"
             value=""
           />
