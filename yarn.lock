@@ -15069,10 +15069,10 @@ zeppelin-element-library@^0.10.12:
   resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.10.12.tgz#0a411e9f672b73516b61cc0b726578c7faae8511"
   integrity sha512-4ptCctGwXwQx/Ed6quutNTgKb5WUStE9T/kpGcdcn8YzQlCzocgRWWvqIjfxigWzmrYg4mbLdwPEoEOr5XpaWA==
 
-zeppelin-element-library@^0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.11.1.tgz#ff96dbb6b62d45506432340471c7647a6024b07a"
-  integrity sha512-TnjqN/osyajj7qoyBplhIc0Ah5HEz2r9ZYBJYaz39GM19agdV3hx34kmaiMDNcLTqjppFP0WUwp8nP2WYik4Mw==
+zeppelin-element-library@^0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.11.2.tgz#1637a85a6ec03034c9fb3340de08abc0343d60d0"
+  integrity sha512-RVhpfTn7VFVbctIpnqTvGQRZ9Np9zDbJG3Pe18MzM2C56c28wv0gt4YVaUWemFajwG0wnlhp2KA46i5f89USYA==
 
 zwitch@^1.0.0:
   version "1.0.4"

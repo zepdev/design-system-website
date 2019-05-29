@@ -4,7 +4,7 @@ import classnames from 'classnames'
 
 const Input = ({ className: classNameProp, value, onChange, id, label, placeholder }) => {
   return (
-    <div className="zep-form-container">
+    <div className="zep-input-container">
       <input
         type="text"
         className={classnames(classNameProp, 'zep-input')}
