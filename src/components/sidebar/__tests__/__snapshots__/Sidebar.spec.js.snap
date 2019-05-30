@@ -211,6 +211,56 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               </button>
             </li>
             <li>
+              <button
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+              >
+                zel-react
+                <svg
+                  aria-labelledby="title_chevronDown"
+                  class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
+                  height="20"
+                  viewBox="0 0 32 32"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_chevronDown"
+                  >
+                    Chevron Down
+                  </title>
+                  <polygon
+                    fill="currentColor"
+                    points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+              >
+                zel-react-icons
+                <svg
+                  aria-labelledby="title_chevronDown"
+                  class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
+                  height="20"
+                  viewBox="0 0 32 32"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_chevronDown"
+                  >
+                    Chevron Down
+                  </title>
+                  <polygon
+                    fill="currentColor"
+                    points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
               <a
                 class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
                 href="/content/download/"
@@ -409,6 +459,56 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
             >
               Changelog
+              <svg
+                aria-labelledby="title_chevronDown"
+                class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
+                height="20"
+                viewBox="0 0 32 32"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_chevronDown"
+                >
+                  Chevron Down
+                </title>
+                <polygon
+                  fill="currentColor"
+                  points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <button
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+            >
+              zel-react
+              <svg
+                aria-labelledby="title_chevronDown"
+                class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"
+                height="20"
+                viewBox="0 0 32 32"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_chevronDown"
+                >
+                  Chevron Down
+                </title>
+                <polygon
+                  fill="currentColor"
+                  points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <button
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+            >
+              zel-react-icons
               <svg
                 aria-labelledby="title_chevronDown"
                 class="SidebarNavItem-icon-0-1-12 SidebarNavItem-iconReset-0-1-14"

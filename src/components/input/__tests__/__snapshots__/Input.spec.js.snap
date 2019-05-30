@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="zep-form-container"
+        class="zep-input-container"
       >
         <input
           class="zep-input"
@@ -23,7 +23,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="zep-form-container"
+      class="zep-input-container"
     >
       <input
         class="zep-input"
