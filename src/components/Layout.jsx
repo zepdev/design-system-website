@@ -9,7 +9,8 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
+// import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
+import '@zlab-de/zel-react/zeppelin-element-library.css'
 import ZEL from 'zeppelin-element-library'
 
 const styles = theme => ({
@@ -69,10 +70,6 @@ const styles = theme => ({
     position: 'absolute',
     left: '-999em',
     width: '990em',
-  },
-  test: {
-    // fill: theme.colors.primary.indigoBlue.hex,
-    // width: 50,
   },
 })
 

@@ -1,0 +1,98 @@
+---
+label: Elements
+title: Button
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+import Button from '@zlab-de/zel-react/Button'
+import ButtonExample from '../../components/button/ButtonExample'
+
+# Button
+
+Buttons are items used to express and initialize an action when the user clicks or touches it. The Zeppelin Button has two main styles, primary and secondary and requires the use of a theme. Each page can have one or two primary buttons.
+
+## Available Props
+
+<Table title="Button Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        variant
+      </TableCell>
+      <TableCell>"primary", "secondary", "tertiary"</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        size
+      </TableCell>
+      <TableCell>"small", "large"</TableCell>
+      <TableCell>"large"</TableCell>
+      <TableCell />
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        fullWidth
+      </TableCell>
+      <TableCell>bool</TableCell>
+      <TableCell>false</TableCell>
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        disabled
+      </TableCell>
+      <TableCell>bool</TableCell>
+      <TableCell>false</TableCell>
+      <TableCell />
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        children
+      </TableCell>
+      <TableCell>node, string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        onClick
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+<div style={{ marginBottom: 30 }}>
+  <ButtonExample />
+</div>
+
+```
+import React from 'react'
+import Button from '@zlab-de/zel-react/Button'
+
+function MyComponent(){
+    return(
+        <div>
+            <Button color="primary">Click Me!</Button>
+        </div>
+    )
+}
+
+export default MyComponent
+```

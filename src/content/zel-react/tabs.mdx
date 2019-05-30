@@ -1,0 +1,161 @@
+---
+label: Elements
+title: Tabs
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+import Tabs from '@zlab-de/zel-react/Tabs'
+import Tab from '@zlab-de/zel-react/Tab'
+import TabsExample from '../../components/tabs/TabsExample'
+
+# Tabs
+
+The Zeppelin Tabs requires the use of a theme.
+
+---
+
+## Available Props
+
+Tabs
+
+<Table title="Tabs Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        children
+      </TableCell>
+      <TableCell>array</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        onClick
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        value (selected Tab)
+      </TableCell>
+      <TableCell>number, string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        ariaLabel
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        size
+      </TableCell>
+      <TableCell>"small","large"</TableCell>
+      <TableCell>"large"</TableCell>
+      <TableCell />
+    </TableRow>
+  </TableBody>
+</Table>
+
+Tab
+
+<Table title="Tabs Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        icon
+      </TableCell>
+      <TableCell>object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        label
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+<div style={{ marginBottom: 30 }}>
+  <TabsExample />
+</div>
+
+```
+import React, {useState} from 'react'
+import Tabs from '@zlab-de/zel-react/Tabs'
+import Tab from '@zlab-de/zel-react/Tab'
+import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
+
+function MyComponent(){
+    const [value, setValue] = useState(0)
+
+    function handleChange(newValue) {
+        setValue(newValue)
+    }
+
+    return(
+        <div>
+           <Tabs value={value} onClick={handleChange}>
+                <Tab label="Tab 1" />
+                <Tab label="Tab 2" />
+            </Tabs>
+            {value === 0 && <p>This is Tab 1</p>}
+            {value === 1 && <p>This is Tab 2</p>}
+            </>
+
+            <Tabs value={value} onClick={handleChange} size="small">
+                <Tab label="Tab 1" icon={<ZepiconsStar />} />
+                <Tab label="Tab 2" icon={<ZepiconsStar />} />
+            </Tabs>
+            {value === 0 && <p>This is Tab 1</p>}
+            {value === 1 && <p>This is Tab 2</p>}
+        </div>
+    )
+}
+
+export default MyComponent
+```

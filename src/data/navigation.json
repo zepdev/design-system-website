@@ -36,41 +36,41 @@
       "button": {
         "title": "Button"
       },
-      "tag": {
-        "title": "Tag"
-      },
-      "list": {
-        "title": "List"
+      "checkbox": {
+        "title": "Checkbox"
       },
       "input": {
         "title": "Input"
       },
-      "radio": {
-        "title": "Radio"
-      },
-      "checkbox": {
-        "title": "Checkbox"
-      },
-      "number-input": {
-        "title": "Number Input"
-      },
-      "search": {
-        "title": "Search"
-      },
-      "table": {
-        "title": "Table"
-      },
-      "select": {
-        "title": "Select"
-      },
-      "tabs": {
-        "title": "Tabs"
+      "list": {
+        "title": "List"
       },
       "notification": {
         "title": "notification"
       },
+      "number-input": {
+        "title": "Number Input"
+      },
       "pagination": {
         "title": "pagination"
+      },
+      "radio": {
+        "title": "Radio"
+      },
+      "search": {
+        "title": "Search"
+      },
+      "select": {
+        "title": "Select"
+      },
+      "table": {
+        "title": "Table"
+      },
+      "tabs": {
+        "title": "Tabs"
+      },
+      "tag": {
+        "title": "Tag"
       }
     }
   },
@@ -82,6 +82,67 @@
       },
       "designers": {
         "title": "Designers"
+      }
+    }
+  },
+  "zel-react": {
+    "title": "zel-react",
+    "subnav": {
+      "getting-started": {
+        "title": "Getting Started"
+      },
+      "button": {
+        "title": "Button"
+      },
+      "checkbox": {
+        "title": "Checkbox"
+      },
+      "grid": {
+        "title": "Grid"
+      },
+      "icon-button": {
+        "title": "Icon Button"
+      },
+      "input": {
+        "title": "Input"
+      },
+      "list": {
+        "title": "List"
+      },
+      "notification": {
+        "title": "notification"
+      },
+      "number-input": {
+        "title": "Number Input"
+      },
+      "pagination": {
+        "title": "pagination"
+      },
+      "radio": {
+        "title": "Radio"
+      },
+      "search": {
+        "title": "Search"
+      },
+      "select": {
+        "title": "Select"
+      },
+      "table": {
+        "title": "Table"
+      },
+      "tabs": {
+        "title": "Tabs"
+      },
+      "tag": {
+        "title": "Tag"
+      }
+    }
+  },
+  "zel-react-icons": {
+    "title": "zel-react-icons",
+    "subnav": {
+      "getting-started": {
+        "title": "Getting Started"
       }
     }
   },

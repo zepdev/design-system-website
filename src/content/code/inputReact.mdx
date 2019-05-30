@@ -13,12 +13,18 @@ const Input = ({
   className: classNameProp,
   value,
   onChange,
+  error,
+  errorMessage,
   id,
   label,
   placeholder,
 }) => {
   return (
-    <div className="zep-form-container">
+    <div
+      className={clsx('zep-input-container', {
+        'zep-input-container--error': error
+      })}
+    >
       <input
         type="text"
         className={classnames(classNameProp, 'zep-input')}
@@ -30,6 +36,11 @@ const Input = ({
       <label className="zep-form-container__label" htmlFor={id}>
         {label}
       </label>
+      {error && (
+        <label className="zep-input-container__feedback" htmlFor={id}>
+          {errorMessage}
+        </label>
+      )}
     </div>
   )
 }
@@ -41,6 +52,8 @@ Input.propTypes = {
   label: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   placeholder: PropTypes.string,
+  error: PropTypes.bool,
+  errorMessage: PropTypes.string
 }
 
 export default Input
@@ -53,19 +66,15 @@ const MyForm = () => {
   const [input, setInput] = useState('')
 
   return (
-    <div className="zep-form-container">
-      <input
-        type="text"
-        className={classnames(classNameProp, 'zep-input')}
-        placeholder={placeholder}
+    <form>
+      <Input
+        placeholder="Placeholder"
         value={input}
         onChange={(e)=> setInput(e.target.value)}
-        id={id}
+        id="demo-input"
+        label="demo input"
       />
-      <label className="zep-form-container__label" htmlFor={id}>
-        {label}
-      </label>
-    </div>
+    </form>
   )
 }
 
