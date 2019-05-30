@@ -1,0 +1,98 @@
+---
+label: Elements
+title: Number Input
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+import NumberInput from '@zlab-de/zel-react/NumberInput'
+import NumberInputExample from '../../components/numberinput/NumberInputExample.jsx'
+
+# Number Input
+
+The Number Input is a basic counter component to be used on forms to increase or decrease an incremental value. Always use a clear and concise label for the number input and allow the user to also choose to type a number in the field.
+
+## Available Props
+
+<Table title="NumberInput Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        label
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        onPlus (controls plus button)
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        onMinus (controls minus button)
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        onChange (controls the input)
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        count (value of input)
+      </TableCell>
+      <TableCell>number, string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+<div style={{ marginBottom: 30 }}>
+  <NumberInputExample />
+</div>
+
+```
+import React, {useState} from 'react'
+import NumberInput from '@zlab-de/zel-react/NumberInput'
+
+function MyComponent(){
+    const [count, setCount] = useState(0)
+
+    return(
+        <div>
+            <NumberInput
+                label="demo number input"
+                count={count}
+                onChange={value => setCount(value)}
+                onMinus={() => setCount(count - 1)}
+                onPlus={() => setCount(count + 1)}
+            />
+        </div>
+    )
+}
+
+export default MyComponent
+```

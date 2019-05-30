@@ -6,7 +6,7 @@ import NavigationDropdownIcon from '../icons/NavigationDropdownIcon'
 const Select = ({ items, onChange }) => {
   return (
     <Downshift
-      onChange={selection => onChange(selection.value)}
+      onChange={selection => onChange(selection)}
       itemToString={item => (item ? item.value : '')}
     >
       {({
@@ -37,40 +37,22 @@ const Select = ({ items, onChange }) => {
           </button>
           {isOpen ? (
             <ul {...getMenuProps({ className: 'zep-select__list' })}>
-              {items.filter(item => !inputValue || item.value.includes(inputValue)).length === 0 ? (
+              {items.map((item, index) => (
                 <li
                   {...getItemProps({
-                    item: { value: 'no results' },
-                    index: 0,
+                    key: `listItem${ index }`,
+                    index,
+                    item,
                     className: 'zep-select__listitem',
                     style: {
-                      backgroundColor: highlightedIndex === 0 ? 'lightgray' : 'white',
-                      fontWeight: selectedItem === undefined ? 'bold' : 'normal',
+                      backgroundColor: highlightedIndex === index ? 'lightgray' : 'white',
+                      fontWeight: selectedItem === item ? 'bold' : 'normal',
                     },
                   })}
                 >
-                  no results
+                  {item.value}
                 </li>
-              ) : (
-                items
-                  .filter(item => !inputValue || item.value.includes(inputValue))
-                  .map((item, index) => (
-                    <li
-                      {...getItemProps({
-                        key: `listItem${ index }`,
-                        index,
-                        item,
-                        className: 'zep-select__listitem',
-                        style: {
-                          backgroundColor: highlightedIndex === index ? 'lightgray' : 'white',
-                          fontWeight: selectedItem === item ? 'bold' : 'normal',
-                        },
-                      })}
-                    >
-                      {item.value}
-                    </li>
-                  ))
-              )}
+              ))}
             </ul>
           ) : null}
         </div>

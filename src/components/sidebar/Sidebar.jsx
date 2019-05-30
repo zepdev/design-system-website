@@ -30,6 +30,7 @@ const styles = theme => ({
   },
   logo: {
     color: theme.colors.gray.white.hex,
+    width: '100%',
   },
   containerSidebarNav: {
     height: `calc(100vh - 46px)`,

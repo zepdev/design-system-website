@@ -1373,19 +1373,19 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.1.tgz#5c85d662f76fa1d34575766c5dcd6615abcd30d8"
   integrity sha512-FZdkNBDqBRHKQ2MEbSC17xnPFOhZxeJ2YGSfr2BKf3sujG49Qe3bB+rGCwQfIaA7WHnGeGkSijX4FuBCdrzW/g==
 
-"@zlab-de/zel-react-icons@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react-icons/-/zel-react-icons-0.1.0.tgz#25edbdeb632c3e4820c7ea55a3a4e6c88308c695"
-  integrity sha512-h4f2Y8zuJZJ0IxyC7bWMQoX7XbZjgTYSIJxpSJSw1weHpYhiltMG2nmfQ6Nk9In/mKKyptX2LXm2/Di5ZfE1gQ==
+"@zlab-de/zel-react-icons@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react-icons/-/zel-react-icons-0.1.1.tgz#5cb1bbe5beedbcc80d8ad20a70e5935562709f6e"
+  integrity sha512-NshM21+PQisMuQJF5pdyDMvfSHRc+w6iqKlZilDAyArdpf12R9LMansZLrPivtfXNOsQjSPAUk6IPk+qfGbPwA==
   dependencies:
     "@babel/runtime" "^7.2.0"
 
-"@zlab-de/zel-react@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-0.1.8.tgz#54fde0a58dcec877fdd7ba1720ccdac02fe950cb"
-  integrity sha512-vnJwHMEnsxlxeHQki6HeYNLXIMnW9s+AD/oPdCcnQb0lBPPzILo572cNSC/rsFNU5t7IhjrX38g53W5hartmOw==
+"@zlab-de/zel-react@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-0.2.2.tgz#51248207ec825fbf275d4584fcb68116a5b6c522"
+  integrity sha512-IRYW+pr8t1XKftMaX2KlTk9ZDbTmLBnvN0Vf0i2mrqrDzW7ARgFWOGBP/Ut0FZxIGH12NkyLbBs8utolBlqMqw==
   dependencies:
-    "@zlab-de/zel-react-icons" "^0.1.0"
+    "@zlab-de/zel-react-icons" "^0.1.1"
     clsx "^1.0.4"
     downshift "^3.2.10"
     zeppelin-element-library "^0.10.12"
@@ -15013,10 +15013,10 @@ zeppelin-element-library@^0.10.12:
   resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.10.12.tgz#0a411e9f672b73516b61cc0b726578c7faae8511"
   integrity sha512-4ptCctGwXwQx/Ed6quutNTgKb5WUStE9T/kpGcdcn8YzQlCzocgRWWvqIjfxigWzmrYg4mbLdwPEoEOr5XpaWA==
 
-zeppelin-element-library@^0.11.2:
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.11.2.tgz#1637a85a6ec03034c9fb3340de08abc0343d60d0"
-  integrity sha512-RVhpfTn7VFVbctIpnqTvGQRZ9Np9zDbJG3Pe18MzM2C56c28wv0gt4YVaUWemFajwG0wnlhp2KA46i5f89USYA==
+zeppelin-element-library@^0.11.3:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.11.3.tgz#cf5046e0770b76e2dfd414479a1fc72d7e4c2675"
+  integrity sha512-LDfihHccO0mlSQ6C/i0xJNDqXUM0iHWhIu6dDWqQdYc6enlkgCmCrKS0/tgqFyHkGFCnFANgx/MB7TgJqm/I2w==
 
 zwitch@^1.0.0:
   version "1.0.4"

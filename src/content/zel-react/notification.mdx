@@ -1,0 +1,86 @@
+---
+label: Elements
+title: Notification
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+import Notification from '@zlab-de/zel-react/Notification'
+
+# Notification
+
+The Zeppelin Notification element contains four variants: Success, Info, Warning, Danger.
+
+---
+
+## Available Props
+
+<Table title="Notification Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        children
+      </TableCell>
+      <TableCell>array, object</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        variant
+      </TableCell>
+      <TableCell>'success', 'info', 'warning', 'danger'</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+<div style={{ marginBottom: 30 }}>
+  <Notification variant="info" style={{ marginBottom: 15 }}>
+    Info
+  </Notification>
+  <Notification variant="success" style={{ marginBottom: 15 }}>
+    Success
+  </Notification>
+  <Notification variant="warning" style={{ marginBottom: 15 }}>
+    Warning
+  </Notification>
+  <Notification variant="danger" style={{ marginBottom: 15 }}>
+    Danger
+  </Notification>
+</div>
+
+```
+import React from 'react'
+import Notification from '@zlab-de/zel-react/Notification'
+
+function MyComponent(){
+    return(
+        <div>
+            <Notification variant="info">Info</Notification>
+        </div>
+    )
+}
+
+export default MyComponent
+```

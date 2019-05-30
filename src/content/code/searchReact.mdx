@@ -7,106 +7,98 @@ title: Search Code
 // For search functionality that is fully accessibily, we highly recommend the use of downshift
 
 // Search.jsx
-import React from 'react'
-import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
-import classnames from 'classnames'
-import Downshift from 'downshift'
-import SearchIcon from '../icons/SearchIcon'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Downshift from 'downshift';
+import ZepiconsSearch from '@zlab-de/zel-react-icons/ZepiconsSearch';
 
-const styles = theme => ({
-  ul: {
-    background: theme.colors.gray.white.hex,
-    color: theme.colors.gray.grayDark.hex,
-    position: 'absolute',
-    zIndex: 2000,
-    left: 0,
-    right: 0,
-  },
-  border: {
-    border: `2px solid ${ theme.colors.gray.textGray.hex }`,
-  },
-  li: {
-    padding: '0.625rem 1.125rem',
-    textTransform: 'capitalize',
-  },
-  container: {
-    width: '100%',
-  },
-})
-
-const Search = ({ variant, items, placeholder, classes }) => (
-  <div role={variant === 'landmark' ? 'search' : null}>
-    <Downshift itemToString={item => (item ? item.value : '')}>
-      {({
-        getInputProps,
-        getItemProps,
-        getLabelProps,
-        getMenuProps,
-        isOpen,
-        inputValue,
-        highlightedIndex,
-        selectedItem,
-      }) => (
-        <div className={classnames(classes.container, 'zep-search')}>
-          <label {...getLabelProps()} className="zep-visually-hidden">
-            {placeholder}
-          </label>
-          <input {...getInputProps({ placeholder: placeholder })} className="zep-search__input" />
-          <SearchIcon className="zep-search__icon" />
-          <ul
-            {...getMenuProps()}
-            className={classnames(classes.ul, {
-              [classes.border]: isOpen,
-            })}
-          >
-            {isOpen
-              ? items
-                .filter(item => !inputValue || item.value.includes(inputValue))
-                .map((item, index) => (
+const Search = ({
+  variant,
+  items: itemsProp,
+  placeholder,
+  onChange,
+  ...other
+}) => {
+  const items = itemsProp || [];
+  return (
+    <div role={variant === 'landmark' ? 'search' : null} {...other}>
+      <Downshift
+        itemToString={item => (item ? item.value : '')}
+        onChange={selection => onChange(selection)}
+      >
+        {({
+          getInputProps,
+          getItemProps,
+          getLabelProps,
+          getMenuProps,
+          isOpen,
+          inputValue,
+          highlightedIndex,
+          selectedItem
+        }) => (
+          <div className="zep-search">
+            <label {...getLabelProps()} className="zep-visually-hidden">
+              {placeholder}
+            </label>
+            <input
+              {...getInputProps({ placeholder: placeholder })}
+              className="zep-search__input"
+            />
+            <ZepiconsSearch className="zep-search__icon" />
+            {isOpen ? (
+              <ul {...getMenuProps({ className: 'zep-select__list' })}>
+                {items
+                  .filter(
+                    item => !inputValue || item.value.includes(inputValue)
+                  )
+                  .map((item, index) => (
                     <li
-                      className={classnames('zep-typo--normal-3', classes.li)}
                       {...getItemProps({
-                        key: item.value,
+                        key: `searchItem${index}`,
+                        className: 'zep-select__listitem',
                         index,
                         item,
                         style: {
-                          backgroundColor: highlightedIndex === index ? '#eceeef' : 'white',
-                          fontWeight: selectedItem === item ? 'bold' : 'normal',
-                        },
+                          backgroundColor:
+                            highlightedIndex === index ? '#eceeef' : 'white',
+                          fontWeight: selectedItem === item ? 'bold' : 'normal'
+                        }
                       })}
                     >
                       {item.value}
                     </li>
-                ))
-              : null}
-          </ul>
-        </div>
-      )}
-    </Downshift>
-  </div>
-)
+                  ))}
+              </ul>
+            ) : null}
+          </div>
+        )}
+      </Downshift>
+    </div>
+  );
+};
 
 Search.propTypes = {
-  classes: PropTypes.object.isRequired,
+  className: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   variant: PropTypes.oneOf(['landmark']),
   items: PropTypes.array,
-  placeholder: PropTypes.string.isRequired
-}
+  placeholder: PropTypes.string.isRequired,
+  onChange: PropTypes.func
+};
 
-export default withStyles(styles)(Search)
+export default Search;
 
 // Header.jsx
 import React from 'react'
 
 const Header = () => {
-  handleChange = selection => {
-    console.log('You selected ${selection.value})
+   const handleChange = selection => {
+    alert(`You selected ${ selection.value }`)
   }
- const searchItems = [{value: 'value 1'},{value: "value 2"}, "value 3"]
+  const searchItems = [{ value: 'value 1' }, { value: 'value 2' }, { value: 'value 3' }]
+
  return(
    <header>
-     <Search title="search" variant="landmark" items={searchItems} onChange={handleChange}>
+     <Search placeholder="search" variant="landmark" items={searchItems} onChange={handleChange}>
   </header>
  )
 }
