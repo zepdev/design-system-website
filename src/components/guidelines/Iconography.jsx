@@ -13,7 +13,6 @@ import Divider from '../typography/Divider'
 import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
 import { iconography } from '../../data/elements'
-import { version as zelVersion } from 'zeppelin-element-library/package.json'
 
 const styles = theme => ({
   tabs: {
@@ -120,6 +119,8 @@ const Iconography = ({ classes }) => {
     setValue(newValue)
   }
 
+  const zelVersion = '0.11.4' // we cannot call from package.json as it is always on next version which is not published to cdn.
+
   const sections = {
     action: {
       title: 'Action Icons',
@@ -160,9 +161,8 @@ const Iconography = ({ classes }) => {
         <>
           <Headline variant="md">Zeppelin Icons</Headline>
           <p className={classnames(classes.text, 'zep-typo--normal-3')}>
-            Icons can be downloaded as one large file containing all icons
-            (Sketch, SVGs, or SVG Sprite) or icons may be downloaded
-            individually from below.
+            Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG
+            Sprite) or icons may be downloaded individually from below.
           </p>
           <DownloadContainer>
             <DownloadFile
@@ -204,16 +204,10 @@ const Iconography = ({ classes }) => {
                     <div className={classes.content}>
                       <span className={classes.backdrop} />
                       <span className={classes.backdropContent}>
-                        <DownloadIcon
-                          className={classes.icon}
-                          ariaLabel="download"
-                        />
+                        <DownloadIcon className={classes.icon} ariaLabel="download" />
                       </span>
                       <p
-                        className={classnames(
-                          classes.name,
-                          'zep-typo--normal-1'
-                        )}
+                        className={classnames(classes.name, 'zep-typo--normal-1')}
                       >{`zepicons-${ elem }`}</p>
                       <img
                         src={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}
