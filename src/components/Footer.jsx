@@ -114,15 +114,15 @@ const Footer = ({ classes }) => (
         <div className={classes.container}>
           <div className={classes.containerLinks}>
             <ZeppelinIcon className={classes.logo} ariaLabel="footerLogo" />
-            <Link to="/" className={classes.link}>
+            <Link to="/content/privacy/" className={classes.link}>
               Privacy Policy
             </Link>
-            <Link to="/" className={classes.link}>
+            <Link to="/content/legal/" className={classes.link}>
               Terms & Conditions
             </Link>
-            <Link to="/" className={classes.link}>
+            {/* <Link to="/" className={classes.link}>
               Feedback
-            </Link>
+            </Link> */}
           </div>
           <div className={classes.containerIcons}>
             <ButtonBase
