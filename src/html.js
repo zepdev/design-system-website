@@ -1,5 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import 'core-js/es/map'
+import 'core-js/es/set'
+import 'raf/polyfill'
 
 export default function HTML(props) {
   return (
