@@ -12,6 +12,7 @@ import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 // import '@zlab-de/zel-react/zeppelin-element-library.css'
 import ZEL from 'zeppelin-element-library'
+import SelectExample from './select/SelectExample'
 
 const styles = theme => ({
   main: {
