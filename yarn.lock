@@ -1443,10 +1443,10 @@
   dependencies:
     "@babel/runtime" "^7.2.0"
 
-"@zlab-de/zel-react@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-0.2.2.tgz#51248207ec825fbf275d4584fcb68116a5b6c522"
-  integrity sha512-IRYW+pr8t1XKftMaX2KlTk9ZDbTmLBnvN0Vf0i2mrqrDzW7ARgFWOGBP/Ut0FZxIGH12NkyLbBs8utolBlqMqw==
+"@zlab-de/zel-react@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-0.2.4.tgz#2d21e28f43ad6584ad9136eca69d5743f152d6d2"
+  integrity sha512-pLL02hEqrHdeG/+TOGJxiGmyIzjYYLQQaPJLMJW8kd9JZWpppFjpCz7W0vo1tAnrVlwq9kYjdfNOGdTMwbvocQ==
   dependencies:
     "@zlab-de/zel-react-icons" "^0.1.1"
     clsx "^1.0.4"
