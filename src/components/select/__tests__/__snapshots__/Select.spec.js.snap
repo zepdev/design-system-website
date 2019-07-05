@@ -5,6 +5,52 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div>
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-0-label"
+          role="combobox"
+        >
+          <label
+            class="zep-select__label"
+            for="zep-select"
+            id="downshift-0-label"
+          />
+          <button
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="zep-select__button"
+            data-toggle="dropdown"
+            id="zep-select"
+            type="button"
+          >
+            
+            <svg
+              aria-labelledby="title_launch"
+              class="zep-select__icon"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_launch"
+              >
+                Navigation Dropdown
+              </title>
+              <path
+                d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
       <div
         aria-expanded="false"
         aria-haspopup="listbox"
@@ -15,9 +61,7 @@ Object {
           class="zep-select__label"
           for="zep-select"
           id="downshift-0-label"
-        >
-          Form Label
-        </label>
+        />
         <button
           aria-expanded="false"
           aria-haspopup="true"
@@ -26,7 +70,7 @@ Object {
           id="zep-select"
           type="button"
         >
-          Select an item
+          
           <svg
             aria-labelledby="title_launch"
             class="zep-select__icon"
@@ -47,50 +91,6 @@ Object {
           </svg>
         </button>
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      aria-expanded="false"
-      aria-haspopup="listbox"
-      aria-labelledby="downshift-0-label"
-      role="combobox"
-    >
-      <label
-        class="zep-select__label"
-        for="zep-select"
-        id="downshift-0-label"
-      >
-        Form Label
-      </label>
-      <button
-        aria-expanded="false"
-        aria-haspopup="true"
-        class="zep-select__button"
-        data-toggle="dropdown"
-        id="zep-select"
-        type="button"
-      >
-        Select an item
-        <svg
-          aria-labelledby="title_launch"
-          class="zep-select__icon"
-          height="32"
-          viewBox="0 0 24 24"
-          width="32"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <title
-            id="title_launch"
-          >
-            Navigation Dropdown
-          </title>
-          <path
-            d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
-            fill="currentColor"
-          />
-        </svg>
-      </button>
     </div>
   </div>,
   "debug": [Function],

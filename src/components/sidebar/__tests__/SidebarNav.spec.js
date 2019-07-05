@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from 'react-testing-library'
+import { render } from '@testing-library/react'
 import SidebarNav from '../SidebarNav'
 import { ThemeProvider } from 'react-jss'
 import theme from 'zeppelin-element-library/bundle/themes/theme.json'

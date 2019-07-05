@@ -187,9 +187,19 @@ Object {
               &gt;
             </span>
             <span
+              class="token maybe-class-name"
+            >
+              Primary
+            </span>
+            <span
               class="token plain"
             >
-              Primary Button
+               
+            </span>
+            <span
+              class="token maybe-class-name"
+            >
+              Button
             </span>
             <span
               class="token operator"
@@ -325,7 +335,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Disabled
             </span>
@@ -582,7 +592,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Copy
             </span>
@@ -900,9 +910,19 @@ Object {
               &gt;
             </span>
             <span
+              class="token maybe-class-name"
+            >
+              Secondary
+            </span>
+            <span
               class="token plain"
             >
-              Secondary Button
+               
+            </span>
+            <span
+              class="token maybe-class-name"
+            >
+              Button
             </span>
             <span
               class="token operator"
@@ -1038,7 +1058,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Disabled
             </span>
@@ -1295,7 +1315,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Copy
             </span>
@@ -1779,7 +1799,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Copy
             </span>
@@ -1934,9 +1954,19 @@ Object {
               &gt;
             </span>
             <span
+              class="token maybe-class-name"
+            >
+              Primary
+            </span>
+            <span
               class="token plain"
             >
-              Primary Button
+               
+            </span>
+            <span
+              class="token maybe-class-name"
+            >
+              Button
             </span>
             <span
               class="token operator"
@@ -2197,7 +2227,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Copy
             </span>
@@ -2352,7 +2382,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Disabled
             </span>
@@ -2609,7 +2639,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Copy
             </span>
@@ -2764,9 +2794,19 @@ Object {
               &gt;
             </span>
             <span
+              class="token maybe-class-name"
+            >
+              Primary
+            </span>
+            <span
               class="token plain"
             >
-              Primary Button
+               
+            </span>
+            <span
+              class="token maybe-class-name"
+            >
+              Button
             </span>
             <span
               class="token operator"
@@ -2963,9 +3003,19 @@ Object {
               &gt;
             </span>
             <span
+              class="token maybe-class-name"
+            >
+              Full
+            </span>
+            <span
               class="token plain"
             >
-              Full Width
+               
+            </span>
+            <span
+              class="token maybe-class-name"
+            >
+              Width
             </span>
             <span
               class="token operator"
@@ -3095,7 +3145,7 @@ Object {
               &gt;
             </span>
             <span
-              class="token plain"
+              class="token maybe-class-name"
             >
               Small
             </span>
@@ -3356,9 +3406,19 @@ Object {
             &gt;
           </span>
           <span
+            class="token maybe-class-name"
+          >
+            Primary
+          </span>
+          <span
             class="token plain"
           >
-            Primary Button
+             
+          </span>
+          <span
+            class="token maybe-class-name"
+          >
+            Button
           </span>
           <span
             class="token operator"
@@ -3494,7 +3554,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Disabled
           </span>
@@ -3751,7 +3811,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Copy
           </span>
@@ -4069,9 +4129,19 @@ Object {
             &gt;
           </span>
           <span
+            class="token maybe-class-name"
+          >
+            Secondary
+          </span>
+          <span
             class="token plain"
           >
-            Secondary Button
+             
+          </span>
+          <span
+            class="token maybe-class-name"
+          >
+            Button
           </span>
           <span
             class="token operator"
@@ -4207,7 +4277,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Disabled
           </span>
@@ -4464,7 +4534,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Copy
           </span>
@@ -4948,7 +5018,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Copy
           </span>
@@ -5103,9 +5173,19 @@ Object {
             &gt;
           </span>
           <span
+            class="token maybe-class-name"
+          >
+            Primary
+          </span>
+          <span
             class="token plain"
           >
-            Primary Button
+             
+          </span>
+          <span
+            class="token maybe-class-name"
+          >
+            Button
           </span>
           <span
             class="token operator"
@@ -5366,7 +5446,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Copy
           </span>
@@ -5521,7 +5601,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Disabled
           </span>
@@ -5778,7 +5858,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Copy
           </span>
@@ -5933,9 +6013,19 @@ Object {
             &gt;
           </span>
           <span
+            class="token maybe-class-name"
+          >
+            Primary
+          </span>
+          <span
             class="token plain"
           >
-            Primary Button
+             
+          </span>
+          <span
+            class="token maybe-class-name"
+          >
+            Button
           </span>
           <span
             class="token operator"
@@ -6132,9 +6222,19 @@ Object {
             &gt;
           </span>
           <span
+            class="token maybe-class-name"
+          >
+            Full
+          </span>
+          <span
             class="token plain"
           >
-            Full Width
+             
+          </span>
+          <span
+            class="token maybe-class-name"
+          >
+            Width
           </span>
           <span
             class="token operator"
@@ -6264,7 +6364,7 @@ Object {
             &gt;
           </span>
           <span
-            class="token plain"
+            class="token maybe-class-name"
           >
             Small
           </span>
