@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import withStyles from 'react-jss'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import classnames from 'classnames'
 
 const styles = theme => ({
@@ -27,12 +27,10 @@ const ElementUsage = ({ element, classes }) => {
             edges {
               node {
                 id
+                body
                 frontmatter {
                   title
                   label
-                }
-                code {
-                  body
                 }
               }
             }
@@ -45,7 +43,7 @@ const ElementUsage = ({ element, classes }) => {
         )
 
         return documentation ? (
-          <MDXRenderer>{documentation.node.code.body}</MDXRenderer>
+          <MDXRenderer>{documentation.node.body}</MDXRenderer>
         ) : (
           <p className={classnames(classes.text, 'zep-typo--normal-3')}>
             No content yet, please check back later

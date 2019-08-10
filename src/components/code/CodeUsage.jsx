@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import withStyles from 'react-jss'
 import classnames from 'classnames'
 import Tabs from '../tabs/Tabs'
@@ -32,12 +32,10 @@ const CodeUsage = ({ element, classes }) => {
             edges {
               node {
                 id
+                body
                 frontmatter {
                   title
                   label
-                }
-                code {
-                  body
                 }
               }
             }
@@ -62,13 +60,13 @@ const CodeUsage = ({ element, classes }) => {
             </Tabs>
             {tab === 0 &&
               (react ? (
-                <MDXRenderer>{react.node.code.body}</MDXRenderer>
+                <MDXRenderer>{react.node.body}</MDXRenderer>
               ) : (
                 <CodeBlock>no example yet, please check back later!</CodeBlock>
               ))}
             {tab === 1 &&
               (vue ? (
-                <MDXRenderer>{vue.node.code.body}</MDXRenderer>
+                <MDXRenderer>{vue.node.body}</MDXRenderer>
               ) : (
                 <CodeBlock>no example yet, please check back later!</CodeBlock>
               ))}
