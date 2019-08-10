@@ -25,7 +25,7 @@ function CopyButton({ element, classes }) {
 
   function handleCopy() {
     if (document.queryCommandSupported('copy')) {
-      let dummy = document.createElement('textarea')
+      const dummy = document.createElement('textarea')
       document.body.appendChild(dummy)
       dummy.value = element
       dummy.select()
