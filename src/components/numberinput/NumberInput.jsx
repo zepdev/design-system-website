@@ -8,8 +8,8 @@ function NumberInput({ label }) {
   const [count, setCount] = useState(0)
 
   const handleChange = event => {
-    let value = parseInt(event.target.value, 10)
-    let count = isNaN(value) ? 0 : value
+    const value = parseInt(event.target.value, 10)
+    const count = isNaN(value) ? 0 : value
     setCount(count)
   }
 

@@ -33,9 +33,9 @@ module.exports = {
       options: { theme },
     },
     {
-      resolve: 'gatsby-mdx',
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: ['.mdx', '.md'],
+        extensions: [`.mdx`, `.md`],
       },
     },
     {
