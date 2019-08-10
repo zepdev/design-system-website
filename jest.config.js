@@ -1,6 +1,6 @@
 module.exports = {
   transform: {
-    '^.+\\.jsx?$': '<rootDir>/jest-preprocess.js',
+    '^.+\\.jsx?$': `<rootDir>/jest-preprocess.js`,
   },
   moduleNameMapper: {
     '.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
@@ -8,15 +8,12 @@ module.exports = {
       '<rootDir>/__mocks__/fileMock.js',
   },
   testPathIgnorePatterns: ['node_modules', '.cache', 'cypress'],
-  transformIgnorePatterns: ['node_modules/(?!(gatsby|gatsby-mdx)/)'],
+  transformIgnorePatterns: ['node_modules/(?!(gatsby|gatsby-plugin-mdx)/)'],
   globals: {
     __PATH_PREFIX__: '',
   },
   testURL: 'http://localhost',
   setupFiles: ['<rootDir>/loadershim.js'],
-  setupFilesAfterEnv: [
-    '<rootDir>/setup-test-env.js',
-    '@testing-library/react/cleanup-after-each',
-  ],
+  setupFilesAfterEnv: ['<rootDir>/setup-test-env.js'],
   snapshotSerializers: ['jss-snapshot-serializer'],
 }
