@@ -40,7 +40,7 @@ This website was build using [Gatsby](https://www.gatsbyjs.org/).
 
 2.  **Testing**
 
-    This website is tested with Jest, react-testing-library, and Cypress
+    This website is tested with Jest, @testing-library/react, and Cypress
 
     ```sh
     yarn test
@@ -130,9 +130,9 @@ cypress
 eslint-plugin-cypress
 start-server-and-test (starts cypress)
 
-#### units test with react-testing-library and jest
+#### units test with @testing-library/react and jest
 
-react-testing-library
+@testing-library/react
 jest
 jest-dom
 jest-axe (tests accessibility)
