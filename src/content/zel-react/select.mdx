@@ -88,23 +88,22 @@ Select is a type of input users use to select one item from a list of values. In
 import React, { useState } from 'react'
 import Select from '@zlab-de/zel-react/Select'
 
-function MyComponent(){
-    const [value, setValue] = useState('')
-    const searchItems = [{ value: 'value 1' }, { value: 'value 2' }, { value: 'value 3' }]
+function MyComponent() {
+  const [value, setValue] = useState({ value: 'value 1' })
+  const searchItems = [{ value: 'value 1' }, { value: 'value 2' }, { value: 'value 3' }]
 
-    return(
-        <div>
-            <div>
-              <Select
-                onChange={selection => setValue(selection)}
-                items={searchItems}
-                placeholder="Select one"
-                label="Label"
-              />
-              <p style={{ padding: 30 }}>You Selected: {value.value}</p>
-            </div>
-        </div>
-    )
+  return (
+    <div>
+      <Select
+        onChange={selection => setValue(selection)}
+        items={searchItems}
+        placeholder="Select one"
+        label="Label"
+        selectedItem={value}
+      />
+      <p style={{ padding: 30 }}>You Selected: {value.value}</p>
+    </div>
+  )
 }
 
 export default MyComponent
