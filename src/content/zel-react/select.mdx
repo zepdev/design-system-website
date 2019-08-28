@@ -108,3 +108,11 @@ function MyComponent() {
 
 export default MyComponent
 ```
+
+Please note that to modify the width or z-index of the Select component, you will need to pass these css modifications to an outer div.  
+
+```
+<div style={{ width: 200, zIndex: 1000 }}>
+  <SelectExample />
+</div>
+```
