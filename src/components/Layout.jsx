@@ -74,7 +74,7 @@ const styles = theme => ({
 })
 
 // init ZEL once
-if (typeof window !== `undefined` && typeof document !== `undefined`) {
+if (typeof window !== 'undefined' && typeof document !== 'undefined') {
   document.addEventListener('DOMContentLoaded', function(event) {
     ZEL.init()
     window.ZEL = ZEL

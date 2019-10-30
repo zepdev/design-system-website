@@ -12,11 +12,11 @@ beforeEach(() => {
         edges: {
           node: {
             frontmatter: {
-              title: `Mock Title`,
-              label: `Mock Label`,
+              title: 'Mock Title',
+              label: 'Mock Label',
             },
             code: {
-              body: `Mock Code`,
+              body: 'Mock Code',
             },
           },
           find: jest.fn(),

@@ -33,7 +33,7 @@ const styles = theme => ({
     width: '100%',
   },
   containerSidebarNav: {
-    height: `calc(100vh - 46px)`,
+    height: 'calc(100vh - 46px)',
     paddingBottom: `${ theme.spacing.component.xxl.rem }rem`,
     overflow: 'auto',
     backgroundColor: theme.colors.gray.white.hex,
@@ -43,7 +43,7 @@ const styles = theme => ({
       width: 276,
     },
     containerSidebarNav: {
-      height: `calc(100vh - 68px)`,
+      height: 'calc(100vh - 68px)',
       paddingBottom: `${ theme.spacing.component.l.rem }rem`,
     },
   },
@@ -81,7 +81,7 @@ const styles = theme => ({
       pointerEvents: 'all',
     },
     containerSidebarNav: {
-      height: `calc(100vh - 104px)`,
+      height: 'calc(100vh - 104px)',
       paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
     },
   },

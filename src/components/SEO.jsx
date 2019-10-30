@@ -16,27 +16,27 @@ function SEO({ description, lang, meta, keywords, title }) {
             titleTemplate={`%s | ${ data.site.siteMetadata.title }`}
             meta={[
               {
-                name: `description`,
+                name: 'description',
                 content: metaDescription,
               },
               {
-                property: `og:title`,
+                property: 'og:title',
                 content: title,
               },
               {
-                property: `og:description`,
+                property: 'og:description',
                 content: metaDescription,
               },
               {
-                property: `og:type`,
-                content: `website`,
+                property: 'og:type',
+                content: 'website',
               },
             ]
               .concat(
                 keywords.length > 0
                   ? {
-                    name: `keywords`,
-                    content: keywords.join(`, `),
+                    name: 'keywords',
+                    content: keywords.join(', '),
                   }
                   : []
               )
@@ -49,7 +49,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: 'en',
   meta: [],
   keywords: [],
 }

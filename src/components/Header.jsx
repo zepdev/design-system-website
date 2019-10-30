@@ -70,7 +70,7 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
-      width: `calc(100% - 224px)`,
+      width: 'calc(100% - 224px)',
       background: theme.colors.gray.grayMid.hex,
     },
     height: {
@@ -94,12 +94,12 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
-      width: `calc(100% - 276px)`,
+      width: 'calc(100% - 276px)',
     },
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     root: {
-      width: `calc(100% - 300px)`,
+      width: 'calc(100% - 300px)',
     },
     height: {
       height: 136,

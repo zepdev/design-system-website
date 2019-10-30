@@ -80,7 +80,7 @@ describe('Swatch', () => {
         <Swatch {...mockProps} />
       </ThemeProvider>
     )
-    const button = getByTestId(`swatchButton`)
+    const button = getByTestId('swatchButton')
     fireEvent.click(button)
     expect(getByTestId('swatchText')).toHaveTextContent(/error!/i)
     // check that timeout is called and changes text back

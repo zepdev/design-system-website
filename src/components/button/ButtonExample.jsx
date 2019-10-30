@@ -5,7 +5,7 @@ import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
 
 const styles = theme => ({
   container: {
-    display: `flex`,
+    display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'flex-end',
     padding: `${ theme.spacing.component.s.rem }rem`,
