@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # [0.12.0](https://github.com/zepdev/zeppelin-element-library/compare/v0.11.4...v0.12.0) (2019-08-10)
 
 ### Bug Fixes
@@ -320,5 +318,4 @@
 
 ### Features
 
-- # **ZEL:** added commitizen in preparation for semantic-release to automate versioning process. ([adfbdd2](https://github.com/zepdev/zeppelin-element-library/commit/adfbdd2))
-  > > > > > > > development
+- **ZEL:** added commitizen in preparation for semantic-release to automate versioning process. ([adfbdd2](https://github.com/zepdev/zeppelin-element-library/commit/adfbdd2))
