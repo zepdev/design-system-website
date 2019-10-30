@@ -1,4 +1,4 @@
-const theme = require('zeppelin-element-library/bundle/themes/theme.json')
+const theme = require('@zlab-de/zel-react/theme.json')
 
 module.exports = {
   siteMetadata: {

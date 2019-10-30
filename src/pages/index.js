@@ -6,7 +6,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 const IndexPage = ({ data }) => {
   return (
     <>
-      <SEO title="Home" keywords={[`Zeppelin`, `Styleguide`]} />
+      <SEO title="Home" keywords={['Zeppelin', 'Styleguide']} />
       <MDXRenderer>{data.mdx.body}</MDXRenderer>
     </>
   )

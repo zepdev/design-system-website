@@ -45,8 +45,8 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     root: {
-      paddingTop: `1.25rem`,
-      paddingBottom: `1.25rem`,
+      paddingTop: '1.25rem',
+      paddingBottom: '1.25rem',
       // padding: '1.25rem 2rem',
     },
     container: {
@@ -73,15 +73,15 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.s })`]: {
     root: {
-      paddingTop: `1.6875rem`,
-      paddingBottom: `1.6875rem`,
+      paddingTop: '1.6875rem',
+      paddingBottom: '1.6875rem',
       // padding: '1.6875rem 3rem',
     },
   },
   [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
-      paddingTop: `1.875rem`,
-      paddingBottom: `1.875rem`,
+      paddingTop: '1.875rem',
+      paddingBottom: '1.875rem',
       // padding: '1.875rem 3rem',
     },
     logo: {
@@ -94,8 +94,8 @@ const styles = theme => ({
   },
   [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     root: {
-      paddingTop: `2.875rem`,
-      paddingBottom: `2.875rem`,
+      paddingTop: '2.875rem',
+      paddingBottom: '2.875rem',
       // padding: '2.875rem 3rem',
     },
     logo: {
