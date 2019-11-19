@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const List = ({ variant: variantProp, className: classNameProp, children: childrenProp }) => {
   const variant = variantProp || 'bullet'
@@ -10,7 +10,7 @@ const List = ({ variant: variantProp, className: classNameProp, children: childr
     })
   })
 
-  return <ul className={classnames('zep-list', classNameProp)}>{children}</ul>
+  return <ul className={clsx('zep-list', classNameProp)}>{children}</ul>
 }
 
 List.propTypes = {

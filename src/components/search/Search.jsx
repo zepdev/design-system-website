@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import Downshift from 'downshift'
 import SearchIcon from '../icons/SearchIcon'
 import { navigate } from 'gatsby'
@@ -40,14 +40,14 @@ const Search = ({ variant, items, placeholder, classes }) => (
         highlightedIndex,
         selectedItem,
       }) => (
-        <div className={classnames(classes.container, 'zep-search')}>
+        <div className={clsx(classes.container, 'zep-search')}>
           <label {...getLabelProps()} className="zep-visually-hidden">
             {placeholder}
           </label>
           <input {...getInputProps({ placeholder: placeholder })} className="zep-search__input" />
           <SearchIcon className="zep-search__icon" />
           {isOpen ? (
-            <ul {...getMenuProps({ className: classnames('zep-select__list', classes.ul) })}>
+            <ul {...getMenuProps({ className: clsx('zep-select__list', classes.ul) })}>
               {items
                 .filter(item => !inputValue || item.value.includes(inputValue))
                 .map((item, index) => (

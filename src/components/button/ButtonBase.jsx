@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const styles = {
   button: {
@@ -32,7 +32,7 @@ function ButtonBase({
   classes,
   ...other
 }) {
-  const className = classnames(
+  const className = clsx(
     classNameProp,
     {
       // eslint-disable-next-line

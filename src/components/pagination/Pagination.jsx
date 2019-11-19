@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import IconButton from '../button/IconButton'
 import PreviousPageIcon from '../icons/PreviousPageIcon'
 import NextPageIcon from '../icons/NextPageIcon'
@@ -57,7 +57,7 @@ const Pagination = ({
   }
 
   return (
-    <div className={classnames('zep-pagination', classNameProp)}>
+    <div className={clsx('zep-pagination', classNameProp)}>
       <IconButton
         onClick={() => {
           onPageChange(0)
@@ -73,7 +73,7 @@ const Pagination = ({
       {displayedPages.map(elem => (
         <button
           key={`pagination${ elem }`}
-          className={classnames('zep-button zep-button-pagination', {
+          className={clsx('zep-button zep-button-pagination', {
             'zep-pagination--selected': currentPage === elem,
           })}
           onClick={() => onPageChange(elem)}

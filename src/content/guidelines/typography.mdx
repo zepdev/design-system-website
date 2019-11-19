@@ -9,7 +9,7 @@ import { typography } from 'zeppelin-element-library/bundle/themes/theme.json'
 
 # Typography
 
-The Zeppelin Group corporate fonts for digital products are Roboto and Teko. Tungsten is a flat-sided sans-serif typeface. It allows a distinction to the original brand and conveys self-confidence, modernity and openness. Both fonts are web-safe and optimized for digital media.
+As of Version 1.0.0, ZDS now uses only Roboto fonts (light: 300, regular: 400, medium: 500, and bold: 700). Headings are comprised of Normal and Bold versions. All typography components have a black (default) and a white verison (-inverse) that should be used against black or colored backgrounds.
 
 ---
 
@@ -23,7 +23,7 @@ The Zeppelin Group corporate fonts for digital products are Roboto and Teko. Tun
 
 <ContentTable
   title="basics typography variations"
-  header={['specification', 'px', 'rem', 'weight']}
+  header={['specification', 'value']}
   content={typography.basics}
 />
 
@@ -39,18 +39,18 @@ The Zeppelin Group corporate fonts for digital products are Roboto and Teko. Tun
   content={typography.headings.normal}
 />
 
+### Normal Sizes: Bold
+
+<ContentTable
+  title="normal typography variations"
+  header={['name', 'rem', 'px', 'specifications', 'actual size']}
+  content={typography.headings.bold}
+/>
+
 ### Display Sizes
 
 <ContentTable
   title="display typography variations"
   header={['name', 'rem', 'px', 'specifications', 'actual size']}
   content={typography.headings.display}
-/>
-
-### Special Sizes
-
-<ContentTable
-  title="special typography variations"
-  header={['name', 'rem', 'px', 'specifications', 'actual size']}
-  content={typography.headings.special}
 />

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import withStyles from 'react-jss'
 
 const styles = theme => ({
@@ -37,7 +37,7 @@ const Tabs = ({
 
   return (
     <div
-      className={classnames(classes.root, classNameProp, 'zep-tabs')}
+      className={clsx(classes.root, classNameProp, 'zep-tabs')}
       data-testid="tabs"
       role="tablist"
       aria-label={ariaLabel}

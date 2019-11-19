@@ -14,7 +14,7 @@ Object {
           title="home"
         >
           <svg
-            aria-labelledby="title_undefined"
+            aria-labelledby="title_logo"
             class="Sidebar-logo-0-1-4"
             height="100%"
             viewBox="0 0 119.1 19.1"
@@ -22,8 +22,10 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <title
-              id="title_undefined"
-            />
+              id="title_logo"
+            >
+              logo
+            </title>
             <path
               d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
 c0-0.1,0-0.1-0.1-0.2c0-0.1-0.1-0.1-0.2-0.1c0.1,0,0.1,0,0.2-0.1c0.1-0.1,0.1-0.1,0.1-0.3c0-0.2-0.1-0.3-0.2-0.3c-0.1,0-0.2,0-0.3,0
@@ -103,7 +105,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             >
               <li>
                 <a
-                  class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
+                  class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full"
                   href="/"
                 >
                   Home
@@ -112,7 +114,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </span>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
               >
                 Getting started
                 <svg
@@ -137,7 +139,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
               >
                 Guidelines
                 <svg
@@ -162,7 +164,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
               >
                 Elements
                 <svg
@@ -187,7 +189,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
               >
                 Changelog
                 <svg
@@ -212,7 +214,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
               >
                 zel-react
                 <svg
@@ -237,7 +239,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <button
-                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
               >
                 zel-react-icons
                 <svg
@@ -262,7 +264,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             </li>
             <li>
               <a
-                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full"
                 href="/content/download/"
               >
                 Download
@@ -283,7 +285,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         title="home"
       >
         <svg
-          aria-labelledby="title_undefined"
+          aria-labelledby="title_logo"
           class="Sidebar-logo-0-1-4"
           height="100%"
           viewBox="0 0 119.1 19.1"
@@ -291,8 +293,10 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           xmlns="http://www.w3.org/2000/svg"
         >
           <title
-            id="title_undefined"
-          />
+            id="title_logo"
+          >
+            logo
+          </title>
           <path
             d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
 c0-0.1,0-0.1-0.1-0.2c0-0.1-0.1-0.1-0.2-0.1c0.1,0,0.1,0,0.2-0.1c0.1-0.1,0.1-0.1,0.1-0.3c0-0.2-0.1-0.3-0.2-0.3c-0.1,0-0.2,0-0.3,0
@@ -372,7 +376,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             <li>
               <a
-                class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full"
                 href="/"
               >
                 Home
@@ -381,7 +385,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </span>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
             >
               Getting started
               <svg
@@ -406,7 +410,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
             >
               Guidelines
               <svg
@@ -431,7 +435,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
             >
               Elements
               <svg
@@ -456,7 +460,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
             >
               Changelog
               <svg
@@ -481,7 +485,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
             >
               zel-react
               <svg
@@ -506,7 +510,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <button
-              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-15"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-15"
             >
               zel-react-icons
               <svg
@@ -531,7 +535,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </li>
           <li>
             <a
-              class="SidebarNavItem-button-0-1-8 zep-typo--normal-3 zep-button--full"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full"
               href="/content/download/"
             >
               Download

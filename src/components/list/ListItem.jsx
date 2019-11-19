@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const ListItem = ({ variant, label, children, className: classNameProp }) => (
   <li
-    className={classnames(
+    className={clsx(
       'zep-list__item',
       {
         'zep-list__item--attribute': variant === 'attribute',
@@ -18,7 +18,7 @@ const ListItem = ({ variant, label, children, className: classNameProp }) => (
 )
 
 ListItem.propTypes = {
-  classNames: PropTypes.object,
+  clsx: PropTypes.object,
   label: PropTypes.string,
   variant: PropTypes.oneOf(['bullet', 'attribute']),
 }

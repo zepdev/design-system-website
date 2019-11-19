@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import CodeBlock from './CodeBlock'
@@ -51,7 +51,7 @@ const CodeUsage = ({ element, classes }) => {
         )
         return (
           <div className={classes.root}>
-            <h3 className={classnames(classes.heading, 'zep-typo--normal-4')}>
+            <h3 className={clsx(classes.heading, 'zep-typo--normal-h4')}>
               Code Usage Examples
             </h3>
             <Tabs value={tab} onClick={handleClick}>

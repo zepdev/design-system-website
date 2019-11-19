@@ -55,23 +55,23 @@ Object {
               class="Spacing-tr-0-1-4"
             >
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--xxs
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 4px
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 0.25rem
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 <div
                   class="Spacing-square-0-1-10"
@@ -83,23 +83,23 @@ Object {
               class="Spacing-tr-0-1-4"
             >
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--xs
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 8px
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 0.5rem
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 <div
                   class="Spacing-square-0-1-10"
@@ -111,23 +111,23 @@ Object {
               class="Spacing-tr-0-1-4"
             >
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--s
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 12px
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 0.75rem
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 <div
                   class="Spacing-square-0-1-10"
@@ -139,23 +139,23 @@ Object {
               class="Spacing-tr-0-1-4"
             >
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--m
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 16px
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 1rem
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 <div
                   class="Spacing-square-0-1-10"
@@ -167,23 +167,23 @@ Object {
               class="Spacing-tr-0-1-4"
             >
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--l
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 24px
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 1.5rem
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 <div
                   class="Spacing-square-0-1-10"
@@ -195,23 +195,23 @@ Object {
               class="Spacing-tr-0-1-4"
             >
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--xl
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 32px
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 2rem
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 <div
                   class="Spacing-square-0-1-10"
@@ -223,23 +223,23 @@ Object {
               class="Spacing-tr-0-1-4"
             >
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--xxl
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 48px
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 3rem
               </td>
               <td
-                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+                class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               >
                 <div
                   class="Spacing-square-0-1-10"
@@ -303,23 +303,23 @@ Object {
             class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--xxs
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               4px
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               0.25rem
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               <div
                 class="Spacing-square-0-1-10"
@@ -331,23 +331,23 @@ Object {
             class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--xs
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               8px
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               0.5rem
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               <div
                 class="Spacing-square-0-1-10"
@@ -359,23 +359,23 @@ Object {
             class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--s
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               12px
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               0.75rem
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               <div
                 class="Spacing-square-0-1-10"
@@ -387,23 +387,23 @@ Object {
             class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--m
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               16px
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               1rem
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               <div
                 class="Spacing-square-0-1-10"
@@ -415,23 +415,23 @@ Object {
             class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--l
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               24px
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               1.5rem
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               <div
                 class="Spacing-square-0-1-10"
@@ -443,23 +443,23 @@ Object {
             class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--xl
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               32px
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               2rem
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               <div
                 class="Spacing-square-0-1-10"
@@ -471,23 +471,23 @@ Object {
             class="Spacing-tr-0-1-4"
           >
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--xxl
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               48px
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               3rem
             </td>
             <td
-              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-2"
+              class="Spacing-th-0-1-3 Spacing-borderBottom-0-1-9 zep-typo--normal-body2"
             >
               <div
                 class="Spacing-square-0-1-10"

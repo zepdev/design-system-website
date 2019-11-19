@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import Downshift from 'downshift'
 import NavigationDropdownIcon from '../icons/NavigationDropdownIcon'
 
@@ -134,7 +134,7 @@ const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }
         <button
           id="zep-select"
           type="button"
-          className={classnames('zep-select__button', classes.menuButton)}
+          className={clsx('zep-select__button', classes.menuButton)}
           onClick={toggleMenu}
           data-toggle="dropdown"
           aria-haspopup="true"
@@ -142,7 +142,7 @@ const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }
         >
           <span className={classes.circleContainer}>
             <span
-              className={classnames(classes.circle, {
+              className={clsx(classes.circle, {
                 [classes.zeppelin]: selected === 'zeppelin',
                 [classes.cat]: selected === 'cat',
                 [classes.rental]: selected === 'rental',
@@ -150,18 +150,18 @@ const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }
             />
           </span>
           <NavigationDropdownIcon
-            className={classnames(classes.dropdownIcon, 'zep-select__icon')}
+            className={clsx(classes.dropdownIcon, 'zep-select__icon')}
           />
         </button>
         {isOpen ? (
-          <ul {...getMenuProps({ className: classnames(classes.ul, 'zep-select__list') })}>
+          <ul {...getMenuProps({ className: clsx(classes.ul, 'zep-select__list') })}>
             {items.map((item, index) => (
               <li
                 {...getItemProps({
                   key: `listItem${ index }`,
                   index,
                   item,
-                  className: classnames(classes.text, 'zep-select__listitem'),
+                  className: clsx(classes.text, 'zep-select__listitem'),
                   style: {
                     backgroundColor: highlightedIndex === index ? 'lightgray' : 'white',
                     fontWeight: selectedItem === item ? 'bold' : 'normal',
@@ -169,7 +169,7 @@ const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }
                 })}
               >
                 <div
-                  className={classnames(classes.circle, classes.spacer, {
+                  className={clsx(classes.circle, classes.spacer, {
                     [classes.zeppelin]: item === 'zeppelin',
                     [classes.cat]: item === 'cat',
                     [classes.rental]: item === 'rental',

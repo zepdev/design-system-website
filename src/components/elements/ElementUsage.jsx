@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import withStyles from 'react-jss'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const styles = theme => ({
   root: {
@@ -45,7 +45,7 @@ const ElementUsage = ({ element, classes }) => {
         return documentation ? (
           <MDXRenderer>{documentation.node.body}</MDXRenderer>
         ) : (
-          <p className={classnames(classes.text, 'zep-typo--normal-3')}>
+          <p className={clsx(classes.text, 'zep-typo--normal-body1')}>
             No content yet, please check back later
           </p>
         )

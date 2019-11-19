@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const Tab = ({
   className: classNameProp,
@@ -21,7 +21,7 @@ const Tab = ({
   return (
     <div className="zep-tabs__item">
       <button
-        className={classnames('zep-tab', classNameProp, {
+        className={clsx('zep-tab', classNameProp, {
           'zep-tab--selected': selected,
           'zep-tab--small': size === 'small',
           'zep-tab--icon': variant === 'icon',

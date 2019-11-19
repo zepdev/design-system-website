@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import SidebarNav from './SidebarNav'
 import ZeppelinIcon from '../icons/ZeppelinIcon'
 
@@ -107,12 +107,17 @@ const styles = theme => ({
 const Sidebar = ({ isMenuOpen, setMenu, classes }) => {
   return (
     <div
-      className={classnames(classes.root, {
+      className={clsx(classes.root, {
         [classes.hidden]: !isMenuOpen,
       })}
     >
       <Link className={classes.link} to="/" title="home">
-        <ZeppelinIcon className={classes.logo} height="100%" width="100%" />
+        <ZeppelinIcon
+          className={classes.logo}
+          height="100%"
+          width="100%"
+          ariaLabel="logo"
+        />
       </Link>
       <div className={classes.containerSidebarNav}>
         <SidebarNav setMenu={setMenu} />

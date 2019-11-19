@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import { Link } from 'gatsby'
 
 const styles = theme => ({
@@ -23,7 +23,7 @@ const styles = theme => ({
 const DocumentLink = ({ text, to, classes }) => {
   return (
     <div className={classes.root}>
-      <Link to={to} className={classnames('zep-button zep-button-primary', classes.link)}>
+      <Link to={to} className={clsx('zep-button zep-button-primary', classes.link)}>
         <span className="zep-button__text">{text}</span>
       </Link>
     </div>

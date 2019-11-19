@@ -57,55 +57,6 @@ Object {
             </a>
           </div>
         </div>
-        <div
-          class="Typefaces-container-0-1-2"
-        >
-          <div
-            class="Typefaces-titleContainer-0-1-3"
-          >
-            <p
-              class="Typefaces-title-0-1-4"
-              style="font-family: teko;"
-            >
-              Lorem Ipsum
-            </p>
-          </div>
-          <div
-            class="Typefaces-buttonContainer-0-1-5"
-          >
-            <p
-              class="Typefaces-text-0-1-6"
-            >
-              teko
-               Font Family
-            </p>
-            <a
-              aria-label="Launch"
-              class="Typefaces-link-0-1-7"
-              href="https://fonts.google.com/specimen/Teko"
-              rel="noopener"
-              target="_blank"
-            >
-              <svg
-                aria-labelledby="title_launch"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title
-                  id="title_launch"
-                >
-                  Open In New
-                </title>
-                <path
-                  d="M14,3 L14,5 L17.59,5 L7.76,14.83 L9.17,16.24 L19,6.41 L19,10 L21,10 L21,3 L14,3 Z M19,19 L5,19 L5,5 L12,5 L12,3 L5,3 C3.89,3 3,3.9 3,5 L3,19 C3,20.1045695 3.8954305,21 5,21 L19,21 C20.1045695,21 21,20.1045695 21,19 L21,12 L19,12 L19,19 Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </body>,
@@ -139,55 +90,6 @@ Object {
             aria-label="Launch"
             class="Typefaces-link-0-1-7"
             href="https://fonts.google.com/specimen/Roboto"
-            rel="noopener"
-            target="_blank"
-          >
-            <svg
-              aria-labelledby="title_launch"
-              height="24"
-              viewBox="0 0 24 24"
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title
-                id="title_launch"
-              >
-                Open In New
-              </title>
-              <path
-                d="M14,3 L14,5 L17.59,5 L7.76,14.83 L9.17,16.24 L19,6.41 L19,10 L21,10 L21,3 L14,3 Z M19,19 L5,19 L5,5 L12,5 L12,3 L5,3 C3.89,3 3,3.9 3,5 L3,19 C3,20.1045695 3.8954305,21 5,21 L19,21 C20.1045695,21 21,20.1045695 21,19 L21,12 L19,12 L19,19 Z"
-                fill="currentColor"
-              />
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div
-        class="Typefaces-container-0-1-2"
-      >
-        <div
-          class="Typefaces-titleContainer-0-1-3"
-        >
-          <p
-            class="Typefaces-title-0-1-4"
-            style="font-family: teko;"
-          >
-            Lorem Ipsum
-          </p>
-        </div>
-        <div
-          class="Typefaces-buttonContainer-0-1-5"
-        >
-          <p
-            class="Typefaces-text-0-1-6"
-          >
-            teko
-             Font Family
-          </p>
-          <a
-            aria-label="Launch"
-            class="Typefaces-link-0-1-7"
-            href="https://fonts.google.com/specimen/Teko"
             rel="noopener"
             target="_blank"
           >

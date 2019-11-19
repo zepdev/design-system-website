@@ -1,17 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function IconButton({ className: classNameProp, children: childrenProp, variant, ...other }) {
   const children = childrenProp
     ? React.cloneElement(childrenProp, {
-      className: classnames('zep-button__icon', childrenProp.props.className),
+      className: clsx('zep-button__icon', childrenProp.props.className),
     })
     : null
 
   return (
     <button
-      className={classnames(
+      className={clsx(
         'zep-button zep-button-icon',
         {
           'zep-button-primary': variant === 'primary',

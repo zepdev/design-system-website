@@ -45,11 +45,11 @@ export default MyTableComponent
 // Table.jsx
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function Table({ children, title, className: classNameProp }) {
   return (
-    <table className={classnames('zep-table', classNameProp)}>
+    <table className={clsx('zep-table', classNameProp)}>
       <caption className="zep-visually-hidden">{title}</caption>
       {children}
     </table>
@@ -67,7 +67,7 @@ export default Table
 // TableHeader.jsx
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function TableHeader({ children: childrenProp, className: classNameProp }) {
   const children = React.Children.map(childrenProp, child => {
@@ -75,14 +75,14 @@ function TableHeader({ children: childrenProp, className: classNameProp }) {
       return null
     }
     return React.cloneElement(child, {
-      className: classnames('zep-table__cell--header', child.props.className),
+      className: clsx('zep-table__cell--header', child.props.className),
       scope: 'col',
       component: 'th',
     })
   })
   return (
     <thead>
-      <tr className={classnames('zep-table__row zep-table__row--header', classNameProp)}>
+      <tr className={clsx('zep-table__row zep-table__row--header', classNameProp)}>
         {children}
       </tr>
     </thead>
@@ -114,10 +114,10 @@ export default TableBody
 // TableRow.jsx
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function TableRow({ children, color, className: classNameProp }) {
-  const className = classnames(
+  const className = clsx(
     'zep-table__row',
     {
       'zep-table__row--white': color === 'white',
@@ -143,12 +143,12 @@ export default TableRow
 // TableCell.jsx
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function TableCell({ children, component, className: classNameProp, ...props }) {
   const Component = component || 'td'
   return (
-    <Component className={classnames('zep-table__cell', classNameProp)} {...props}>
+    <Component className={clsx('zep-table__cell', classNameProp)} {...props}>
       {children}
     </Component>
   )

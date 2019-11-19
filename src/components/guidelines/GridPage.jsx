@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
 import ReactPlayer from 'react-player'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import ElementUsage from '../elements/ElementUsage'
@@ -37,9 +37,11 @@ function GridPage({ classes }) {
       </Tabs>
       {value === 0 && (
         <>
-          <h2 className={classnames('zep-typo--normal-8', classes.headline)}>Basic Grid</h2>
+          <h2 className={clsx('zep-typo--normal-h1', classes.headline)}>
+            Basic Grid
+          </h2>
 
-          <p className={classnames('zep-typo--normal-3', classes.headline)}>
+          <p className={clsx('zep-typo--normal-body1', classes.headline)}>
             Zeppelin uses a hybrid grid layout as demonstrated below
           </p>
 
@@ -53,7 +55,9 @@ function GridPage({ classes }) {
             />
           </div>
 
-          <h3 className={classnames('zep-typo--normal-6', classes.headline)}>Basic Grid Data</h3>
+          <h3 className={clsx('zep-typo--normal-h4', classes.headline)}>
+            Basic Grid Data
+          </h3>
           <GridExample />
           <ContentTable
             title="basic grid data"

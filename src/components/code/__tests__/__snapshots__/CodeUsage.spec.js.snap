@@ -9,7 +9,7 @@ Object {
         class="CodeUsage-root-0-1-1"
       >
         <h3
-          class="CodeUsage-heading-0-1-2 zep-typo--normal-4"
+          class="CodeUsage-heading-0-1-2 zep-typo--normal-h4"
         >
           Code Usage Examples
         </h3>
@@ -113,7 +113,7 @@ Object {
       class="CodeUsage-root-0-1-1"
     >
       <h3
-        class="CodeUsage-heading-0-1-2 zep-typo--normal-4"
+        class="CodeUsage-heading-0-1-2 zep-typo--normal-h4"
       >
         Code Usage Examples
       </h3>

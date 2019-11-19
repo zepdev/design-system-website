@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function Button({
   children: childrenProp,
@@ -12,7 +12,7 @@ function Button({
   size,
   ...other
 }) {
-  const className = classnames(
+  const className = clsx(
     'zep-button',
     {
       'zep-button-primary': color === 'primary',
@@ -27,7 +27,7 @@ function Button({
   const childrenIcon = childrenProp.filter(elem => typeof elem !== 'string')[0]
   const childrenIconTertiary = childrenIcon
     ? React.cloneElement(childrenIcon, {
-      className: classnames(
+      className: clsx(
         'zep-button__icon zep-button__icon-tertiary',
         childrenIcon.props.className
       ),
@@ -44,7 +44,7 @@ function Button({
     >
       {color === 'tertiary' && childrenIconTertiary}
       <span
-        className={classnames('zep-button__text', {
+        className={clsx('zep-button__text', {
           'zep-button__text--tertiary': color === 'tertiary',
         })}
       >

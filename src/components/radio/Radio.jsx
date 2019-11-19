@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const Radio = ({ checked, onChange, value, name, label, className: classNameProp }) => (
-  <label className={classnames('zep-radio', classNameProp)}>
+  <label className={clsx('zep-radio', classNameProp)}>
     <input
       type="radio"
       name={name}

@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function GridCol({ children, className: classNameProp, align, xxs, xs, s, m, l, xl, ...other }) {
-  const className = classnames(
+  const className = clsx(
     'zep-grid__col',
     {
       [`zep-grid__col--align-self-${ align }`]: align !== undefined,

@@ -3,12 +3,14 @@ import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import withStyles from 'react-jss'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
+import DialogTitle from '@material-ui/core/DialogTitle'
+import Dialog from '@material-ui/core/Dialog'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 // import '@zlab-de/zel-react/zeppelin-element-library.css'
 import ZEL from 'zeppelin-element-library'
@@ -71,6 +73,9 @@ const styles = theme => ({
     left: '-999em',
     width: '990em',
   },
+  dialog: {
+    padding: `${ theme.spacing.component.xl.rem }rem`,
+  },
 })
 
 // init ZEL once
@@ -84,6 +89,9 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('zeppelin')
+  const [dialog, setDialog] = useState(
+    process.env.NODE_ENV !== 'development'
+  )
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
@@ -94,27 +102,29 @@ function Layout({ children, classes }) {
   const handleTheme = theme => {
     setTheme(theme)
   }
-
+  console.log(process.env.NODE_ENV)
   // Styles for mdx/md pages
   const h1Styled = props => (
-    <h1 className={classnames(classes.h1Styled, 'zep-typo--display-1')} {...props} />
+    <h1 className={clsx(classes.h1Styled, 'zep-typo--normal-h1')} {...props} />
   )
   const h2Styled = props => (
-    <h2 className={classnames(classes.hStyled, 'zep-typo--normal-6')} {...props} />
+    <h2 className={clsx(classes.hStyled, 'zep-typo--normal-h2')} {...props} />
   )
   const h3Styled = props => (
-    <h3 className={classnames(classes.hStyled, 'zep-typo--normal-4')} {...props} />
+    <h3 className={clsx(classes.hStyled, 'zep-typo--normal-h3')} {...props} />
   )
   const pStyled = props => (
-    <p className={classnames(classes.pStyled, 'zep-typo--normal-3')} {...props} />
+    <p className={clsx(classes.pStyled, 'zep-typo--normal-body1')} {...props} />
   )
   const hrStyled = () => (
-    <hr className={classnames(classes.hrStyled, 'zep-border-color__gray-lighter')} />
+    <hr className={clsx(classes.hrStyled, 'zep-border-color__gray-lighter')} />
   )
 
   const aStyled = props => <a className={classes.aStyled} {...props} />
   const preStyled = props => <div {...props} />
-  const strongStyled = props => <strong className={classes.strongStyled} {...props} />
+  const strongStyled = props => (
+    <strong className={classes.strongStyled} {...props} />
+  )
 
   const components = {
     h1: h1Styled,
@@ -144,13 +154,27 @@ function Layout({ children, classes }) {
       render={data => {
         return (
           <div
-            className={classnames(classes.root, {
+            className={clsx(classes.root, {
               'theme-zeppelin': theme === 'zeppelin',
               'theme-cat': theme === 'cat',
               'theme-rental': theme === 'rental',
             })}
           >
             <SkipNavLink className={classes.skipLink} />
+            <Dialog
+              onClose={() => setDialog(false)}
+              aria-labelledby="simple-dialog-title"
+              open={dialog}
+            >
+              <DialogTitle id="simple-dialog-title">
+                BREAKING CHANGES: Version 1.0.0 +
+              </DialogTitle>
+              <p className={clsx('zep-typo--normal-body1', classes.dialog)}>
+                Changes are underway! Please note that we are currently working
+                to update ZDS and this will cause breaking changes with each
+                release over the next year.
+              </p>
+            </Dialog>
             <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
             <div>
               <Header
@@ -163,7 +187,9 @@ function Layout({ children, classes }) {
               />
               <SkipNavContent />
               <MDXProvider components={components}>
-                <main className={classnames(classes.main, 'zep-grid')}>{children}</main>
+                <main className={clsx(classes.main, 'zep-grid')}>
+                  {children}
+                </main>
               </MDXProvider>
               <Footer />
             </div>

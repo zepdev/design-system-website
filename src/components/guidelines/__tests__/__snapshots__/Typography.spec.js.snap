@@ -23,25 +23,25 @@ Object {
               class="Typography-tr-0-1-4"
             >
               <th
-                class="Typography-th-0-1-3 zep-typo--normal-1 Typography-capitalize-0-1-8"
+                class="Typography-th-0-1-3 zep-typo--normal-body1 Typography-capitalize-0-1-8"
                 scope="col"
               >
                 specification
               </th>
               <th
-                class="Typography-th-0-1-3 zep-typo--normal-1 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 zep-typo--normal-body1 Typography-lowercase-0-1-7"
                 scope="col"
               >
                 px
               </th>
               <th
-                class="Typography-th-0-1-3 zep-typo--normal-1 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 zep-typo--normal-body1 Typography-lowercase-0-1-7"
                 scope="col"
               >
                 rem
               </th>
               <th
-                class="Typography-th-0-1-3 zep-typo--normal-1 Typography-capitalize-0-1-8"
+                class="Typography-th-0-1-3 zep-typo--normal-body1 Typography-capitalize-0-1-8"
                 scope="col"
               >
                 weight
@@ -55,23 +55,23 @@ Object {
               class="Typography-tr-0-1-4"
             >
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
                 scope="row"
               >
                 font-size-base
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                16px
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                1rem
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
                 -
               </td>
@@ -80,23 +80,73 @@ Object {
               class="Typography-tr-0-1-4"
             >
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+                scope="row"
+              >
+                font-size-base
+              </td>
+              <td
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+              >
+                -
+              </td>
+              <td
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+              >
+                -
+              </td>
+              <td
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+              >
+                -
+              </td>
+            </tr>
+            <tr
+              class="Typography-tr-0-1-4"
+            >
+              <td
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+                scope="row"
+              >
+                font-size-base
+              </td>
+              <td
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+              >
+                -
+              </td>
+              <td
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+              >
+                -
+              </td>
+              <td
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+              >
+                -
+              </td>
+            </tr>
+            <tr
+              class="Typography-tr-0-1-4"
+            >
+              <td
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
                 scope="row"
               >
                 line-height-base
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                24px
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                1.5rem
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
                 -
               </td>
@@ -105,48 +155,48 @@ Object {
               class="Typography-tr-0-1-4"
             >
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
                 scope="row"
               >
                 font-weight-base
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
                 -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
                 -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                400
+                -
               </td>
             </tr>
             <tr
               class="Typography-tr-0-1-4"
             >
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
                 scope="row"
               >
                 font-size-xs
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                12px
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                0.75rem
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
                 -
               </td>
@@ -155,23 +205,23 @@ Object {
               class="Typography-tr-0-1-4"
             >
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
                 scope="row"
               >
                 font-size-sm
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                14px
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                0.875rem
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
                 -
               </td>
@@ -180,23 +230,23 @@ Object {
               class="Typography-tr-0-1-4"
             >
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
                 scope="row"
               >
                 font-size-lg
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                20px
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
-                1.25rem
+                -
               </td>
               <td
-                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+                class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               >
                 -
               </td>
@@ -225,25 +275,25 @@ Object {
             class="Typography-tr-0-1-4"
           >
             <th
-              class="Typography-th-0-1-3 zep-typo--normal-1 Typography-capitalize-0-1-8"
+              class="Typography-th-0-1-3 zep-typo--normal-body1 Typography-capitalize-0-1-8"
               scope="col"
             >
               specification
             </th>
             <th
-              class="Typography-th-0-1-3 zep-typo--normal-1 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               scope="col"
             >
               px
             </th>
             <th
-              class="Typography-th-0-1-3 zep-typo--normal-1 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               scope="col"
             >
               rem
             </th>
             <th
-              class="Typography-th-0-1-3 zep-typo--normal-1 Typography-capitalize-0-1-8"
+              class="Typography-th-0-1-3 zep-typo--normal-body1 Typography-capitalize-0-1-8"
               scope="col"
             >
               weight
@@ -257,23 +307,23 @@ Object {
             class="Typography-tr-0-1-4"
           >
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               scope="row"
             >
               font-size-base
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              16px
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              1rem
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
               -
             </td>
@@ -282,23 +332,73 @@ Object {
             class="Typography-tr-0-1-4"
           >
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+              scope="row"
+            >
+              font-size-base
+            </td>
+            <td
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+            >
+              -
+            </td>
+            <td
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+            >
+              -
+            </td>
+            <td
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+            >
+              -
+            </td>
+          </tr>
+          <tr
+            class="Typography-tr-0-1-4"
+          >
+            <td
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+              scope="row"
+            >
+              font-size-base
+            </td>
+            <td
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+            >
+              -
+            </td>
+            <td
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+            >
+              -
+            </td>
+            <td
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
+            >
+              -
+            </td>
+          </tr>
+          <tr
+            class="Typography-tr-0-1-4"
+          >
+            <td
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               scope="row"
             >
               line-height-base
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              24px
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              1.5rem
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
               -
             </td>
@@ -307,48 +407,48 @@ Object {
             class="Typography-tr-0-1-4"
           >
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               scope="row"
             >
               font-weight-base
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
               -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
               -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              400
+              -
             </td>
           </tr>
           <tr
             class="Typography-tr-0-1-4"
           >
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               scope="row"
             >
               font-size-xs
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              12px
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              0.75rem
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
               -
             </td>
@@ -357,23 +457,23 @@ Object {
             class="Typography-tr-0-1-4"
           >
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               scope="row"
             >
               font-size-sm
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              14px
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              0.875rem
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
               -
             </td>
@@ -382,23 +482,23 @@ Object {
             class="Typography-tr-0-1-4"
           >
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
               scope="row"
             >
               font-size-lg
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              20px
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
-              1.25rem
+              -
             </td>
             <td
-              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-2 Typography-lowercase-0-1-7"
+              class="Typography-th-0-1-3 Typography-borderBottom-0-1-9 zep-typo--normal-body1 Typography-lowercase-0-1-7"
             >
               -
             </td>

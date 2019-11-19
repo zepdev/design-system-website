@@ -7,7 +7,7 @@ Object {
     <div>
       <fieldset
         aria-labelledby="radio_mockTitle"
-        class="zep-typo--normal-3"
+        class="zep-typo--normal-body1"
         role="group"
       >
         <legend
@@ -21,7 +21,7 @@ Object {
   "container": <div>
     <fieldset
       aria-labelledby="radio_mockTitle"
-      class="zep-typo--normal-3"
+      class="zep-typo--normal-body1"
       role="group"
     >
       <legend

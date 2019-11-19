@@ -1,12 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
-const RadioGroup = ({ title, children, className: classNameProp, classNameLegend }) => (
+const RadioGroup = ({
+  title,
+  children,
+  className: classNameProp,
+  classNameLegend,
+}) => (
   <fieldset
     role="group"
     aria-labelledby={`radio_${ title }`}
-    className={classnames('zep-typo--normal-3', classNameProp)}
+    className={clsx('zep-typo--normal-body1', classNameProp)}
   >
     <legend id={`radio_${ title }`} className={classNameLegend}>
       {title}

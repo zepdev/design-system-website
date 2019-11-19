@@ -43,7 +43,7 @@ Object {
         <div>
           <fieldset
             aria-labelledby="radio_Align All Cols = 'zep-grid__row--align-items-baseline'"
-            class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+            class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
             role="group"
           >
             <legend
@@ -164,7 +164,7 @@ Object {
           </fieldset>
           <fieldset
             aria-labelledby="radio_Align Col 1 = 'zep-grid__col--align-items-none'"
-            class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+            class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
             role="group"
           >
             <legend
@@ -285,7 +285,7 @@ Object {
           </fieldset>
           <fieldset
             aria-labelledby="radio_XXS = 'zep-grid__col--xxs-1-4'"
-            class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+            class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
             role="group"
           >
             <legend
@@ -370,7 +370,7 @@ Object {
           </fieldset>
           <fieldset
             aria-labelledby="radio_XS = 'zep-grid__col--xs-1-6'"
-            class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+            class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
             role="group"
           >
             <legend
@@ -491,7 +491,7 @@ Object {
           </fieldset>
           <fieldset
             aria-labelledby="radio_S = 'zep-grid__col--s-1-6'"
-            class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+            class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
             role="group"
           >
             <legend
@@ -612,7 +612,7 @@ Object {
           </fieldset>
           <fieldset
             aria-labelledby="radio_M = 'zep-grid__col--m-1-8'"
-            class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+            class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
             role="group"
           >
             <legend
@@ -769,7 +769,7 @@ Object {
           </fieldset>
           <fieldset
             aria-labelledby="radio_L = 'zep-grid__col--l-1-12'"
-            class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+            class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
             role="group"
           >
             <legend
@@ -998,7 +998,7 @@ Object {
           </fieldset>
           <fieldset
             aria-labelledby="radio_XL = 'zep-grid__col--x-1-12'"
-            class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+            class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
             role="group"
           >
             <legend
@@ -1268,7 +1268,7 @@ Object {
       <div>
         <fieldset
           aria-labelledby="radio_Align All Cols = 'zep-grid__row--align-items-baseline'"
-          class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+          class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
           role="group"
         >
           <legend
@@ -1389,7 +1389,7 @@ Object {
         </fieldset>
         <fieldset
           aria-labelledby="radio_Align Col 1 = 'zep-grid__col--align-items-none'"
-          class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+          class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
           role="group"
         >
           <legend
@@ -1510,7 +1510,7 @@ Object {
         </fieldset>
         <fieldset
           aria-labelledby="radio_XXS = 'zep-grid__col--xxs-1-4'"
-          class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+          class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
           role="group"
         >
           <legend
@@ -1595,7 +1595,7 @@ Object {
         </fieldset>
         <fieldset
           aria-labelledby="radio_XS = 'zep-grid__col--xs-1-6'"
-          class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+          class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
           role="group"
         >
           <legend
@@ -1716,7 +1716,7 @@ Object {
         </fieldset>
         <fieldset
           aria-labelledby="radio_S = 'zep-grid__col--s-1-6'"
-          class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+          class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
           role="group"
         >
           <legend
@@ -1837,7 +1837,7 @@ Object {
         </fieldset>
         <fieldset
           aria-labelledby="radio_M = 'zep-grid__col--m-1-8'"
-          class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+          class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
           role="group"
         >
           <legend
@@ -1994,7 +1994,7 @@ Object {
         </fieldset>
         <fieldset
           aria-labelledby="radio_L = 'zep-grid__col--l-1-12'"
-          class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+          class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
           role="group"
         >
           <legend
@@ -2223,7 +2223,7 @@ Object {
         </fieldset>
         <fieldset
           aria-labelledby="radio_XL = 'zep-grid__col--x-1-12'"
-          class="zep-typo--normal-3 GridExample-radioGroup-0-1-5"
+          class="zep-typo--normal-body1 GridExample-radioGroup-0-1-5"
           role="group"
         >
           <legend

@@ -38,7 +38,7 @@ Object {
         </div>
       </div>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-6"
+        class="Headline-text-0-1-4 zep-typo--normal-h1"
       >
         primary
       </p>
@@ -78,7 +78,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #27166f
@@ -86,17 +86,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             indigo-blue
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #27166f
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 39/22/111
           </p>
@@ -134,7 +134,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #f0b823
@@ -142,17 +142,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             cat-yellow
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #f0b823
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 240/184/35
           </p>
@@ -190,7 +190,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #af0e0e
@@ -198,17 +198,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             rental-red
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #af0e0e
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 175/14/14
           </p>
@@ -246,7 +246,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #00aeef
@@ -254,24 +254,24 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             zlab-blue
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #00aeef
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 0/174/239
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-6"
+        class="Headline-text-0-1-4 zep-typo--normal-h1"
       >
         secondary
       </p>
@@ -311,7 +311,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #fae6b2
@@ -319,12 +319,12 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             cat-yellow-lightest
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #fae6b2
           </p>
@@ -362,7 +362,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #f3c753
@@ -370,12 +370,12 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             cat-yellow-lighter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #f3c753
           </p>
@@ -413,7 +413,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #f0b823
@@ -421,12 +421,12 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             cat-yellow-lighter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #f0b823
           </p>
@@ -464,7 +464,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #361e9a
@@ -472,19 +472,19 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             indigo-blue-lighter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #361e9a
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-6"
+        class="Headline-text-0-1-4 zep-typo--normal-h1"
       >
         gray
       </p>
@@ -524,7 +524,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #000000
@@ -532,17 +532,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             black
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #000000
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 0/0/0
           </p>
@@ -580,7 +580,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #101111
@@ -588,17 +588,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             gray-dark
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #101111
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 16/17/17
           </p>
@@ -636,7 +636,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #373d3f
@@ -644,17 +644,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             gray-mid-dark
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #373d3f
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 55/61/63
           </p>
@@ -692,7 +692,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #464a4c
@@ -700,17 +700,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             gray
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #464a4c
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 70/74/76
           </p>
@@ -748,7 +748,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #555f61
@@ -756,17 +756,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             text-gray
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #555f61
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 85/95/97
           </p>
@@ -804,7 +804,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #6f7c80
@@ -812,17 +812,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             gray-light
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #6f7c80
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 111/124/128
           </p>
@@ -860,7 +860,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #c1c7c9
@@ -868,17 +868,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             disabled
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #c1c7c9
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 193/199/201
           </p>
@@ -916,7 +916,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #eceeef
@@ -924,17 +924,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             gray-lighter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #eceeef
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 236/238/239
           </p>
@@ -972,7 +972,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #f2f3f4
@@ -980,17 +980,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             gray-mid
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #f2f3f4
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 242/243/244
           </p>
@@ -1028,7 +1028,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #f7f7f9
@@ -1036,17 +1036,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             gray-lightest
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #f7f7f9
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 247/247/249
           </p>
@@ -1084,7 +1084,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #ffffff
@@ -1092,24 +1092,24 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             white
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #ffffff
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 255/255/255
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-6"
+        class="Headline-text-0-1-4 zep-typo--normal-h1"
       >
         support
       </p>
@@ -1149,7 +1149,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #ff6562
@@ -1157,17 +1157,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             alert
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #ff6562
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 255/101/98
           </p>
@@ -1205,7 +1205,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #f0ad4e
@@ -1213,17 +1213,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             warning
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #f0ad4e
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 240/73/78
           </p>
@@ -1261,7 +1261,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #5cb85c
@@ -1269,17 +1269,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             success
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #5cb85c
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 92/184/92
           </p>
@@ -1317,7 +1317,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #5bc0de
@@ -1325,17 +1325,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             info
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #5bc0de
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 91/192/222
           </p>
@@ -1373,7 +1373,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #ffe2e2
@@ -1381,12 +1381,12 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             alert-lighter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #ffe2e2
           </p>
@@ -1424,7 +1424,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #fcf8e3
@@ -1432,12 +1432,12 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             warning-lighter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #fcf8e3
           </p>
@@ -1475,7 +1475,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #dff0d8
@@ -1483,12 +1483,12 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             success-lighter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #dff0d8
           </p>
@@ -1526,7 +1526,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #d9edf7
@@ -1534,19 +1534,19 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             info-lighter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #d9edf7
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-6"
+        class="Headline-text-0-1-4 zep-typo--normal-h1"
       >
         corporate
       </p>
@@ -1586,7 +1586,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #e9cea4
@@ -1594,17 +1594,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             sand
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #e9cea4
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 234/206/164
           </p>
@@ -1642,7 +1642,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #4e8095
@@ -1650,24 +1650,24 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             steel
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #4e8095
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 79/128/150
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-6"
+        class="Headline-text-0-1-4 zep-typo--normal-h1"
       >
         corporateSecondary
       </p>
@@ -1707,7 +1707,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #FFE72D
@@ -1715,17 +1715,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             yellow
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #FFE72D
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 255/231/45
           </p>
@@ -1763,7 +1763,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #FBBA00
@@ -1771,17 +1771,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             orange
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #FBBA00
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 251/186/0
           </p>
@@ -1819,7 +1819,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #DD686A
@@ -1827,17 +1827,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             red
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #DD686A
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 221/104/106
           </p>
@@ -1875,7 +1875,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #94C11C
@@ -1883,17 +1883,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
-            green-lighter
+            green-light
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #94C11C
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 148/193/28
           </p>
@@ -1931,7 +1931,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #00A760
@@ -1939,17 +1939,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             green-dark
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #00A760
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 0/167/96
           </p>
@@ -1987,7 +1987,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #C8D3D9
@@ -1995,24 +1995,24 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             gray
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #C8D3D9
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 200/211/217
           </p>
         </div>
       </div>
       <p
-        class="Headline-text-0-1-4 zep-typo--normal-6"
+        class="Headline-text-0-1-4 zep-typo--normal-h1"
       >
         socialMedia
       </p>
@@ -2052,7 +2052,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #026466
@@ -2060,17 +2060,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             xing
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #026466
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 2/100/102
           </p>
@@ -2108,7 +2108,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #4267b2
@@ -2116,17 +2116,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             facebook
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #4267b2
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 66/103/178
           </p>
@@ -2164,7 +2164,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #1da1f2
@@ -2172,17 +2172,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             twitter
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #1da1f2
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 29/161/242
           </p>
@@ -2220,7 +2220,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #0077b5
@@ -2228,17 +2228,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             linkedin
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #0077b5
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 0/119/181
           </p>
@@ -2276,7 +2276,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #99c613
@@ -2284,17 +2284,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             kununu
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #99c613
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 153/198/19
           </p>
@@ -2332,7 +2332,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #ff0000
@@ -2340,17 +2340,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             youtube
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #ff0000
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 255/0/0
           </p>
@@ -2388,7 +2388,7 @@ Object {
                 />
               </svg>
               <span
-                class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+                class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #dd4b39
@@ -2396,17 +2396,17 @@ Object {
             </span>
           </button>
           <p
-            class="Swatch-name-0-1-12 zep-typo--normal-2"
+            class="Swatch-name-0-1-12 zep-typo--normal-body2"
           >
             googleplus
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             HEX: #dd4b39
           </p>
           <p
-            class="Swatch-text-0-1-11 zep-typo--normal-1"
+            class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
             RGB: 221/75/57
           </p>
@@ -2448,7 +2448,7 @@ Object {
       </div>
     </div>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-6"
+      class="Headline-text-0-1-4 zep-typo--normal-h1"
     >
       primary
     </p>
@@ -2488,7 +2488,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #27166f
@@ -2496,17 +2496,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           indigo-blue
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #27166f
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 39/22/111
         </p>
@@ -2544,7 +2544,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #f0b823
@@ -2552,17 +2552,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           cat-yellow
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #f0b823
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 240/184/35
         </p>
@@ -2600,7 +2600,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #af0e0e
@@ -2608,17 +2608,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           rental-red
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #af0e0e
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 175/14/14
         </p>
@@ -2656,7 +2656,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #00aeef
@@ -2664,24 +2664,24 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           zlab-blue
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #00aeef
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 0/174/239
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-6"
+      class="Headline-text-0-1-4 zep-typo--normal-h1"
     >
       secondary
     </p>
@@ -2721,7 +2721,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #fae6b2
@@ -2729,12 +2729,12 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           cat-yellow-lightest
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #fae6b2
         </p>
@@ -2772,7 +2772,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #f3c753
@@ -2780,12 +2780,12 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           cat-yellow-lighter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #f3c753
         </p>
@@ -2823,7 +2823,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #f0b823
@@ -2831,12 +2831,12 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           cat-yellow-lighter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #f0b823
         </p>
@@ -2874,7 +2874,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #361e9a
@@ -2882,19 +2882,19 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           indigo-blue-lighter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #361e9a
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-6"
+      class="Headline-text-0-1-4 zep-typo--normal-h1"
     >
       gray
     </p>
@@ -2934,7 +2934,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #000000
@@ -2942,17 +2942,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           black
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #000000
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 0/0/0
         </p>
@@ -2990,7 +2990,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #101111
@@ -2998,17 +2998,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           gray-dark
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #101111
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 16/17/17
         </p>
@@ -3046,7 +3046,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #373d3f
@@ -3054,17 +3054,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           gray-mid-dark
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #373d3f
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 55/61/63
         </p>
@@ -3102,7 +3102,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #464a4c
@@ -3110,17 +3110,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           gray
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #464a4c
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 70/74/76
         </p>
@@ -3158,7 +3158,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #555f61
@@ -3166,17 +3166,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           text-gray
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #555f61
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 85/95/97
         </p>
@@ -3214,7 +3214,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #6f7c80
@@ -3222,17 +3222,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           gray-light
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #6f7c80
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 111/124/128
         </p>
@@ -3270,7 +3270,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #c1c7c9
@@ -3278,17 +3278,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           disabled
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #c1c7c9
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 193/199/201
         </p>
@@ -3326,7 +3326,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #eceeef
@@ -3334,17 +3334,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           gray-lighter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #eceeef
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 236/238/239
         </p>
@@ -3382,7 +3382,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #f2f3f4
@@ -3390,17 +3390,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           gray-mid
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #f2f3f4
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 242/243/244
         </p>
@@ -3438,7 +3438,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #f7f7f9
@@ -3446,17 +3446,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           gray-lightest
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #f7f7f9
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 247/247/249
         </p>
@@ -3494,7 +3494,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #ffffff
@@ -3502,24 +3502,24 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           white
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #ffffff
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 255/255/255
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-6"
+      class="Headline-text-0-1-4 zep-typo--normal-h1"
     >
       support
     </p>
@@ -3559,7 +3559,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #ff6562
@@ -3567,17 +3567,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           alert
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #ff6562
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 255/101/98
         </p>
@@ -3615,7 +3615,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #f0ad4e
@@ -3623,17 +3623,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           warning
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #f0ad4e
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 240/73/78
         </p>
@@ -3671,7 +3671,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #5cb85c
@@ -3679,17 +3679,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           success
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #5cb85c
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 92/184/92
         </p>
@@ -3727,7 +3727,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #5bc0de
@@ -3735,17 +3735,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           info
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #5bc0de
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 91/192/222
         </p>
@@ -3783,7 +3783,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #ffe2e2
@@ -3791,12 +3791,12 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           alert-lighter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #ffe2e2
         </p>
@@ -3834,7 +3834,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #fcf8e3
@@ -3842,12 +3842,12 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           warning-lighter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #fcf8e3
         </p>
@@ -3885,7 +3885,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #dff0d8
@@ -3893,12 +3893,12 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           success-lighter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #dff0d8
         </p>
@@ -3936,7 +3936,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #d9edf7
@@ -3944,19 +3944,19 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           info-lighter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #d9edf7
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-6"
+      class="Headline-text-0-1-4 zep-typo--normal-h1"
     >
       corporate
     </p>
@@ -3996,7 +3996,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #e9cea4
@@ -4004,17 +4004,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           sand
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #e9cea4
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 234/206/164
         </p>
@@ -4052,7 +4052,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #4e8095
@@ -4060,24 +4060,24 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           steel
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #4e8095
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 79/128/150
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-6"
+      class="Headline-text-0-1-4 zep-typo--normal-h1"
     >
       corporateSecondary
     </p>
@@ -4117,7 +4117,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #FFE72D
@@ -4125,17 +4125,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           yellow
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #FFE72D
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 255/231/45
         </p>
@@ -4173,7 +4173,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #FBBA00
@@ -4181,17 +4181,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           orange
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #FBBA00
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 251/186/0
         </p>
@@ -4229,7 +4229,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #DD686A
@@ -4237,17 +4237,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           red
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #DD686A
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 221/104/106
         </p>
@@ -4285,7 +4285,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #94C11C
@@ -4293,17 +4293,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
-          green-lighter
+          green-light
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #94C11C
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 148/193/28
         </p>
@@ -4341,7 +4341,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #00A760
@@ -4349,17 +4349,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           green-dark
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #00A760
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 0/167/96
         </p>
@@ -4397,7 +4397,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #C8D3D9
@@ -4405,24 +4405,24 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           gray
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #C8D3D9
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 200/211/217
         </p>
       </div>
     </div>
     <p
-      class="Headline-text-0-1-4 zep-typo--normal-6"
+      class="Headline-text-0-1-4 zep-typo--normal-h1"
     >
       socialMedia
     </p>
@@ -4462,7 +4462,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #026466
@@ -4470,17 +4470,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           xing
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #026466
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 2/100/102
         </p>
@@ -4518,7 +4518,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #4267b2
@@ -4526,17 +4526,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           facebook
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #4267b2
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 66/103/178
         </p>
@@ -4574,7 +4574,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #1da1f2
@@ -4582,17 +4582,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           twitter
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #1da1f2
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 29/161/242
         </p>
@@ -4630,7 +4630,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #0077b5
@@ -4638,17 +4638,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           linkedin
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #0077b5
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 0/119/181
         </p>
@@ -4686,7 +4686,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #99c613
@@ -4694,17 +4694,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           kununu
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #99c613
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 153/198/19
         </p>
@@ -4742,7 +4742,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #ff0000
@@ -4750,17 +4750,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           youtube
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #ff0000
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 255/0/0
         </p>
@@ -4798,7 +4798,7 @@ Object {
               />
             </svg>
             <span
-              class="Swatch-buttonText-0-1-10 zep-typo--normal-4"
+              class="Swatch-buttonText-0-1-10 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #dd4b39
@@ -4806,17 +4806,17 @@ Object {
           </span>
         </button>
         <p
-          class="Swatch-name-0-1-12 zep-typo--normal-2"
+          class="Swatch-name-0-1-12 zep-typo--normal-body2"
         >
           googleplus
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           HEX: #dd4b39
         </p>
         <p
-          class="Swatch-text-0-1-11 zep-typo--normal-1"
+          class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
           RGB: 221/75/57
         </p>

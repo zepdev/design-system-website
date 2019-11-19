@@ -6,6 +6,38 @@ Object {
   "baseElement": <body>
     <div>
       <div
+        class="Tabs-root-0-1-8 ContentTable-tabs-0-1-5 zep-tabs"
+        data-testid="tabs"
+        role="tablist"
+      >
+        <div
+          class="zep-tabs__item"
+        >
+          <button
+            aria-selected="true"
+            class="zep-tab zep-tab--selected"
+            id="tab-0"
+            role="tab"
+            tabindex="0"
+          >
+            Default
+          </button>
+        </div>
+        <div
+          class="zep-tabs__item"
+        >
+          <button
+            aria-selected="false"
+            class="zep-tab"
+            id="tab-1"
+            role="tab"
+            tabindex="0"
+          >
+            Inverse
+          </button>
+        </div>
+      </div>
+      <div
         class="ContentTable-root-0-1-1"
       >
         <table
@@ -45,6 +77,38 @@ Object {
     </div>
   </body>,
   "container": <div>
+    <div
+      class="Tabs-root-0-1-8 ContentTable-tabs-0-1-5 zep-tabs"
+      data-testid="tabs"
+      role="tablist"
+    >
+      <div
+        class="zep-tabs__item"
+      >
+        <button
+          aria-selected="true"
+          class="zep-tab zep-tab--selected"
+          id="tab-0"
+          role="tab"
+          tabindex="0"
+        >
+          Default
+        </button>
+      </div>
+      <div
+        class="zep-tabs__item"
+      >
+        <button
+          aria-selected="false"
+          class="zep-tab"
+          id="tab-1"
+          role="tab"
+          tabindex="0"
+        >
+          Inverse
+        </button>
+      </div>
+    </div>
     <div
       class="ContentTable-root-0-1-1"
     >

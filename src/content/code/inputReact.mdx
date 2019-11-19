@@ -7,7 +7,7 @@ title: Input React Code
 // Input.jsx
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const Input = ({
   className: classNameProp,
@@ -27,7 +27,7 @@ const Input = ({
     >
       <input
         type="text"
-        className={classnames(classNameProp, 'zep-input')}
+        className={clsx(classNameProp, 'zep-input')}
         placeholder={placeholder}
         value={value}
         onChange={onChange}

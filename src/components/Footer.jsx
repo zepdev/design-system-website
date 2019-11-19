@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import withStyles from 'react-jss'
+import clsx from 'clsx'
 import ButtonBase from './button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import LinkedinIcon from './icons/LinkedinIcon'
@@ -33,8 +34,6 @@ const styles = theme => ({
     display: 'none',
   },
   link: {
-    fontSize: '0.75rem',
-    color: theme.colors.gray.grayLight.hex,
     textDecoration: 'none',
     marginBottom: '0.9375rem',
   },
@@ -114,10 +113,16 @@ const Footer = ({ classes }) => (
         <div className={classes.container}>
           <div className={classes.containerLinks}>
             <ZeppelinIcon className={classes.logo} ariaLabel="footerLogo" />
-            <Link to="/content/privacy/" className={classes.link}>
+            <Link
+              to="/content/privacy/"
+              className={clsx('zep-typo--normal-body2', classes.link)}
+            >
               Privacy Policy
             </Link>
-            <Link to="/content/legal/" className={classes.link}>
+            <Link
+              to="/content/legal/"
+              className={clsx('zep-typo--normal-body2', classes.link)}
+            >
               Terms & Conditions
             </Link>
             {/* <Link to="/" className={classes.link}>
@@ -139,7 +144,11 @@ const Footer = ({ classes }) => (
             >
               <XingIcon className={classes.icon} />
             </ButtonBase>
-            <ButtonBase href="https://twitter.com/Zeppelin_Group" target="_blank" rel="noopener">
+            <ButtonBase
+              href="https://twitter.com/Zeppelin_Group"
+              target="_blank"
+              rel="noopener"
+            >
               <TwitterIcon className={classes.icon} />
             </ButtonBase>
           </div>

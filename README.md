@@ -108,7 +108,7 @@ gatsby-plugin-mdx (https://gatsby-plugin-mdx.netlify.com/)
 
 #### Styles
 
-classnames
+clsx
 react-jss
 gatsby-plugin-jss
 
