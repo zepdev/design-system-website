@@ -2364,15 +2364,15 @@
   dependencies:
     "@babel/runtime" "^7.2.0"
 
-"@zlab-de/zel-react@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-0.2.9.tgz#9e875aa0330638a04f889545e875cc8828d2f33c"
-  integrity sha512-WPbviODMKpw+qjLQYwxW+edcTNOhVglVTu1oQEVsAe5iFfHBOQByGKjKdXqyGG8mKshkGrMlMSRQf/SnFK/clA==
+"@zlab-de/zel-react@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-1.0.1.tgz#2c601920a7624fec7d75d31914a05f8953fb5828"
+  integrity sha512-083+DPen2K2KIPGc5YF6CKiuGaCndULy316+hH6aNuNOp7slSDIQHq0kPmH57CnFjnGRklc5CtJg7J8RUDYVDg==
   dependencies:
     "@zlab-de/zel-react-icons" "^0.1.2"
     clsx "^1.0.4"
-    downshift "^3.4.0"
-    zeppelin-element-library "^0.12.0"
+    downshift "^3.4.2"
+    zeppelin-element-library "^1.0.5"
 
 abab@^2.0.0:
   version "2.0.0"
@@ -3955,11 +3955,6 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.6:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
-  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
-
 clean-stack@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
@@ -5459,20 +5454,20 @@ download@^7.1.0:
     p-event "^2.1.0"
     pify "^3.0.0"
 
-downshift@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.4.0.tgz#752ff690890dd140cc44251ec21c9c766e81ff43"
-  integrity sha512-2SR30ZarCo9Ctcg18bsUkWh0wniN//HB45BgeYT3oQKYoQG84oU+Pw5fr41Wzttvn40stQ1OpZdsJv28V1O6WA==
+downshift@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.4.1.tgz#2de8c4865181eb6762f70478ae8c15495b5df32b"
+  integrity sha512-VD0PjXpDVQH7bQd9vtRj/4KK4aS00O0SDGtKRauQ946nmP1UmmfOc6byG0Njd5wMDgRtEZiHXKYC7vXRZeI40w==
   dependencies:
     "@babel/runtime" "^7.4.5"
     compute-scroll-into-view "^1.0.9"
     prop-types "^15.7.2"
     react-is "^16.9.0"
 
-downshift@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.4.1.tgz#2de8c4865181eb6762f70478ae8c15495b5df32b"
-  integrity sha512-VD0PjXpDVQH7bQd9vtRj/4KK4aS00O0SDGtKRauQ946nmP1UmmfOc6byG0Njd5wMDgRtEZiHXKYC7vXRZeI40w==
+downshift@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.4.2.tgz#ba55e83df2b522e9cc391347dd5dca03042459df"
+  integrity sha512-6hzxCyl5UQdi4jAabKdcLHct04BaS0OGWDEpPrbqRFhT/X5Qu+pprU6cQquF1il8+qjtVPFRFlZ1pmSY2/QPLQ==
   dependencies:
     "@babel/runtime" "^7.4.5"
     compute-scroll-into-view "^1.0.9"
@@ -16968,15 +16963,10 @@ yurnalist@^1.1.1:
     strip-ansi "^5.2.0"
     strip-bom "^4.0.0"
 
-zeppelin-element-library@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-0.12.0.tgz#a4e3445b9d164d406aede1271b2b66be1f064ead"
-  integrity sha512-2hKEDfYcIS4X8Zjvj9wVkgrhVI9vQoZdK7zW3yf156jkKg4z8ylV7bN7HbrI6zGqBlBu99+jRRy84YKTrfN/SA==
-
-zeppelin-element-library@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-1.0.1.tgz#56bcfa03f4f42360708f6b5783a4c3c0a97bdce2"
-  integrity sha512-aQ7QJJDA7Od41K6tpbkjUuqix88by6uPxJ6mvFzHwDUsTAeadAYyxDInOxxB4lIGR193OVCqnjB7fSxqzJRjJA==
+zeppelin-element-library@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-1.0.5.tgz#8317df214a9ed118ac181b149d90b9f1bb29bdce"
+  integrity sha512-7JVwWBgJzYeGAi8AZHVEC8IpGUw9yMh6RiZdHHiwjRK0QjykL9zAjDmLW3Tec0BLh3ql1yQ6z/du3wUaiZ9PYQ==
 
 zwitch@^1.0.0:
   version "1.0.4"
