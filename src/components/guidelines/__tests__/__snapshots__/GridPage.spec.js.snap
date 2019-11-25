@@ -1302,7 +1302,7 @@ Object {
             role="tab"
             tabindex="0"
           >
-            Default
+            Positive
           </button>
         </div>
         <div
@@ -1315,7 +1315,7 @@ Object {
             role="tab"
             tabindex="0"
           >
-            Inverse
+            Negative
           </button>
         </div>
       </div>
@@ -2850,7 +2850,7 @@ Object {
           role="tab"
           tabindex="0"
         >
-          Default
+          Positive
         </button>
       </div>
       <div
@@ -2863,7 +2863,7 @@ Object {
           role="tab"
           tabindex="0"
         >
-          Inverse
+          Negative
         </button>
       </div>
     </div>

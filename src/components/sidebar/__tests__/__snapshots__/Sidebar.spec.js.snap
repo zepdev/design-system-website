@@ -270,6 +270,17 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 Download
               </a>
             </li>
+            <li>
+              <a
+                alt="v0"
+                class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full"
+                href="http://www.zds_v0.zepdev.com"
+                rel="noopener norefferer"
+                target="_blank"
+              >
+                v0
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -539,6 +550,17 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               href="/content/download/"
             >
               Download
+            </a>
+          </li>
+          <li>
+            <a
+              alt="v0"
+              class="SidebarNavItem-button-0-1-8 zep-typo--normal-body1 zep-button--full"
+              href="http://www.zds_v0.zepdev.com"
+              rel="noopener norefferer"
+              target="_blank"
+            >
+              v0
             </a>
           </li>
         </ul>
