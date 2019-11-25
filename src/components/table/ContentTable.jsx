@@ -15,7 +15,7 @@ const styles = theme => ({
     overflowX: 'auto',
   },
   table: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   lowercase: {
     textTransform: 'lowercase',
@@ -24,7 +24,7 @@ const styles = theme => ({
     textTransform: 'capitalize',
   },
   tabs: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   inverse: {
     background: theme.colors.gray.black.hex,
@@ -59,7 +59,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                   [classes.capitalize]: elem !== 'rem' && elem !== 'px',
                   [classes.inverse]: value === 1,
                 })}
-                key={`header_${elem}`}
+                key={`header_${ elem }`}
               >
                 {elem}
               </TableCell>
@@ -69,7 +69,7 @@ const ContentTable = ({ header, content, title, classes }) => {
             <TableBody>
               {Object.keys(content).map((elem, idx) => (
                 <TableRow
-                  key={`row_${elem}`}
+                  key={`row_${ elem }`}
                   color={idx % 2 === 0 ? 'white' : 'gray'}
                   className={
                     value === 1
@@ -82,7 +82,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                   {header.map((item, idx) =>
                     idx === 0 ? (
                       <TableCell
-                        key={`typography${idx}`}
+                        key={`typography${ idx }`}
                         scope="row"
                         component="th"
                       >
@@ -94,7 +94,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                           <span>
                             {content[elem][item].map(p => (
                               <p
-                                key={`specification_${p}`}
+                                key={`specification_${ p }`}
                                 className={
                                   value === 1
                                     ? 'zep-typo--normal-body2-negative'
@@ -115,10 +115,10 @@ const ContentTable = ({ header, content, title, classes }) => {
                       <TableCell
                         className={clsx({
                           [elem]: item === 'actual size' && value === 0,
-                          [`${elem}-negative`]:
+                          [`${ elem }-negative`]:
                             item === 'actual size' && value === 1,
                         })}
-                        key={`typography${idx}`}
+                        key={`typography${ idx }`}
                       >
                         {item === 'actual size' ? (
                           'lorem ipsum'
@@ -128,7 +128,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                           <span>
                             {content[elem][item].map(p => (
                               <p
-                                key={`specification_${p}`}
+                                key={`specification_${ p }`}
                                 className={
                                   value === 1
                                     ? 'zep-typo--normal-body2-negative'
