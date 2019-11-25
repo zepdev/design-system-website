@@ -13,9 +13,8 @@
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
     "@reach/skip-nav": "^0.6.1",
-    "@zlab-de/zel-react": "^0.2.9",
+    "@zlab-de/zel-react": "^1.0.1",
     "@zlab-de/zel-react-icons": "^0.1.2",
-    "classnames": "^2.2.6",
     "clsx": "^1.0.4",
     "downshift": "^3.4.1",
     "gatsby": "^2.18.0",
@@ -38,7 +37,7 @@
     "react-helmet": "^5.2.1",
     "react-jss": "8.6.1",
     "react-player": "^1.14.1",
-    "zeppelin-element-library": "^1.0.1"
+    "zeppelin-element-library": "^1.0.5"
   },
   "scripts": {
     "build": "gatsby build",
