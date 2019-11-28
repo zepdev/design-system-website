@@ -7,14 +7,14 @@ import clsx from 'clsx'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   text: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
     textTransform: 'capitalize',
   },
   title: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
 })
 
@@ -39,7 +39,7 @@ const ElementUsage = ({ element, classes }) => {
       `}
       render={data => {
         const documentation = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${element}Usage`
+          x => x.node.frontmatter.label === `${ element }Usage`
         )
         return documentation ? (
           <MDXRenderer>{documentation.node.body}</MDXRenderer>

@@ -10,7 +10,7 @@ const styles = theme => ({
     display: 'flex',
     flexDirection: 'column',
     flexBasis: '48%',
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   button: {
     height: '6rem',
@@ -18,7 +18,7 @@ const styles = theme => ({
     marginBottom: theme.spacing.component.s.px,
     position: 'relative',
     cursor: 'pointer',
-    border: `1px solid ${theme.colors.gray.grayMid.hex}`,
+    border: `1px solid ${ theme.colors.gray.grayMid.hex }`,
     '&:hover, &:focus': {
       zIndex: 1,
       '& $backdrop': {
@@ -29,7 +29,7 @@ const styles = theme => ({
       },
     },
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     root: {
       flexBasis: '22%',
     },
@@ -37,14 +37,14 @@ const styles = theme => ({
       height: '6rem',
     },
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
-      marginRight: `${theme.spacing.component.m.rem}rem`,
+      marginRight: `${ theme.spacing.component.m.rem }rem`,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.xxl})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xxl })`]: {
     root: {
-      marginRight: `${theme.spacing.component.m.rem}rem`,
+      marginRight: `${ theme.spacing.component.m.rem }rem`,
       flexBasis: '16%',
     },
     button: {
@@ -132,7 +132,7 @@ function Swatch({ color, classes }) {
           {!isTextCopied && (
             <CopyIcon
               className={classes.icon}
-              ariaLabel={`copy hex:${color.hex}`}
+              ariaLabel={`copy hex:${ color.hex }`}
             />
           )}
           <span
@@ -148,16 +148,16 @@ function Swatch({ color, classes }) {
       </p>
       <p
         className={clsx(classes.text, 'zep-typo--normal-caption')}
-      >{`HEX: ${color.hex}`}</p>
+      >{`HEX: ${ color.hex }`}</p>
       {color.rgb && (
         <p
           className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`RGB: ${color.rgb}`}</p>
+        >{`RGB: ${ color.rgb }`}</p>
       )}
       {color.type && (
         <p
           className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`Type: ${color.type}`}</p>
+        >{`Type: ${ color.type }`}</p>
       )}
     </div>
   )

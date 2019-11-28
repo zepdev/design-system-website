@@ -10,14 +10,14 @@ import { colors } from 'zeppelin-element-library/bundle/themes/theme.json'
 
 const styles = theme => ({
   tabs: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   container: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     container: {
       justifyContent: 'flex-start',
     },
@@ -40,14 +40,14 @@ function Colors({ classes }) {
       {value === 0 && (
         <>
           {Object.keys(colors).map((section, idx) => (
-            <Fragment key={`swatch${idx}`}>
+            <Fragment key={`swatch${ idx }`}>
               <Headline variant="md">{section}</Headline>
               <div className={classes.container}>
                 {Object.keys(colors[section]).map(elem => (
                   <Swatch
                     color={colors[section][elem]}
                     section={section}
-                    key={`swatch${elem}`}
+                    key={`swatch${ elem }`}
                   />
                 ))}
               </div>

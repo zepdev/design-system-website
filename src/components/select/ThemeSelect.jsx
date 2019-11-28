@@ -12,7 +12,7 @@ const styles = theme => ({
     borderRadius: '50%',
   },
   spacer: {
-    marginRight: `${theme.spacing.component.s.rem}rem`,
+    marginRight: `${ theme.spacing.component.s.rem }rem`,
   },
   zeppelin: {
     backgroundColor: theme.colors.corporate.indigoBlue.hex,
@@ -52,8 +52,8 @@ const styles = theme => ({
   icon: {
     display: 'none',
     fontSize: 18,
-    paddingLeft: `${theme.spacing.component.s.rem}rem`,
-    borderLeft: `1px solid ${theme.colors.gray.grayLighter.hex}`,
+    paddingLeft: `${ theme.spacing.component.s.rem }rem`,
+    borderLeft: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
   },
   text: {
     display: 'flex',
@@ -64,7 +64,7 @@ const styles = theme => ({
     position: 'fixed',
     right: 0,
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     circle: {
       width: 24,
       height: 24,
@@ -78,11 +78,11 @@ const styles = theme => ({
       width: 32,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     circle: {
       width: 12,
       height: 12,
-      marginRight: `${theme.spacing.component.s.rem}rem`,
+      marginRight: `${ theme.spacing.component.s.rem }rem`,
     },
     icon: {
       display: 'inline-block',
@@ -107,7 +107,7 @@ const styles = theme => ({
       justifyContent: 'flex-start',
     },
   },
-  [`@media (min-width: ${theme.breakpoints.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     ul: {
       right: 'auto',
       width: 200,
@@ -175,7 +175,7 @@ const ThemeSelect = ({
             {items.map((item, index) => (
               <li
                 {...getItemProps({
-                  key: `listItem${index}`,
+                  key: `listItem${ index }`,
                   index,
                   item,
                   className: clsx(classes.text, 'zep-select__listitem'),
@@ -196,8 +196,8 @@ const ThemeSelect = ({
                 {item === 'zeppelin'
                   ? 'Zeppelin Blue'
                   : item === 'cat'
-                  ? 'Zeppelin Yellow'
-                  : 'Zeppelin Red'}
+                    ? 'Zeppelin Yellow'
+                    : 'Zeppelin Red'}
               </li>
             ))}
           </ul>
