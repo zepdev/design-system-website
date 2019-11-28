@@ -69,7 +69,7 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.colors.primary.indigoBlue.hex,
+    backgroundColor: theme.colors.corporate.indigoBlue.hex,
     opacity: 0,
     transition: 0.5,
     zIndex: 1,

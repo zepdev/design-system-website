@@ -12,16 +12,16 @@ const styles = theme => ({
     borderRadius: '50%',
   },
   spacer: {
-    marginRight: `${ theme.spacing.component.s.rem }rem`,
+    marginRight: `${theme.spacing.component.s.rem}rem`,
   },
   zeppelin: {
-    backgroundColor: theme.colors.primary.indigoBlue.hex,
+    backgroundColor: theme.colors.corporate.indigoBlue.hex,
   },
   cat: {
-    backgroundColor: theme.colors.primary.catYellow.hex,
+    backgroundColor: theme.colors.cat.catYellow.hex,
   },
   rental: {
-    backgroundColor: theme.colors.primary.rentalRed.hex,
+    backgroundColor: theme.colors.rental.rentalRed.hex,
   },
   dropdownIcon: {
     display: 'none',
@@ -52,8 +52,8 @@ const styles = theme => ({
   icon: {
     display: 'none',
     fontSize: 18,
-    paddingLeft: `${ theme.spacing.component.s.rem }rem`,
-    borderLeft: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
+    paddingLeft: `${theme.spacing.component.s.rem}rem`,
+    borderLeft: `1px solid ${theme.colors.gray.grayLighter.hex}`,
   },
   text: {
     display: 'flex',
@@ -64,7 +64,7 @@ const styles = theme => ({
     position: 'fixed',
     right: 0,
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${theme.breakpoints.s})`]: {
     circle: {
       width: 24,
       height: 24,
@@ -78,11 +78,11 @@ const styles = theme => ({
       width: 32,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${theme.breakpoints.m})`]: {
     circle: {
       width: 12,
       height: 12,
-      marginRight: `${ theme.spacing.component.s.rem }rem`,
+      marginRight: `${theme.spacing.component.s.rem}rem`,
     },
     icon: {
       display: 'inline-block',
@@ -107,7 +107,7 @@ const styles = theme => ({
       justifyContent: 'flex-start',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${theme.breakpoints.xl})`]: {
     ul: {
       right: 'auto',
       width: 200,
@@ -115,8 +115,16 @@ const styles = theme => ({
   },
 })
 
-const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }) => (
-  <Downshift onChange={selection => onChange(selection)} itemToString={item => item || ''}>
+const ThemeSelect = ({
+  onSelect: onChange,
+  menuItems: items,
+  selected,
+  classes,
+}) => (
+  <Downshift
+    onChange={selection => onChange(selection)}
+    itemToString={item => item || ''}
+  >
     {({
       getItemProps,
       getLabelProps,
@@ -128,7 +136,12 @@ const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }
       selectedItem,
     }) => (
       <div>
-        <label {...getLabelProps({ className: 'zep-visually-hidden', htmlFor: 'zep-select' })}>
+        <label
+          {...getLabelProps({
+            className: 'zep-visually-hidden',
+            htmlFor: 'zep-select',
+          })}
+        >
           Theme
         </label>
         <button
@@ -154,16 +167,21 @@ const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }
           />
         </button>
         {isOpen ? (
-          <ul {...getMenuProps({ className: clsx(classes.ul, 'zep-select__list') })}>
+          <ul
+            {...getMenuProps({
+              className: clsx(classes.ul, 'zep-select__list'),
+            })}
+          >
             {items.map((item, index) => (
               <li
                 {...getItemProps({
-                  key: `listItem${ index }`,
+                  key: `listItem${index}`,
                   index,
                   item,
                   className: clsx(classes.text, 'zep-select__listitem'),
                   style: {
-                    backgroundColor: highlightedIndex === index ? 'lightgray' : 'white',
+                    backgroundColor:
+                      highlightedIndex === index ? 'lightgray' : 'white',
                     fontWeight: selectedItem === item ? 'bold' : 'normal',
                   },
                 })}
@@ -178,8 +196,8 @@ const ThemeSelect = ({ onSelect: onChange, menuItems: items, selected, classes }
                 {item === 'zeppelin'
                   ? 'Zeppelin Blue'
                   : item === 'cat'
-                    ? 'Zeppelin Yellow'
-                    : 'Zeppelin Red'}
+                  ? 'Zeppelin Yellow'
+                  : 'Zeppelin Red'}
               </li>
             ))}
           </ul>

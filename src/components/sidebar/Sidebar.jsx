@@ -75,7 +75,7 @@ const styles = theme => ({
       display: 'flex',
       alignItems: 'center',
       height: 104,
-      background: theme.colors.primary.indigoBlue.hex,
+      background: theme.colors.corporate.indigoBlue.hex,
       color: theme.colors.gray.white.hex,
       cursor: 'pointer',
       pointerEvents: 'all',

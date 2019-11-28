@@ -2915,15 +2915,15 @@
   dependencies:
     "@babel/runtime" "^7.2.0"
 
-"@zlab-de/zel-react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-1.0.1.tgz#2c601920a7624fec7d75d31914a05f8953fb5828"
-  integrity sha512-083+DPen2K2KIPGc5YF6CKiuGaCndULy316+hH6aNuNOp7slSDIQHq0kPmH57CnFjnGRklc5CtJg7J8RUDYVDg==
+"@zlab-de/zel-react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-1.0.2.tgz#b0a04c54bf3116cdd285a99f58bb84c0bf6c39d8"
+  integrity sha512-Ya/4dFLaSfrHI/2bvT2gNrUpAvrbB9WjVDV48nvWJVvO/OEQ8cnrQ4W22e1XI9yGyI6h6RX43pWuUMuRaWPU5g==
   dependencies:
     "@zlab-de/zel-react-icons" "^0.1.2"
     clsx "^1.0.4"
     downshift "^3.4.2"
-    zeppelin-element-library "^1.0.5"
+    zeppelin-element-library "^1.1.0"
 
 abab@^2.0.0:
   version "2.0.0"
@@ -17547,11 +17547,6 @@ yurnalist@^1.1.1:
     semver "^6.3.0"
     strip-ansi "^5.2.0"
     strip-bom "^4.0.0"
-
-zeppelin-element-library@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-1.0.5.tgz#8317df214a9ed118ac181b149d90b9f1bb29bdce"
-  integrity sha512-7JVwWBgJzYeGAi8AZHVEC8IpGUw9yMh6RiZdHHiwjRK0QjykL9zAjDmLW3Tec0BLh3ql1yQ6z/du3wUaiZ9PYQ==
 
 zeppelin-element-library@^1.1.0:
   version "1.1.0"

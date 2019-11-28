@@ -49,7 +49,7 @@ const styles = theme => ({
   link: {
     color: 'inherit',
     '&:hover': {
-      color: theme.colors.primary.indigoBlue.hex,
+      color: theme.colors.corporate.indigoBlue.hex,
     },
   },
 })

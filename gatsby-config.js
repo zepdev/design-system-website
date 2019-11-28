@@ -45,7 +45,7 @@ module.exports = {
         short_name: `z-lab`,
         start_url: `/`,
         background_color: theme.colors.gray.white.hex,
-        theme_color: theme.colors.primary.indigoBlue.hex,
+        theme_color: theme.colors.corporate.indigoBlue.hex,
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },

@@ -38,7 +38,7 @@ const styles = theme => ({
     borderBottom: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
   },
   square: {
-    background: theme.colors.primary.indigoBlue.hex,
+    background: theme.colors.corporate.indigoBlue.hex,
   },
 })
 

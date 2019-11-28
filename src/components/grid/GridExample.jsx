@@ -17,13 +17,13 @@ const styles = theme => ({
   },
   gridContainer: {
     marginBottom: `${ theme.spacing.component.m.rem }rem`,
-    border: `1px solid ${ theme.colors.primary.indigoBlue.hex }`,
+    border: `1px solid ${ theme.colors.corporate.indigoBlue.hex }`,
   },
   gridRow: {
     minHeight: 100,
   },
   gridCol: {
-    background: theme.colors.primary.indigoBlue.hex,
+    background: theme.colors.corporate.indigoBlue.hex,
     color: theme.colors.gray.white.hex,
     border: '1px solid white',
     paddingTop: '.5rem',

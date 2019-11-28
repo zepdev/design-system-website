@@ -13,7 +13,7 @@ const styles = theme => ({
   root: {
     position: 'fixed',
     width: '100%',
-    background: theme.colors.primary.indigoBlue.hex,
+    background: theme.colors.corporate.indigoBlue.hex,
     color: theme.colors.gray.white.hex,
     zIndex: 1000,
   },

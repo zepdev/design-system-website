@@ -13,7 +13,7 @@
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
     "@reach/skip-nav": "^0.6.1",
-    "@zlab-de/zel-react": "^1.0.1",
+    "@zlab-de/zel-react": "^1.0.2",
     "@zlab-de/zel-react-icons": "^0.1.2",
     "clsx": "^1.0.4",
     "downshift": "^3.4.1",

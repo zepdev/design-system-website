@@ -63,7 +63,7 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
   aStyled: {
-    color: theme.colors.primary.indigoBlue.hex,
+    color: theme.colors.corporate.indigoBlue.hex,
   },
   strongStyled: {
     fontWeight: 'bold',
