@@ -42,14 +42,14 @@ const styles = theme => ({
     justifyContent: 'flex-end',
   },
   menu: {
-    marginLeft: `${ theme.spacing.component.s.rem }rem`,
+    marginLeft: `${theme.spacing.component.s.rem}rem`,
   },
   menuText: {
     display: 'none',
     color: theme.colors.gray.black.hex,
-    paddingRight: `${ theme.spacing.component.s.rem }rem`,
+    paddingRight: `${theme.spacing.component.s.rem}rem`,
   },
-  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
+  [`@media (min-width: ${theme.breakpoints.xs})`]: {
     height: {
       height: 68,
     },
@@ -60,7 +60,7 @@ const styles = theme => ({
       paddingTop: 68,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${theme.breakpoints.s})`]: {
     height: {
       height: 84,
     },
@@ -68,7 +68,7 @@ const styles = theme => ({
       paddingTop: 84,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${theme.breakpoints.m})`]: {
     root: {
       width: 'calc(100% - 224px)',
       background: theme.colors.gray.grayMid.hex,
@@ -92,12 +92,12 @@ const styles = theme => ({
       display: 'none',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${theme.breakpoints.l})`]: {
     root: {
       width: 'calc(100% - 276px)',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${theme.breakpoints.xl})`]: {
     root: {
       width: 'calc(100% - 300px)',
     },
@@ -112,7 +112,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
   Object.keys(navigation).forEach(elem => {
     if (navigation[elem].subnav) {
       Object.keys(navigation[elem].subnav).forEach(item => {
-        search.push({ value: item, link: `/content/${ elem }/${ item }/` })
+        search.push({ value: item, link: `/content/${elem}/${item}/` })
       })
     }
   })
