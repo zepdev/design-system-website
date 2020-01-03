@@ -1379,7 +1379,7 @@ Object {
               <td
                 class="zep-table__cell"
               >
-                &lt;576px
+                '&lt;576px'
               </td>
               <td
                 class="zep-table__cell"
@@ -1409,7 +1409,7 @@ Object {
               <td
                 class="zep-table__cell"
               >
-                ≥576px
+                '≥576px'
               </td>
               <td
                 class="zep-table__cell"
@@ -1439,7 +1439,7 @@ Object {
               <td
                 class="zep-table__cell"
               >
-                ≥768px
+                '≥768px'
               </td>
               <td
                 class="zep-table__cell"
@@ -1469,7 +1469,7 @@ Object {
               <td
                 class="zep-table__cell"
               >
-                ≥992px
+                '≥992px'
               </td>
               <td
                 class="zep-table__cell"
@@ -1499,7 +1499,7 @@ Object {
               <td
                 class="zep-table__cell"
               >
-                ≥1200px
+                '≥1200px'
               </td>
               <td
                 class="zep-table__cell"
@@ -1529,7 +1529,7 @@ Object {
               <td
                 class="zep-table__cell"
               >
-                ≥1680px
+                '≥1680px'
               </td>
               <td
                 class="zep-table__cell"
@@ -2927,7 +2927,7 @@ Object {
             <td
               class="zep-table__cell"
             >
-              &lt;576px
+              '&lt;576px'
             </td>
             <td
               class="zep-table__cell"
@@ -2957,7 +2957,7 @@ Object {
             <td
               class="zep-table__cell"
             >
-              ≥576px
+              '≥576px'
             </td>
             <td
               class="zep-table__cell"
@@ -2987,7 +2987,7 @@ Object {
             <td
               class="zep-table__cell"
             >
-              ≥768px
+              '≥768px'
             </td>
             <td
               class="zep-table__cell"
@@ -3017,7 +3017,7 @@ Object {
             <td
               class="zep-table__cell"
             >
-              ≥992px
+              '≥992px'
             </td>
             <td
               class="zep-table__cell"
@@ -3047,7 +3047,7 @@ Object {
             <td
               class="zep-table__cell"
             >
-              ≥1200px
+              '≥1200px'
             </td>
             <td
               class="zep-table__cell"
@@ -3077,7 +3077,7 @@ Object {
             <td
               class="zep-table__cell"
             >
-              ≥1680px
+              '≥1680px'
             </td>
             <td
               class="zep-table__cell"

@@ -16,7 +16,7 @@ Object {
           >
             <p
               class="Typefaces-title-0-1-4"
-              style="font-family: 'Roboto', sans-serif;"
+              style="font-family: Roboto, sans-serif;"
             >
               Lorem Ipsum
             </p>
@@ -65,7 +65,7 @@ Object {
           >
             <p
               class="Typefaces-title-0-1-4"
-              style="font-family: 'Roboto Condensed', sans-serif;"
+              style="font-family: Roboto Condensed, sans-serif;"
             >
               Lorem Ipsum
             </p>
@@ -121,7 +121,7 @@ Object {
         >
           <p
             class="Typefaces-title-0-1-4"
-            style="font-family: 'Roboto', sans-serif;"
+            style="font-family: Roboto, sans-serif;"
           >
             Lorem Ipsum
           </p>
@@ -170,7 +170,7 @@ Object {
         >
           <p
             class="Typefaces-title-0-1-4"
-            style="font-family: 'Roboto Condensed', sans-serif;"
+            style="font-family: Roboto Condensed, sans-serif;"
           >
             Lorem Ipsum
           </p>
