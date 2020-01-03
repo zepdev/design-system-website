@@ -66,7 +66,6 @@ const createPath = elem => {
   })
   return res
 }
-
 const Typefaces = ({ classes }) => (
   <div className={classes.root}>
     {Object.keys(theme.typography.typefaces).map((elem, idx) => (
@@ -74,7 +73,9 @@ const Typefaces = ({ classes }) => (
         <div className={classes.titleContainer}>
           <p
             className={classes.title}
-            style={{ fontFamily: theme.typography.typefaces[elem] }}
+            style={{
+              fontFamily: theme.typography.typefaces[elem].replace(/["']/g, ''),
+            }}
           >
             Lorem Ipsum
           </p>

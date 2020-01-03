@@ -164,7 +164,7 @@ Object {
           <p
             class="Swatch-text-0-1-11 zep-typo--normal-caption"
           >
-            Type: primary
+            Type: secondary
           </p>
         </div>
       </div>
@@ -2820,7 +2820,7 @@ Object {
         <p
           class="Swatch-text-0-1-11 zep-typo--normal-caption"
         >
-          Type: primary
+          Type: secondary
         </p>
       </div>
     </div>

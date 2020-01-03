@@ -42,7 +42,6 @@ const ContentTable = ({ header, content, title, classes }) => {
   function handleChange(newValue) {
     setValue(newValue)
   }
-
   return (
     <>
       <Tabs value={value} onClick={handleChange} className={classes.tabs}>
@@ -92,7 +91,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                           elem
                         ) : item === 'specifications' ? (
                           <span>
-                            {content[elem][item].map(p => (
+                            {Object.keys(content[elem][item]).map(p => (
                               <p
                                 key={`specification_${ p }`}
                                 className={
@@ -101,7 +100,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                                     : 'zep-typo--normal-body2'
                                 }
                               >
-                                {p}
+                                {p}: {content[elem][item][p]}
                               </p>
                             ))}
                           </span>
@@ -126,7 +125,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                           elem
                         ) : item === 'specifications' ? (
                           <span>
-                            {content[elem][item].map(p => (
+                            {Object.keys(content[elem][item]).map(p => (
                               <p
                                 key={`specification_${ p }`}
                                 className={
@@ -135,7 +134,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                                     : 'zep-typo--normal-body2'
                                 }
                               >
-                                {p}
+                                {p}: {content[elem][item][p]}
                               </p>
                             ))}
                           </span>

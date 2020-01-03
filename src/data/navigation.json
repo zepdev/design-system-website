@@ -146,6 +146,14 @@
       }
     }
   },
+  "zel-vue": {
+    "title": "zel-vue",
+    "subnav": {
+      "getting-started": {
+        "title": "Getting Started"
+      }
+    }
+  },
   "download": {
     "title": "Download"
   }
