@@ -8,7 +8,7 @@ const styles = theme => ({
   list: {
     listStyle: 'none',
     padding: 0,
-    marginBottom: `${theme.spacing.component.xxl.rem * 2}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem * 2 }rem`,
   },
 })
 
@@ -18,7 +18,7 @@ const SidebarNav = ({ setMenu, classes }) => (
 
     {Object.keys(navigation).map((elem, idx) => (
       <SidebarNavItem
-        key={`li-${idx}`}
+        key={`li-${ idx }`}
         item={navigation[elem]}
         setMenu={setMenu}
       />

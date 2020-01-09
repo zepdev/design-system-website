@@ -11,9 +11,9 @@ import TwitterIcon from './icons/TwitterIcon'
 
 const styles = theme => ({
   root: {
-    borderTop: `1px solid ${theme.colors.gray.grayMid.hex}`,
-    paddingTop: `${theme.spacing.layout.xs.rem}rem`,
-    paddingBottom: `${theme.spacing.layout.xs.rem}rem`,
+    borderTop: `1px solid ${ theme.colors.gray.grayMid.hex }`,
+    paddingTop: `${ theme.spacing.layout.xs.rem }rem`,
+    paddingBottom: `${ theme.spacing.layout.xs.rem }rem`,
   },
   container: {
     display: 'flex',
@@ -42,7 +42,7 @@ const styles = theme => ({
     height: '1.75rem',
     color: theme.colors.gray.grayLight.hex,
   },
-  [`@media (min-width: ${theme.breakpoints.xs})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
     root: {
       paddingTop: '1.25rem',
       paddingBottom: '1.25rem',
@@ -72,14 +72,14 @@ const styles = theme => ({
       marginLeft: '1.5rem',
     },
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     root: {
       paddingTop: '1.6875rem',
       paddingBottom: '1.6875rem',
       // padding: '1.6875rem 3rem',
     },
   },
-  [`@media (min-width: ${theme.breakpoints.l})`]: {
+  [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
       paddingTop: '1.875rem',
       paddingBottom: '1.875rem',
@@ -93,7 +93,7 @@ const styles = theme => ({
       color: theme.colors.gray.grayLight.hex,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     root: {
       paddingTop: '2.875rem',
       paddingBottom: '2.875rem',
