@@ -49,12 +49,18 @@ const styles = theme => ({
     transform: 'rotate(0deg)',
     transition: 'all 0.75s 0.25s',
   },
+  homeLink: {},
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+    homeLink: {
+      display: 'none',
+    },
+  },
 })
 
 function SidebarNavItem({ item, setMenu, home, link, classes }) {
   const [isButtonOpen, setButton] = useState(false)
   return (
-    <li>
+    <li className={clsx({ [classes.homeLink]: home })}>
       {link && (
         <a
           href={link}

@@ -63,6 +63,8 @@ const styles = theme => ({
     link: {
       marginRight: '2rem',
       marginBottom: 0,
+      paddingTop: 15,
+      paddingBottom: 15,
     },
     icon: {
       width: '1.25rem',
