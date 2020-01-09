@@ -8,24 +8,17 @@ const styles = theme => ({
   list: {
     listStyle: 'none',
     padding: 0,
-    marginBottom: `${ theme.spacing.component.xxl.rem * 2 }rem`,
-  },
-  homeLink: {},
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
-    homeLink: {
-      display: 'none',
-    },
+    marginBottom: `${theme.spacing.component.xxl.rem * 2}rem`,
   },
 })
 
 const SidebarNav = ({ setMenu, classes }) => (
   <ul className={classes.list}>
-    <span className={classes.homeLink}>
-      <SidebarNavItem item={{ title: 'Home' }} home setMenu={setMenu} />
-    </span>
+    <SidebarNavItem item={{ title: 'Home' }} home setMenu={setMenu} />
+
     {Object.keys(navigation).map((elem, idx) => (
       <SidebarNavItem
-        key={`li-${ idx }`}
+        key={`li-${idx}`}
         item={navigation[elem]}
         setMenu={setMenu}
       />

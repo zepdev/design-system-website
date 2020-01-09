@@ -13,7 +13,7 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl.px }px`,
+    padding: `${theme.spacing.component.s.px}px ${theme.spacing.component.xl.px}px`,
     '&:hover': {
       background: theme.colors.gray.grayLightest.hex,
     },
@@ -28,8 +28,8 @@ const styles = theme => ({
   },
   subnav: {
     textTransform: 'capitalize',
-    padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl
-      .px * 1.5 }px`,
+    padding: `${theme.spacing.component.s.px}px ${theme.spacing.component.xl
+      .px * 1.5}px`,
     '&:hover': {
       background: theme.colors.gray.grayLightest.hex,
     },
@@ -49,12 +49,18 @@ const styles = theme => ({
     transform: 'rotate(0deg)',
     transition: 'all 0.75s 0.25s',
   },
+  homeLink: {},
+  [`@media (min-width: ${theme.breakpoints.m})`]: {
+    homeLink: {
+      display: 'none',
+    },
+  },
 })
 
 function SidebarNavItem({ item, setMenu, home, link, classes }) {
   const [isButtonOpen, setButton] = useState(false)
   return (
-    <li>
+    <li className={clsx({ [classes.homeLink]: home })}>
       {link && (
         <a
           href={link}
@@ -94,7 +100,7 @@ function SidebarNavItem({ item, setMenu, home, link, classes }) {
           to={
             home
               ? '/'
-              : `/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`
+              : `/content/${item.title.toLowerCase().replace(/ /g, '-')}/`
           }
           onClick={() => setMenu(false)}
           className={clsx(
@@ -109,13 +115,13 @@ function SidebarNavItem({ item, setMenu, home, link, classes }) {
       {item.subnav && isButtonOpen && (
         <ul data-testid="subnav-list" className={classes.list}>
           {Object.keys(item.subnav).map((elem, idx) => (
-            <li key={`sublistitem${ idx }`} className={classes.listItem}>
+            <li key={`sublistitem${idx}`} className={classes.listItem}>
               <Link
-                to={`/content/${ item.title
+                to={`/content/${item.title
                   .toLowerCase()
-                  .replace(/ /g, '-') }/${ item.subnav[elem].title
+                  .replace(/ /g, '-')}/${item.subnav[elem].title
                   .toLowerCase()
-                  .replace(/ /g, '-') }/`}
+                  .replace(/ /g, '-')}/`}
                 onClick={() => setMenu(false)}
                 activeStyle={{ color: theme.colors.gray.gray.hex }}
                 className={clsx(
