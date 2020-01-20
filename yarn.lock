@@ -2953,7 +2953,7 @@
     downshift "^3.4.8"
     zeppelin-element-library "^1.2.1"
 
-"@zlab-de/zel-vue@^1.0.1":
+"@zlab-de/zel-vue@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@zlab-de/zel-vue/-/zel-vue-1.0.1.tgz#dbcaec69fc4ba2ca2a4673ef4a9c1b0209ad55c7"
   integrity sha512-QxzOXZzThmLLEXLM/X9M2jLF3DnkN/EKstnRnlgAj1KyLFuLJChQLH5ZVvfGTLgUX0k3+iM0gWYBMDdPOTFbeg==

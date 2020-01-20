@@ -15,7 +15,7 @@
     "@reach/skip-nav": "^0.7.1",
     "@zlab-de/zel-react": "^1.0.3",
     "@zlab-de/zel-react-icons": "^0.1.2",
-    "@zlab-de/zel-vue": "^1.0.1",
+    "@zlab-de/zel-vue": "1.0.1",
     "clsx": "^1.0.4",
     "downshift": "^4.0.4",
     "gatsby": "^2.18.20",
