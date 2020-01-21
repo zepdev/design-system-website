@@ -1,0 +1,69 @@
+---
+label: colorsUsage
+title: Colors Usage
+---
+
+# Developers
+
+If you are using theme.json colors can be acessed from theme.colors.[section].[name].[hex or rgb]
+
+For example,
+
+```jsx
+import React from 'react'
+import theme from '@zlab-de/zel-react/theme.json'
+
+function MyComponent() {
+  return <p style={{ color: theme.colors.zlab.cyan.hex }}>I am zLab Cyan!</p>
+}
+
+export default MyComponent
+```
+
+An example using React-JSS in Create-React-App;
+
+```jsx
+// index.js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import { ThemeProvider } from 'react-jss'
+import '@zlab-de/zel-react/zeppelin-element-library.css'
+import theme from '@zlab-de/zel-react/theme.json'
+import * as serviceWorker from './serviceWorker'
+import './index.css'
+
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>,
+  document.getElementById('root')
+)
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister()
+
+// your component
+import React from 'react'
+import { createUseStyles } from 'react-jss'
+
+const useStyles = createUseStyles(theme => ({
+  text: {
+    textAlign: 'center',
+    color: theme.colors.cat.catYellow.hex,
+    background: theme.colors.gray.grayLighter.hex,
+    padding: `${theme.spacing.component.s.rem}rem`,
+  },
+}))
+
+function MyComponent({ ...props }) {
+  const classes = useStyles(props)
+  return (
+    <p className={classes.text}>I am Cat Yellow text on a gray background!</p>
+  )
+}
+
+export default MyComponent
+```

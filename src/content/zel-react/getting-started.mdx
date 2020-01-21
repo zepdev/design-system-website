@@ -21,7 +21,7 @@ A React Component Library using Zeppelin Element Library
 
 </DownloadContainer>
 
-## installation
+## Installation
 
 ```
 yarn add @zlab-de/zel-react
@@ -54,7 +54,9 @@ import MyComponent from "./MyComponent"
 class App extends Component {
   render() {
     return (
-      <MyComponent />
+      <div class="theme-zeppelin"> //or theme-cat or theme-rental
+        <MyComponent />
+      </div>
     );
   }
 }
@@ -76,7 +78,7 @@ import theme from '@zlab-de/zel-react/theme.json'
 const styles = theme => ({
   div: {
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
-    color: theme.colors.primary.indigoBlue.hex,
+    color: theme.colors.corporate.indigoBlue.hex,
   },
 })
 

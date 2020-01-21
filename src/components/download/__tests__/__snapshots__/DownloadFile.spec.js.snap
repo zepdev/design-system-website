@@ -9,7 +9,7 @@ Object {
         class="DownloadFile-root-0-1-1"
       >
         <p
-          class="zep-typo--normal-3 DownloadFile-text-0-1-4"
+          class="zep-typo--normal-body1 DownloadFile-text-0-1-4"
         >
           mockTitle
         </p>
@@ -48,7 +48,7 @@ Object {
       class="DownloadFile-root-0-1-1"
     >
       <p
-        class="zep-typo--normal-3 DownloadFile-text-0-1-4"
+        class="zep-typo--normal-body1 DownloadFile-text-0-1-4"
       >
         mockTitle
       </p>

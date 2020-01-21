@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function TableCell({ children, component, className: classNameProp, ...props }) {
   const Component = component || 'td'
   return (
-    <Component className={classnames('zep-table__cell', classNameProp)} {...props}>
+    <Component className={clsx('zep-table__cell', classNameProp)} {...props}>
       {children}
     </Component>
   )

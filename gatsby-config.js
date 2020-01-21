@@ -1,10 +1,12 @@
-const theme = require('@zlab-de/zel-react/theme.json')
+const theme = require('zeppelin-element-library/bundle/themes/theme.json')
 
 module.exports = {
   siteMetadata: {
     title: `Zeppelin Design System`,
     description: `Design System Website`,
     author: `@zeppelin`,
+    url: 'https://live-zds.zepdev.net',
+    image: '/src/assets/images/zep-logo-new.svg',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -45,7 +47,7 @@ module.exports = {
         short_name: `z-lab`,
         start_url: `/`,
         background_color: theme.colors.gray.white.hex,
-        theme_color: theme.colors.primary.indigoBlue.hex,
+        theme_color: theme.colors.corporate.indigoBlue.hex,
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },

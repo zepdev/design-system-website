@@ -49,25 +49,41 @@ const styles = theme => ({
   link: {
     color: 'inherit',
     '&:hover': {
-      color: theme.colors.primary.indigoBlue.hex,
+      color: theme.colors.corporate.indigoBlue.hex,
     },
   },
 })
 
+const createPath = elem => {
+  const words = elem ? elem.split(/(?=[A-Z])/) : []
+  let res = null
+  words.forEach((word, idx) => {
+    if (idx === 0) {
+      res = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+    } else {
+      res += `+${ word }`
+    }
+  })
+  return res
+}
 const Typefaces = ({ classes }) => (
   <div className={classes.root}>
     {Object.keys(theme.typography.typefaces).map((elem, idx) => (
       <div className={classes.container} key={`typeface${ idx }`}>
         <div className={classes.titleContainer}>
-          <p className={classes.title} style={{ fontFamily: elem }}>
+          <p
+            className={classes.title}
+            style={{
+              fontFamily: theme.typography.typefaces[elem].replace(/["']/g, ''),
+            }}
+          >
             Lorem Ipsum
           </p>
         </div>
         <div className={classes.buttonContainer}>
           <p className={classes.text}>{elem} Font Family</p>
           <a
-            href={`https://fonts.google.com/specimen/${ elem.charAt(0).toUpperCase() +
-              elem.slice(1).toLowerCase() }`}
+            href={`https://fonts.google.com/specimen/${ createPath(elem) }`}
             target="_blank"
             rel="noopener"
             aria-label="Launch"

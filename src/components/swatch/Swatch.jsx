@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import withStyles from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import CopyIcon from '../icons/CopyIcon'
@@ -13,7 +13,7 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   button: {
-    height: '8rem',
+    height: '6rem',
     width: '100%',
     marginBottom: theme.spacing.component.s.px,
     position: 'relative',
@@ -34,7 +34,7 @@ const styles = theme => ({
       flexBasis: '22%',
     },
     button: {
-      height: '8rem',
+      height: '6rem',
     },
   },
   [`@media (min-width: ${ theme.breakpoints.m })`]: {
@@ -45,10 +45,10 @@ const styles = theme => ({
   [`@media (min-width: ${ theme.breakpoints.xxl })`]: {
     root: {
       marginRight: `${ theme.spacing.component.m.rem }rem`,
-      flexBasis: '24%',
+      flexBasis: '16%',
     },
     button: {
-      height: '16rem',
+      height: '8rem',
     },
   },
   backdrop: {
@@ -130,23 +130,34 @@ function Swatch({ color, classes }) {
         <span className={classes.backdrop} />
         <span className={classes.backdropContent}>
           {!isTextCopied && (
-            <CopyIcon className={classes.icon} ariaLabel={`copy hex:${ color.hex }`} />
+            <CopyIcon
+              className={classes.icon}
+              ariaLabel={`copy hex:${ color.hex }`}
+            />
           )}
           <span
-            className={classnames(classes.buttonText, 'zep-typo--normal-4')}
+            className={clsx(classes.buttonText, 'zep-typo--normal-h4')}
             data-testid="swatchText"
           >
             {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color.hex}
           </span>
         </span>
       </ButtonBase>
-      <p className={classnames(classes.name, 'zep-typo--normal-2')}>{color.name}</p>
-      <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HEX: ${ color.hex }`}</p>
+      <p className={clsx(classes.name, 'zep-typo--normal-body2')}>
+        {color.name}
+      </p>
+      <p
+        className={clsx(classes.text, 'zep-typo--normal-caption')}
+      >{`HEX: ${ color.hex }`}</p>
       {color.rgb && (
-        <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`RGB: ${ color.rgb }`}</p>
+        <p
+          className={clsx(classes.text, 'zep-typo--normal-caption')}
+        >{`RGB: ${ color.rgb }`}</p>
       )}
-      {color.hsb && (
-        <p className={classnames(classes.text, 'zep-typo--normal-1')}>{`HSB: ${ color.hsb }`}</p>
+      {color.type && (
+        <p
+          className={clsx(classes.text, 'zep-typo--normal-caption')}
+        >{`Type: ${ color.type }`}</p>
       )}
     </div>
   )

@@ -14,7 +14,7 @@ const styles = theme => ({
     backgroundColor: theme.colors.gray.grayLightest.hex,
   },
   demoGridCol: {
-    background: theme.colors.primary.indigoBlue.hex,
+    background: theme.colors.corporate.indigoBlue.hex,
     color: theme.colors.gray.white.hex,
     border: '1px solid white',
     paddingTop: '.5rem',

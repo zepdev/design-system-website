@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React, { useState, Fragment } from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import withStyles from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import DownloadIcon from '../icons/DownloadIcon'
@@ -69,7 +69,7 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.colors.primary.indigoBlue.hex,
+    backgroundColor: theme.colors.corporate.indigoBlue.hex,
     opacity: 0,
     transition: 0.5,
     zIndex: 1,
@@ -160,9 +160,10 @@ const Iconography = ({ classes }) => {
       {value === 0 && (
         <>
           <Headline variant="md">Zeppelin Icons</Headline>
-          <p className={classnames(classes.text, 'zep-typo--normal-3')}>
-            Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG
-            Sprite) or icons may be downloaded individually from below.
+          <p className={clsx(classes.text, 'zep-typo--normal-body1')}>
+            Icons can be downloaded as one large file containing all icons
+            (Sketch, SVGs, or SVG Sprite) or icons may be downloaded
+            individually from below.
           </p>
           <DownloadContainer>
             <DownloadFile
@@ -204,10 +205,16 @@ const Iconography = ({ classes }) => {
                     <div className={classes.content}>
                       <span className={classes.backdrop} />
                       <span className={classes.backdropContent}>
-                        <DownloadIcon className={classes.icon} ariaLabel="download" />
+                        <DownloadIcon
+                          className={classes.icon}
+                          ariaLabel="download"
+                        />
                       </span>
                       <p
-                        className={classnames(classes.name, 'zep-typo--normal-1')}
+                        className={clsx(
+                          classes.name,
+                          'zep-typo--normal-caption'
+                        )}
                       >{`zepicons-${ elem }`}</p>
                       <img
                         src={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}

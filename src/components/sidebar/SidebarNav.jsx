@@ -10,22 +10,24 @@ const styles = theme => ({
     padding: 0,
     marginBottom: `${ theme.spacing.component.xxl.rem * 2 }rem`,
   },
-  homeLink: {},
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
-    homeLink: {
-      display: 'none',
-    },
-  },
 })
 
 const SidebarNav = ({ setMenu, classes }) => (
   <ul className={classes.list}>
-    <span className={classes.homeLink}>
-      <SidebarNavItem item={{ title: 'Home' }} home setMenu={setMenu} />
-    </span>
+    <SidebarNavItem item={{ title: 'Home' }} home setMenu={setMenu} />
+
     {Object.keys(navigation).map((elem, idx) => (
-      <SidebarNavItem key={`li-${ idx }`} item={navigation[elem]} setMenu={setMenu} />
+      <SidebarNavItem
+        key={`li-${ idx }`}
+        item={navigation[elem]}
+        setMenu={setMenu}
+      />
     ))}
+    <SidebarNavItem
+      item={{ title: 'v0' }}
+      link="https://v0-zds.zepdev.net/"
+      setMenu={setMenu}
+    />
   </ul>
 )
 

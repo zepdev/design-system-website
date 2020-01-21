@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const Tag = ({ className: classNameProp }) => {
   return (
-    <span className={classnames(classNameProp, 'zep-tag')}>
+    <span className={clsx(classNameProp, 'zep-tag')}>
       Tag
       <i className="zepicons zepicons-close" />
     </span>

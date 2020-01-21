@@ -7,7 +7,7 @@ Object {
     <div>
       <li>
         <button
-          class="SidebarNavItem-button-0-1-1 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-8"
+          class="SidebarNavItem-button-0-1-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-8"
         >
           sectionTitle
           <svg
@@ -35,7 +35,7 @@ Object {
   "container": <div>
     <li>
       <button
-        class="SidebarNavItem-button-0-1-1 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-8"
+        class="SidebarNavItem-button-0-1-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-8"
       >
         sectionTitle
         <svg

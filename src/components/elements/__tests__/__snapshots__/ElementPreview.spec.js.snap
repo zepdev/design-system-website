@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <p
-        class="Headline-text-0-1-5 zep-typo--normal-4"
+        class="Headline-text-0-1-5 zep-typo--normal-h3"
       >
         primary
       </p>
@@ -729,7 +729,7 @@ Object {
         </button>
       </pre>
       <p
-        class="Headline-text-0-1-5 zep-typo--normal-4"
+        class="Headline-text-0-1-5 zep-typo--normal-h3"
       >
         secondary
       </p>
@@ -1452,7 +1452,7 @@ Object {
         </button>
       </pre>
       <p
-        class="Headline-text-0-1-5 zep-typo--normal-4"
+        class="Headline-text-0-1-5 zep-typo--normal-h3"
       >
         tertiary
       </p>
@@ -2849,7 +2849,7 @@ Object {
         </button>
       </pre>
       <p
-        class="Headline-text-0-1-5 zep-typo--normal-4"
+        class="Headline-text-0-1-5 zep-typo--normal-h3"
       >
         other
       </p>
@@ -3193,7 +3193,7 @@ Object {
   </body>,
   "container": <div>
     <p
-      class="Headline-text-0-1-5 zep-typo--normal-4"
+      class="Headline-text-0-1-5 zep-typo--normal-h3"
     >
       primary
     </p>
@@ -3916,7 +3916,7 @@ Object {
       </button>
     </pre>
     <p
-      class="Headline-text-0-1-5 zep-typo--normal-4"
+      class="Headline-text-0-1-5 zep-typo--normal-h3"
     >
       secondary
     </p>
@@ -4639,7 +4639,7 @@ Object {
       </button>
     </pre>
     <p
-      class="Headline-text-0-1-5 zep-typo--normal-4"
+      class="Headline-text-0-1-5 zep-typo--normal-h3"
     >
       tertiary
     </p>
@@ -6036,7 +6036,7 @@ Object {
       </button>
     </pre>
     <p
-      class="Headline-text-0-1-5 zep-typo--normal-4"
+      class="Headline-text-0-1-5 zep-typo--normal-h3"
     >
       other
     </p>

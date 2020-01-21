@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import withStyles from 'react-jss'
 
 const styles = theme => ({
@@ -12,9 +12,9 @@ const styles = theme => ({
 
 const Headline = ({ variant, children, classes }) => (
   <p
-    className={classnames(classes.text, {
-      'zep-typo--normal-6': variant === 'md',
-      'zep-typo--normal-4': variant === 'sm',
+    className={clsx(classes.text, {
+      'zep-typo--normal-h1': variant === 'md',
+      'zep-typo--normal-h3': variant === 'sm',
     })}
   >
     {children}

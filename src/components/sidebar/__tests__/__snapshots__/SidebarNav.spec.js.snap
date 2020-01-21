@@ -13,7 +13,7 @@ Object {
         >
           <li>
             <a
-              class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full"
+              class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full"
               href="/"
             >
               Home
@@ -22,7 +22,7 @@ Object {
         </span>
         <li>
           <button
-            class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
           >
             Getting started
             <svg
@@ -47,7 +47,7 @@ Object {
         </li>
         <li>
           <button
-            class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
           >
             Guidelines
             <svg
@@ -72,7 +72,7 @@ Object {
         </li>
         <li>
           <button
-            class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
           >
             Elements
             <svg
@@ -97,7 +97,7 @@ Object {
         </li>
         <li>
           <button
-            class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
           >
             Changelog
             <svg
@@ -122,7 +122,7 @@ Object {
         </li>
         <li>
           <button
-            class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
           >
             zel-react
             <svg
@@ -147,7 +147,7 @@ Object {
         </li>
         <li>
           <button
-            class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
           >
             zel-react-icons
             <svg
@@ -171,11 +171,47 @@ Object {
           </button>
         </li>
         <li>
+          <button
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
+          >
+            zel-vue
+            <svg
+              aria-labelledby="title_chevronDown"
+              class="SidebarNavItem-icon-0-1-7 SidebarNavItem-iconReset-0-1-9"
+              height="20"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_chevronDown"
+              >
+                Chevron Down
+              </title>
+              <polygon
+                fill="currentColor"
+                points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
           <a
-            class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full"
             href="/content/download/"
           >
             Download
+          </a>
+        </li>
+        <li>
+          <a
+            alt="v0"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full"
+            href="http://www.zds_v0.zepdev.com"
+            rel="noopener norefferer"
+            target="_blank"
+          >
+            v0
           </a>
         </li>
       </ul>
@@ -190,7 +226,7 @@ Object {
       >
         <li>
           <a
-            class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full"
+            class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full"
             href="/"
           >
             Home
@@ -199,7 +235,7 @@ Object {
       </span>
       <li>
         <button
-          class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
         >
           Getting started
           <svg
@@ -224,7 +260,7 @@ Object {
       </li>
       <li>
         <button
-          class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
         >
           Guidelines
           <svg
@@ -249,7 +285,7 @@ Object {
       </li>
       <li>
         <button
-          class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
         >
           Elements
           <svg
@@ -274,7 +310,7 @@ Object {
       </li>
       <li>
         <button
-          class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
         >
           Changelog
           <svg
@@ -299,7 +335,7 @@ Object {
       </li>
       <li>
         <button
-          class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
         >
           zel-react
           <svg
@@ -324,7 +360,7 @@ Object {
       </li>
       <li>
         <button
-          class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full ButtonBase-button-0-1-10"
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
         >
           zel-react-icons
           <svg
@@ -348,11 +384,47 @@ Object {
         </button>
       </li>
       <li>
+        <button
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
+        >
+          zel-vue
+          <svg
+            aria-labelledby="title_chevronDown"
+            class="SidebarNavItem-icon-0-1-7 SidebarNavItem-iconReset-0-1-9"
+            height="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_chevronDown"
+            >
+              Chevron Down
+            </title>
+            <polygon
+              fill="currentColor"
+              points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
         <a
-          class="SidebarNavItem-button-0-1-3 zep-typo--normal-3 zep-button--full"
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full"
           href="/content/download/"
         >
           Download
+        </a>
+      </li>
+      <li>
+        <a
+          alt="v0"
+          class="SidebarNavItem-button-0-1-3 zep-typo--normal-body1 zep-button--full"
+          href="http://www.zds_v0.zepdev.com"
+          rel="noopener norefferer"
+          target="_blank"
+        >
+          v0
         </a>
       </li>
     </ul>

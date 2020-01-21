@@ -44,7 +44,11 @@ function Colors({ classes }) {
               <Headline variant="md">{section}</Headline>
               <div className={classes.container}>
                 {Object.keys(colors[section]).map(elem => (
-                  <Swatch color={colors[section][elem]} section={section} key={`swatch${ elem }`} />
+                  <Swatch
+                    color={colors[section][elem]}
+                    section={section}
+                    key={`swatch${ elem }`}
+                  />
                 ))}
               </div>
             </Fragment>

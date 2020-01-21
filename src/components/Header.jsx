@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import ButtonBase from '../components/button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
 import MenuIcon from './icons/MenuIcon'
@@ -13,7 +13,7 @@ const styles = theme => ({
   root: {
     position: 'fixed',
     width: '100%',
-    background: theme.colors.primary.indigoBlue.hex,
+    background: theme.colors.corporate.indigoBlue.hex,
     color: theme.colors.gray.white.hex,
     zIndex: 1000,
   },
@@ -118,13 +118,15 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
   })
   return (
     <>
-      <header className={classnames(classes.root, classes.height)}>
-        <div className={classnames(classes.height, 'zep-grid zep-grid--valign-center')}>
+      <header className={clsx(classes.root, classes.height)}>
+        <div
+          className={clsx(classes.height, 'zep-grid zep-grid--valign-center')}
+        >
           <div className="zep-grid__row">
             <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 ">
               <ButtonBase
                 onClick={handleMenu}
-                className={classnames(classes.button, 'zep-button')}
+                className={clsx(classes.button, 'zep-button')}
                 data-testid="mobileMenuButton"
               >
                 <MenuIcon />
@@ -134,7 +136,7 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
               <ZeppelinIcon className={classes.icon} />
             </div>
             <div
-              className={classnames(
+              className={clsx(
                 'zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-6-8',
                 classes.searchLarge
               )}
@@ -147,7 +149,9 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
               }
             >
               <div className={classes.container}>
-                <p className={classnames(classes.menuText, 'zep-typo-normal-2')}>Theme:</p>
+                <p className={clsx(classes.menuText, 'zep-typo-normal-body1')}>
+                  Theme:
+                </p>
                 <ThemeSelect
                   menuItems={['zeppelin', 'cat', 'rental']}
                   selected={theme}
@@ -158,8 +162,13 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
           </div>
         </div>
       </header>
-      <div className={classnames(classes.searchMobile)}>
-        <Search items={search} variant="landmark" variant="landmark" placeholder="Search" />
+      <div className={clsx(classes.searchMobile)}>
+        <Search
+          items={search}
+          variant="landmark"
+          variant="landmark"
+          placeholder="Search"
+        />
       </div>
     </>
   )

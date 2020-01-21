@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import withStyles from 'react-jss'
 import { spacing } from 'zeppelin-element-library/bundle/themes/theme.json'
 
@@ -38,7 +38,7 @@ const styles = theme => ({
     borderBottom: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
   },
   square: {
-    background: theme.colors.primary.indigoBlue.hex,
+    background: theme.colors.corporate.indigoBlue.hex,
   },
 })
 
@@ -54,7 +54,7 @@ const Spacing = ({ classes }) => {
             {header.map(elem => (
               <th
                 scope="col"
-                className={classnames(classes.th, 'zep-typo--normal-1', {
+                className={clsx(classes.th, 'zep-typo--normal-1', {
                   [classes.lowercase]: elem === 'rem' || elem === 'px',
                   [classes.capitalize]: elem !== 'rem' && elem !== 'px',
                 })}
@@ -70,7 +70,11 @@ const Spacing = ({ classes }) => {
             <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
-                  className={classnames(classes.th, classes.borderBottom, 'zep-typo--normal-2')}
+                  className={clsx(
+                    classes.th,
+                    classes.borderBottom,
+                    'zep-typo--normal-body2'
+                  )}
                   key={`spacing${ idx }`}
                   scope={idx === 0 ? 'row' : null}
                 >

@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function TableRow({ children, color, className: classNameProp }) {
-  const className = classnames(
+  const className = clsx(
     'zep-table__row',
     {
       'zep-table__row--white': color === 'white',

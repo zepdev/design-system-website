@@ -16,7 +16,7 @@ Object {
           >
             <p
               class="Typefaces-title-0-1-4"
-              style="font-family: roboto;"
+              style="font-family: Roboto, sans-serif;"
             >
               Lorem Ipsum
             </p>
@@ -65,7 +65,7 @@ Object {
           >
             <p
               class="Typefaces-title-0-1-4"
-              style="font-family: teko;"
+              style="font-family: Roboto Condensed, sans-serif;"
             >
               Lorem Ipsum
             </p>
@@ -76,13 +76,13 @@ Object {
             <p
               class="Typefaces-text-0-1-6"
             >
-              teko
+              robotoCondensed
                Font Family
             </p>
             <a
               aria-label="Launch"
               class="Typefaces-link-0-1-7"
-              href="https://fonts.google.com/specimen/Teko"
+              href="https://fonts.google.com/specimen/Roboto+Condensed"
               rel="noopener"
               target="_blank"
             >
@@ -121,7 +121,7 @@ Object {
         >
           <p
             class="Typefaces-title-0-1-4"
-            style="font-family: roboto;"
+            style="font-family: Roboto, sans-serif;"
           >
             Lorem Ipsum
           </p>
@@ -170,7 +170,7 @@ Object {
         >
           <p
             class="Typefaces-title-0-1-4"
-            style="font-family: teko;"
+            style="font-family: Roboto Condensed, sans-serif;"
           >
             Lorem Ipsum
           </p>
@@ -181,13 +181,13 @@ Object {
           <p
             class="Typefaces-text-0-1-6"
           >
-            teko
+            robotoCondensed
              Font Family
           </p>
           <a
             aria-label="Launch"
             class="Typefaces-link-0-1-7"
-            href="https://fonts.google.com/specimen/Teko"
+            href="https://fonts.google.com/specimen/Roboto+Condensed"
             rel="noopener"
             target="_blank"
           >

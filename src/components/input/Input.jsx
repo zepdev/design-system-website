@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const Input = ({ className: classNameProp, value, onChange, id, label, placeholder }) => {
   return (
     <div className="zep-input-container">
       <input
         type="text"
-        className={classnames(classNameProp, 'zep-input')}
+        className={clsx(classNameProp, 'zep-input')}
         placeholder={placeholder}
         value={value}
         onChange={onChange}

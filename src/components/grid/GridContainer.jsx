@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 function GridContainer({ className: classNameProp, children }) {
-  const className = classnames('zep-grid', classNameProp)
+  const className = clsx('zep-grid', classNameProp)
 
   return <div className={className}>{children}</div>
 }

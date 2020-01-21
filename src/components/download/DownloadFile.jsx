@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import ButtonBase from '../button/ButtonBase'
 import DownloadIcon from '../icons/DownloadIcon'
 import OpenInNewIcon from '../icons/OpenInNewIcon'
@@ -57,7 +57,15 @@ const styles = theme => ({
   },
 })
 
-const DownloadFile = ({ title, variant, href, download, ariaLabel, demo, classes }) => {
+const DownloadFile = ({
+  title,
+  variant,
+  href,
+  download,
+  ariaLabel,
+  demo,
+  classes,
+}) => {
   const handleDownload = () => {
     const a = document.createElement('a')
     // check if browser supports modern features like download
@@ -81,17 +89,23 @@ const DownloadFile = ({ title, variant, href, download, ariaLabel, demo, classes
 
   return (
     <div className={classes.root}>
-      <p className={classnames('zep-typo--normal-3', classes.text)}>
+      <p className={clsx('zep-typo--normal-body1', classes.text)}>
         {variant === 'sketch' ? `Sketch ${ title }` : title}
       </p>
       <div
-        className={classnames(classes.container, {
+        className={clsx(classes.container, {
           [classes.iconContainer]: variant !== undefined,
         })}
       >
-        {variant === 'sketch' && <img src={sketchImg} alt="sketch logo" className={classes.img} />}
-        {variant === 'github' && <img src={githubImg} alt="github logo" className={classes.img} />}
-        {variant === 'npm' && <img src={npmImg} alt="github logo" className={classes.img} />}
+        {variant === 'sketch' && (
+          <img src={sketchImg} alt="sketch logo" className={classes.img} />
+        )}
+        {variant === 'github' && (
+          <img src={githubImg} alt="github logo" className={classes.img} />
+        )}
+        {variant === 'npm' && (
+          <img src={npmImg} alt="github logo" className={classes.img} />
+        )}
         <ButtonBase
           className={classes.button}
           disabled={demo}

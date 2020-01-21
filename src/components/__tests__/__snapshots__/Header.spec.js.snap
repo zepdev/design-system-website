@@ -179,7 +179,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 class="Header-container-0-1-7"
               >
                 <p
-                  class="Header-menuText-0-1-9 zep-typo-normal-2"
+                  class="Header-menuText-0-1-9 zep-typo-normal-body1"
                 >
                   Theme:
                 </p>
@@ -463,7 +463,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               class="Header-container-0-1-7"
             >
               <p
-                class="Header-menuText-0-1-9 zep-typo-normal-2"
+                class="Header-menuText-0-1-9 zep-typo-normal-body1"
               >
                 Theme:
               </p>

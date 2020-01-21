@@ -1,3 +1,42 @@
+## [1.2.1](https://github.com/zepdev/zeppelin-element-library/compare/v1.2.0...v1.2.1) (2019-12-20)
+
+### Bug Fixes
+
+- **bundle handler:** missing hash removal from fonts ([c9693b4](https://github.com/zepdev/zeppelin-element-library/commit/c9693b4))
+
+# [1.2.0](https://github.com/zepdev/zeppelin-element-library/compare/v1.1.1...v1.2.0) (2019-12-19)
+
+### Features
+
+- **icons:** 3 new icons for zeppelin.com header ([d6ecd52](https://github.com/zepdev/zeppelin-element-library/commit/d6ecd52)), closes [#121](https://github.com/zepdev/zeppelin-element-library/issues/121)
+
+## [1.1.1](https://github.com/zepdev/zeppelin-element-library/compare/v1.1.0...v1.1.1) (2019-12-18)
+
+### Bug Fixes
+
+- **merge:** merge conflicts ([3b5a848](https://github.com/zepdev/zeppelin-element-library/commit/3b5a848))
+
+# [1.1.0](https://github.com/zepdev/zeppelin-element-library/compare/v1.0.0...v1.1.0) (2019-11-28)
+
+### Bug Fixes
+
+- **colors:** cat color wrong, new zlab seconday, new structure of theme ([456463f](https://github.com/zepdev/zeppelin-element-library/commit/456463f)), closes [#118](https://github.com/zepdev/zeppelin-element-library/issues/118)
+- **theme.json:** updated typeface names ([f811741](https://github.com/zepdev/zeppelin-element-library/commit/f811741))
+
+### Features
+
+- **typography:** cleaned up typography in all components ([9a264e9](https://github.com/zepdev/zeppelin-element-library/commit/9a264e9)), closes [#113](https://github.com/zepdev/zeppelin-element-library/issues/113)
+
+# [1.0.0](https://github.com/zepdev/zeppelin-element-library/compare/v0.12.0...v1.0.0) (2019-11-19)
+
+### Features
+
+- **typography:** remove Teko font ([b87f805](https://github.com/zepdev/zeppelin-element-library/commit/b87f805)), closes [#117](https://github.com/zepdev/zeppelin-element-library/issues/117)
+
+### BREAKING CHANGES
+
+- **typography:** new font names
+
 # [0.12.0](https://github.com/zepdev/zeppelin-element-library/compare/v0.11.4...v0.12.0) (2019-08-10)
 
 ### Bug Fixes

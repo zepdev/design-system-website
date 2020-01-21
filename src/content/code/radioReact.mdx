@@ -10,16 +10,31 @@ import RadioGroup from '../radio/RadioGroup'
 import Radio from '../radio/Radio'
 
 function MyForm() {
-   const [radio, setRadio] = React.useState('a')
+  const [radio, setRadio] = React.useState('a')
 
   function handleChange(event) {
     setRadio(event.target.value)
   }
   return (
     <RadioGroup title="Select One">
-        <Radio value="a" name="value 1" checked={radio === 'a'} onChange={handleChange} />
-        <Radio value="b" name="value 2" checked={radio === 'b'} onChange={handleChange} />
-        <Radio value="c" name="value 3" checked={radio === 'c'} onChange={handleChange} />
+      <Radio
+        value="a"
+        name="value 1"
+        checked={radio === 'a'}
+        onChange={handleChange}
+      />
+      <Radio
+        value="b"
+        name="value 2"
+        checked={radio === 'b'}
+        onChange={handleChange}
+      />
+      <Radio
+        value="c"
+        name="value 3"
+        checked={radio === 'c'}
+        onChange={handleChange}
+      />
     </RadioGroup>
   )
 }
@@ -29,15 +44,15 @@ export default MyForm
 // Radio Group
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
 const RadioGroup = ({ title, children, className: classNameProp }) => (
   <fieldset
     role="group"
-    aria-labelledby={`radio_${ title }`}
-    className={classnames('zep-typo--normal-3', classNameProp)}
+    aria-labelledby={`radio_${title}`}
+    className={clsx('zep-typo--normal-body1', classNameProp)}
   >
-    <legend id={`radio_${ title }`}>{title}</legend>
+    <legend id={`radio_${title}`}>{title}</legend>
     {children}
   </fieldset>
 )
@@ -53,10 +68,16 @@ export default RadioGroup
 // Radio
 import React from 'react'
 import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import clsx from 'clsx'
 
-const Radio = ({ checked, onChange, value, name, className: classNameProp }) => (
-  <label className={classnames('zep-radio', classNameProp)}>
+const Radio = ({
+  checked,
+  onChange,
+  value,
+  name,
+  className: classNameProp,
+}) => (
+  <label className={clsx('zep-radio', classNameProp)}>
     <input
       type="radio"
       name={name}
@@ -75,7 +96,7 @@ Radio.propTypes = {
   checked: PropTypes.bool.isRequired,
   onChange: PropTypes.func.isRequired,
   value: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
 }
 
 export default Radio

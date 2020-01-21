@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import classnames from 'classnames'
+import clsx from 'clsx'
 import withStyles from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import ChevronDownIcon from '../icons/ChevronDownIcon'
@@ -13,7 +13,6 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    color: theme.colors.gray.gray.hex,
     padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl.px }px`,
     '&:hover': {
       background: theme.colors.gray.grayLightest.hex,
@@ -29,8 +28,8 @@ const styles = theme => ({
   },
   subnav: {
     textTransform: 'capitalize',
-    color: theme.colors.gray.grayLight.hex,
-    padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl.px * 1.5 }px`,
+    padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl
+      .px * 1.5 }px`,
     '&:hover': {
       background: theme.colors.gray.grayLightest.hex,
     },
@@ -50,17 +49,38 @@ const styles = theme => ({
     transform: 'rotate(0deg)',
     transition: 'all 0.75s 0.25s',
   },
+  homeLink: {},
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+    homeLink: {
+      display: 'none',
+    },
+  },
 })
 
-function SidebarNavItem({ item, setMenu, home, classes }) {
+function SidebarNavItem({ item, setMenu, home, link, classes }) {
   const [isButtonOpen, setButton] = useState(false)
   return (
-    <li>
-      {item.subnav && (
+    <li className={clsx({ [classes.homeLink]: home })}>
+      {link && (
+        <a
+          href={link}
+          target="_blank"
+          alt={item.title}
+          rel="noopener norefferer"
+          className={clsx(
+            classes.button,
+            'zep-typo--normal-body1',
+            'zep-button--full'
+          )}
+        >
+          {item.title}
+        </a>
+      )}
+      {!link && item.subnav && (
         <ButtonBase
           fullWidth
           onClick={() => setButton(!isButtonOpen)}
-          className={classnames(classes.button, 'zep-typo--normal-3', {
+          className={clsx(classes.button, 'zep-typo--normal-body1', {
             [classes.buttonActive]: isButtonOpen,
           })}
         >
@@ -68,18 +88,26 @@ function SidebarNavItem({ item, setMenu, home, classes }) {
           <ChevronDownIcon
             width="20"
             height="20"
-            className={classnames(classes.icon, {
+            className={clsx(classes.icon, {
               [classes.iconActive]: isButtonOpen,
               [classes.iconReset]: !isButtonOpen,
             })}
           />
         </ButtonBase>
       )}
-      {!item.subnav && (
+      {!link && !item.subnav && (
         <Link
-          to={home ? '/' : `/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`}
+          to={
+            home
+              ? '/'
+              : `/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`
+          }
           onClick={() => setMenu(false)}
-          className={classnames(classes.button, 'zep-typo--normal-3', 'zep-button--full')}
+          className={clsx(
+            classes.button,
+            'zep-typo--normal-body1',
+            'zep-button--full'
+          )}
         >
           {item.title}
         </Link>
@@ -89,14 +117,18 @@ function SidebarNavItem({ item, setMenu, home, classes }) {
           {Object.keys(item.subnav).map((elem, idx) => (
             <li key={`sublistitem${ idx }`} className={classes.listItem}>
               <Link
-                to={`/content/${ item.title.toLowerCase().replace(/ /g, '-') }/${ item.subnav[
-                  elem
-                ].title
+                to={`/content/${ item.title
+                  .toLowerCase()
+                  .replace(/ /g, '-') }/${ item.subnav[elem].title
                   .toLowerCase()
                   .replace(/ /g, '-') }/`}
                 onClick={() => setMenu(false)}
                 activeStyle={{ color: theme.colors.gray.gray.hex }}
-                className={classnames(classes.subnav, 'zep-typo--normal-3', 'zep-button--full')}
+                className={clsx(
+                  classes.subnav,
+                  'zep-typo--normal-body1',
+                  'zep-button--full'
+                )}
                 data-testid="sidebarNavItemLink"
               >
                 {item.subnav[elem].title}
