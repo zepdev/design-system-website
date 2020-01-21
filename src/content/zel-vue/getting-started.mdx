@@ -26,3 +26,49 @@ A Vue Component Library using Zeppelin Element Library
 ```
 yarn add @zlab-de/zel-vue
 ```
+
+## How to use our components globally
+
+'''
+// App.vue
+<template>
+  <div id="app" class="theme-zeppelin">
+    <zel-vue-button variant="primary">Buttons</zel-vue-button>
+  </div>
+</template>
+
+<script>
+import "@zlab-de/zel-vue/zeppelin-element-library.css";
+import ZelVueButton from "./components/HelloWorld";
+
+export default {
+  name: "App",
+  components: {
+    ZelVueButton
+  }
+};
+</script>
+'''
+
+## How to use our components locally
+
+'''
+// App.vue
+<template>
+  <div id="app" class="theme-zeppelin">
+    <zel-vue-button variant="primary">Buttons</zel-vue-button>
+  </div>
+</template>
+
+<script>
+import "@zlab-de/zel-vue/zeppelin-element-library.css";
+import ZelVueButton from "./components/HelloWorld";
+
+export default {
+  name: "App",
+  components: {
+    ZelVueButton
+  }
+};
+</script>
+'''

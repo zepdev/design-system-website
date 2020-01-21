@@ -1712,6 +1712,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@carbon/icon-helpers@^10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.5.0.tgz#dca43b95ead0555d308a583983835804b869f810"
+  integrity sha512-ivKSCd3sl+Qm0PCLhGje7FAHnK8anX8Fml0rYgraIptU5JOASWrBKu14EUtGZwL9UP/tzszvufrzwO599cN9Qw==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -2953,11 +2958,20 @@
     downshift "^3.4.8"
     zeppelin-element-library "^1.2.1"
 
-"@zlab-de/zel-vue@1.0.1":
+"@zlab-de/zel-vue-icons@^1.0.1":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-vue/-/zel-vue-1.0.1.tgz#dbcaec69fc4ba2ca2a4673ef4a9c1b0209ad55c7"
-  integrity sha512-QxzOXZzThmLLEXLM/X9M2jLF3DnkN/EKstnRnlgAj1KyLFuLJChQLH5ZVvfGTLgUX0k3+iM0gWYBMDdPOTFbeg==
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-vue-icons/-/zel-vue-icons-1.0.1.tgz#ae1b0988930ebcec73ff08237dd245dbed21e085"
+  integrity sha512-Zfv2q95O5u5tg1ezEt3K7TTBsjjnzgTjdxtDe79W6pvbSb2EX2z4f+e3szqEwFmHVTOL0DnO48fMjoHKJREbiw==
   dependencies:
+    "@carbon/icon-helpers" "^10.5.0"
+
+"@zlab-de/zel-vue@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-vue/-/zel-vue-1.0.3.tgz#3253ac86f3eef090b828cf1667c1e6ad8c6fe457"
+  integrity sha512-gf6Ozkg3gP4vdwblkGgRUoqHn/N3SArkFRGSgaV6YTc7ABHdoXjf4tQC97XbiRwsBiCndM2xwO8pk9XZz0zbjA==
+  dependencies:
+    "@zlab-de/zel-vue-icons" "^1.0.1"
+    babel-core "^7.0.0-bridge.0"
     zeppelin-element-library "^1.2.1"
 
 abab@^2.0.0:
@@ -3487,7 +3501,7 @@ babel-code-frame@6.26.0, babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-core@7.0.0-bridge.0:
+babel-core@7.0.0-bridge.0, babel-core@^7.0.0-bridge.0:
   version "7.0.0-bridge.0"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-7.0.0-bridge.0.tgz#95a492ddd90f9b4e9a4a1da14eb335b87b634ece"
   integrity sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==
@@ -18055,6 +18069,9 @@ yurnalist@^1.1.1:
     semver "^6.3.0"
     strip-ansi "^5.2.0"
     strip-bom "^4.0.0"
+
+zel-vue@../../../Desktop/zel-vue:
+  version "1.0.0"
 
 zeppelin-element-library@^1.2.1:
   version "1.2.1"

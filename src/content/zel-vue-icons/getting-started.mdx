@@ -22,32 +22,35 @@ A Vue Icon Library using Zeppelin Element Library
 
 ## installation
 
-```
+```js
 yarn add @zlab-de/zel-vue-icons
 ```
 
 ## How to use these icons
 
-```
-import React from 'react'
-import ZepiconsCart from '@zlab-de/zel-react-icons/ZepiconsCart'
+```vue
+<template>
+  <div>
+    <ZepiconsCart />
+  </div>
+</template>
 
-function MyComponent(){
-    return(
-        <div>
-            <ZepiconsCart>
-        </div>
-    )
+<script>
+import ZelVueIcons from '@zlab-de/zel-vue-icons'
+import ZepiconsCart from '@zlab-de/zel-vue-icons/zepicons-cart'
+
+export default {
+  name: 'App',
+  components: {
+    ZepiconsCart,
+  },
 }
-
-export default MyComponent
+</script>
 ```
 
 ## Available Icons
 
-All icons available can be found under the Guidelines Section (Iconography). However, please note, all icons in the zel-react-icon library are camelcased.
-
-For example the icon 'zepicons-cat-used' can be accessed in this library as '@zlab-de/zel-react-icons/ZepiconsCatUsed'.
+All icons available can be found under the Guidelines Section (Iconography).
 
 ## Styling
 
@@ -55,17 +58,29 @@ You may change the color and size with the following css propertires;
 fill:
 width:
 
-```
-import React from 'react'
-import ZepiconsCart from '@zlab-de/zel-react-icons/ZepiconsCart'
+```vue
+<template>
+  <div>
+    <ZepiconsCart class="icon" />
+  </div>
+</template>
 
-function MyComponent(){
-    return(
-        <div>
-            <ZepiconsCart styles={{fill: green; width: 50px}}>
-        </div>
-    )
+<script>
+import ZelVueIcons from '@zlab-de/zel-vue-icons'
+import ZepiconsCart from '@zlab-de/zel-vue-icons/zepicons-cart'
+
+export default {
+  name: 'App',
+  components: {
+    ZepiconsCart,
+  },
 }
+</script>
 
-export default MyComponent
+<style>
+.icom {
+  fill: #27166f;
+  width: 18px;
+}
+</style>
 ```
