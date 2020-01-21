@@ -19,12 +19,12 @@ const styles = theme => ({
     minHeight: '100vh',
     paddingTop: 16,
   },
-  [`@media (min-width: ${theme.breakpoints.s})`]: {
+  [`@media (min-width: ${ theme.breakpoints.s })`]: {
     main: {
       paddingTop: 48,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
+  [`@media (min-width: ${ theme.breakpoints.m })`]: {
     root: {
       marginLeft: 224,
     },
@@ -32,12 +32,12 @@ const styles = theme => ({
       paddingTop: 136,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.l})`]: {
+  [`@media (min-width: ${ theme.breakpoints.l })`]: {
     root: {
       marginLeft: 276,
     },
   },
-  [`@media (min-width: ${theme.breakpoints.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
     root: {
       marginLeft: 300,
     },
@@ -46,20 +46,20 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${theme.colors.gray.grayLighter.hex}`,
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    borderTop: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
     width: '100%',
     borderColor: theme.colors.gray.grayLighter.hex,
   },
   hStyled: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   h1Styled: {
-    marginBottom: `${theme.spacing.component.m.rem}rem`,
+    marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
   aStyled: {
     color: theme.colors.corporate.indigoBlue.hex,
@@ -73,7 +73,7 @@ const styles = theme => ({
     width: '990em',
   },
   dialog: {
-    padding: `${theme.spacing.component.xl.rem}rem`,
+    padding: `${ theme.spacing.component.xl.rem }rem`,
   },
 })
 
