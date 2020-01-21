@@ -27,19 +27,19 @@ A Vue Component Library using Zeppelin Element Library
 yarn add @zlab-de/zel-vue
 ```
 
-## How to use our components globally
+## How to use our components
 
-'''
+'''vue
 // App.vue
 <template>
   <div id="app" class="theme-zeppelin">
-    <zel-vue-button variant="primary">Buttons</zel-vue-button>
+    <zel-vue-button variant="primary">Primary Button</zel-vue-button>
   </div>
 </template>
 
 <script>
 import "@zlab-de/zel-vue/zeppelin-element-library.css";
-import ZelVueButton from "./components/HelloWorld";
+import { ZelVueButton } from "@zlab-de/zel-vue";
 
 export default {
   name: "App",
@@ -50,24 +50,24 @@ export default {
 </script>
 '''
 
-## How to use our components locally
+## Tip: Rename on import
 
-'''
+'''vue
 // App.vue
 <template>
   <div id="app" class="theme-zeppelin">
-    <zel-vue-button variant="primary">Buttons</zel-vue-button>
+    <zButton variant="primary">Primary Button</zButton>
   </div>
 </template>
 
 <script>
 import "@zlab-de/zel-vue/zeppelin-element-library.css";
-import ZelVueButton from "./components/HelloWorld";
+import { ZelVueButton } from "@zlab-de/zel-vue";
 
 export default {
   name: "App",
   components: {
-    ZelVueButton
+    ZButton: ZelVueButton
   }
 };
 </script>
