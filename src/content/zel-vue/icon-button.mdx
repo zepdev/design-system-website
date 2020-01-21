@@ -8,6 +8,8 @@ import TableHeader from '@zlab-de/zel-react/TableHeader'
 import TableCell from '@zlab-de/zel-react/TableCell'
 import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
+import IconButton from '@zlab-de/zel-react/IconButton'
+import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
 
 # Icon Button
 
@@ -54,3 +56,40 @@ Buttons are items used to express and initialize an action when the user clicks 
 
 ## Example
 
+<div
+  style={{ marginBottom: 30, display: 'flex', justifyContent: 'space-around' }}
+>
+  <IconButton>
+    <ZepiconsStar />
+  </IconButton>
+  <IconButton variant="primary">
+    <ZepiconsStar />
+  </IconButton>
+  <IconButton variant="secondary">
+    <ZepiconsStar />
+  </IconButton>
+</div>
+
+```
+import React, {useState} from 'react'
+import IconButton from '@zlab-de/zel-react/IconButton'
+import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
+
+function MyComponent(){
+    return(
+        <>
+            <IconButton>
+                <ZepiconsStar />
+            </IconButton>
+            <IconButton variant="primary">
+                <ZepiconsStar />
+            </IconButton>
+            <IconButton variant="secondary">
+                <ZepiconsStar />
+            </IconButton>
+        </>
+    )
+}
+
+export default MyComponent
+```

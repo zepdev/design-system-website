@@ -1,0 +1,176 @@
+---
+label: Elements
+title: Radio
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+
+# Radio
+
+A radio button is a graphical control element that allows users to only select one option from a group of options at a time. Radio buttons must always contain a clear and explicit label which appear on the right side of the button.
+
+---
+
+## Available Props
+
+Radio
+
+<Table title="Radio Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        checked
+      </TableCell>
+      <TableCell>bool</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        onChange
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        value
+      </TableCell>
+      <TableCell>string, number</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        label
+      </TableCell>
+      <TableCell>string, number</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        name
+      </TableCell>
+      <TableCell>string, number</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+
+Radio Group
+
+<Table title="Radio Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        classNameLegend
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        title
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        children
+      </TableCell>
+      <TableCell>array</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+```js
+<template>
+  <div id="my-component">
+    <zRadioButton
+      name="title"
+      id="zep_radio_male"
+      class="zep-radio__input"
+      label="Male"
+      value="male"
+      v-bind:checked="true"
+      v-bind:required="true"
+      v-on:input="changeValue"
+    ></zRadioButton>
+    <zRadioButton
+      name="title"
+      id="zep_radio_female"
+      class="zep-radio__input"
+      label="Female"
+      value="female"
+      v-bind:checked="false"
+      v-bind:required="true"
+      v-on:input="changeValue"
+    ></zRadioButton>
+    <span>Selected Radio: {{radioButtonCheck}}</span>
+  </div>
+</template>
+
+<script>
+
+import { ZelRadioButton } from "@zlab-de/zel-vue";
+
+export default {
+  name: "my-component",
+  components: {
+   ZelVueRadioButton,
+  },
+  data: function() {
+    return {
+      radioButtonCheck: "",
+    };
+  },
+  methods: {
+    changeValue: function(newValue) {
+      this.radioButtonCheck = newValue;
+    }
+  }
+};
+</script>
+```

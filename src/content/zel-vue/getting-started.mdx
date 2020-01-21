@@ -29,7 +29,9 @@ yarn add @zlab-de/zel-vue
 
 ## How to use our components
 
-'''vue
+You must bring in **zeppelin-element-library.css** to apply the styles from Zeppelin Element Library. It only needs to be brought it once at the root of your application.
+
+'''js
 // App.vue
 <template>
   <div id="app" class="theme-zeppelin">
@@ -52,7 +54,7 @@ export default {
 
 ## Tip: Rename on import
 
-'''vue
+'''js
 // App.vue
 <template>
   <div id="app" class="theme-zeppelin">
@@ -71,4 +73,12 @@ export default {
   }
 };
 </script>
+'''
+
+## theme.json from Zeppelin Element Library
+
+This repository also have a **theme.json** file available for you to help with styling. This file contains the following infomation (see the guidelines section for more information); colors, spacing, and typography specifications. Its intended use if for users using a CSS-in-JS solution to be able to call colors and spacing easier.
+
+'''js
+import theme from '@zlab-de/zel-react/theme.json'
 '''

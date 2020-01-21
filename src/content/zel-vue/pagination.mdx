@@ -1,6 +1,6 @@
 ---
 label: Elements
-title: Icon Button
+title: Pagination
 ---
 
 import Table from '@zlab-de/zel-react/Table'
@@ -9,15 +9,15 @@ import TableCell from '@zlab-de/zel-react/TableCell'
 import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
 
-# Icon Button
+# Pagination
 
-Buttons are items used to express and initialize an action when the user clicks or touches it. The Zeppelin Button has two main styles, primary and secondary and requires the use of a theme. Each page can have one or two primary buttons.
+The Zeppelin Pagination element requires the use of javascript.
 
 ---
 
 ## Available Props
 
-<Table title="Icon Button Props" style={{ marginBottom: 60 }}>
+<Table title="Pagination Props" style={{ marginBottom: 60 }}>
   <TableHeader>
     <TableCell>Prop</TableCell>
     <TableCell>Type</TableCell>
@@ -35,22 +35,42 @@ Buttons are items used to express and initialize an action when the user clicks 
     </TableRow>
     <TableRow color="gray">
       <TableCell scope="row" component="th">
-        children
+        pages (total num of pages)
       </TableCell>
-      <TableCell>object</TableCell>
+      <TableCell>func</TableCell>
       <TableCell />
       <TableCell>Yes</TableCell>
     </TableRow>
     <TableRow color="white">
       <TableCell scope="row" component="th">
-        variant
+        pagesToDisplay (num of page buttons to display)
       </TableCell>
-      <TableCell>"primary","secondary"</TableCell>
+      <TableCell>number, string</TableCell>
       <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        currentPage
+      </TableCell>
+      <TableCell>number, string</TableCell>
       <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        onPageChange
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
     </TableRow>
   </TableBody>
 </Table>
 
 ## Example
 
+
+```
+
+```

@@ -1,6 +1,6 @@
 ---
 label: Elements
-title: Button
+title: Select
 ---
 
 import Table from '@zlab-de/zel-react/Table'
@@ -9,13 +9,15 @@ import TableCell from '@zlab-de/zel-react/TableCell'
 import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
 
-# Button
+# Select
 
-Buttons are items used to express and initialize an action when the user clicks or touches it. The Zeppelin Button has two main styles, primary and secondary and requires the use of a theme. Each page can have one or two primary buttons.
+Select is a type of input users use to select one item from a list of values. In some cases the user can select multiple attributes. The selected item is always visible when the select box is closed.
+
+---
 
 ## Available Props
 
-<Table title="Button Props" style={{ marginBottom: 60 }}>
+<Table title="Select Props" style={{ marginBottom: 60 }}>
   <TableHeader>
     <TableCell>Prop</TableCell>
     <TableCell>Type</TableCell>
@@ -25,82 +27,58 @@ Buttons are items used to express and initialize an action when the user clicks 
   <TableBody>
     <TableRow color="white">
       <TableCell scope="row" component="th">
-        variant
+        className
       </TableCell>
-      <TableCell>"primary", "secondary", "tertiary"</TableCell>
+      <TableCell>string, object</TableCell>
       <TableCell />
       <TableCell />
     </TableRow>
     <TableRow color="gray">
       <TableCell scope="row" component="th">
-        size
+        label
       </TableCell>
-      <TableCell>"small", "large"</TableCell>
-      <TableCell>"large"</TableCell>
+      <TableCell>string</TableCell>
       <TableCell />
+      <TableCell>Yes</TableCell>
     </TableRow>
     <TableRow color="white">
       <TableCell scope="row" component="th">
-        fullWidth
+        items
       </TableCell>
-      <TableCell>bool</TableCell>
-      <TableCell>false</TableCell>
-      <TableCell />
-    </TableRow>
-    <TableRow color="gray">
-      <TableCell scope="row" component="th">
-        disabled
-      </TableCell>
-      <TableCell>bool</TableCell>
-      <TableCell>false</TableCell>
-      <TableCell />
-    </TableRow>
-    <TableRow color="white">
-      <TableCell scope="row" component="th">
-        children
-      </TableCell>
-      <TableCell>node, string</TableCell>
+      <TableCell>array</TableCell>
       <TableCell />
       <TableCell>Yes</TableCell>
     </TableRow>
     <TableRow color="gray">
       <TableCell scope="row" component="th">
-        onClick
+        placeholder
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        onChange
       </TableCell>
       <TableCell>func</TableCell>
       <TableCell />
-      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        selectedItem
+      </TableCell>
+      <TableCell>object</TableCell>
+      <TableCell>*This sets a default selected value</TableCell>
+      <TableCell> and will overwrite placeholder</TableCell>
     </TableRow>
   </TableBody>
 </Table>
 
 ## Example
 
-```js
-<template>
-  <div id="my-component">
-    <zel-vue-button variant="primary" @click="onHandleClick">Primary Button</zel-vue-button>
-  </div>
-</template>
-
-<script>
-import ZelVueButton from "@zlab-de/zel-vue";
-
-export default {
-  name: "my-component",
-  components: {
-   ZelVueButton,
-  },
-  data: function() {
-    return {
-      testmessage: "You Clicked the Button!",
-    };
-  },
-  methods: {
-    onHandleClick() {
-      alert(this.testmessage);
-    },
-  }
-};
-</script>
 ```
+
+```
+

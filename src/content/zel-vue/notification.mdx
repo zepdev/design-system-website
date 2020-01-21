@@ -1,6 +1,6 @@
 ---
 label: Elements
-title: Icon Button
+title: Notification
 ---
 
 import Table from '@zlab-de/zel-react/Table'
@@ -9,15 +9,15 @@ import TableCell from '@zlab-de/zel-react/TableCell'
 import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
 
-# Icon Button
+# Notification
 
-Buttons are items used to express and initialize an action when the user clicks or touches it. The Zeppelin Button has two main styles, primary and secondary and requires the use of a theme. Each page can have one or two primary buttons.
+The Zeppelin Notification element contains four variants: Success, Info, Warning, Danger.
 
 ---
 
 ## Available Props
 
-<Table title="Icon Button Props" style={{ marginBottom: 60 }}>
+<Table title="Notification Props" style={{ marginBottom: 60 }}>
   <TableHeader>
     <TableCell>Prop</TableCell>
     <TableCell>Type</TableCell>
@@ -37,7 +37,7 @@ Buttons are items used to express and initialize an action when the user clicks 
       <TableCell scope="row" component="th">
         children
       </TableCell>
-      <TableCell>object</TableCell>
+      <TableCell>array, object</TableCell>
       <TableCell />
       <TableCell>Yes</TableCell>
     </TableRow>
@@ -45,7 +45,7 @@ Buttons are items used to express and initialize an action when the user clicks 
       <TableCell scope="row" component="th">
         variant
       </TableCell>
-      <TableCell>"primary","secondary"</TableCell>
+      <TableCell>'success', 'info', 'warning', 'danger'</TableCell>
       <TableCell />
       <TableCell />
     </TableRow>
@@ -54,3 +54,23 @@ Buttons are items used to express and initialize an action when the user clicks 
 
 ## Example
 
+```js
+<template>
+    <div id="my-component">
+        <zel-vue-notification variant="danger">
+            Access Denied
+        </zel-vue-notification>
+    </div>
+</template>
+
+<script>
+import { ZelVueNotifications } from "@zlab-de/zel-vue";
+
+export default {
+  name: "my-component",
+  components: {
+    ZelVueNotifications,
+  }
+};
+</script>
+```
