@@ -25,7 +25,7 @@ const SidebarNav = ({ setMenu, classes }) => (
     ))}
     <SidebarNavItem
       item={{ title: 'v0' }}
-      link="http://www.zds_v0.zepdev.com"
+      link="https://v0-zds.zepdev.net/"
       setMenu={setMenu}
     />
   </ul>
