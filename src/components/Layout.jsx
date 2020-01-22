@@ -10,8 +10,6 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import DialogTitle from '@material-ui/core/DialogTitle'
-import Dialog from '@material-ui/core/Dialog'
 import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
 // import '@zlab-de/zel-react/zeppelin-element-library.css'
 import ZEL from 'zeppelin-element-library'
@@ -90,7 +88,6 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('zeppelin')
-  const [dialog, setDialog] = useState(process.env.NODE_ENV !== 'development')
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
@@ -160,20 +157,6 @@ function Layout({ children, classes }) {
             })}
           >
             <SkipNavLink className={classes.skipLink} />
-            <Dialog
-              onClose={() => setDialog(false)}
-              aria-labelledby="simple-dialog-title"
-              open={dialog}
-            >
-              <DialogTitle id="simple-dialog-title">
-                BREAKING CHANGES: Version 1.0.0 +
-              </DialogTitle>
-              <p className={clsx('zep-typo--normal-body1', classes.dialog)}>
-                Changes are underway! Please note that we are currently working
-                to update ZDS and this will cause breaking changes with each
-                release over the next year.
-              </p>
-            </Dialog>
             <Sidebar isMenuOpen={isMenuOpen} setMenu={setMenu} />
             <div>
               <Header

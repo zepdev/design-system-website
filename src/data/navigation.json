@@ -140,6 +140,59 @@
     "subnav": {
       "getting-started": {
         "title": "Getting Started"
+      },
+      "button": {
+        "title": "Button"
+      },
+      "checkbox": {
+        "title": "Checkbox"
+      },
+      "grid": {
+        "title": "Grid"
+      },
+      "icon-button": {
+        "title": "Icon Button"
+      },
+      "input": {
+        "title": "Input"
+      },
+      "list": {
+        "title": "List"
+      },
+      "notification": {
+        "title": "notification"
+      },
+      "number-input": {
+        "title": "Number Input"
+      },
+      "pagination": {
+        "title": "pagination"
+      },
+      "radio": {
+        "title": "Radio"
+      },
+      "search": {
+        "title": "Search"
+      },
+      "select": {
+        "title": "Select"
+      },
+      "table": {
+        "title": "Table"
+      },
+      "tabs": {
+        "title": "Tabs"
+      },
+      "tag": {
+        "title": "Tag"
+      }
+    }
+  },
+  "zel-vue-icons": {
+    "title": "zel-vue-icons",
+    "subnav": {
+      "getting-started": {
+        "title": "Getting Started"
       }
     }
   },
