@@ -74,17 +74,6 @@
       }
     }
   },
-  "changelog": {
-    "title": "Changelog",
-    "subnav": {
-      "developers": {
-        "title": "Developers"
-      },
-      "designers": {
-        "title": "Designers"
-      }
-    }
-  },
   "zel-react": {
     "title": "zel-react",
     "subnav": {
@@ -151,6 +140,17 @@
     "subnav": {
       "getting-started": {
         "title": "Getting Started"
+      }
+    }
+  },
+  "changelog": {
+    "title": "Changelog",
+    "subnav": {
+      "developers": {
+        "title": "Developers"
+      },
+      "designers": {
+        "title": "Designers"
       }
     }
   },

@@ -29,81 +29,92 @@ yarn add @zlab-de/zel-react
 
 ## How to use our components
 
-You must bring in **zeppelin-element-library.css** to apply the styles from Zeppelin Element Library. It only needs to be brought it once at the root of your application.
+You must bring in **zel.css** and select a theme (theme-zeppelin, theme-cat, or theme-rental) to apply the styles from Zeppelin Element Library. It only needs to be brought it once at the root of your application.
 
-```
-// MyComponent.jsx
-import React from 'react'
-import Button from '@zlab-de/zel-react/Button'
+```jsx
+// index.js
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-function MyComponent(){
-    return(
-        <div>
-            <Button color="primary">Click Me!</Button>
-        </div>
-    )
-}
-
-export default MyComponent
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 
 // App.js
-import React, { Component } from 'react';
-import "@zlab-de/zel-react/zeppelin-element-library.css"
-import MyComponent from "./MyComponent"
+import React from "react";
+import "@zlab-de/zel-react/zel.css"
 
-class App extends Component {
-  render() {
-    return (
-      <div class="theme-zeppelin"> //or theme-cat or theme-rental
-        <MyComponent />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div className="theme-zeppelin">
+      <h1>Hello World!</h1>
+    </div>
+  );
 }
-
-export default App;
 ```
 
-## theme.json from Zeppelin Element Library
+## guidelines.json
 
-This repository also have a **theme.json** file available for you to help with styling. This file contains the following infomation (see the guidelines section for more information); colors, spacing, and typography specifications. Its intended use if for users using a CSS-in-JS solution to be able to call colors and spacing easier.
+This repository also has a **guidelines.json** file available for you to help with styling. This file contains the following infomation (see the guidelines section for more information); colors, spacing, and typography specifications.
 
 Example with React-JSS Theming
 
-```
-import React from 'react'
-import withStyles, {ThemeProvider} from 'react-jss'
-import theme from '@zlab-de/zel-react/theme.json'
+```jsx
+// index.js
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import {ThemeProvider} from 'react-jss'
+import theme from '@zlab-de/zel-react/guidelines.json'
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>,
+  rootElement
+);
+
+// App.js
+import React from "react";
+import "@zlab-de/zel-react/zel.css"
+import MyComponent from "./MyComponent"
+
+export default function App() {
+  return (
+    <div className="theme-zeppelin">
+      <MyComponent />
+    </div>
+  );
+}
+
+// MyComponent.js
+import React from "react";
+import withStyles from 'react-jss'
 
 const styles = theme => ({
-  div: {
+  p: {
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
     color: theme.colors.corporate.indigoBlue.hex,
   },
 })
 
-function MyComponent(){
-    return(
-        <div className={classes.div}>
-            i'm a component
-        </div>
-    )
+function MyComponent() {
+  return (
+      <p className={classes.p}>
+        Hello World!
+      </p>
+  );
 }
 
 export default withStyles(styles)(MyComponent)
-
-const App = () => (
-  <ThemeProvider theme={theme}>
-    <StyledButton>I am a button with green background</StyledButton>
-  </ThemeProvider>
-)
 ```
 
 ## Props
 
 Any alternative props that you wish to pass to a component (ie inline styles) will always be passed to the outer element of that component. For example, see the code for Tag below.
 
-```
+```js
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';

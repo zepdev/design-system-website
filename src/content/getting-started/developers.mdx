@@ -5,28 +5,90 @@ title: Developers
 
 import { Link } from 'gatsby'
 import DocumentLink from '../../components/link/DocumentLink.jsx'
+import List from "@zlab-de/zel-react/List"
+import ListItem from '@zlab-de/zel-react/ListItem'
 
 # Developers
 
-To access the styleguide, first download the Zeppelin Element Library by your preferred method:
+There are 3 npm projects to help developers;
+
+<List style={{ marginBottom: 30 }} variant="attribute">
+  <ListItem label="zeppelin-element-library">
+    Css file that is the core of the Zeppelin Design System
+  </ListItem>
+  <ListItem label="@zlab-de/zel-react">
+    A <Link to='/content/zel-react/getting-started'>React component library</Link>  build using the zeppelin-element-library
+  </ListItem>
+  <ListItem label="@zlab-de/zel-vue">
+    A <Link to='/content/zel-vue/getting-started'>Vue component library</Link>  build using the zeppelin-element-library
+  </ListItem>
+</List>
 
 <DocumentLink
   to={'/content/download/'}
-  text="I'm already ready, take me to the Download Page!"
+  text="Download Now"
 />
 
-## Basic Usage: Javascript
+### ***zeppelin-element-library***
 
-Import the javascript using your preferred method;
+The Zeppelin Element Library is a package that contains a basic css and js file that can easily be incorporated into any project or javascript framework. It also contains asset files such as;
 
+<List style={{ marginBottom: 30 }} >
+  <ListItem>
+    1) zel.css
+  </ListItem>
+  <ListItem>
+    2) zel.js
+  </ListItem>
+  <ListItem >
+    3) guidelines.json
+  </ListItem>
+  <ListItem >
+    4) assets: fonts
+  </ListItem>
+    <ListItem >
+    5) assets: icons
+  </ListItem>
+    <ListItem >
+    6) assets: logos
+  </ListItem>
+</List>
+
+ ### Install from npm 
+
+```
+yarn add zeppelin-element-library
+```
+ 
+### 1) zel.css
+The basic css to create any Zeppelin Design System component. For all examples, please check out the elements, Zel-React, or Zel-Vue sections. 
+
+Using modern javascript frameworks, import the css at the root of your app;
 ```js
-//Import as ECMAScript Module
+import 'zeppelin-element-library/zel.css'
+```
+
+For traditional html projects, paste this code into the < head > before all other stylesheets;
+```html
+<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.css" />
+// OR the gzipped version:
+<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.css.gz" />
+
+``` 
+
+### 2) zel.js
+The javascript that accompanies zel.css. For examples, please check out the elements section.
+
+Using modern javascript frameworks, import the css at the root of your app;
+```js
 import ZEL from 'zeppelin-element-library'
+```
 
-// OR
-
-//Require as CommonJs Module
-const ZEL = require('zeppelin-element-library')
+For traditional html projects, paste this code into the head html tag before all other stylesheets;
+```html
+<script src="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.min.js" ></script>
+// OR the gzipped version
+<script src="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.min.js.gz" ></script>
 ```
 
 To get the JavaScript running, initialize ZEL after the DOM has loaded. Place the following script at the bottom of your body element or to your dedicated JavaScript file to initialize the library after every page load.
@@ -72,43 +134,54 @@ function Layout({something}) {
   })
 ```
 
-## Basic Usage: Styles
+### 3) guidelines.json
 
-To get started simply import the files you want to use in any project.
-
-```js
-import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
-```
-
-All available css classes and javascript can be found under the Elements and Components sections of this website.
-Simply use the css classes as normal.
+To help with styling, guidelines.json contains all information found in the guidelines section as variables in a json file.
 
 ```js
-<button class="zep-button zep-button-primary">My Button</>
+import 'zeppelin-element-library/guidelines.json'
 ```
-
-You can also use them along with other styling solutions. For example, in React;
-
-```jsx
-function MyButton({onClick}){
-    return(
-        <button className={classes.button,"zep-button"} onClick={onClick}>React Button</>
-    )
+sample from guidelines.json;
+```json
+"spacing": {
+    "component": {
+      "xxs": {
+        "px": 4,
+        "rem": 0.25
+      },
+      "xs": {
+        "px": 8,
+        "rem": 0.5
+      },
+      "s": {
+        "px": 12,
+        "rem": 0.75
+      },
+      "m": {
+        "px": 16,
+        "rem": 1
+      },
+      "l": {
+        "px": 24,
+        "rem": 1.5
+      },
+      "xl": {
+        "px": 32,
+        "rem": 2
+      },
+      "xxl": {
+        "px": 48,
+        "rem": 3
+      }
+    }
 }
-
-export default MyButton
 ```
-
-## Using theme.js
-
-Also available from Zeppelin Element Library is a javascript object called theme. The theme file contains
-everything outlined in the Guidelines section. These variables can easily be accessed and used in your project using any CCS-in-JS solution.
 
 JSS in Gatsby example;
 
 ```jsx
 // gatsby-config.js
-const zeppelinTheme = require('zeppelin-element-library/bundle/themes/theme.json')
+const zeppelinTheme = require('zeppelin-element-library/guidelines.json')
 module.exports = {
   plugins: [
     {
@@ -142,3 +215,16 @@ const MyComponent = ({ classes }) => {
 
 export default withStyles(styles)(MyComponent)
 ```
+
+### 4) assets: fonts
+
+If you are using zel.css then fonts will automatically loaded from the assets folder.
+
+### 5) assets: icons
+
+See the guidelines/icons section for more information.
+
+### 6) assets: logos
+
+See the guidelines/logos section for more information.
+
