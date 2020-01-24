@@ -2,7 +2,7 @@ import React from 'react'
 import { act, render, fireEvent } from '@testing-library/react'
 import Swatch from '../Swatch'
 import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/bundle/themes/theme.json'
+import theme from 'zeppelin-element-library/guidelines.json'
 
 jest.useFakeTimers()
 

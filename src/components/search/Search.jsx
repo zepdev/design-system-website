@@ -16,8 +16,8 @@ const styles = theme => ({
   li: {
     padding: '0.625rem 1.125rem',
     textTransform: 'capitalize',
-    color: theme.colors.gray.grayDark.hex,
-    textDecorationColor: theme.colors.gray.grayDark.hex,
+    color: theme.color.gray.grayDark.hex,
+    textDecorationColor: theme.color.gray.grayDark.hex,
   },
   container: {
     width: '100%',

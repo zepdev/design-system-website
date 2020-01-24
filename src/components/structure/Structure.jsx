@@ -8,7 +8,7 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: theme.colors.gray.grayLighter.hex,
+    backgroundColor: theme.color.gray.grayLighter.hex,
     padding: `${ theme.spacing.component.xxl.rem }rem`,
   },
 })

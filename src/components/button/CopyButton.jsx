@@ -8,12 +8,12 @@ const styles = theme => ({
   button: {
     padding: `${ theme.spacing.component.m.rem }rem`,
     float: 'right',
-    color: theme.colors.gray.white.hex,
+    color: theme.color.gray.white.hex,
     height: 52,
     width: 52,
   },
   icon: {
-    color: theme.colors.gray.white.hex,
+    color: theme.color.gray.white.hex,
     width: 20,
     height: 20,
   },

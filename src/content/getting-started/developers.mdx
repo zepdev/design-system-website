@@ -61,11 +61,13 @@ yarn add zeppelin-element-library
 ```
  
 ### 1) zel.css
-The basic css to create any Zeppelin Design System component. For all examples, please check out the elements, Zel-React, or Zel-Vue sections. 
+The basic css to create any Zeppelin Design System component. For all examples, please check out the elements, Zel-React, or Zel-Vue sections. Please note that a theme (theme-indigo, theme-red, or theme-yellow) must be used with the css. 
 
 Using modern javascript frameworks, import the css at the root of your app;
 ```js
 import 'zeppelin-element-library/zel.css'
+
+<main class="theme-indigo">...</main>
 ```
 
 For traditional html projects, paste this code into the < head > before all other stylesheets;
@@ -200,8 +202,8 @@ const styles = theme => ({
     marginBottom: theme.spacing.component.l.px * 2,
   },
   p: {
-    color: theme.colors.gray.white.hex,
-    background: theme.colors.corporate.indigoBlue.hex,
+    color: theme.color.gray.white.hex,
+    background: theme.theme.indigo.primary,
   },
 })
 

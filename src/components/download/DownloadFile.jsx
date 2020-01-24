@@ -12,16 +12,16 @@ import npmImg from '../../assets/images/npm.svg'
 const styles = theme => ({
   root: {
     marginBottom: `${ theme.spacing.component.l.rem * 2 }rem`,
-    background: theme.colors.gray.grayLighter.hex,
+    background: theme.color.gray.grayLighter.hex,
     padding: `${ theme.spacing.component.l.rem }rem`,
     width: '100%',
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     root: {
       width: 320,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     root: {
       width: 450,
       marginRight: `${ theme.spacing.component.l.rem }rem`,
@@ -49,11 +49,11 @@ const styles = theme => ({
   button: {
     width: 46,
     height: 46,
-    background: theme.colors.gray.white.hex,
+    background: theme.color.gray.white.hex,
     padding: `${ theme.spacing.component.xs.rem }rem`,
   },
   icon: {
-    color: theme.colors.gray.grayLight.hex,
+    color: theme.color.gray.grayLight.hex,
   },
 })
 

@@ -8,7 +8,7 @@ const styles = theme => ({
     flexWrap: 'wrap',
     justifyContent: 'space-between',
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     root: {
       flexWrap: 'nowrap',
       justifyContent: 'flex-start',

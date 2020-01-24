@@ -10,23 +10,26 @@
   "guidelines": {
     "title": "Guidelines",
     "subnav": {
-      "theme": {
-        "title": "Theme"
+      "global-color": {
+        "title": "Global Color"
       },
-      "color": {
-        "title": "Color"
+      "grid": {
+        "title": "Grid"
       },
-      "typography": {
-        "title": "Typography"
-      },
-      "spacing": {
-        "title": "Spacing"
+      "logo": {
+        "title": "Logo"
       },
       "iconography": {
         "title": "Iconography"
       },
-      "grid": {
-        "title": "Grid"
+      "spacing": {
+        "title": "Spacing"
+      },
+      "theme": {
+        "title": "Theme"
+      },
+      "typography": {
+        "title": "Typography"
       }
     }
   },

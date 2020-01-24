@@ -10,7 +10,7 @@ const styles = theme => ({
     display: 'flex',
     flexDirection: 'column',
     flexBasis: '48%',
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   button: {
     height: '6rem',
@@ -18,7 +18,7 @@ const styles = theme => ({
     marginBottom: theme.spacing.component.s.px,
     position: 'relative',
     cursor: 'pointer',
-    border: `1px solid ${ theme.colors.gray.grayMid.hex }`,
+    border: `1px solid ${theme.color.gray.grayMid.hex}`,
     '&:hover, &:focus': {
       zIndex: 1,
       '& $backdrop': {
@@ -29,7 +29,7 @@ const styles = theme => ({
       },
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${theme.breakpoint.s})`]: {
     root: {
       flexBasis: '22%',
     },
@@ -37,14 +37,14 @@ const styles = theme => ({
       height: '6rem',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${theme.breakpoint.m})`]: {
     root: {
-      marginRight: `${ theme.spacing.component.m.rem }rem`,
+      marginRight: `${theme.spacing.component.m.rem}rem`,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xxl })`]: {
+  [`@media (min-width: ${theme.breakpoint.xxl})`]: {
     root: {
-      marginRight: `${ theme.spacing.component.m.rem }rem`,
+      marginRight: `${theme.spacing.component.m.rem}rem`,
       flexBasis: '16%',
     },
     button: {
@@ -57,7 +57,7 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.colors.gray.grayDark.hex,
+    backgroundColor: theme.color.gray.grayDark.hex,
     opacity: 0,
     transition: 0.5,
   },
@@ -71,10 +71,10 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     opacity: 0,
-    color: theme.colors.gray.white.hex,
+    color: theme.color.gray.white.hex,
   },
   icon: {
-    color: theme.colors.gray.white.hex,
+    color: theme.color.gray.white.hex,
     display: 'block',
   },
   buttonText: {
@@ -85,7 +85,7 @@ const styles = theme => ({
   },
   text: {
     margin: 0,
-    color: theme.colors.gray.grayLight.hex,
+    color: theme.color.gray.grayLight.hex,
     textTransform: 'uppercase',
   },
   name: {
@@ -95,7 +95,7 @@ const styles = theme => ({
   },
 })
 
-function Swatch({ color, classes }) {
+function Swatch({ variant, color, classes }) {
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
 
@@ -118,13 +118,13 @@ function Swatch({ color, classes }) {
       }, 2000)
     }
   }
-
+  const colorShown = variant === 'font' ? color : color.hex
   return (
     <div className={classes.root}>
       <ButtonBase
         className={classes.button}
-        style={{ background: color.hex }}
-        onClick={() => handleCopy(color.hex)}
+        style={{ background: colorShown }}
+        onClick={() => handleCopy(colorShown)}
         data-testid="swatchButton"
       >
         <span className={classes.backdrop} />
@@ -132,32 +132,40 @@ function Swatch({ color, classes }) {
           {!isTextCopied && (
             <CopyIcon
               className={classes.icon}
-              ariaLabel={`copy hex:${ color.hex }`}
+              ariaLabel={`copy hex:${colorShown}`}
             />
           )}
           <span
             className={clsx(classes.buttonText, 'zep-typo--normal-h4')}
             data-testid="swatchText"
           >
-            {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color.hex}
+            {isTextCopied ? 'Copied!' : copyError ? 'Error!' : colorShown}
           </span>
         </span>
       </ButtonBase>
+
+      {variant === 'font' && (
+        <p
+          className={clsx(classes.text, 'zep-typo--normal-caption')}
+        >{`RGB: ${color}`}</p>
+      )}
       <p className={clsx(classes.name, 'zep-typo--normal-body2')}>
         {color.name}
       </p>
-      <p
-        className={clsx(classes.text, 'zep-typo--normal-caption')}
-      >{`HEX: ${ color.hex }`}</p>
+      {color.hex && (
+        <p
+          className={clsx(classes.text, 'zep-typo--normal-caption')}
+        >{`HEX: ${color.hex}`}</p>
+      )}
       {color.rgb && (
         <p
           className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`RGB: ${ color.rgb }`}</p>
+        >{`RGB: ${color.rgb}`}</p>
       )}
       {color.type && (
         <p
           className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`Type: ${ color.type }`}</p>
+        >{`Type: ${color.type}`}</p>
       )}
     </div>
   )

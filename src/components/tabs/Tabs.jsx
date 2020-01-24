@@ -5,7 +5,7 @@ import withStyles from 'react-jss'
 
 const styles = theme => ({
   root: {
-    background: theme.colors.gray.grayLightest.hex,
+    background: theme.color.gray.grayLightest.hex,
   },
 })
 
