@@ -16,7 +16,7 @@ const styles = theme => ({
     zIndex: 3,
     background: theme.color.gray.white.hex,
     transition: 'transform 0.2s',
-    borderRight: `1px solid ${theme.color.gray.grayMid.hex}`,
+    borderRight: `1px solid ${ theme.color.gray.grayMid.hex }`,
   },
   hidden: {
     transform: 'translateX(-100%)',
@@ -24,7 +24,7 @@ const styles = theme => ({
   },
   link: {
     height: 46,
-    marginBottom: `${theme.spacing.component.xl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xl.rem }rem`,
     display: 'block',
     pointerEvents: 'none',
   },
@@ -34,32 +34,32 @@ const styles = theme => ({
   },
   containerSidebarNav: {
     height: 'calc(100vh - 46px)',
-    paddingBottom: `${theme.spacing.component.xxl.rem}rem`,
+    paddingBottom: `${ theme.spacing.component.xxl.rem }rem`,
     overflow: 'auto',
     backgroundColor: theme.color.gray.white.hex,
   },
-  [`@media (min-width: ${theme.breakpoint.xs})`]: {
+  [`@media (min-width: ${ theme.breakpoint.xs })`]: {
     root: {
       width: 276,
     },
     containerSidebarNav: {
       height: 'calc(100vh - 68px)',
-      paddingBottom: `${theme.spacing.component.l.rem}rem`,
+      paddingBottom: `${ theme.spacing.component.l.rem }rem`,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.s})`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     root: {
       width: 300,
     },
     link: {
       height: 84,
-      marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+      marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
     },
     containerSidebarNav: {
-      paddingBottom: `${theme.spacing.component.xl.rem}rem`,
+      paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.m})`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     root: {
       width: 224,
       transition: 'all 0s',
@@ -71,7 +71,7 @@ const styles = theme => ({
     link: {
       visibility: 'visible',
       width: '100%',
-      padding: `0 ${theme.spacing.component.xl.rem}rem`,
+      padding: `0 ${ theme.spacing.component.xl.rem }rem`,
       display: 'flex',
       alignItems: 'center',
       height: 104,
@@ -82,15 +82,15 @@ const styles = theme => ({
     },
     containerSidebarNav: {
       height: 'calc(100vh - 104px)',
-      paddingBottom: `${theme.spacing.component.xl.rem}rem`,
+      paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.l})`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     root: {
       width: 276,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     root: {
       width: 300,
     },
@@ -99,7 +99,7 @@ const styles = theme => ({
     },
     link: {
       height: 136,
-      marginBottom: `${theme.spacing.component.l.rem * 2}rem`,
+      marginBottom: `${ theme.spacing.component.l.rem * 2 }rem`,
     },
   },
 })

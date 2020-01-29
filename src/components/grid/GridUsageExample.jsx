@@ -9,8 +9,8 @@ const styles = theme => ({
   demoGrid: {
     boxSizing: 'border-box',
     width: '100%',
-    paddingTop: `${theme.spacing.component.xl.rem}rem`,
-    paddingBottom: `${theme.spacing.component.xl.rem}rem`,
+    paddingTop: `${ theme.spacing.component.xl.rem }rem`,
+    paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
     backgroundColor: theme.color.gray.grayLightest.hex,
   },
   demoGridCol: {
@@ -30,11 +30,11 @@ const GridUsageExample = ({ classes, rows }) => {
     <GridContainer className={classes.demoGrid}>
       {rows &&
         rows.map((row, idx) => (
-          <GridRow align={row.align} key={`row${idx}`}>
+          <GridRow align={row.align} key={`row${ idx }`}>
             {row.cols.map((col, iidx) => (
               <GridCol
                 className={classes.demoGridCol}
-                key={`row${idx}-col${iidx}`}
+                key={`row${ idx }-col${ iidx }`}
                 xxs={col.xxs}
                 xs={col.xs}
                 s={col.s}

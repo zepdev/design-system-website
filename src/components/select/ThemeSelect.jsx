@@ -12,7 +12,7 @@ const styles = theme => ({
     borderRadius: '50%',
   },
   spacer: {
-    marginRight: `${theme.spacing.component.s.rem}rem`,
+    marginRight: `${ theme.spacing.component.s.rem }rem`,
   },
   indigo: {
     backgroundColor: theme.theme.indigo.primary,
@@ -52,8 +52,8 @@ const styles = theme => ({
   icon: {
     display: 'none',
     fontSize: 18,
-    paddingLeft: `${theme.spacing.component.s.rem}rem`,
-    borderLeft: `1px solid ${theme.color.gray.grayLighter.hex}`,
+    paddingLeft: `${ theme.spacing.component.s.rem }rem`,
+    borderLeft: `1px solid ${ theme.color.gray.grayLighter.hex }`,
   },
   text: {
     display: 'flex',
@@ -64,7 +64,7 @@ const styles = theme => ({
     position: 'fixed',
     right: 0,
   },
-  [`@media (min-width: ${theme.breakpoint.s})`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     circle: {
       width: 24,
       height: 24,
@@ -78,11 +78,11 @@ const styles = theme => ({
       width: 32,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.m})`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     circle: {
       width: 12,
       height: 12,
-      marginRight: `${theme.spacing.component.s.rem}rem`,
+      marginRight: `${ theme.spacing.component.s.rem }rem`,
     },
     icon: {
       display: 'inline-block',
@@ -107,7 +107,7 @@ const styles = theme => ({
       justifyContent: 'flex-start',
     },
   },
-  [`@media (min-width: ${theme.breakpoint.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     ul: {
       right: 'auto',
       width: 200,
@@ -175,7 +175,7 @@ const ThemeSelect = ({
             {items.map((item, index) => (
               <li
                 {...getItemProps({
-                  key: `listItem${index}`,
+                  key: `listItem${ index }`,
                   index,
                   item,
                   className: clsx(classes.text, 'zep-select__listitem'),
@@ -196,8 +196,8 @@ const ThemeSelect = ({
                 {item === 'indigo'
                   ? 'Theme Indigo'
                   : item === 'yellow'
-                  ? 'Theme Yellow'
-                  : 'Theme Red'}
+                    ? 'Theme Yellow'
+                    : 'Theme Red'}
               </li>
             ))}
           </ul>

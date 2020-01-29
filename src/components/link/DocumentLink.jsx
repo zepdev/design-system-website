@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
 })
 

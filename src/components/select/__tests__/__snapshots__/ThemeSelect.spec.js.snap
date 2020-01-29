@@ -30,7 +30,7 @@ Object {
             class="ThemeSelect-circleContainer-0-1-8"
           >
             <span
-              class="ThemeSelect-circle-0-1-1 ThemeSelect-zeppelin-0-1-3"
+              class="ThemeSelect-circle-0-1-1"
             />
           </span>
           <svg
@@ -81,7 +81,7 @@ Object {
           class="ThemeSelect-circleContainer-0-1-8"
         >
           <span
-            class="ThemeSelect-circle-0-1-1 ThemeSelect-zeppelin-0-1-3"
+            class="ThemeSelect-circle-0-1-1"
           />
         </span>
         <svg

@@ -105,33 +105,6 @@ Object {
           <button
             class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
           >
-            Changelog
-            <svg
-              aria-labelledby="title_chevronDown"
-              class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
-              height="20"
-              viewBox="0 0 32 32"
-              width="20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title
-                id="title_chevronDown"
-              >
-                Chevron Down
-              </title>
-              <polygon
-                fill="currentColor"
-                points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
-              />
-            </svg>
-          </button>
-        </li>
-        <li
-          class=""
-        >
-          <button
-            class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
-          >
             zel-react
             <svg
               aria-labelledby="title_chevronDown"
@@ -237,6 +210,33 @@ Object {
         <li
           class=""
         >
+          <button
+            class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
+          >
+            Changelog
+            <svg
+              aria-labelledby="title_chevronDown"
+              class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+              height="20"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_chevronDown"
+              >
+                Chevron Down
+              </title>
+              <polygon
+                fill="currentColor"
+                points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+              />
+            </svg>
+          </button>
+        </li>
+        <li
+          class=""
+        >
           <a
             class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full"
             href="/content/download/"
@@ -250,7 +250,7 @@ Object {
           <a
             alt="v0"
             class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full"
-            href="http://www.zds_v0.zepdev.com"
+            href="https://v0-zds.zepdev.net/"
             rel="noopener norefferer"
             target="_blank"
           >
@@ -335,33 +335,6 @@ Object {
           class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
         >
           Elements
-          <svg
-            aria-labelledby="title_chevronDown"
-            class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
-            height="20"
-            viewBox="0 0 32 32"
-            width="20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title
-              id="title_chevronDown"
-            >
-              Chevron Down
-            </title>
-            <polygon
-              fill="currentColor"
-              points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
-            />
-          </svg>
-        </button>
-      </li>
-      <li
-        class=""
-      >
-        <button
-          class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
-        >
-          Changelog
           <svg
             aria-labelledby="title_chevronDown"
             class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
@@ -493,6 +466,33 @@ Object {
       <li
         class=""
       >
+        <button
+          class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-10"
+        >
+          Changelog
+          <svg
+            aria-labelledby="title_chevronDown"
+            class="SidebarNavItem-icon-0-1-6 SidebarNavItem-iconReset-0-1-8"
+            height="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_chevronDown"
+            >
+              Chevron Down
+            </title>
+            <polygon
+              fill="currentColor"
+              points="7.41 8.58 12 13.17 16.59 8.58 18 10 12 16 6 10"
+            />
+          </svg>
+        </button>
+      </li>
+      <li
+        class=""
+      >
         <a
           class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full"
           href="/content/download/"
@@ -506,7 +506,7 @@ Object {
         <a
           alt="v0"
           class="SidebarNavItem-button-0-1-2 zep-typo--normal-body1 zep-button--full"
-          href="http://www.zds_v0.zepdev.com"
+          href="https://v0-zds.zepdev.net/"
           rel="noopener norefferer"
           target="_blank"
         >
