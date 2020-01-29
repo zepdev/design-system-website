@@ -13,9 +13,9 @@ import DownloadContainer from '../components/download/DownloadContainer.jsx'
   title="Zeppelin Sketch Library"
   variant="sketch"
   href={
-    'https://cdn-zel.zepdev.net/zel/' +
+    'https://unpkg.com/zeppelin-element-library@' +
     zelVersion +
-    '/css/assets/dist/zds-library.sketch'
+    '/assets/sketch/zds-library.sketch'
   }
   download=""
   ariaLabel="download"
@@ -42,16 +42,15 @@ yarn add zeppelin-element-library
 Use the cached version of our files from our CDN
 
 ```js
-<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.css" >
-<script src="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.min.js" ></script>
+<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@[VERSION]/zel.css" >
+<script src="https://unpkg.com/zeppelin-element-library@[VERSION]/bundle/zel.min.js" ></script>
 
 ```
 
 Use the gzipped cached version of our files from our CDN
 
 ```js
-<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.css.gz" >
-<script src="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.min.js.gz" ></script>
+<script src="https://unpkg.com/zeppelin-element-library@[VERSION]/bundle/zel.min.js.gz"></script>
 ```
 
 ---
@@ -62,7 +61,7 @@ If you would like to download and use these styles for your own purposes directl
 
 <DownloadFile
   title="Zeppelin Element Library CSS"
-  href="https://unpkg.com/zeppelin-element-library@latest/bundle/zel.css"
+  href={`https://unpkg.com/zeppelin-element-library@${zelVersion}/zel.css`}
   download="zel.css"
   ariaLabel="download sketch file"
 />
