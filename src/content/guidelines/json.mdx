@@ -1,0 +1,34 @@
+---
+label: json
+title: json
+---
+
+import Tree from '../../components/guidelines/Json.jsx'
+
+# guidelines.json
+
+The guidelines.json file is available through each npm package of the zeppelin-element-library (zeppelin-element-library, @zlab-de/zel-react and @zlab-de/zel-vue). It contains all of the content in the guidelines section as variables that can be accessed in javascript. The intent of this file is to help with styling.
+
+For example, in React one solution to sytling is React-JSS. You can pass in guideslines.json as the theme and then you will have access to spacing and colors directly in your css;
+
+```jsx
+import React from 'react'
+import withStyles from 'react-jss'
+
+const styles = theme => ({
+  p: {
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    color: theme.theme.indigo.primary,
+  },
+})
+
+function MyComponent() {
+  return <p className={classes.p}>Hello World!</p>
+}
+
+export default withStyles(styles)(MyComponent)
+```
+
+# Available variables
+
+<Tree />
