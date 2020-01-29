@@ -15,22 +15,22 @@ import NuovaCibaLogos from '../../assets/images/Logo/NuovaCiba.png'
 import NuovaCibaInvertedLogos from '../../assets/images/Logo/NuovaCibaInverted.png'
 import PartnersLogos from '../../assets/images/Logo/Partners.png'
 import PowerSystemsLogos from '../../assets/images/Logo/PowerSystems.png'
-import ZDigitLogos from '../../assets/images/Logo/ZDigit.png'
-import ZDigitInvertedLogos from '../../assets/images/Logo/ZDigitInverted.png'
+// import ZDigitLogos from '../../assets/images/Logo/ZDigit.png'
+// import ZDigitInvertedLogos from '../../assets/images/Logo/ZDigitInverted.png'
 import Headline from '../typography/Headline'
 import Swatch from '../swatch/Swatch'
 import DownloadFile from '../download/DownloadFile.jsx'
 
 const styles = theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   container: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
   },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
+  [`@media (min-width: ${theme.breakpoint.m})`]: {
     container: {
       justifyContent: 'flex-start',
     },
@@ -61,33 +61,33 @@ function Logos({ classes }) {
       <Headline variant="sm">Logo Colors</Headline>
       <div className={classes.container}>
         {Object.keys(logo).map(elem => (
-          <Swatch color={logo[elem]} key={`swatch${ elem }`} />
+          <Swatch color={logo[elem]} key={`swatch${elem}`} />
         ))}
       </div>
       <Headline variant="sm">Logo Usage from Size</Headline>
       {data.map((elem, idx) => (
         <ExpansionPanel
-          expanded={expanded === `panel${ idx }`}
-          onChange={handleChange(`panel${ idx }`)}
+          expanded={expanded === `panel${idx}`}
+          onChange={handleChange(`panel${idx}`)}
         >
           <ExpansionPanelSummary
             expandIcon={<ZepiconsChevronDown />}
-            aria-controls={`panel${ idx }bh-content`}
-            id={`panel${ idx }bh-header`}
+            aria-controls={`panel${idx}bh-content`}
+            id={`panel${idx}bh-header`}
           >
             <p className={classes.heading}>{elem.title}</p>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.container}>
-            <img src={elem.src} alt={`${ elem.title } logo`} />
+            <img src={elem.src} alt={`${elem.title} logo`} />
             <div>
               <DownloadFile
-                title={`Download ${ elem.title }`}
-                href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/${ elem.title.replace(
+                title={`Download ${elem.title}`}
+                href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/css/assets/dist/${elem.title.replace(
                   ' ',
                   ''
-                ) }`}
-                download={`${ elem.title }.zip`}
-                ariaLabel={`Download ${ elem.title }`}
+                )}`}
+                download={`${elem.title}.zip`}
+                ariaLabel={`Download ${elem.title}`}
               />
             </div>
           </ExpansionPanelDetails>
