@@ -1,0 +1,111 @@
+---
+label: Elements
+title: Number Input
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+
+# Number Input
+
+The Number Input is a basic counter component to be used on forms to increase or decrease an incremental value. Always use a clear and concise label for the number input and allow the user to also choose to type a number in the field.
+
+## Available Props
+
+<Table title="NumberInput Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        label
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        onPlus (controls plus button)
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        onMinus (controls minus button)
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        onChange (controls the input)
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        count (value of input)
+      </TableCell>
+      <TableCell>number, string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+```js
+<template>
+  <div id="my-component">
+    <zel-vue-number-input
+      minustitle="Zeppelin Minus"
+      plustitle="Zeppelin Plus"
+      v-model="counterparent"
+      :max="10"
+      :min="5"
+      :step="2"
+      @onminus-click="minusClick"
+      @onplus-click="plusClick"
+    />
+  </div>
+</template>
+
+<script>
+
+import { ZelVueNumberInput } from "@zlab-de/zel-vue";
+
+export default {
+  name: "my-component",
+  components: {
+    ZelVueInput
+  },
+  data: function() {
+    return {
+      counterparent: 0,
+    };
+  },
+  methods: {
+    minusClick(evtValue) {
+      this.counterparent = evtValue;
+    },
+    plusClick(evtValue) {
+      this.counterparent = evtValue;
+    },
+  }
+};
+</script>
+```

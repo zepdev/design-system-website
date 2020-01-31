@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, fireEvent } from '@testing-library/react'
 import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/bundle/themes/theme.json'
+import theme from 'zeppelin-element-library/guidelines.json'
 import DownloadFile from '../DownloadFile'
 
 describe('DownloadFile', () => {

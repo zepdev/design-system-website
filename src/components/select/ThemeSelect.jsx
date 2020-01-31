@@ -14,14 +14,14 @@ const styles = theme => ({
   spacer: {
     marginRight: `${ theme.spacing.component.s.rem }rem`,
   },
-  zeppelin: {
-    backgroundColor: theme.colors.corporate.indigoBlue.hex,
+  indigo: {
+    backgroundColor: theme.theme.indigo.primary,
   },
-  cat: {
-    backgroundColor: theme.colors.cat.catYellow.hex,
+  yellow: {
+    backgroundColor: theme.theme.yellow.primary,
   },
-  rental: {
-    backgroundColor: theme.colors.rental.rentalRed.hex,
+  red: {
+    backgroundColor: theme.theme.red.primary,
   },
   dropdownIcon: {
     display: 'none',
@@ -45,7 +45,7 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: '50%',
-    background: theme.colors.gray.white.hex,
+    background: theme.color.gray.white.hex,
     height: 24,
     width: 24,
   },
@@ -53,18 +53,18 @@ const styles = theme => ({
     display: 'none',
     fontSize: 18,
     paddingLeft: `${ theme.spacing.component.s.rem }rem`,
-    borderLeft: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
+    borderLeft: `1px solid ${ theme.color.gray.grayLighter.hex }`,
   },
   text: {
     display: 'flex',
     alignItems: 'center',
-    color: theme.colors.gray.black.hex,
+    color: theme.color.gray.black.hex,
   },
   ul: {
     position: 'fixed',
     right: 0,
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     circle: {
       width: 24,
       height: 24,
@@ -78,7 +78,7 @@ const styles = theme => ({
       width: 32,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     circle: {
       width: 12,
       height: 12,
@@ -92,7 +92,7 @@ const styles = theme => ({
       width: 200,
     },
     menuButton: {
-      background: theme.colors.gray.white.hex,
+      background: theme.color.gray.white.hex,
       height: 'auto',
       width: 'auto',
       padding: '6px 12px',
@@ -107,7 +107,7 @@ const styles = theme => ({
       justifyContent: 'flex-start',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     ul: {
       right: 'auto',
       width: 200,
@@ -156,9 +156,9 @@ const ThemeSelect = ({
           <span className={classes.circleContainer}>
             <span
               className={clsx(classes.circle, {
-                [classes.zeppelin]: selected === 'zeppelin',
-                [classes.cat]: selected === 'cat',
-                [classes.rental]: selected === 'rental',
+                [classes.indigo]: selected === 'indigo',
+                [classes.yellow]: selected === 'yellow',
+                [classes.red]: selected === 'red',
               })}
             />
           </span>
@@ -188,16 +188,16 @@ const ThemeSelect = ({
               >
                 <div
                   className={clsx(classes.circle, classes.spacer, {
-                    [classes.zeppelin]: item === 'zeppelin',
-                    [classes.cat]: item === 'cat',
-                    [classes.rental]: item === 'rental',
+                    [classes.indigo]: item === 'indigo',
+                    [classes.yellow]: item === 'yellow',
+                    [classes.red]: item === 'red',
                   })}
                 />
-                {item === 'zeppelin'
-                  ? 'Zeppelin Blue'
-                  : item === 'cat'
-                    ? 'Zeppelin Yellow'
-                    : 'Zeppelin Red'}
+                {item === 'indigo'
+                  ? 'Theme Indigo'
+                  : item === 'yellow'
+                    ? 'Theme Yellow'
+                    : 'Theme Red'}
               </li>
             ))}
           </ul>

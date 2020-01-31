@@ -1,4 +1,4 @@
-const theme = require('zeppelin-element-library/bundle/themes/theme.json')
+const theme = require('zeppelin-element-library/guidelines.json')
 
 module.exports = {
   siteMetadata: {
@@ -6,7 +6,7 @@ module.exports = {
     description: `Design System Website`,
     author: `@zeppelin`,
     url: 'https://live-zds.zepdev.net',
-    image: '/src/assets/images/zep-logo-new.svg',
+    image: '/src/assets/images/favicon.svg',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -46,10 +46,10 @@ module.exports = {
         name: `zeppelin-design-system`,
         short_name: `z-lab`,
         start_url: `/`,
-        background_color: theme.colors.gray.white.hex,
-        theme_color: theme.colors.corporate.indigoBlue.hex,
+        background_color: theme.color.gray.white.hex,
+        theme_color: theme.theme.indigo.primary,
         display: `minimal-ui`,
-        icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/favicon.svg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-transformer-remark`,

@@ -8,7 +8,7 @@ import Tab from '../tabs/Tab'
 import ElementUsage from '../elements/ElementUsage'
 import ContentTable from '../table/ContentTable'
 import GridExample from '../grid/GridExample'
-import { grid } from 'zeppelin-element-library/bundle/themes/theme.json'
+import { grid } from 'zeppelin-element-library/guidelines.json'
 
 const styles = theme => ({
   tabs: {

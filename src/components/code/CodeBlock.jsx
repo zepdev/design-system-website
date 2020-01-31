@@ -3,13 +3,13 @@
 import React from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
 import CopyButton from '../button/CopyButton'
-import theme from 'zeppelin-element-library/bundle/themes/theme.json'
+import theme from 'zeppelin-element-library/guidelines.json'
 
 const codeTheme = {
   plain: {
-    backgroundColor: theme.colors.gray.grayMidDark.hex,
+    backgroundColor: theme.color.gray.grayMidDark.hex,
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
-    color: theme.colors.gray.grayLighter.hex,
+    color: theme.color.gray.grayLighter.hex,
     paddingLeft: `${ theme.spacing.component.l.rem }rem`,
     paddingBottom: `${ theme.spacing.component.l.rem }rem`,
     paddingTop: 8,
@@ -26,74 +26,82 @@ const codeTheme = {
     {
       types: ['changed'],
       style: {
-        color: theme.colors.gray.grayLighter.hex,
+        color: theme.color.gray.grayLighter.hex,
       },
     },
     {
       types: ['deleted'],
       style: {
-        color: theme.colors.gray.grayLighter.hex,
+        color: theme.color.gray.grayLighter.hex,
       },
     },
     {
       types: ['inserted'],
       style: {
-        color: theme.colors.gray.grayLighter.hex,
+        color: theme.color.gray.grayLighter.hex,
       },
     },
     {
       types: ['comment'],
       style: {
-        color: theme.colors.gray.grayLighter.hex,
+        color: theme.color.gray.grayLighter.hex,
         fontStyle: 'italic',
       },
     },
     {
       types: ['punctuation'],
       style: {
-        color: theme.colors.gray.grayLighter.hex,
+        color: theme.color.gray.grayLighter.hex,
       },
     },
     {
       types: ['constant'],
       style: {
-        color: theme.colors.gray.grayLighter.hex,
+        color: theme.color.gray.grayLighter.hex,
       },
     },
     {
       types: ['string', 'url'],
       style: {
-        color: theme.colors.support.alert.hex,
+        color: theme.color.support.alert.hex,
       },
     },
     {
       types: ['variable'],
       style: {
-        color: theme.colors.gray.grayLighter.hex,
+        color: theme.color.gray.grayLighter.hex,
       },
     },
     {
       types: ['number', 'boolean'],
       style: {
-        color: theme.colors.gray.grayLighter.hex,
+        color: theme.color.gray.grayLighter.hex,
       },
     },
     {
       types: ['attr-name'],
       style: {
-        color: theme.colors.support.warning.hex,
+        color: theme.color.support.warning.hex,
       },
     },
     {
-      types: ['keyword', 'operator', 'property', 'namespace', 'tag', 'selector', 'doctype'],
+      types: [
+        'keyword',
+        'operator',
+        'property',
+        'namespace',
+        'tag',
+        'selector',
+        'doctype',
+      ],
       style: {
-        color: theme.colors.support.info.hex,
+        color: theme.color.support.info.hex,
       },
     },
     {
       types: ['builtin', 'char', 'constant', 'function', 'class-name'],
       style: {
-        color: theme.colors.support.alert.hex,
+        color: theme.color.support.alert.hex,
       },
     },
   ],
@@ -103,7 +111,12 @@ export default ({ children, className }) => {
   const language = className ? className.replace(/language-/, '') : 'js'
 
   return (
-    <Highlight {...defaultProps} code={children} language={language} theme={codeTheme}>
+    <Highlight
+      {...defaultProps}
+      code={children}
+      language={language}
+      theme={codeTheme}
+    >
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre
           className={className}
@@ -119,7 +132,10 @@ export default ({ children, className }) => {
                   key={i}
                   {...getLineProps({ line, key: i })}
                   style={{
-                    paddingBottom: tokens.length - 1 === i ? null : theme.spacing.component.s.px,
+                    paddingBottom:
+                      tokens.length - 1 === i
+                        ? null
+                        : theme.spacing.component.s.px,
                   }}
                 >
                   {line.map((token, key) => (

@@ -10,8 +10,8 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import 'zeppelin-element-library/bundle/zeppelin-element-library.css'
-// import '@zlab-de/zel-react/zeppelin-element-library.css'
+import 'zeppelin-element-library/zel.css'
+// import '@zlab-de/zel-react/zel.css'
 import ZEL from 'zeppelin-element-library'
 
 const styles = theme => ({
@@ -19,12 +19,12 @@ const styles = theme => ({
     minHeight: '100vh',
     paddingTop: 16,
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     main: {
       paddingTop: 48,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     root: {
       marginLeft: 224,
     },
@@ -32,12 +32,12 @@ const styles = theme => ({
       paddingTop: 136,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     root: {
       marginLeft: 276,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     root: {
       marginLeft: 300,
     },
@@ -50,10 +50,10 @@ const styles = theme => ({
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
+    borderTop: `1px solid ${ theme.color.gray.grayLighter.hex }`,
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
     width: '100%',
-    borderColor: theme.colors.gray.grayLighter.hex,
+    borderColor: theme.color.gray.grayLighter.hex,
   },
   hStyled: {
     marginBottom: `${ theme.spacing.component.l.rem }rem`,
@@ -62,7 +62,7 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
   aStyled: {
-    color: theme.colors.corporate.indigoBlue.hex,
+    color: theme.theme.indigo.primary,
   },
   strongStyled: {
     fontWeight: 'bold',
@@ -87,7 +87,7 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
-  const [theme, setTheme] = useState('zeppelin')
+  const [theme, setTheme] = useState('indigo')
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
@@ -151,9 +151,9 @@ function Layout({ children, classes }) {
         return (
           <div
             className={clsx(classes.root, {
-              'theme-zeppelin': theme === 'zeppelin',
-              'theme-cat': theme === 'cat',
-              'theme-rental': theme === 'rental',
+              'theme-indigo': theme === 'indigo',
+              'theme-yellow': theme === 'yellow',
+              'theme-red': theme === 'red',
             })}
           >
             <SkipNavLink className={classes.skipLink} />

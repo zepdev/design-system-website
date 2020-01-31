@@ -1,0 +1,88 @@
+---
+label: Elements
+title: Checkbox
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+
+# Checkbox
+
+With checkboxes, users can select multiple options in a list of options. Use checkboxes when looking for yes or no answers. Users should be able to select the checkbox by clicking on the box directly or by clicking on its label. Checkboxes must always contain a clear and explicit label which appear on the right side of the checkbox.
+
+---
+
+## Available Props
+
+<Table title="Checkbox Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        label
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        disabled
+      </TableCell>
+      <TableCell>bool</TableCell>
+      <TableCell>false</TableCell>
+      <TableCell />
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        isChecked
+      </TableCell>
+      <TableCell>bool</TableCell>
+      <TableCell>false</TableCell>
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        handleChange
+      </TableCell>
+      <TableCell>func</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+```js
+<template>
+   <div id="my-component">
+        <zel-vue-checkbox label="CheckBox" v-model="isChecked"/>
+    </div>
+</template>
+
+<script>
+
+import { ZelVueCheckbox } from "@zlab-de/zel-vue";
+
+export default {
+  name: "my-component",
+  components: {
+    ZelVueCheckbox,
+  },
+  data: function() {
+    return {
+      isChecked: false,
+    };
+  },
+};
+</script>
+```

@@ -12,19 +12,19 @@ const styles = theme => ({
     boxSizing: 'border-box',
     width: '100%',
     padding: `${ theme.spacing.component.xl.rem }rem`,
-    backgroundColor: theme.colors.gray.grayLightest.hex,
+    backgroundColor: theme.color.gray.grayLightest.hex,
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   gridContainer: {
     marginBottom: `${ theme.spacing.component.m.rem }rem`,
-    border: `1px solid ${ theme.colors.corporate.indigoBlue.hex }`,
+    border: `1px solid ${ theme.theme.indigo.primary }`,
   },
   gridRow: {
     minHeight: 100,
   },
   gridCol: {
-    background: theme.colors.corporate.indigoBlue.hex,
-    color: theme.colors.gray.white.hex,
+    background: theme.theme.indigo.primary,
+    color: theme.color.gray.white.hex,
     border: '1px solid white',
     paddingTop: '.5rem',
     paddingBottom: '.5rem',
@@ -37,7 +37,7 @@ const styles = theme => ({
     marginRight: 10,
   },
   radioGroupLegend: {
-    color: theme.colors.gray.textGray.hex,
+    color: theme.color.gray.textGray.hex,
     marginBottom: 5,
   },
 })
@@ -52,7 +52,14 @@ const GridExample = ({ classes }) => {
   const [l, setL] = useState(1)
   const [xl, setXL] = useState(1)
 
-  const align = ['stretch', 'flex-end', 'center', 'flex-start', 'baseline', 'none']
+  const align = [
+    'stretch',
+    'flex-end',
+    'center',
+    'flex-start',
+    'baseline',
+    'none',
+  ]
   const xxsVals = [1, 2, 3, 4]
   const xsVals = [1, 2, 3, 4, 5, 6]
   const sVals = [1, 2, 3, 4, 5, 6]
@@ -63,7 +70,10 @@ const GridExample = ({ classes }) => {
   return (
     <div className={classes.root}>
       <GridContainer className={classes.gridContainer}>
-        <GridRow align={alignRow === 'none' ? null : alignRow} className={classes.gridRow}>
+        <GridRow
+          align={alignRow === 'none' ? null : alignRow}
+          className={classes.gridRow}
+        >
           {[1, 2, 3, 4].map(elem => (
             <GridCol
               xxs={xxs}
@@ -72,7 +82,9 @@ const GridExample = ({ classes }) => {
               m={m}
               l={l}
               xl={xl}
-              align={alignCol === 'none' ? null : elem === 1 ? alignCol : 'baseline'}
+              align={
+                alignCol === 'none' ? null : elem === 1 ? alignCol : 'baseline'
+              }
               className={classes.gridCol}
               key={`gridCol${ elem }`}
             >

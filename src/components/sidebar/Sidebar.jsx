@@ -14,9 +14,9 @@ const styles = theme => ({
     left: 0,
     top: 0,
     zIndex: 3,
-    background: theme.colors.gray.white.hex,
+    background: theme.color.gray.white.hex,
     transition: 'transform 0.2s',
-    borderRight: `1px solid ${ theme.colors.gray.grayMid.hex }`,
+    borderRight: `1px solid ${ theme.color.gray.grayMid.hex }`,
   },
   hidden: {
     transform: 'translateX(-100%)',
@@ -29,16 +29,16 @@ const styles = theme => ({
     pointerEvents: 'none',
   },
   logo: {
-    color: theme.colors.gray.white.hex,
+    color: theme.color.gray.white.hex,
     width: '100%',
   },
   containerSidebarNav: {
     height: 'calc(100vh - 46px)',
     paddingBottom: `${ theme.spacing.component.xxl.rem }rem`,
     overflow: 'auto',
-    backgroundColor: theme.colors.gray.white.hex,
+    backgroundColor: theme.color.gray.white.hex,
   },
-  [`@media (min-width: ${ theme.breakpoints.xs })`]: {
+  [`@media (min-width: ${ theme.breakpoint.xs })`]: {
     root: {
       width: 276,
     },
@@ -47,7 +47,7 @@ const styles = theme => ({
       paddingBottom: `${ theme.spacing.component.l.rem }rem`,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     root: {
       width: 300,
     },
@@ -59,7 +59,7 @@ const styles = theme => ({
       paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     root: {
       width: 224,
       transition: 'all 0s',
@@ -75,8 +75,8 @@ const styles = theme => ({
       display: 'flex',
       alignItems: 'center',
       height: 104,
-      background: theme.colors.corporate.indigoBlue.hex,
-      color: theme.colors.gray.white.hex,
+      background: theme.theme.indigo.primary,
+      color: theme.color.gray.white.hex,
       cursor: 'pointer',
       pointerEvents: 'all',
     },
@@ -85,12 +85,12 @@ const styles = theme => ({
       paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     root: {
       width: 276,
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     root: {
       width: 300,
     },

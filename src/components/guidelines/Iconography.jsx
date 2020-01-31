@@ -29,9 +29,9 @@ const styles = theme => ({
   container: {
     width: '50%',
     position: 'relative',
-    background: theme.colors.gray.grayMid.hex,
+    background: theme.color.gray.grayMid.hex,
     padding: 0,
-    border: `1px solid ${ theme.colors.gray.white.hex }`,
+    border: `1px solid ${ theme.color.gray.white.hex }`,
     textAlign: 'center',
     '&:hover, &:focus': {
       zIndex: 1,
@@ -48,17 +48,17 @@ const styles = theme => ({
       paddingBottom: '100%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     container: {
       width: '25%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     container: {
       width: '16.6%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     container: {
       width: '12.5%',
     },
@@ -69,7 +69,7 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.colors.corporate.indigoBlue.hex,
+    backgroundColor: theme.theme.indigo.primary,
     opacity: 0,
     transition: 0.5,
     zIndex: 1,
@@ -84,10 +84,10 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     opacity: 0,
-    color: theme.colors.gray.white.hex,
+    color: theme.color.gray.white.hex,
   },
   icon: {
-    color: theme.colors.gray.white.hex,
+    color: theme.color.gray.white.hex,
     zIndex: 2,
   },
   content: {
@@ -99,7 +99,7 @@ const styles = theme => ({
   name: {
     textAlign: 'left',
     fontSize: 12,
-    color: theme.colors.gray.black.hex,
+    color: theme.color.gray.black.hex,
   },
   img: {
     width: 32,
@@ -198,7 +198,7 @@ const Iconography = ({ classes }) => {
                     className={classes.container}
                     key={`icon${ elem }`}
                     target="_blank"
-                    href={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}
+                    href={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${ elem }.svg`)}
                     download={`zepicons-${ elem }.svg`}
                     aria-label={elem}
                   >
@@ -217,7 +217,7 @@ const Iconography = ({ classes }) => {
                         )}
                       >{`zepicons-${ elem }`}</p>
                       <img
-                        src={require(`zeppelin-element-library/bundle/assets/icons/SVG/zepicons-${ elem }.svg`)}
+                        src={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${ elem }.svg`)}
                         alt={elem}
                         className={classes.img}
                       />

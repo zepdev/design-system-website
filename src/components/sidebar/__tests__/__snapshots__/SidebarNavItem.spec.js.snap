@@ -5,9 +5,11 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <li>
+      <li
+        class=""
+      >
         <button
-          class="SidebarNavItem-button-0-1-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-8"
+          class="SidebarNavItem-button-0-1-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-9"
         >
           sectionTitle
           <svg
@@ -33,9 +35,11 @@ Object {
     </div>
   </body>,
   "container": <div>
-    <li>
+    <li
+      class=""
+    >
       <button
-        class="SidebarNavItem-button-0-1-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-8"
+        class="SidebarNavItem-button-0-1-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-9"
       >
         sectionTitle
         <svg

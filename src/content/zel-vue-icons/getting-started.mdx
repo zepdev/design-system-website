@@ -1,0 +1,86 @@
+---
+label: zel-vue-icons
+title: Getting Started
+---
+
+import DownloadContainer from '../../components/download/DownloadContainer.jsx'
+import DownloadFile from '../../components/download/DownloadFile.jsx'
+
+# Getting Started
+
+A Vue Icon Library using Zeppelin Element Library
+
+<DownloadContainer>
+  <DownloadFile
+    title="NPM: @zlab-de/zel-vue-icons"
+    href="https://www.npmjs.com/package/@zlab-de/zel-vue-icons"
+    download=""
+    variant="npm"
+    ariaLabel="npm"
+  />
+</DownloadContainer>
+
+## installation
+
+```js
+yarn add @zlab-de/zel-vue-icons
+```
+
+## How to use these icons
+
+```js
+<template>
+  <div>
+    <ZepiconsCart />
+  </div>
+</template>
+
+<script>
+import ZelVueIcons from '@zlab-de/zel-vue-icons'
+import ZepiconsCart from '@zlab-de/zel-vue-icons/zepicons-cart'
+
+export default {
+  name: 'App',
+  components: {
+    ZepiconsCart,
+  },
+}
+</script>
+```
+
+## Available Icons
+
+All icons available can be found under the Guidelines Section (Iconography).
+
+## Styling
+
+You may change the color and size with the following css propertires;
+fill:
+width:
+
+```js
+<template>
+  <div>
+    <ZepiconsCart class="icon" />
+  </div>
+</template>
+
+<script>
+import ZelVueIcons from '@zlab-de/zel-vue-icons'
+import ZepiconsCart from '@zlab-de/zel-vue-icons/zepicons-cart'
+
+export default {
+  name: 'App',
+  components: {
+    ZepiconsCart,
+  },
+}
+</script>
+
+<style>
+.icon {
+  fill: #27166f;
+  width: 18px;
+}
+</style>
+```

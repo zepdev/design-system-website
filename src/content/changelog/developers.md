@@ -92,7 +92,7 @@
 
 ### Features
 
-- **grid:** started grid, added breakpoints ([d844f1a](https://github.com/zepdev/zeppelin-element-library/commit/d844f1a))
+- **grid:** started grid, added breakpoint ([d844f1a](https://github.com/zepdev/zeppelin-element-library/commit/d844f1a))
 - **theme:** allows for new themes, zeppelin, cat and rental ([4bb94bb](https://github.com/zepdev/zeppelin-element-library/commit/4bb94bb))
 
 ## [0.4.5](https://github.com/zepdev/zeppelin-element-library/compare/v0.4.4...v0.4.5) (2019-04-12)

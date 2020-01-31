@@ -8,8 +8,6 @@ import TableHeader from '@zlab-de/zel-react/TableHeader'
 import TableCell from '@zlab-de/zel-react/TableCell'
 import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
-import Button from '@zlab-de/zel-react/Button'
-import ButtonExample from '../../components/button/ButtonExample'
 
 # Button
 
@@ -78,21 +76,31 @@ Buttons are items used to express and initialize an action when the user clicks 
 
 ## Example
 
-<div style={{ marginBottom: 30 }}>
-  <ButtonExample />
-</div>
+```js
+<template>
+  <div id="my-component">
+    <zel-vue-button variant="primary" @click="onHandleClick">Primary Button</zel-vue-button>
+  </div>
+</template>
 
-```
-import React from 'react'
-import Button from '@zlab-de/zel-react/Button'
+<script>
+import ZelVueButton from "@zlab-de/zel-vue";
 
-function MyComponent(){
-    return(
-        <div>
-            <Button color="primary">Click Me!</Button>
-        </div>
-    )
-}
-
-export default MyComponent
+export default {
+  name: "my-component",
+  components: {
+   ZelVueButton,
+  },
+  data: function() {
+    return {
+      testmessage: "You Clicked the Button!",
+    };
+  },
+  methods: {
+    onHandleClick() {
+      alert(this.testmessage);
+    },
+  }
+};
+</script>
 ```

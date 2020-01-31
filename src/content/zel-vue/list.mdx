@@ -1,0 +1,125 @@
+---
+label: Elements
+title: List
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+
+# List
+
+Lists group related content together and should be used to present simple pieces of information. More complex data sets should be displayed with a table element.
+
+---
+
+## Available Props
+
+List
+
+<Table title="List Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        children
+      </TableCell>
+      <TableCell>array, object</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        variant
+      </TableCell>
+      <TableCell>"bullet",""attribute"</TableCell>
+      <TableCell>"bullet"</TableCell>
+      <TableCell />
+    </TableRow>
+  </TableBody>
+</Table>
+
+ListItem
+
+<Table title="ListItem Props">
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        label
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        children
+      </TableCell>
+      <TableCell>string</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+```js
+<template>
+  <div id="my-component">
+    <zel-vue-list :dataSource="this.bulletItems" variant="bullet" />
+    <zel-vue-list :dataSource="this.attributeItems" variant="attribute" />
+  </div>
+</template>
+
+<script>
+
+import { ZelVueList } from "@zlab-de/zel-vue";
+
+export default {
+  name: "my-component",
+  components: {
+    ZelVueList
+  },
+  data: function() {
+    return {
+      bulletItems: [{ text: "item 1" }, { text: "item 2" }, { text: "item 3" }],
+      attributeItems: [
+        { label: "label 1", text: "item 1" },
+        { label: "label 2", text: "item 2" },
+        { label: "label 3", text: "item 3" }
+      ]
+    };
+  }
+};
+</script>
+```

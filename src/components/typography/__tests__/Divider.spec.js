@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import Divider from '../Divider'
 import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/bundle/themes/theme.json'
+import theme from 'zeppelin-element-library/guidelines.json'
 
 describe('Divider', () => {
   it('renders correctly', () => {

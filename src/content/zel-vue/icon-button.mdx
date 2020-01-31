@@ -1,0 +1,75 @@
+---
+label: Elements
+title: Icon Button
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+import IconButton from '@zlab-de/zel-react/IconButton'
+import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
+
+# Icon Button
+
+Buttons are items used to express and initialize an action when the user clicks or touches it. The Zeppelin Button has two main styles, primary and secondary and requires the use of a theme. Each page can have one or two primary buttons.
+
+---
+
+## Available Props
+
+<Table title="Icon Button Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        children
+      </TableCell>
+      <TableCell>object</TableCell>
+      <TableCell />
+      <TableCell>Yes</TableCell>
+    </TableRow>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        variant
+      </TableCell>
+      <TableCell>"primary","secondary"</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+<div
+  style={{ marginBottom: 30, display: 'flex', justifyContent: 'space-around' }}
+>
+  <IconButton>
+    <ZepiconsStar />
+  </IconButton>
+  <IconButton variant="primary">
+    <ZepiconsStar />
+  </IconButton>
+  <IconButton variant="secondary">
+    <ZepiconsStar />
+  </IconButton>
+</div>
+
+```
+
+```
