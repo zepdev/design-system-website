@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'react-jss'
 import OpenInNewIcon from '../icons/OpenInNewIcon'
-import theme from 'zeppelin-element-library/bundle/themes/theme.json'
+import theme from 'zeppelin-element-library/guidelines.json'
 
 const styles = theme => ({
   root: {
@@ -15,7 +15,7 @@ const styles = theme => ({
     flexBasis: '100%',
     paddingBottom: `${ theme.spacing.component.m.rem }rem`,
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     container: {
       flexBasis: '48%',
       paddingBottom: 0,
@@ -26,7 +26,7 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     height: 136,
-    background: theme.colors.gray.grayLighter.hex,
+    background: theme.color.gray.grayLighter.hex,
   },
   title: {
     fontSize: 28,
@@ -35,12 +35,12 @@ const styles = theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    background: theme.colors.gray.grayLightest.hex,
+    background: theme.color.gray.grayLightest.hex,
     paddingTop: theme.spacing.component.s.px,
     paddingBottom: theme.spacing.component.s.px,
     paddingLeft: theme.spacing.component.l.px,
     paddingRight: theme.spacing.component.l.px,
-    borderTop: `1px solid ${ theme.colors.gray.grayLight.hex }`,
+    borderTop: `1px solid ${ theme.color.gray.grayLight.hex }`,
   },
   text: {
     fontSize: 12,
@@ -49,7 +49,7 @@ const styles = theme => ({
   link: {
     color: 'inherit',
     '&:hover': {
-      color: theme.colors.corporate.indigoBlue.hex,
+      color: theme.theme.indigo.primary,
     },
   },
 })

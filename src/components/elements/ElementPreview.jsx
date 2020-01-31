@@ -8,7 +8,7 @@ import elements from '../../data/elements'
 
 const styles = theme => ({
   htmlContainer: {
-    backgroundColor: theme.colors.gray.grayLightest.hex,
+    backgroundColor: theme.color.gray.grayLightest.hex,
     padding: `${ theme.spacing.component.l.rem }rem`,
     display: 'flex',
     justifyContent: 'center',
@@ -27,7 +27,7 @@ const styles = theme => ({
   element: {
     paddingBottom: `${ theme.spacing.component.l.rem }rem`,
   },
-  [`@media (min-width: ${ theme.breakpoints.s })`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     element: {
       paddingBottom: 0,
     },
@@ -35,17 +35,17 @@ const styles = theme => ({
       flexWrap: 'nowrap',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     innerContainer: {
       flexBasis: '80%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.l })`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     innerContainer: {
       flexBasis: '70%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoints.xl })`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     innerContainer: {
       flexBasis: '40%',
     },

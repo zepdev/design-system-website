@@ -5,7 +5,7 @@ import clsx from 'clsx'
 import withStyles from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import ChevronDownIcon from '../icons/ChevronDownIcon'
-import theme from 'zeppelin-element-library/bundle/themes/theme.json'
+import theme from 'zeppelin-element-library/guidelines.json'
 
 const styles = theme => ({
   button: {
@@ -15,11 +15,11 @@ const styles = theme => ({
     alignItems: 'center',
     padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl.px }px`,
     '&:hover': {
-      background: theme.colors.gray.grayLightest.hex,
+      background: theme.color.gray.grayLightest.hex,
     },
   },
   buttonActive: {
-    background: theme.colors.gray.grayLightest.hex,
+    background: theme.color.gray.grayLightest.hex,
   },
   list: {
     listStyle: 'none',
@@ -31,11 +31,11 @@ const styles = theme => ({
     padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl
       .px * 1.5 }px`,
     '&:hover': {
-      background: theme.colors.gray.grayLightest.hex,
+      background: theme.color.gray.grayLightest.hex,
     },
   },
   icon: {
-    color: theme.colors.gray.grayLight.hex,
+    color: theme.color.gray.grayLight.hex,
   },
   iconActive: {
     WebkitTransform: 'rotate(180deg)',
@@ -50,7 +50,7 @@ const styles = theme => ({
     transition: 'all 0.75s 0.25s',
   },
   homeLink: {},
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     homeLink: {
       display: 'none',
     },
@@ -123,7 +123,7 @@ function SidebarNavItem({ item, setMenu, home, link, classes }) {
                   .toLowerCase()
                   .replace(/ /g, '-') }/`}
                 onClick={() => setMenu(false)}
-                activeStyle={{ color: theme.colors.gray.gray.hex }}
+                activeStyle={{ color: theme.color.gray.gray.hex }}
                 className={clsx(
                   classes.subnav,
                   'zep-typo--normal-body1',

@@ -10,7 +10,7 @@ const styles = theme => ({
   img: {
     width: 350,
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     img: {
       width: 550,
     },

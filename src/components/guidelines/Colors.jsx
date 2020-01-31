@@ -6,7 +6,7 @@ import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
-import { colors } from 'zeppelin-element-library/bundle/themes/theme.json'
+import { color } from 'zeppelin-element-library/guidelines.json'
 
 const styles = theme => ({
   tabs: {
@@ -17,7 +17,7 @@ const styles = theme => ({
     flexWrap: 'wrap',
     justifyContent: 'space-between',
   },
-  [`@media (min-width: ${ theme.breakpoints.m })`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     container: {
       justifyContent: 'flex-start',
     },
@@ -39,18 +39,25 @@ function Colors({ classes }) {
       </Tabs>
       {value === 0 && (
         <>
-          {Object.keys(colors).map((section, idx) => (
+          {Object.keys(color).map((section, idx) => (
             <Fragment key={`swatch${ idx }`}>
               <Headline variant="md">{section}</Headline>
-              <div className={classes.container}>
-                {Object.keys(colors[section]).map(elem => (
-                  <Swatch
-                    color={colors[section][elem]}
-                    section={section}
-                    key={`swatch${ elem }`}
-                  />
-                ))}
-              </div>
+              {section === 'font' || section === 'fontNegative' ? (
+                <Swatch
+                  variant="font"
+                  color={color[section]}
+                  key={`swatch${ color[section] }`}
+                />
+              ) : (
+                <div className={classes.container}>
+                  {Object.keys(color[section]).map(elem => (
+                    <Swatch
+                      color={color[section][elem]}
+                      key={`swatch${ elem }`}
+                    />
+                  ))}
+                </div>
+              )}
             </Fragment>
           ))}
         </>
@@ -60,7 +67,7 @@ function Colors({ classes }) {
   )
 }
 
-Swatch.propTypes = {
+Colors.propTypes = {
   classes: PropTypes.object,
 }
 

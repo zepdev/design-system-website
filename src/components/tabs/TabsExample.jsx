@@ -13,7 +13,7 @@ const styles = theme => ({
   },
   tab: {
     padding: 15,
-    background: theme.colors.gray.grayLighter.hex,
+    background: theme.color.gray.grayLighter.hex,
   },
 })
 

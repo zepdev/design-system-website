@@ -27,11 +27,11 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   inverse: {
-    background: theme.colors.gray.black.hex,
+    background: theme.color.gray.black.hex,
     color: 'rgba(255, 255, 255, 0.84)',
   },
   inverseLight: {
-    background: theme.colors.gray.grayMidDark.hex,
+    background: theme.color.gray.grayMidDark.hex,
     color: 'rgba(255, 255, 255, 0.84)',
   },
 })

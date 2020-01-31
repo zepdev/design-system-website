@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
 import withStyles from 'react-jss'
-import { spacing } from 'zeppelin-element-library/bundle/themes/theme.json'
+import { spacing } from 'zeppelin-element-library/guidelines.json'
 
 const styles = theme => ({
   root: {
@@ -25,7 +25,7 @@ const styles = theme => ({
     display: 'table-row-group',
   },
   header: {
-    background: theme.colors.gray.grayLightest.hex,
+    background: theme.color.gray.grayLightest.hex,
     display: 'table-header-group',
   },
   lowercase: {
@@ -35,10 +35,10 @@ const styles = theme => ({
     textTransform: 'capitalize',
   },
   borderBottom: {
-    borderBottom: `1px solid ${ theme.colors.gray.grayLighter.hex }`,
+    borderBottom: `1px solid ${ theme.color.gray.grayLighter.hex }`,
   },
   square: {
-    background: theme.colors.corporate.indigoBlue.hex,
+    background: theme.theme.indigo.primary,
   },
 })
 

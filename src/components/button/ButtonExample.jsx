@@ -15,7 +15,7 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.component.s.rem }rem`,
   },
   fullWidth: {
-    border: `1px solid ${ theme.colors.gray.grayMid.hex }`,
+    border: `1px solid ${ theme.color.gray.grayMid.hex }`,
     padding: `${ theme.spacing.component.s.rem }rem`,
     width: 200,
   },
