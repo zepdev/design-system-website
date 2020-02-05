@@ -1,8 +1,7 @@
-import React, { useState, useEffect, Fragment } from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import Snackbar from '@material-ui/core/Snackbar'
-import MuiAlert from '@material-ui/lab/Alert'
 import Button from '@zlab-de/zel-react/Button'
 import '@reach/skip-nav/styles.css'
 import { StaticQuery, graphql } from 'gatsby'
@@ -112,6 +111,7 @@ function Layout({ children, classes }) {
   }
 
   const handleOptOut = () => {
+    // eslint-disable-next-line
     gaOptout()
     setTracking(false)
   }
