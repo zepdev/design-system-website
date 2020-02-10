@@ -21,12 +21,12 @@ const styles = theme => ({
     minHeight: '100vh',
     paddingTop: 16,
   },
-  [`@media (min-width: ${theme.breakpoint.s})`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     main: {
       paddingTop: 48,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.m})`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     root: {
       marginLeft: 224,
     },
@@ -34,12 +34,12 @@ const styles = theme => ({
       paddingTop: 136,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.l})`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     root: {
       marginLeft: 276,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     root: {
       marginLeft: 300,
     },
@@ -48,20 +48,20 @@ const styles = theme => ({
     },
   },
   pStyled: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${theme.color.gray.grayLighter.hex}`,
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    borderTop: `1px solid ${ theme.color.gray.grayLighter.hex }`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
     width: '100%',
     borderColor: theme.color.gray.grayLighter.hex,
   },
   hStyled: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   h1Styled: {
-    marginBottom: `${theme.spacing.component.m.rem}rem`,
+    marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
   aStyled: {
     color: theme.theme.indigo.primary,
@@ -82,7 +82,7 @@ const styles = theme => ({
     alignItems: 'center',
   },
   button: {
-    marginRight: `${theme.spacing.layout.s.rem}rem`,
+    marginRight: `${ theme.spacing.layout.s.rem }rem`,
     color: theme.color.font,
   },
 })
