@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
+import Snackbar from '@material-ui/core/Snackbar'
+import Button from '@zlab-de/zel-react/Button'
 import '@reach/skip-nav/styles.css'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
@@ -72,8 +74,16 @@ const styles = theme => ({
     left: '-999em',
     width: '990em',
   },
-  dialog: {
-    padding: `${ theme.spacing.component.xl.rem }rem`,
+  snackbar: {
+    width: '100%',
+  },
+  buttonContainer: {
+    display: 'flex',
+    alignItems: 'center',
+  },
+  button: {
+    marginRight: `${ theme.spacing.layout.s.rem }rem`,
+    color: theme.color.font,
   },
 })
 
@@ -88,6 +98,7 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 function Layout({ children, classes }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [theme, setTheme] = useState('indigo')
+  const [tracking, setTracking] = useState(true)
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
@@ -97,6 +108,12 @@ function Layout({ children, classes }) {
 
   const handleTheme = theme => {
     setTheme(theme)
+  }
+
+  const handleOptOut = () => {
+    // eslint-disable-next-line
+    gaOptout()
+    setTracking(false)
   }
 
   // Styles for mdx/md pages
@@ -173,6 +190,44 @@ function Layout({ children, classes }) {
                   {children}
                 </main>
               </MDXProvider>
+              <Snackbar
+                anchorOrigin={{
+                  vertical: 'bottom',
+                  horizontal: 'left',
+                }}
+                open={tracking}
+                message="By using this website you agree to the use of cookies"
+                className={classes.snackbar}
+                ContentProps={{
+                  style: {
+                    width: '95%',
+                    backgroundColor: '#FF6562',
+                    color: '#000',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                  },
+                }}
+                action={
+                  <div className={classes.buttonContainer}>
+                    <a
+                      variant="secondary"
+                      aria-label="close"
+                      // href="javascript:gaOptout();"
+                      onClick={handleOptOut}
+                      className={clsx(classes.button, 'zep-button__text')}
+                    >
+                      Disable
+                    </a>
+                    <Button
+                      variant="primary"
+                      aria-label="close"
+                      onClick={() => setTracking(false)}
+                    >
+                      Allow Cookies
+                    </Button>
+                  </div>
+                }
+              />
               <Footer />
             </div>
           </div>
