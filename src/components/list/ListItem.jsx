@@ -12,13 +12,14 @@ const ListItem = ({ variant, label, children, className: classNameProp }) => (
       classNameProp
     )}
   >
-    {variant === 'attribute' && label && <span className="zep-list__label">{label}</span>}
+    {variant === 'attribute' && label && (
+      <span className="zep-list__label">{label}</span>
+    )}
     {children}
   </li>
 )
 
 ListItem.propTypes = {
-  clsx: PropTypes.object,
   label: PropTypes.string,
   variant: PropTypes.oneOf(['bullet', 'attribute']),
 }

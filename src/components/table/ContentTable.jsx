@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import clsx from 'clsx'
 import Table from './Table'
 import TableHeader from './TableHeader'
@@ -10,12 +10,12 @@ import TableRow from './TableRow'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 
-const styles = theme => ({
+let useStyles = createUseStyles(theme => ({
   root: {
     overflowX: 'auto',
   },
   table: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   lowercase: {
     textTransform: 'lowercase',
@@ -24,7 +24,7 @@ const styles = theme => ({
     textTransform: 'capitalize',
   },
   tabs: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${theme.spacing.component.l.rem}rem`,
   },
   inverse: {
     background: theme.color.gray.black.hex,
@@ -34,10 +34,12 @@ const styles = theme => ({
     background: theme.color.gray.grayMidDark.hex,
     color: 'rgba(255, 255, 255, 0.84)',
   },
-})
+}))
 
-const ContentTable = ({ header, content, title, classes }) => {
+const ContentTable = ({ header, content, title, ...props }) => {
   const [value, setValue] = useState(0)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -58,7 +60,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                   [classes.capitalize]: elem !== 'rem' && elem !== 'px',
                   [classes.inverse]: value === 1,
                 })}
-                key={`header_${ elem }`}
+                key={`header_${elem}`}
               >
                 {elem}
               </TableCell>
@@ -68,7 +70,7 @@ const ContentTable = ({ header, content, title, classes }) => {
             <TableBody>
               {Object.keys(content).map((elem, idx) => (
                 <TableRow
-                  key={`row_${ elem }`}
+                  key={`row_${elem}`}
                   color={idx % 2 === 0 ? 'white' : 'gray'}
                   className={
                     value === 1
@@ -81,7 +83,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                   {header.map((item, idx) =>
                     idx === 0 ? (
                       <TableCell
-                        key={`typography${ idx }`}
+                        key={`typography${idx}`}
                         scope="row"
                         component="th"
                       >
@@ -93,7 +95,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                           <span>
                             {Object.keys(content[elem][item]).map(p => (
                               <p
-                                key={`specification_${ p }`}
+                                key={`specification_${p}`}
                                 className={
                                   value === 1
                                     ? 'zep-typo--normal-body2-negative'
@@ -114,10 +116,10 @@ const ContentTable = ({ header, content, title, classes }) => {
                       <TableCell
                         className={clsx({
                           [elem]: item === 'actual size' && value === 0,
-                          [`${ elem }-negative`]:
+                          [`${elem}-negative`]:
                             item === 'actual size' && value === 1,
                         })}
-                        key={`typography${ idx }`}
+                        key={`typography${idx}`}
                       >
                         {item === 'actual size' ? (
                           'lorem ipsum'
@@ -127,7 +129,7 @@ const ContentTable = ({ header, content, title, classes }) => {
                           <span>
                             {Object.keys(content[elem][item]).map(p => (
                               <p
-                                key={`specification_${ p }`}
+                                key={`specification_${p}`}
                                 className={
                                   value === 1
                                     ? 'zep-typo--normal-body2-negative'
@@ -157,10 +159,9 @@ const ContentTable = ({ header, content, title, classes }) => {
 }
 
 ContentTable.propTypes = {
-  classes: PropTypes.object.isRequired,
   header: PropTypes.array.isRequired,
   content: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(ContentTable)
+export default ContentTable

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import { logo } from 'zeppelin-element-library/guidelines.json'
 import { version as zelVersion } from 'zeppelin-element-library/package.json'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
@@ -21,24 +20,26 @@ import Headline from '../typography/Headline'
 import Swatch from '../swatch/Swatch'
 import DownloadFile from '../download/DownloadFile.jsx'
 
-const styles = theme => ({
+let useStyles = createUseStyles(theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   container: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
   },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
+  [`@media (min-width: ${theme.breakpoint.m})`]: {
     container: {
       justifyContent: 'flex-start',
     },
   },
-})
+}))
 
-function Logos({ classes }) {
+function Logos({ ...props }) {
   const [expanded, setExpanded] = useState(false)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   const handleChange = panel => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false)
@@ -61,33 +62,33 @@ function Logos({ classes }) {
       <Headline variant="sm">Logo Colors</Headline>
       <div className={classes.container}>
         {Object.keys(logo).map(elem => (
-          <Swatch color={logo[elem]} key={`swatch${ elem }`} />
+          <Swatch color={logo[elem]} key={`swatch${elem}`} />
         ))}
       </div>
       <Headline variant="sm">Logo Usage from Size</Headline>
       {data.map((elem, idx) => (
         <ExpansionPanel
-          expanded={expanded === `panel${ idx }`}
-          onChange={handleChange(`panel${ idx }`)}
+          expanded={expanded === `panel${idx}`}
+          onChange={handleChange(`panel${idx}`)}
         >
           <ExpansionPanelSummary
             expandIcon={<ZepiconsChevronDown />}
-            aria-controls={`panel${ idx }bh-content`}
-            id={`panel${ idx }bh-header`}
+            aria-controls={`panel${idx}bh-content`}
+            id={`panel${idx}bh-header`}
           >
             <p className={classes.heading}>{elem.title}</p>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.container}>
-            <img src={elem.src} alt={`${ elem.title } logo`} />
+            <img src={elem.src} alt={`${elem.title} logo`} />
             <div>
               <DownloadFile
-                title={`Download ${ elem.title }`}
-                href={`https://unpkg.com/browse/zeppelin-element-library@${ zelVersion }/assets/logos/${ elem.title.replace(
+                title={`Download ${elem.title}`}
+                href={`https://unpkg.com/browse/zeppelin-element-library@${zelVersion}/assets/logos/${elem.title.replace(
                   ' ',
                   ''
-                ) }.zip`}
-                download={`${ elem.title }.zip`}
-                ariaLabel={`Download ${ elem.title }`}
+                )}.zip`}
+                download={`${elem.title}.zip`}
+                ariaLabel={`Download ${elem.title}`}
               />
             </div>
           </ExpansionPanelDetails>
@@ -97,8 +98,4 @@ function Logos({ classes }) {
   )
 }
 
-Logos.propTypes = {
-  classes: PropTypes.object,
-}
-
-export default withStyles(styles)(Logos)
+export default Logos

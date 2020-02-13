@@ -2,24 +2,27 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import clsx from 'clsx'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import CodeBlock from './CodeBlock'
 
-const styles = theme => ({
+let useStyles = createUseStyles(theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   heading: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${theme.spacing.component.l.rem}rem`,
   },
-})
+}))
 
-const CodeUsage = ({ element, classes }) => {
+const CodeUsage = ({ element, ...props }) => {
   const [tab, setTab] = useState(0)
   const [elem] = useState(element)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
+
   const handleClick = value => {
     setTab(value)
   }
@@ -44,10 +47,10 @@ const CodeUsage = ({ element, classes }) => {
       `}
       render={data => {
         const react = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${ elem }CodeExample_React`
+          x => x.node.frontmatter.label === `${elem}CodeExample_React`
         )
         const vue = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`
+          x => x.node.frontmatter.label === `${elem}CodeExample_Vue`
         )
         return (
           <div className={classes.root}>
@@ -78,8 +81,7 @@ const CodeUsage = ({ element, classes }) => {
 }
 
 CodeUsage.propTypes = {
-  classes: PropTypes.object.isRequired,
   element: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(CodeUsage)
+export default CodeUsage

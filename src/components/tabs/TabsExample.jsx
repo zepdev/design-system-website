@@ -2,23 +2,25 @@ import React, { useState } from 'react'
 import Tabs from '@zlab-de/zel-react/Tabs'
 import Tab from '@zlab-de/zel-react/Tab'
 import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 
-const styles = theme => ({
+let useStyles = createUseStyles(theme => ({
   container: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${theme.spacing.component.l.rem}rem`,
   },
   header: {
-    marginBottom: `${ theme.spacing.component.m.rem }rem`,
+    marginBottom: `${theme.spacing.component.m.rem}rem`,
   },
   tab: {
     padding: 15,
     background: theme.color.gray.grayLighter.hex,
   },
-})
+}))
 
-function TabsExample({ classes }) {
+function TabsExample({ ...props }) {
   const [value, setValue] = useState(0)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -36,7 +38,12 @@ function TabsExample({ classes }) {
       </div>
       <div className={classes.container}>
         <p className={classes.header}>Small</p>
-        <Tabs value={value} onClick={handleChange} size="small" ariaLabel="demo2">
+        <Tabs
+          value={value}
+          onClick={handleChange}
+          size="small"
+          ariaLabel="demo2"
+        >
           <Tab label="Tab 1" />
           <Tab label="Tab 2" />
         </Tabs>
@@ -54,7 +61,12 @@ function TabsExample({ classes }) {
       </div>
       <div className={classes.container}>
         <p className={classes.header}>Icon Small</p>
-        <Tabs value={value} onClick={handleChange} size="small" ariaLabel="demo4">
+        <Tabs
+          value={value}
+          onClick={handleChange}
+          size="small"
+          ariaLabel="demo4"
+        >
           <Tab label="Tab 1" icon={<ZepiconsStar />} />
           <Tab label="Tab 2" icon={<ZepiconsStar />} />
         </Tabs>
@@ -65,4 +77,4 @@ function TabsExample({ classes }) {
   )
 }
 
-export default withStyles(styles)(TabsExample)
+export default TabsExample

@@ -1,24 +1,26 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import withStyles from 'react-jss'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
+import { createUseStyles, useTheme } from 'react-jss'
 import clsx from 'clsx'
 
-const styles = theme => ({
+let useStyles = createUseStyles(theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   text: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${theme.spacing.component.l.rem}rem`,
     textTransform: 'capitalize',
   },
   title: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${theme.spacing.component.l.rem}rem`,
   },
-})
+}))
 
-const ElementUsage = ({ element, classes }) => {
+const ElementUsage = ({ element, ...props }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   return (
     <StaticQuery
       query={graphql`
@@ -39,7 +41,7 @@ const ElementUsage = ({ element, classes }) => {
       `}
       render={data => {
         const documentation = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${ element }Usage`
+          x => x.node.frontmatter.label === `${element}Usage`
         )
         return documentation ? (
           <MDXRenderer>{documentation.node.body}</MDXRenderer>
@@ -54,8 +56,7 @@ const ElementUsage = ({ element, classes }) => {
 }
 
 ElementUsage.propTypes = {
-  classes: PropTypes.object.isRequired,
   element: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(ElementUsage)
+export default ElementUsage

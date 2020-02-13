@@ -1,8 +1,7 @@
 /* eslint-disable max-len */
 import React, { useState, Fragment } from 'react'
-import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import DownloadIcon from '../icons/DownloadIcon'
 import DownloadContainer from '../download/DownloadContainer'
@@ -14,15 +13,15 @@ import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
 import { iconography } from '../../data/elements'
 
-const styles = theme => ({
+let useStyles = createUseStyles(theme => ({
   tabs: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
   },
   text: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${theme.spacing.component.l.rem}rem`,
   },
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
     display: 'flex',
     flexWrap: 'wrap',
   },
@@ -31,7 +30,7 @@ const styles = theme => ({
     position: 'relative',
     background: theme.color.gray.grayMid.hex,
     padding: 0,
-    border: `1px solid ${ theme.color.gray.white.hex }`,
+    border: `1px solid ${theme.color.gray.white.hex}`,
     textAlign: 'center',
     '&:hover, &:focus': {
       zIndex: 1,
@@ -48,17 +47,17 @@ const styles = theme => ({
       paddingBottom: '100%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
+  [`@media (min-width: ${theme.breakpoint.s})`]: {
     container: {
       width: '25%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoint.l })`]: {
+  [`@media (min-width: ${theme.breakpoint.l})`]: {
     container: {
       width: '16.6%',
     },
   },
-  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
+  [`@media (min-width: ${theme.breakpoint.xl})`]: {
     container: {
       width: '12.5%',
     },
@@ -94,7 +93,7 @@ const styles = theme => ({
     position: 'absolute',
     height: '100%',
     width: '100%',
-    padding: `${ theme.spacing.component.s.rem }rem`,
+    padding: `${theme.spacing.component.s.rem}rem`,
   },
   name: {
     textAlign: 'left',
@@ -110,10 +109,12 @@ const styles = theme => ({
     marginTop: -16,
     marginLeft: -16,
   },
-})
+}))
 
-const Iconography = ({ classes }) => {
+const Iconography = ({ ...props }) => {
   const [value, setValue] = useState(0)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -169,7 +170,7 @@ const Iconography = ({ classes }) => {
             <DownloadFile
               title="Zeppelin Sketch Library"
               variant="sketch"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zds-library.sketch`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/css/assets/dist/zds-library.sketch`}
               download=""
               ariaLabel="download"
             />
@@ -177,29 +178,29 @@ const Iconography = ({ classes }) => {
           <DownloadContainer>
             <DownloadFile
               title="Zeppelin SVG Icons"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepicons.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/css/assets/dist/zepicons.zip`}
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
               title="Zeppelin SVG Sprite"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepsprite.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/css/assets/dist/zepsprite.zip`}
               download=""
               ariaLabel="download"
             />
           </DownloadContainer>
           <Divider />
           {Object.keys(sections).map(section => (
-            <Fragment key={`section${ section }`}>
+            <Fragment key={`section${section}`}>
               <Headline variant="md">{sections[section].title}</Headline>
               <div className={classes.root}>
                 {iconography[section].map(elem => (
                   <ButtonBase
                     className={classes.container}
-                    key={`icon${ elem }`}
+                    key={`icon${elem}`}
                     target="_blank"
-                    href={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${ elem }.svg`)}
-                    download={`zepicons-${ elem }.svg`}
+                    href={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${elem}.svg`)}
+                    download={`zepicons-${elem}.svg`}
                     aria-label={elem}
                   >
                     <div className={classes.content}>
@@ -215,9 +216,9 @@ const Iconography = ({ classes }) => {
                           classes.name,
                           'zep-typo--normal-caption'
                         )}
-                      >{`zepicons-${ elem }`}</p>
+                      >{`zepicons-${elem}`}</p>
                       <img
-                        src={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${ elem }.svg`)}
+                        src={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${elem}.svg`)}
                         alt={elem}
                         className={classes.img}
                       />
@@ -234,8 +235,4 @@ const Iconography = ({ classes }) => {
   )
 }
 
-Iconography.propTypes = {
-  classes: PropTypes.object.isRequired,
-}
-
-export default withStyles(styles)(Iconography)
+export default Iconography

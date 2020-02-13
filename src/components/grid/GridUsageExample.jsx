@@ -1,40 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
 import GridContainer from './GridContainer'
 import GridRow from './GridRow'
 import GridCol from './GridCol'
 
-const styles = theme => ({
-  demoGrid: {
-    boxSizing: 'border-box',
-    width: '100%',
-    paddingTop: `${ theme.spacing.component.xl.rem }rem`,
-    paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
-    backgroundColor: theme.color.gray.grayLightest.hex,
-  },
-  demoGridCol: {
-    background: theme.theme.indigo.primary,
-    color: theme.color.gray.white.hex,
-    border: '1px solid white',
-    paddingTop: '.5rem',
-    paddingBottom: '.5rem',
-  },
-  demoGridColBaseline: {
-    paddingTop: '30px',
-  },
-})
 // This is just a demo for usage in markdown files
-const GridUsageExample = ({ classes, rows }) => {
+const GridUsageExample = ({ rows }) => {
   return (
-    <GridContainer className={classes.demoGrid}>
+    <GridContainer>
       {rows &&
         rows.map((row, idx) => (
-          <GridRow align={row.align} key={`row${ idx }`}>
+          <GridRow align={row.align} key={`row${idx}`}>
             {row.cols.map((col, iidx) => (
               <GridCol
-                className={classes.demoGridCol}
-                key={`row${ idx }-col${ iidx }`}
+                key={`row${idx}-col${iidx}`}
                 xxs={col.xxs}
                 xs={col.xs}
                 s={col.s}
@@ -54,8 +33,7 @@ const GridUsageExample = ({ classes, rows }) => {
 }
 
 GridUsageExample.propTypes = {
-  classes: PropTypes.object,
   rows: PropTypes.array,
 }
 
-export default withStyles(styles)(GridUsageExample)
+export default GridUsageExample
