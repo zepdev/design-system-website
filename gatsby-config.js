@@ -44,14 +44,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: process.env.GA_KEY,
-        anonymize: true,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         id: process.env.GA_TAG,
@@ -69,6 +61,14 @@ module.exports = {
         // gtmAuth: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING',
         // gtmPreview: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME',
         // dataLayerName: 'YOUR_DATA_LAYER_NAME',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: process.env.GA_KEY,
+        anonymize: true,
       },
     },
     {
