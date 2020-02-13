@@ -21,21 +21,21 @@ Object {
         <button
           aria-expanded="false"
           aria-haspopup="true"
-          class="zep-select__button ThemeSelect-menuButton-0-1-7"
+          class="zep-select__button menuButton-0-2-7"
           data-toggle="dropdown"
           id="zep-select"
           type="button"
         >
           <span
-            class="ThemeSelect-circleContainer-0-1-8"
+            class="circleContainer-0-2-8"
           >
             <span
-              class="ThemeSelect-circle-0-1-1"
+              class="circle-0-2-1"
             />
           </span>
           <svg
             aria-labelledby="title_launch"
-            class="ThemeSelect-dropdownIcon-0-1-6 zep-select__icon"
+            class="dropdownIcon-0-2-6 zep-select__icon"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -72,21 +72,21 @@ Object {
       <button
         aria-expanded="false"
         aria-haspopup="true"
-        class="zep-select__button ThemeSelect-menuButton-0-1-7"
+        class="zep-select__button menuButton-0-2-7"
         data-toggle="dropdown"
         id="zep-select"
         type="button"
       >
         <span
-          class="ThemeSelect-circleContainer-0-1-8"
+          class="circleContainer-0-2-8"
         >
           <span
-            class="ThemeSelect-circle-0-1-1"
+            class="circle-0-2-1"
           />
         </span>
         <svg
           aria-labelledby="title_launch"
-          class="ThemeSelect-dropdownIcon-0-1-6 zep-select__icon"
+          class="dropdownIcon-0-2-6 zep-select__icon"
           height="32"
           viewBox="0 0 24 24"
           width="32"

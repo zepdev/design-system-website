@@ -6,7 +6,7 @@ import clsx from 'clsx'
 import Downshift from 'downshift'
 import SearchIcon from '../icons/SearchIcon'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   ul: {
     position: 'absolute',
     zIndex: 2000,
@@ -65,7 +65,7 @@ const Search = ({ variant, items, placeholder, ...props }) => {
                   .map((item, index) => (
                     <li
                       {...getItemProps({
-                        key: `searchItem${index}`,
+                        key: `searchItem${ index }`,
                         index,
                         item,
                         className: classes.li,

@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import clsx from 'clsx'
 import { createUseStyles, useTheme } from 'react-jss'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   text: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
     textTransform: 'capitalize',
   },
 }))

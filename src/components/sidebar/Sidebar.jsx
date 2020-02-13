@@ -1,17 +1,15 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { createUseStyles, useTheme } from 'react-jss'
-import clsx from 'clsx'
 import navigation from '../../data/navigation.json'
 import SidebarNavItem from './SidebarNavItem.jsx'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     zIndex: 3,
     background: theme.color.gray.white.hex,
     transition: 'transform 0.2s',
-    borderRight: `1px solid ${theme.color.gray.grayMid.hex}`,
-    paddingTop: `${theme.spacing.component.xl.rem}rem`,
+    borderRight: `1px solid ${ theme.color.gray.grayMid.hex }`,
+    paddingTop: `${ theme.spacing.component.xl.rem }rem`,
   },
   hidden: {
     transform: 'translateX(-100%)',
@@ -22,7 +20,7 @@ let useStyles = createUseStyles(theme => ({
     padding: 0,
     width: 250,
   },
-  [`@media (min-width: ${theme.breakpoint.m})`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     list: {
       width: 300,
     },
@@ -37,7 +35,7 @@ const Sidebar = ({ ...props }) => {
       <ul className={classes.list}>
         <SidebarNavItem item={{ title: 'Home' }} home />
         {Object.keys(navigation).map((elem, idx) => (
-          <SidebarNavItem key={`li-${idx}`} item={navigation[elem]} />
+          <SidebarNavItem key={`li-${ idx }`} item={navigation[elem]} />
         ))}
         <SidebarNavItem
           item={{ title: 'v0' }}

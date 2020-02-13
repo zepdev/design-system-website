@@ -6,10 +6,10 @@ import CodeBlock from '../code/CodeBlock'
 import CodeUsage from '../code/CodeUsage'
 import elements from '../../data/elements'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   htmlContainer: {
     backgroundColor: theme.color.gray.grayLightest.hex,
-    padding: `${theme.spacing.component.l.rem}rem`,
+    padding: `${ theme.spacing.component.l.rem }rem`,
     display: 'flex',
     justifyContent: 'center',
   },
@@ -25,9 +25,9 @@ let useStyles = createUseStyles(theme => ({
     justifyContent: 'center',
   },
   element: {
-    paddingBottom: `${theme.spacing.component.l.rem}rem`,
+    paddingBottom: `${ theme.spacing.component.l.rem }rem`,
   },
-  [`@media (min-width: ${theme.breakpoint.s})`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     element: {
       paddingBottom: 0,
     },
@@ -35,17 +35,17 @@ let useStyles = createUseStyles(theme => ({
       flexWrap: 'nowrap',
     },
   },
-  [`@media (min-width: ${theme.breakpoint.m})`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     innerContainer: {
       flexBasis: '80%',
     },
   },
-  [`@media (min-width: ${theme.breakpoint.l})`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     innerContainer: {
       flexBasis: '70%',
     },
   },
-  [`@media (min-width: ${theme.breakpoint.xl})`]: {
+  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
     innerContainer: {
       flexBasis: '40%',
     },
@@ -58,7 +58,7 @@ const ElementPreview = ({ element, ...props }) => {
   return (
     <>
       {Object.keys(elements[element].demo).map((elem, idx) => (
-        <Fragment key={`codeBlock${idx}`}>
+        <Fragment key={`codeBlock${ idx }`}>
           <Headline variant="sm">{elem}</Headline>
           <div className={classes.htmlContainer}>
             {elements[element].demo[elem].js.length === 1 && (
@@ -74,7 +74,7 @@ const ElementPreview = ({ element, ...props }) => {
                 {elements[element].demo[elem].js.map((item, idx) => (
                   <div
                     dangerouslySetInnerHTML={{ __html: item }}
-                    key={`preview ${idx}`}
+                    key={`preview ${ idx }`}
                     className={classes.element}
                   />
                 ))}

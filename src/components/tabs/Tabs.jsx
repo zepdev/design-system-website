@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import clsx from 'clsx'
 import { createUseStyles, useTheme } from 'react-jss'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     background: theme.color.gray.grayLightest.hex,
   },

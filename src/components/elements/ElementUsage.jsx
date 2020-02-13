@@ -5,16 +5,16 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { createUseStyles, useTheme } from 'react-jss'
 import clsx from 'clsx'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   text: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
     textTransform: 'capitalize',
   },
   title: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
 }))
 
@@ -41,7 +41,7 @@ const ElementUsage = ({ element, ...props }) => {
       `}
       render={data => {
         const documentation = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${element}Usage`
+          x => x.node.frontmatter.label === `${ element }Usage`
         )
         return documentation ? (
           <MDXRenderer>{documentation.node.body}</MDXRenderer>

@@ -10,14 +10,14 @@ import ThemeSelect from './select/ThemeSelect'
 import Search from './search/Search'
 import navigation from '../data/navigation.json'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     width: '100%',
     display: 'flex',
     justifyContent: 'space-between',
     background: theme.theme.indigo.primary,
     color: theme.color.gray.white.hex,
-    padding: `${theme.spacing.component.xl.rem}rem`,
+    padding: `${ theme.spacing.component.xl.rem }rem`,
   },
   button: {
     color: theme.color.gray.white.hex,
@@ -47,19 +47,19 @@ let useStyles = createUseStyles(theme => ({
     justifyContent: 'flex-end',
   },
   menu: {
-    marginLeft: `${theme.spacing.component.s.rem}rem`,
+    marginLeft: `${ theme.spacing.component.s.rem }rem`,
   },
   menuText: {
     display: 'none',
     color: theme.color.gray.black.hex,
-    paddingRight: `${theme.spacing.component.s.rem}rem`,
+    paddingRight: `${ theme.spacing.component.s.rem }rem`,
   },
-  [`@media (min-width: ${theme.breakpoint.s})`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     link: {
       flexBasis: '20%',
     },
   },
-  [`@media (min-width: ${theme.breakpoint.m})`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     root: {
       background: theme.color.gray.grayMid.hex,
     },
@@ -95,7 +95,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme, ...props }) => {
   Object.keys(navigation).forEach(elem => {
     if (navigation[elem].subnav) {
       Object.keys(navigation[elem].subnav).forEach(item => {
-        search.push({ value: item, link: `/content/${elem}/${item}/` })
+        search.push({ value: item, link: `/content/${ elem }/${ item }/` })
       })
     }
   })

@@ -8,12 +8,12 @@ import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import CodeBlock from './CodeBlock'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   heading: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
 }))
 
@@ -47,10 +47,10 @@ const CodeUsage = ({ element, ...props }) => {
       `}
       render={data => {
         const react = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${elem}CodeExample_React`
+          x => x.node.frontmatter.label === `${ elem }CodeExample_React`
         )
         const vue = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${elem}CodeExample_Vue`
+          x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`
         )
         return (
           <div className={classes.root}>

@@ -4,9 +4,9 @@ import { createUseStyles, useTheme } from 'react-jss'
 import ButtonBase from './ButtonBase'
 import CopyIcon from '../icons/CopyIcon'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   button: {
-    padding: `${theme.spacing.component.m.rem}rem`,
+    padding: `${ theme.spacing.component.m.rem }rem`,
     float: 'right',
     color: theme.color.gray.white.hex,
     height: 52,

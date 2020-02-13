@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 import { createUseStyles, useTheme } from 'react-jss'
 import image1 from '../../assets/images/sketch_button.png'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: theme.color.gray.grayLighter.hex,
-    padding: `${theme.spacing.component.xxl.rem}rem`,
+    padding: `${ theme.spacing.component.xxl.rem }rem`,
   },
 }))
 

@@ -2,13 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { createUseStyles, useTheme } from 'react-jss'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
   },
-  [`@media (min-width: ${theme.breakpoint.l})`]: {
+  [`@media (min-width: ${ theme.breakpoint.l })`]: {
     root: {
       flexWrap: 'nowrap',
       justifyContent: 'flex-start',

@@ -1,9 +1,9 @@
 import React from 'react'
 import { createUseStyles, useTheme } from 'react-jss'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   hr: {
-    marginBottom: ({ theme }) => `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: ({ theme }) => `${ theme.spacing.component.xxl.rem }rem`,
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',

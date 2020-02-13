@@ -4,12 +4,12 @@ import Tab from '@zlab-de/zel-react/Tab'
 import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
 import { createUseStyles, useTheme } from 'react-jss'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   container: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   header: {
-    marginBottom: `${theme.spacing.component.m.rem}rem`,
+    marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
   tab: {
     padding: 15,

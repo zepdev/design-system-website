@@ -6,12 +6,12 @@ import Tab from '../tabs/Tab'
 import ElementPreview from './ElementPreview'
 import ElementUsage from './ElementUsage'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   tabs: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   text: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
     textTransform: 'capitalize',
   },
 }))

@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { createUseStyles, useTheme } from 'react-jss'
 
-let useStyles = createUseStyles(theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
-    marginBottom: ({ theme }) => `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: ({ theme }) => `${ theme.spacing.component.xxl.rem }rem`,
   },
 }))
 

@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="Structure-root-0-1-1"
+        class="root-0-2-1"
       >
         <img />
       </div>
@@ -14,7 +14,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="Structure-root-0-1-1"
+      class="root-0-2-1"
     >
       <img />
     </div>

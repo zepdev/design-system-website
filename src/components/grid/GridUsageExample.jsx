@@ -10,10 +10,10 @@ const GridUsageExample = ({ rows }) => {
     <GridContainer>
       {rows &&
         rows.map((row, idx) => (
-          <GridRow align={row.align} key={`row${idx}`}>
+          <GridRow align={row.align} key={`row${ idx }`}>
             {row.cols.map((col, iidx) => (
               <GridCol
-                key={`row${idx}-col${iidx}`}
+                key={`row${ idx }-col${ iidx }`}
                 xxs={col.xxs}
                 xs={col.xs}
                 s={col.s}
