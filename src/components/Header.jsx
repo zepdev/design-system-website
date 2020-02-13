@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
+import { Link } from 'gatsby'
 import clsx from 'clsx'
 import ButtonBase from '../components/button/ButtonBase'
 import ZeppelinIcon from './icons/ZeppelinIcon'
@@ -9,16 +10,14 @@ import ThemeSelect from './select/ThemeSelect'
 import Search from './search/Search'
 import navigation from '../data/navigation.json'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
-    position: 'fixed',
     width: '100%',
+    display: 'flex',
+    justifyContent: 'space-between',
     background: theme.theme.indigo.primary,
     color: theme.color.gray.white.hex,
-    zIndex: 1000,
-  },
-  height: {
-    height: 46,
+    padding: `${ theme.spacing.component.xl.rem }rem`,
   },
   button: {
     color: theme.color.gray.white.hex,
@@ -29,12 +28,18 @@ const styles = theme => ({
     width: '100%',
     maxHeight: 24,
   },
-  searchLarge: {
+  link: {
+    flexBasis: '40%',
+  },
+  logo: {
+    width: '100%',
+    color: theme.color.gray.white.hex,
+  },
+  searchbar: {
     display: 'none',
   },
   searchMobile: {
     display: 'block',
-    paddingTop: 46,
   },
   container: {
     display: 'flex',
@@ -49,32 +54,14 @@ const styles = theme => ({
     color: theme.color.gray.black.hex,
     paddingRight: `${ theme.spacing.component.s.rem }rem`,
   },
-  [`@media (min-width: ${ theme.breakpoint.xs })`]: {
-    height: {
-      height: 68,
-    },
-    icon: {
-      maxHeight: 'initial',
-    },
-    searchMobile: {
-      paddingTop: 68,
-    },
-  },
   [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    height: {
-      height: 84,
-    },
-    searchMobile: {
-      paddingTop: 84,
+    link: {
+      flexBasis: '20%',
     },
   },
   [`@media (min-width: ${ theme.breakpoint.m })`]: {
     root: {
-      width: 'calc(100% - 224px)',
       background: theme.color.gray.grayMid.hex,
-    },
-    height: {
-      height: 104,
     },
     button: {
       display: 'none',
@@ -82,32 +69,28 @@ const styles = theme => ({
     icon: {
       display: 'none',
     },
+    link: {
+      flexBasis: '10%',
+    },
+    logo: {
+      color: theme.theme.indigo.primary,
+    },
     menuText: {
       display: 'block',
     },
-    searchLarge: {
+    searchbar: {
       display: 'block',
+      flexBasis: '30%',
     },
     searchMobile: {
       display: 'none',
     },
   },
-  [`@media (min-width: ${ theme.breakpoint.l })`]: {
-    root: {
-      width: 'calc(100% - 276px)',
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
-    root: {
-      width: 'calc(100% - 300px)',
-    },
-    height: {
-      height: 136,
-    },
-  },
-})
+}))
 
-const Header = ({ handleMenu, theme, handleTheme, classes }) => {
+const Header = ({ handleMenu, zelTheme, handleTheme, ...props }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   const search = []
   Object.keys(navigation).forEach(elem => {
     if (navigation[elem].subnav) {
@@ -119,47 +102,36 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
   return (
     <>
       <header className={clsx(classes.root, classes.height)}>
-        <div
-          className={clsx(classes.height, 'zep-grid zep-grid--valign-center')}
+        <ButtonBase
+          onClick={handleMenu}
+          className={clsx(classes.button, 'zep-button')}
+          data-testid="mobileMenuButton"
         >
-          <div className="zep-grid__row">
-            <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8 ">
-              <ButtonBase
-                onClick={handleMenu}
-                className={clsx(classes.button, 'zep-button')}
-                data-testid="mobileMenuButton"
-              >
-                <MenuIcon />
-              </ButtonBase>
-            </div>
-            <div className="zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-2-4 zep-grid__col--xs-2-6 zep-grid__col--m-4-8">
-              <ZeppelinIcon className={classes.icon} />
-            </div>
-            <div
-              className={clsx(
-                'zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-1-6 zep-grid__col--m-6-8',
-                classes.searchLarge
-              )}
-            >
-              <Search items={search} variant="landmark" placeholder="Search" />
-            </div>
-            <div
-              className={
-                'zep-grid__col zep-grid__col--align-self-center zep-grid__col--xxs-1-4 zep-grid__col--xs-2-6 zep-grid__col--m-2-8'
-              }
-            >
-              <div className={classes.container}>
-                <p className={clsx(classes.menuText, 'zep-typo-normal-body1')}>
-                  Theme:
-                </p>
-                <ThemeSelect
-                  menuItems={['indigo', 'yellow', 'red']}
-                  selected={theme}
-                  onSelect={handleTheme}
-                />
-              </div>
-            </div>
-          </div>
+          <MenuIcon />
+        </ButtonBase>
+
+        <Link className={classes.link} to="/" title="home">
+          <ZeppelinIcon
+            className={classes.logo}
+            height="100%"
+            width="100%"
+            ariaLabel="logo"
+          />
+        </Link>
+
+        <div className={classes.searchbar}>
+          <Search items={search} variant="landmark" placeholder="Search" />
+        </div>
+
+        <div className={classes.container}>
+          <p className={clsx(classes.menuText, 'zep-typo-normal-body1')}>
+            Theme:
+          </p>
+          <ThemeSelect
+            menuItems={['indigo', 'yellow', 'red']}
+            selected={zelTheme}
+            onSelect={handleTheme}
+          />
         </div>
       </header>
       <div className={clsx(classes.searchMobile)}>
@@ -175,10 +147,9 @@ const Header = ({ handleMenu, theme, handleTheme, classes }) => {
 }
 
 Header.propTypes = {
-  classes: PropTypes.object.isRequired,
   handleMenu: PropTypes.func.isRequired,
   handleTheme: PropTypes.func.isRequired,
-  theme: PropTypes.string.isRequired,
+  zelTheme: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(Header)
+export default Header

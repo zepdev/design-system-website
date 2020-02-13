@@ -7,20 +7,20 @@ Object {
     <div>
       <footer>
         <div
-          class="Footer-root-0-1-1"
+          class="root-0-2-1"
         >
           <div
             class="zep-grid"
           >
             <div
-              class="Footer-container-0-1-2"
+              class="container-0-2-2"
             >
               <div
-                class="Footer-containerLinks-0-1-3"
+                class="containerLinks-0-2-3"
               >
                 <svg
                   aria-labelledby="title_footerLogo"
-                  class="Footer-logo-0-1-5"
+                  class="logo-0-2-5"
                   height="32"
                   viewBox="0 0 119.1 19.1"
                   width="32"
@@ -99,30 +99,30 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   />
                 </svg>
                 <a
-                  class="zep-typo--normal-body2 Footer-link-0-1-6"
+                  class="zep-typo--normal-body2 link-0-2-6"
                   href="/content/privacy/"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  class="zep-typo--normal-body2 Footer-link-0-1-6"
+                  class="zep-typo--normal-body2 link-0-2-6"
                   href="/content/legal/"
                 >
                   Terms & Conditions
                 </a>
               </div>
               <div
-                class="Footer-containerIcons-0-1-4"
+                class="containerIcons-0-2-4"
               >
                 <a
-                  class="ButtonBase-button-0-1-8"
+                  class="ButtonBase-button-0-2-8"
                   href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg
                     aria-labelledby="title_linkedin"
-                    class="Footer-icon-0-1-7"
+                    class="icon-0-2-7"
                     height="32"
                     viewBox="0 0 24 24"
                     width="32"
@@ -140,14 +140,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   </svg>
                 </a>
                 <a
-                  class="ButtonBase-button-0-1-8"
+                  class="ButtonBase-button-0-2-8"
                   href="https://www.xing.com/company/zeppelinkonzern"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg
                     aria-labelledby="title_xing"
-                    class="Footer-icon-0-1-7"
+                    class="icon-0-2-7"
                     height="32"
                     viewBox="0 0 24 24"
                     width="32"
@@ -165,14 +165,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   </svg>
                 </a>
                 <a
-                  class="ButtonBase-button-0-1-8"
+                  class="ButtonBase-button-0-2-8"
                   href="https://twitter.com/Zeppelin_Group"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg
                     aria-labelledby="title_twitter"
-                    class="Footer-icon-0-1-7"
+                    class="icon-0-2-7"
                     height="32"
                     viewBox="0 0 24 24"
                     width="32"
@@ -199,20 +199,20 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
   "container": <div>
     <footer>
       <div
-        class="Footer-root-0-1-1"
+        class="root-0-2-1"
       >
         <div
           class="zep-grid"
         >
           <div
-            class="Footer-container-0-1-2"
+            class="container-0-2-2"
           >
             <div
-              class="Footer-containerLinks-0-1-3"
+              class="containerLinks-0-2-3"
             >
               <svg
                 aria-labelledby="title_footerLogo"
-                class="Footer-logo-0-1-5"
+                class="logo-0-2-5"
                 height="32"
                 viewBox="0 0 119.1 19.1"
                 width="32"
@@ -291,30 +291,30 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 />
               </svg>
               <a
-                class="zep-typo--normal-body2 Footer-link-0-1-6"
+                class="zep-typo--normal-body2 link-0-2-6"
                 href="/content/privacy/"
               >
                 Privacy Policy
               </a>
               <a
-                class="zep-typo--normal-body2 Footer-link-0-1-6"
+                class="zep-typo--normal-body2 link-0-2-6"
                 href="/content/legal/"
               >
                 Terms & Conditions
               </a>
             </div>
             <div
-              class="Footer-containerIcons-0-1-4"
+              class="containerIcons-0-2-4"
             >
               <a
-                class="ButtonBase-button-0-1-8"
+                class="ButtonBase-button-0-2-8"
                 href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
                 rel="noopener"
                 target="_blank"
               >
                 <svg
                   aria-labelledby="title_linkedin"
-                  class="Footer-icon-0-1-7"
+                  class="icon-0-2-7"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -332,14 +332,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 </svg>
               </a>
               <a
-                class="ButtonBase-button-0-1-8"
+                class="ButtonBase-button-0-2-8"
                 href="https://www.xing.com/company/zeppelinkonzern"
                 rel="noopener"
                 target="_blank"
               >
                 <svg
                   aria-labelledby="title_xing"
-                  class="Footer-icon-0-1-7"
+                  class="icon-0-2-7"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"
@@ -357,14 +357,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 </svg>
               </a>
               <a
-                class="ButtonBase-button-0-1-8"
+                class="ButtonBase-button-0-2-8"
                 href="https://twitter.com/Zeppelin_Group"
                 rel="noopener"
                 target="_blank"
               >
                 <svg
                   aria-labelledby="title_twitter"
-                  class="Footer-icon-0-1-7"
+                  class="icon-0-2-7"
                   height="32"
                   viewBox="0 0 24 24"
                   width="32"

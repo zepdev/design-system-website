@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import ElementPreview from './ElementPreview'
 import ElementUsage from './ElementUsage'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   tabs: {
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
@@ -14,10 +14,12 @@ const styles = theme => ({
     marginBottom: `${ theme.spacing.component.l.rem }rem`,
     textTransform: 'capitalize',
   },
-})
+}))
 
-const ElementLayout = ({ element, classes }) => {
+const ElementLayout = ({ element, ...props }) => {
   const [value, setValue] = useState(0)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -29,15 +31,18 @@ const ElementLayout = ({ element, classes }) => {
         <Tab label="Code" />
         <Tab label="Usage" />
       </Tabs>
-      {value === 0 && <ElementPreview element={element} role="tabpanel" tabIndex="0" />}
-      {value === 1 && <ElementUsage element={element} role="tabpanel" tabIndex="0" />}
+      {value === 0 && (
+        <ElementPreview element={element} role="tabpanel" tabIndex="0" />
+      )}
+      {value === 1 && (
+        <ElementUsage element={element} role="tabpanel" tabIndex="0" />
+      )}
     </>
   )
 }
 
 ElementLayout.propTypes = {
-  classes: PropTypes.object.isRequired,
   element: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(ElementLayout)
+export default ElementLayout

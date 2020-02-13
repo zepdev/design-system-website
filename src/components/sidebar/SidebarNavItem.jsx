@@ -2,12 +2,11 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import clsx from 'clsx'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import ChevronDownIcon from '../icons/ChevronDownIcon'
-import theme from 'zeppelin-element-library/guidelines.json'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   button: {
     textTransform: 'capitalize',
     display: 'flex',
@@ -55,10 +54,12 @@ const styles = theme => ({
       display: 'none',
     },
   },
-})
+}))
 
-function SidebarNavItem({ item, setMenu, home, link, classes }) {
+function SidebarNavItem({ item, home, link, ...props }) {
   const [isButtonOpen, setButton] = useState(false)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   return (
     <li className={clsx({ [classes.homeLink]: home })}>
       {link && (
@@ -102,7 +103,6 @@ function SidebarNavItem({ item, setMenu, home, link, classes }) {
               ? '/'
               : `/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`
           }
-          onClick={() => setMenu(false)}
           className={clsx(
             classes.button,
             'zep-typo--normal-body1',
@@ -122,7 +122,6 @@ function SidebarNavItem({ item, setMenu, home, link, classes }) {
                   .replace(/ /g, '-') }/${ item.subnav[elem].title
                   .toLowerCase()
                   .replace(/ /g, '-') }/`}
-                onClick={() => setMenu(false)}
                 activeStyle={{ color: theme.color.gray.gray.hex }}
                 className={clsx(
                   classes.subnav,
@@ -142,9 +141,7 @@ function SidebarNavItem({ item, setMenu, home, link, classes }) {
 }
 
 SidebarNavItem.propTypes = {
-  classes: PropTypes.object.isRequired,
   item: PropTypes.object.isRequired,
-  setMenu: PropTypes.func.isRequired,
 }
 
-export default withStyles(styles)(SidebarNavItem)
+export default SidebarNavItem

@@ -1,10 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import { spacing } from 'zeppelin-element-library/guidelines.json'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     overflowX: 'auto',
   },
@@ -40,9 +39,11 @@ const styles = theme => ({
   square: {
     background: theme.theme.indigo.primary,
   },
-})
+}))
 
-const Spacing = ({ classes }) => {
+const Spacing = ({ ...props }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   const header = ['name', 'px', 'rem', 'actual size']
 
   return (
@@ -104,8 +105,4 @@ const Spacing = ({ classes }) => {
   )
 }
 
-Spacing.propTypes = {
-  classes: PropTypes.object.isRequired,
-}
-
-export default withStyles(styles)(Spacing)
+export default Spacing

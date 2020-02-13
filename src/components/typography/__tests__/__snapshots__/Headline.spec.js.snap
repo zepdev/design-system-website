@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <p
-        class="Headline-text-0-1-1"
+        class="text-0-2-1"
       >
         mockHeadline
       </p>
@@ -14,7 +14,7 @@ Object {
   </body>,
   "container": <div>
     <p
-      class="Headline-text-0-1-1"
+      class="text-0-2-1"
     >
       mockHeadline
     </p>

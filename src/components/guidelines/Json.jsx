@@ -1,19 +1,21 @@
 /* eslint max-len: ["error", { "code": 140 }] */
 import React from 'react'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import TreeView from '@material-ui/lab/TreeView'
 import TreeItem from '@material-ui/lab/TreeItem'
 import ZepiconsChevronRight from '@zlab-de/zel-react-icons/ZepiconsChevronRight'
 import ZepiconsChevronDown from '@zlab-de/zel-react-icons/ZepiconsChevronDown'
 import guidelines from 'zeppelin-element-library/guidelines.json'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
-})
+}))
 
-function Tree({ classes }) {
+function Tree({ ...props }) {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   return (
     <div className={classes.root}>
       <TreeView
@@ -57,4 +59,4 @@ function Tree({ classes }) {
   )
 }
 
-export default withStyles(styles)(Tree)
+export default Tree

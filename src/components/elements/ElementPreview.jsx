@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import Headline from '../typography/Headline'
 import CodeBlock from '../code/CodeBlock'
 import CodeUsage from '../code/CodeUsage'
 import elements from '../../data/elements'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   htmlContainer: {
     backgroundColor: theme.color.gray.grayLightest.hex,
     padding: `${ theme.spacing.component.l.rem }rem`,
@@ -50,9 +50,11 @@ const styles = theme => ({
       flexBasis: '40%',
     },
   },
-})
+}))
 
-const ElementPreview = ({ element, classes }) => {
+const ElementPreview = ({ element, ...props }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   return (
     <>
       {Object.keys(elements[element].demo).map((elem, idx) => (
@@ -62,7 +64,9 @@ const ElementPreview = ({ element, classes }) => {
             {elements[element].demo[elem].js.length === 1 && (
               <div
                 className={classes.innerContainerFull}
-                dangerouslySetInnerHTML={{ __html: elements[element].demo[elem].js[0] }}
+                dangerouslySetInnerHTML={{
+                  __html: elements[element].demo[elem].js[0],
+                }}
               />
             )}
             {elements[element].demo[elem].js.length > 1 && (
@@ -86,8 +90,7 @@ const ElementPreview = ({ element, classes }) => {
 }
 
 ElementPreview.propTypes = {
-  classes: PropTypes.object.isRequired,
   element: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(ElementPreview)
+export default ElementPreview

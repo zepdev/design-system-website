@@ -9,12 +9,12 @@ Object {
         class=""
       >
         <button
-          class="SidebarNavItem-button-0-1-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-9"
+          class="button-0-2-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-2-9"
         >
           sectionTitle
           <svg
             aria-labelledby="title_chevronDown"
-            class="SidebarNavItem-icon-0-1-5 SidebarNavItem-iconReset-0-1-7"
+            class="icon-0-2-5 iconReset-0-2-7"
             height="20"
             viewBox="0 0 32 32"
             width="20"
@@ -39,12 +39,12 @@ Object {
       class=""
     >
       <button
-        class="SidebarNavItem-button-0-1-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-1-9"
+        class="button-0-2-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-2-9"
       >
         sectionTitle
         <svg
           aria-labelledby="title_chevronDown"
-          class="SidebarNavItem-icon-0-1-5 SidebarNavItem-iconReset-0-1-7"
+          class="icon-0-2-5 iconReset-0-2-7"
           height="20"
           viewBox="0 0 32 32"
           width="20"

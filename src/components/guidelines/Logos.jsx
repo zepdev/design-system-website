@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import { logo } from 'zeppelin-element-library/guidelines.json'
 import { version as zelVersion } from 'zeppelin-element-library/package.json'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
@@ -21,7 +20,7 @@ import Headline from '../typography/Headline'
 import Swatch from '../swatch/Swatch'
 import DownloadFile from '../download/DownloadFile.jsx'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
@@ -35,10 +34,12 @@ const styles = theme => ({
       justifyContent: 'flex-start',
     },
   },
-})
+}))
 
-function Logos({ classes }) {
+function Logos({ ...props }) {
   const [expanded, setExpanded] = useState(false)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   const handleChange = panel => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false)
@@ -97,8 +98,4 @@ function Logos({ classes }) {
   )
 }
 
-Logos.propTypes = {
-  classes: PropTypes.object,
-}
-
-export default withStyles(styles)(Logos)
+export default Logos

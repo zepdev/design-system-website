@@ -10,7 +10,7 @@ Object {
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="downshift-0-label"
-          class="Search-container-0-1-3 zep-search"
+          class="container-0-2-3 zep-search"
           role="combobox"
         >
           <label
@@ -54,7 +54,7 @@ Object {
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-labelledby="downshift-0-label"
-        class="Search-container-0-1-3 zep-search"
+        class="container-0-2-3 zep-search"
         role="combobox"
       >
         <label

@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="DocumentLink-root-0-1-1"
+        class="root-0-2-1 root-d0-0-2-2"
       >
         <a
           class="zep-button zep-button-primary"
@@ -23,7 +23,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="DocumentLink-root-0-1-1"
+      class="root-0-2-1 root-d0-0-2-2"
     >
       <a
         class="zep-button zep-button-primary"
