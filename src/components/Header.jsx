@@ -15,21 +15,32 @@ const useStyles = createUseStyles(theme => ({
     width: '100%',
     display: 'flex',
     justifyContent: 'space-between',
+  },
+  rootIndigo: {
     background: theme.theme.indigo.primary,
-    color: theme.color.gray.white.hex,
-    padding: `${ theme.spacing.component.xl.rem }rem`,
+  },
+  rootYellow: {
+    background: theme.theme.yellow.primary,
+  },
+  rootRed: {
+    background: theme.theme.red.primary,
+  },
+  indigo: {
+    background: theme.theme.indigo.primary,
+  },
+  yellow: {
+    background: theme.theme.yellow.primary,
+  },
+  red: {
+    background: theme.theme.red.primary,
   },
   button: {
     color: theme.color.gray.white.hex,
-    padding: 0,
-  },
-  icon: {
-    color: theme.color.gray.white.hex,
-    width: '100%',
-    maxHeight: 24,
+    padding: `${theme.spacing.component.xl.rem}rem`,
   },
   link: {
-    flexBasis: '40%',
+    width: 300,
+    padding: `${theme.spacing.component.xl.rem}rem`,
   },
   logo: {
     width: '100%',
@@ -45,42 +56,28 @@ const useStyles = createUseStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-end',
+    paddingRight: `${theme.spacing.component.xl.rem}rem`,
   },
-  menu: {
-    marginLeft: `${ theme.spacing.component.s.rem }rem`,
-  },
-  menuText: {
-    display: 'none',
-    color: theme.color.gray.black.hex,
-    paddingRight: `${ theme.spacing.component.s.rem }rem`,
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    link: {
-      flexBasis: '20%',
+  [`@media (min-width: ${theme.breakpoint.m})`]: {
+    rootIndigo: {
+      background: theme.color.gray.grayLighter.hex,
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    root: {
-      background: theme.color.gray.grayMid.hex,
+    rootYellow: {
+      background: theme.color.gray.grayLighter.hex,
+    },
+    rootRed: {
+      background: theme.color.gray.grayLighter.hex,
     },
     button: {
       display: 'none',
     },
-    icon: {
-      display: 'none',
-    },
-    link: {
-      flexBasis: '10%',
-    },
     logo: {
-      color: theme.theme.indigo.primary,
-    },
-    menuText: {
-      display: 'block',
+      width: 230,
     },
     searchbar: {
       display: 'block',
-      flexBasis: '30%',
+      width: 200,
+      marginRight: `${theme.spacing.component.m.rem}rem`,
     },
     searchMobile: {
       display: 'none',
@@ -95,13 +92,19 @@ const Header = ({ handleMenu, zelTheme, handleTheme, ...props }) => {
   Object.keys(navigation).forEach(elem => {
     if (navigation[elem].subnav) {
       Object.keys(navigation[elem].subnav).forEach(item => {
-        search.push({ value: item, link: `/content/${ elem }/${ item }/` })
+        search.push({ value: item, link: `/content/${elem}/${item}/` })
       })
     }
   })
   return (
     <>
-      <header className={clsx(classes.root, classes.height)}>
+      <header
+        className={clsx(classes.root, {
+          [classes.rootIndigo]: zelTheme === 'indigo',
+          [classes.rootYellow]: zelTheme === 'yellow',
+          [classes.rootRed]: zelTheme === 'red',
+        })}
+      >
         <ButtonBase
           onClick={handleMenu}
           className={clsx(classes.button, 'zep-button')}
@@ -110,7 +113,15 @@ const Header = ({ handleMenu, zelTheme, handleTheme, ...props }) => {
           <MenuIcon />
         </ButtonBase>
 
-        <Link className={classes.link} to="/" title="home">
+        <Link
+          className={clsx(classes.link, {
+            [classes.indigo]: zelTheme === 'indigo',
+            [classes.yellow]: zelTheme === 'yellow',
+            [classes.red]: zelTheme === 'red',
+          })}
+          to="/"
+          title="home"
+        >
           <ZeppelinIcon
             className={classes.logo}
             height="100%"
@@ -119,18 +130,17 @@ const Header = ({ handleMenu, zelTheme, handleTheme, ...props }) => {
           />
         </Link>
 
-        <div className={classes.searchbar}>
-          <Search items={search} variant="landmark" placeholder="Search" />
-        </div>
-
         <div className={classes.container}>
-          <p className={clsx(classes.menuText, 'zep-typo-normal-body1')}>
-            Theme:
-          </p>
+          <div className={classes.searchbar}>
+            <Search items={search} variant="landmark" placeholder="Search" />
+          </div>
+
           <ThemeSelect
-            menuItems={['indigo', 'yellow', 'red']}
-            selected={zelTheme}
-            onSelect={handleTheme}
+            onChange={selection => handleTheme(selection)}
+            items={['indigo', 'yellow', 'red']}
+            placeholder="Select one"
+            label="Theme"
+            selectedItem={zelTheme}
           />
         </div>
       </header>
