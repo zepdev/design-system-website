@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -14,15 +14,16 @@ const styles = theme => ({
       justifyContent: 'flex-start',
     },
   },
-})
+}))
 
-const DownloadContainer = ({ children, classes }) => {
+const DownloadContainer = ({ children, ...props }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   return <div className={classes.root}>{children}</div>
 }
 
 DownloadContainer.propTypes = {
-  classes: PropTypes.object.isRequired,
   children: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
 }
 
-export default withStyles(styles)(DownloadContainer)
+export default DownloadContainer

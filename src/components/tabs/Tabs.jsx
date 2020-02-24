@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     background: theme.color.gray.grayLightest.hex,
   },
-})
+}))
 
 const Tabs = ({
   className: classNameProp,
@@ -15,15 +15,18 @@ const Tabs = ({
   onClick,
   ariaLabel,
   value,
-  classes,
+  ...props
 }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   const valueToIndex = new Map()
   let childIndex = 0
   const children = React.Children.map(childrenProp, child => {
     if (!React.isValidElement(child)) {
       return null
     }
-    const childValue = child.props.value === undefined ? childIndex : child.props.value
+    const childValue =
+      child.props.value === undefined ? childIndex : child.props.value
     valueToIndex.set(childValue, childIndex)
     const selected = childValue === value
 
@@ -48,11 +51,10 @@ const Tabs = ({
 }
 
 Tabs.propTypes = {
-  classes: PropTypes.object.isRequired,
   children: PropTypes.array.isRequired,
   onClick: PropTypes.func,
   value: PropTypes.number,
   ariaLabel: PropTypes.string,
 }
 
-export default withStyles(styles)(Tabs)
+export default Tabs

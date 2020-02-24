@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import clsx from 'clsx'
 import Table from './Table'
 import TableHeader from './TableHeader'
@@ -10,7 +10,7 @@ import TableRow from './TableRow'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     overflowX: 'auto',
   },
@@ -34,10 +34,12 @@ const styles = theme => ({
     background: theme.color.gray.grayMidDark.hex,
     color: 'rgba(255, 255, 255, 0.84)',
   },
-})
+}))
 
-const ContentTable = ({ header, content, title, classes }) => {
+const ContentTable = ({ header, content, title, ...props }) => {
   const [value, setValue] = useState(0)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -157,10 +159,9 @@ const ContentTable = ({ header, content, title, classes }) => {
 }
 
 ContentTable.propTypes = {
-  classes: PropTypes.object.isRequired,
   header: PropTypes.array.isRequired,
   content: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(ContentTable)
+export default ContentTable

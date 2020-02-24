@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import CopyIcon from '../icons/CopyIcon'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
@@ -93,11 +93,13 @@ const styles = theme => ({
     fontWeight: 500,
     marginBottom: theme.spacing.component.s.px,
   },
-})
+}))
 
-function Swatch({ variant, color, classes }) {
+function Swatch({ variant, color, ...props }) {
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   const handleCopy = color => {
     if (document.queryCommandSupported('copy')) {
@@ -172,8 +174,7 @@ function Swatch({ variant, color, classes }) {
 }
 
 Swatch.propTypes = {
-  classes: PropTypes.object.isRequired,
   color: PropTypes.object.isRequired,
 }
 
-export default withStyles(styles)(Swatch)
+export default Swatch

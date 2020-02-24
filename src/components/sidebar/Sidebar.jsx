@@ -1,135 +1,49 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
-import withStyles from 'react-jss'
-import clsx from 'clsx'
-import SidebarNav from './SidebarNav'
-import ZeppelinIcon from '../icons/ZeppelinIcon'
+import { createUseStyles, useTheme } from 'react-jss'
+import navigation from '../../data/navigation.json'
+import SidebarNavItem from './SidebarNavItem.jsx'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
-    display: 'block',
-    width: 216,
-    position: 'fixed',
-    left: 0,
-    top: 0,
     zIndex: 3,
     background: theme.color.gray.white.hex,
     transition: 'transform 0.2s',
     borderRight: `1px solid ${ theme.color.gray.grayMid.hex }`,
+    paddingTop: `${ theme.spacing.component.xl.rem }rem`,
   },
   hidden: {
     transform: 'translateX(-100%)',
     MsTransform: 'translateX(-100%)',
   },
-  link: {
-    height: 46,
-    marginBottom: `${ theme.spacing.component.xl.rem }rem`,
-    display: 'block',
-    pointerEvents: 'none',
-  },
-  logo: {
-    color: theme.color.gray.white.hex,
-    width: '100%',
-  },
-  containerSidebarNav: {
-    height: 'calc(100vh - 46px)',
-    paddingBottom: `${ theme.spacing.component.xxl.rem }rem`,
-    overflow: 'auto',
-    backgroundColor: theme.color.gray.white.hex,
-  },
-  [`@media (min-width: ${ theme.breakpoint.xs })`]: {
-    root: {
-      width: 276,
-    },
-    containerSidebarNav: {
-      height: 'calc(100vh - 68px)',
-      paddingBottom: `${ theme.spacing.component.l.rem }rem`,
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    root: {
-      width: 300,
-    },
-    link: {
-      height: 84,
-      marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
-    },
-    containerSidebarNav: {
-      paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
-    },
+  list: {
+    listStyle: 'none',
+    padding: 0,
+    width: 250,
   },
   [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    root: {
-      width: 224,
-      transition: 'all 0s',
-    },
-    hidden: {
-      transform: 'translateX(0)',
-      MsTransform: 'translateX(0)',
-    },
-    link: {
-      visibility: 'visible',
-      width: '100%',
-      padding: `0 ${ theme.spacing.component.xl.rem }rem`,
-      display: 'flex',
-      alignItems: 'center',
-      height: 104,
-      background: theme.theme.indigo.primary,
-      color: theme.color.gray.white.hex,
-      cursor: 'pointer',
-      pointerEvents: 'all',
-    },
-    containerSidebarNav: {
-      height: 'calc(100vh - 104px)',
-      paddingBottom: `${ theme.spacing.component.xl.rem }rem`,
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.l })`]: {
-    root: {
-      width: 276,
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
-    root: {
+    list: {
       width: 300,
     },
-    containerSidebarNav: {
-      paddingBottom: '3rem',
-    },
-    link: {
-      height: 136,
-      marginBottom: `${ theme.spacing.component.l.rem * 2 }rem`,
-    },
   },
-})
+}))
 
-const Sidebar = ({ isMenuOpen, setMenu, classes }) => {
+const Sidebar = ({ ...props }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   return (
-    <div
-      className={clsx(classes.root, {
-        [classes.hidden]: !isMenuOpen,
-      })}
-    >
-      <Link className={classes.link} to="/" title="home">
-        <ZeppelinIcon
-          className={classes.logo}
-          height="100%"
-          width="100%"
-          ariaLabel="logo"
+    <div className={classes.root}>
+      <ul className={classes.list}>
+        <SidebarNavItem item={{ title: 'Home' }} home />
+        {Object.keys(navigation).map((elem, idx) => (
+          <SidebarNavItem key={`li-${ idx }`} item={navigation[elem]} />
+        ))}
+        <SidebarNavItem
+          item={{ title: 'v0' }}
+          link="https://v0-zds.zepdev.net/"
         />
-      </Link>
-      <div className={classes.containerSidebarNav}>
-        <SidebarNav setMenu={setMenu} />
-      </div>
+      </ul>
     </div>
   )
 }
 
-Sidebar.propTypes = {
-  classes: PropTypes.object.isRequired,
-  isMenuOpen: PropTypes.bool.isRequired,
-  setMenu: PropTypes.func.isRequired,
-}
-
-export default withStyles(styles)(Sidebar)
+export default Sidebar

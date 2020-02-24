@@ -6,33 +6,33 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="Typefaces-root-0-1-1"
+        class="root-0-2-1"
       >
         <div
-          class="Typefaces-container-0-1-2"
+          class="container-0-2-2"
         >
           <div
-            class="Typefaces-titleContainer-0-1-3"
+            class="titleContainer-0-2-3"
           >
             <p
-              class="Typefaces-title-0-1-4"
+              class="title-0-2-4"
               style="font-family: Roboto, sans-serif;"
             >
               Lorem Ipsum
             </p>
           </div>
           <div
-            class="Typefaces-buttonContainer-0-1-5"
+            class="buttonContainer-0-2-5"
           >
             <p
-              class="Typefaces-text-0-1-6"
+              class="text-0-2-6"
             >
               roboto
                Font Family
             </p>
             <a
               aria-label="Launch"
-              class="Typefaces-link-0-1-7"
+              class="link-0-2-7"
               href="https://fonts.google.com/specimen/Roboto"
               rel="noopener"
               target="_blank"
@@ -58,30 +58,30 @@ Object {
           </div>
         </div>
         <div
-          class="Typefaces-container-0-1-2"
+          class="container-0-2-2"
         >
           <div
-            class="Typefaces-titleContainer-0-1-3"
+            class="titleContainer-0-2-3"
           >
             <p
-              class="Typefaces-title-0-1-4"
+              class="title-0-2-4"
               style="font-family: Roboto Condensed, sans-serif;"
             >
               Lorem Ipsum
             </p>
           </div>
           <div
-            class="Typefaces-buttonContainer-0-1-5"
+            class="buttonContainer-0-2-5"
           >
             <p
-              class="Typefaces-text-0-1-6"
+              class="text-0-2-6"
             >
               robotoCondensed
                Font Family
             </p>
             <a
               aria-label="Launch"
-              class="Typefaces-link-0-1-7"
+              class="link-0-2-7"
               href="https://fonts.google.com/specimen/Roboto+Condensed"
               rel="noopener"
               target="_blank"
@@ -111,33 +111,33 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="Typefaces-root-0-1-1"
+      class="root-0-2-1"
     >
       <div
-        class="Typefaces-container-0-1-2"
+        class="container-0-2-2"
       >
         <div
-          class="Typefaces-titleContainer-0-1-3"
+          class="titleContainer-0-2-3"
         >
           <p
-            class="Typefaces-title-0-1-4"
+            class="title-0-2-4"
             style="font-family: Roboto, sans-serif;"
           >
             Lorem Ipsum
           </p>
         </div>
         <div
-          class="Typefaces-buttonContainer-0-1-5"
+          class="buttonContainer-0-2-5"
         >
           <p
-            class="Typefaces-text-0-1-6"
+            class="text-0-2-6"
           >
             roboto
              Font Family
           </p>
           <a
             aria-label="Launch"
-            class="Typefaces-link-0-1-7"
+            class="link-0-2-7"
             href="https://fonts.google.com/specimen/Roboto"
             rel="noopener"
             target="_blank"
@@ -163,30 +163,30 @@ Object {
         </div>
       </div>
       <div
-        class="Typefaces-container-0-1-2"
+        class="container-0-2-2"
       >
         <div
-          class="Typefaces-titleContainer-0-1-3"
+          class="titleContainer-0-2-3"
         >
           <p
-            class="Typefaces-title-0-1-4"
+            class="title-0-2-4"
             style="font-family: Roboto Condensed, sans-serif;"
           >
             Lorem Ipsum
           </p>
         </div>
         <div
-          class="Typefaces-buttonContainer-0-1-5"
+          class="buttonContainer-0-2-5"
         >
           <p
-            class="Typefaces-text-0-1-6"
+            class="text-0-2-6"
           >
             robotoCondensed
              Font Family
           </p>
           <a
             aria-label="Launch"
-            class="Typefaces-link-0-1-7"
+            class="link-0-2-7"
             href="https://fonts.google.com/specimen/Roboto+Condensed"
             rel="noopener"
             target="_blank"

@@ -6,27 +6,27 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="zep-grid GridUsageExample-demoGrid-0-1-1"
+        class="zep-grid"
       >
         <div
           class="zep-grid__row zep-grid__row--align-items-stretch"
         >
           <div
-            class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 GridUsageExample-demoGridCol-0-1-2"
+            class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
           >
             <div>
               xxs=1 xs=3 m=2 l=3
             </div>
           </div>
           <div
-            class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 GridUsageExample-demoGridCol-0-1-2"
+            class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
           >
             <div>
               xxs=1 xs=3 m=2 l=3
             </div>
           </div>
           <div
-            class="zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12 GridUsageExample-demoGridCol-0-1-2"
+            class="zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12"
           >
             <div>
               xxs=4 m=4 l=6
@@ -38,27 +38,27 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="zep-grid GridUsageExample-demoGrid-0-1-1"
+      class="zep-grid"
     >
       <div
         class="zep-grid__row zep-grid__row--align-items-stretch"
       >
         <div
-          class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 GridUsageExample-demoGridCol-0-1-2"
+          class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
         >
           <div>
             xxs=1 xs=3 m=2 l=3
           </div>
         </div>
         <div
-          class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12 GridUsageExample-demoGridCol-0-1-2"
+          class="zep-grid__col zep-grid__col--xxs-3-4 zep-grid__col--xs-3-6 zep-grid__col--m-2-8 zep-grid__col--l-3-12"
         >
           <div>
             xxs=1 xs=3 m=2 l=3
           </div>
         </div>
         <div
-          class="zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12 GridUsageExample-demoGridCol-0-1-2"
+          class="zep-grid__col zep-grid__col--xxs-4-4 zep-grid__col--m-4-8 zep-grid__col--l-6-12"
         >
           <div>
             xxs=4 m=4 l=6

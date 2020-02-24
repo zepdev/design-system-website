@@ -6,13 +6,13 @@ Object {
   "baseElement": <body>
     <div>
       <hr
-        class="Divider-hr-0-1-1"
+        class="hr-0-2-1 hr-d0-0-2-2"
       />
     </div>
   </body>,
   "container": <div>
     <hr
-      class="Divider-hr-0-1-1"
+      class="hr-0-2-1 hr-d0-0-2-2"
     />
   </div>,
   "debug": [Function],

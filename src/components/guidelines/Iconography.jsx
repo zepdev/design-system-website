@@ -1,8 +1,7 @@
 /* eslint-disable max-len */
 import React, { useState, Fragment } from 'react'
-import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 import ButtonBase from '../button/ButtonBase'
 import DownloadIcon from '../icons/DownloadIcon'
 import DownloadContainer from '../download/DownloadContainer'
@@ -14,7 +13,7 @@ import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
 import { iconography } from '../../data/elements'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   tabs: {
     marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
@@ -110,10 +109,12 @@ const styles = theme => ({
     marginTop: -16,
     marginLeft: -16,
   },
-})
+}))
 
-const Iconography = ({ classes }) => {
+const Iconography = ({ ...props }) => {
   const [value, setValue] = useState(0)
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -234,8 +235,4 @@ const Iconography = ({ classes }) => {
   )
 }
 
-Iconography.propTypes = {
-  classes: PropTypes.object.isRequired,
-}
-
-export default withStyles(styles)(Iconography)
+export default Iconography

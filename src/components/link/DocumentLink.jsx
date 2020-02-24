@@ -1,15 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
 import { Link } from 'gatsby'
+import { createUseStyles, useTheme } from 'react-jss'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: ({ theme }) => `${ theme.spacing.component.xxl.rem }rem`,
   },
-})
+}))
 
-const DocumentLink = ({ text, to, classes }) => {
+const DocumentLink = ({ text, to, ...props }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
   return (
     <div className={classes.root}>
       <Link to={to} className="zep-button zep-button-primary">
@@ -24,4 +26,4 @@ DocumentLink.propTypes = {
   to: PropTypes.string,
 }
 
-export default withStyles(styles)(DocumentLink)
+export default DocumentLink

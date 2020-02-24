@@ -1,16 +1,19 @@
 import React from 'react'
-import withStyles from 'react-jss'
+import { createUseStyles, useTheme } from 'react-jss'
 
-const styles = theme => ({
+const useStyles = createUseStyles(theme => ({
   hr: {
+    marginBottom: ({ theme }) => `${ theme.spacing.component.xxl.rem }rem`,
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
     marginTop: 0,
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
-})
+}))
 
-const Divider = ({ classes }) => <hr className={classes.hr} />
-
-export default withStyles(styles)(Divider)
+const Divider = ({ ...props }) => {
+  const theme = useTheme()
+  const classes = useStyles({ ...props, theme })
+  return <hr className={classes.hr} />
+}
+export default Divider
