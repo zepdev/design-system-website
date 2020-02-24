@@ -36,11 +36,11 @@ const useStyles = createUseStyles(theme => ({
   },
   button: {
     color: theme.color.gray.white.hex,
-    padding: `${theme.spacing.component.xl.rem}rem`,
+    padding: `${ theme.spacing.component.xl.rem }rem`,
   },
   link: {
     width: 300,
-    padding: `${theme.spacing.component.xl.rem}rem`,
+    padding: `${ theme.spacing.component.xl.rem }rem`,
   },
   logo: {
     width: '100%',
@@ -56,9 +56,9 @@ const useStyles = createUseStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-end',
-    paddingRight: `${theme.spacing.component.xl.rem}rem`,
+    paddingRight: `${ theme.spacing.component.xl.rem }rem`,
   },
-  [`@media (min-width: ${theme.breakpoint.m})`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     rootIndigo: {
       background: theme.color.gray.grayLighter.hex,
     },
@@ -77,7 +77,7 @@ const useStyles = createUseStyles(theme => ({
     searchbar: {
       display: 'block',
       width: 200,
-      marginRight: `${theme.spacing.component.m.rem}rem`,
+      marginRight: `${ theme.spacing.component.m.rem }rem`,
     },
     searchMobile: {
       display: 'none',
@@ -92,7 +92,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme, ...props }) => {
   Object.keys(navigation).forEach(elem => {
     if (navigation[elem].subnav) {
       Object.keys(navigation[elem].subnav).forEach(item => {
-        search.push({ value: item, link: `/content/${elem}/${item}/` })
+        search.push({ value: item, link: `/content/${ elem }/${ item }/` })
       })
     }
   })

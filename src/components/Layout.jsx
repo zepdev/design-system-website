@@ -23,28 +23,28 @@ const useStyles = createUseStyles(theme => ({
     display: 'flex',
   },
   main: {
-    padding: `${theme.spacing.component.l.rem}rem`,
+    padding: `${ theme.spacing.component.l.rem }rem`,
   },
-  [`@media (min-width: ${theme.breakpoint.s})`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     main: {
-      padding: `${theme.spacing.component.xxl.rem}rem`,
+      padding: `${ theme.spacing.component.xxl.rem }rem`,
     },
   },
   pStyled: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${theme.color.gray.grayLighter.hex}`,
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
+    borderTop: `1px solid ${ theme.color.gray.grayLighter.hex }`,
+    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
     width: '100%',
     borderColor: theme.color.gray.grayLighter.hex,
   },
   hStyled: {
-    marginBottom: `${theme.spacing.component.l.rem}rem`,
+    marginBottom: `${ theme.spacing.component.l.rem }rem`,
   },
   h1Styled: {
-    marginBottom: `${theme.spacing.component.m.rem}rem`,
+    marginBottom: `${ theme.spacing.component.m.rem }rem`,
   },
   aStyled: {
     color: theme.theme.indigo.primary,
@@ -65,7 +65,7 @@ const useStyles = createUseStyles(theme => ({
     alignItems: 'center',
   },
   button: {
-    marginRight: `${theme.spacing.layout.s.rem}rem`,
+    marginRight: `${ theme.spacing.layout.s.rem }rem`,
     color: theme.color.font,
   },
 }))

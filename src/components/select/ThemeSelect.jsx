@@ -62,8 +62,8 @@ const useStyles = createUseStyles(theme => ({
   icon: {
     display: 'none',
     fontSize: 18,
-    paddingLeft: `${theme.spacing.component.s.rem}rem`,
-    borderLeft: `1px solid ${theme.color.gray.grayLighter.hex}`,
+    paddingLeft: `${ theme.spacing.component.s.rem }rem`,
+    borderLeft: `1px solid ${ theme.color.gray.grayLighter.hex }`,
   },
   text: {
     display: 'flex',
@@ -75,7 +75,7 @@ const useStyles = createUseStyles(theme => ({
     width: 60,
     zIndex: 200,
   },
-  [`@media (min-width: ${theme.breakpoint.s})`]: {
+  [`@media (min-width: ${ theme.breakpoint.s })`]: {
     circle: {
       width: 24,
       height: 24,
@@ -85,15 +85,15 @@ const useStyles = createUseStyles(theme => ({
       width: 32,
     },
   },
-  [`@media (min-width: ${theme.breakpoint.m})`]: {
+  [`@media (min-width: ${ theme.breakpoint.m })`]: {
     hiddenXS: {
       display: 'block',
     },
     spacer: {
-      marginRight: `${theme.spacing.component.s.rem}rem`,
+      marginRight: `${ theme.spacing.component.s.rem }rem`,
     },
     label: {
-      marginRight: `${theme.spacing.component.s.rem}rem`,
+      marginRight: `${ theme.spacing.component.s.rem }rem`,
       display: 'block',
     },
     circleContainer: {
@@ -105,7 +105,7 @@ const useStyles = createUseStyles(theme => ({
     circle: {
       width: 12,
       height: 12,
-      marginRight: `${theme.spacing.component.s.rem}rem`,
+      marginRight: `${ theme.spacing.component.s.rem }rem`,
     },
     icon: {
       display: 'inline-block',
@@ -181,8 +181,8 @@ function ThemeSelect({
               {selectedItem === 'red'
                 ? 'Red'
                 : selectedItem === 'yellow'
-                ? 'Yellow'
-                : 'Indigo'}
+                  ? 'Yellow'
+                  : 'Indigo'}
             </span>
           </p>
           <svg
@@ -211,7 +211,7 @@ function ThemeSelect({
                     : {}
                 }
                 className={clsx(classes.container, 'zep-select__listitem')}
-                key={`${item}${index}`}
+                key={`${ item }${ index }`}
                 {...getItemProps({ item, index })}
               >
                 <div
@@ -225,8 +225,8 @@ function ThemeSelect({
                   {item === 'indigo'
                     ? 'Indigo'
                     : item === 'yellow'
-                    ? 'Yellow'
-                    : 'Red'}
+                      ? 'Yellow'
+                      : 'Red'}
                 </span>
               </li>
             ))}
@@ -246,90 +246,3 @@ ThemeSelect.propTypes = {
 }
 
 export default ThemeSelect
-
-{
-  /* <Downshift
-      onChange={selection => onChange(selection)}
-      itemToString={item => item || ''}
-    >
-      {({
-        getItemProps,
-        getLabelProps,
-        getMenuProps,
-        toggleMenu,
-        isOpen,
-        inputValue,
-        highlightedIndex,
-        selectedItem,
-      }) => (
-        <div>
-          <label
-            {...getLabelProps({
-              className: 'zep-visually-hidden',
-              htmlFor: 'zep-select',
-            })}
-          >
-            Theme
-          </label>
-          <button
-            id="zep-select"
-            type="button"
-            className={clsx('zep-select__button', classes.menuButton)}
-            onClick={toggleMenu}
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded={isOpen}
-          >
-            <span className={classes.circleContainer}>
-              <span
-                className={clsx(classes.circle, {
-                  [classes.indigo]: selected === 'indigo',
-                  [classes.yellow]: selected === 'yellow',
-                  [classes.red]: selected === 'red',
-                })}
-              />
-            </span>
-            <NavigationDropdownIcon
-              className={clsx(classes.dropdownIcon, 'zep-select__icon')}
-            />
-          </button>
-          {isOpen ? (
-            <ul
-              {...getMenuProps({
-                className: clsx(classes.ul, 'zep-select__list'),
-              })}
-            >
-              {items.map((item, index) => (
-                <li
-                  {...getItemProps({
-                    key: `listItem${ index }`,
-                    index,
-                    item,
-                    className: clsx(classes.text, 'zep-select__listitem'),
-                    style: {
-                      backgroundColor:
-                        highlightedIndex === index ? 'lightgray' : 'white',
-                      fontWeight: selectedItem === item ? 'bold' : 'normal',
-                    },
-                  })}
-                >
-                  <div
-                    className={clsx(classes.circle, classes.spacer, {
-                      [classes.indigo]: item === 'indigo',
-                      [classes.yellow]: item === 'yellow',
-                      [classes.red]: item === 'red',
-                    })}
-                  />
-                  {item === 'indigo'
-                    ? 'Theme Indigo'
-                    : item === 'yellow'
-                      ? 'Theme Yellow'
-                      : 'Theme Red'}
-                </li>
-              ))}
-            </ul>
-          ) : null}
-        </div>
-      )}
-    </Downshift> */
-}
