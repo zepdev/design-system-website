@@ -2,23 +2,24 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import ButtonBase from '../button/ButtonBase'
 import ChevronDownIcon from '../icons/ChevronDownIcon'
+import guidelines from '@zlab-de/zel-react/guidelines'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   button: {
     textTransform: 'capitalize',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl.px }px`,
+    padding: `${ theme.space.s.px }px ${ theme.space.xl.px }px`,
     '&:hover': {
-      background: theme.color.gray.grayLightest.hex,
+      background: theme.color.text.white,
     },
   },
   buttonActive: {
-    background: theme.color.gray.grayLightest.hex,
+    background: theme.color.text.white,
   },
   list: {
     listStyle: 'none',
@@ -27,14 +28,13 @@ const useStyles = createUseStyles(theme => ({
   },
   subnav: {
     textTransform: 'capitalize',
-    padding: `${ theme.spacing.component.s.px }px ${ theme.spacing.component.xl
-      .px * 1.5 }px`,
+    padding: `${ theme.space.s.px }px ${ theme.space.xl.px * 1.5 }px`,
     '&:hover': {
-      background: theme.color.gray.grayLightest.hex,
+      background: theme.color.text.white,
     },
   },
   icon: {
-    color: theme.color.gray.grayLight.hex,
+    color: theme.color.text.lightGray,
   },
   iconActive: {
     WebkitTransform: 'rotate(180deg)',
@@ -48,18 +48,17 @@ const useStyles = createUseStyles(theme => ({
     transform: 'rotate(0deg)',
     transition: 'all 0.75s 0.25s',
   },
-  homeLink: {},
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    homeLink: {
+  homeLink: {
+    [theme.breakpoints.up('m')]: {
       display: 'none',
     },
   },
 }))
 
-function SidebarNavItem({ item, home, link, ...props }) {
+function SidebarNavItem({ item, home, link }) {
   const [isButtonOpen, setButton] = useState(false)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
   return (
     <li className={clsx({ [classes.homeLink]: home })}>
       {link && (
@@ -122,7 +121,7 @@ function SidebarNavItem({ item, home, link, ...props }) {
                   .replace(/ /g, '-') }/${ item.subnav[elem].title
                   .toLowerCase()
                   .replace(/ /g, '-') }/`}
-                activeStyle={{ color: theme.color.gray.gray.hex }}
+                activeStyle={{ color: guidelines.color.text.lightGray }}
                 className={clsx(
                   classes.subnav,
                   'zep-typo--normal-body1',

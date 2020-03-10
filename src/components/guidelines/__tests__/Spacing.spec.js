@@ -1,16 +1,10 @@
 import React from 'react'
-import { render } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { render } from '../../../../test-utils'
 import Spacing from '../Spacing'
 
 describe('Spacing', () => {
   it('renders correctly', () => {
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <Spacing />
-      </ThemeProvider>
-    )
+    const component = render(<Spacing />)
     expect(component).toMatchSnapshot()
   })
 })

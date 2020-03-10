@@ -1,29 +1,29 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import ButtonBase from './ButtonBase'
 import CopyIcon from '../icons/CopyIcon'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   button: {
-    padding: `${ theme.spacing.component.m.rem }rem`,
+    padding: `${ theme.space.m.rem }rem`,
     float: 'right',
-    color: theme.color.gray.white.hex,
+    color: '#fff',
     height: 52,
     width: 52,
   },
   icon: {
-    color: theme.color.gray.white.hex,
+    color: '#fff',
     width: 20,
     height: 20,
   },
 }))
 
-function CopyButton({ element, ...props }) {
+function CopyButton({ element }) {
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   function handleCopy() {
     if (document.queryCommandSupported('copy')) {

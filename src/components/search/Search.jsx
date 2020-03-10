@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { navigate } from 'gatsby'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 import Downshift from 'downshift'
 import SearchIcon from '../icons/SearchIcon'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   ul: {
     position: 'absolute',
     zIndex: 2000,
@@ -16,17 +16,16 @@ const useStyles = createUseStyles(theme => ({
   li: {
     padding: '0.625rem 1.125rem',
     textTransform: 'capitalize',
-    color: theme.color.gray.grayDark.hex,
-    textDecorationColor: theme.color.gray.grayDark.hex,
+    color: theme.color.text.darkGray,
+    textDecorationColor: theme.color.text.darkGray,
   },
   container: {
     width: '100%',
   },
 }))
 
-const Search = ({ variant, items, placeholder, ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+const Search = ({ variant, items, placeholder }) => {
+  const classes = useStyles()
   return (
     <div role={variant === 'landmark' ? 'search' : null}>
       <Downshift

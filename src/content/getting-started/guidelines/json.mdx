@@ -3,7 +3,7 @@ label: json
 title: json
 ---
 
-import Tree from '../../components/guidelines/Json.jsx'
+// import Tree from '../../components/guidelines/Json.jsx'
 
 # guidelines.json
 
@@ -13,12 +13,12 @@ For example, in React one solution to sytling is React-JSS. You can pass in guid
 
 ```jsx
 import React from 'react'
-import withStyles from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   p: {
-    marginBottom: `${theme.spacing.component.xxl.rem}rem`,
-    color: theme.theme.indigo.primary,
+    marginBottom: `${theme.space.xxl.rem}rem`,
+    color: theme.indigo.primary,
   },
 })
 
@@ -31,4 +31,4 @@ export default withStyles(styles)(MyComponent)
 
 # Available variables
 
-<Tree />
+{/_ <Tree /> _/}

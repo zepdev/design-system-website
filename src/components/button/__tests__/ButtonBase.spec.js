@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from '../../../../test-utils'
 import ButtonBase from '../ButtonBase'
 
 describe('ButtonBase', () => {
@@ -7,6 +7,7 @@ describe('ButtonBase', () => {
     const mockProps = {
       onClick: jest.fn(() => {}),
       children: 'buttonText',
+      classes: {},
     }
     const component = render(<ButtonBase {...mockProps} />)
     expect(component).toMatchSnapshot()

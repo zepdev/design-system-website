@@ -6,33 +6,33 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="root-0-2-1"
+        class="makeStyles-root-1"
       >
         <div
-          class="container-0-2-2"
+          class="makeStyles-container-2"
         >
           <div
-            class="titleContainer-0-2-3"
+            class="makeStyles-titleContainer-3"
           >
             <p
-              class="title-0-2-4"
+              class="makeStyles-title-4"
               style="font-family: Roboto, sans-serif;"
             >
               Lorem Ipsum
             </p>
           </div>
           <div
-            class="buttonContainer-0-2-5"
+            class="makeStyles-buttonContainer-5"
           >
             <p
-              class="text-0-2-6"
+              class="makeStyles-text-6"
             >
               roboto
                Font Family
             </p>
             <a
               aria-label="Launch"
-              class="link-0-2-7"
+              class="makeStyles-link-7"
               href="https://fonts.google.com/specimen/Roboto"
               rel="noopener"
               target="_blank"
@@ -58,30 +58,30 @@ Object {
           </div>
         </div>
         <div
-          class="container-0-2-2"
+          class="makeStyles-container-2"
         >
           <div
-            class="titleContainer-0-2-3"
+            class="makeStyles-titleContainer-3"
           >
             <p
-              class="title-0-2-4"
+              class="makeStyles-title-4"
               style="font-family: Roboto Condensed, sans-serif;"
             >
               Lorem Ipsum
             </p>
           </div>
           <div
-            class="buttonContainer-0-2-5"
+            class="makeStyles-buttonContainer-5"
           >
             <p
-              class="text-0-2-6"
+              class="makeStyles-text-6"
             >
               robotoCondensed
                Font Family
             </p>
             <a
               aria-label="Launch"
-              class="link-0-2-7"
+              class="makeStyles-link-7"
               href="https://fonts.google.com/specimen/Roboto+Condensed"
               rel="noopener"
               target="_blank"
@@ -111,33 +111,33 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="root-0-2-1"
+      class="makeStyles-root-1"
     >
       <div
-        class="container-0-2-2"
+        class="makeStyles-container-2"
       >
         <div
-          class="titleContainer-0-2-3"
+          class="makeStyles-titleContainer-3"
         >
           <p
-            class="title-0-2-4"
+            class="makeStyles-title-4"
             style="font-family: Roboto, sans-serif;"
           >
             Lorem Ipsum
           </p>
         </div>
         <div
-          class="buttonContainer-0-2-5"
+          class="makeStyles-buttonContainer-5"
         >
           <p
-            class="text-0-2-6"
+            class="makeStyles-text-6"
           >
             roboto
              Font Family
           </p>
           <a
             aria-label="Launch"
-            class="link-0-2-7"
+            class="makeStyles-link-7"
             href="https://fonts.google.com/specimen/Roboto"
             rel="noopener"
             target="_blank"
@@ -163,30 +163,30 @@ Object {
         </div>
       </div>
       <div
-        class="container-0-2-2"
+        class="makeStyles-container-2"
       >
         <div
-          class="titleContainer-0-2-3"
+          class="makeStyles-titleContainer-3"
         >
           <p
-            class="title-0-2-4"
+            class="makeStyles-title-4"
             style="font-family: Roboto Condensed, sans-serif;"
           >
             Lorem Ipsum
           </p>
         </div>
         <div
-          class="buttonContainer-0-2-5"
+          class="makeStyles-buttonContainer-5"
         >
           <p
-            class="text-0-2-6"
+            class="makeStyles-text-6"
           >
             robotoCondensed
              Font Family
           </p>
           <a
             aria-label="Launch"
-            class="link-0-2-7"
+            class="makeStyles-link-7"
             href="https://fonts.google.com/specimen/Roboto+Condensed"
             rel="noopener"
             target="_blank"

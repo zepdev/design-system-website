@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="root-0-2-1 root-d0-0-2-2"
+        class="makeStyles-root-1"
       >
         <a
-          class="zep-button zep-button-primary"
+          class="zep-button zep-button-primary zep-button--full"
           href="mockLink"
         >
           <span
@@ -23,10 +23,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="root-0-2-1 root-d0-0-2-2"
+      class="makeStyles-root-1"
     >
       <a
-        class="zep-button zep-button-primary"
+        class="zep-button zep-button-primary zep-button--full"
         href="mockLink"
       >
         <span

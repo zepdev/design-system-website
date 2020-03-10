@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from '../../../../test-utils'
 import Select from '../Select'
 
 describe('Select', () => {
@@ -7,6 +7,7 @@ describe('Select', () => {
     const mockProps = {
       items: [],
       onChange: () => {},
+      label: 'Select',
     }
     const component = render(<Select {...mockProps} />)
     expect(component).toMatchSnapshot()

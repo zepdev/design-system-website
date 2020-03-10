@@ -1,7 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { render } from '../../../../test-utils'
 import DownloadContainer from '../DownloadContainer'
 
 describe('DownloadContainer', () => {
@@ -9,11 +7,7 @@ describe('DownloadContainer', () => {
     const mockProps = {
       children: [],
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <DownloadContainer {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<DownloadContainer {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

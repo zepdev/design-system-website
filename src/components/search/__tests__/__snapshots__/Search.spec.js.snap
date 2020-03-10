@@ -10,20 +10,23 @@ Object {
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="downshift-0-label"
-          class="container-0-2-3 zep-search"
+          class="makeStyles-container-3 zep-search"
           role="combobox"
         >
           <label
             class="zep-visually-hidden"
             for="downshift-0-input"
             id="downshift-0-label"
-          />
+          >
+            Search
+          </label>
           <input
             aria-autocomplete="list"
             aria-labelledby="downshift-0-label"
             autocomplete="off"
             class="zep-search__input"
             id="downshift-0-input"
+            placeholder="Search"
             value=""
           />
           <svg
@@ -54,20 +57,23 @@ Object {
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-labelledby="downshift-0-label"
-        class="container-0-2-3 zep-search"
+        class="makeStyles-container-3 zep-search"
         role="combobox"
       >
         <label
           class="zep-visually-hidden"
           for="downshift-0-input"
           id="downshift-0-label"
-        />
+        >
+          Search
+        </label>
         <input
           aria-autocomplete="list"
           aria-labelledby="downshift-0-label"
           autocomplete="off"
           class="zep-search__input"
           id="downshift-0-input"
+          placeholder="Search"
           value=""
         />
         <svg

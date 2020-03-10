@@ -6,13 +6,13 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="root-0-2-1"
+        class="makeStyles-root-1"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="root-0-2-1"
+      class="makeStyles-root-1"
     />
   </div>,
   "debug": [Function],

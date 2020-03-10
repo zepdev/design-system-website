@@ -16,7 +16,9 @@ Object {
             class="zep-select__label"
             for="zep-select"
             id="downshift-0-label"
-          />
+          >
+            Select
+          </label>
           <button
             aria-expanded="false"
             aria-haspopup="true"
@@ -61,7 +63,9 @@ Object {
           class="zep-select__label"
           for="zep-select"
           id="downshift-0-label"
-        />
+        >
+          Select
+        </label>
         <button
           aria-expanded="false"
           aria-haspopup="true"

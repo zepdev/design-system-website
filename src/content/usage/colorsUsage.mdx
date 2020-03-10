@@ -14,7 +14,7 @@ import React from 'react'
 import theme from '@zlab-de/zel-react/theme.json'
 
 function MyComponent() {
-  return <p style={{ color: theme.color.zlab.cyan.hex }}>I am zLab Cyan!</p>
+  return <p style={{ color: theme.logo.zLabCyan }}>I am zLab Cyan!</p>
 }
 
 export default MyComponent
@@ -27,7 +27,7 @@ An example using React-JSS in Create-React-App;
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import { ThemeProvider } from 'react-jss'
+
 import '@zlab-de/zel-react/zel.css'
 import guidelines from '@zlab-de/zel-react/guidelines.json'
 import * as serviceWorker from './serviceWorker'
@@ -49,16 +49,16 @@ serviceWorker.unregister()
 import React from 'react'
 import { createUseStyles } from 'react-jss'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   text: {
     textAlign: 'center',
-    color: theme.color.cat.catYellow.hex,
-    background: theme.color.gray.grayLighter.hex,
-    padding: `${theme.spacing.component.s.rem}rem`,
+    color: theme.yellow.primary,
+    background: theme.color.text.lightGray,
+    padding: `${theme.space.s.rem}rem`,
   },
 }))
 
-function MyComponent({ ...props }) {
+function MyComponent({}) {
   const classes = useStyles(props)
   return (
     <p className={classes.text}>I am Cat Yellow text on a gray background!</p>

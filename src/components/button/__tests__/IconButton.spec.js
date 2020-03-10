@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from '../../../../test-utils'
 import IconButton from '../IconButton'
 import CopyIcon from '../../icons/CopyIcon'
 

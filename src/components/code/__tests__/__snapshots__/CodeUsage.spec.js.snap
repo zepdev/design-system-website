@@ -6,15 +6,15 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="root-0-2-1"
+        class="makeStyles-root-1"
       >
         <h3
-          class="heading-0-2-2 zep-typo--normal-h4"
+          class="makeStyles-heading-2 zep-typo--normal-h4"
         >
           Code Usage Examples
         </h3>
         <div
-          class="root-0-2-3 zep-tabs"
+          class="makeStyles-root-3 zep-tabs"
           data-testid="tabs"
           role="tablist"
         >
@@ -47,7 +47,7 @@ Object {
         </div>
         <pre
           class="prism-code language-js"
-          style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+          style="background-color: rgb(17, 17, 17); margin-bottom: 3rem; color: rgb(238, 238, 238); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
         >
           <div
             data-testid="codeDiv"
@@ -64,7 +64,7 @@ Object {
               </span>
               <span
                 class="token punctuation"
-                style="color: rgb(236, 238, 239);"
+                style="color: rgb(152, 152, 152);"
               >
                 ,
               </span>
@@ -82,12 +82,12 @@ Object {
             </div>
           </div>
           <button
-            class="button-0-2-4 ButtonBase-button-0-2-6"
+            class="makeStyles-button-4 makeStyles-button-6"
             data-testid="copyButton"
           >
             <svg
               aria-labelledby="title_copy"
-              class="icon-0-2-5"
+              class="makeStyles-icon-5"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -110,15 +110,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="root-0-2-1"
+      class="makeStyles-root-1"
     >
       <h3
-        class="heading-0-2-2 zep-typo--normal-h4"
+        class="makeStyles-heading-2 zep-typo--normal-h4"
       >
         Code Usage Examples
       </h3>
       <div
-        class="root-0-2-3 zep-tabs"
+        class="makeStyles-root-3 zep-tabs"
         data-testid="tabs"
         role="tablist"
       >
@@ -151,7 +151,7 @@ Object {
       </div>
       <pre
         class="prism-code language-js"
-        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+        style="background-color: rgb(17, 17, 17); margin-bottom: 3rem; color: rgb(238, 238, 238); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
       >
         <div
           data-testid="codeDiv"
@@ -168,7 +168,7 @@ Object {
             </span>
             <span
               class="token punctuation"
-              style="color: rgb(236, 238, 239);"
+              style="color: rgb(152, 152, 152);"
             >
               ,
             </span>
@@ -186,12 +186,12 @@ Object {
           </div>
         </div>
         <button
-          class="button-0-2-4 ButtonBase-button-0-2-6"
+          class="makeStyles-button-4 makeStyles-button-6"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title_copy"
-            class="icon-0-2-5"
+            class="makeStyles-icon-5"
             height="32"
             viewBox="0 0 24 24"
             width="32"

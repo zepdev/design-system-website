@@ -1,24 +1,34 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import ButtonBase from '../button/ButtonBase'
 import CopyIcon from '../icons/CopyIcon'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
     flexBasis: '48%',
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
+    [theme.breakpoints.up('s')]: {
+      flexBasis: '22%',
+    },
+    [theme.breakpoints.up('m')]: {
+      marginRight: `${ theme.space.m.rem }rem`,
+    },
+    [theme.breakpoints.up('xxl')]: {
+      marginRight: `${ theme.space.m.rem }rem`,
+      flexBasis: '16%',
+    },
   },
   button: {
     height: '6rem',
     width: '100%',
-    marginBottom: theme.spacing.component.s.px,
+    marginBottom: theme.space.s.px,
     position: 'relative',
     cursor: 'pointer',
-    border: `1px solid ${ theme.color.gray.grayMid.hex }`,
+    border: `1px solid ${ theme.color.text.lightGray }`,
     '&:hover, &:focus': {
       zIndex: 1,
       '& $backdrop': {
@@ -28,26 +38,10 @@ const useStyles = createUseStyles(theme => ({
         opacity: 1,
       },
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    root: {
-      flexBasis: '22%',
-    },
-    button: {
+    [theme.breakpoints.up('s')]: {
       height: '6rem',
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    root: {
-      marginRight: `${ theme.spacing.component.m.rem }rem`,
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.xxl })`]: {
-    root: {
-      marginRight: `${ theme.spacing.component.m.rem }rem`,
-      flexBasis: '16%',
-    },
-    button: {
+    [theme.breakpoints.up('xxl')]: {
       height: '8rem',
     },
   },
@@ -57,7 +51,7 @@ const useStyles = createUseStyles(theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.color.gray.grayDark.hex,
+    backgroundColor: theme.color.text.darkGray,
     opacity: 0,
     transition: 0.5,
   },
@@ -71,10 +65,10 @@ const useStyles = createUseStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     opacity: 0,
-    color: theme.color.gray.white.hex,
+    color: '#fff',
   },
   icon: {
-    color: theme.color.gray.white.hex,
+    color: '#fff',
     display: 'block',
   },
   buttonText: {
@@ -85,21 +79,21 @@ const useStyles = createUseStyles(theme => ({
   },
   text: {
     margin: 0,
-    color: theme.color.gray.grayLight.hex,
+    color: theme.color.text.lightGray,
     textTransform: 'uppercase',
   },
   name: {
     marginTop: 0,
     fontWeight: 500,
-    marginBottom: theme.spacing.component.s.px,
+    marginBottom: theme.space.s.px,
   },
 }))
 
-function Swatch({ variant, color, ...props }) {
+function Swatch({ variant, color }) {
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   const handleCopy = color => {
     if (document.queryCommandSupported('copy')) {

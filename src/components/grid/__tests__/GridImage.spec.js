@@ -1,16 +1,13 @@
 import React from 'react'
-import { render } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { render } from '../../../../test-utils'
 import GridImage from '../GridImage'
 
 describe('GridImage', () => {
   it('renders correctly', () => {
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <GridImage />
-      </ThemeProvider>
-    )
+    const mockProps = {
+      classes: {},
+    }
+    const component = render(<GridImage {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

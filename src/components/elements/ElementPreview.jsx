@@ -1,15 +1,15 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import Headline from '../typography/Headline'
 import CodeBlock from '../code/CodeBlock'
 import CodeUsage from '../code/CodeUsage'
 import elements from '../../data/elements'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   htmlContainer: {
-    backgroundColor: theme.color.gray.grayLightest.hex,
-    padding: `${ theme.spacing.component.l.rem }rem`,
+    backgroundColor: theme.color.text.white,
+    padding: `${ theme.space.l.rem }rem`,
     display: 'flex',
     justifyContent: 'center',
   },
@@ -18,6 +18,18 @@ const useStyles = createUseStyles(theme => ({
     flexWrap: 'wrap',
     display: 'flex',
     justifyContent: 'space-around',
+    [theme.breakpoints.up('s')]: {
+      flexWrap: 'nowrap',
+    },
+    [theme.breakpoints.up('m')]: {
+      flexBasis: '80%',
+    },
+    [theme.breakpoints.up('l')]: {
+      flexBasis: '70%',
+    },
+    [theme.breakpoints.up('xl')]: {
+      flexBasis: '40%',
+    },
   },
   innerContainerFull: {
     flexBasis: '80%',
@@ -25,36 +37,15 @@ const useStyles = createUseStyles(theme => ({
     justifyContent: 'center',
   },
   element: {
-    paddingBottom: `${ theme.spacing.component.l.rem }rem`,
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    element: {
+    paddingBottom: `${ theme.space.l.rem }rem`,
+    [theme.breakpoints.up('s')]: {
       paddingBottom: 0,
-    },
-    innerContainer: {
-      flexWrap: 'nowrap',
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    innerContainer: {
-      flexBasis: '80%',
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.l })`]: {
-    innerContainer: {
-      flexBasis: '70%',
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
-    innerContainer: {
-      flexBasis: '40%',
     },
   },
 }))
 
-const ElementPreview = ({ element, ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+const ElementPreview = ({ element }) => {
+  const classes = useStyles()
   return (
     <>
       {Object.keys(elements[element].demo).map((elem, idx) => (

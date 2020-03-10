@@ -2,26 +2,26 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import CodeBlock from './CodeBlock'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   heading: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
   },
 }))
 
-const CodeUsage = ({ element, ...props }) => {
+const CodeUsage = ({ element }) => {
   const [tab, setTab] = useState(0)
   const [elem] = useState(element)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   const handleClick = value => {
     setTab(value)

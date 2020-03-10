@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 import Table from './Table'
 import TableHeader from './TableHeader'
@@ -10,12 +10,12 @@ import TableRow from './TableRow'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     overflowX: 'auto',
   },
   table: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   lowercase: {
     textTransform: 'lowercase',
@@ -24,22 +24,22 @@ const useStyles = createUseStyles(theme => ({
     textTransform: 'capitalize',
   },
   tabs: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
   },
   inverse: {
-    background: theme.color.gray.black.hex,
-    color: 'rgba(255, 255, 255, 0.84)',
+    background: '#000',
+    color: '#fff',
   },
   inverseLight: {
-    background: theme.color.gray.grayMidDark.hex,
-    color: 'rgba(255, 255, 255, 0.84)',
+    background: theme.color.text.lightGray,
+    color: '#fff)',
   },
 }))
 
-const ContentTable = ({ header, content, title, ...props }) => {
+const ContentTable = ({ header, content, title }) => {
   const [value, setValue] = useState(0)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   function handleChange(newValue) {
     setValue(newValue)

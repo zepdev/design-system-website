@@ -1,15 +1,26 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import { useSelect } from 'downshift'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   svg: {
     fill: theme.color.fontInverse,
+    [theme.breakpoints.up('sm')]: {
+      fill: theme.color.font,
+    },
   },
   hiddenXS: {
     display: 'none',
+    [theme.breakpoints.up('sm')]: {
+      display: 'block',
+    },
+  },
+  spacer: {
+    [theme.breakpoints.up('sm')]: {
+      marginRight: `${ theme.space.s.rem }rem`,
+    },
   },
   container: {
     display: 'flex',
@@ -17,33 +28,58 @@ const useStyles = createUseStyles(theme => ({
   },
   label: {
     display: 'none',
+    [theme.breakpoints.up('sm')]: {
+      marginRight: `${ theme.space.s.rem }rem`,
+      display: 'block',
+    },
   },
   circleContainer: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: '50%',
-    background: theme.color.gray.white.hex,
+    background: '#fff',
     height: 24,
     width: 24,
+    [theme.breakpoints.up('sm')]: {
+      height: 32,
+      width: 32,
+    },
+    [theme.breakpoints.up('md')]: {
+      borderRadius: 0,
+      height: 'auto',
+      width: 'auto',
+      justifyContent: 'flex-start',
+    },
   },
   circle: {
     width: 16,
     height: 16,
     borderRadius: '50%',
+    [theme.breakpoints.up('sm')]: {
+      width: 24,
+      height: 24,
+    },
+    [theme.breakpoints.up('sm')]: {
+      width: 12,
+      height: 12,
+      marginRight: `${ theme.space.s.rem }rem`,
+    },
   },
-
   indigo: {
-    backgroundColor: theme.theme.indigo.primary,
+    backgroundColor: theme.indigo.primary,
   },
   yellow: {
-    backgroundColor: theme.theme.yellow.primary,
+    backgroundColor: theme.yellow.primary,
   },
   red: {
-    backgroundColor: theme.theme.red.primary,
+    backgroundColor: theme.red.primary,
   },
   dropdownIcon: {
     display: 'none',
+    [theme.breakpoints.up('sm')]: {
+      display: 'block',
+    },
   },
   button: {
     display: 'flex',
@@ -58,73 +94,34 @@ const useStyles = createUseStyles(theme => ({
       outline: 'none',
       border: 'none',
     },
-  },
-  icon: {
-    display: 'none',
-    fontSize: 18,
-    paddingLeft: `${ theme.spacing.component.s.rem }rem`,
-    borderLeft: `1px solid ${ theme.color.gray.grayLighter.hex }`,
-  },
-  text: {
-    display: 'flex',
-    alignItems: 'center',
-    color: theme.color.gray.black.hex,
-  },
-  ul: {
-    position: 'fixed',
-    width: 60,
-    zIndex: 200,
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    circle: {
-      width: 24,
-      height: 24,
-    },
-    circleContainer: {
-      height: 32,
-      width: 32,
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    hiddenXS: {
-      display: 'block',
-    },
-    spacer: {
-      marginRight: `${ theme.spacing.component.s.rem }rem`,
-    },
-    label: {
-      marginRight: `${ theme.spacing.component.s.rem }rem`,
-      display: 'block',
-    },
-    circleContainer: {
-      borderRadius: 0,
-      height: 'auto',
-      width: 'auto',
-      justifyContent: 'flex-start',
-    },
-    circle: {
-      width: 12,
-      height: 12,
-      marginRight: `${ theme.spacing.component.s.rem }rem`,
-    },
-    icon: {
-      display: 'inline-block',
-    },
-    button: {
-      background: theme.color.gray.white.hex,
+    [theme.breakpoints.up('sm')]: {
+      background: '#fff',
       justifyContent: 'space-between',
       height: 'auto',
       width: 150,
       padding: '6px 12px',
     },
-    ul: {
+  },
+  icon: {
+    display: 'none',
+    fontSize: 18,
+    paddingLeft: `${ theme.space.s.rem }rem`,
+    borderLeft: `1px solid ${ theme.color.text.lightGray }`,
+    [theme.breakpoints.up('sm')]: {
+      display: 'inline-block',
+    },
+  },
+  text: {
+    display: 'flex',
+    alignItems: 'center',
+    color: '#000',
+  },
+  ul: {
+    position: 'fixed',
+    width: 60,
+    zIndex: 200,
+    [theme.breakpoints.up('sm')]: {
       width: 150,
-    },
-    dropdownIcon: {
-      display: 'block',
-    },
-    svg: {
-      fill: theme.color.font,
     },
   },
 }))
@@ -142,15 +139,14 @@ function ThemeSelect({
     getMenuProps,
     highlightedIndex,
     getItemProps,
-    ...props
   } = useSelect({
     items,
     onSelectedItemChange: item => {
       onChange(item.selectedItem)
     },
   })
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
   return (
     <>
       <label {...getLabelProps({ className: classes.label })}>Theme</label>
