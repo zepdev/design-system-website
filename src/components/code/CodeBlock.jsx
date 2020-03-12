@@ -7,11 +7,11 @@ import guidelines from 'zeppelin-element-library/guidelines.json'
 
 const codeTheme = {
   plain: {
-    backgroundColor: guidelines.color.text.black,
-    marginBottom: `${ guidelines.spacing.component.xxl.rem }rem`,
-    color: guidelines.color.text.white,
-    paddingLeft: `${ guidelines.spacing.component.l.rem }rem`,
-    paddingBottom: `${ guidelines.spacing.component.l.rem }rem`,
+    backgroundColor: guidelines.color.global.black,
+    marginBottom: `${guidelines.spacing.component.xxl.rem}rem`,
+    color: guidelines.color.global.white,
+    paddingLeft: `${guidelines.spacing.component.l.rem}rem`,
+    paddingBottom: `${guidelines.spacing.component.l.rem}rem`,
     paddingTop: 8,
     paddingRight: 8,
     fontSize: '0.875rem',
@@ -26,38 +26,38 @@ const codeTheme = {
     {
       types: ['changed'],
       style: {
-        color: guidelines.color.text.lightGray,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['deleted'],
       style: {
-        color: guidelines.color.text.lightGray,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['inserted'],
       style: {
-        color: guidelines.color.text.lightGray,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['comment'],
       style: {
-        color: guidelines.color.text.lightGray,
+        color: guidelines.color.global.lightGray,
         fontStyle: 'italic',
       },
     },
     {
       types: ['punctuation'],
       style: {
-        color: guidelines.color.text.lightGray,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['constant'],
       style: {
-        color: guidelines.color.text.lightGray,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
@@ -69,13 +69,13 @@ const codeTheme = {
     {
       types: ['variable'],
       style: {
-        color: guidelines.color.text.lightGray,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['number', 'boolean'],
       style: {
-        color: guidelines.color.text.lightGray,
+        color: guidelines.color.global.lightGray,
       },
     },
     {

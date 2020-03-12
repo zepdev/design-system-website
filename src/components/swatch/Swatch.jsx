@@ -10,15 +10,15 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     flexDirection: 'column',
     flexBasis: '48%',
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
     [theme.breakpoints.up('sm')]: {
       flexBasis: '22%',
     },
     [theme.breakpoints.up('md')]: {
-      marginRight: `${ theme.space.m.rem }rem`,
+      marginRight: `${theme.space.m.rem}rem`,
     },
     [theme.breakpoints.up('xxl')]: {
-      marginRight: `${ theme.space.m.rem }rem`,
+      marginRight: `${theme.space.m.rem}rem`,
       flexBasis: '16%',
     },
   },
@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
     marginBottom: theme.space.s.px,
     position: 'relative',
     cursor: 'pointer',
-    border: `1px solid ${ theme.color.text.lightGray }`,
+    border: `1px solid ${theme.color.global.lightGray}`,
     '&:hover, &:focus': {
       zIndex: 1,
       '& $backdrop': {
@@ -51,7 +51,7 @@ const useStyles = makeStyles(theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.color.text.darkGray,
+    backgroundColor: theme.color.global.darkGray,
     opacity: 0,
     transition: 0.5,
   },
@@ -79,7 +79,7 @@ const useStyles = makeStyles(theme => ({
   },
   text: {
     margin: 0,
-    color: theme.color.text.lightGray,
+    color: theme.color.global.lightGray,
     textTransform: 'uppercase',
   },
   name: {
@@ -128,7 +128,7 @@ function Swatch({ variant, color, name }) {
           {!isTextCopied && (
             <CopyIcon
               className={classes.icon}
-              ariaLabel={`copy hex:${ color }`}
+              ariaLabel={`copy hex:${color}`}
             />
           )}
           <span
@@ -143,14 +143,14 @@ function Swatch({ variant, color, name }) {
       {variant === 'font' && (
         <p
           className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`RGB: ${ color }`}</p>
+        >{`RGB: ${color}`}</p>
       )}
       {variant !== 'font' && (
         <>
           <p className={clsx(classes.name, 'zep-typo--normal-body2')}>{name}</p>
           <p
             className={clsx(classes.text, 'zep-typo--normal-caption')}
-          >{`HEX: ${ color }`}</p>
+          >{`HEX: ${color}`}</p>
         </>
       )}
     </div>

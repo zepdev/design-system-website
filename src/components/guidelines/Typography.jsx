@@ -8,11 +8,11 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   container: {
     flexBasis: '100%',
-    paddingBottom: `${ theme.space.m.rem }rem`,
+    paddingBottom: `${theme.space.m.rem}rem`,
     [theme.breakpoints.up('s')]: {
       flexBasis: '48%',
       paddingBottom: 0,
@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     height: 136,
-    background: theme.color.text.lightGray,
+    background: theme.color.global.lightGray,
   },
   title: {
     fontSize: 28,
@@ -32,12 +32,12 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    background: theme.color.text.white,
+    background: theme.color.global.white,
     paddingTop: theme.space.s.px,
     paddingBottom: theme.space.s.px,
     paddingLeft: theme.space.l.px,
     paddingRight: theme.space.l.px,
-    borderTop: `1px solid ${ theme.color.text.lightGray }`,
+    borderTop: `1px solid ${theme.color.global.lightGray}`,
   },
   text: {
     fontSize: 12,
@@ -58,7 +58,7 @@ const createPath = elem => {
     if (idx === 0) {
       res = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
     } else {
-      res += `+${ word }`
+      res += `+${word}`
     }
   })
   return res
@@ -69,7 +69,7 @@ const Typography = () => {
   return (
     <div className={classes.root}>
       {Object.keys(guidelines.typography.typefaces).map((elem, idx) => (
-        <div className={classes.container} key={`typeface${ idx }`}>
+        <div className={classes.container} key={`typeface${idx}`}>
           <div className={classes.titleContainer}>
             <p
               className={classes.title}
@@ -86,7 +86,7 @@ const Typography = () => {
           <div className={classes.buttonContainer}>
             <p className={classes.text}>{elem} Font Family</p>
             <a
-              href={`https://fonts.google.com/specimen/${ createPath(elem) }`}
+              href={`https://fonts.google.com/specimen/${createPath(elem)}`}
               target="_blank"
               rel="noopener"
               aria-label="Launch"

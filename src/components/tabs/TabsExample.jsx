@@ -6,14 +6,14 @@ import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles(theme => ({
   container: {
-    marginBottom: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem}rem`,
   },
   header: {
-    marginBottom: `${ theme.space.m.rem }rem`,
+    marginBottom: `${theme.space.m.rem}rem`,
   },
   tab: {
     padding: 15,
-    background: theme.color.text.lightGray,
+    background: theme.color.global.lightGray,
   },
 }))
 

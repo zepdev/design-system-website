@@ -15,20 +15,20 @@ import { iconography } from '../../data/elements'
 
 const useStyles = makeStyles(theme => ({
   tabs: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   text: {
-    marginBottom: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem}rem`,
   },
   root: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
     display: 'flex',
     flexWrap: 'wrap',
   },
   container: {
     width: '50%',
     position: 'relative',
-    background: theme.color.text.lightGray,
+    background: theme.color.global.lightGray,
     padding: 0,
     border: '1px solid #FFF',
     textAlign: 'center',
@@ -87,7 +87,7 @@ const useStyles = makeStyles(theme => ({
     position: 'absolute',
     height: '100%',
     width: '100%',
-    padding: `${ theme.space.s.rem }rem`,
+    padding: `${theme.space.s.rem}rem`,
   },
   name: {
     textAlign: 'left',
@@ -164,7 +164,7 @@ const Icons = () => {
             <DownloadFile
               title="Zeppelin Sketch Library"
               variant="sketch"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zds-library.sketch`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/css/assets/dist/zds-library.sketch`}
               download=""
               ariaLabel="download"
             />
@@ -172,29 +172,29 @@ const Icons = () => {
           <DownloadContainer>
             <DownloadFile
               title="Zeppelin SVG Icons"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepicons.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/css/assets/dist/zepicons.zip`}
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
               title="Zeppelin SVG Sprite"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepsprite.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/css/assets/dist/zepsprite.zip`}
               download=""
               ariaLabel="download"
             />
           </DownloadContainer>
           <Divider />
           {Object.keys(sections).map(section => (
-            <Fragment key={`section${ section }`}>
+            <Fragment key={`section${section}`}>
               <Headline variant="md">{sections[section].title}</Headline>
               <div className={classes.root}>
                 {iconography[section].map(elem => (
                   <ButtonBase
                     className={classes.container}
-                    key={`icon${ elem }`}
+                    key={`icon${elem}`}
                     target="_blank"
-                    href={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${ elem }.svg`)}
-                    download={`zepicons-${ elem }.svg`}
+                    href={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${elem}.svg`)}
+                    download={`zepicons-${elem}.svg`}
                     aria-label={elem}
                   >
                     <div className={classes.content}>
@@ -210,9 +210,9 @@ const Icons = () => {
                           classes.name,
                           'zep-typo--normal-caption'
                         )}
-                      >{`zepicons-${ elem }`}</p>
+                      >{`zepicons-${elem}`}</p>
                       <img
-                        src={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${ elem }.svg`)}
+                        src={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${elem}.svg`)}
                         alt={elem}
                         className={classes.img}
                       />

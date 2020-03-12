@@ -5,9 +5,9 @@ const theme = createMuiTheme({
   palette: {
     type: 'light',
     primary: {
-      light: guidelines.theme.digit.secondary,
-      main: guidelines.theme.digit.primary,
-      dark: guidelines.theme.digit.primary,
+      light: guidelines.theme.blue.secondary,
+      main: guidelines.theme.blue.primary,
+      dark: guidelines.theme.blue.primary,
     },
     error: { main: guidelines.color.support.alert },
   },
@@ -15,7 +15,7 @@ const theme = createMuiTheme({
     gray: '#eceeef',
   },
   logo: guidelines.logo,
-  digit: guidelines.theme.digit,
+  digit: guidelines.theme.blue,
   indigo: guidelines.theme.indigo,
   red: guidelines.theme.red,
   yellow: guidelines.theme.yellow,

@@ -16,8 +16,8 @@ const useStyles = makeStyles(theme => ({
   li: {
     padding: '0.625rem 1.125rem',
     textTransform: 'capitalize',
-    color: theme.color.text.darkGray,
-    textDecorationColor: theme.color.text.darkGray,
+    color: theme.color.global.darkGray,
+    textDecorationColor: theme.color.global.darkGray,
   },
   container: {
     width: '100%',
@@ -64,7 +64,7 @@ const Search = ({ variant, items, placeholder }) => {
                   .map((item, index) => (
                     <li
                       {...getItemProps({
-                        key: `searchItem${ index }`,
+                        key: `searchItem${index}`,
                         index,
                         item,
                         className: classes.li,

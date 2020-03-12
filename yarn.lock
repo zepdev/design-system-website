@@ -2553,10 +2553,10 @@
   dependencies:
     "@babel/runtime" "^7.2.0"
 
-"@zlab-de/zel-react@^1.0.19":
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-1.0.19.tgz#a07427fa1ac06040a2625839077758a5662403bd"
-  integrity sha512-NCKKJt1itHYNyvk6NycgRi7524pANeq0sUsoBz6tvIlhFIPqYX4c0lNrZazL1y13x149Byrrk0dIZPhlhjGO0w==
+"@zlab-de/zel-react@^1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-1.0.23.tgz#10fc0d4e5ae640455e8212700f464471910c94b7"
+  integrity sha512-CETbG6kykVNMRhTB1MQ/XyD35TVAtqR/j0b+lq8QTcZ2cG6vq/J/C/aM5+YNGA0gQSWEW0/oGfaOgWPDHdohJQ==
   dependencies:
     "@babel/runtime" "^7.4.4"
     clsx "^1.0.4"
@@ -17721,10 +17721,19 @@ yurnalist@^1.1.1:
     strip-ansi "^5.2.0"
     strip-bom "^4.0.0"
 
-zeppelin-element-library@^1.3.8:
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-1.3.8.tgz#aa6715bfe69326e3d5e72d361e3574c13603605d"
-  integrity sha512-8u8ccGP241YDpfyBbU5tf5cqhDvNJjoea9uMP5qaRqOPyYrsCmvbN7B8a3AsSNwJHAVw9g9SMKxqQcr417xAiA==
+zeppelin-element-library@^1.3.10:
+  version "1.3.10"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-1.3.10.tgz#42cba70b4b1a1f5b436ab94440e03f39844a3e87"
+  integrity sha512-yA6G4aQakmSDvin3B7DXc3MaE1HwoDoX7R6uERI9qD06Pumegb+mZkHXPUCgv/jyhAcKczWS23pyixHqUTLYlg==
+  dependencies:
+    json-to-scss "^1.5.0"
+    node-sass "^4.13.1"
+    zeppelin-element-library "^1.3.9"
+
+zeppelin-element-library@^1.3.9:
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-1.3.9.tgz#25e162fbe1be905283372cd69378a37feeb887d4"
+  integrity sha512-Y+ZGbNJdZBGyib2r9BY5heSPDSheiWQVPFFTh4YY0cnudMoK2a8kgLqn8pQFxzmeHmOc+6Q3iEdbDqbgZ2Ir9A==
   dependencies:
     json-to-scss "^1.5.0"
     node-sass "^4.13.1"

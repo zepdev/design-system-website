@@ -8,8 +8,8 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: theme.color.text.lightGray,
-    padding: `${ theme.space.xxl.rem }rem`,
+    backgroundColor: theme.color.global.lightGray,
+    padding: `${theme.space.xxl.rem}rem`,
   },
 }))
 

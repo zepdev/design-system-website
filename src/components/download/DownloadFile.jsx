@@ -11,16 +11,16 @@ import npmImg from '../../assets/images/npm.svg'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.space.l.rem * 2 }rem`,
-    background: theme.color.text.lightGray,
-    padding: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem * 2}rem`,
+    background: theme.status.gray,
+    padding: `${theme.space.l.rem}rem`,
     width: '100%',
     [theme.breakpoints.up('s')]: {
       width: 320,
     },
     [theme.breakpoints.up('l')]: {
       width: 450,
-      marginRight: `${ theme.space.l.rem }rem`,
+      marginRight: `${theme.space.l.rem}rem`,
     },
   },
   container: {
@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'space-between',
   },
   text: {
-    marginBottom: `${ theme.space.xl.rem * 2 }rem`,
+    marginBottom: `${theme.space.xl.rem * 2}rem`,
   },
   trademark: {
     marginBottom: 5,
@@ -46,10 +46,10 @@ const useStyles = makeStyles(theme => ({
     width: 46,
     height: 46,
     background: '#fff',
-    padding: `${ theme.space.xs.rem }rem`,
+    padding: `${theme.space.xs.rem}rem`,
   },
   icon: {
-    color: theme.color.text.lightGray,
+    color: theme.color.global.lightGray,
   },
 }))
 
@@ -79,7 +79,7 @@ const DownloadFile = ({ title, variant, href, download, ariaLabel, demo }) => {
   return (
     <div className={classes.root}>
       <p className={clsx('zep-typo--normal-body1', classes.text)}>
-        {variant === 'sketch' ? `Sketch ${ title }` : title}
+        {variant === 'sketch' ? `Sketch ${title}` : title}
       </p>
       <div
         className={clsx(classes.container, {
