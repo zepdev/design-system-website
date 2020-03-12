@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
     overflowX: 'auto',
   },
   table: {
-    marginBottom: `${theme.space.xxl.rem}rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   lowercase: {
     textTransform: 'lowercase',
@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
     textTransform: 'capitalize',
   },
   tabs: {
-    marginBottom: `${theme.space.l.rem}rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
     background: theme.status.gray,
   },
   inverse: {
@@ -61,7 +61,7 @@ function TypographyExample({ header, content, title }) {
                   [classes.capitalize]: elem !== 'rem' && elem !== 'px',
                   [classes.inverse]: value === 1,
                 })}
-                key={`header_${elem}`}
+                key={`header_${ elem }`}
               >
                 {elem}
               </TableCell>
@@ -71,14 +71,14 @@ function TypographyExample({ header, content, title }) {
             <TableBody>
               {Object.keys(content).map((elem, idx) => (
                 <TableRow
-                  key={`row_${elem}`}
+                  key={`row_${ elem }`}
                   color={'white'}
                   className={value === 1 ? classes.inverse : null}
                 >
                   {header.map((item, idx) =>
                     idx === 0 ? (
                       <TableCell
-                        key={`typography${idx}`}
+                        key={`typography${ idx }`}
                         scope="row"
                         component="th"
                       >
@@ -90,7 +90,7 @@ function TypographyExample({ header, content, title }) {
                           <span>
                             {Object.keys(content[elem][item]).map(p => (
                               <p
-                                key={`specification_${p}`}
+                                key={`specification_${ p }`}
                                 className={
                                   value === 1
                                     ? 'zep-typo--normal-body2-negative'
@@ -111,10 +111,10 @@ function TypographyExample({ header, content, title }) {
                       <TableCell
                         className={clsx({
                           [elem]: item === 'actual size' && value === 0,
-                          [`${elem}-negative`]:
+                          [`${ elem }-negative`]:
                             item === 'actual size' && value === 1,
                         })}
-                        key={`typography${idx}`}
+                        key={`typography${ idx }`}
                       >
                         {item === 'actual size' ? (
                           'lorem ipsum'
@@ -124,7 +124,7 @@ function TypographyExample({ header, content, title }) {
                           <span>
                             {Object.keys(content[elem][item]).map(p => (
                               <p
-                                key={`specification_${p}`}
+                                key={`specification_${ p }`}
                                 className={
                                   value === 1
                                     ? 'zep-typo--normal-body2-negative'
