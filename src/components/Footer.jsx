@@ -10,9 +10,9 @@ import TwitterIcon from './icons/TwitterIcon'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    borderTop: `1px solid ${theme.color.global.lightGray}`,
-    paddingTop: `${theme.space.xs.rem}rem`,
-    paddingBottom: `${theme.space.xs.rem}rem`,
+    borderTop: `1px solid ${ theme.color.global.lightGray }`,
+    paddingTop: `${ theme.space.xs.rem }rem`,
+    paddingBottom: `${ theme.space.xs.rem }rem`,
     [theme.breakpoints.up('xs')]: {
       paddingTop: '1.25rem',
       paddingBottom: '1.25rem',

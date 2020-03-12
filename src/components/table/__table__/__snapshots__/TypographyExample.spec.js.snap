@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ContentTable renders correctly 1`] = `
+exports[`TypographyExample renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>

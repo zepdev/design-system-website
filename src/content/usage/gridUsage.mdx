@@ -3,7 +3,7 @@ label: gridUsage
 title: Grid Usage
 ---
 
-import ContentTable from '../../components/table/ContentTable'
+import TypographyExample from '../../components/table/TypographyExample'
 import { grid } from 'zeppelin-element-library/guidelines.json'
 import GridUsageExample from '../../components/grid/GridUsageExample'
 import GridImage from '../../components/grid/GridImage'
@@ -85,7 +85,7 @@ The width of the columns is always a fixed percentage value, depending on the sc
 
 ## What class to use for colum width of 25% from total grid width?
 
-<ContentTable
+<TypographyExample
   title="basics grid data"
   header={['identifier', 'screensize', 'columns', 'calculation', 'class']}
   content={{
@@ -248,44 +248,45 @@ Change the vertical alignment of columns with the addition of modifiers on **zep
 
 ### Vertical Alignment Default: 'zep-grid\_\_row' (no modifier)
 
-This corresponds to the flexbox = align-items: 'stretch'. No modifer needs to be added to this class as it is the default setting.
+This corresponds to the flexbox = align-items: 'stretch'. No modifer needs to be added to this class as it is the default setting.<GridUsageExample
+rows={[
+{
+cols: [
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text:
+'xxs=1 xs=1 m=2 l=3
 
-<GridUsageExample
-  rows={[
-    {
-      cols: [
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text:
-            'xxs=1 xs=1 m=2 l=3<br>with more than one line<br>of text in this column',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3',
-        },
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=1 m=2 l=3',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3',
-        },
-      ],
-    },
-  ]}
+<br>with more than one line
+<br>of text in this column',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3',
+},
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=1 m=2 l=3',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3',
+},
+],
+},
+]}
 />
 
 ```html
@@ -318,45 +319,46 @@ This corresponds to the flexbox = align-items: 'stretch'. No modifer needs to be
 
 ### Vertical Alignment Bottom ='zep-grid\_\_row--align-items-flex-end'
 
-This corresponds to the flexbox = align-items: 'flex-end'.
+This corresponds to the flexbox = align-items: 'flex-end'.<GridUsageExample
+rows={[
+{
+cols: [
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text:
+'xxs=1 xs=1 m=2 l=3
 
-<GridUsageExample
-  rows={[
-    {
-      cols: [
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text:
-            'xxs=1 xs=1 m=2 l=3<br>with more than one line<br>of text in this column',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3',
-        },
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=1 m=2 l=3',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3',
-        },
-      ],
-      align: 'flex-end',
-    },
-  ]}
+<br>with more than one line
+<br>of text in this column',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3',
+},
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=1 m=2 l=3',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3',
+},
+],
+align: 'flex-end',
+},
+]}
 />
 
 ```html
@@ -389,45 +391,46 @@ This corresponds to the flexbox = align-items: 'flex-end'.
 
 ### Vertical Alignment Center ='zep-grid\_\_row--align-items-center'
 
-This corresponds to the flexbox = align-items: 'center'.
+This corresponds to the flexbox = align-items: 'center'.<GridUsageExample
+rows={[
+{
+cols: [
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text:
+'xxs=1 xs=1 m=2 l=3
 
-<GridUsageExample
-  rows={[
-    {
-      cols: [
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text:
-            'xxs=1 xs=1 m=2 l=3<br>with more than one line<br>of text in this column',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3',
-        },
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=1 m=2 l=3',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3',
-        },
-      ],
-      align: 'center',
-    },
-  ]}
+<br>with more than one line
+<br>of text in this column',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3',
+},
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=1 m=2 l=3',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3',
+},
+],
+align: 'center',
+},
+]}
 />
 
 ```html
@@ -460,46 +463,47 @@ This corresponds to the flexbox = align-items: 'center'.
 
 ### Vertical Alignment Baseline = 'zep-grid\_\_row--align-items-baseline'
 
-This corresponds to the flexbox = align-items: 'baseline'.
+This corresponds to the flexbox = align-items: 'baseline'.<GridUsageExample
+rows={[
+{
+cols: [
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text:
+'xxs=1 xs=1 m=2 l=3
 
-<GridUsageExample
-  rows={[
-    {
-      cols: [
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text:
-            'xxs=1 xs=1 m=2 l=3<br>with more than one line<br>of text in this column',
-          inlineStyle: { paddingTop: 30 },
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3',
-        },
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=1 m=2 l=3',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3',
-        },
-      ],
-      align: 'baseline',
-    },
-  ]}
+<br>with more than one line
+<br>of text in this column',
+inlineStyle: { paddingTop: 30 },
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3',
+},
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=1 m=2 l=3',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3',
+},
+],
+align: 'baseline',
+},
+]}
 />
 
 ```html
@@ -532,47 +536,48 @@ This corresponds to the flexbox = align-items: 'baseline'.
 
 ### Vertical Alignment - Individual
 
-For individual vertical alignment of columns, use classes with alignment modifiers on the column elements itself (ie, 'zep-grid\_\_col--align-self-flex-start').
+For individual vertical alignment of columns, use classes with alignment modifiers on the column elements itself (ie, 'zep-grid\_\_col--align-self-flex-start').<GridUsageExample
+rows={[
+{
+cols: [
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text:
+'xxs=1 xs=1 m=2 l=3 / stretch
 
-<GridUsageExample
-  rows={[
-    {
-      cols: [
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text:
-            'xxs=1 xs=1 m=2 l=3 / stretch<br>with more than one line<br>of text in this column',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3 / flex-start',
-          align: 'flex-start',
-        },
-        {
-          xxs: 1,
-          xs: 1,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=1 m=2 l=3 / center',
-          align: 'center',
-        },
-        {
-          xxs: 1,
-          xs: 2,
-          m: 2,
-          l: 3,
-          text: 'xxs=1 xs=2 m=2 l=3 / flex-end',
-          align: 'flex-end',
-        },
-      ],
-    },
-  ]}
+<br>with more than one line
+<br>of text in this column',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3 / flex-start',
+align: 'flex-start',
+},
+{
+xxs: 1,
+xs: 1,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=1 m=2 l=3 / center',
+align: 'center',
+},
+{
+xxs: 1,
+xs: 2,
+m: 2,
+l: 3,
+text: 'xxs=1 xs=2 m=2 l=3 / flex-end',
+align: 'flex-end',
+},
+],
+},
+]}
 />
 
 ```html

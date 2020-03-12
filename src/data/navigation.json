@@ -7,7 +7,7 @@
       }
     }
   },
-  "guidelines": {
+  "guideline": {
     "title": "Guidelines",
     "subnav": {
       "api": {
@@ -16,7 +16,7 @@
       "color": {
         "title": "Color"
       },
-      "logo": {
+      "logos": {
         "title": "Logo"
       },
       "icons": {

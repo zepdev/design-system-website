@@ -8,11 +8,11 @@ import ElementUsage from './ElementUsage'
 
 const useStyles = makeStyles(theme => ({
   tabs: {
-    marginBottom: `${theme.space.xxl.rem}rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
     background: theme.status.gray,
   },
   text: {
-    marginBottom: `${theme.space.l.rem}rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
     textTransform: 'capitalize',
   },
 }))

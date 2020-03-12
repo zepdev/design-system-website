@@ -108,7 +108,7 @@ function ObjectEntry(props) {
   )
 }
 
-function Tree() {
+function Api() {
   const classes = useStyles()
 
   return (
@@ -132,4 +132,4 @@ function Tree() {
   )
 }
 
-export default Tree
+export default Api

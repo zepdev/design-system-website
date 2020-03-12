@@ -25,18 +25,19 @@ const useStyles = makeStyles(theme => ({
   },
   tabs: {
     marginBottom: `${theme.space.l.rem}rem`,
+    background: theme.status.gray,
   },
   inverse: {
     background: '#000',
-    color: '#fff',
+    color: theme.color.fontNegative,
   },
   inverseLight: {
-    background: theme.color.global.lightGray,
-    color: '#fff)',
+    background: theme.logo.indigo,
+    color: theme.color.fontNegative,
   },
 }))
 
-const ContentTable = ({ header, content, title }) => {
+function TypographyExample({ header, content, title }) {
   const [value, setValue] = useState(0)
 
   const classes = useStyles()
@@ -71,14 +72,8 @@ const ContentTable = ({ header, content, title }) => {
               {Object.keys(content).map((elem, idx) => (
                 <TableRow
                   key={`row_${elem}`}
-                  color={idx % 2 === 0 ? 'white' : 'gray'}
-                  className={
-                    value === 1
-                      ? idx % 2 === 0
-                        ? classes.inverseLight
-                        : classes.inverse
-                      : null
-                  }
+                  color={'white'}
+                  className={value === 1 ? classes.inverse : null}
                 >
                   {header.map((item, idx) =>
                     idx === 0 ? (
@@ -158,10 +153,10 @@ const ContentTable = ({ header, content, title }) => {
   )
 }
 
-ContentTable.propTypes = {
+TypographyExample.propTypes = {
   header: PropTypes.array.isRequired,
   content: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
 }
 
-export default ContentTable
+export default TypographyExample

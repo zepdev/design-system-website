@@ -1,0 +1,58 @@
+---
+label: typography
+title: Typography
+---
+
+import TypographySection from '../../components/guidelines/TypographySection.jsx'
+import TypographyExample from '../../components/table/TypographyExample.jsx'
+import { typography } from '@zlab-de/zel-react/guidelines.json'
+
+# Typography
+
+As of Version 1.0.0, ZDS now uses only Roboto fonts; **Roboto (light: 300, regular: 400, medium: 500, and bold: 700)** and **Roboto Condensed (regular: 400, bold: 700)**. There are three typos of font styles; **Normal, Bold, and Display**.
+
+All typography components have a black ('positive') and a white verison ('negative'). Black will be the default, the use of white needs a modifier to the css name **(-negative)**.
+
+---
+
+## Typefaces
+
+<TypographySection />
+
+---
+
+## Basics
+
+<TypographyExample
+  title="basics typography variations"
+  header={['specification', 'value']}
+  content={typography.basics}
+/>
+
+---
+
+## Typography Scales
+
+### Normal Sizes
+
+<TypographyExample
+  title="normal typography variations"
+  header={['name', 'rem', 'px', 'specifications', 'actual size']}
+  content={typography.headings.normal}
+/>
+
+### Normal Sizes: Bold
+
+<TypographyExample
+  title="normal typography variations"
+  header={['name', 'rem', 'px', 'specifications', 'actual size']}
+  content={typography.headings.bold}
+/>
+
+### Display Sizes
+
+<TypographyExample
+  title="display typography variations"
+  header={['name', 'rem', 'px', 'specifications', 'actual size']}
+  content={typography.headings.display}
+/>

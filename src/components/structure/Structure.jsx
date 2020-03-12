@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: theme.color.global.lightGray,
-    padding: `${theme.space.xxl.rem}rem`,
+    padding: `${ theme.space.xxl.rem }rem`,
   },
 }))
 

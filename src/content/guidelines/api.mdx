@@ -1,0 +1,71 @@
+---
+label: api
+title: API
+---
+
+import Api from '../../components/guidelines/Api.jsx'
+
+# guidelines.json
+
+The guidelines.json file is available through each npm package of the zeppelin-element-library (zeppelin-element-library, @zlab-de/zel-react and @zlab-de/zel-vue). It contains all of the content in the guidelines section as variables that can be accessed in javascript. The intent of this file is to help with styling.
+
+<Api />
+
+# Usage
+
+## React with Material-ui
+
+Simply modify the theme.js file according to Material-UI recommendations. Note that spacing and breakpoints is already taken by Material-UI and so you must rename them if you wish to use ZDS values.
+
+```jsx
+//theme.js
+import { createMuiTheme } from '@material-ui/core/styles'
+import guidelines from '@zlab-de/zel-react/guidelines.json'
+
+const theme = createMuiTheme({
+  palette: {
+    type: 'light',
+    primary: {
+      light: guidelines.theme.blue.secondary,
+      main: guidelines.theme.blue.primary,
+      dark: guidelines.theme.blue.primary,
+    },
+    error: { main: guidelines.color.support.alert },
+  },
+  status: {
+    gray: '#eceeef',
+  },
+  logo: guidelines.logo,
+  digit: guidelines.theme.blue,
+  indigo: guidelines.theme.indigo,
+  red: guidelines.theme.red,
+  yellow: guidelines.theme.yellow,
+  guidelines: guidelines,
+  space: guidelines.spacing.component,
+  color: guidelines.color,
+})
+
+export default theme
+```
+
+## React with React-JSS
+
+For example, in React one solution to sytling is React-JSS. You can pass in guideslines.json as the theme and then you will have access to spacing and colors directly in your css;
+
+```jsx
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+
+const useStyles = makeStyles(theme => ({
+  p: {
+    marginBottom: `${theme.space.xxl.rem}rem`,
+    color: theme.indigo.primary,
+  },
+})
+
+function MyComponent() {
+  return <p className={classes.p}>Hello World!</p>
+}
+
+export default withStyles(styles)(MyComponent)
+```

@@ -1,15 +1,15 @@
 import React from 'react'
 import { render } from '../../../../test-utils'
-import ContentTable from '../ContentTable'
+import TypographyExample from '../TypographyExample'
 
-describe('ContentTable', () => {
+describe('TypographyExample', () => {
   it('renders correctly', () => {
     const mockProps = {
       header: ['mockHeader1'],
       content: { item1: 'mockItem' },
       title: 'mockTitle',
     }
-    const component = render(<ContentTable {...mockProps} />)
+    const component = render(<TypographyExample {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

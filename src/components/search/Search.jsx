@@ -64,7 +64,7 @@ const Search = ({ variant, items, placeholder }) => {
                   .map((item, index) => (
                     <li
                       {...getItemProps({
-                        key: `searchItem${index}`,
+                        key: `searchItem${ index }`,
                         index,
                         item,
                         className: classes.li,

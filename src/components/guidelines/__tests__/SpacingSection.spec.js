@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from '../../../../test-utils'
-import Typography from '../Typography'
+import SpacingSection from '../SpacingSection'
 
-describe('Typography', () => {
+describe('SpacingSection', () => {
   it('renders correctly', () => {
-    const component = render(<Typography />)
+    const component = render(<SpacingSection />)
     expect(component).toMatchSnapshot()
   })
 })

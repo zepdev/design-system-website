@@ -8,8 +8,8 @@ const useStyles = makeStyles(theme => ({
     zIndex: 3,
     background: theme.color.white[84],
     transition: 'transform 0.2s',
-    borderRight: `1px solid ${theme.color.global.almostWhite}`,
-    paddingTop: `${theme.space.xl.rem}rem`,
+    borderRight: `1px solid ${ theme.color.global.almostWhite }`,
+    paddingTop: `${ theme.space.xl.rem }rem`,
   },
   hidden: {
     transform: 'translateX(-100%)',
@@ -32,7 +32,7 @@ const Sidebar = () => {
       <ul className={classes.list}>
         <SidebarNavItem item={{ title: 'Home' }} home />
         {Object.keys(navigation).map((elem, idx) => (
-          <SidebarNavItem key={`li-${idx}`} item={navigation[elem]} />
+          <SidebarNavItem key={`li-${ idx }`} item={navigation[elem]} />
         ))}
         <SidebarNavItem
           item={{ title: 'v0' }}
