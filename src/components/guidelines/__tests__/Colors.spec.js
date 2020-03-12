@@ -1,14 +1,14 @@
 import React from 'react'
 import { render } from '../../../../test-utils'
-import Colors from '../Colors'
+import Color from '../Color'
 
-describe('Colors', () => {
+describe('Color', () => {
   it('renders correctly', () => {
     const mockProps = {
       classes: {},
       section: 'primary',
     }
-    const component = render(<Colors {...mockProps} />)
+    const component = render(<Color {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

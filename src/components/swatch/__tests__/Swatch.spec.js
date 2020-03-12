@@ -7,7 +7,8 @@ jest.useFakeTimers()
 describe('Swatch', () => {
   it('renders correctly', () => {
     const mockProps = {
-      color: { name: 'name', hex: '#fff' },
+      name: 'name',
+      color: '#fff',
       classes: {},
     }
     const component = render(<Swatch {...mockProps} />)
@@ -29,7 +30,8 @@ describe('Swatch', () => {
       }
     })
     const mockProps = {
-      color: { name: 'name', hex: '#fff' },
+      name: 'name',
+      color: '#fff',
       classes: {},
     }
     const { getByTestId } = render(<Swatch {...mockProps} />)
@@ -44,7 +46,7 @@ describe('Swatch', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color.hex)
+    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color)
   })
 
   it('renders "Error!" if document.execCommand is not supported by browser', () => {
@@ -62,7 +64,8 @@ describe('Swatch', () => {
       }
     })
     const mockProps = {
-      color: { name: 'name', hex: '#fff' },
+      name: 'name',
+      color: '#fff',
       classes: {},
     }
     const { getByTestId } = render(<Swatch {...mockProps} />)
@@ -77,6 +80,6 @@ describe('Swatch', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color.hex)
+    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color)
   })
 })

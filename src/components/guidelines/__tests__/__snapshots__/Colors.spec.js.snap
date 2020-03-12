@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Colors renders correctly 1`] = `
+exports[`Color renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -87,9 +87,6 @@ Object {
         >
           RGB: #111111
         </p>
-        <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
-        />
       </div>
       <p
         class="makeStyles-text-4 zep-typo--normal-h1"
@@ -141,9 +138,6 @@ Object {
         >
           RGB: #EEEEEE
         </p>
-        <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
-        />
       </div>
       <p
         class="makeStyles-text-4 zep-typo--normal-h1"
@@ -159,6 +153,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(17, 17, 17);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -177,7 +172,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#111111
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -187,12 +182,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #111111
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            black
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #111111
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -200,6 +204,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(103, 103, 103);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -218,7 +223,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#676767
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -228,12 +233,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #676767
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            darkGray
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #676767
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -241,6 +255,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(152, 152, 152);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -259,7 +274,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#989898
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -269,12 +284,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #989898
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            lightGray
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #989898
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -282,6 +306,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(238, 238, 238);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -300,7 +325,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#EEEEEE
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -310,12 +335,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #EEEEEE
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            white
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #EEEEEE
+          </p>
         </div>
       </div>
       <p
@@ -332,6 +366,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(39, 22, 111);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -350,7 +385,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#27166f
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -360,12 +395,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #27166f
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            indigo
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #27166f
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -373,6 +417,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(233, 206, 164);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -391,7 +436,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#e9cea4
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -401,12 +446,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #e9cea4
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            sand
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #e9cea4
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -414,6 +468,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(78, 128, 149);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -432,7 +487,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#4e8095
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -442,12 +497,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #4e8095
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            steel
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #4e8095
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -455,6 +519,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(255, 231, 45);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -473,7 +538,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#FFE72D
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -483,12 +548,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #FFE72D
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            yellow
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #FFE72D
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -496,6 +570,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(251, 186, 0);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -514,7 +589,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#FBBA00
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -524,12 +599,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #FBBA00
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            orange
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #FBBA00
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -537,6 +621,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(221, 104, 106);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -555,7 +640,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#DD686A
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -565,12 +650,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #DD686A
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            red
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #DD686A
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -578,6 +672,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(148, 193, 28);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -596,7 +691,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#94C11C
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -606,12 +701,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #94C11C
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            greenLight
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #94C11C
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -619,6 +723,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(0, 167, 96);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -637,7 +742,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#00A760
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -647,12 +752,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #00A760
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            greenDark
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #00A760
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -660,6 +774,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(200, 211, 217);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -678,7 +793,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#C8D3D9
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -688,12 +803,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #C8D3D9
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            gray
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #C8D3D9
+          </p>
         </div>
       </div>
       <p
@@ -710,6 +834,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(255, 101, 98);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -728,7 +853,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#ff6562
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -738,12 +863,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #ff6562
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            alert
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #ff6562
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -751,6 +885,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(240, 173, 78);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -769,7 +904,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#f0ad4e
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -779,12 +914,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #f0ad4e
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            warning
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #f0ad4e
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -792,6 +936,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(92, 184, 92);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -810,7 +955,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#5cb85c
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -820,12 +965,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #5cb85c
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            success
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #5cb85c
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -833,6 +987,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(91, 192, 222);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -851,7 +1006,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#5bc0de
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -861,12 +1016,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #5bc0de
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            info
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #5bc0de
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -874,6 +1038,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(255, 226, 226);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -892,7 +1057,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#ffe2e2
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -902,12 +1067,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #ffe2e2
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            alertLighter
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #ffe2e2
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -915,6 +1089,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(252, 248, 227);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -933,7 +1108,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#fcf8e3
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -943,12 +1118,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #fcf8e3
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            warningLighter
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #fcf8e3
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -956,6 +1140,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(223, 240, 216);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -974,7 +1159,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#dff0d8
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -984,12 +1169,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #dff0d8
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            successLighter
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #dff0d8
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -997,6 +1191,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(217, 237, 247);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -1015,7 +1210,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#d9edf7
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1025,12 +1220,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #d9edf7
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            infoLighter
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #d9edf7
+          </p>
         </div>
       </div>
       <p
@@ -1047,6 +1251,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(2, 100, 102);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -1065,7 +1270,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#026466
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1075,12 +1280,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #026466
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            xing
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #026466
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -1088,6 +1302,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(66, 103, 178);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -1106,7 +1321,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#4267b2
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1116,12 +1331,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #4267b2
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            facebook
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #4267b2
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -1129,6 +1353,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(29, 161, 242);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -1147,7 +1372,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#1da1f2
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1157,12 +1382,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #1da1f2
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            twitter
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #1da1f2
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -1170,6 +1404,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(0, 119, 181);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -1188,7 +1423,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#0077b5
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1198,12 +1433,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #0077b5
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            linkedin
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #0077b5
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -1211,6 +1455,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(153, 198, 19);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -1229,7 +1474,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#99c613
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1239,12 +1484,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #99c613
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            kununu
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #99c613
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -1252,6 +1506,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(255, 0, 0);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -1270,7 +1525,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#ff0000
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1280,12 +1535,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #ff0000
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            youtube
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #ff0000
+          </p>
         </div>
         <div
           class="makeStyles-root-5"
@@ -1293,6 +1557,7 @@ Object {
           <button
             class="makeStyles-button-6 makeStyles-button-13"
             data-testid="swatchButton"
+            style="background: rgb(221, 75, 57);"
           >
             <span
               class="makeStyles-backdrop-7"
@@ -1311,7 +1576,7 @@ Object {
                 <title
                   id="title_copy"
                 >
-                  copy hex:undefined
+                  copy hex:#dd4b39
                 </title>
                 <path
                   d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1321,12 +1586,21 @@ Object {
               <span
                 class="makeStyles-buttonText-10 zep-typo--normal-h4"
                 data-testid="swatchText"
-              />
+              >
+                #dd4b39
+              </span>
             </span>
           </button>
           <p
             class="makeStyles-name-12 zep-typo--normal-body2"
-          />
+          >
+            googleplus
+          </p>
+          <p
+            class="makeStyles-text-11 zep-typo--normal-caption"
+          >
+            HEX: #dd4b39
+          </p>
         </div>
       </div>
     </div>
@@ -1414,9 +1688,6 @@ Object {
       >
         RGB: #111111
       </p>
-      <p
-        class="makeStyles-name-12 zep-typo--normal-body2"
-      />
     </div>
     <p
       class="makeStyles-text-4 zep-typo--normal-h1"
@@ -1468,9 +1739,6 @@ Object {
       >
         RGB: #EEEEEE
       </p>
-      <p
-        class="makeStyles-name-12 zep-typo--normal-body2"
-      />
     </div>
     <p
       class="makeStyles-text-4 zep-typo--normal-h1"
@@ -1486,6 +1754,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(17, 17, 17);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1504,7 +1773,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#111111
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1514,12 +1783,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #111111
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          black
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #111111
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1527,6 +1805,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(103, 103, 103);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1545,7 +1824,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#676767
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1555,12 +1834,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #676767
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          darkGray
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #676767
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1568,6 +1856,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(152, 152, 152);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1586,7 +1875,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#989898
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1596,12 +1885,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #989898
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          lightGray
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #989898
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1609,6 +1907,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(238, 238, 238);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1627,7 +1926,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#EEEEEE
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1637,12 +1936,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #EEEEEE
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          white
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #EEEEEE
+        </p>
       </div>
     </div>
     <p
@@ -1659,6 +1967,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(39, 22, 111);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1677,7 +1986,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#27166f
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1687,12 +1996,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #27166f
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          indigo
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #27166f
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1700,6 +2018,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(233, 206, 164);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1718,7 +2037,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#e9cea4
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1728,12 +2047,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #e9cea4
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          sand
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #e9cea4
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1741,6 +2069,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(78, 128, 149);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1759,7 +2088,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#4e8095
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1769,12 +2098,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #4e8095
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          steel
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #4e8095
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1782,6 +2120,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(255, 231, 45);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1800,7 +2139,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#FFE72D
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1810,12 +2149,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #FFE72D
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          yellow
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #FFE72D
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1823,6 +2171,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(251, 186, 0);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1841,7 +2190,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#FBBA00
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1851,12 +2200,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #FBBA00
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          orange
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #FBBA00
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1864,6 +2222,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(221, 104, 106);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1882,7 +2241,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#DD686A
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1892,12 +2251,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #DD686A
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          red
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #DD686A
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1905,6 +2273,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(148, 193, 28);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1923,7 +2292,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#94C11C
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1933,12 +2302,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #94C11C
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          greenLight
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #94C11C
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1946,6 +2324,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(0, 167, 96);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -1964,7 +2343,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#00A760
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -1974,12 +2353,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #00A760
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          greenDark
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #00A760
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -1987,6 +2375,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(200, 211, 217);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2005,7 +2394,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#C8D3D9
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2015,12 +2404,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #C8D3D9
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          gray
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #C8D3D9
+        </p>
       </div>
     </div>
     <p
@@ -2037,6 +2435,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(255, 101, 98);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2055,7 +2454,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#ff6562
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2065,12 +2464,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #ff6562
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          alert
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #ff6562
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2078,6 +2486,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(240, 173, 78);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2096,7 +2505,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#f0ad4e
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2106,12 +2515,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #f0ad4e
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          warning
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #f0ad4e
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2119,6 +2537,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(92, 184, 92);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2137,7 +2556,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#5cb85c
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2147,12 +2566,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #5cb85c
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          success
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #5cb85c
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2160,6 +2588,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(91, 192, 222);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2178,7 +2607,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#5bc0de
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2188,12 +2617,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #5bc0de
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          info
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #5bc0de
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2201,6 +2639,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(255, 226, 226);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2219,7 +2658,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#ffe2e2
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2229,12 +2668,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #ffe2e2
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          alertLighter
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #ffe2e2
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2242,6 +2690,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(252, 248, 227);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2260,7 +2709,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#fcf8e3
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2270,12 +2719,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #fcf8e3
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          warningLighter
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #fcf8e3
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2283,6 +2741,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(223, 240, 216);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2301,7 +2760,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#dff0d8
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2311,12 +2770,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #dff0d8
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          successLighter
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #dff0d8
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2324,6 +2792,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(217, 237, 247);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2342,7 +2811,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#d9edf7
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2352,12 +2821,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #d9edf7
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          infoLighter
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #d9edf7
+        </p>
       </div>
     </div>
     <p
@@ -2374,6 +2852,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(2, 100, 102);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2392,7 +2871,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#026466
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2402,12 +2881,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #026466
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          xing
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #026466
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2415,6 +2903,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(66, 103, 178);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2433,7 +2922,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#4267b2
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2443,12 +2932,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #4267b2
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          facebook
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #4267b2
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2456,6 +2954,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(29, 161, 242);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2474,7 +2973,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#1da1f2
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2484,12 +2983,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #1da1f2
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          twitter
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #1da1f2
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2497,6 +3005,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(0, 119, 181);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2515,7 +3024,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#0077b5
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2525,12 +3034,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #0077b5
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          linkedin
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #0077b5
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2538,6 +3056,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(153, 198, 19);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2556,7 +3075,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#99c613
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2566,12 +3085,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #99c613
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          kununu
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #99c613
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2579,6 +3107,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(255, 0, 0);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2597,7 +3126,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#ff0000
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2607,12 +3136,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #ff0000
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          youtube
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #ff0000
+        </p>
       </div>
       <div
         class="makeStyles-root-5"
@@ -2620,6 +3158,7 @@ Object {
         <button
           class="makeStyles-button-6 makeStyles-button-13"
           data-testid="swatchButton"
+          style="background: rgb(221, 75, 57);"
         >
           <span
             class="makeStyles-backdrop-7"
@@ -2638,7 +3177,7 @@ Object {
               <title
                 id="title_copy"
               >
-                copy hex:undefined
+                copy hex:#dd4b39
               </title>
               <path
                 d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
@@ -2648,12 +3187,21 @@ Object {
             <span
               class="makeStyles-buttonText-10 zep-typo--normal-h4"
               data-testid="swatchText"
-            />
+            >
+              #dd4b39
+            </span>
           </span>
         </button>
         <p
           class="makeStyles-name-12 zep-typo--normal-body2"
-        />
+        >
+          googleplus
+        </p>
+        <p
+          class="makeStyles-text-11 zep-typo--normal-caption"
+        >
+          HEX: #dd4b39
+        </p>
       </div>
     </div>
   </div>,

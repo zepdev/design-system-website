@@ -64,7 +64,7 @@ const createPath = elem => {
   return res
 }
 
-const Typefaces = () => {
+const Typography = () => {
   const classes = useStyles()
   return (
     <div className={classes.root}>
@@ -101,4 +101,4 @@ const Typefaces = () => {
   )
 }
 
-export default Typefaces
+export default Typography

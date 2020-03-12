@@ -10,17 +10,17 @@
   "guidelines": {
     "title": "Guidelines",
     "subnav": {
-      "json": {
-        "title": "Json"
+      "api": {
+        "title": "API"
       },
-      "global-color": {
-        "title": "Global Color"
+      "color": {
+        "title": "Color"
       },
       "logo": {
         "title": "Logo"
       },
-      "iconography": {
-        "title": "Iconography"
+      "icons": {
+        "title": "Icons"
       },
       "spacing": {
         "title": "Spacing"

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Typefaces renders correctly 1`] = `
+exports[`Typography renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>

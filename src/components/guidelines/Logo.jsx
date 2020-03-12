@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function Logos() {
+function Logo() {
   const [expanded, setExpanded] = useState(false)
 
   const classes = useStyles()
@@ -96,4 +96,4 @@ function Logos() {
   )
 }
 
-export default Logos
+export default Logo

@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function Colors() {
+function Color() {
   const [value, setValue] = useState(0)
 
   const classes = useStyles()
@@ -51,6 +51,7 @@ function Colors() {
                     <Swatch
                       color={color[section][elem]}
                       key={`swatch${ elem }`}
+                      name={elem}
                     />
                   ))}
                 </div>
@@ -64,4 +65,4 @@ function Colors() {
   )
 }
 
-export default Colors
+export default Color

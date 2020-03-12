@@ -117,7 +117,7 @@ const useStyles = makeStyles(theme => ({
     color: '#000',
   },
   ul: {
-    position: 'fixed',
+    position: 'absolute',
     width: 60,
     zIndex: 200,
     [theme.breakpoints.up('sm')]: {

@@ -1,13 +1,13 @@
 import React from 'react'
 import { render } from '../../../../test-utils'
-import Iconography from '../Iconography'
+import Icons from '../Icons'
 
-describe('Iconography', () => {
+describe('Icons', () => {
   it('renders correctly', () => {
     const mockProps = {
       section: 'action',
     }
-    const component = render(<Iconography {...mockProps} />)
+    const component = render(<Icons {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

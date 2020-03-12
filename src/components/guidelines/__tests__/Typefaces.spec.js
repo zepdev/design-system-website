@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from '../../../../test-utils'
-import Typefaces from '../Typefaces'
+import Typography from '../Typography'
 
-describe('Typefaces', () => {
+describe('Typography', () => {
   it('renders correctly', () => {
-    const component = render(<Typefaces />)
+    const component = render(<Typography />)
     expect(component).toMatchSnapshot()
   })
 })

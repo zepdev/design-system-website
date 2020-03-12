@@ -11,10 +11,10 @@ const useStyles = makeStyles(theme => ({
     flexDirection: 'column',
     flexBasis: '48%',
     marginBottom: `${ theme.space.xxl.rem }rem`,
-    [theme.breakpoints.up('s')]: {
+    [theme.breakpoints.up('sm')]: {
       flexBasis: '22%',
     },
-    [theme.breakpoints.up('m')]: {
+    [theme.breakpoints.up('md')]: {
       marginRight: `${ theme.space.m.rem }rem`,
     },
     [theme.breakpoints.up('xxl')]: {
@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme => ({
         opacity: 1,
       },
     },
-    [theme.breakpoints.up('s')]: {
+    [theme.breakpoints.up('sm')]: {
       height: '6rem',
     },
     [theme.breakpoints.up('xxl')]: {
@@ -89,7 +89,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function Swatch({ variant, color }) {
+function Swatch({ variant, color, name }) {
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
 
@@ -114,13 +114,13 @@ function Swatch({ variant, color }) {
       }, 2000)
     }
   }
-  const colorShown = variant === 'font' ? color : color.hex
+
   return (
     <div className={classes.root}>
       <ButtonBase
         className={classes.button}
-        style={{ background: colorShown }}
-        onClick={() => handleCopy(colorShown)}
+        style={{ background: color }}
+        onClick={() => handleCopy(color)}
         data-testid="swatchButton"
       >
         <span className={classes.backdrop} />
@@ -128,14 +128,14 @@ function Swatch({ variant, color }) {
           {!isTextCopied && (
             <CopyIcon
               className={classes.icon}
-              ariaLabel={`copy hex:${ colorShown }`}
+              ariaLabel={`copy hex:${ color }`}
             />
           )}
           <span
             className={clsx(classes.buttonText, 'zep-typo--normal-h4')}
             data-testid="swatchText"
           >
-            {isTextCopied ? 'Copied!' : copyError ? 'Error!' : colorShown}
+            {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color}
           </span>
         </span>
       </ButtonBase>
@@ -145,30 +145,20 @@ function Swatch({ variant, color }) {
           className={clsx(classes.text, 'zep-typo--normal-caption')}
         >{`RGB: ${ color }`}</p>
       )}
-      <p className={clsx(classes.name, 'zep-typo--normal-body2')}>
-        {color.name}
-      </p>
-      {color.hex && (
-        <p
-          className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`HEX: ${ color.hex }`}</p>
-      )}
-      {color.rgb && (
-        <p
-          className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`RGB: ${ color.rgb }`}</p>
-      )}
-      {color.type && (
-        <p
-          className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`Type: ${ color.type }`}</p>
+      {variant !== 'font' && (
+        <>
+          <p className={clsx(classes.name, 'zep-typo--normal-body2')}>{name}</p>
+          <p
+            className={clsx(classes.text, 'zep-typo--normal-caption')}
+          >{`HEX: ${ color }`}</p>
+        </>
       )}
     </div>
   )
 }
 
 Swatch.propTypes = {
-  color: PropTypes.object.isRequired,
+  color: PropTypes.string,
 }
 
 export default Swatch
