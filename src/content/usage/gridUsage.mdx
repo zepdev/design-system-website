@@ -3,7 +3,7 @@ label: gridUsage
 title: Grid Usage
 ---
 
-import TypographyExample from '../../components/table/TypographyExample'
+import ContentTable from '../../components/table/ContentTable'
 import { grid } from 'zeppelin-element-library/guidelines.json'
 import GridUsageExample from '../../components/grid/GridUsageExample'
 import GridImage from '../../components/grid/GridImage'
@@ -31,7 +31,6 @@ Grid column breakpoint are based on minimum and maximum width media queries, and
 This example creates 3 columns using predefined grid classes, that will change width on differnt breakpoint.
 The width of the columns is always a fixed percentage value, depending on the screensize and the related amount of colums.
 
-```
 <GridUsageExample
   rows={[
     {
@@ -61,7 +60,6 @@ The width of the columns is always a fixed percentage value, depending on the sc
     },
   ]}
 />
-```
 
 ```html
 <div class="zep-grid">
@@ -87,7 +85,7 @@ The width of the columns is always a fixed percentage value, depending on the sc
 
 ## What class to use for colum width of 25% from total grid width?
 
-<TypographyExample
+<ContentTable
   title="basics grid data"
   header={['identifier', 'screensize', 'columns', 'calculation', 'class']}
   content={{
@@ -476,7 +474,6 @@ m: 2,
 l: 3,
 text:
 'xxs=1 xs=1 m=2 l=3
-
 <br>with more than one line
 <br>of text in this column',
 inlineStyle: { paddingTop: 30 },
@@ -538,7 +535,9 @@ align: 'baseline',
 
 ### Vertical Alignment - Individual
 
-For individual vertical alignment of columns, use classes with alignment modifiers on the column elements itself (ie, 'zep-grid\_\_col--align-self-flex-start').<GridUsageExample
+For individual vertical alignment of columns, use classes with alignment modifiers on the column elements itself (ie, 'zep-grid\_\_col--align-self-flex-start').
+
+<GridUsageExample
 rows={[
 {
 cols: [
@@ -549,7 +548,6 @@ m: 2,
 l: 3,
 text:
 'xxs=1 xs=1 m=2 l=3 / stretch
-
 <br>with more than one line
 <br>of text in this column',
 },
