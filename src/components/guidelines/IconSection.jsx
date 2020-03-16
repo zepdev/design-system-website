@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React, { useState, Fragment } from 'react'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import ButtonBase from '../button/ButtonBase'
 import DownloadIcon from '../icons/DownloadIcon'
 import DownloadContainer from '../download/DownloadContainer'
@@ -13,24 +13,24 @@ import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
 import { iconography } from '../../data/elements'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   tabs: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   text: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
   },
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
     display: 'flex',
     flexWrap: 'wrap',
   },
   container: {
     width: '50%',
     position: 'relative',
-    background: theme.color.gray.grayMid.hex,
+    background: theme.status.gray,
     padding: 0,
-    border: `1px solid ${ theme.color.gray.white.hex }`,
+    border: '1px solid #FFF',
     textAlign: 'center',
     '&:hover, &:focus': {
       zIndex: 1,
@@ -46,19 +46,13 @@ const useStyles = createUseStyles(theme => ({
       display: 'block',
       paddingBottom: '100%',
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    container: {
+    [theme.breakpoints.up('s')]: {
       width: '25%',
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.l })`]: {
-    container: {
+    [theme.breakpoints.up('l')]: {
       width: '16.6%',
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.xl })`]: {
-    container: {
+    [theme.breakpoints.up('xl')]: {
       width: '12.5%',
     },
   },
@@ -68,7 +62,7 @@ const useStyles = createUseStyles(theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.theme.indigo.primary,
+    backgroundColor: theme.indigo.primary,
     opacity: 0,
     transition: 0.5,
     zIndex: 1,
@@ -83,22 +77,22 @@ const useStyles = createUseStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     opacity: 0,
-    color: theme.color.gray.white.hex,
+    color: '#fff',
   },
   icon: {
-    color: theme.color.gray.white.hex,
+    color: '#fff',
     zIndex: 2,
   },
   content: {
     position: 'absolute',
     height: '100%',
     width: '100%',
-    padding: `${ theme.spacing.component.s.rem }rem`,
+    padding: `${ theme.space.s.rem }rem`,
   },
   name: {
     textAlign: 'left',
     fontSize: 12,
-    color: theme.color.gray.black.hex,
+    color: '#000',
   },
   img: {
     width: 32,
@@ -111,10 +105,9 @@ const useStyles = createUseStyles(theme => ({
   },
 }))
 
-const Iconography = ({ ...props }) => {
+function IconsSection() {
   const [value, setValue] = useState(0)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+  const classes = useStyles()
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -235,4 +228,4 @@ const Iconography = ({ ...props }) => {
   )
 }
 
-export default Iconography
+export default IconsSection

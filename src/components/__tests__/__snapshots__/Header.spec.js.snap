@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="root-0-2-1"
+        class="makeStyles-root-1"
       >
         <button
-          class="button-0-2-2 zep-button ButtonBase-button-0-2-11"
+          class="makeStyles-button-8 zep-button makeStyles-button-14"
           data-testid="mobileMenuButton"
         >
           <svg
@@ -31,13 +31,13 @@ Object {
           </svg>
         </button>
         <a
-          class="link-0-2-4"
+          class="makeStyles-link-9"
           href="/"
           title="home"
         >
           <svg
             aria-labelledby="title_logo"
-            class="logo-0-2-5"
+            class="makeStyles-logo-10"
             height="100%"
             viewBox="0 0 119.1 19.1"
             width="100%"
@@ -117,115 +117,120 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           </svg>
         </a>
         <div
-          class="searchbar-0-2-6"
+          class="makeStyles-container-13"
         >
           <div
-            role="search"
+            class="makeStyles-searchbar-11"
           >
             <div
-              aria-expanded="false"
-              aria-haspopup="listbox"
-              aria-labelledby="downshift-0-label"
-              class="container-0-2-14 zep-search"
-              role="combobox"
+              role="search"
             >
-              <label
-                class="zep-visually-hidden"
-                for="downshift-0-input"
-                id="downshift-0-label"
-              >
-                Search
-              </label>
-              <input
-                aria-autocomplete="list"
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
                 aria-labelledby="downshift-0-label"
-                autocomplete="off"
-                class="zep-search__input"
-                id="downshift-0-input"
-                placeholder="Search"
-                value=""
-              />
-              <svg
-                aria-labelledby="title_search"
-                class="zep-search__icon"
-                height="32"
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
+                class="makeStyles-container-17 zep-search"
+                role="combobox"
               >
-                <title
-                  id="title_search"
+                <label
+                  class="zep-visually-hidden"
+                  for="downshift-0-input"
+                  id="downshift-0-label"
                 >
                   Search
-                </title>
-                <path
-                  d="M9.5,3 C13.0898509,3 16,5.91014913 16,9.5 C16,11.11 15.41,12.59 14.44,13.73 L14.71,14 L15.5,14 L20.5,19 L19,20.5 L14,15.5 L14,14.71 L13.73,14.44 C12.59,15.41 11.11,16 9.5,16 C5.91014913,16 3,13.0898509 3,9.5 C3,5.91014913 5.91014913,3 9.5,3 L9.5,3 Z M9.5,5 C7,5 5,7 5,9.5 C5,12 7,14 9.5,14 C12,14 14,12 14,9.5 C14,7 12,5 9.5,5 Z"
-                  fill="currentColor"
+                </label>
+                <input
+                  aria-autocomplete="list"
+                  aria-labelledby="downshift-0-label"
+                  autocomplete="off"
+                  class="zep-search__input"
+                  id="downshift-0-input"
+                  placeholder="Search"
+                  value=""
                 />
-              </svg>
+                <svg
+                  aria-labelledby="title_search"
+                  class="zep-search__icon"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_search"
+                  >
+                    Search
+                  </title>
+                  <path
+                    d="M9.5,3 C13.0898509,3 16,5.91014913 16,9.5 C16,11.11 15.41,12.59 14.44,13.73 L14.71,14 L15.5,14 L20.5,19 L19,20.5 L14,15.5 L14,14.71 L13.73,14.44 C12.59,15.41 11.11,16 9.5,16 C5.91014913,16 3,13.0898509 3,9.5 C3,5.91014913 5.91014913,3 9.5,3 L9.5,3 Z M9.5,5 C7,5 5,7 5,9.5 C5,12 7,14 9.5,14 C12,14 14,12 14,9.5 C14,7 12,5 9.5,5 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          class="container-0-2-8"
-        >
-          <p
-            class="menuText-0-2-10 zep-typo-normal-body1"
+          <label
+            class="makeStyles-label-22"
+            for="downshift-1-toggle-button"
+            id="downshift-1-label"
           >
-            Theme:
-          </p>
-          <div
-            aria-expanded="false"
-            aria-haspopup="listbox"
-            aria-labelledby="downshift-1-label"
-            role="combobox"
-          >
-            <label
-              class="zep-visually-hidden"
-              for="zep-select"
-              id="downshift-1-label"
-            >
-              Theme
-            </label>
+            Theme
+          </label>
+          <div>
             <button
               aria-expanded="false"
-              aria-haspopup="true"
-              class="zep-select__button menuButton-0-2-21"
-              data-toggle="dropdown"
-              id="zep-select"
-              type="button"
+              aria-haspopup="listbox"
+              aria-labelledby="downshift-1-label downshift-1-toggle-button"
+              class="makeStyles-button-29 zep-select__button"
+              id="downshift-1-toggle-button"
             >
-              <span
-                class="circleContainer-0-2-22"
+              <p
+                class="makeStyles-container-21"
+                style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
               >
                 <span
-                  class="circle-0-2-15"
-                />
-              </span>
+                  class="makeStyles-circleContainer-23"
+                >
+                  <span
+                    class="makeStyles-circle-24 makeStyles-indigo-25"
+                  />
+                </span>
+                <span
+                  class="makeStyles-hiddenXS-19"
+                >
+                  Indigo
+                </span>
+              </p>
               <svg
-                aria-labelledby="title_launch"
-                class="dropdownIcon-0-2-20 zep-select__icon"
+                class="makeStyles-hiddenXS-19 zep-select__icon"
                 height="32"
-                viewBox="0 0 24 24"
+                viewBox="0 0 32 32"
                 width="32"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <title
-                  id="title_launch"
-                >
-                  Navigation Dropdown
+                <title>
+                  zepicons-navigation-dropdown
                 </title>
                 <path
-                  d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
-                  fill="currentColor"
+                  d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"
                 />
               </svg>
             </button>
+            <ul
+              aria-labelledby="downshift-1-label"
+              class="makeStyles-ul-32 zep-select__list"
+              id="downshift-1-menu"
+              role="listbox"
+              tabindex="-1"
+            />
+            <div
+              tabindex="0"
+            />
           </div>
         </div>
       </header>
       <div
-        class="searchMobile-0-2-7"
+        class="makeStyles-searchMobile-12"
       >
         <div
           role="search"
@@ -234,7 +239,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             aria-expanded="false"
             aria-haspopup="listbox"
             aria-labelledby="downshift-2-label"
-            class="container-0-2-14 zep-search"
+            class="makeStyles-container-17 zep-search"
             role="combobox"
           >
             <label
@@ -278,10 +283,10 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
   </body>,
   "container": <div>
     <header
-      class="root-0-2-1"
+      class="makeStyles-root-1"
     >
       <button
-        class="button-0-2-2 zep-button ButtonBase-button-0-2-11"
+        class="makeStyles-button-8 zep-button makeStyles-button-14"
         data-testid="mobileMenuButton"
       >
         <svg
@@ -303,13 +308,13 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         </svg>
       </button>
       <a
-        class="link-0-2-4"
+        class="makeStyles-link-9"
         href="/"
         title="home"
       >
         <svg
           aria-labelledby="title_logo"
-          class="logo-0-2-5"
+          class="makeStyles-logo-10"
           height="100%"
           viewBox="0 0 119.1 19.1"
           width="100%"
@@ -389,115 +394,120 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         </svg>
       </a>
       <div
-        class="searchbar-0-2-6"
+        class="makeStyles-container-13"
       >
         <div
-          role="search"
+          class="makeStyles-searchbar-11"
         >
           <div
-            aria-expanded="false"
-            aria-haspopup="listbox"
-            aria-labelledby="downshift-0-label"
-            class="container-0-2-14 zep-search"
-            role="combobox"
+            role="search"
           >
-            <label
-              class="zep-visually-hidden"
-              for="downshift-0-input"
-              id="downshift-0-label"
-            >
-              Search
-            </label>
-            <input
-              aria-autocomplete="list"
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
               aria-labelledby="downshift-0-label"
-              autocomplete="off"
-              class="zep-search__input"
-              id="downshift-0-input"
-              placeholder="Search"
-              value=""
-            />
-            <svg
-              aria-labelledby="title_search"
-              class="zep-search__icon"
-              height="32"
-              viewBox="0 0 24 24"
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
+              class="makeStyles-container-17 zep-search"
+              role="combobox"
             >
-              <title
-                id="title_search"
+              <label
+                class="zep-visually-hidden"
+                for="downshift-0-input"
+                id="downshift-0-label"
               >
                 Search
-              </title>
-              <path
-                d="M9.5,3 C13.0898509,3 16,5.91014913 16,9.5 C16,11.11 15.41,12.59 14.44,13.73 L14.71,14 L15.5,14 L20.5,19 L19,20.5 L14,15.5 L14,14.71 L13.73,14.44 C12.59,15.41 11.11,16 9.5,16 C5.91014913,16 3,13.0898509 3,9.5 C3,5.91014913 5.91014913,3 9.5,3 L9.5,3 Z M9.5,5 C7,5 5,7 5,9.5 C5,12 7,14 9.5,14 C12,14 14,12 14,9.5 C14,7 12,5 9.5,5 Z"
-                fill="currentColor"
+              </label>
+              <input
+                aria-autocomplete="list"
+                aria-labelledby="downshift-0-label"
+                autocomplete="off"
+                class="zep-search__input"
+                id="downshift-0-input"
+                placeholder="Search"
+                value=""
               />
-            </svg>
+              <svg
+                aria-labelledby="title_search"
+                class="zep-search__icon"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_search"
+                >
+                  Search
+                </title>
+                <path
+                  d="M9.5,3 C13.0898509,3 16,5.91014913 16,9.5 C16,11.11 15.41,12.59 14.44,13.73 L14.71,14 L15.5,14 L20.5,19 L19,20.5 L14,15.5 L14,14.71 L13.73,14.44 C12.59,15.41 11.11,16 9.5,16 C5.91014913,16 3,13.0898509 3,9.5 C3,5.91014913 5.91014913,3 9.5,3 L9.5,3 Z M9.5,5 C7,5 5,7 5,9.5 C5,12 7,14 9.5,14 C12,14 14,12 14,9.5 C14,7 12,5 9.5,5 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        class="container-0-2-8"
-      >
-        <p
-          class="menuText-0-2-10 zep-typo-normal-body1"
+        <label
+          class="makeStyles-label-22"
+          for="downshift-1-toggle-button"
+          id="downshift-1-label"
         >
-          Theme:
-        </p>
-        <div
-          aria-expanded="false"
-          aria-haspopup="listbox"
-          aria-labelledby="downshift-1-label"
-          role="combobox"
-        >
-          <label
-            class="zep-visually-hidden"
-            for="zep-select"
-            id="downshift-1-label"
-          >
-            Theme
-          </label>
+          Theme
+        </label>
+        <div>
           <button
             aria-expanded="false"
-            aria-haspopup="true"
-            class="zep-select__button menuButton-0-2-21"
-            data-toggle="dropdown"
-            id="zep-select"
-            type="button"
+            aria-haspopup="listbox"
+            aria-labelledby="downshift-1-label downshift-1-toggle-button"
+            class="makeStyles-button-29 zep-select__button"
+            id="downshift-1-toggle-button"
           >
-            <span
-              class="circleContainer-0-2-22"
+            <p
+              class="makeStyles-container-21"
+              style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
             >
               <span
-                class="circle-0-2-15"
-              />
-            </span>
+                class="makeStyles-circleContainer-23"
+              >
+                <span
+                  class="makeStyles-circle-24 makeStyles-indigo-25"
+                />
+              </span>
+              <span
+                class="makeStyles-hiddenXS-19"
+              >
+                Indigo
+              </span>
+            </p>
             <svg
-              aria-labelledby="title_launch"
-              class="dropdownIcon-0-2-20 zep-select__icon"
+              class="makeStyles-hiddenXS-19 zep-select__icon"
               height="32"
-              viewBox="0 0 24 24"
+              viewBox="0 0 32 32"
               width="32"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title
-                id="title_launch"
-              >
-                Navigation Dropdown
+              <title>
+                zepicons-navigation-dropdown
               </title>
               <path
-                d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
-                fill="currentColor"
+                d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"
               />
             </svg>
           </button>
+          <ul
+            aria-labelledby="downshift-1-label"
+            class="makeStyles-ul-32 zep-select__list"
+            id="downshift-1-menu"
+            role="listbox"
+            tabindex="-1"
+          />
+          <div
+            tabindex="0"
+          />
         </div>
       </div>
     </header>
     <div
-      class="searchMobile-0-2-7"
+      class="makeStyles-searchMobile-12"
     >
       <div
         role="search"
@@ -506,7 +516,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="downshift-2-label"
-          class="container-0-2-14 zep-search"
+          class="makeStyles-container-17 zep-search"
           role="combobox"
         >
           <label

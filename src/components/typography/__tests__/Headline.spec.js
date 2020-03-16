@@ -1,19 +1,13 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from '../../../../test-utils'
 import Headline from '../Headline'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
 
 describe('Headline', () => {
   it('renders correctly', () => {
     const mockProps = {
       children: 'mockHeadline',
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <Headline {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<Headline {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

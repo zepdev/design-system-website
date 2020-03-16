@@ -9,45 +9,45 @@ import '@reach/skip-nav/styles.css'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
 import 'zeppelin-element-library/zel.css'
 // import '@zlab-de/zel-react/zel.css'
+import Grid from '@material-ui/core/Grid'
 import ZEL from 'zeppelin-element-library'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   content: {
     display: 'flex',
   },
   main: {
-    padding: `${ theme.spacing.component.l.rem }rem`,
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    main: {
-      padding: `${ theme.spacing.component.xxl.rem }rem`,
+    background: theme.color.white[84],
+    padding: `${ theme.space.l.rem }rem`,
+    [theme.breakpoints.up('s')]: {
+      padding: `${ theme.space.xxl.rem }rem`,
     },
   },
   pStyled: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${ theme.color.gray.grayLighter.hex }`,
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    borderTop: `1px solid ${ theme.color.global.lightGray }`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
     width: '100%',
-    borderColor: theme.color.gray.grayLighter.hex,
+    borderColor: theme.color.global.lightGray,
   },
   hStyled: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
   },
   h1Styled: {
-    marginBottom: `${ theme.spacing.component.m.rem }rem`,
+    marginBottom: `${ theme.space.m.rem }rem`,
   },
   aStyled: {
-    color: theme.theme.indigo.primary,
+    color: theme.indigo.primary,
   },
   strongStyled: {
     fontWeight: 'bold',
@@ -65,7 +65,7 @@ const useStyles = createUseStyles(theme => ({
     alignItems: 'center',
   },
   button: {
-    marginRight: `${ theme.spacing.layout.s.rem }rem`,
+    marginRight: `${ theme.space.s.rem }rem`,
     color: theme.color.font,
   },
 }))
@@ -78,16 +78,13 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
   })
 }
 
-function Layout({ children, ...props }) {
+function Layout({ children }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [zelTheme, setTheme] = useState('indigo')
   const [tracking, setTracking] = useState(true)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+  const classes = useStyles()
 
-  // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
-    // refreshed ZEL on view change
     ZEL.refresh()
   })
 
@@ -183,7 +180,13 @@ function Layout({ children, ...props }) {
               <div>
                 <SkipNavContent />
                 <MDXProvider components={components}>
-                  <main className={classes.main}>{children}</main>
+                  <main className={classes.main}>
+                    <Grid container spacing={3} justify="center">
+                      <Grid item xs={12} sm={10} lg={8} xl={8}>
+                        {children}
+                      </Grid>
+                    </Grid>
+                  </main>
                 </MDXProvider>
                 <Snackbar
                   anchorOrigin={{

@@ -1,21 +1,19 @@
 import React from 'react'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import OpenInNewIcon from '../icons/OpenInNewIcon'
 import guidelines from 'zeppelin-element-library/guidelines.json'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   container: {
     flexBasis: '100%',
-    paddingBottom: `${ theme.spacing.component.m.rem }rem`,
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    container: {
+    paddingBottom: `${ theme.space.m.rem }rem`,
+    [theme.breakpoints.up('s')]: {
       flexBasis: '48%',
       paddingBottom: 0,
     },
@@ -25,7 +23,7 @@ const useStyles = createUseStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     height: 136,
-    background: theme.color.gray.grayLighter.hex,
+    background: theme.status.gray,
   },
   title: {
     fontSize: 28,
@@ -34,12 +32,12 @@ const useStyles = createUseStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    background: theme.color.gray.grayLightest.hex,
-    paddingTop: theme.spacing.component.s.px,
-    paddingBottom: theme.spacing.component.s.px,
-    paddingLeft: theme.spacing.component.l.px,
-    paddingRight: theme.spacing.component.l.px,
-    borderTop: `1px solid ${ theme.color.gray.grayLight.hex }`,
+    background: theme.color.global.white,
+    paddingTop: theme.space.s.px,
+    paddingBottom: theme.space.s.px,
+    paddingLeft: theme.space.l.px,
+    paddingRight: theme.space.l.px,
+    borderTop: `1px solid ${ theme.status.gray }`,
   },
   text: {
     fontSize: 12,
@@ -48,7 +46,7 @@ const useStyles = createUseStyles(theme => ({
   link: {
     color: 'inherit',
     '&:hover': {
-      color: theme.theme.indigo.primary,
+      color: theme.indigo.primary,
     },
   },
 }))
@@ -66,9 +64,8 @@ const createPath = elem => {
   return res
 }
 
-const Typefaces = ({ ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+function TypographySection() {
+  const classes = useStyles()
   return (
     <div className={classes.root}>
       {Object.keys(guidelines.typography.typefaces).map((elem, idx) => (
@@ -104,4 +101,4 @@ const Typefaces = ({ ...props }) => {
   )
 }
 
-export default Typefaces
+export default TypographySection

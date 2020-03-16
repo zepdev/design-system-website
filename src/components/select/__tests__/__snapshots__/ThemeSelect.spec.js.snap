@@ -5,104 +5,124 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        aria-expanded="false"
-        aria-haspopup="listbox"
-        aria-labelledby="downshift-0-label"
-        role="combobox"
-      >
-        <label
-          class="zep-visually-hidden"
-          for="zep-select"
-          id="downshift-0-label"
-        >
-          Theme
-        </label>
-        <button
-          aria-expanded="false"
-          aria-haspopup="true"
-          class="zep-select__button menuButton-0-2-7"
-          data-toggle="dropdown"
-          id="zep-select"
-          type="button"
-        >
-          <span
-            class="circleContainer-0-2-8"
-          >
-            <span
-              class="circle-0-2-1"
-            />
-          </span>
-          <svg
-            aria-labelledby="title_launch"
-            class="dropdownIcon-0-2-6 zep-select__icon"
-            height="32"
-            viewBox="0 0 24 24"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title
-              id="title_launch"
-            >
-              Navigation Dropdown
-            </title>
-            <path
-              d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
-              fill="currentColor"
-            />
-          </svg>
-        </button>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      aria-expanded="false"
-      aria-haspopup="listbox"
-      aria-labelledby="downshift-0-label"
-      role="combobox"
-    >
       <label
-        class="zep-visually-hidden"
-        for="zep-select"
+        class="makeStyles-label-5"
+        for="downshift-0-toggle-button"
         id="downshift-0-label"
       >
         Theme
       </label>
+      <div>
+        <button
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-0-label downshift-0-toggle-button"
+          class="makeStyles-button-12 zep-select__button"
+          id="downshift-0-toggle-button"
+        >
+          <p
+            class="makeStyles-container-4"
+            style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+          >
+            <span
+              class="makeStyles-circleContainer-6"
+            >
+              <span
+                class="makeStyles-circle-7 makeStyles-indigo-8"
+              />
+            </span>
+            <span
+              class="makeStyles-hiddenXS-2"
+            >
+              Indigo
+            </span>
+          </p>
+          <svg
+            class="makeStyles-hiddenXS-2 zep-select__icon"
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              zepicons-navigation-dropdown
+            </title>
+            <path
+              d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"
+            />
+          </svg>
+        </button>
+        <ul
+          aria-labelledby="downshift-0-label"
+          class="makeStyles-ul-15 zep-select__list"
+          id="downshift-0-menu"
+          role="listbox"
+          tabindex="-1"
+        />
+        <div
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <label
+      class="makeStyles-label-5"
+      for="downshift-0-toggle-button"
+      id="downshift-0-label"
+    >
+      Theme
+    </label>
+    <div>
       <button
         aria-expanded="false"
-        aria-haspopup="true"
-        class="zep-select__button menuButton-0-2-7"
-        data-toggle="dropdown"
-        id="zep-select"
-        type="button"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-0-label downshift-0-toggle-button"
+        class="makeStyles-button-12 zep-select__button"
+        id="downshift-0-toggle-button"
       >
-        <span
-          class="circleContainer-0-2-8"
+        <p
+          class="makeStyles-container-4"
+          style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
         >
           <span
-            class="circle-0-2-1"
-          />
-        </span>
+            class="makeStyles-circleContainer-6"
+          >
+            <span
+              class="makeStyles-circle-7 makeStyles-indigo-8"
+            />
+          </span>
+          <span
+            class="makeStyles-hiddenXS-2"
+          >
+            Indigo
+          </span>
+        </p>
         <svg
-          aria-labelledby="title_launch"
-          class="dropdownIcon-0-2-6 zep-select__icon"
+          class="makeStyles-hiddenXS-2 zep-select__icon"
           height="32"
-          viewBox="0 0 24 24"
+          viewBox="0 0 32 32"
           width="32"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <title
-            id="title_launch"
-          >
-            Navigation Dropdown
+          <title>
+            zepicons-navigation-dropdown
           </title>
           <path
-            d="M7,14 L17,14 L12,19 L7,14 Z M17,10 L7,10 L12,5 L17,10 Z"
-            fill="currentColor"
+            d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"
           />
         </svg>
       </button>
+      <ul
+        aria-labelledby="downshift-0-label"
+        class="makeStyles-ul-15 zep-select__list"
+        id="downshift-0-menu"
+        role="listbox"
+        tabindex="-1"
+      />
+      <div
+        tabindex="0"
+      />
     </div>
   </div>,
   "debug": [Function],

@@ -1,19 +1,19 @@
 import React from 'react'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import { spacing } from 'zeppelin-element-library/guidelines.json'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     overflowX: 'auto',
   },
   table: {
     width: '100%',
-    marginBottom: theme.spacing.component.xl.px * 2,
+    marginBottom: theme.space.xl.px * 2,
     borderCollapse: 'collapse',
   },
   th: {
-    padding: `${ theme.spacing.component.m.px }px ${ theme.spacing.component.l.px }px`,
+    padding: `${ theme.space.m.px }px ${ theme.space.l.px }px`,
     textAlign: 'left',
     display: 'table-cell',
   },
@@ -24,7 +24,7 @@ const useStyles = createUseStyles(theme => ({
     display: 'table-row-group',
   },
   header: {
-    background: theme.color.gray.grayLightest.hex,
+    background: theme.color.global.white,
     display: 'table-header-group',
   },
   lowercase: {
@@ -34,16 +34,15 @@ const useStyles = createUseStyles(theme => ({
     textTransform: 'capitalize',
   },
   borderBottom: {
-    borderBottom: `1px solid ${ theme.color.gray.grayLighter.hex }`,
+    borderBottom: `1px solid ${ theme.color.global.lightGray }`,
   },
   square: {
-    background: theme.theme.indigo.primary,
+    background: theme.indigo.primary,
   },
 }))
 
-const Spacing = ({ ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+function SpacingSection() {
+  const classes = useStyles()
   const header = ['name', 'px', 'rem', 'actual size']
 
   return (
@@ -105,4 +104,4 @@ const Spacing = ({ ...props }) => {
   )
 }
 
-export default Spacing
+export default SpacingSection

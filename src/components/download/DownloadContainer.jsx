@@ -1,24 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-  },
-  [`@media (min-width: ${ theme.breakpoint.l })`]: {
-    root: {
+    [theme.breakpoints.up('l')]: {
       flexWrap: 'nowrap',
       justifyContent: 'flex-start',
     },
   },
 }))
 
-const DownloadContainer = ({ children, ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+const DownloadContainer = ({ children }) => {
+  const classes = useStyles()
   return <div className={classes.root}>{children}</div>
 }
 

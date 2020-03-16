@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from 'react'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import Swatch from '../swatch/Swatch'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
@@ -7,26 +7,22 @@ import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
 import { color } from 'zeppelin-element-library/guidelines.json'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   tabs: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   container: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-  },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    container: {
-      justifyContent: 'flex-start',
-    },
+    [theme.breakpoints.up('m')]: { justifyContent: 'flex-start' },
   },
 }))
 
-function Colors({ ...props }) {
+function Color() {
   const [value, setValue] = useState(0)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -55,6 +51,7 @@ function Colors({ ...props }) {
                     <Swatch
                       color={color[section][elem]}
                       key={`swatch${ elem }`}
+                      name={elem}
                     />
                   ))}
                 </div>
@@ -68,4 +65,4 @@ function Colors({ ...props }) {
   )
 }
 
-export default Colors
+export default Color

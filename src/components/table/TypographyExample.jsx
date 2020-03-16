@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 import Table from './Table'
 import TableHeader from './TableHeader'
@@ -10,12 +10,12 @@ import TableRow from './TableRow'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     overflowX: 'auto',
   },
   table: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   lowercase: {
     textTransform: 'lowercase',
@@ -24,22 +24,23 @@ const useStyles = createUseStyles(theme => ({
     textTransform: 'capitalize',
   },
   tabs: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
+    background: theme.status.gray,
   },
   inverse: {
-    background: theme.color.gray.black.hex,
-    color: 'rgba(255, 255, 255, 0.84)',
+    background: '#000',
+    color: theme.color.fontNegative,
   },
   inverseLight: {
-    background: theme.color.gray.grayMidDark.hex,
-    color: 'rgba(255, 255, 255, 0.84)',
+    background: theme.logo.indigo,
+    color: theme.color.fontNegative,
   },
 }))
 
-const ContentTable = ({ header, content, title, ...props }) => {
+function TypographyExample({ header, content, title }) {
   const [value, setValue] = useState(0)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   function handleChange(newValue) {
     setValue(newValue)
@@ -71,14 +72,8 @@ const ContentTable = ({ header, content, title, ...props }) => {
               {Object.keys(content).map((elem, idx) => (
                 <TableRow
                   key={`row_${ elem }`}
-                  color={idx % 2 === 0 ? 'white' : 'gray'}
-                  className={
-                    value === 1
-                      ? idx % 2 === 0
-                        ? classes.inverseLight
-                        : classes.inverse
-                      : null
-                  }
+                  color={'white'}
+                  className={value === 1 ? classes.inverse : null}
                 >
                   {header.map((item, idx) =>
                     idx === 0 ? (
@@ -158,10 +153,10 @@ const ContentTable = ({ header, content, title, ...props }) => {
   )
 }
 
-ContentTable.propTypes = {
+TypographyExample.propTypes = {
   header: PropTypes.array.isRequired,
   content: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
 }
 
-export default ContentTable
+export default TypographyExample

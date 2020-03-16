@@ -2,25 +2,24 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   text: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
     textTransform: 'capitalize',
   },
   title: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
   },
 }))
 
-const ElementUsage = ({ element, ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+const ElementUsage = ({ element }) => {
+  const classes = useStyles()
   return (
     <StaticQuery
       query={graphql`

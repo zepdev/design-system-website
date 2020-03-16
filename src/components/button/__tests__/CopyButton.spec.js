@@ -1,7 +1,5 @@
 import React from 'react'
-import { act, render, fireEvent } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { act, render, fireEvent } from '../../../../test-utils'
 import CopyButton from '../CopyButton'
 
 jest.useFakeTimers()
@@ -11,11 +9,7 @@ describe('CopyButton', () => {
     element: 'someString',
   }
   it('renders correctly', () => {
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <CopyButton {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<CopyButton {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
   it('renders "Copied!" when correctly copied', () => {
@@ -32,11 +26,7 @@ describe('CopyButton', () => {
         removeListener: jest.fn(),
       }
     })
-    const { getByTestId } = render(
-      <ThemeProvider theme={theme}>
-        <CopyButton {...mockProps} />
-      </ThemeProvider>
-    )
+    const { getByTestId } = render(<CopyButton {...mockProps} />)
     const button = getByTestId('copyButton')
     fireEvent.click(button)
     expect(getByTestId('copyButton')).toHaveTextContent(/copied!/i)
@@ -64,11 +54,7 @@ describe('CopyButton', () => {
         removeListener: jest.fn(),
       }
     })
-    const { getByTestId } = render(
-      <ThemeProvider theme={theme}>
-        <CopyButton {...mockProps} />
-      </ThemeProvider>
-    )
+    const { getByTestId } = render(<CopyButton {...mockProps} />)
     const button = getByTestId('copyButton')
     fireEvent.click(button)
     expect(getByTestId('copyButton')).toHaveTextContent(/error!/i)

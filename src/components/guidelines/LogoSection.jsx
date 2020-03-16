@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import { logo } from 'zeppelin-element-library/guidelines.json'
 import { version as zelVersion } from 'zeppelin-element-library/package.json'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
@@ -20,26 +20,23 @@ import Headline from '../typography/Headline'
 import Swatch from '../swatch/Swatch'
 import DownloadFile from '../download/DownloadFile.jsx'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   container: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-  },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    container: {
+    [theme.breakpoints.up('m')]: {
       justifyContent: 'flex-start',
     },
   },
 }))
 
-function Logos({ ...props }) {
+function LogoSection() {
   const [expanded, setExpanded] = useState(false)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+  const classes = useStyles()
 
   const handleChange = panel => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false)
@@ -70,6 +67,7 @@ function Logos({ ...props }) {
         <ExpansionPanel
           expanded={expanded === `panel${ idx }`}
           onChange={handleChange(`panel${ idx }`)}
+          key={`logo${ idx }`}
         >
           <ExpansionPanelSummary
             expandIcon={<ZepiconsChevronDown />}
@@ -98,4 +96,4 @@ function Logos({ ...props }) {
   )
 }
 
-export default Logos
+export default LogoSection

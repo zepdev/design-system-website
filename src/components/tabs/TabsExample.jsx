@@ -2,25 +2,25 @@ import React, { useState } from 'react'
 import Tabs from '@zlab-de/zel-react/Tabs'
 import Tab from '@zlab-de/zel-react/Tab'
 import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   container: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
   },
   header: {
-    marginBottom: `${ theme.spacing.component.m.rem }rem`,
+    marginBottom: `${ theme.space.m.rem }rem`,
   },
   tab: {
     padding: 15,
-    background: theme.color.gray.grayLighter.hex,
+    background: theme.color.global.lightGray,
   },
 }))
 
-function TabsExample({ ...props }) {
+function TabsExample() {
   const [value, setValue] = useState(0)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   function handleChange(newValue) {
     setValue(newValue)

@@ -6,13 +6,13 @@ Object {
   "baseElement": <body>
     <div>
       <hr
-        class="hr-0-2-1 hr-d0-0-2-2"
+        class="makeStyles-hr-1"
       />
     </div>
   </body>,
   "container": <div>
     <hr
-      class="hr-0-2-1 hr-d0-0-2-2"
+      class="makeStyles-hr-1"
     />
   </div>,
   "debug": [Function],

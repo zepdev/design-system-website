@@ -1,30 +1,30 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import GridContainer from './GridContainer'
 import GridRow from './GridRow'
 import GridCol from './GridCol'
 import RadioGroup from '../radio/RadioGroup'
 import Radio from '../radio/Radio'
 
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     boxSizing: 'border-box',
     width: '100%',
-    padding: `${ theme.spacing.component.xl.rem }rem`,
-    backgroundColor: theme.color.gray.grayLightest.hex,
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    padding: `${ theme.space.xl.rem }rem`,
+    backgroundColor: theme.color.global.white,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   gridContainer: {
-    marginBottom: `${ theme.spacing.component.m.rem }rem`,
-    border: `1px solid ${ theme.theme.indigo.primary }`,
+    marginBottom: `${ theme.space.m.rem }rem`,
+    border: `1px solid ${ theme.indigo.primary }`,
   },
   gridRow: {
     minHeight: 100,
   },
   gridCol: {
-    background: theme.theme.indigo.primary,
-    color: theme.color.gray.white.hex,
+    background: theme.indigo.primary,
+    color: '#fff',
     border: '1px solid white',
     paddingTop: '.5rem',
     paddingBottom: '.5rem',
@@ -37,12 +37,13 @@ const styles = theme => ({
     marginRight: 10,
   },
   radioGroupLegend: {
-    color: theme.color.gray.textGray.hex,
+    color: theme.color.global.lightGray,
     marginBottom: 5,
   },
-})
+}))
 // This is just a demo for usage in markdown files
-const GridExample = ({ classes }) => {
+const GridExample = () => {
+  const classes = useStyles()
   const [alignRow, setAlignRow] = useState('baseline')
   const [alignCol, setAlignCol] = useState('none')
   const [xxs, setXXS] = useState(1)
@@ -246,4 +247,4 @@ GridExample.propTypes = {
   classes: PropTypes.object,
 }
 
-export default withStyles(styles)(GridExample)
+export default GridExample

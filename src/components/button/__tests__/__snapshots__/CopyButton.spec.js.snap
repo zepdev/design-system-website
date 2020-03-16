@@ -6,12 +6,12 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="button-0-2-1 ButtonBase-button-0-2-3"
+        class="makeStyles-button-1 makeStyles-button-3"
         data-testid="copyButton"
       >
         <svg
           aria-labelledby="title_copy"
-          class="icon-0-2-2"
+          class="makeStyles-icon-2"
           height="32"
           viewBox="0 0 24 24"
           width="32"
@@ -32,12 +32,12 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="button-0-2-1 ButtonBase-button-0-2-3"
+      class="makeStyles-button-1 makeStyles-button-3"
       data-testid="copyButton"
     >
       <svg
         aria-labelledby="title_copy"
-        class="icon-0-2-2"
+        class="makeStyles-icon-2"
         height="32"
         viewBox="0 0 24 24"
         width="32"

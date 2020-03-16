@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 import ButtonBase from '../button/ButtonBase'
 import DownloadIcon from '../icons/DownloadIcon'
@@ -9,22 +9,18 @@ import sketchImg from '../../assets/images/sketch-symbol.svg'
 import githubImg from '../../assets/images/github.svg'
 import npmImg from '../../assets/images/npm.svg'
 
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.spacing.component.l.rem * 2 }rem`,
-    background: theme.color.gray.grayLighter.hex,
-    padding: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem * 2 }rem`,
+    background: theme.status.gray,
+    padding: `${ theme.space.l.rem }rem`,
     width: '100%',
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    root: {
+    [theme.breakpoints.up('s')]: {
       width: 320,
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.l })`]: {
-    root: {
+    [theme.breakpoints.up('l')]: {
       width: 450,
-      marginRight: `${ theme.spacing.component.l.rem }rem`,
+      marginRight: `${ theme.space.l.rem }rem`,
     },
   },
   container: {
@@ -35,7 +31,7 @@ const styles = theme => ({
     justifyContent: 'space-between',
   },
   text: {
-    marginBottom: `${ theme.spacing.component.xl.rem * 2 }rem`,
+    marginBottom: `${ theme.space.xl.rem * 2 }rem`,
   },
   trademark: {
     marginBottom: 5,
@@ -49,23 +45,16 @@ const styles = theme => ({
   button: {
     width: 46,
     height: 46,
-    background: theme.color.gray.white.hex,
-    padding: `${ theme.spacing.component.xs.rem }rem`,
+    background: '#fff',
+    padding: `${ theme.space.xs.rem }rem`,
   },
   icon: {
-    color: theme.color.gray.grayLight.hex,
+    color: theme.color.global.lightGray,
   },
-})
+}))
 
-const DownloadFile = ({
-  title,
-  variant,
-  href,
-  download,
-  ariaLabel,
-  demo,
-  classes,
-}) => {
+const DownloadFile = ({ title, variant, href, download, ariaLabel, demo }) => {
+  const classes = useStyles()
   const handleDownload = () => {
     const a = document.createElement('a')
     // check if browser supports modern features like download
@@ -124,7 +113,7 @@ const DownloadFile = ({
 }
 
 DownloadFile.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.object,
   title: PropTypes.string.isRequired,
   sketch: PropTypes.bool,
   github: PropTypes.bool,
@@ -135,4 +124,4 @@ DownloadFile.propTypes = {
   variant: PropTypes.oneOf(['sketch', 'npm', 'github']),
 }
 
-export default withStyles(styles)(DownloadFile)
+export default DownloadFile

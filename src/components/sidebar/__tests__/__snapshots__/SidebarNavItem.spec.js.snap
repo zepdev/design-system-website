@@ -9,12 +9,12 @@ Object {
         class=""
       >
         <button
-          class="button-0-2-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-2-9"
+          class="makeStyles-button-1 zep-typo--normal-body1 zep-button--full makeStyles-button-9"
         >
           sectionTitle
           <svg
             aria-labelledby="title_chevronDown"
-            class="icon-0-2-5 iconReset-0-2-7"
+            class="makeStyles-icon-5 makeStyles-iconReset-7"
             height="20"
             viewBox="0 0 32 32"
             width="20"
@@ -39,12 +39,12 @@ Object {
       class=""
     >
       <button
-        class="button-0-2-1 zep-typo--normal-body1 zep-button--full ButtonBase-button-0-2-9"
+        class="makeStyles-button-1 zep-typo--normal-body1 zep-button--full makeStyles-button-9"
       >
         sectionTitle
         <svg
           aria-labelledby="title_chevronDown"
-          class="icon-0-2-5 iconReset-0-2-7"
+          class="makeStyles-icon-5 makeStyles-iconReset-7"
           height="20"
           viewBox="0 0 32 32"
           width="20"

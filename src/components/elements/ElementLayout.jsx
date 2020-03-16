@@ -1,25 +1,26 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import ElementPreview from './ElementPreview'
 import ElementUsage from './ElementUsage'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   tabs: {
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
+    background: theme.status.gray,
   },
   text: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
     textTransform: 'capitalize',
   },
 }))
 
-const ElementLayout = ({ element, ...props }) => {
+const ElementLayout = ({ element }) => {
   const [value, setValue] = useState(0)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   function handleChange(newValue) {
     setValue(newValue)

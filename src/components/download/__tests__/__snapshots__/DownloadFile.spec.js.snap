@@ -6,23 +6,23 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="DownloadFile-root-0-2-1"
+        class="makeStyles-root-1"
       >
         <p
-          class="zep-typo--normal-body1 DownloadFile-text-0-2-4"
+          class="zep-typo--normal-body1 makeStyles-text-4"
         >
           mockTitle
         </p>
         <div
-          class="DownloadFile-container-0-2-2"
+          class="makeStyles-container-2"
         >
           <button
-            class="DownloadFile-button-0-2-7 ButtonBase-button-0-2-9"
+            class="makeStyles-button-7 makeStyles-button-9"
             data-testid="downloadButton"
           >
             <svg
               aria-labelledby="title_download"
-              class="DownloadFile-icon-0-2-8"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -45,23 +45,23 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="DownloadFile-root-0-2-1"
+      class="makeStyles-root-1"
     >
       <p
-        class="zep-typo--normal-body1 DownloadFile-text-0-2-4"
+        class="zep-typo--normal-body1 makeStyles-text-4"
       >
         mockTitle
       </p>
       <div
-        class="DownloadFile-container-0-2-2"
+        class="makeStyles-container-2"
       >
         <button
-          class="DownloadFile-button-0-2-7 ButtonBase-button-0-2-9"
+          class="makeStyles-button-7 makeStyles-button-9"
           data-testid="downloadButton"
         >
           <svg
             aria-labelledby="title_download"
-            class="DownloadFile-icon-0-2-8"
+            class="makeStyles-icon-8"
             height="32"
             viewBox="0 0 24 24"
             width="32"

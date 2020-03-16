@@ -1,30 +1,20 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from '../../../../test-utils'
 import CodeBlock from '../CodeBlock'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
 
 describe('CodeBlock', () => {
   it('renders correctly', () => {
     const mockProps = {
       children: 'mockCode',
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <CodeBlock {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<CodeBlock {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
   it('renders children correctly', () => {
     const mockProps = {
       children: 'p',
     }
-    const { getByTestId } = render(
-      <ThemeProvider theme={theme}>
-        <CodeBlock {...mockProps} />
-      </ThemeProvider>
-    )
+    const { getByTestId } = render(<CodeBlock {...mockProps} />)
     const div1 = getByTestId('codeDiv')
     const div2 = getByTestId('code')
     expect(div1.children).toHaveLength(1)

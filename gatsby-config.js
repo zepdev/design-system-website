@@ -1,7 +1,6 @@
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 })
-const theme = require('zeppelin-element-library/guidelines.json')
 
 module.exports = {
   siteMetadata: {
@@ -28,21 +27,18 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-layout`,
-      options: {
-        component: require.resolve(`./src/components/Layout.jsx`),
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-jss',
-      options: { theme },
-    },
-    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
       },
     },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/Layout.jsx`),
+      },
+    },
+    `gatsby-plugin-material-ui`,
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
@@ -77,8 +73,8 @@ module.exports = {
         name: `zeppelin-design-system`,
         short_name: `z-lab`,
         start_url: `/`,
-        background_color: theme.color.gray.white.hex,
-        theme_color: theme.theme.indigo.primary,
+        background_color: '#fff',
+        theme_color: '#27166F',
         display: `minimal-ui`,
         icon: `src/assets/images/favicon.svg`, // This path is relative to the root of the site.
       },
