@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${theme.space.xxl.rem}rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
     width: 230,
   },
 }))

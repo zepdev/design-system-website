@@ -9,14 +9,11 @@ Object {
         class="makeStyles-root-1"
       >
         <a
-          class="zep-button zep-button-primary zep-button--full"
+          class="zep-button--full zep-button zep-button-primary"
           href="mockLink"
+          style="display: block;"
         >
-          <span
-            class="zep-button__text"
-          >
-            mockString
-          </span>
+          mockString
         </a>
       </div>
     </div>
@@ -26,14 +23,11 @@ Object {
       class="makeStyles-root-1"
     >
       <a
-        class="zep-button zep-button-primary zep-button--full"
+        class="zep-button--full zep-button zep-button-primary"
         href="mockLink"
+        style="display: block;"
       >
-        <span
-          class="zep-button__text"
-        >
-          mockString
-        </span>
+        mockString
       </a>
     </div>
   </div>,
