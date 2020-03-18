@@ -8,15 +8,15 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'flex-end',
-    padding: `${ theme.space.s.rem }rem`,
-    marginBottom: `${ theme.space.s.rem }rem`,
+    padding: `${theme.space.s.rem}rem`,
+    marginBottom: `${theme.space.s.rem}rem`,
   },
   heading: {
-    marginBottom: `${ theme.space.s.rem }rem`,
+    marginBottom: `${theme.space.s.rem}rem`,
   },
   fullWidth: {
-    border: `1px solid ${ theme.color.global.lightGray }`,
-    padding: `${ theme.space.s.rem }rem`,
+    border: `1px solid ${theme.color.global.lightGray}`,
+    padding: `${theme.space.s.rem}rem`,
     width: 200,
   },
 }))
@@ -32,6 +32,9 @@ function ButtonExample() {
       <div className={classes.container}>
         <Button variant="primary" onClick={handleClick}>
           Primary
+        </Button>
+        <Button variant="primary" size="medium" onClick={handleClick}>
+          Primary Medium
         </Button>
         <Button variant="primary" size="small" onClick={handleClick}>
           Primary Small
@@ -50,6 +53,9 @@ function ButtonExample() {
       <div className={classes.container}>
         <Button variant="secondary" onClick={handleClick}>
           Secondary
+        </Button>
+        <Button variant="secondary" size="medium" onClick={handleClick}>
+          Secondary Medium
         </Button>
         <Button variant="secondary" size="small" onClick={handleClick}>
           Secondary Small
