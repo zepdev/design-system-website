@@ -4,20 +4,20 @@ import { makeStyles } from '@material-ui/core/styles'
 import GridContainer from './GridContainer'
 import GridRow from './GridRow'
 import GridCol from './GridCol'
-import RadioGroup from '../radio/RadioGroup'
-import Radio from '../radio/Radio'
+import RadioGroup from '@zlab-de/zel-react/RadioGroup'
+import Radio from '@zlab-de/zel-react/Radio'
 
 const useStyles = makeStyles(theme => ({
   root: {
     boxSizing: 'border-box',
     width: '100%',
-    padding: `${ theme.space.xl.rem }rem`,
+    padding: `${theme.space.xl.rem}rem`,
     backgroundColor: theme.color.global.white,
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   gridContainer: {
-    marginBottom: `${ theme.space.m.rem }rem`,
-    border: `1px solid ${ theme.indigo.primary }`,
+    marginBottom: `${theme.space.m.rem}rem`,
+    border: `1px solid ${theme.indigo.primary}`,
   },
   gridRow: {
     minHeight: 100,
@@ -87,7 +87,7 @@ const GridExample = () => {
                 alignCol === 'none' ? null : elem === 1 ? alignCol : 'baseline'
               }
               className={classes.gridCol}
-              key={`gridCol${ elem }`}
+              key={`gridCol${elem}`}
             >
               Col {elem}
             </GridCol>
@@ -96,14 +96,14 @@ const GridExample = () => {
       </GridContainer>
       <div className={classes.radioContainer}>
         <RadioGroup
-          title={`Align All Cols = 'zep-grid__row--align-items-${ alignRow }'`}
+          title={`Align All Cols = 'zep-grid__row--align-items-${alignRow}'`}
           className={classes.radioGroup}
           classNameLegend={classes.radioGroupLegend}
         >
           {align.map(elem => (
             <Radio
-              key={`alignRow${ elem }`}
-              name={`alignRow${ elem }`}
+              key={`alignRow${elem}`}
+              name={`alignRow${elem}`}
               label={elem}
               value={elem}
               checked={elem === alignRow}
@@ -116,14 +116,14 @@ const GridExample = () => {
           ))}
         </RadioGroup>
         <RadioGroup
-          title={`Align Col 1 = 'zep-grid__col--align-items-${ alignCol }'`}
+          title={`Align Col 1 = 'zep-grid__col--align-items-${alignCol}'`}
           className={classes.radioGroup}
           classNameLegend={classes.radioGroupLegend}
         >
           {align.map(elem => (
             <Radio
-              key={`alignCol${ elem }`}
-              name={`alignCol${ elem }`}
+              key={`alignCol${elem}`}
+              name={`alignCol${elem}`}
               label={elem}
               value={elem}
               checked={elem === alignCol}
@@ -136,14 +136,14 @@ const GridExample = () => {
           ))}
         </RadioGroup>
         <RadioGroup
-          title={`XXS = 'zep-grid__col--xxs-${ xxs }-4'`}
+          title={`XXS = 'zep-grid__col--xxs-${xxs}-4'`}
           className={classes.radioGroup}
           classNameLegend={classes.radioGroupLegend}
         >
           {xxsVals.map(elem => (
             <Radio
-              key={`XXS${ elem }`}
-              name={`xxs${ elem }`}
+              key={`XXS${elem}`}
+              name={`xxs${elem}`}
               label={elem}
               value={elem}
               checked={String(elem) === String(xxs)}
@@ -153,14 +153,14 @@ const GridExample = () => {
           ))}
         </RadioGroup>
         <RadioGroup
-          title={`XS = 'zep-grid__col--xs-${ xs }-6'`}
+          title={`XS = 'zep-grid__col--xs-${xs}-6'`}
           className={classes.radioGroup}
           classNameLegend={classes.radioGroupLegend}
         >
           {xsVals.map(elem => (
             <Radio
-              key={`XS${ elem }`}
-              name={`xs${ elem }`}
+              key={`XS${elem}`}
+              name={`xs${elem}`}
               label={elem}
               value={elem}
               checked={elem === xs}
@@ -170,14 +170,14 @@ const GridExample = () => {
           ))}
         </RadioGroup>
         <RadioGroup
-          title={`S = 'zep-grid__col--s-${ xs }-6'`}
+          title={`S = 'zep-grid__col--s-${xs}-6'`}
           className={classes.radioGroup}
           classNameLegend={classes.radioGroupLegend}
         >
           {sVals.map(elem => (
             <Radio
-              key={`S${ elem }`}
-              name={`s${ elem }`}
+              key={`S${elem}`}
+              name={`s${elem}`}
               label={elem}
               value={elem}
               checked={elem === s}
@@ -187,14 +187,14 @@ const GridExample = () => {
           ))}
         </RadioGroup>
         <RadioGroup
-          title={`M = 'zep-grid__col--m-${ m }-8'`}
+          title={`M = 'zep-grid__col--m-${m}-8'`}
           className={classes.radioGroup}
           classNameLegend={classes.radioGroupLegend}
         >
           {mVals.map(elem => (
             <Radio
-              key={`M${ elem }`}
-              name={`m${ elem }`}
+              key={`M${elem}`}
+              name={`m${elem}`}
               label={elem}
               name={elem}
               value={elem}
@@ -205,14 +205,14 @@ const GridExample = () => {
           ))}
         </RadioGroup>
         <RadioGroup
-          title={`L = 'zep-grid__col--l-${ l }-12'`}
+          title={`L = 'zep-grid__col--l-${l}-12'`}
           className={classes.radioGroup}
           classNameLegend={classes.radioGroupLegend}
         >
           {lVals.map(elem => (
             <Radio
-              key={`L${ elem }`}
-              name={`l${ elem }`}
+              key={`L${elem}`}
+              name={`l${elem}`}
               label={elem}
               value={elem}
               checked={elem === l}
@@ -222,14 +222,14 @@ const GridExample = () => {
           ))}
         </RadioGroup>
         <RadioGroup
-          title={`XL = 'zep-grid__col--x-${ xl }-12'`}
+          title={`XL = 'zep-grid__col--x-${xl}-12'`}
           className={classes.radioGroup}
           classNameLegend={classes.radioGroupLegend}
         >
           {xlVals.map(elem => (
             <Radio
-              key={`XL${ elem }`}
-              name={`xl${ elem }`}
+              key={`XL${elem}`}
+              name={`xl${elem}`}
               label={elem}
               value={elem}
               checked={elem === xl}
