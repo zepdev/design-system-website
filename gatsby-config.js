@@ -32,17 +32,20 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
+    'gatsby-plugin-top-layout',
     {
-      resolve: `gatsby-plugin-layout`,
-      options: {
-        component: require.resolve(`./src/components/Layout.jsx`),
-      },
+      resolve: 'gatsby-plugin-material-ui',
+      // If you want to use styled components you should change the injection order.
+      // options: {
+      //   stylesProvider: {
+      //     injectFirst: true,
+      //   },
+      // },
     },
-    `gatsby-plugin-material-ui`,
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        id: process.env.GA_TAG,
+        id: 'GTM-P45R8R7',
 
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
@@ -63,7 +66,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: process.env.GA_KEY,
+        trackingId: 'UA-109527063-4',
         anonymize: true,
       },
     },
