@@ -1,21 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: ({ theme }) => `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
+    width: 230,
   },
 }))
 
-const DocumentLink = ({ text, to, ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+const DocumentLink = ({ text, to }) => {
+  const classes = useStyles()
   return (
     <div className={classes.root}>
-      <Link to={to} className="zep-button zep-button-primary">
-        <span className="zep-button__text">{text}</span>
+      <Link
+        to={to}
+        className="zep-button--full zep-button zep-button-primary"
+        style={{ display: 'block' }}
+      >
+        {text}
       </Link>
     </div>
   )

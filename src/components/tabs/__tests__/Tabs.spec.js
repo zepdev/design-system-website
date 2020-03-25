@@ -1,7 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { render } from '../../../../test-utils'
 import Tabs from '../Tabs'
 import Tab from '../Tab'
 
@@ -10,11 +8,7 @@ describe('Tabs', () => {
     const mockProps = {
       children: [],
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <Tabs {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<Tabs {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
   it('renders children component', () => {
@@ -22,11 +16,8 @@ describe('Tabs', () => {
     const mockProps = {
       children: [<Tab label="MockLabel" />],
     }
-    const { getByTestId } = render(
-      <ThemeProvider theme={theme}>
-        <Tabs {...mockProps} />
-      </ThemeProvider>
-    )
+
+    const { getByTestId } = render(<Tabs {...mockProps} />)
     const tabs = getByTestId('tabs')
     expect(tabs.children).toHaveLength(1)
   })

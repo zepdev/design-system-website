@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    background: theme.color.gray.grayLightest.hex,
+    background: theme.color.global.white,
   },
 }))
 
@@ -17,8 +17,7 @@ const Tabs = ({
   value,
   ...props
 }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+  const classes = useStyles()
   const valueToIndex = new Map()
   let childIndex = 0
   const children = React.Children.map(childrenProp, child => {

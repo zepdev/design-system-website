@@ -3,15 +3,15 @@
 import React from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
 import CopyButton from '../button/CopyButton'
-import theme from 'zeppelin-element-library/guidelines.json'
+import guidelines from 'zeppelin-element-library/guidelines.json'
 
 const codeTheme = {
   plain: {
-    backgroundColor: theme.color.gray.grayMidDark.hex,
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
-    color: theme.color.gray.grayLighter.hex,
-    paddingLeft: `${ theme.spacing.component.l.rem }rem`,
-    paddingBottom: `${ theme.spacing.component.l.rem }rem`,
+    backgroundColor: guidelines.color.global.black,
+    marginBottom: `${ guidelines.spacing.component.xxl.rem }rem`,
+    color: guidelines.color.global.white,
+    paddingLeft: `${ guidelines.spacing.component.l.rem }rem`,
+    paddingBottom: `${ guidelines.spacing.component.l.rem }rem`,
     paddingTop: 8,
     paddingRight: 8,
     fontSize: '0.875rem',
@@ -26,62 +26,62 @@ const codeTheme = {
     {
       types: ['changed'],
       style: {
-        color: theme.color.gray.grayLighter.hex,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['deleted'],
       style: {
-        color: theme.color.gray.grayLighter.hex,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['inserted'],
       style: {
-        color: theme.color.gray.grayLighter.hex,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['comment'],
       style: {
-        color: theme.color.gray.grayLighter.hex,
+        color: guidelines.color.global.lightGray,
         fontStyle: 'italic',
       },
     },
     {
       types: ['punctuation'],
       style: {
-        color: theme.color.gray.grayLighter.hex,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['constant'],
       style: {
-        color: theme.color.gray.grayLighter.hex,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['string', 'url'],
       style: {
-        color: theme.color.support.alert.hex,
+        color: guidelines.color.support.alert,
       },
     },
     {
       types: ['variable'],
       style: {
-        color: theme.color.gray.grayLighter.hex,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['number', 'boolean'],
       style: {
-        color: theme.color.gray.grayLighter.hex,
+        color: guidelines.color.global.lightGray,
       },
     },
     {
       types: ['attr-name'],
       style: {
-        color: theme.color.support.warning.hex,
+        color: guidelines.color.support.warning,
       },
     },
     {
@@ -95,13 +95,13 @@ const codeTheme = {
         'doctype',
       ],
       style: {
-        color: theme.color.support.info.hex,
+        color: guidelines.color.support.info,
       },
     },
     {
       types: ['builtin', 'char', 'constant', 'function', 'class-name'],
       style: {
-        color: theme.color.support.alert.hex,
+        color: guidelines.color.support.alert,
       },
     },
   ],
@@ -135,7 +135,7 @@ export default ({ children, className }) => {
                     paddingBottom:
                       tokens.length - 1 === i
                         ? null
-                        : theme.spacing.component.s.px,
+                        : guidelines.spacing.component.s.px,
                   }}
                 >
                   {line.map((token, key) => (

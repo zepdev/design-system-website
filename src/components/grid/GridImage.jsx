@@ -1,23 +1,22 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import img from '../../assets/images/grid.png'
 
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     textAlign: 'center',
   },
   img: {
     width: 350,
-  },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    img: {
+    [theme.breakpoints.up('m')]: {
       width: 550,
     },
   },
-})
+}))
 
-const GridImage = ({ classes }) => {
+const GridImage = () => {
+  const classes = useStyles()
   return (
     <div className={classes.root}>
       <img src={img} alt="grid" className={classes.img} />
@@ -29,4 +28,4 @@ GridImage.propTypes = {
   classes: PropTypes.object.isRequired,
 }
 
-export default withStyles(styles)(GridImage)
+export default GridImage

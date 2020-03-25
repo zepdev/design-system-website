@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import withStyles from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
 
-const styles = {
+const useStyles = makeStyles(theme => ({
   button: {
     display: 'inline-block',
     margin: 0,
@@ -16,7 +16,7 @@ const styles = {
       outline: 'none',
     },
   },
-}
+}))
 
 // ButtonBase has a link element, however a link should not be used as a button.
 // Its function here is only to for styling
@@ -29,9 +29,9 @@ function ButtonBase({
   size,
   disabled,
   href,
-  classes,
   ...other
 }) {
+  const classes = useStyles()
   const className = clsx(
     classNameProp,
     {
@@ -47,14 +47,18 @@ function ButtonBase({
       {children}
     </a>
   ) : (
-    <button className={className} onClick={disabled ? null : onClick} {...other}>
+    <button
+      className={className}
+      onClick={disabled ? null : onClick}
+      {...other}
+    >
       {children}
     </button>
   )
 }
 
 ButtonBase.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.object,
   fullWidth: PropTypes.bool,
   onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
@@ -67,4 +71,4 @@ ButtonBase.defaultProps = {
   size: 'large',
 }
 
-export default withStyles(styles)(ButtonBase)
+export default ButtonBase

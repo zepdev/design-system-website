@@ -2,7 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
 
-function TableCell({ children, component, className: classNameProp, ...props }) {
+function TableCell({
+  children,
+  component,
+  className: classNameProp,
+  ...props
+}) {
   const Component = component || 'td'
   return (
     <Component className={clsx('zep-table__cell', classNameProp)} {...props}>

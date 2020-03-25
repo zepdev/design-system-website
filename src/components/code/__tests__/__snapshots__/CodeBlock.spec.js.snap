@@ -7,7 +7,7 @@ Object {
     <div>
       <pre
         class="prism-code language-js"
-        style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+        style="background-color: rgb(0, 0, 0); margin-bottom: 3rem; color: rgb(255, 255, 255); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
       >
         <div
           data-testid="codeDiv"
@@ -25,12 +25,12 @@ Object {
           </div>
         </div>
         <button
-          class="button-0-2-1 ButtonBase-button-0-2-3"
+          class="makeStyles-button-1 makeStyles-button-3"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title_copy"
-            class="icon-0-2-2"
+            class="makeStyles-icon-2"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -53,7 +53,7 @@ Object {
   "container": <div>
     <pre
       class="prism-code language-js"
-      style="background-color: rgb(55, 61, 63); margin-bottom: 3rem; color: rgb(236, 238, 239); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
+      style="background-color: rgb(0, 0, 0); margin-bottom: 3rem; color: rgb(255, 255, 255); padding: 8px 8px 1.5rem 1.5rem; font-size: 0.875rem; margin-top: 0px; display: flex; justify-content: space-between; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;"
     >
       <div
         data-testid="codeDiv"
@@ -71,12 +71,12 @@ Object {
         </div>
       </div>
       <button
-        class="button-0-2-1 ButtonBase-button-0-2-3"
+        class="makeStyles-button-1 makeStyles-button-3"
         data-testid="copyButton"
       >
         <svg
           aria-labelledby="title_copy"
-          class="icon-0-2-2"
+          class="makeStyles-icon-2"
           height="32"
           viewBox="0 0 24 24"
           width="32"

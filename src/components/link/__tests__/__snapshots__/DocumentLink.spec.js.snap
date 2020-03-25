@@ -6,34 +6,28 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="root-0-2-1 root-d0-0-2-2"
+        class="makeStyles-root-1"
       >
         <a
-          class="zep-button zep-button-primary"
+          class="zep-button--full zep-button zep-button-primary"
           href="mockLink"
+          style="display: block;"
         >
-          <span
-            class="zep-button__text"
-          >
-            mockString
-          </span>
+          mockString
         </a>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="root-0-2-1 root-d0-0-2-2"
+      class="makeStyles-root-1"
     >
       <a
-        class="zep-button zep-button-primary"
+        class="zep-button--full zep-button zep-button-primary"
         href="mockLink"
+        style="display: block;"
       >
-        <span
-          class="zep-button__text"
-        >
-          mockString
-        </span>
+        mockString
       </a>
     </div>
   </div>,

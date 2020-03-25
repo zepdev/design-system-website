@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="root-0-2-1 zep-tabs"
+        class="makeStyles-root-1 zep-tabs"
         data-testid="tabs"
         role="tablist"
       />
@@ -14,7 +14,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="root-0-2-1 zep-tabs"
+      class="makeStyles-root-1 zep-tabs"
       data-testid="tabs"
       role="tablist"
     />

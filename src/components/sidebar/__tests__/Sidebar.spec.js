@@ -1,8 +1,6 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from '../../../../test-utils'
 import Sidebar from '../Sidebar'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
 
 describe('Sidebar', () => {
   it('renders correctly', () => {
@@ -10,11 +8,7 @@ describe('Sidebar', () => {
       isMenuOpen: true,
       setMenu: () => {},
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <Sidebar {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<Sidebar {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

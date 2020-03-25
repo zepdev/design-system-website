@@ -1,7 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { render } from '../../../../test-utils'
 import DocumentLink from '../DocumentLink'
 
 describe('DocumentLink', () => {
@@ -10,11 +8,7 @@ describe('DocumentLink', () => {
       text: 'mockString',
       to: 'mockLink',
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <DocumentLink {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<DocumentLink {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

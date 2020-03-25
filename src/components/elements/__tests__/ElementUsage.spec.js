@@ -1,7 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { render } from '../../../../test-utils'
 import ElementUsage from '../ElementUsage'
 import { StaticQuery } from 'gatsby'
 
@@ -31,11 +29,7 @@ describe('ElementUsage', () => {
     const mockProps = {
       element: 'button',
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <ElementUsage {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<ElementUsage {...mockProps} />)
 
     expect(component).toMatchSnapshot()
   })

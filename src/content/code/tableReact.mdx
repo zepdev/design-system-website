@@ -15,32 +15,31 @@ import TableRow from './TableRow'
 function MyTableComponent() {
   return (
     <Table title="MyTableComponent">
-        <TableHeader>
-          {[1, 2].map(col => (
-            <TableCell key={`header_${ col }`}>Header {col}</TableCell>
-          ))}
-        </TableHeader>
-        <TableBody>
-          {[1, 2].map((row, idx) => (
-            <TableRow key={`row_${ row }`} color={idx % 2 === 0 ? 'white' : 'gray'}>
-              {[1, 2].map((cell, index) => (
-                <TableCell
-                  key={`cell_${ cell }`}
-                  scope={index === 0 ? 'row' : null}
-                  component={index === 0 ? 'th' : null}
-                >
-                  Cell {cell}
-                </TableCell>
-              ))}
-            </TableRow>
-          ))}
-        </TableBody>
+      <TableHeader>
+        {[1, 2].map(col => (
+          <TableCell key={`header_${col}`}>Header {col}</TableCell>
+        ))}
+      </TableHeader>
+      <TableBody>
+        {[1, 2].map((row, idx) => (
+          <TableRow key={`row_${row}`} color={idx % 2 === 0 ? 'white' : 'gray'}>
+            {[1, 2].map((cell, index) => (
+              <TableCell
+                key={`cell_${cell}`}
+                scope={index === 0 ? 'row' : null}
+                component={index === 0 ? 'th' : null}
+              >
+                Cell {cell}
+              </TableCell>
+            ))}
+          </TableRow>
+        ))}
+      </TableBody>
     </Table>
   )
 }
 
 export default MyTableComponent
-
 
 // Table.jsx
 import React from 'react'
@@ -82,7 +81,9 @@ function TableHeader({ children: childrenProp, className: classNameProp }) {
   })
   return (
     <thead>
-      <tr className={clsx('zep-table__row zep-table__row--header', classNameProp)}>
+      <tr
+        className={clsx('zep-table__row zep-table__row--header', classNameProp)}
+      >
         {children}
       </tr>
     </thead>
@@ -145,7 +146,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
 
-function TableCell({ children, component, className: classNameProp, ...props }) {
+function TableCell({ children, component, className: classNameProp }) {
   const Component = component || 'td'
   return (
     <Component className={clsx('zep-table__cell', classNameProp)} {...props}>
@@ -155,11 +156,14 @@ function TableCell({ children, component, className: classNameProp, ...props }) 
 }
 
 TableCell.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.array,
+    PropTypes.object,
+  ]),
   className: PropTypes.string,
   component: PropTypes.oneOf(['th', 'td']),
 }
 
 export default TableCell
-
 ```

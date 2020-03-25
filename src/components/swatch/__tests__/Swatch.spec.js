@@ -1,22 +1,17 @@
 import React from 'react'
-import { act, render, fireEvent } from '@testing-library/react'
+import { act, render, fireEvent } from '../../../../test-utils'
 import Swatch from '../Swatch'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
 
 jest.useFakeTimers()
 
 describe('Swatch', () => {
   it('renders correctly', () => {
     const mockProps = {
-      color: { name: 'name', hex: '#fff' },
+      name: 'name',
+      color: '#fff',
       classes: {},
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <Swatch {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<Swatch {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 
@@ -35,14 +30,11 @@ describe('Swatch', () => {
       }
     })
     const mockProps = {
-      color: { name: 'name', hex: '#fff' },
+      name: 'name',
+      color: '#fff',
       classes: {},
     }
-    const { getByTestId } = render(
-      <ThemeProvider theme={theme}>
-        <Swatch {...mockProps} />
-      </ThemeProvider>
-    )
+    const { getByTestId } = render(<Swatch {...mockProps} />)
     const button = getByTestId('swatchButton')
     fireEvent.click(button)
     expect(getByTestId('swatchText')).toHaveTextContent(/copied!/i)
@@ -54,7 +46,7 @@ describe('Swatch', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color.hex)
+    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color)
   })
 
   it('renders "Error!" if document.execCommand is not supported by browser', () => {
@@ -72,14 +64,11 @@ describe('Swatch', () => {
       }
     })
     const mockProps = {
-      color: { name: 'name', hex: '#fff' },
+      name: 'name',
+      color: '#fff',
       classes: {},
     }
-    const { getByTestId } = render(
-      <ThemeProvider theme={theme}>
-        <Swatch {...mockProps} />
-      </ThemeProvider>
-    )
+    const { getByTestId } = render(<Swatch {...mockProps} />)
     const button = getByTestId('swatchButton')
     fireEvent.click(button)
     expect(getByTestId('swatchText')).toHaveTextContent(/error!/i)
@@ -91,6 +80,6 @@ describe('Swatch', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color.hex)
+    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color)
   })
 })

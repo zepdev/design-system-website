@@ -1,8 +1,6 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from '../../../../test-utils'
 import CodeUsage from '../CodeUsage'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
 import { StaticQuery } from 'gatsby'
 
 beforeEach(() => {
@@ -31,11 +29,7 @@ describe('CodeUsage', () => {
     const mockProps = {
       element: 'button',
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <CodeUsage {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<CodeUsage {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

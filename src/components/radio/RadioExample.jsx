@@ -11,9 +11,27 @@ function RadioExample() {
   return (
     <div>
       <RadioGroup title="Select One">
-        <Radio value="a" name="value 1" checked={radio === 'a'} onChange={handleChange} />
-        <Radio value="b" name="value 2" checked={radio === 'b'} onChange={handleChange} />
-        <Radio value="c" name="value 3" checked={radio === 'c'} onChange={handleChange} />
+        <Radio
+          value="a"
+          id="r1"
+          name="value 1"
+          checked={radio === 'a'}
+          onChange={handleChange}
+        />
+        <Radio
+          value="b"
+          id="r2"
+          name="value 2"
+          checked={radio === 'b'}
+          onChange={handleChange}
+        />
+        <Radio
+          value="c"
+          id="r3"
+          name="value 3"
+          checked={radio === 'c'}
+          onChange={handleChange}
+        />
       </RadioGroup>
     </div>
   )

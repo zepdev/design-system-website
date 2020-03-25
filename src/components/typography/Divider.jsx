@@ -1,9 +1,9 @@
 import React from 'react'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   hr: {
-    marginBottom: ({ theme }) => `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
     borderTop: 'none',
     borderLeft: 'none',
     borderRight: 'none',
@@ -11,9 +11,8 @@ const useStyles = createUseStyles(theme => ({
   },
 }))
 
-const Divider = ({ ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+const Divider = () => {
+  const classes = useStyles()
   return <hr className={classes.hr} />
 }
 export default Divider

@@ -1,24 +1,34 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import ButtonBase from '../button/ButtonBase'
 import CopyIcon from '../icons/CopyIcon'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
     flexBasis: '48%',
-    marginBottom: `${ theme.spacing.component.xxl.rem }rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
+    [theme.breakpoints.up('sm')]: {
+      flexBasis: '22%',
+    },
+    [theme.breakpoints.up('md')]: {
+      marginRight: `${ theme.space.m.rem }rem`,
+    },
+    [theme.breakpoints.up('xxl')]: {
+      marginRight: `${ theme.space.m.rem }rem`,
+      flexBasis: '16%',
+    },
   },
   button: {
     height: '6rem',
     width: '100%',
-    marginBottom: theme.spacing.component.s.px,
+    marginBottom: theme.space.s.px,
     position: 'relative',
     cursor: 'pointer',
-    border: `1px solid ${ theme.color.gray.grayMid.hex }`,
+    border: `1px solid ${ theme.color.global.lightGray }`,
     '&:hover, &:focus': {
       zIndex: 1,
       '& $backdrop': {
@@ -28,26 +38,10 @@ const useStyles = createUseStyles(theme => ({
         opacity: 1,
       },
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.s })`]: {
-    root: {
-      flexBasis: '22%',
-    },
-    button: {
+    [theme.breakpoints.up('sm')]: {
       height: '6rem',
     },
-  },
-  [`@media (min-width: ${ theme.breakpoint.m })`]: {
-    root: {
-      marginRight: `${ theme.spacing.component.m.rem }rem`,
-    },
-  },
-  [`@media (min-width: ${ theme.breakpoint.xxl })`]: {
-    root: {
-      marginRight: `${ theme.spacing.component.m.rem }rem`,
-      flexBasis: '16%',
-    },
-    button: {
+    [theme.breakpoints.up('xxl')]: {
       height: '8rem',
     },
   },
@@ -57,7 +51,7 @@ const useStyles = createUseStyles(theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.color.gray.grayDark.hex,
+    backgroundColor: theme.color.global.darkGray,
     opacity: 0,
     transition: 0.5,
   },
@@ -71,10 +65,10 @@ const useStyles = createUseStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     opacity: 0,
-    color: theme.color.gray.white.hex,
+    color: '#fff',
   },
   icon: {
-    color: theme.color.gray.white.hex,
+    color: '#fff',
     display: 'block',
   },
   buttonText: {
@@ -85,21 +79,21 @@ const useStyles = createUseStyles(theme => ({
   },
   text: {
     margin: 0,
-    color: theme.color.gray.grayLight.hex,
+    color: theme.color.global.lightGray,
     textTransform: 'uppercase',
   },
   name: {
     marginTop: 0,
     fontWeight: 500,
-    marginBottom: theme.spacing.component.s.px,
+    marginBottom: theme.space.s.px,
   },
 }))
 
-function Swatch({ variant, color, ...props }) {
+function Swatch({ variant, color, name }) {
   const [isTextCopied, setTextCopied] = useState(false)
   const [copyError, setCopyError] = useState(false)
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+
+  const classes = useStyles()
 
   const handleCopy = color => {
     if (document.queryCommandSupported('copy')) {
@@ -120,13 +114,13 @@ function Swatch({ variant, color, ...props }) {
       }, 2000)
     }
   }
-  const colorShown = variant === 'font' ? color : color.hex
+
   return (
     <div className={classes.root}>
       <ButtonBase
         className={classes.button}
-        style={{ background: colorShown }}
-        onClick={() => handleCopy(colorShown)}
+        style={{ background: color }}
+        onClick={() => handleCopy(color)}
         data-testid="swatchButton"
       >
         <span className={classes.backdrop} />
@@ -134,14 +128,14 @@ function Swatch({ variant, color, ...props }) {
           {!isTextCopied && (
             <CopyIcon
               className={classes.icon}
-              ariaLabel={`copy hex:${ colorShown }`}
+              ariaLabel={`copy hex:${ color }`}
             />
           )}
           <span
             className={clsx(classes.buttonText, 'zep-typo--normal-h4')}
             data-testid="swatchText"
           >
-            {isTextCopied ? 'Copied!' : copyError ? 'Error!' : colorShown}
+            {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color}
           </span>
         </span>
       </ButtonBase>
@@ -151,30 +145,20 @@ function Swatch({ variant, color, ...props }) {
           className={clsx(classes.text, 'zep-typo--normal-caption')}
         >{`RGB: ${ color }`}</p>
       )}
-      <p className={clsx(classes.name, 'zep-typo--normal-body2')}>
-        {color.name}
-      </p>
-      {color.hex && (
-        <p
-          className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`HEX: ${ color.hex }`}</p>
-      )}
-      {color.rgb && (
-        <p
-          className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`RGB: ${ color.rgb }`}</p>
-      )}
-      {color.type && (
-        <p
-          className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`Type: ${ color.type }`}</p>
+      {variant !== 'font' && (
+        <>
+          <p className={clsx(classes.name, 'zep-typo--normal-body2')}>{name}</p>
+          <p
+            className={clsx(classes.text, 'zep-typo--normal-caption')}
+          >{`HEX: ${ color }`}</p>
+        </>
       )}
     </div>
   )
 }
 
 Swatch.propTypes = {
-  color: PropTypes.object.isRequired,
+  color: PropTypes.string,
 }
 
 export default Swatch

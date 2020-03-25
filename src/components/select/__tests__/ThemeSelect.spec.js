@@ -1,7 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { render } from '../../../../test-utils'
 import ThemeSelect from '../ThemeSelect'
 
 describe('ThemeSelect', () => {
@@ -11,11 +9,7 @@ describe('ThemeSelect', () => {
       selected: 'zeppelin',
       menuItems: ['mockItem'],
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <ThemeSelect {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<ThemeSelect {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

@@ -1,7 +1,5 @@
 import React from 'react'
-import { render, fireEvent } from '@testing-library/react'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
+import { render, fireEvent } from '../../../../test-utils'
 import SidebarNavItem from '../SidebarNavItem'
 
 describe('SidebarNavItem', () => {
@@ -17,11 +15,7 @@ describe('SidebarNavItem', () => {
         },
       },
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <SidebarNavItem {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<SidebarNavItem {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 
@@ -33,9 +27,7 @@ describe('SidebarNavItem', () => {
       },
     }
     const { queryByTestId, getByText } = render(
-      <ThemeProvider theme={theme}>
-        <SidebarNavItem {...mockProps} />
-      </ThemeProvider>
+      <SidebarNavItem {...mockProps} />
     )
     // set isButtonOpen to equal true so that the section will render
     const button = getByText(mockProps.item.title)
@@ -55,11 +47,7 @@ describe('SidebarNavItem', () => {
         },
       },
     }
-    const { getByText, getByTestId } = render(
-      <ThemeProvider theme={theme}>
-        <SidebarNavItem {...mockProps} />
-      </ThemeProvider>
-    )
+    const { getByText, getByTestId } = render(<SidebarNavItem {...mockProps} />)
     const button = getByText(mockProps.item.title)
     fireEvent.click(button)
     expect(getByTestId('sidebarNavItemLink')).toHaveTextContent(

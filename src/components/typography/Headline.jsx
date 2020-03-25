@@ -1,18 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import { createUseStyles, useTheme } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = createUseStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   text: {
-    marginBottom: `${ theme.spacing.component.l.rem }rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
     textTransform: 'capitalize',
   },
 }))
 
-const Headline = ({ variant, children, ...props }) => {
-  const theme = useTheme()
-  const classes = useStyles({ ...props, theme })
+const Headline = ({ variant, children }) => {
+  const classes = useStyles()
   return (
     <p
       className={clsx(classes.text, {

@@ -6,11 +6,11 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="GridImage-root-0-2-1"
+        class="makeStyles-root-1"
       >
         <img
           alt="grid"
-          class="GridImage-img-0-2-2"
+          class="makeStyles-img-2"
           src="test-file-stub"
         />
       </div>
@@ -18,11 +18,11 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="GridImage-root-0-2-1"
+      class="makeStyles-root-1"
     >
       <img
         alt="grid"
-        class="GridImage-img-0-2-2"
+        class="makeStyles-img-2"
         src="test-file-stub"
       />
     </div>

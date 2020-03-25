@@ -1,19 +1,13 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from '../../../../test-utils'
 import Tag from '../Tag'
-import { ThemeProvider } from 'react-jss'
-import theme from 'zeppelin-element-library/guidelines.json'
 
 describe('Tag', () => {
   it('renders correctly', () => {
     const mockProps = {
       label: 'mockTagLabel',
     }
-    const component = render(
-      <ThemeProvider theme={theme}>
-        <Tag {...mockProps} />
-      </ThemeProvider>
-    )
+    const component = render(<Tag {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })

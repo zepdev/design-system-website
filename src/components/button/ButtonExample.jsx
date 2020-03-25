@@ -1,27 +1,28 @@
 import React from 'react'
-import withStyles from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles'
 import Button from '@zlab-de/zel-react/Button'
 import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
 
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   container: {
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'flex-end',
-    padding: `${ theme.spacing.component.s.rem }rem`,
-    marginBottom: `${ theme.spacing.component.s.rem }rem`,
+    padding: `${ theme.space.s.rem }rem`,
+    marginBottom: `${ theme.space.s.rem }rem`,
   },
   heading: {
-    marginBottom: `${ theme.spacing.component.s.rem }rem`,
+    marginBottom: `${ theme.space.s.rem }rem`,
   },
   fullWidth: {
-    border: `1px solid ${ theme.color.gray.grayMid.hex }`,
-    padding: `${ theme.spacing.component.s.rem }rem`,
+    border: `1px solid ${ theme.color.global.lightGray }`,
+    padding: `${ theme.space.s.rem }rem`,
     width: 200,
   },
-})
+}))
 
-function ButtonExample({ classes }) {
+function ButtonExample() {
+  const classes = useStyles()
   const handleClick = () => {
     alert("I'm a Button!")
   }
@@ -31,6 +32,9 @@ function ButtonExample({ classes }) {
       <div className={classes.container}>
         <Button variant="primary" onClick={handleClick}>
           Primary
+        </Button>
+        <Button variant="primary" size="medium" onClick={handleClick}>
+          Primary Medium
         </Button>
         <Button variant="primary" size="small" onClick={handleClick}>
           Primary Small
@@ -49,6 +53,9 @@ function ButtonExample({ classes }) {
       <div className={classes.container}>
         <Button variant="secondary" onClick={handleClick}>
           Secondary
+        </Button>
+        <Button variant="secondary" size="medium" onClick={handleClick}>
+          Secondary Medium
         </Button>
         <Button variant="secondary" size="small" onClick={handleClick}>
           Secondary Small
@@ -87,4 +94,4 @@ function ButtonExample({ classes }) {
   )
 }
 
-export default withStyles(styles)(ButtonExample)
+export default ButtonExample
