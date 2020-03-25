@@ -251,7 +251,6 @@ module.exports = {
         js: [
           `<input class="zep-radio" type="radio" value="radio1" id="r1" />
           <label class="zep-radio__label" for="r1">Radio Button</label>`,
-          ,
         ],
       },
     },
