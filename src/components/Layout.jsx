@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
+import { Link } from 'gatsby'
 import Snackbar from '@material-ui/core/Snackbar'
 import Drawer from '@material-ui/core/Drawer'
 import Hidden from '@material-ui/core/Hidden'
@@ -93,11 +94,11 @@ function Layout({ children }) {
     setTheme(zelTheme)
   }
 
-  const handleOptOut = () => {
-    // eslint-disable-next-line
-    gaOptout()
-    setTracking(false)
-  }
+  // const handleOptOut = () => {
+  //   // eslint-disable-next-line
+  //   gaOptout()
+  //   setTracking(false)
+  // }
 
   // Styles for mdx/md pages
   const h1Styled = props => (
@@ -195,7 +196,7 @@ function Layout({ children }) {
                     horizontal: 'left',
                   }}
                   open={tracking}
-                  message="By using this website you agree to the use of cookies"
+                  message="Zeppelin uses cookies on its pages to enable you to make optimal use of the page. If you agree, just continue visiting the site."
                   className={classes.snackbar}
                   ContentProps={{
                     style: {
@@ -208,20 +209,20 @@ function Layout({ children }) {
                   }}
                   action={
                     <div className={classes.buttonContainer}>
-                      <a
-                        variant="secondary"
-                        aria-label="close"
-                        onClick={handleOptOut}
+                      <Link
+                        to="/content/privacy/"
+                        // aria-label="close"
+                        // onClick={handleOptOut}
                         className={clsx(classes.button, 'zep-button__text')}
                       >
-                        Disable
-                      </a>
+                        Learn More
+                      </Link>
                       <Button
                         variant="primary"
                         aria-label="close"
                         onClick={() => setTracking(false)}
                       >
-                        Allow Cookies
+                        OK
                       </Button>
                     </div>
                   }
