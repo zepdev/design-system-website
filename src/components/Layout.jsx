@@ -1,21 +1,19 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
-import { Link } from 'gatsby'
-import Snackbar from '@material-ui/core/Snackbar'
+import '@reach/skip-nav/styles.css'
+import { StaticQuery, graphql, Link } from 'gatsby'
+import CookieConsent from 'react-cookie-consent'
+import { MDXProvider } from '@mdx-js/react'
+import { makeStyles } from '@material-ui/core/styles'
 import Drawer from '@material-ui/core/Drawer'
 import Hidden from '@material-ui/core/Hidden'
-import Button from '@zlab-de/zel-react/Button'
-import '@reach/skip-nav/styles.css'
-import { StaticQuery, graphql } from 'gatsby'
-import { MDXProvider } from '@mdx-js/react'
+import Grid from '@material-ui/core/Grid'
 import clsx from 'clsx'
-import { makeStyles } from '@material-ui/core/styles'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import Grid from '@material-ui/core/Grid'
 import ZEL from 'zeppelin-element-library'
 import '../zel.css'
 
@@ -190,43 +188,31 @@ function Layout({ children }) {
                     </Grid>
                   </main>
                 </MDXProvider>
-                <Snackbar
-                  anchorOrigin={{
-                    vertical: 'bottom',
-                    horizontal: 'left',
+                <CookieConsent
+                  location="bottom"
+                  buttonText="Accept"
+                  debug={true}
+                  cookieName="gdpr_ga_consent"
+                  style={{ background: '#CCC6FF', color: '#000' }}
+                  buttonStyle={{
+                    background: '#27166F',
+                    color: '#fff',
+                    fontSize: '14px',
+                    padding: '14px 24px',
+                    borderRadius: 3,
                   }}
-                  open={tracking}
-                  message="Zeppelin uses cookies on its pages to enable you to make optimal use of the page. If you agree, just continue visiting the site."
-                  className={classes.snackbar}
-                  ContentProps={{
-                    style: {
-                      width: '95%',
-                      backgroundColor: '#CCC6FF',
-                      color: '#000',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                    },
-                  }}
-                  action={
-                    <div className={classes.buttonContainer}>
-                      <Link
-                        to="/content/privacy/"
-                        // aria-label="close"
-                        // onClick={handleOptOut}
-                        className={clsx(classes.button, 'zep-button__text')}
-                      >
-                        Learn More
-                      </Link>
-                      <Button
-                        variant="primary"
-                        aria-label="close"
-                        onClick={() => setTracking(false)}
-                      >
-                        Accept
-                      </Button>
-                    </div>
-                  }
-                />
+                  expires={150}
+                >
+                  Zeppelin uses cookies on its pages to enable you to make
+                  optimal use of the page. If you agree, just continue visiting
+                  the site. To learn more or opt our, read our{' '}
+                  <Link
+                    to="/content/privacy/"
+                    style={{ color: '#27166F', textDecoration: 'underline' }}
+                  >
+                    data privacy policy.
+                  </Link>
+                </CookieConsent>
               </div>
             </div>
             <Footer />
