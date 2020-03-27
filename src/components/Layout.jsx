@@ -79,9 +79,6 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 function Layout({ children }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [zelTheme, setTheme] = useState('indigo')
-  const [tracking, setTracking] = useState(
-    process.env.NODE_ENV !== 'development'
-  )
   const classes = useStyles()
 
   useEffect(() => {
