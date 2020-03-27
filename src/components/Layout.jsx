@@ -222,7 +222,7 @@ function Layout({ children }) {
                         aria-label="close"
                         onClick={() => setTracking(false)}
                       >
-                        OK
+                        Accept
                       </Button>
                     </div>
                   }
