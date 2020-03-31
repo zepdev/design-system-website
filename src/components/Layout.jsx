@@ -118,6 +118,10 @@ function Layout({ children }) {
     <strong className={classes.strongStyled} {...props} />
   )
 
+  handleDecline = () => {
+    gaOptout()
+  }
+
   const components = {
     h1: h1Styled,
     h2: h2Styled,
@@ -190,9 +194,7 @@ function Layout({ children }) {
                   buttonText="Accept"
                   // debug={true}
                   enableDeclineButton
-                  onDecline={() => {
-                    gaOptout()
-                  }}
+                  onDecline={handleTheme}
                   declineButtonText="decline"
                   setDeclineCookie
                   declineButtonStyle={{
