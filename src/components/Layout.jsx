@@ -119,6 +119,7 @@ function Layout({ children }) {
   )
 
   const handleDecline = () => {
+    /* eslint-disable */
     gaOptout()
   }
 
