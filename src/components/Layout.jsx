@@ -1,20 +1,19 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
-import Snackbar from '@material-ui/core/Snackbar'
+import '@reach/skip-nav/styles.css'
+import { StaticQuery, graphql, Link } from 'gatsby'
+import CookieConsent from 'react-cookie-consent'
+import { MDXProvider } from '@mdx-js/react'
+import { makeStyles } from '@material-ui/core/styles'
 import Drawer from '@material-ui/core/Drawer'
 import Hidden from '@material-ui/core/Hidden'
-import Button from '@zlab-de/zel-react/Button'
-import '@reach/skip-nav/styles.css'
-import { StaticQuery, graphql } from 'gatsby'
-import { MDXProvider } from '@mdx-js/react'
+import Grid from '@material-ui/core/Grid'
 import clsx from 'clsx'
-import { makeStyles } from '@material-ui/core/styles'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import Grid from '@material-ui/core/Grid'
 import ZEL from 'zeppelin-element-library'
 import '../zel.css'
 
@@ -80,9 +79,6 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 function Layout({ children }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [zelTheme, setTheme] = useState('indigo')
-  const [tracking, setTracking] = useState(
-    process.env.NODE_ENV !== 'development'
-  )
   const classes = useStyles()
 
   useEffect(() => {
@@ -93,11 +89,11 @@ function Layout({ children }) {
     setTheme(zelTheme)
   }
 
-  const handleOptOut = () => {
-    // eslint-disable-next-line
-    gaOptout()
-    setTracking(false)
-  }
+  // const handleOptOut = () => {
+  //   // eslint-disable-next-line
+  //   gaOptout()
+  //   setTracking(false)
+  // }
 
   // Styles for mdx/md pages
   const h1Styled = props => (
@@ -121,6 +117,10 @@ function Layout({ children }) {
   const strongStyled = props => (
     <strong className={classes.strongStyled} {...props} />
   )
+
+  handleDecline = () => {
+    gaOptout()
+  }
 
   const components = {
     h1: h1Styled,
@@ -189,43 +189,43 @@ function Layout({ children }) {
                     </Grid>
                   </main>
                 </MDXProvider>
-                <Snackbar
-                  anchorOrigin={{
-                    vertical: 'bottom',
-                    horizontal: 'left',
+                <CookieConsent
+                  location="bottom"
+                  buttonText="Accept"
+                  // debug={true}
+                  enableDeclineButton
+                  onDecline={handleTheme}
+                  declineButtonText="decline"
+                  setDeclineCookie
+                  declineButtonStyle={{
+                    color: '#27166F',
+                    fontSize: '14px',
+                    textTransform: 'uppercase',
+                    background: 'transparent',
+                    letterSpacing: 1.5,
                   }}
-                  open={tracking}
-                  message="By using this website you agree to the use of cookies"
-                  className={classes.snackbar}
-                  ContentProps={{
-                    style: {
-                      width: '95%',
-                      backgroundColor: '#CCC6FF',
-                      color: '#000',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                    },
+                  cookieName="gatsby-plugin-gdpr-cookies"
+                  style={{ background: '#CCC6FF', color: '#000' }}
+                  buttonStyle={{
+                    background: '#27166F',
+                    color: '#fff',
+                    fontSize: '14px',
+                    padding: '14px 24px',
+                    textTransform: 'uppercase',
+                    letterSpacing: 1.5,
                   }}
-                  action={
-                    <div className={classes.buttonContainer}>
-                      <a
-                        variant="secondary"
-                        aria-label="close"
-                        onClick={handleOptOut}
-                        className={clsx(classes.button, 'zep-button__text')}
-                      >
-                        Disable
-                      </a>
-                      <Button
-                        variant="primary"
-                        aria-label="close"
-                        onClick={() => setTracking(false)}
-                      >
-                        Allow Cookies
-                      </Button>
-                    </div>
-                  }
-                />
+                  expires={150}
+                >
+                  Zeppelin uses cookies on its pages to enable you to make
+                  optimal use of the page. If you agree, just continue visiting
+                  the site. To learn more or opt our, read our{' '}
+                  <Link
+                    to="/content/privacy/"
+                    style={{ color: '#27166F', textDecoration: 'underline' }}
+                  >
+                    data privacy policy.
+                  </Link>
+                </CookieConsent>
               </div>
             </div>
             <Footer />
