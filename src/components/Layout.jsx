@@ -89,11 +89,12 @@ function Layout({ children }) {
     setTheme(zelTheme)
   }
 
-  // const handleOptOut = () => {
-  //   // eslint-disable-next-line
-  //   gaOptout()
-  //   setTracking(false)
-  // }
+  const handleOptOut = () => {
+    const disableStr = 'GTM-optout'
+    document.cookie =
+      disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'
+    window[disableStr] = true
+  }
 
   // Styles for mdx/md pages
   const h1Styled = props => (
@@ -117,11 +118,6 @@ function Layout({ children }) {
   const strongStyled = props => (
     <strong className={classes.strongStyled} {...props} />
   )
-
-  const handleDecline = () => {
-    /* eslint-disable */
-    gaOptout()
-  }
 
   const components = {
     h1: h1Styled,
@@ -195,7 +191,7 @@ function Layout({ children }) {
                   buttonText="Accept"
                   // debug={true}
                   enableDeclineButton
-                  onDecline={handleDecline}
+                  onDecline={() => handleOptOut()}
                   declineButtonText="decline"
                   setDeclineCookie
                   declineButtonStyle={{
@@ -217,9 +213,6 @@ function Layout({ children }) {
                   }}
                   expires={150}
                 >
-                  <a href="javascript:gaOptout()">
-                    Click here to opt-out of Google Analytics
-                  </a>
                   Zeppelin uses cookies on its pages to enable you to make
                   optimal use of the page. If you agree, just continue visiting
                   the site. To learn more or opt our, read our{' '}
