@@ -217,6 +217,9 @@ function Layout({ children }) {
                   }}
                   expires={150}
                 >
+                  <a href="javascript:gaOptout()">
+                    Click here to opt-out of Google Analytics
+                  </a>
                   Zeppelin uses cookies on its pages to enable you to make
                   optimal use of the page. If you agree, just continue visiting
                   the site. To learn more or opt our, read our{' '}
