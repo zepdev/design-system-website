@@ -189,14 +189,28 @@ function Layout({ children }) {
                   location="bottom"
                   buttonText="Accept"
                   // debug={true}
-                  cookieName="gdpr_ga_consent"
+                  enableDeclineButton
+                  onDecline={() => {
+                    gaOptout()
+                  }}
+                  declineButtonText="decline"
+                  setDeclineCookie
+                  declineButtonStyle={{
+                    color: '#27166F',
+                    fontSize: '14px',
+                    textTransform: 'uppercase',
+                    background: 'transparent',
+                    letterSpacing: 1.5,
+                  }}
+                  cookieName="gatsby-plugin-gdpr-cookies"
                   style={{ background: '#CCC6FF', color: '#000' }}
                   buttonStyle={{
                     background: '#27166F',
                     color: '#fff',
                     fontSize: '14px',
                     padding: '14px 24px',
-                    borderRadius: 3,
+                    textTransform: 'uppercase',
+                    letterSpacing: 1.5,
                   }}
                   expires={150}
                 >
