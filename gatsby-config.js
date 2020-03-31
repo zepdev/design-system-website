@@ -53,7 +53,7 @@ module.exports = {
         googleTagManager: {
           trackingId: 'GTM-P45R8R7', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-tagmanager', // default
-          dataLayerName: 'dataLayer', // default
+          dataLayerName: 'dataLayer', // default,
         },
         facebookPixel: {
           pixelId: '', // leave empty if you want to disable the tracker
@@ -63,33 +63,33 @@ module.exports = {
         environments: ['production', 'development'],
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-tagmanager',
-      options: {
-        id: 'GTM-P45R8R7',
+    // {
+    //   resolve: 'gatsby-plugin-google-tagmanager',
+    //   options: {
+    //     id: 'GTM-P45R8R7',
 
-        // Include GTM in development.
-        // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: false,
+    //     // Include GTM in development.
+    //     // Defaults to false meaning GTM will only be loaded in production.
+    //     includeInDevelopment: false,
 
-        // datalayer to be set before GTM is loaded
-        // should be an object or a function that is executed in the browser
-        // Defaults to null
-        defaultDataLayer: { platform: 'gatsby' },
+    //     // datalayer to be set before GTM is loaded
+    //     // should be an object or a function that is executed in the browser
+    //     // Defaults to null
+    //     defaultDataLayer: { platform: 'gatsby' },
 
-        // // Specify optional GTM environment details.
-        // gtmAuth: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING',
-        // gtmPreview: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME',
-        // dataLayerName: 'YOUR_DATA_LAYER_NAME',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-109527063-4',
-        anonymize: true,
-      },
-    },
+    //     // // Specify optional GTM environment details.
+    //     // gtmAuth: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING',
+    //     // gtmPreview: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME',
+    //     // dataLayerName: 'YOUR_DATA_LAYER_NAME',
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: 'UA-109527063-4',
+    //     anonymize: true,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
