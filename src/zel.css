@@ -383,7 +383,7 @@ table {
 .zep-list,
 .zep-list__item--attribute,
 .zep-notification,
-.zep-radio + .zep-radio__label,
+.zep-radio label,
 .zep-search__input,
 .zep-select__button,
 .zep-select__label,
@@ -564,10 +564,6 @@ table {
 .zep-typo--bold-h6-negative {
   color: #eee;
 }
-.theme-blue .zep-search__input:focus,
-.theme-indigo .zep-search__input:focus,
-.theme-red .zep-search__input:focus,
-.theme-yellow .zep-search__input:focus,
 .zep-table__cell--header,
 .zep-typo--bold-body1,
 .zep-typo--bold-body1-negative {
@@ -1678,6 +1674,17 @@ a.zep-button {
   color: #06f;
   fill: #06f;
 }
+@-webkit-keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 1px transparent;
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  to {
+    box-shadow: 0 0 0 10px transparent;
+  }
+}
 .zep-checkbox {
   position: absolute !important;
   height: 1px;
@@ -1743,20 +1750,20 @@ a.zep-button {
   border-bottom: 2px solid #fff;
 }
 .theme-indigo .zep-checkbox:focus + .zep-checkbox__label:before {
-  box-shadow: 0 0 8px #27166f;
-  border-radius: 4px;
+  -webkit-animation: ripple 0.8s ease-in-out;
+  animation: ripple 0.8s ease-in-out;
 }
 .theme-yellow .zep-checkbox:focus + .zep-checkbox__label:before {
-  box-shadow: 0 0 8px #fc0;
-  border-radius: 4px;
+  -webkit-animation: ripple 0.8s ease-in-out;
+  animation: ripple 0.8s ease-in-out;
 }
 .theme-red .zep-checkbox:focus + .zep-checkbox__label:before {
-  box-shadow: 0 0 8px #af0e0e;
-  border-radius: 4px;
+  -webkit-animation: ripple 0.8s ease-in-out;
+  animation: ripple 0.8s ease-in-out;
 }
 .theme-blue .zep-checkbox:focus + .zep-checkbox__label:before {
-  box-shadow: 0 0 8px #06f;
-  border-radius: 4px;
+  -webkit-animation: ripple 0.8s ease-in-out;
+  animation: ripple 0.8s ease-in-out;
 }
 .zep-checkbox:disabled + .zep-checkbox__label {
   color: #999;
@@ -1861,80 +1868,117 @@ a.zep-button {
   text-transform: uppercase;
   padding-right: 4rem;
 }
-.zep-radio {
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 1px transparent;
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  to {
+    box-shadow: 0 0 0 10px transparent;
+  }
+}
+.zep-radio.zep-radio-inline {
+  display: inline-block;
+}
+.zep-radio input[type='radio'] {
+  visibility: visible;
   opacity: 0;
 }
-.zep-radio + .zep-radio__label {
-  position: relative;
-  cursor: pointer;
+.zep-radio input[type='radio']:checked + label:before {
+  -webkit-animation: ripple 0.8s ease-in-out;
+  animation: ripple 0.8s ease-in-out;
 }
-.zep-radio + .zep-radio__label:before {
-  content: '';
+.theme-indigo .zep-radio input[type='radio']:checked + label:before {
+  background: #27166f;
+  border-color: #27166f;
+}
+.theme-yellow .zep-radio input[type='radio']:checked + label:before {
+  background: #fc0;
+  border-color: #fc0;
+}
+.theme-red .zep-radio input[type='radio']:checked + label:before {
+  background: #af0e0e;
+  border-color: #af0e0e;
+}
+.theme-blue .zep-radio input[type='radio']:checked + label:before {
+  background: #06f;
+  border-color: #06f;
+}
+.zep-radio input[type='radio']:checked + label:after {
+  transform: scale(1);
+}
+.zep-radio input[type='radio']:active + label:before,
+.zep-radio input[type='radio']:focus + label:before {
+  -webkit-animation: ripple 0.8s ease-in-out;
+  animation: ripple 0.8s ease-in-out;
+}
+.zep-radio input[type='radio']:disabled + label:before {
+  background: #fff;
+  border-color: #999;
+}
+.zep-radio
+  input[type='radio']:focus
+  .zep-radio
+  input[type='radio']:disabled
+  + label:before {
+  -webkit-animation: none;
+  animation: none;
+}
+.zep-radio label {
+  display: inline-block;
+  min-height: 18px;
+  position: relative;
+  padding: 0 28px;
+  margin-bottom: 0;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+.zep-radio label:after,
+.zep-radio label:before {
   position: absolute;
-  left: -30px;
-  top: -1px;
+  content: '';
   border-radius: 50%;
-  border: 2px solid rgba(0, 0, 0, 0.84);
+  transition: all 0.3s ease;
+  transition-property: transform, border-color;
+}
+.zep-radio label:before {
+  left: 0;
+  top: 3px;
   width: 18px;
   height: 18px;
 }
-.zep-radio + .zep-radio__label:after {
-  content: '';
-  position: absolute;
-  left: -23px;
-  top: 6px;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-}
-.theme-indigo .zep-radio:checked + .zep-radio__label:before {
-  background: #27166f;
+.theme-indigo .zep-radio label:before {
   border: 2px solid #27166f;
 }
-.theme-yellow .zep-radio:checked + .zep-radio__label:before {
-  background: #fc0;
+.theme-yellow .zep-radio label:before {
   border: 2px solid #fc0;
 }
-.theme-red .zep-radio:checked + .zep-radio__label:before {
-  background: #af0e0e;
+.theme-red .zep-radio label:before {
   border: 2px solid #af0e0e;
 }
-.theme-blue .zep-radio:checked + .zep-radio__label:before {
-  background: #06f;
+.theme-blue .zep-radio label:before {
   border: 2px solid #06f;
 }
-.theme-indigo .zep-radio:checked + .zep-radio__label:after {
+.zep-radio label:after {
+  left: 7px;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  transform: scale(0);
+}
+.theme-indigo .zep-radio label:after {
   background: #fff;
 }
-.theme-yellow .zep-radio:checked + .zep-radio__label:after {
+.theme-yellow .zep-radio label:after {
   background: rgba(0, 0, 0, 0.84);
 }
-.theme-red .zep-radio:checked + .zep-radio__label:after {
+.theme-red .zep-radio label:after {
   background: #fff;
 }
-.theme-blue .zep-radio:checked + .zep-radio__label:after {
+.theme-blue .zep-radio label:after {
   background: #fff;
-}
-@media screen and (-ms-high-contrast: active) {
-  .zep-radio:checked + .zep-radio__label:after {
-    background: WindowText;
-  }
-}
-.theme-indigo .zep-radio:focus + .zep-radio__label:before {
-  box-shadow: 0 0 5px 1px #27166f;
-  outline: 2px dotted transparent;
-}
-.theme-yellow .zep-radio:focus + .zep-radio__label:before {
-  box-shadow: 0 0 5px 1px #fc0;
-  outline: 2px dotted transparent;
-}
-.theme-red .zep-radio:focus + .zep-radio__label:before {
-  box-shadow: 0 0 5px 1px #af0e0e;
-  outline: 2px dotted transparent;
-}
-.theme-blue .zep-radio:focus + .zep-radio__label:before {
-  box-shadow: 0 0 5px 1px #06f;
-  outline: 2px dotted transparent;
 }
 .zep-table {
   width: 100%;
@@ -1972,50 +2016,48 @@ a.zep-button {
   position: relative;
 }
 .zep-search__input {
-  color: rgba(0, 0, 0, 0.84);
+  color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 3rem;
   background-color: #fff;
-  padding-left: 1.25rem;
+  padding-left: 3.25rem;
   padding-top: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.zep-search__input--rounded-left {
+  background: #fff;
+  border-radius: 30px 0 0 30px;
+}
+.zep-search__input--rounded-left:focus {
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  outline: none;
+}
+.zep-search__input--rounded-left:focus + .zep-search__icon {
+  color: rgba(0, 0, 0, 0.8);
+}
+.zep-search__input--searchfield {
+  padding-left: 1.25rem;
   border: none;
-  border-bottom: 3px solid #999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 }
-.theme-indigo .zep-search__input:focus {
-  border-bottom-color: #27166f;
+.zep-search__input--searchfield:focus {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.8);
   outline: none;
 }
-.theme-indigo .zep-search__input:focus + .zep-search__icon {
-  color: #27166f;
+.zep-search__input--searchfield:focus + .zep-search__icon {
+  color: rgba(0, 0, 0, 0.8);
 }
-.theme-yellow .zep-search__input:focus {
-  border-bottom-color: #fc0;
-  outline: none;
-}
-.theme-yellow .zep-search__input:focus + .zep-search__icon {
-  color: #fc0;
-}
-.theme-red .zep-search__input:focus {
-  border-bottom-color: #af0e0e;
-  outline: none;
-}
-.theme-red .zep-search__input:focus + .zep-search__icon {
-  color: #af0e0e;
-}
-.theme-blue .zep-search__input:focus {
-  border-bottom-color: #06f;
-  outline: none;
-}
-.theme-blue .zep-search__input:focus + .zep-search__icon {
-  color: #06f;
+.zep-search__input--searchfield + .zep-search__icon {
+  right: 0;
+  left: unset;
 }
 .zep-search__icon {
   position: absolute;
-  top: 11px;
-  right: 0;
+  top: 15px;
+  left: 20px;
   width: 24px;
   height: 24px;
-  color: #000;
+  color: rgba(0, 0, 0, 0.6);
 }
 .zep-select__button {
   width: 100%;

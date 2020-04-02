@@ -3344,10 +3344,10 @@
   dependencies:
     "@babel/runtime" "^7.2.0"
 
-"@zlab-de/zel-react@^1.0.25":
-  version "1.0.25"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-1.0.25.tgz#d057a181870d0606faa9d93c354a8fe92238c3ad"
-  integrity sha512-Azf7rfwxw0j2r8L+4mj97YWwhj2BeuRrpX/LJ0/HYyxxfn4VHNuZorKVrf2Cq3pp/E5JyXrx/q6pO4wwSQLYRw==
+"@zlab-de/zel-react@^1.0.29":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react/-/zel-react-1.0.29.tgz#b4b5efca6d7140e17113acde79a36da911ab9efe"
+  integrity sha512-NfJP99b6py56oWaajmeAbf/eXDFMUc0aMsA4HamhFwa9QDIy7zp19Nr+Oeu7/fHomiJJy9Qj29vbWgWwf4OD1A==
   dependencies:
     "@babel/runtime" "^7.4.4"
     clsx "^1.0.4"
@@ -8081,6 +8081,54 @@ gatsby-cli@^2.11.1:
     ink "^2.7.1"
     ink-spinner "^3.0.1"
 
+gatsby-cli@^2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.11.4.tgz#2ce22a0eceff16d283eae5639522bf6596c97192"
+  integrity sha512-+Rrec8glPGqd1nTgkcCrelsh7hfWm/TSjniS8AAypGwmI704UfxfdrwM6LrckpBuwwFnGshS/Y0twjZd+oU/kg==
+  dependencies:
+    "@babel/code-frame" "^7.8.3"
+    "@babel/runtime" "^7.8.7"
+    "@hapi/joi" "^15.1.1"
+    better-opn "^1.0.0"
+    bluebird "^3.7.2"
+    chalk "^2.4.2"
+    clipboardy "^2.2.0"
+    common-tags "^1.8.0"
+    configstore "^5.0.1"
+    convert-hrtime "^3.0.0"
+    core-js "^2.6.11"
+    envinfo "^7.5.0"
+    execa "^3.4.0"
+    fs-exists-cached "^1.0.0"
+    fs-extra "^8.1.0"
+    gatsby-core-utils "^1.1.1"
+    gatsby-telemetry "^1.2.3"
+    hosted-git-info "^3.0.4"
+    is-valid-path "^0.1.1"
+    lodash "^4.17.15"
+    meant "^1.0.1"
+    node-fetch "^2.6.0"
+    object.entries "^1.1.1"
+    opentracing "^0.14.4"
+    pretty-error "^2.1.1"
+    progress "^2.0.3"
+    prompts "^2.3.1"
+    react "^16.8.0"
+    redux "^4.0.5"
+    resolve-cwd "^2.0.0"
+    semver "^6.3.0"
+    signal-exit "^3.0.2"
+    source-map "0.7.3"
+    stack-trace "^0.0.10"
+    strip-ansi "^5.2.0"
+    update-notifier "^3.0.1"
+    uuid "3.4.0"
+    yargs "^12.0.5"
+    yurnalist "^1.1.2"
+  optionalDependencies:
+    ink "^2.7.1"
+    ink-spinner "^3.0.1"
+
 gatsby-core-utils@^1.0.33:
   version "1.0.33"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.33.tgz#bd0d1ed0afed7f90c82c6da5b9ba13b727bcf1e9"
@@ -8318,6 +8366,29 @@ gatsby-telemetry@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.2.1.tgz#6b04db03c6070657e6fa903b5d43d89d7a86d44b"
   integrity sha512-i5iIWQY5IF/KJYyc/IEWA00gKYlTilPwtNmv1303T1Qiz6qvf/t9GiqJEBDY4Qj59kGGucE+IMkdPh2R/KQnBg==
+  dependencies:
+    "@babel/code-frame" "^7.8.3"
+    "@babel/runtime" "^7.8.7"
+    bluebird "^3.7.2"
+    boxen "^4.2.0"
+    configstore "^5.0.1"
+    envinfo "^7.5.0"
+    fs-extra "^8.1.0"
+    gatsby-core-utils "^1.1.1"
+    git-up "4.0.1"
+    is-docker "2.0.0"
+    lodash "^4.17.15"
+    node-fetch "2.6.0"
+    resolve-cwd "^2.0.0"
+    source-map "^0.7.3"
+    stack-trace "^0.0.10"
+    stack-utils "1.0.2"
+    uuid "3.4.0"
+
+gatsby-telemetry@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.2.3.tgz#0b38068bbc85a597afb7ee407fb0240997cec6ef"
+  integrity sha512-butEEIfuGAWZ9cVISrS6XVXMFPweFTDNO2Z5jj+mA1GkHlriahF4BtbVX3b4miQbQW16g2TfzNw/ztwIUfy0RQ==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/runtime" "^7.8.7"
@@ -18370,12 +18441,10 @@ yurnalist@^1.1.2:
     strip-ansi "^5.2.0"
     strip-bom "^4.0.0"
 
-zeppelin-element-library@^1.3.12:
-  version "1.3.12"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-1.3.12.tgz#4b5b8314ad9f9f2034a90bf4c701280ff6c03981"
-  integrity sha512-VEJtjSSLsVMTDOaPASSUGhPUMsVNFJKoTu3BeS89VPQCwc0+jDhadURwSIuW9EhMH2Yo8NH5QkZE5FeOIHXoTg==
-  dependencies:
-    clsx "^1.1.0"
+zeppelin-element-library@^1.3.13:
+  version "1.3.13"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-1.3.13.tgz#16e670126d404d47eec68786b5904ccf3630f8ed"
+  integrity sha512-qz+A8ZuH+g/4c5P8ErpENllsOKksOlt5hVq3QctwMkGr74FJOB8hnnLYgEZC1viN3ErvbI9GBgSxNW4sPN/lkw==
 
 zwitch@^1.0.0:
   version "1.0.4"
