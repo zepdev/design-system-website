@@ -3,7 +3,7 @@ import Search from '@zlab-de/zel-react/Search'
 
 function SearchExample() {
   const handleChange = selection => {
-    alert(`You selected ${selection.value}`)
+    alert(`You selected ${ selection.value }`)
   }
   const searchItems = [
     { value: 'value 1' },

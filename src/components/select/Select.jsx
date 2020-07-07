@@ -68,7 +68,7 @@ function Select({
                   : {}
               }
               className="zep-select__listitem"
-              key={`${item}${index}`}
+              key={`${ item }${ index }`}
               {...getItemProps({ item, index })}
             >
               {item.value}
