@@ -16,47 +16,47 @@ Object {
           >
             Select One
           </legend>
-          <div>
+          <div
+            class="zep-radio"
+          >
             <input
               checked=""
-              class="zep-radio"
               id="r1"
               name="value 1"
               type="radio"
               value="a"
             />
             <label
-              class="zep-radio__label"
               for="r1"
             >
               value 1
             </label>
           </div>
-          <div>
+          <div
+            class="zep-radio"
+          >
             <input
-              class="zep-radio"
               id="r2"
               name="value 2"
               type="radio"
               value="b"
             />
             <label
-              class="zep-radio__label"
               for="r2"
             >
               value 2
             </label>
           </div>
-          <div>
+          <div
+            class="zep-radio"
+          >
             <input
-              class="zep-radio"
               id="r3"
               name="value 3"
               type="radio"
               value="c"
             />
             <label
-              class="zep-radio__label"
               for="r3"
             >
               value 3
@@ -78,47 +78,47 @@ Object {
         >
           Select One
         </legend>
-        <div>
+        <div
+          class="zep-radio"
+        >
           <input
             checked=""
-            class="zep-radio"
             id="r1"
             name="value 1"
             type="radio"
             value="a"
           />
           <label
-            class="zep-radio__label"
             for="r1"
           >
             value 1
           </label>
         </div>
-        <div>
+        <div
+          class="zep-radio"
+        >
           <input
-            class="zep-radio"
             id="r2"
             name="value 2"
             type="radio"
             value="b"
           />
           <label
-            class="zep-radio__label"
             for="r2"
           >
             value 2
           </label>
         </div>
-        <div>
+        <div
+          class="zep-radio"
+        >
           <input
-            class="zep-radio"
             id="r3"
             name="value 3"
             type="radio"
             value="c"
           />
           <label
-            class="zep-radio__label"
             for="r3"
           >
             value 3

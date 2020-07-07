@@ -1,80 +1,82 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Downshift from 'downshift'
-import NavigationDropdownIcon from '../icons/NavigationDropdownIcon'
+import { useSelect } from 'downshift'
 
-const Select = ({
-  items: itemsProp,
-  onChange,
+function Select({
+  items,
   label,
-  placeholder: placeholderProps,
+  onChange,
+  placeholder,
   className: classNameProp,
-  selectedItem,
-  ...other
-}) => {
-  const items = itemsProp || []
-  const placeholder = placeholderProps || ''
+}) {
+  const {
+    isOpen,
+    selectedItem,
+    getToggleButtonProps,
+    getLabelProps,
+    getMenuProps,
+    highlightedIndex,
+    getItemProps,
+  } = useSelect({
+    items,
+    onSelectedItemChange: item => {
+      onChange(item.selectedItem)
+    },
+  })
   return (
     <div className={classNameProp}>
-      <Downshift
-        onChange={selection => onChange(selection)}
-        itemToString={item => (item ? item.value : '')}
-        selectedItem={selectedItem}
-        {...other}
+      <label {...getLabelProps({ className: 'zep-select__label' })}>
+        {label}
+      </label>
+      <button
+        className="zep-select__button"
+        style={{ display: 'flex', justifyContent: 'space-between' }}
+        {...getToggleButtonProps()}
       >
-        {({
-          getItemProps,
-          getLabelProps,
-          getMenuProps,
-          toggleMenu,
-          isOpen,
-          highlightedIndex,
-          selectedItem,
-        }) => (
-          <div>
-            <label
-              {...getLabelProps({
-                className: 'zep-select__label',
-                htmlFor: 'zep-select',
-              })}
+        <p
+          style={{
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+          }}
+        >
+          {selectedItem ? selectedItem.value : placeholder}
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          className="zep-select__icon"
+        >
+          <title>zepicons-navigation-dropdown</title>
+          <path d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z" />
+        </svg>
+      </button>
+      <ul
+        {...getMenuProps({
+          className: isOpen ? 'zep-select__list' : null,
+          style: { position: 'absolute' },
+        })}
+      >
+        {isOpen &&
+          items.map((item, index) => (
+            <li
+              style={
+                highlightedIndex === index
+                  ? { backgroundColor: '#eceeef', fontWeight: 'bold' }
+                  : {}
+              }
+              className="zep-select__listitem"
+              key={`${ item }${ index }`}
+              {...getItemProps({ item, index })}
             >
-              {label}
-            </label>
-            <button
-              id="zep-select"
-              type="button"
-              className="zep-select__button"
-              onClick={toggleMenu}
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded={isOpen}
-            >
-              {selectedItem ? selectedItem.value : placeholder}
-              <NavigationDropdownIcon className="zep-select__icon" />
-            </button>
-            {isOpen ? (
-              <ul {...getMenuProps({ className: 'zep-select__list' })}>
-                {items.map((item, index) => (
-                  <li
-                    {...getItemProps({
-                      key: `listItem${ index }`,
-                      index,
-                      item,
-                      className: 'zep-select__listitem',
-                      style: {
-                        backgroundColor: highlightedIndex === index ? '#eceeef' : 'white',
-                        fontWeight: selectedItem === item ? 'bold' : 'normal',
-                      },
-                    })}
-                  >
-                    {item.value}
-                  </li>
-                ))}
-              </ul>
-            ) : null}
-          </div>
-        )}
-      </Downshift>
+              {item.value}
+            </li>
+          ))}
+      </ul>
+      {/* if you Tab from menu, focus goes on button, and it shouldn't. only happens here. */}
+      <div tabIndex="0" />
     </div>
   )
 }
