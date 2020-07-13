@@ -9,11 +9,12 @@ import guidelines from '@zlab-de/zel-react/guidelines'
 
 const useStyles = makeStyles(theme => ({
   button: {
+    width: '100%',
     textTransform: 'capitalize',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: `${ theme.space.s.px }px ${ theme.space.xl.px }px`,
+    padding: `${theme.space.s.px}px ${theme.space.xl.px}px`,
     '&:hover': {
       background: theme.color.global.almostWhite,
     },
@@ -28,7 +29,7 @@ const useStyles = makeStyles(theme => ({
   },
   subnav: {
     textTransform: 'capitalize',
-    padding: `${ theme.space.s.px }px ${ theme.space.xl.px * 1.5 }px`,
+    padding: `${theme.space.s.px}px ${theme.space.xl.px * 1.5}px`,
     '&:hover': {
       background: theme.color.global.almostWhite,
     },
@@ -78,7 +79,6 @@ function SidebarNavItem({ item, home, link }) {
       )}
       {!link && item.subnav && (
         <ButtonBase
-          fullWidth
           onClick={() => setButton(!isButtonOpen)}
           className={clsx(classes.button, 'zep-typo--normal-body1', {
             [classes.buttonActive]: isButtonOpen,
@@ -100,7 +100,7 @@ function SidebarNavItem({ item, home, link }) {
           to={
             home
               ? '/'
-              : `/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`
+              : `/content/${item.title.toLowerCase().replace(/ /g, '-')}/`
           }
           className={clsx(
             classes.button,
@@ -114,13 +114,13 @@ function SidebarNavItem({ item, home, link }) {
       {item.subnav && isButtonOpen && (
         <ul data-testid="subnav-list" className={classes.list}>
           {Object.keys(item.subnav).map((elem, idx) => (
-            <li key={`sublistitem${ idx }`} className={classes.listItem}>
+            <li key={`sublistitem${idx}`} className={classes.listItem}>
               <Link
-                to={`/content/${ item.title
+                to={`/content/${item.title
                   .toLowerCase()
-                  .replace(/ /g, '-') }/${ item.subnav[elem].title
+                  .replace(/ /g, '-')}/${item.subnav[elem].title
                   .toLowerCase()
-                  .replace(/ /g, '-') }/`}
+                  .replace(/ /g, '-')}/`}
                 activeStyle={{ color: guidelines.color.global.lightGray }}
                 className={clsx(
                   classes.subnav,

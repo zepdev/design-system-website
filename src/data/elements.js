@@ -39,10 +39,10 @@ module.exports = {
     demo: {
       default: {
         js: [
-          `<input class="zep-checkbox" type="checkbox" value="" id="checkboxZep" />
-        <label class="zep-checkbox__label" for="checkboxZep">Zeppelin Checkbox</label>`,
-          `<input class="zep-checkbox" type="checkbox" value="" id="checkboxDisabled" disabled />
-          <label class="zep-checkbox__label" for="checkboxDisabled">Disabled Checkbox</label>`,
+          `<div><input class="zep-checkbox" type="checkbox" value="" id="checkboxZep" />
+        <label class="zep-checkbox__label" for="checkboxZep">Zeppelin Checkbox</label></div>`,
+          `<div><input class="zep-checkbox" type="checkbox" value="" id="checkboxDisabled" disabled />
+          <label class="zep-checkbox__label" for="checkboxDisabled">Disabled Checkbox</label></div>`,
         ],
       },
     },
@@ -255,10 +255,12 @@ module.exports = {
     demo: {
       default: {
         js: [
-          `<div class="zep-radio">
-          <input type="radio" value="radio1" id="r1" />
-          <label for="r1">Radio Button</label>
-          </div>`,
+          `<div>
+          <div className="zep-radio">
+          <input type="radio" id="radio1" name="radio" />
+          <label htmlFor="radio1">Radio</label>
+        </div>
+      </div>`,
         ],
       },
     },

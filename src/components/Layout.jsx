@@ -14,7 +14,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import ZEL from 'zeppelin-element-library'
+// import ZEL from 'zeppelin-element-library'
 import '@zlab-de/zel-react/zel.css'
 
 const useStyles = makeStyles(theme => ({
@@ -23,26 +23,26 @@ const useStyles = makeStyles(theme => ({
   },
   main: {
     background: theme.color.white[84],
-    padding: `${ theme.space.l.rem }rem`,
+    padding: `${theme.space.l.rem}rem`,
     [theme.breakpoints.up('s')]: {
-      padding: `${ theme.space.xxl.rem }rem`,
+      padding: `${theme.space.xxl.rem}rem`,
     },
   },
   pStyled: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${ theme.color.global.lightGray }`,
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    borderTop: `1px solid ${theme.color.global.lightGray}`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
     width: '100%',
     borderColor: theme.color.global.lightGray,
   },
   hStyled: {
-    marginBottom: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem}rem`,
   },
   h1Styled: {
-    marginBottom: `${ theme.space.m.rem }rem`,
+    marginBottom: `${theme.space.m.rem}rem`,
   },
   aStyled: {
     color: theme.indigo.primary,
@@ -63,27 +63,27 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
   },
   button: {
-    marginRight: `${ theme.space.s.rem }rem`,
+    marginRight: `${theme.space.s.rem}rem`,
     color: theme.color.font,
   },
 }))
 
 // init ZEL once
-if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-  document.addEventListener('DOMContentLoaded', function(event) {
-    ZEL.init()
-    window.ZEL = ZEL
-  })
-}
+// if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+//   document.addEventListener('DOMContentLoaded', function(event) {
+//     ZEL.init()
+//     window.ZEL = ZEL
+//   })
+// }
 
 function Layout({ children }) {
   const [isMenuOpen, setMenu] = useState(false)
   const [zelTheme, setTheme] = useState('indigo')
   const classes = useStyles()
 
-  useEffect(() => {
-    ZEL.refresh()
-  })
+  // useEffect(() => {
+  //   ZEL.refresh()
+  // })
 
   const handleTheme = zelTheme => {
     setTheme(zelTheme)

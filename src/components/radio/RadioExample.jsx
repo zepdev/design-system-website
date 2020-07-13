@@ -25,13 +25,6 @@ function RadioExample() {
           checked={radio === 'b'}
           onChange={handleChange}
         />
-        <Radio
-          value="c"
-          id="r3"
-          name="value 3"
-          checked={radio === 'c'}
-          onChange={handleChange}
-        />
       </RadioGroup>
     </div>
   )

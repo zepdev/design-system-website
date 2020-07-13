@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
   },
   spacer: {
     [theme.breakpoints.up('sm')]: {
-      marginRight: `${ theme.space.s.rem }rem`,
+      marginRight: `${theme.space.s.rem}rem`,
     },
   },
   container: {
@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
   label: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
-      marginRight: `${ theme.space.s.rem }rem`,
+      marginRight: `${theme.space.s.rem}rem`,
       display: 'block',
     },
   },
@@ -63,7 +63,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.up('sm')]: {
       width: 12,
       height: 12,
-      marginRight: `${ theme.space.s.rem }rem`,
+      marginRight: `${theme.space.s.rem}rem`,
     },
   },
   indigo: {
@@ -105,8 +105,8 @@ const useStyles = makeStyles(theme => ({
   icon: {
     display: 'none',
     fontSize: 18,
-    paddingLeft: `${ theme.space.s.rem }rem`,
-    borderLeft: `1px solid ${ theme.color.global.lightGray }`,
+    paddingLeft: `${theme.space.s.rem}rem`,
+    borderLeft: `1px solid ${theme.color.global.lightGray}`,
     [theme.breakpoints.up('sm')]: {
       display: 'inline-block',
     },
@@ -177,8 +177,8 @@ function ThemeSelect({
               {selectedItem === 'red'
                 ? 'Red'
                 : selectedItem === 'yellow'
-                  ? 'Yellow'
-                  : 'Indigo'}
+                ? 'Yellow'
+                : 'Indigo'}
             </span>
           </p>
           <svg
@@ -197,6 +197,7 @@ function ThemeSelect({
           {...getMenuProps({
             className: clsx(classes.ul, 'zep-select__list'),
           })}
+          style={{ border: 'none' }}
         >
           {isOpen &&
             items.map((item, index) => (
@@ -207,7 +208,7 @@ function ThemeSelect({
                     : {}
                 }
                 className={clsx(classes.container, 'zep-select__listitem')}
-                key={`${ item }${ index }`}
+                key={`${item}${index}`}
                 {...getItemProps({ item, index })}
               >
                 <div
@@ -221,8 +222,8 @@ function ThemeSelect({
                   {item === 'indigo'
                     ? 'Indigo'
                     : item === 'yellow'
-                      ? 'Yellow'
-                      : 'Red'}
+                    ? 'Yellow'
+                    : 'Red'}
                 </span>
               </li>
             ))}
