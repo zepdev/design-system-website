@@ -1,5 +1,6 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 import guidelines from '@zlab-de/zel-react/guidelines.json'
+import '../zel.css'
 
 const theme = createMuiTheme({
   palette: {

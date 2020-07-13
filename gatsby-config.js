@@ -8,10 +8,9 @@ module.exports = {
     description: `Design System Website`,
     author: `@zeppelin`,
     url: 'https://live-zds.zepdev.net',
-    image: '/src/assets/images/favicon.svg',
+    image: '/src/assets/images/zeppelin_icon.png',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,21 +25,43 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+
+          `gatsby-remark-copy-linked-files`,
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+              sizeByPixelDensity: true,
+            },
+          },
+        ],
       },
-    },
-    'gatsby-plugin-top-layout',
-    {
-      resolve: 'gatsby-plugin-material-ui',
-      // If you want to use styled components you should change the injection order.
-      // options: {
-      //   stylesProvider: {
-      //     injectFirst: true,
-      //   },
-      // },
     },
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
@@ -99,12 +120,11 @@ module.exports = {
         background_color: '#fff',
         theme_color: '#27166F',
         display: `minimal-ui`,
-        icon: `src/assets/images/favicon.svg`, // This path is relative to the root of the site.
+        icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-theme-material-ui',
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
   ],
 }

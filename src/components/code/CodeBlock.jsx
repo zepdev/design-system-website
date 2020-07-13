@@ -8,10 +8,10 @@ import guidelines from 'zeppelin-element-library/guidelines.json'
 const codeTheme = {
   plain: {
     backgroundColor: guidelines.color.global.black,
-    marginBottom: `${ guidelines.spacing.component.xxl.rem }rem`,
+    marginBottom: `${guidelines.spacing.component.xxl.rem}rem`,
     color: guidelines.color.global.white,
-    paddingLeft: `${ guidelines.spacing.component.l.rem }rem`,
-    paddingBottom: `${ guidelines.spacing.component.l.rem }rem`,
+    paddingLeft: `${guidelines.spacing.component.l.rem}rem`,
+    paddingBottom: `${guidelines.spacing.component.l.rem}rem`,
     paddingTop: 8,
     paddingRight: 8,
     fontSize: '0.875rem',
