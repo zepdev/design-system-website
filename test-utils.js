@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 import { ThemeProvider } from '@material-ui/core/styles'
-import theme from './src/theme'
+import theme from './src/gatsby-theme-material-ui-top-layout/theme'
 
 const AllTheProviders = ({ children }) => {
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>
