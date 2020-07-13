@@ -47,21 +47,6 @@ Object {
               value 2
             </label>
           </div>
-          <div
-            class="zep-radio"
-          >
-            <input
-              id="r3"
-              name="value 3"
-              type="radio"
-              value="c"
-            />
-            <label
-              for="r3"
-            >
-              value 3
-            </label>
-          </div>
         </fieldset>
       </div>
     </div>
@@ -107,21 +92,6 @@ Object {
             for="r2"
           >
             value 2
-          </label>
-        </div>
-        <div
-          class="zep-radio"
-        >
-          <input
-            id="r3"
-            name="value 3"
-            type="radio"
-            value="c"
-          />
-          <label
-            for="r3"
-          >
-            value 3
           </label>
         </div>
       </fieldset>
