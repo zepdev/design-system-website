@@ -11,10 +11,12 @@ const shortcodes = { Link } // Provide common components here
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Home" keywords={['Zeppelin', 'Styleguide']} />
-      <MDXProvider components={shortcodes}>
-        <MDXRenderer>{data.mdx.body}</MDXRenderer>
-      </MDXProvider>
+      <>
+        <SEO title="Home" keywords={['Zeppelin', 'Styleguide']} />
+        <MDXProvider components={shortcodes}>
+          <MDXRenderer>{data.mdx.body}</MDXRenderer>
+        </MDXProvider>
+      </>
     </Layout>
   )
 }
