@@ -6,8 +6,7 @@ stages:
   - build
   - deploy
 
-.cache_template: &cache_definition
-  # put node_modules and .cache to cache
+.cache_template: &cache_definition # put node_modules and .cache to cache
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
@@ -33,7 +32,7 @@ sonarqube:
     - yarn sonar-scanner -Dsonar.login=$SONAR_LOGIN
   only:
     - development
-    - master
+    - main
 
 # build stage, node_modules are downloaded from cache
 build:
@@ -81,4 +80,4 @@ deploy_production:
   # only trigger deployment into production manually
   when: manual
   only:
-    - master
+    - main

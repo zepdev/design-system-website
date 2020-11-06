@@ -16,7 +16,7 @@ const fs = require(`fs`)
 exports.onPreInit = () => {
   request
     .get(
-      'https://raw.githubusercontent.com/zepdev/zeppelin-element-library/master/CHANGELOG.md'
+      'https://raw.githubusercontent.com/zepdev/zeppelin-element-library/main/CHANGELOG.md'
     )
     .on('error', function(err) {
       console.log(err)

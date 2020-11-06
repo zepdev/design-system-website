@@ -110,7 +110,7 @@ workflows:
             branches:
               only:
                 - development
-                - master
+                - main
       - build:
           requires:
             - test
@@ -132,7 +132,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
       - deploy: # deployment step for live environment
           bucket: com.zeppelin.zds.website.live
           aws_region: eu-central-1
@@ -143,4 +143,4 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
