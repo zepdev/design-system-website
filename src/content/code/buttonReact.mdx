@@ -23,20 +23,12 @@ function Button({
     {
       'zep-button-primary': color === 'primary',
       'zep-button-secondary': color === 'secondary',
-      'zep-button-tertiary': color === 'tertiary',
       'zep-button--full': fullWidth,
       'zep-button--small': size === 'small',
     },
     classNameProp
   )
 
-  const childrenIcon = childrenProp.filter(elem => typeof elem !== 'string')[0]
-  const childrenIconTertiary = React.cloneElement(childrenIcon, {
-    className: clsx(
-      'zep-button__icon zep-button__icon-tertiary',
-      childrenIcon.props.className
-    ),
-  })
   const childrenText = childrenProp.filter(elem => typeof elem === 'string')
 
   return (
@@ -46,14 +38,7 @@ function Button({
       onClick={disabled ? null : onClick}
       {...other}
     >
-      {color === 'tertiary' && childrenIconTertiary}
-      <span
-        className={clsx('zep-button__text', {
-          'zep-button__text--tertiary': color === 'tertiary',
-        })}
-      >
-        {childrenText}
-      </span>
+      <span className="zep-button__text">{childrenText}</span>
     </button>
   )
 }
@@ -63,7 +48,7 @@ Button.propTypes = {
   onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
   disabled: PropTypes.bool,
-  color: PropTypes.oneOf(['primary', 'secondary', 'tertiary']),
+  color: PropTypes.oneOf(['primary', 'secondary']),
   size: PropTypes.oneOf(['small', 'large']),
 }
 

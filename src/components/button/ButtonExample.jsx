@@ -8,15 +8,15 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'flex-end',
-    padding: `${ theme.space.s.rem }rem`,
-    marginBottom: `${ theme.space.s.rem }rem`,
+    padding: `${theme.space.s.rem}rem`,
+    marginBottom: `${theme.space.s.rem}rem`,
   },
   heading: {
-    marginBottom: `${ theme.space.s.rem }rem`,
+    marginBottom: `${theme.space.s.rem}rem`,
   },
   fullWidth: {
-    border: `1px solid ${ theme.color.global.lightGray }`,
-    padding: `${ theme.space.s.rem }rem`,
+    border: `1px solid ${theme.color.global.lightGray}`,
+    padding: `${theme.space.s.rem}rem`,
     width: 200,
   },
 }))
@@ -67,27 +67,6 @@ function ButtonExample() {
       <div className={classes.container}>
         <Button variant="secondary" fullWidth onClick={handleClick}>
           Secondary Full Width
-        </Button>
-      </div>
-      <p className={classes.heading}>Primary</p>
-      <div className={classes.container}>
-        <Button variant="tertiary" onClick={handleClick}>
-          <ZepiconsStar />
-          Tertiary
-        </Button>
-        <Button variant="tertiary" size="small" onClick={handleClick}>
-          <ZepiconsStar />
-          Tertiary Small
-        </Button>
-        <Button variant="tertiary" disabled onClick={handleClick}>
-          <ZepiconsStar />
-          Tertiary Disabled
-        </Button>
-      </div>
-      <div className={classes.container}>
-        <Button variant="tertiary" fullWidth onClick={handleClick}>
-          <ZepiconsStar />
-          Tertiary Full Width
         </Button>
       </div>
     </>

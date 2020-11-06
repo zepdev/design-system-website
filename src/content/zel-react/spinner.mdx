@@ -1,0 +1,86 @@
+---
+label: Elements
+title: Spinner
+---
+
+import Table from '@zlab-de/zel-react/Table'
+import TableHeader from '@zlab-de/zel-react/TableHeader'
+import TableCell from '@zlab-de/zel-react/TableCell'
+import TableBody from '@zlab-de/zel-react/TableBody'
+import TableRow from '@zlab-de/zel-react/TableRow'
+import Spinner from '@zlab-de/zel-react/Spinner'
+
+# Spinner
+
+
+---
+
+## Available Props
+
+<Table title="Spinner Props" style={{ marginBottom: 60 }}>
+  <TableHeader>
+    <TableCell>Prop</TableCell>
+    <TableCell>Type</TableCell>
+    <TableCell>Default</TableCell>
+    <TableCell>Required</TableCell>
+  </TableHeader>
+  <TableBody>
+    <TableRow color="white">
+      <TableCell scope="row" component="th">
+        className
+      </TableCell>
+      <TableCell>string, object</TableCell>
+      <TableCell />
+      <TableCell />
+    </TableRow>
+    <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        size
+      </TableCell>
+      <TableCell>"medium" or "large"</TableCell>
+      <TableCell />
+      <TableCell>no</TableCell>
+    </TableRow>
+        <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        inverted
+      </TableCell>
+      <TableCell>bool</TableCell>
+     <TableCell>false</TableCell>
+      <TableCell>no</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+
+## Example
+
+<div style={{ marginBottom: 30 }}>
+  <p>Sizes</p>
+  <div style={{width: 300, display: "flex", justifyContent: "space-between"}}>
+  <Spinner />
+   <Spinner size="medium"/>
+    <Spinner size="large" />
+    </div>
+      <p>Inverted</p>
+      <div style={{width: 300, padding: 30, display: "flex", justifyContent: "space-between", background: 'black'}}>
+  <Spinner inverted/>
+   <Spinner inverted size="medium"/>
+    <Spinner inverted size="large" />
+    </div>
+</div>
+
+```
+import React from 'react'
+import Spinner from '@zlab-de/zel-react/Spinner'
+
+function MyComponent(){
+
+    return(
+        <div>
+            <Spinner size="large" inverted />
+        </div>
+    )
+}
+
+export default MyComponent
+```
