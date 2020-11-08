@@ -75,6 +75,10 @@ function Logo() {
             id={`panel${idx}bh-header`}
           >
             <p className={classes.heading}>{elem.title}</p>
+            <p>
+              {`https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/$
+              {elem.title}.zip`}
+            </p>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.container}>
             <img src={elem.src} alt={`${elem.title} logo`} />

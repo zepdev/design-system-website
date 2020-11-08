@@ -77,6 +77,11 @@ function LogoSection() {
             <p className={classes.heading}>{elem.title}</p>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.container}>
+            <p>
+              Download at;
+              https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+              {elem.title.replace(' ', '')}.zip
+            </p>
             <img src={elem.src} alt={`${elem.title} logo`} />
             <div>
               <DownloadFile
