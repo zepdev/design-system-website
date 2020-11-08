@@ -1,7 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Button from '@zlab-de/zel-react/Button'
-import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
 
 const useStyles = makeStyles(theme => ({
   container: {
