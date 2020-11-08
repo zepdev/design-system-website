@@ -163,7 +163,7 @@ function IconsSection() {
             <DownloadFile
               title="Zeppelin Sketch Library"
               variant="sketch"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zds-library.sketch`}
+              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/assets/sketch/zds-library.sketch`}
               download=""
               ariaLabel="download"
             />
@@ -171,13 +171,13 @@ function IconsSection() {
           <DownloadContainer>
             <DownloadFile
               title="Zeppelin SVG Icons"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepicons.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/assets/icons/zepicons.zip`}
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
               title="Zeppelin SVG Sprite"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/css/assets/dist/zepsprite.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/assets/icons/zepsprite.zip`}
               download=""
               ariaLabel="download"
             />

@@ -75,13 +75,17 @@ function Logo() {
             id={`panel${ idx }bh-header`}
           >
             <p className={classes.heading}>{elem.title}</p>
+            <p>
+              {`https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/$
+              {elem.title}.zip`}
+            </p>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.container}>
             <img src={elem.src} alt={`${ elem.title } logo`} />
             <div>
               <DownloadFile
                 title={`Download ${ elem.title }`}
-                href={`https://unpkg.com/browse/zeppelin-element-library@${ zelVersion }/assets/logos/${ elem.title.replace(
+                href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/assets/logos/${ elem.title.replace(
                   ' ',
                   ''
                 ) }.zip`}

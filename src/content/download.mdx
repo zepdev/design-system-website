@@ -12,11 +12,7 @@ import DownloadContainer from '../components/download/DownloadContainer.jsx'
 <DownloadFile
   title="Zeppelin Sketch Library"
   variant="sketch"
-  href={
-    'https://unpkg.com/zeppelin-element-library@' +
-    zelVersion +
-    '/assets/sketch/zds-library.sketch'
-  }
+  href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/assets/sketch/zds-library.sketch`}
   download=""
   ariaLabel="download"
 />
@@ -42,8 +38,8 @@ yarn add zeppelin-element-library
 Use the cached version of our files from our CDN
 
 ```js
-<link rel="stylesheet" href="https://unpkg.com/zeppelin-element-library@[VERSION]/zel.css" >
-<script src="https://unpkg.com/zeppelin-element-library@[VERSION]/bundle/zel.esm.js" ></script>
+<link rel="stylesheet" href="https://cdn-zel.zepdev.net/zel/[VERSION]/css/zel.css" >
+<script src="https://cdn-zel.zepdev.net/zel/[VERSION]/js/zel.min.js" ></script>
 
 ```
 
@@ -55,9 +51,9 @@ If you would like to download and use these styles for your own purposes directl
 
 <DownloadFile
   title="Zeppelin Element Library CSS"
-  href={`https://unpkg.com/zeppelin-element-library@${zelVersion}/zel.css`}
+  href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/css/zel.css`}
   download="zel.css"
-  ariaLabel="download sketch file"
+  ariaLabel="download css file"
 />
 
 # Developers: Code Repositories
