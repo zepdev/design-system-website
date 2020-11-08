@@ -39,7 +39,7 @@
     "react-cookie-consent": "^6.0.0",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "zeppelin-element-library": "^2.0.0"
+    "zeppelin-element-library": "^2.0.1"
   },
   "scripts": {
     "build": "gatsby build",
