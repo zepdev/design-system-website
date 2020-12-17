@@ -15,7 +15,30 @@ import TagExample from '../../components/tag/TagExample'
 
 Tags are labels which hold small amounts of information. They are used for items that need to be labeled, categorized, or organized using keywords that describe them and for pages as a method of filtering data, to show only items within that particular category. Multiple tags can be used on one single item or page.
 
----
+
+<div style={{ marginBottom: 30 }}>
+  <TagExample />
+</div>
+
+```
+import React from 'react'
+import Tag from '@zlab-de/zel-react/Tag'
+
+function MyComponent(){
+    const handleClick = () => {
+        alert('You clicked the tag!')
+    }
+
+    return(
+        <div>
+            <Tag onClick={handleClick}>I'm a Tag!</Tag>
+        </div>
+    )
+}
+
+export default MyComponent
+```
+
 
 ## Available Props
 
@@ -45,28 +68,3 @@ Tags are labels which hold small amounts of information. They are used for items
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <TagExample />
-</div>
-
-```
-import React from 'react'
-import Tag from '@zlab-de/zel-react/Tag'
-
-function MyComponent(){
-    const handleClick = () => {
-        alert('You clicked the tag!')
-    }
-
-    return(
-        <div>
-            <Tag onClick={handleClick}>I'm a Tag!</Tag>
-        </div>
-    )
-}
-
-export default MyComponent
-```

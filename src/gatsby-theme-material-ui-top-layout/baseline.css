@@ -1,0 +1,6 @@
+/* override MuiCssBaseline */
+.zep-radio *,
+*::before,
+*::after {
+  box-sizing: unset;
+}

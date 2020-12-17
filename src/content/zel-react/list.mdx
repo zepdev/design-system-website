@@ -15,7 +15,43 @@ import ListItem from '@zlab-de/zel-react/ListItem'
 
 Lists group related content together and should be used to present simple pieces of information. More complex data sets should be displayed with a table element.
 
----
+Bullet
+
+<div style={{ marginBottom: 30 }}>
+  <List>
+    <ListItem>Item 1</ListItem>
+    <ListItem>Item 2</ListItem>
+  </List>
+</div>
+
+Attribute
+
+<div style={{ marginBottom: 30 }}>
+  <List variant="attribute">
+    <ListItem label="Label">Item 1</ListItem>
+    <ListItem label="Label">Item 2</ListItem>
+  </List>
+</div>
+
+```
+import React from 'react'
+import List from '@zlab-de/zel-react/List'
+import ListItem from '@zlab-de/zel-react/ListItem'
+
+function MyComponent(){
+    return(
+        <div>
+            <List>
+                <ListItem>Item 1</ListItem>
+                <ListItem>Item 2</ListItem>
+            </List>
+        </div>
+    )
+}
+
+export default MyComponent
+```
+
 
 ## Available Props
 
@@ -92,42 +128,3 @@ ListItem
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-Bullet
-
-<div style={{ marginBottom: 30 }}>
-  <List>
-    <ListItem>Item 1</ListItem>
-    <ListItem>Item 2</ListItem>
-  </List>
-</div>
-
-Attribute
-
-<div style={{ marginBottom: 30 }}>
-  <List variant="attribute">
-    <ListItem label="Label">Item 1</ListItem>
-    <ListItem label="Label">Item 2</ListItem>
-  </List>
-</div>
-
-```
-import React from 'react'
-import List from '@zlab-de/zel-react/List'
-import ListItem from '@zlab-de/zel-react/ListItem'
-
-function MyComponent(){
-    return(
-        <div>
-            <List>
-                <ListItem>Item 1</ListItem>
-                <ListItem>Item 2</ListItem>
-            </List>
-        </div>
-    )
-}
-
-export default MyComponent
-```

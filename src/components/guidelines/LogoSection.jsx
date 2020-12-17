@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import { logo } from 'zeppelin-element-library/guidelines.json'
+import { logo } from '@zlab-de/zel-react/guidelines.json'
 import { version as zelVersion } from 'zeppelin-element-library/package.json'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ZepiconsChevronDown from '@zlab-de/zel-react-icons/ZepiconsChevronDown'
+import Accordion from '@material-ui/core/Accordion'
+import AccordionSummary from '@material-ui/core/AccordionSummary'
+import AccordionDetails from '@material-ui/core/AccordionDetails'
+import IconArrowChevronDown from '@zlab-de/zel-react-icons/IconArrowChevronDown'
 import CorporateLogos from '../../assets/images/Logo/Corporate.png'
 import RentalLogos from '../../assets/images/Logo/Rental.png'
 import CorporateInvertedLogos from '../../assets/images/Logo/CorporateInverted.png'
@@ -22,7 +22,7 @@ import DownloadFile from '../download/DownloadFile.jsx'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   container: {
     display: 'flex',
@@ -59,43 +59,43 @@ function LogoSection() {
       <Headline variant="sm">Logo Colors</Headline>
       <div className={classes.container}>
         {Object.keys(logo).map(elem => (
-          <Swatch color={logo[elem]} key={`swatch${ elem }`} />
+          <Swatch color={logo[elem]} key={`swatch${elem}`} />
         ))}
       </div>
       <Headline variant="sm">Logo Usage from Size</Headline>
       {data.map((elem, idx) => (
-        <ExpansionPanel
-          expanded={expanded === `panel${ idx }`}
-          onChange={handleChange(`panel${ idx }`)}
-          key={`logo${ idx }`}
+        <Accordion
+          expanded={expanded === `panel${idx}`}
+          onChange={handleChange(`panel${idx}`)}
+          key={`logo${idx}`}
         >
-          <ExpansionPanelSummary
-            expandIcon={<ZepiconsChevronDown />}
-            aria-controls={`panel${ idx }bh-content`}
-            id={`panel${ idx }bh-header`}
+          <AccordionSummary
+            expandIcon={<IconArrowChevronDown />}
+            aria-controls={`panel${idx}bh-content`}
+            id={`panel${idx}bh-header`}
           >
             <p className={classes.heading}>{elem.title}</p>
-          </ExpansionPanelSummary>
-          <ExpansionPanelDetails className={classes.container}>
+          </AccordionSummary>
+          <AccordionDetails className={classes.container}>
             <p>
               Download at;
               https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
               {elem.title.replace(' ', '')}.zip
             </p>
-            <img src={elem.src} alt={`${ elem.title } logo`} />
+            <img src={elem.src} alt={`${elem.title} logo`} />
             <div>
               <DownloadFile
-                title={`Download ${ elem.title }`}
-                href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/logos/${ elem.title.replace(
+                title={`Download ${elem.title}`}
+                href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/logos/${elem.title.replace(
                   ' ',
                   ''
-                ) }.zip`}
-                download={`${ elem.title }.zip`}
-                ariaLabel={`Download ${ elem.title }`}
+                )}.zip`}
+                download={`${elem.title}.zip`}
+                ariaLabel={`Download ${elem.title}`}
               />
             </div>
-          </ExpansionPanelDetails>
-        </ExpansionPanel>
+          </AccordionDetails>
+        </Accordion>
       ))}
     </div>
   )

@@ -3,14 +3,14 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import TreeView from '@material-ui/lab/TreeView'
 import TreeItem from '@material-ui/lab/TreeItem'
-import ZepiconsChevronRight from '@zlab-de/zel-react-icons/ZepiconsChevronRight'
-import ZepiconsChevronDown from '@zlab-de/zel-react-icons/ZepiconsChevronDown'
-import guidelines from 'zeppelin-element-library/guidelines.json'
+import IconArrowChevronRight from '@zlab-de/zel-react-icons/IconArrowChevronRight'
+import IconArrowChevronDown from '@zlab-de/zel-react-icons/IconArrowChevronDown'
+import guidelines from '@zlab-de/zel-react/guidelines.json'
 import clsx from 'clsx'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
 }))
 
@@ -27,35 +27,35 @@ function useType(value) {
 
 function useLabel(value, type) {
   switch (type) {
-  case 'array':
-    return `Array(${ value.length })`
-  case 'null':
-    return 'null'
-  case 'undefined':
-    return 'undefined'
-  case 'function':
-    return `f ${ value.name }()`
-  case 'object':
-    return 'Object'
-  case 'string':
-    return `"${ value }"`
-  case 'symbol':
-    return `Symbol(${ String(value) })`
-  case 'bigint':
-  case 'boolean':
-  case 'number':
-  default:
-    return String(value)
+    case 'array':
+      return `Array(${value.length})`
+    case 'null':
+      return 'null'
+    case 'undefined':
+      return 'undefined'
+    case 'function':
+      return `f ${value.name}()`
+    case 'object':
+      return 'Object'
+    case 'string':
+      return `"${value}"`
+    case 'symbol':
+      return `Symbol(${String(value)})`
+    case 'bigint':
+    case 'boolean':
+    case 'number':
+    default:
+      return String(value)
   }
 }
 
 function useTokenType(type) {
   switch (type) {
-  case 'object':
-  case 'array':
-    return 'comment'
-  default:
-    return type
+    case 'object':
+    case 'array':
+      return 'comment'
+    default:
+      return type
   }
 }
 
@@ -85,15 +85,15 @@ function ObjectEntry(props) {
       Object.keys(objectValue).length === 0
         ? undefined
         : Object.keys(objectValue).map(key => {
-          return (
-            <ObjectEntry
-              key={key}
-              nodeId={`${ keyPrefix }.${ key }`}
-              objectKey={key}
-              objectValue={objectValue[key]}
-            />
-          )
-        })
+            return (
+              <ObjectEntry
+                key={key}
+                nodeId={`${keyPrefix}.${key}`}
+                objectKey={key}
+                objectValue={objectValue[key]}
+              />
+            )
+          })
   }
 
   return (
@@ -114,14 +114,14 @@ function Api() {
   return (
     <div className={classes.root}>
       <TreeView
-        defaultCollapseIcon={<ZepiconsChevronDown />}
-        defaultExpandIcon={<ZepiconsChevronRight />}
+        defaultCollapseIcon={<IconArrowChevronDown />}
+        defaultExpandIcon={<IconArrowChevronRight />}
       >
         {Object.keys(guidelines).map(section => {
           return (
             <ObjectEntry
               key={section}
-              nodeId={`${ 'ROOT' }.${ section }`}
+              nodeId={`${'ROOT'}.${section}`}
               objectKey={section}
               objectValue={guidelines[section]}
             />

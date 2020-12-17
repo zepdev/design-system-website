@@ -16,11 +16,48 @@ import TabsExample from '../../components/tabs/TabsExample'
 
 The Zeppelin Tabs requires the use of a theme.
 
----
+
+<div style={{ marginBottom: 30 }}>
+  <TabsExample />
+</div>
+
+```
+import React, {useState} from 'react'
+import Tabs from '@zlab-de/zel-react/Tabs'
+import Tab from '@zlab-de/zel-react/Tab'
+import IconEssentialStar from '@zlab-de/zel-react-icons/IconEssentialStar'
+
+function MyComponent(){
+    const [value, setValue] = useState(0)
+
+    function handleChange(newValue) {
+        setValue(newValue)
+    }
+
+    return(
+        <div>
+           <Tabs value={value} onClick={handleChange}>
+                <Tab label="Tab 1" />
+                <Tab label="Tab 2" />
+            </Tabs>
+            {value === 0 && <p>This is Tab 1</p>}
+            {value === 1 && <p>This is Tab 2</p>}
+
+            <Tabs value={value} onClick={handleChange} size="small">
+                <Tab label="Tab 1" icon={<IconEssentialStar />} />
+                <Tab label="Tab 2" icon={<IconEssentialStar />} />
+            </Tabs>
+            {value === 0 && <p>This is Tab 1</p>}
+            {value === 1 && <p>This is Tab 2</p>}
+        </div>
+    )
+}
+
+export default MyComponent
+```
+
 
 ## Available Props
-
-Tabs
 
 <Table title="Tabs Props" style={{ marginBottom: 60 }}>
   <TableHeader>
@@ -117,45 +154,3 @@ Tab
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <TabsExample />
-</div>
-
-```
-import React, {useState} from 'react'
-import Tabs from '@zlab-de/zel-react/Tabs'
-import Tab from '@zlab-de/zel-react/Tab'
-import ZepiconsStar from '@zlab-de/zel-react-icons/ZepiconsStar'
-
-function MyComponent(){
-    const [value, setValue] = useState(0)
-
-    function handleChange(newValue) {
-        setValue(newValue)
-    }
-
-    return(
-        <div>
-           <Tabs value={value} onClick={handleChange}>
-                <Tab label="Tab 1" />
-                <Tab label="Tab 2" />
-            </Tabs>
-            {value === 0 && <p>This is Tab 1</p>}
-            {value === 1 && <p>This is Tab 2</p>}
-            </>
-
-            <Tabs value={value} onClick={handleChange} size="small">
-                <Tab label="Tab 1" icon={<ZepiconsStar />} />
-                <Tab label="Tab 2" icon={<ZepiconsStar />} />
-            </Tabs>
-            {value === 0 && <p>This is Tab 1</p>}
-            {value === 1 && <p>This is Tab 2</p>}
-        </div>
-    )
-}
-
-export default MyComponent
-```

@@ -10,12 +10,94 @@ import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
 import Search from '@zlab-de/zel-react/Search'
 import SearchExample from '../../components/search/SearchExample'
+import SearchExampleMui from "../../components/search/SearchExampleMui.jsx"
 
 # Search
 
 Search is the one of the most used features and users expect it to be fast, intelligent, and simple. Search is a method of finding required information from large contents. Basic search is based on a single parameter (usually name) that is used to find an item. Advanced search is a way to find something from a large list of items. Search can also be used as a filter where the user is able to define multiple parameters for a specific criteria.
 
----
+## It is recommended to use the MUI input component and apply ZEL styles. 
+
+## MUI Example (pure zel-react component below)
+
+<div style={{ marginBottom: 30 }}>
+  <SearchExampleMui />
+</div>
+
+```jsx
+import React from 'react'
+import OutlinedInput from '@material-ui/core/OutlinedInput'
+import InputAdornment from '@material-ui/core/InputAdornment'
+import Autocomplete from '@material-ui/core/Autocomplete'
+import IconSearch from '@zlab-de/zel-react-icons/IconEssentialSearch'
+
+function SearchExampleMui() {
+  const handleChange = selection => {
+    alert(`You selected ${selection.value}`)
+  }
+  const searchItems = [
+    { value: 'value 1' },
+    { value: 'value 2' },
+    { value: 'value 3' },
+  ]
+
+ <Autocomplete
+        onChange={(event, newValue) => {
+          handleChange(newValue)
+        }}
+        forcePopupIcon={false}
+        id="combo-box-3"
+        style={{ width: 300 }}
+        options={searchItems}
+        getOptionLabel={option => option.value}
+        renderInput={params => (
+          <div ref={params.InputProps.ref}>
+            <OutlinedInput
+              {...params.inputProps}
+              variant="outlined"
+              abel="Search box"
+              style={{ borderRadius: 0 }}
+              endAdornment={
+                <InputAdornment position="end">
+                  <IconSearch />
+                </InputAdornment>
+              }
+            />
+          </div>
+        )}
+      />
+      }
+
+export default SearchExampleMui
+```
+
+
+
+## Pure zel-react Example
+
+<div style={{ marginBottom: 30 }}>
+  <SearchExample />
+</div>
+
+```
+import React from 'react'
+import Search from '@zlab-de/zel-react/Search'
+
+function MyComponent(){
+    const handleChange = selection => {
+        alert(`You selected ${ selection.value }`)
+    }
+    const searchItems = [{ value: 'value 1' }, { value: 'value 2' }, { value: 'value 3' }]
+
+    return(
+        <div>
+            <Search onChange={handleChange} items={searchItems} placeholder="Search for value" />
+        </div>
+    )
+}
+
+export default MyComponent
+```
 
 ## Available Props
 
@@ -69,29 +151,3 @@ Search is the one of the most used features and users expect it to be fast, inte
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <SearchExample />
-</div>
-
-```
-import React from 'react'
-import Search from '@zlab-de/zel-react/Search'
-
-function MyComponent(){
-    const handleChange = selection => {
-        alert(`You selected ${ selection.value }`)
-    }
-    const searchItems = [{ value: 'value 1' }, { value: 'value 2' }, { value: 'value 3' }]
-
-    return(
-        <div>
-            <Search onChange={handleChange} items={searchItems} placeholder="Search for value" />
-        </div>
-    )
-}
-
-export default MyComponent
-```

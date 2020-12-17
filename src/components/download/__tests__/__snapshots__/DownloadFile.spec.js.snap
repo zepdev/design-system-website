@@ -9,7 +9,7 @@ Object {
         class="makeStyles-root-1"
       >
         <p
-          class="zep-typo--normal-body1 makeStyles-text-4"
+          class="zep-typo--body-default makeStyles-text-4"
         >
           mockTitle
         </p>
@@ -48,7 +48,7 @@ Object {
       class="makeStyles-root-1"
     >
       <p
-        class="zep-typo--normal-body1 makeStyles-text-4"
+        class="zep-typo--body-default makeStyles-text-4"
       >
         mockTitle
       </p>

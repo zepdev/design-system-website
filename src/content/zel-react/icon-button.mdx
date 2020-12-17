@@ -8,12 +8,37 @@ import TableHeader from '@zlab-de/zel-react/TableHeader'
 import TableCell from '@zlab-de/zel-react/TableCell'
 import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
+import IconButtonExample from "../../components/button/IconButtonExample"
 
 # Icon Button
 
 Buttons are items used to express and initialize an action when the user clicks or touches it. The Zeppelin Button has two main styles, primary and secondary and requires the use of a theme. Each page can have one or two primary buttons.
 
----
+
+<div style={{ marginBottom: 30 }}>
+  <IconButtonExample />
+</div>
+
+```jsx
+import React from 'react'
+import IconButton from '@zlab-de/zel-react/IconButton'
+import StarIcon from '@zlab-de/zel-react-icons/IconEssentialStar'
+
+function IconButtonExample() {
+  return (
+    <>
+      <IconButton variant="primary">
+        <StarIcon />
+      </IconButton>
+      <IconButton variant="secondary">
+        <StarIcon />
+      </IconButton>
+    </>
+  )
+}
+
+export default IconButtonExample
+```
 
 ## Available Props
 
@@ -51,6 +76,3 @@ Buttons are items used to express and initialize an action when the user clicks 
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-

@@ -8,7 +8,7 @@ import TableHeader from '@zlab-de/zel-react/TableHeader'
 import TableCell from '@zlab-de/zel-react/TableCell'
 import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
-import RadioExample from '../../components/radio/RadioExample'
+import RadioExample from '../../components/radio/RadioExample.jsx'
 
 
 # Radio
@@ -77,6 +77,14 @@ Radio
       <TableCell />
       <TableCell>Yes</TableCell>
     </TableRow>
+       <TableRow color="gray">
+      <TableCell scope="row" component="th">
+        variant
+      </TableCell>
+      <TableCell>'inline', 'default'</TableCell>
+      <TableCell>'default'</TableCell>
+      <TableCell>Yes</TableCell>
+    </TableRow>
   </TableBody>
 </Table>
 
@@ -138,9 +146,8 @@ import RadioGroup from '@zlab-de/zel-react/RadioGroup'
 
 function RadioExample() {
   const [radio, setRadio] = useState('a')
-  function handleChange(event) {
-    setRadio(event.target.value)
-  }
+  const [radioInline, setRadioInline] = useState('c')
+
 
   return (
     <div>
@@ -150,21 +157,32 @@ function RadioExample() {
           id="r1"
           name="value 1"
           checked={radio === 'a'}
-          onChange={handleChange}
+          onChange={e=>setRadio(e.target.value)}
         />
         <Radio
           value="b"
           id="r2"
           name="value 2"
           checked={radio === 'b'}
-          onChange={handleChange}
+          onChange={e=>setRadio(e.target.value)}
         />
+      </RadioGroup>
+          <RadioGroup title="Select One">
         <Radio
+          variant="inline"
           value="c"
           id="r3"
           name="value 3"
-          checked={radio === 'c'}
-          onChange={handleChange}
+          checked={radioInline === 'c'}
+          onChange={e=>setRadioInline(e.target.value)}
+        />
+        <Radio
+          variant="inline"
+          value="d"
+          id="r4"
+          name="value 4"
+          checked={radioInline === 'd'}
+          onChange={e=>setRadioInline(e.target.value)}
         />
       </RadioGroup>
     </div>

@@ -15,6 +15,25 @@ import ButtonExample from '../../components/button/ButtonExample'
 
 Buttons are items used to express and initialize an action when the user clicks or touches it. The Zeppelin Button has two main styles, primary and secondary and requires the use of a theme. Each page can have one or two primary buttons.
 
+<div style={{ marginBottom: 30 }}>
+  <ButtonExample />
+</div>
+
+```
+import React from 'react'
+import Button from '@zlab-de/zel-react/Button'
+
+function MyComponent(){
+    return(
+        <div>
+            <Button variant="primary">Click Me!</Button>
+        </div>
+    )
+}
+
+export default MyComponent
+```
+
 ## Available Props
 
 <Table title="Button Props" style={{ marginBottom: 60 }}>
@@ -29,7 +48,7 @@ Buttons are items used to express and initialize an action when the user clicks 
       <TableCell scope="row" component="th">
         variant
       </TableCell>
-      <TableCell>"primary", "secondary", "tertiary"</TableCell>
+      <TableCell>"primary", "secondary"</TableCell>
       <TableCell />
       <TableCell />
     </TableRow>
@@ -75,24 +94,3 @@ Buttons are items used to express and initialize an action when the user clicks 
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <ButtonExample />
-</div>
-
-```
-import React from 'react'
-import Button from '@zlab-de/zel-react/Button'
-
-function MyComponent(){
-    return(
-        <div>
-            <Button variant="primary">Click Me!</Button>
-        </div>
-    )
-}
-
-export default MyComponent
-```

@@ -43,7 +43,7 @@ Object {
         Zeppelin Icons
       </p>
       <p
-        class="makeStyles-text-2 zep-typo--normal-body1"
+        class="makeStyles-text-2 zep-typo--body-default"
       >
         Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG Sprite) or icons may be downloaded individually from below.
       </p>
@@ -54,7 +54,7 @@ Object {
           class="makeStyles-root-14"
         >
           <p
-            class="zep-typo--normal-body1 makeStyles-text-17"
+            class="zep-typo--body-default makeStyles-text-17"
           >
             Sketch Zeppelin Sketch Library
           </p>
@@ -100,7 +100,7 @@ Object {
           class="makeStyles-root-14"
         >
           <p
-            class="zep-typo--normal-body1 makeStyles-text-17"
+            class="zep-typo--body-default makeStyles-text-17"
           >
             Zeppelin SVG Icons
           </p>
@@ -137,7 +137,7 @@ Object {
           class="makeStyles-root-14"
         >
           <p
-            class="zep-typo--normal-body1 makeStyles-text-17"
+            class="zep-typo--body-default makeStyles-text-17"
           >
             Zeppelin SVG Sprite
           </p>
@@ -5231,7 +5231,7 @@ Object {
       Zeppelin Icons
     </p>
     <p
-      class="makeStyles-text-2 zep-typo--normal-body1"
+      class="makeStyles-text-2 zep-typo--body-default"
     >
       Icons can be downloaded as one large file containing all icons (Sketch, SVGs, or SVG Sprite) or icons may be downloaded individually from below.
     </p>
@@ -5242,7 +5242,7 @@ Object {
         class="makeStyles-root-14"
       >
         <p
-          class="zep-typo--normal-body1 makeStyles-text-17"
+          class="zep-typo--body-default makeStyles-text-17"
         >
           Sketch Zeppelin Sketch Library
         </p>
@@ -5288,7 +5288,7 @@ Object {
         class="makeStyles-root-14"
       >
         <p
-          class="zep-typo--normal-body1 makeStyles-text-17"
+          class="zep-typo--body-default makeStyles-text-17"
         >
           Zeppelin SVG Icons
         </p>
@@ -5325,7 +5325,7 @@ Object {
         class="makeStyles-root-14"
       >
         <p
-          class="zep-typo--normal-body1 makeStyles-text-17"
+          class="zep-typo--body-default makeStyles-text-17"
         >
           Zeppelin SVG Sprite
         </p>

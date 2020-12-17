@@ -4,9 +4,7 @@ import RadioGroup from '@zlab-de/zel-react/RadioGroup'
 
 function RadioExample() {
   const [radio, setRadio] = useState('a')
-  function handleChange(event) {
-    setRadio(event.target.value)
-  }
+  const [radioInline, setRadioInline] = useState('a')
 
   return (
     <div>
@@ -16,14 +14,32 @@ function RadioExample() {
           id="r1"
           name="value 1"
           checked={radio === 'a'}
-          onChange={handleChange}
+          onChange={e => setRadio(e.target.value)}
         />
         <Radio
           value="b"
           id="r2"
           name="value 2"
           checked={radio === 'b'}
-          onChange={handleChange}
+          onChange={e => setRadio(e.target.value)}
+        />
+      </RadioGroup>
+      <RadioGroup title="Inline Example">
+        <Radio
+          variant="inline"
+          value="a"
+          id="r1Inline"
+          name="value 1"
+          checked={radioInline === 'a'}
+          onChange={e => setRadioInline(e.target.value)}
+        />
+        <Radio
+          variant="inline"
+          value="b"
+          id="r2Inline"
+          name="value 2"
+          checked={radioInline === 'b'}
+          onChange={e => setRadioInline(e.target.value)}
         />
       </RadioGroup>
     </div>

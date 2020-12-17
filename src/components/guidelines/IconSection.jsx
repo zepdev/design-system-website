@@ -15,13 +15,13 @@ import { iconography } from '../../data/elements'
 
 const useStyles = makeStyles(theme => ({
   tabs: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   text: {
-    marginBottom: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem}rem`,
   },
   root: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
     display: 'flex',
     flexWrap: 'wrap',
   },
@@ -87,7 +87,7 @@ const useStyles = makeStyles(theme => ({
     position: 'absolute',
     height: '100%',
     width: '100%',
-    padding: `${ theme.space.s.rem }rem`,
+    padding: `${theme.space.s.rem}rem`,
   },
   name: {
     textAlign: 'left',
@@ -116,32 +116,44 @@ function IconsSection() {
   const zelVersion = '0.11.4' // we cannot call from package.json as it is always on next version which is not published to cdn.
 
   const sections = {
-    action: {
-      title: 'Action Icons',
+    arrowChevron: {
+      title: 'Arrow / Chevron',
     },
-    ps: {
-      title: 'Strategic Business Units Icons: Power Systems',
+    arrow: {
+      title: 'Arrow',
     },
-    cat: {
-      title: 'Strategic Business Units Icons: Zeppelin Cat',
+    communication: {
+      title: 'Communication',
     },
-    systems: {
-      title: 'Strategic Business Units Icons: Systems',
+    ecom: {
+      title: 'Ecom',
     },
-    rental: {
-      title: 'Strategic Business Units Icons: Rental',
+    essential: {
+      title: 'Essential',
     },
-    navigation: {
-      title: 'Navigation Icons',
+    location: {
+      title: 'Location',
     },
-    indicator: {
-      title: 'Indicator Icons',
+    media: {
+      title: 'Media',
     },
-    language: {
-      title: 'Language Icons',
+    sbuNew: {
+      title: 'SBU New',
+    },
+    sbuSystems: {
+      title: 'SBU Systems',
+    },
+    sbuZMB: {
+      title: 'SBU ZMB',
+    },
+    sbuZPS: {
+      title: 'SBU ZPS',
+    },
+    sbuZRD: {
+      title: 'SBU ZRD',
     },
     social: {
-      title: 'Social Icons',
+      title: 'Social',
     },
   }
 
@@ -154,7 +166,7 @@ function IconsSection() {
       {value === 0 && (
         <>
           <Headline variant="md">Zeppelin Icons</Headline>
-          <p className={clsx(classes.text, 'zep-typo--normal-body1')}>
+          <p className={clsx(classes.text, 'zep-typo--body-default')}>
             Icons can be downloaded as one large file containing all icons
             (Sketch, SVGs, or SVG Sprite) or icons may be downloaded
             individually from below.
@@ -163,7 +175,7 @@ function IconsSection() {
             <DownloadFile
               title="Zeppelin Sketch Library"
               variant="sketch"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/assets/sketch/zds-library.sketch`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/assets/sketch/zds-library.sketch`}
               download=""
               ariaLabel="download"
             />
@@ -171,29 +183,29 @@ function IconsSection() {
           <DownloadContainer>
             <DownloadFile
               title="Zeppelin SVG Icons"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/assets/icons/zepicons.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/assets/icons/zepicons.zip`}
               download="zeppelin-iconography-library"
               ariaLabel="download"
             />
             <DownloadFile
               title="Zeppelin SVG Sprite"
-              href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/assets/icons/zepsprite.zip`}
+              href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/assets/icons/zepsprite.zip`}
               download=""
               ariaLabel="download"
             />
           </DownloadContainer>
           <Divider />
           {Object.keys(sections).map(section => (
-            <Fragment key={`section${ section }`}>
+            <Fragment key={`section${section}`}>
               <Headline variant="md">{sections[section].title}</Headline>
               <div className={classes.root}>
                 {iconography[section].map(elem => (
                   <ButtonBase
                     className={classes.container}
-                    key={`icon${ elem }`}
+                    key={`icon${elem}`}
                     target="_blank"
-                    href={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${ elem }.svg`)}
-                    download={`zepicons-${ elem }.svg`}
+                    href={require(`zeppelin-element-library/assets/icons/SVG/${elem}.svg`)}
+                    download={`zepicons-${elem}.svg`}
                     aria-label={elem}
                   >
                     <div className={classes.content}>
@@ -204,14 +216,11 @@ function IconsSection() {
                           ariaLabel="download"
                         />
                       </span>
-                      <p
-                        className={clsx(
-                          classes.name,
-                          'zep-typo--normal-caption'
-                        )}
-                      >{`zepicons-${ elem }`}</p>
+                      <p className={clsx(classes.name, 'zep-typo--body-small')}>
+                        {elem}
+                      </p>
                       <img
-                        src={require(`zeppelin-element-library/assets/icons/SVG/zepicons-${ elem }.svg`)}
+                        src={require(`zeppelin-element-library/assets/icons/SVG/${elem}.svg`)}
                         alt={elem}
                         className={classes.img}
                       />

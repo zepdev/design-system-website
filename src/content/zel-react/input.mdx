@@ -10,12 +10,71 @@ import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
 import Input from '@zlab-de/zel-react/Input'
 import InputExample from '../../components/input/InputExample'
+import InputExampleMui from '../../components/input/InputExampleMui'
+
 
 # Input
 
 Inputs are the most commonly used form elements and allow the user to submit data. Using labels help users understand what information to enter into a Text Input. For better accessibility labels must be visible when an input gets focus and must be announced to the screen reader on focus. In addition to labels the Zeppelin Design System uses placeholder texts to provide hints or examples of what to enter. These placeholders disappear after the user begins entering data into the Input.
 
----
+## It is recommended to use the MUI input component and apply ZEL styles. 
+
+## MUI Example (pure zel-react component below)
+
+<div style={{ marginBottom: 30 }}>
+  <InputExampleMui />
+</div>
+
+```jsx
+import React from 'react'
+import TextField from '@material-ui/core/TextField'
+
+function InputExampleMui() {
+  return (
+    <div>
+      <TextField
+        id="outlined"
+        label="Input"
+        variant="outlined"
+        InputProps={{ style :{borderRadius: 0}}}
+      />
+    </div>
+  )
+}
+
+export default InputExampleMui
+```
+
+
+## Pure zel-react component
+
+Type in the text 'error' to see error state
+<div style={{ marginBottom: 30 }}>
+  <InputExample />
+</div>
+
+```
+import React, {useState} from 'react'
+import Input from '@zlab-de/zel-react/Input'
+
+function MyComponent(){
+    const [input, setInput] = useState('')
+    return(
+        <form>
+            <Input
+                placeholder="Input"
+                id="inputDemo"
+                label="demo"
+                onChange={e => setInput(e.target.value)}
+                value={input}
+            />
+        </form>
+    )
+}
+
+export default MyComponent
+```
+
 
 ## Available Props
 
@@ -93,33 +152,3 @@ Inputs are the most commonly used form elements and allow the user to submit dat
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-Type in the text 'error' to see error state
-
-<div style={{ marginBottom: 30 }}>
-  <InputExample />
-</div>
-
-```
-import React, {useState} from 'react'
-import Input from '@zlab-de/zel-react/Input'
-
-function MyComponent(){
-    const [input, setInput] = useState('')
-    return(
-        <form>
-            <Input
-                placeholder="Input"
-                id="inputDemo"
-                label="demo"
-                onChange={e => setInput(e.target.value)}
-                value={value}
-            />
-        </form>
-    )
-}
-
-export default MyComponent
-```

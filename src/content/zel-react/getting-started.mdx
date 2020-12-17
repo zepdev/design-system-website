@@ -29,35 +29,117 @@ yarn add @zlab-de/zel-react
 
 ## How to use our components
 
-You must bring in **zel.css** and select a theme (theme-zeppelin, theme-cat, or theme-rental) to apply the styles from Zeppelin Element Library. It only needs to be brought it once at the root of your application.
+You must bring in **zel.css** and select a theme (theme-zeppelin, theme-cat, or theme-rental) to apply the styles from Zeppelin Element Library. It only needs to be brought it once at the root of your application. There is also a **guidelines.json** file to help you more easily access guidelines; colors, spacing, and typography specifications.
+
+IT IS HIGHLY RECOMMENDED THAT THIS LIBRARY IS USED WITH ANOTHER COMPONENT LIBRARY LIKE MATERIAL UI.
+
+Full Example with recommended MUI theme
 
 ```jsx
 // index.js
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import { ThemeProvider } from "@material-ui/core/styles";
+import theme from 'theme'
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>,
+  rootElement
+);
+
+// theme.js
+import { createMuiTheme } from '@material-ui/core/styles'
+import guidelines from '@zlab-de/zel-react/guidelines.json'
+import '@zlab-de/zel-react/zel.css'
+import './baseline.css'
+
+const theme = createMuiTheme({
+  palette: {
+    type: 'light',
+    primary: {
+      light: guidelines.theme.indigo.secondary,
+      main: guidelines.theme.indigo.primary,
+      dark: guidelines.theme.indigo.primary,
+    },
+    error: { main: guidelines.color.support.alert },
+  },
+  logo: guidelines.logo,
+  blue: guidelines.theme.blue,
+  indigo: guidelines.theme.indigo,
+  red: guidelines.theme.red,
+  yellow: guidelines.theme.yellow,
+  guidelines: guidelines,
+  space: guidelines.spacing.component,
+  color: guidelines.color,
+})
+
+export default theme
+
+//baseline.css 
+.zep-radio *,
+*::before,
+*::after {
+  box-sizing: unset;
+}
 
 // App.js
 import React from "react";
+import MyComponent from "./MyComponent"
+
+export default function App() {
+  return (
+    <div className="theme-zeppelin">
+      <MyComponent />
+    </div>
+  );
+}
+
+// MyComponent.js
+import React from "react";
+import { makeStyles } from '@material-ui/core/styles'
+
+const useStyles = makeStyles((theme) => ({
+  p: {
+    marginBottom: `${ theme.space.xxl.rem }rem`,
+    color: theme.indigo.primary,
+  },
+})
+
+function MyComponent() {
+   const classes = useStyles();
+  return (
+      <p className={classes.p}>
+        Hello World!
+      </p>
+  );
+}
+
+export default MyComponent
+```
+
+# You may also bring into a simple react component alone
+
+```jsx
+// App.js
+import React from "react";
 import "@zlab-de/zel-react/zel.css"
+import guidelines from "@zlab-de/zel-react/guidelines.json"
 
 export default function App() {
   return (
     <div className="theme-zeppelin">
       <h1>Hello World!</h1>
+      <p style={{color: guidelines.color.corporate.indigo}}>Zeppelin colored text!</p>
     </div>
   );
 }
 ```
 
-## guidelines.json
-
-This repository also has a **guidelines.json** file available for you to help with styling. This file contains the following infomation (see the guidelines section for more information); colors, spacing, and typography specifications.
-
-Example with React-JSS Theming
+# Or with any React-JSS Theming
 
 ```jsx
 // index.js
@@ -118,14 +200,14 @@ Any alternative props that you wish to pass to a component (ie inline styles) wi
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import ZepiconsClose from '@zlab-de/zel-react-icons/ZepiconsClose';
+import IconClose from '@zlab-de/zel-react-icons/IconClose';
 
 const Tag = ({ className: classNameProp, children, onClose, ...other }) => {
   return (
     <span className={clsx(classNameProp, 'zep-tag')} {...other}>
       {children}
       <button onClose={onClose} aria-label="close" className="zep-tag__button">
-        <ZepiconsClose className="zep-tag__icons" />
+        <IconClose className="zep-tag__icons" />
       </button>
     </span>
   );

@@ -5,16 +5,14 @@ import '@reach/skip-nav/styles.css'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import CookieConsent from 'react-cookie-consent'
 import { MDXProvider } from '@mdx-js/react'
+import clsx from 'clsx'
 import { makeStyles } from '@material-ui/core/styles'
 import Drawer from '@material-ui/core/Drawer'
 import Hidden from '@material-ui/core/Hidden'
-import Grid from '@material-ui/core/Grid'
-import clsx from 'clsx'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-// import ZEL from 'zeppelin-element-library'
 import '@zlab-de/zel-react/zel.css'
 
 const useStyles = makeStyles(theme => ({
@@ -23,27 +21,29 @@ const useStyles = makeStyles(theme => ({
   },
   main: {
     width: '100%',
-    background: theme.color.white[84],
-    padding: `${ theme.space.l.rem }rem`,
-    [theme.breakpoints.up('s')]: {
-      padding: `${ theme.space.xxl.rem }rem`,
+    padding: `${theme.space.l.rem}rem`,
+    [theme.breakpoints.up('sm')]: {
+      padding: `${theme.space.l.rem}rem ${theme.space.l.rem * 3}rem`,
+    },
+    [theme.breakpoints.up('xl')]: {
+      width: 1440,
     },
   },
   pStyled: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${ theme.color.global.lightGray }`,
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    borderTop: `1px solid ${theme.color.global.lightGray}`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
     width: '100%',
     borderColor: theme.color.global.lightGray,
   },
   hStyled: {
-    marginBottom: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem}rem`,
   },
   h1Styled: {
-    marginBottom: `${ theme.space.m.rem }rem`,
+    marginBottom: `${theme.space.m.rem}rem`,
   },
   aStyled: {
     color: theme.indigo.primary,
@@ -64,7 +64,7 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
   },
   button: {
-    marginRight: `${ theme.space.s.rem }rem`,
+    marginRight: `${theme.space.s.rem}rem`,
     color: theme.color.font,
   },
 }))
@@ -99,16 +99,16 @@ function Layout({ children }) {
 
   // Styles for mdx/md pages
   const h1Styled = props => (
-    <h1 className={clsx(classes.h1Styled, 'zep-typo--normal-h1')} {...props} />
+    <h1 className={clsx(classes.h1Styled, 'zep-typo--headline-1')} {...props} />
   )
   const h2Styled = props => (
-    <h2 className={clsx(classes.hStyled, 'zep-typo--normal-h2')} {...props} />
+    <h2 className={clsx(classes.hStyled, 'zep-typo--headline-2')} {...props} />
   )
   const h3Styled = props => (
-    <h3 className={clsx(classes.hStyled, 'zep-typo--normal-h3')} {...props} />
+    <h3 className={clsx(classes.hStyled, 'zep-typo--headline-3')} {...props} />
   )
   const pStyled = props => (
-    <p className={clsx(classes.pStyled, 'zep-typo--normal-body1')} {...props} />
+    <p className={clsx(classes.pStyled, 'zep-typo--body-default')} {...props} />
   )
   const hrStyled = () => (
     <hr className={clsx(classes.hrStyled, 'zep-border-color__gray-lighter')} />
@@ -147,13 +147,7 @@ function Layout({ children }) {
       `}
       render={data => {
         return (
-          <div
-            className={clsx({
-              'theme-indigo': zelTheme === 'indigo',
-              'theme-yellow': zelTheme === 'yellow',
-              'theme-red': zelTheme === 'red',
-            })}
-          >
+          <div className={`theme-${zelTheme}`}>
             <SkipNavLink className={classes.skipLink} />
             <Header
               siteTitle={data.mdx.frontmatter.title}
@@ -179,13 +173,7 @@ function Layout({ children }) {
               <>
                 <SkipNavContent />
                 <MDXProvider components={components}>
-                  <main className={classes.main}>
-                    <Grid container spacing={3} justify="center">
-                      <Grid item xs={12} sm={10} lg={8} xl={8}>
-                        {children}
-                      </Grid>
-                    </Grid>
-                  </main>
+                  <main className={classes.main}>{children}</main>
                 </MDXProvider>
                 <CookieConsent
                   location="bottom"

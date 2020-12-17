@@ -13,7 +13,40 @@ import Spinner from '@zlab-de/zel-react/Spinner'
 # Spinner
 
 
----
+
+
+<div style={{ marginBottom: 30 }}>
+  <p>Sizes</p>
+  <div style={{width: 300, display: "flex", justifyContent: "space-between"}}>
+  <Spinner />
+   <Spinner size="medium"/>
+    <Spinner size="large" />
+    </div>
+      <p>Inverted</p>
+      <div style={{width: 300, padding: 30, display: "flex", justifyContent: "space-between", background: 'black'}}>
+  <Spinner inverted/>
+   <Spinner inverted size="medium"/>
+    <Spinner inverted size="large" />
+    </div>
+</div>
+
+```
+import React from 'react'
+import Spinner from '@zlab-de/zel-react/Spinner'
+
+function MyComponent(){
+
+    return(
+        <div>
+            <Spinner size="large" inverted />
+        </div>
+    )
+}
+
+export default MyComponent
+```
+
+
 
 ## Available Props
 
@@ -51,36 +84,3 @@ import Spinner from '@zlab-de/zel-react/Spinner'
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <p>Sizes</p>
-  <div style={{width: 300, display: "flex", justifyContent: "space-between"}}>
-  <Spinner />
-   <Spinner size="medium"/>
-    <Spinner size="large" />
-    </div>
-      <p>Inverted</p>
-      <div style={{width: 300, padding: 30, display: "flex", justifyContent: "space-between", background: 'black'}}>
-  <Spinner inverted/>
-   <Spinner inverted size="medium"/>
-    <Spinner inverted size="large" />
-    </div>
-</div>
-
-```
-import React from 'react'
-import Spinner from '@zlab-de/zel-react/Spinner'
-
-function MyComponent(){
-
-    return(
-        <div>
-            <Spinner size="large" inverted />
-        </div>
-    )
-}
-
-export default MyComponent
-```

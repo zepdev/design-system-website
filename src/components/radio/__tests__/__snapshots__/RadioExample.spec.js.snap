@@ -8,7 +8,7 @@ Object {
       <div>
         <fieldset
           aria-labelledby="radio_Select One"
-          class="zep-typo--normal-body1"
+          class="zep-typo--body-default"
           role="group"
         >
           <legend
@@ -55,7 +55,7 @@ Object {
     <div>
       <fieldset
         aria-labelledby="radio_Select One"
-        class="zep-typo--normal-body1"
+        class="zep-typo--body-default"
         role="group"
       >
         <legend

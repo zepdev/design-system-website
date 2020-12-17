@@ -5,11 +5,11 @@ import Tabs from '../tabs/Tabs'
 import Tab from '../tabs/Tab'
 import Headline from '../typography/Headline'
 import ElementUsage from '../elements/ElementUsage'
-import { color } from 'zeppelin-element-library/guidelines.json'
+import { color } from '@zlab-de/zel-react/guidelines.json'
 
 const useStyles = makeStyles(theme => ({
   tabs: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   container: {
     display: 'flex',
@@ -37,20 +37,20 @@ function Color() {
       {value === 0 && (
         <>
           {Object.keys(color).map((section, idx) => (
-            <Fragment key={`swatch${ idx }`}>
+            <Fragment key={`swatch${idx}`}>
               <Headline variant="md">{section}</Headline>
               {section === 'font' || section === 'fontNegative' ? (
                 <Swatch
                   variant="font"
                   color={color[section]}
-                  key={`swatch${ color[section] }`}
+                  key={`swatch${color[section]}`}
                 />
               ) : (
                 <div className={classes.container}>
                   {Object.keys(color[section]).map(elem => (
                     <Swatch
                       color={color[section][elem]}
-                      key={`swatch${ elem }`}
+                      key={`swatch${elem}`}
                       name={elem}
                     />
                   ))}
