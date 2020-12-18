@@ -13,8 +13,8 @@ import MenuIcon from './icons/MenuIcon'
 import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import navigation from '../data/navigation.json'
-import IconSearch from '@zlab-de/zel-react-icons/IconEssentialSearch'
-import IconSettings from '@zlab-de/zel-react-icons/IconEssentialSettings'
+import ZepIconEssentialSearch from '@zlab-de/zel-react-icons/ZepIconEssentialSearch'
+import ZepIconEssentialSettings from '@zlab-de/zel-react-icons/ZepIconEssentialSettings'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -180,7 +180,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
                     style={{ borderRadius: 0 }}
                     endAdornment={
                       <InputAdornment position="end">
-                        <IconSearch />
+                        <ZepIconEssentialSearch />
                       </InputAdornment>
                     }
                   />
@@ -194,7 +194,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
             aria-haspopup="true"
             onClick={handleClick}
           >
-            <IconSettings size="32" className={classes.icon} />
+            <ZepIconEssentialSettings size="32" className={classes.icon} />
           </IconButton>
           <Menu
             id="simple-menu"
@@ -236,7 +236,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
                 abel="Search box"
                 endAdornment={
                   <InputAdornment position="end">
-                    <IconSearch />
+                    <ZepIconEssentialSearch />
                   </InputAdornment>
                 }
               />

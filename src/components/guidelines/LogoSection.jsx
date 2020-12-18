@@ -5,7 +5,7 @@ import { version as zelVersion } from 'zeppelin-element-library/package.json'
 import Accordion from '@material-ui/core/Accordion'
 import AccordionSummary from '@material-ui/core/AccordionSummary'
 import AccordionDetails from '@material-ui/core/AccordionDetails'
-import IconArrowChevronDown from '@zlab-de/zel-react-icons/IconArrowChevronDown'
+import ZepIconArrowChevronDown from '@zlab-de/zel-react-icons/ZepIconArrowChevronDown'
 import CorporateLogos from '../../assets/images/Logo/Corporate.png'
 import RentalLogos from '../../assets/images/Logo/Rental.png'
 import CorporateInvertedLogos from '../../assets/images/Logo/CorporateInverted.png'
@@ -70,7 +70,7 @@ function LogoSection() {
           key={`logo${idx}`}
         >
           <AccordionSummary
-            expandIcon={<IconArrowChevronDown />}
+            expandIcon={<ZepIconArrowChevronDown />}
             aria-controls={`panel${idx}bh-content`}
             id={`panel${idx}bh-header`}
           >

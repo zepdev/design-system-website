@@ -1,6 +1,6 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 import guidelines from '@zlab-de/zel-react/guidelines.json'
-import '@zlab-de/zel-react/zel.css'
+import 'zeppelin-element-library/zel.css'
 import './baseline.css'
 
 const theme = createMuiTheme({

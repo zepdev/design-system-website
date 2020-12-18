@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import IconButton from '@zlab-de/zel-react/IconButton'
-import StarIcon from '@zlab-de/zel-react-icons/IconEssentialStar'
+import ZepIconEssentialStar from '@zlab-de/zel-react-icons/ZepIconEssentialStar'
 
 const useStyles = makeStyles(theme => ({
   button: {
@@ -14,10 +14,10 @@ function IconButtonExample() {
   return (
     <>
       <IconButton variant="primary" className={classes.button}>
-        <StarIcon />
+        <ZepIconEssentialStar />
       </IconButton>
       <IconButton variant="secondary">
-        <StarIcon />
+        <ZepIconEssentialStar />
       </IconButton>
     </>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 import OutlinedInput from '@material-ui/core/OutlinedInput'
 import InputAdornment from '@material-ui/core/InputAdornment'
 import Autocomplete from '@material-ui/core/Autocomplete'
-import IconSearch from '@zlab-de/zel-react-icons/IconEssentialSearch'
+import ZepIconEssentialSearch from '@zlab-de/zel-react-icons/ZepIconEssentialSearch'
 
 function SearchExampleMui() {
   const handleChange = selection => {
@@ -34,7 +34,7 @@ function SearchExampleMui() {
               style={{ borderRadius: 0 }}
               endAdornment={
                 <InputAdornment position="end">
-                  <IconSearch />
+                  <ZepIconEssentialSearch />
                 </InputAdornment>
               }
             />

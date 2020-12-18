@@ -13,7 +13,6 @@ import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './sidebar/Sidebar'
 import CodeBlock from './code/CodeBlock'
-import '@zlab-de/zel-react/zel.css'
 
 const useStyles = makeStyles(theme => ({
   content: {
