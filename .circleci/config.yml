@@ -14,8 +14,8 @@ jobs:
     executor: node_15
     steps:
       - checkout # check out the code in the project directory
-      - node/install-yarn
-      - node/install-packages
+      - node/install-packages:
+          pkg-manager: yarn
       - attach_workspace:
           at: /tmp/project
       - run:
