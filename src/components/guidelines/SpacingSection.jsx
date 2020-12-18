@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
     borderCollapse: 'collapse',
   },
   th: {
-    padding: `${theme.space.m.px}px ${theme.space.l.px}px`,
+    padding: `${ theme.space.m.px }px ${ theme.space.l.px }px`,
     textAlign: 'left',
     display: 'table-cell',
   },
@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
     textTransform: 'capitalize',
   },
   borderBottom: {
-    borderBottom: `1px solid ${theme.color.global.lightGray}`,
+    borderBottom: `1px solid ${ theme.color.global.lightGray }`,
   },
   square: {
     background: theme.indigo.primary,
@@ -58,7 +58,7 @@ function SpacingSection() {
                   [classes.lowercase]: elem === 'rem' || elem === 'px',
                   [classes.capitalize]: elem !== 'rem' && elem !== 'px',
                 })}
-                key={`header_${elem}`}
+                key={`header_${ elem }`}
               >
                 {elem}
               </th>
@@ -67,7 +67,7 @@ function SpacingSection() {
         </thead>
         <tbody className={classes.tbody}>
           {Object.keys(spacing.component).map(elem => (
-            <tr key={`row_${elem}`} className={classes.tr}>
+            <tr key={`row_${ elem }`} className={classes.tr}>
               {header.map((item, idx) => (
                 <td
                   className={clsx(
@@ -75,7 +75,7 @@ function SpacingSection() {
                     classes.borderBottom,
                     'zep-typo--normal-body2'
                   )}
-                  key={`spacing${idx}`}
+                  key={`spacing${ idx }`}
                   scope={idx === 0 ? 'row' : null}
                 >
                   {item === 'actual size' ? (
@@ -88,11 +88,11 @@ function SpacingSection() {
                       className={classes.square}
                     />
                   ) : item === 'name' ? (
-                    `zep-spacing--${elem}`
+                    `zep-spacing--${ elem }`
                   ) : item === 'px' ? (
-                    `${spacing.component[elem][item]}px`
+                    `${ spacing.component[elem][item] }px`
                   ) : (
-                    `${spacing.component[elem][item]}rem`
+                    `${ spacing.component[elem][item] }rem`
                   )}
                 </td>
               ))}

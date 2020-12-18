@@ -21,12 +21,14 @@ Object {
           >
             <input
               checked=""
+              class="zep-radio__input"
               id="r1"
               name="value 1"
               type="radio"
               value="a"
             />
             <label
+              class="zep-radio__label"
               for="r1"
             >
               value 1
@@ -36,13 +38,61 @@ Object {
             class="zep-radio"
           >
             <input
+              class="zep-radio__input"
               id="r2"
               name="value 2"
               type="radio"
               value="b"
             />
             <label
+              class="zep-radio__label"
               for="r2"
+            >
+              value 2
+            </label>
+          </div>
+        </fieldset>
+        <fieldset
+          aria-labelledby="radio_Inline Example"
+          class="zep-typo--body-default"
+          role="group"
+        >
+          <legend
+            id="radio_Inline Example"
+          >
+            Inline Example
+          </legend>
+          <div
+            class="zep-radio zep-radio--inline"
+          >
+            <input
+              checked=""
+              class="zep-radio__input"
+              id="r1Inline"
+              name="value 1"
+              type="radio"
+              value="a"
+            />
+            <label
+              class="zep-radio__label"
+              for="r1Inline"
+            >
+              value 1
+            </label>
+          </div>
+          <div
+            class="zep-radio zep-radio--inline"
+          >
+            <input
+              class="zep-radio__input"
+              id="r2Inline"
+              name="value 2"
+              type="radio"
+              value="b"
+            />
+            <label
+              class="zep-radio__label"
+              for="r2Inline"
             >
               value 2
             </label>
@@ -68,12 +118,14 @@ Object {
         >
           <input
             checked=""
+            class="zep-radio__input"
             id="r1"
             name="value 1"
             type="radio"
             value="a"
           />
           <label
+            class="zep-radio__label"
             for="r1"
           >
             value 1
@@ -83,13 +135,61 @@ Object {
           class="zep-radio"
         >
           <input
+            class="zep-radio__input"
             id="r2"
             name="value 2"
             type="radio"
             value="b"
           />
           <label
+            class="zep-radio__label"
             for="r2"
+          >
+            value 2
+          </label>
+        </div>
+      </fieldset>
+      <fieldset
+        aria-labelledby="radio_Inline Example"
+        class="zep-typo--body-default"
+        role="group"
+      >
+        <legend
+          id="radio_Inline Example"
+        >
+          Inline Example
+        </legend>
+        <div
+          class="zep-radio zep-radio--inline"
+        >
+          <input
+            checked=""
+            class="zep-radio__input"
+            id="r1Inline"
+            name="value 1"
+            type="radio"
+            value="a"
+          />
+          <label
+            class="zep-radio__label"
+            for="r1Inline"
+          >
+            value 1
+          </label>
+        </div>
+        <div
+          class="zep-radio zep-radio--inline"
+        >
+          <input
+            class="zep-radio__input"
+            id="r2Inline"
+            name="value 2"
+            type="radio"
+            value="b"
+          />
+          <label
+            class="zep-radio__label"
+            for="r2Inline"
           >
             value 2
           </label>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import clsx from 'clsx'
-import IconButton from '../button/IconButton'
+import IconButton from '@zlab-de/zel-react/IconButton'
 import PreviousPageIcon from '../icons/PreviousPageIcon'
 import NextPageIcon from '../icons/NextPageIcon'
 import ChevronLeftIcon from '../icons/ChevronLeftIcon'
@@ -19,7 +19,8 @@ const Pagination = ({
   onPageChange,
 }) => {
   const pages = Number(pagesProp)
-  const pagesToDisplay = Number(pagesToDisplayProp) < pages ? Number(pagesToDisplayProp) : pages
+  const pagesToDisplay =
+    Number(pagesToDisplayProp) < pages ? Number(pagesToDisplayProp) : pages
   const startDisplayPages = createArray(pagesToDisplay, 1)
 
   // changes the number of page buttons that are displayed
@@ -94,8 +95,10 @@ const Pagination = ({
 Pagination.propTypes = {
   className: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   pages: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-  pagesToDisplay: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-  currentPage: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+  pagesToDisplay: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+    .isRequired,
+  currentPage: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+    .isRequired,
   onPageChange: PropTypes.func.isRequired,
 }
 

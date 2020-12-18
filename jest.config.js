@@ -8,7 +8,9 @@ module.exports = {
       '<rootDir>/__mocks__/fileMock.js',
   },
   testPathIgnorePatterns: ['node_modules', '.cache', 'cypress'],
-  transformIgnorePatterns: ['node_modules/(?!(gatsby|gatsby-plugin-mdx)/)'],
+  transformIgnorePatterns: [
+    'node_modules/(?!(gatsby|gatsby-plugin-mdx|@zlab-de/zel-react)/)',
+  ],
   globals: {
     __PATH_PREFIX__: '',
   },

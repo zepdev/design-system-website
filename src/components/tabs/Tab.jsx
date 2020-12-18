@@ -12,11 +12,11 @@ const Tab = ({
   value,
   selected,
 }) => {
-  const iconStyled = icon
-    ? React.cloneElement(icon, {
+  const iconStyled = icon ?
+    React.cloneElement(icon, {
       className: 'zep-icon__icon',
-    })
-    : null
+    }) :
+    null
 
   return (
     <div className="zep-tabs__item">

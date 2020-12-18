@@ -60,14 +60,14 @@ const useStyles = makeStyles(theme => ({
   },
   button: {
     color: '#fff',
-    padding: `${theme.space.xl.rem}rem`,
+    padding: `${ theme.space.xl.rem }rem`,
     [theme.breakpoints.up('sm')]: {
       display: 'none',
     },
   },
   link: {
     width: 301,
-    padding: `${theme.space.xl.rem}rem`,
+    padding: `${ theme.space.xl.rem }rem`,
   },
   logo: {
     width: '100%',
@@ -81,7 +81,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.up('sm')]: {
       display: 'block',
       width: 200,
-      marginRight: `${theme.space.m.rem}rem`,
+      marginRight: `${ theme.space.m.rem }rem`,
     },
   },
   searchMobile: {
@@ -94,7 +94,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-end',
-    paddingRight: `${theme.space.xl.rem}rem`,
+    paddingRight: `${ theme.space.xl.rem }rem`,
   },
   menuItem: {
     textTransform: 'capitalize',
@@ -115,7 +115,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
   Object.keys(navigation).forEach(elem => {
     if (navigation[elem].subnav) {
       Object.keys(navigation[elem].subnav).forEach(item => {
-        search.push({ value: item, link: `/content/${elem}/${item}/` })
+        search.push({ value: item, link: `/content/${ elem }/${ item }/` })
       })
     }
   })
@@ -136,7 +136,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
 
   return (
     <>
-      <header className={clsx(classes.root, classes[`root${zelTheme}`])}>
+      <header className={clsx(classes.root, classes[`root${ zelTheme }`])}>
         <Hidden mdUp>
           <IconButton
             onClick={handleMenu}
@@ -206,7 +206,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
             {['indigo', 'yellow', 'red', 'blue'].map(elem => (
               <MenuItem
                 onClick={() => handleClose(elem)}
-                key={`menuItem${elem}`}
+                key={`menuItem${ elem }`}
                 value={elem}
                 className={clsx('zep-typo--body-default', classes.menuItem)}
               >

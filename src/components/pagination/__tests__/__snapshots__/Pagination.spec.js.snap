@@ -9,7 +9,7 @@ Object {
         class="zep-pagination"
       >
         <button
-          class="zep-button zep-button-icon"
+          class="zep-button zep-button--icon"
           disabled=""
         >
           <svg
@@ -32,7 +32,7 @@ Object {
           </svg>
         </button>
         <button
-          class="zep-button zep-button-icon"
+          class="zep-button zep-button--icon"
           disabled=""
         >
           <svg
@@ -80,7 +80,7 @@ Object {
           5
         </button>
         <button
-          class="zep-button zep-button-icon"
+          class="zep-button zep-button--icon"
         >
           <svg
             aria-labelledby="title_menu"
@@ -102,7 +102,7 @@ Object {
           </svg>
         </button>
         <button
-          class="zep-button zep-button-icon"
+          class="zep-button zep-button--icon"
         >
           <svg
             aria-labelledby="title_menu"
@@ -131,7 +131,7 @@ Object {
       class="zep-pagination"
     >
       <button
-        class="zep-button zep-button-icon"
+        class="zep-button zep-button--icon"
         disabled=""
       >
         <svg
@@ -154,7 +154,7 @@ Object {
         </svg>
       </button>
       <button
-        class="zep-button zep-button-icon"
+        class="zep-button zep-button--icon"
         disabled=""
       >
         <svg
@@ -202,7 +202,7 @@ Object {
         5
       </button>
       <button
-        class="zep-button zep-button-icon"
+        class="zep-button zep-button--icon"
       >
         <svg
           aria-labelledby="title_menu"
@@ -224,7 +224,7 @@ Object {
         </svg>
       </button>
       <button
-        class="zep-button zep-button-icon"
+        class="zep-button zep-button--icon"
       >
         <svg
           aria-labelledby="title_menu"

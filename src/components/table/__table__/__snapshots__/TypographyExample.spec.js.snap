@@ -6,38 +6,6 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="makeStyles-root-8 makeStyles-tabs-5 zep-tabs"
-        data-testid="tabs"
-        role="tablist"
-      >
-        <div
-          class="zep-tabs__item"
-        >
-          <button
-            aria-selected="true"
-            class="zep-tab zep-tab--selected"
-            id="tab-0"
-            role="tab"
-            tabindex="0"
-          >
-            Positive
-          </button>
-        </div>
-        <div
-          class="zep-tabs__item"
-        >
-          <button
-            aria-selected="false"
-            class="zep-tab"
-            id="tab-1"
-            role="tab"
-            tabindex="0"
-          >
-            Negative
-          </button>
-        </div>
-      </div>
-      <div
         class="makeStyles-root-1"
       >
         <table
@@ -53,10 +21,16 @@ Object {
               class="zep-table__row zep-table__row--header"
             >
               <th
-                class="zep-table__cell zep-table__cell--header makeStyles-capitalize-4"
+                class="zep-table__cell zep-table__cell--header"
                 scope="col"
               >
-                mockHeader1
+                Name
+              </th>
+              <th
+                class="zep-table__cell zep-table__cell--header"
+                scope="col"
+              >
+                Specifications
               </th>
             </tr>
           </thead>
@@ -65,11 +39,57 @@ Object {
               class="zep-table__row zep-table__row--white"
             >
               <th
-                class="zep-table__cell"
+                class="zep-table__cell item1"
                 scope="row"
               >
-                -
+                item1
               </th>
+              <td
+                class="zep-table__cell"
+              >
+                <span>
+                  <p
+                    class="zep-typo--body-small"
+                  >
+                    0 : m
+                  </p>
+                  <p
+                    class="zep-typo--body-small"
+                  >
+                    1 : o
+                  </p>
+                  <p
+                    class="zep-typo--body-small"
+                  >
+                    2 : c
+                  </p>
+                  <p
+                    class="zep-typo--body-small"
+                  >
+                    3 : k
+                  </p>
+                  <p
+                    class="zep-typo--body-small"
+                  >
+                    4 : I
+                  </p>
+                  <p
+                    class="zep-typo--body-small"
+                  >
+                    5 : t
+                  </p>
+                  <p
+                    class="zep-typo--body-small"
+                  >
+                    6 : e
+                  </p>
+                  <p
+                    class="zep-typo--body-small"
+                  >
+                    7 : m
+                  </p>
+                </span>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -77,38 +97,6 @@ Object {
     </div>
   </body>,
   "container": <div>
-    <div
-      class="makeStyles-root-8 makeStyles-tabs-5 zep-tabs"
-      data-testid="tabs"
-      role="tablist"
-    >
-      <div
-        class="zep-tabs__item"
-      >
-        <button
-          aria-selected="true"
-          class="zep-tab zep-tab--selected"
-          id="tab-0"
-          role="tab"
-          tabindex="0"
-        >
-          Positive
-        </button>
-      </div>
-      <div
-        class="zep-tabs__item"
-      >
-        <button
-          aria-selected="false"
-          class="zep-tab"
-          id="tab-1"
-          role="tab"
-          tabindex="0"
-        >
-          Negative
-        </button>
-      </div>
-    </div>
     <div
       class="makeStyles-root-1"
     >
@@ -125,10 +113,16 @@ Object {
             class="zep-table__row zep-table__row--header"
           >
             <th
-              class="zep-table__cell zep-table__cell--header makeStyles-capitalize-4"
+              class="zep-table__cell zep-table__cell--header"
               scope="col"
             >
-              mockHeader1
+              Name
+            </th>
+            <th
+              class="zep-table__cell zep-table__cell--header"
+              scope="col"
+            >
+              Specifications
             </th>
           </tr>
         </thead>
@@ -137,11 +131,57 @@ Object {
             class="zep-table__row zep-table__row--white"
           >
             <th
-              class="zep-table__cell"
+              class="zep-table__cell item1"
               scope="row"
             >
-              -
+              item1
             </th>
+            <td
+              class="zep-table__cell"
+            >
+              <span>
+                <p
+                  class="zep-typo--body-small"
+                >
+                  0 : m
+                </p>
+                <p
+                  class="zep-typo--body-small"
+                >
+                  1 : o
+                </p>
+                <p
+                  class="zep-typo--body-small"
+                >
+                  2 : c
+                </p>
+                <p
+                  class="zep-typo--body-small"
+                >
+                  3 : k
+                </p>
+                <p
+                  class="zep-typo--body-small"
+                >
+                  4 : I
+                </p>
+                <p
+                  class="zep-typo--body-small"
+                >
+                  5 : t
+                </p>
+                <p
+                  class="zep-typo--body-small"
+                >
+                  6 : e
+                </p>
+                <p
+                  class="zep-typo--body-small"
+                >
+                  7 : m
+                </p>
+              </span>
+            </td>
           </tr>
         </tbody>
       </table>

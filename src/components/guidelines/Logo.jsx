@@ -22,7 +22,7 @@ import DownloadFile from '../download/DownloadFile.jsx'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${theme.space.xxl.rem}rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   container: {
     display: 'flex',
@@ -60,19 +60,19 @@ function Logo() {
       <Headline variant="sm">Logo Colors</Headline>
       <div className={classes.container}>
         {Object.keys(logo).map(elem => (
-          <Swatch color={logo[elem]} key={`swatch${elem}`} />
+          <Swatch color={logo[elem]} key={`swatch${ elem }`} />
         ))}
       </div>
       <Headline variant="sm">Logo Usage from Size</Headline>
       {data.map((elem, idx) => (
         <ExpansionPanel
-          expanded={expanded === `panel${idx}`}
-          onChange={handleChange(`panel${idx}`)}
+          expanded={expanded === `panel${ idx }`}
+          onChange={handleChange(`panel${ idx }`)}
         >
           <ExpansionPanelSummary
             expandIcon={<ZepIconArrowChevronDown />}
-            aria-controls={`panel${idx}bh-content`}
-            id={`panel${idx}bh-header`}
+            aria-controls={`panel${ idx }bh-content`}
+            id={`panel${ idx }bh-header`}
           >
             <p className={classes.heading}>{elem.title}</p>
             <p>
@@ -81,16 +81,16 @@ function Logo() {
             </p>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.container}>
-            <img src={elem.src} alt={`${elem.title} logo`} />
+            <img src={elem.src} alt={`${ elem.title } logo`} />
             <div>
               <DownloadFile
-                title={`Download ${elem.title}`}
-                href={`https://cdn-zel.zepdev.net/zel/${zelVersion}/assets/logos/${elem.title.replace(
+                title={`Download ${ elem.title }`}
+                href={`https://cdn-zel.zepdev.net/zel/${ zelVersion }/assets/logos/${ elem.title.replace(
                   ' ',
                   ''
-                )}.zip`}
-                download={`${elem.title}.zip`}
-                ariaLabel={`Download ${elem.title}`}
+                ) }.zip`}
+                download={`${ elem.title }.zip`}
+                ariaLabel={`Download ${ elem.title }`}
               />
             </div>
           </ExpansionPanelDetails>

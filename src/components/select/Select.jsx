@@ -63,9 +63,9 @@ function Select({
           items.map((item, index) => (
             <li
               style={
-                highlightedIndex === index
-                  ? { backgroundColor: '#eceeef', fontWeight: 'bold' }
-                  : {}
+                highlightedIndex === index ?
+                  { backgroundColor: '#eceeef', fontWeight: 'bold' } :
+                  {}
               }
               className="zep-select__listitem"
               key={`${ item }${ index }`}

@@ -1,16 +1,104 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Search renders correctly 1`] = `
+exports[`SearchExample renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <div
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="downshift-0-label"
+            class="zep-search"
+            role="combobox"
+          >
+            <label
+              class="zep-visually-hidden"
+              for="downshift-0-input"
+              id="downshift-0-label"
+            >
+              Search for value
+            </label>
+            <input
+              aria-autocomplete="list"
+              aria-labelledby="downshift-0-label"
+              autocomplete="off"
+              class="zep-search__input zep-search__input--rounded-left"
+              id="downshift-0-input"
+              placeholder="Search for value"
+              value=""
+            />
+            <svg
+              class="zep-search__icon"
+              height="32"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                zepicons-search
+              </title>
+              <path
+                d="M12.667 4c4.786 0 8.667 3.88 8.667 8.667 0 2.147-0.787 4.12-2.080 5.64l0.36 0.36h1.053l6.667 6.667-2 2-6.667-6.667v-1.053l-0.36-0.36c-1.52 1.293-3.493 2.080-5.64 2.080-4.786 0-8.667-3.88-8.667-8.667s3.88-8.667 8.667-8.667v0zM12.667 6.667c-3.333 0-6 2.667-6 6s2.667 6 6 6c3.333 0 6-2.667 6-6s-2.667-6-6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          role="search"
+        >
+          <div
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="downshift-1-label"
+            class="zep-search"
+            role="combobox"
+          >
+            <label
+              class="zep-visually-hidden"
+              for="downshift-1-input"
+              id="downshift-1-label"
+            >
+              Search for value
+            </label>
+            <input
+              aria-autocomplete="list"
+              aria-labelledby="downshift-1-label"
+              autocomplete="off"
+              class="zep-search__input zep-search__input--searchfield"
+              id="downshift-1-input"
+              placeholder="Search for value"
+              value=""
+            />
+            <svg
+              class="zep-search__icon"
+              height="32"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                zepicons-search
+              </title>
+              <path
+                d="M12.667 4c4.786 0 8.667 3.88 8.667 8.667 0 2.147-0.787 4.12-2.080 5.64l0.36 0.36h1.053l6.667 6.667-2 2-6.667-6.667v-1.053l-0.36-0.36c-1.52 1.293-3.493 2.080-5.64 2.080-4.786 0-8.667-3.88-8.667-8.667s3.88-8.667 8.667-8.667v0zM12.667 6.667c-3.333 0-6 2.667-6 6s2.667 6 6 6c3.333 0 6-2.667 6-6s-2.667-6-6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
     <div>
       <div>
         <div
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="downshift-0-label"
-          class="makeStyles-container-3 zep-search"
+          class="zep-search"
           role="combobox"
         >
           <label
@@ -18,82 +106,74 @@ Object {
             for="downshift-0-input"
             id="downshift-0-label"
           >
-            Search
+            Search for value
           </label>
           <input
             aria-autocomplete="list"
             aria-labelledby="downshift-0-label"
             autocomplete="off"
-            class="zep-search__input"
+            class="zep-search__input zep-search__input--rounded-left"
             id="downshift-0-input"
-            placeholder="Search"
+            placeholder="Search for value"
             value=""
           />
           <svg
-            aria-labelledby="title_search"
             class="zep-search__icon"
             height="32"
-            viewBox="0 0 24 24"
+            viewBox="0 0 32 32"
             width="32"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title
-              id="title_search"
-            >
-              Search
+            <title>
+              zepicons-search
             </title>
             <path
-              d="M9.5,3 C13.0898509,3 16,5.91014913 16,9.5 C16,11.11 15.41,12.59 14.44,13.73 L14.71,14 L15.5,14 L20.5,19 L19,20.5 L14,15.5 L14,14.71 L13.73,14.44 C12.59,15.41 11.11,16 9.5,16 C5.91014913,16 3,13.0898509 3,9.5 C3,5.91014913 5.91014913,3 9.5,3 L9.5,3 Z M9.5,5 C7,5 5,7 5,9.5 C5,12 7,14 9.5,14 C12,14 14,12 14,9.5 C14,7 12,5 9.5,5 Z"
-              fill="currentColor"
+              d="M12.667 4c4.786 0 8.667 3.88 8.667 8.667 0 2.147-0.787 4.12-2.080 5.64l0.36 0.36h1.053l6.667 6.667-2 2-6.667-6.667v-1.053l-0.36-0.36c-1.52 1.293-3.493 2.080-5.64 2.080-4.786 0-8.667-3.88-8.667-8.667s3.88-8.667 8.667-8.667v0zM12.667 6.667c-3.333 0-6 2.667-6 6s2.667 6 6 6c3.333 0 6-2.667 6-6s-2.667-6-6-6z"
             />
           </svg>
         </div>
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
-        aria-expanded="false"
-        aria-haspopup="listbox"
-        aria-labelledby="downshift-0-label"
-        class="makeStyles-container-3 zep-search"
-        role="combobox"
+        role="search"
       >
-        <label
-          class="zep-visually-hidden"
-          for="downshift-0-input"
-          id="downshift-0-label"
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-1-label"
+          class="zep-search"
+          role="combobox"
         >
-          Search
-        </label>
-        <input
-          aria-autocomplete="list"
-          aria-labelledby="downshift-0-label"
-          autocomplete="off"
-          class="zep-search__input"
-          id="downshift-0-input"
-          placeholder="Search"
-          value=""
-        />
-        <svg
-          aria-labelledby="title_search"
-          class="zep-search__icon"
-          height="32"
-          viewBox="0 0 24 24"
-          width="32"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <title
-            id="title_search"
+          <label
+            class="zep-visually-hidden"
+            for="downshift-1-input"
+            id="downshift-1-label"
           >
-            Search
-          </title>
-          <path
-            d="M9.5,3 C13.0898509,3 16,5.91014913 16,9.5 C16,11.11 15.41,12.59 14.44,13.73 L14.71,14 L15.5,14 L20.5,19 L19,20.5 L14,15.5 L14,14.71 L13.73,14.44 C12.59,15.41 11.11,16 9.5,16 C5.91014913,16 3,13.0898509 3,9.5 C3,5.91014913 5.91014913,3 9.5,3 L9.5,3 Z M9.5,5 C7,5 5,7 5,9.5 C5,12 7,14 9.5,14 C12,14 14,12 14,9.5 C14,7 12,5 9.5,5 Z"
-            fill="currentColor"
+            Search for value
+          </label>
+          <input
+            aria-autocomplete="list"
+            aria-labelledby="downshift-1-label"
+            autocomplete="off"
+            class="zep-search__input zep-search__input--searchfield"
+            id="downshift-1-input"
+            placeholder="Search for value"
+            value=""
           />
-        </svg>
+          <svg
+            class="zep-search__icon"
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              zepicons-search
+            </title>
+            <path
+              d="M12.667 4c4.786 0 8.667 3.88 8.667 8.667 0 2.147-0.787 4.12-2.080 5.64l0.36 0.36h1.053l6.667 6.667-2 2-6.667-6.667v-1.053l-0.36-0.36c-1.52 1.293-3.493 2.080-5.64 2.080-4.786 0-8.667-3.88-8.667-8.667s3.88-8.667 8.667-8.667v0zM12.667 6.667c-3.333 0-6 2.667-6 6s2.667 6 6 6c3.333 0 6-2.667 6-6s-2.667-6-6-6z"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </div>,

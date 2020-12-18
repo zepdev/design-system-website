@@ -6,7 +6,7 @@ import ZepIconEssentialSearch from '@zlab-de/zel-react-icons/ZepIconEssentialSea
 
 function SearchExampleMui() {
   const handleChange = selection => {
-    alert(`You selected ${selection.value}`)
+    alert(`You selected ${ selection.value }`)
   }
   const searchItems = [
     { value: 'value 1' },

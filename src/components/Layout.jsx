@@ -20,29 +20,29 @@ const useStyles = makeStyles(theme => ({
   },
   main: {
     width: '100%',
-    padding: `${theme.space.l.rem}rem`,
+    padding: `${ theme.space.l.rem }rem`,
     [theme.breakpoints.up('sm')]: {
-      padding: `${theme.space.l.rem}rem ${theme.space.l.rem * 3}rem`,
+      padding: `${ theme.space.l.rem }rem ${ theme.space.l.rem * 3 }rem`,
     },
     [theme.breakpoints.up('xl')]: {
       width: 1440,
     },
   },
   pStyled: {
-    marginBottom: `${theme.space.xxl.rem}rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${theme.color.global.lightGray}`,
-    marginBottom: `${theme.space.xxl.rem}rem`,
+    borderTop: `1px solid ${ theme.color.global.lightGray }`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
     width: '100%',
     borderColor: theme.color.global.lightGray,
   },
   hStyled: {
-    marginBottom: `${theme.space.l.rem}rem`,
+    marginBottom: `${ theme.space.l.rem }rem`,
   },
   h1Styled: {
-    marginBottom: `${theme.space.m.rem}rem`,
+    marginBottom: `${ theme.space.m.rem }rem`,
   },
   aStyled: {
     color: theme.indigo.primary,
@@ -63,7 +63,7 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
   },
   button: {
-    marginRight: `${theme.space.s.rem}rem`,
+    marginRight: `${ theme.space.s.rem }rem`,
     color: theme.color.font,
   },
 }))
@@ -146,7 +146,7 @@ function Layout({ children }) {
       `}
       render={data => {
         return (
-          <div className={`theme-${zelTheme}`}>
+          <div className={`theme-${ zelTheme }`}>
             <SkipNavLink className={classes.skipLink} />
             <Header
               siteTitle={data.mdx.frontmatter.title}

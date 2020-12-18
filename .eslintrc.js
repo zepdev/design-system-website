@@ -15,6 +15,7 @@ module.exports = {
   rules: {
     'no-var': 'error', // optional, recommended when using es6+
     'no-unused-vars': 1, // recommended
+    'operator-linebreak': ['error', 'after'],
     'arrow-spacing': ['error', { before: true, after: true }], // recommended
     indent: ['error', 2],
     'comma-dangle': [

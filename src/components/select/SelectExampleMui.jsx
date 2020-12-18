@@ -17,7 +17,7 @@ function SelectExampleMui() {
         onChange={e => setValue(e.target.value)}
       >
         {searchItems.map(elem => (
-          <MenuItem value={elem} key={`menuItem${elem}`}>
+          <MenuItem value={elem} key={`menuItem${ elem }`}>
             {elem}
           </MenuItem>
         ))}

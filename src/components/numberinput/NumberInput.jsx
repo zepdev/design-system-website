@@ -18,12 +18,12 @@ function NumberInput({ label }) {
       <IconButton onClick={() => setCount(count - 1)} data-testid="minus">
         <MinusIcon />
       </IconButton>
-      <label className="zep-visually-hidden" htmlFor={`numberInput_${label}`}>
+      <label className="zep-visually-hidden" htmlFor={`numberInput_${ label }`}>
         {label}
       </label>
       <input
         type="text"
-        id={`numberInput_${label}`}
+        id={`numberInput_${ label }`}
         className="zep-input zep-input--number"
         value={count}
         onChange={e => handleChange(e)}

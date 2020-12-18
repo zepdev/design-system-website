@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
     overflowX: 'auto',
   },
   table: {
-    marginBottom: `${theme.space.xxl.rem}rem`,
+    marginBottom: `${ theme.space.xxl.rem }rem`,
   },
   lowercase: {
     textTransform: 'lowercase',
@@ -36,9 +36,9 @@ function TypographyExample({ content, title }) {
           {content && (
             <TableBody>
               {Object.keys(content).map((elem, idx) => (
-                <TableRow key={`row_${elem}`} color={'white'}>
+                <TableRow key={`row_${ elem }`} color={'white'}>
                   <TableCell
-                    key={`typography${idx}`}
+                    key={`typography${ idx }`}
                     scope="row"
                     component="th"
                     className={elem}
@@ -49,12 +49,12 @@ function TypographyExample({ content, title }) {
                     <span>
                       {Object.keys(content[elem]).map(p => (
                         <p
-                          key={`specification_${p}`}
+                          key={`specification_${ p }`}
                           className="zep-typo--body-small"
                         >
-                          {p === 'breakpoint'
-                            ? `fontSize XS: ${content[elem][p]['xs']['font-size']} | line-height XS: ${content[elem][p]['xs']['line-height']} `
-                            : `${p} : ${content[elem][p]}`}
+                          {p === 'breakpoint' ?
+                            `fontSize XS: ${ content[elem][p].xs['font-size'] } | line-height XS: ${ content[elem][p].xs['line-height'] } ` :
+                            `${ p } : ${ content[elem][p] }`}
                         </p>
                       ))}
                     </span>
