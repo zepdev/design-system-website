@@ -113,7 +113,7 @@ function IconsSection() {
     setValue(newValue)
   }
 
-  const zelVersion = '0.11.4' // we cannot call from package.json as it is always on next version which is not published to cdn.
+  const zelVersion = '3.0.0' // we cannot call from package.json as it is always on next version which is not published to cdn.
 
   const sections = {
     arrowChevron: {
@@ -143,8 +143,8 @@ function IconsSection() {
     sbuSystems: {
       title: 'SBU Systems',
     },
-    sbuZMB: {
-      title: 'SBU ZMB',
+    sbuZBM: {
+      title: 'SBU ZBM',
     },
     sbuZPS: {
       title: 'SBU ZPS',

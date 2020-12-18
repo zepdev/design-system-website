@@ -5,25 +5,25 @@ module.exports = {
     demo: {
       primary: {
         js: [
-          '<button class="zep-button zep-button-primary">Default</button>',
-          '<button class="zep-button zep-button-primary zep-button--medium">Medium</button>',
-          '<button class="zep-button zep-button-primary zep-button--small">Small</button>',
-          '<button class="zep-button zep-button-primary" disabled>Disabled</button>',
-          '<button class="zep-button zep-button-primary zep-button-icon"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg></button>',
+          '<button class="zep-button zep-button--primary">Default</button>',
+          '<button class="zep-button zep-button--primary zep-button--medium">Medium</button>',
+          '<button class="zep-button zep-button--primary zep-button--small">Small</button>',
+          '<button class="zep-button zep-button--primary" disabled>Disabled</button>',
+          '<button class="zep-button zep-button--primary zep-button--icon"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg></button>',
         ],
       },
       secondary: {
         js: [
-          '<button class="zep-button zep-button-secondary">Default</button>',
-          '<button class="zep-button zep-button-secondary zep-button--medium">Medium</button>',
-          '<button class="zep-button zep-button-secondary zep-button--small">Small</button>',
-          '<button class="zep-button zep-button-secondary" disabled>Disabled</button>',
-          '<button class="zep-button zep-button-secondary zep-button-icon"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg></button>',
+          '<button class="zep-button zep-button--secondary">Default</button>',
+          '<button class="zep-button zep-button--secondary zep-button--medium">Medium</button>',
+          '<button class="zep-button zep-button--secondary zep-button--small">Small</button>',
+          '<button class="zep-button zep-button--secondary" disabled>Disabled</button>',
+          '<button class="zep-button zep-button--secondary zep-button--icon"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg></button>',
         ],
       },
       other: {
         js: [
-          '<button class="zep-button zep-button-primary zep-button--full">Full Width</button>',
+          '<button class="zep-button zep-button--primary zep-button--full">Full Width</button>',
         ],
       },
     },
@@ -67,31 +67,31 @@ module.exports = {
       default: {
         js: [
           `<div class="zep-pagination">
-          <button class="zep-button zep-button-icon" disabled>
+          <button class="zep-button zep-button--icon" disabled>
             <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-previous-page</title><path d="M23.213 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8 1.88-1.893zM10.667 8h-2.667v16h2.667v-16z"></path></svg>
           </button>
-          <button class="zep-button zep-button-icon" disabled>
+          <button class="zep-button zep-button--icon" disabled>
             <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-chevron-left</title><path d="M20.547 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8z"></path></svg>
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination zep-button--selected" >
             1
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination" >
             2
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination" >
             3
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination" >
             4
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination" >
             5
           </button>
-          <button class="zep-button zep-button-icon">
+          <button class="zep-button zep-button--icon">
             <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-chevron-right</title><path d="M11.453 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8z"></path></svg>
           </button>
-          <button class="zep-button zep-button-icon">
+          <button class="zep-button zep-button--icon">
             <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-next-page</title><path d="M8 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8-1.88-1.893zM20.547 8h2.667v16h-2.667v-16z"></path></svg>
           </button>
 </div>`,
@@ -163,7 +163,7 @@ module.exports = {
         js: [
           `<div class="zep-tabs" role="tablist" aria-label="Tabs Default">
           <div class="zep-tabs__item">
-            <button class="zep-tab" role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex="0">
+            <button class="zep-tab zep-tab--selected" role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex="0">
               Tab 1
             </button>
           </div>
@@ -236,9 +236,9 @@ module.exports = {
       default: {
         js: [
           `<div class="zep-numberinput" data-zep-type="number-input" data-zep-step="1" data-zep-max="10" data-zep-min="0">
-          <button class="zep-button zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-minus</title><path fill="currentColor" d="M25.333 17.333h-18.667v-2.667h18.667z"></path></svg></button>
+          <button class="zep-button zep-button--icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-minus</title><path fill="currentColor" d="M25.333 17.333h-18.667v-2.667h18.667z"></path></svg></button>
           <label for="counter" class="zep-visually-hidden">Counter</label><input type="text" class="zep-input zep-input--number" value="1" id="counter" />
-          <button class="zep-button zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-plus</title><path fill="currentColor" d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"></path></svg></button>
+          <button class="zep-button zep-button--icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-plus</title><path fill="currentColor" d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"></path></svg></button>
 </div>`,
         ],
       },
@@ -248,12 +248,50 @@ module.exports = {
     demo: {
       default: {
         js: [
-          `<div>
-          <div class="zep-radio">
-          <input type="radio" id="radio1" name="radio" />
-          <label htmlFor="radio1">Radio</label>
+          `<div className="zep-radio">
+          <input
+            className="zep-radio__input"
+            type="radio"
+            id="zep-radio-1"
+            name="radio"
+          />
+          <label className="zep-radio__label" htmlFor="zep-radio-1">
+            zep-radio block element
+          </label>
         </div>
-      </div>`,
+        <div className="zep-radio">
+          <input
+            className="zep-radio__input"
+            type="radio"
+            id="zep-radio-11"
+            name="radio"
+          />
+          <label className="zep-radio__label" htmlFor="zep-radio-11">
+            zep-radio block element
+          </label>
+        </div>`,
+          `<div className="zep-radio zep-radio--inline">
+          <input
+            className="zep-radio__input"
+            type="radio"
+            id="zep-radio-2"
+            name="radio"
+          />
+          <label className="zep-radio__label" htmlFor="zep-radio-2">
+            zep-radio inline element
+          </label>
+        </div>
+        <div className="zep-radio zep-radio--inline">
+          <input
+            className="zep-radio__input"
+            type="radio"
+            id="zep-radio-3"
+            name="radio"
+          />
+          <label className="zep-radio__label" htmlFor="zep-radio-3">
+            zep-radio inline element 2
+          </label>
+        </div>`,
         ],
       },
     },
@@ -400,11 +438,15 @@ module.exports = {
     ],
     location: [
       'zep-icon-location-dot',
-      'zep-icon-location-dot-simplified',
-      'zep-icon-location-dot-gps',
-      'zep-icon-location-dot-gps-active',
-      'zep-icon-location-dot-pin',
-      'zep-icon-location-dot-pin-simplified',
+      'zep-icon-location-dot-yellow',
+      'zep-icon-location-dot-indigo',
+      'zep-icon-location-dot-red',
+      'zep-icon-location-gps',
+      'zep-icon-location-gps-active',
+      'zep-icon-location-pin',
+      'zep-icon-location-pin-yellow',
+      'zep-icon-location-pin-indigo',
+      'zep-icon-location-pin-red',
     ],
     media: [
       'zep-icon-media-pause',
@@ -414,34 +456,38 @@ module.exports = {
       'zep-icon-media-stop',
       'zep-icon-media-stop-filled',
     ],
-    new: [
-      'zep-icon-new-aviation-1',
-      'zep-icon-new-aviation-2',
-      'zep-icon-new-systems',
-      'zep-icon-new-zbm',
-      'zep-icon-new-zps',
-      'zep-icon-new-zrd',
+    sbuNew: [
+      'zep-icon-sbu-new-aviation-1',
+      'zep-icon-sbu-new-aviation-2',
+      'zep-icon-sbu-new-systems',
+      'zep-icon-sbu-new-zbm',
+      'zep-icon-sbu-new-zps',
+      'zep-icon-sbu-new-zrd',
     ],
-    systems: [
-      'zep-icon-systems-aviation',
-      'zep-icon-systems-aviation-badge',
-      'zep-icon-systems-default-1',
-      'zep-icon-systems-default-2',
-      'zep-icon-systems-products',
-      'zep-icon-systems-service',
+    sbuSystems: [
+      'zep-icon-sbu-systems-aviation',
+      'zep-icon-sbu-systems-aviation-badge',
+      'zep-icon-sbu-systems-default-1',
+      'zep-icon-sbu-systems-default-2',
+      'zep-icon-sbu-systems-products',
+      'zep-icon-sbu-systems-service',
     ],
-    zmb: [
-      'zep-icon-zmb-default',
-      'zep-icon-zmb-excavator',
-      'zep-icon-zmb-service',
-      'zep-icon-zmb-used',
+    sbuZBM: [
+      'zep-icon-sbu-zbm-default',
+      'zep-icon-sbu-zbm-excavator',
+      'zep-icon-sbu-zbm-service',
+      'zep-icon-sbu-zbm-used',
     ],
-    zps: ['zep-icon-zps-default', 'zep-icon-zps-service', 'zep-icon-zps-used'],
-    zrd: [
-      'zep-icon-zrd-default',
-      'zep-icon-zrd-infrastructure',
-      'zep-icon-zrd-logistic',
-      'zep-icon-zrd-rental',
+    sbuZPS: [
+      'zep-icon-sbu-zps-default',
+      'zep-icon-sbu-zps-service',
+      'zep-icon-sbu-zps-used',
+    ],
+    sbuZRD: [
+      'zep-icon-sbu-zrd-default',
+      'zep-icon-sbu-zrd-infrastructure',
+      'zep-icon-sbu-zrd-logistics',
+      'zep-icon-sbu-zrd-rental',
     ],
     social: [
       'zep-icon-social-facebook',

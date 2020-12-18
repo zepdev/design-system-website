@@ -3,8 +3,8 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import TreeView from '@material-ui/lab/TreeView'
 import TreeItem from '@material-ui/lab/TreeItem'
-import IconArrowChevronRight from '@zlab-de/zel-react-icons/IconArrowChevronRight'
-import IconArrowChevronDown from '@zlab-de/zel-react-icons/IconArrowChevronDown'
+import ZepIconArrowChevronRight from '@zlab-de/zel-react-icons/ZepIconArrowChevronRight'
+import ZepIconArrowChevronDown from '@zlab-de/zel-react-icons/ZepIconArrowChevronDown'
 import guidelines from '@zlab-de/zel-react/guidelines.json'
 import clsx from 'clsx'
 
@@ -114,8 +114,8 @@ function Api() {
   return (
     <div className={classes.root}>
       <TreeView
-        defaultCollapseIcon={<IconArrowChevronDown />}
-        defaultExpandIcon={<IconArrowChevronRight />}
+        defaultCollapseIcon={<ZepIconArrowChevronDown />}
+        defaultExpandIcon={<ZepIconArrowChevronRight />}
       >
         {Object.keys(guidelines).map(section => {
           return (

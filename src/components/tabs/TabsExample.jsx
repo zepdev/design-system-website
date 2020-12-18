@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Tabs from '@zlab-de/zel-react/Tabs'
 import Tab from '@zlab-de/zel-react/Tab'
-import IconEssentialStar from '@zlab-de/zel-react-icons/IconEssentialStar'
+import ZepIconEssentialStar from '@zlab-de/zel-react-icons/ZepIconEssentialStar'
 import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles(theme => ({
@@ -53,8 +53,8 @@ function TabsExample() {
       <div className={classes.container}>
         <p className={classes.header}>Icon</p>
         <Tabs value={value} onClick={handleChange} ariaLabel="demo3">
-          <Tab label="Tab 1" icon={<IconEssentialStar />} />
-          <Tab label="Tab 2" icon={<IconEssentialStar />} />
+          <Tab label="Tab 1" icon={<ZepIconEssentialStar />} />
+          <Tab label="Tab 2" icon={<ZepIconEssentialStar />} />
         </Tabs>
         {value === 0 && <p className={classes.tab}>This is Tab 1</p>}
         {value === 1 && <p className={classes.tab}>This is Tab 2</p>}
@@ -67,8 +67,8 @@ function TabsExample() {
           size="small"
           ariaLabel="demo4"
         >
-          <Tab label="Tab 1" icon={<IconEssentialStar />} />
-          <Tab label="Tab 2" icon={<IconEssentialStar />} />
+          <Tab label="Tab 1" icon={<ZepIconEssentialStar />} />
+          <Tab label="Tab 2" icon={<ZepIconEssentialStar />} />
         </Tabs>
         {value === 0 && <p className={classes.tab}>This is Tab 1</p>}
         {value === 1 && <p className={classes.tab}>This is Tab 2</p>}

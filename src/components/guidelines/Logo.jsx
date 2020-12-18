@@ -5,7 +5,7 @@ import { version as zelVersion } from 'zeppelin-element-library/package.json'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import IconArrowChevronDown from '@zlab-de/zel-react-icons/IconArrowChevronDown'
+import ZepIconArrowChevronDown from '@zlab-de/zel-react-icons/ZepIconArrowChevronDown'
 import CorporateLogos from '../../assets/images/Logo/Corporate.png'
 import RentalLogos from '../../assets/images/Logo/Rental.png'
 import CorporateInvertedLogos from '../../assets/images/Logo/CorporateInverted.png'
@@ -70,7 +70,7 @@ function Logo() {
           onChange={handleChange(`panel${idx}`)}
         >
           <ExpansionPanelSummary
-            expandIcon={<IconArrowChevronDown />}
+            expandIcon={<ZepIconArrowChevronDown />}
             aria-controls={`panel${idx}bh-content`}
             id={`panel${idx}bh-header`}
           >

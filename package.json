@@ -16,8 +16,8 @@
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@reach/skip-nav": "^0.12.1",
-    "@zlab-de/zel-react": "^2.0.4",
-    "@zlab-de/zel-react-icons": "^2.0.0",
+    "@zlab-de/zel-react": "^2.0.6",
+    "@zlab-de/zel-react-icons": "^2.0.2",
     "clsx": "^1.1.1",
     "downshift": "^6.0.7",
     "gatsby": "^2.29.1",
@@ -41,7 +41,7 @@
     "react-cookie-consent": "^6.2.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "zeppelin-element-library": "^2.0.2"
+    "zeppelin-element-library": "^3.0.0"
   },
   "scripts": {
     "build": "gatsby build",

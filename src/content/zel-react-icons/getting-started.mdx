@@ -30,12 +30,12 @@ yarn add @zlab-de/zel-react-icons
 
 ```
 import React from 'react'
-import IconCart from '@zlab-de/zel-react-icons/IconCart'
+import ZepIconEssentialStar from '@zlab-de/zel-react-icons/ZepIconEssentialStar'
 
 function MyComponent(){
     return(
         <div>
-            <IconCart>
+            <ZepIconEssentialStar />
         </div>
     )
 }
@@ -47,7 +47,7 @@ export default MyComponent
 
 All icons available can be found under the Guidelines Section (Iconography). However, please note, all icons in the zel-react-icon library are camelcased.
 
-For example the icon 'zepicons-cat-used' can be accessed in this library as '@zlab-de/zel-react-icons/IconCatUsed'.
+For example the icon 'zep-icon-location-pin' can be accessed in this library as '@zlab-de/zel-react-icons/ZepIconLocationPin'.
 
 ## Styling
 
@@ -57,12 +57,13 @@ width:
 
 ```
 import React from 'react'
-import IconCart from '@zlab-de/zel-react-icons/IconCart'
+import ZepIconEssentialStar from '@zlab-de/zel-react-icons/ZepIconEssentialStar'
 
 function MyComponent(){
     return(
         <div>
-            <IconCart styles={{fill: green; width: 50px}}>
+            <ZepIconEssentialStar styles={{fill: 'green', width: 50}} />
+            <ZepIconEssentialStar size={50} styles={{color: 'green'}} />
         </div>
     )
 }

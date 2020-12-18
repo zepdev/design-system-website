@@ -25,7 +25,7 @@ The Zeppelin Tabs requires the use of a theme.
 import React, {useState} from 'react'
 import Tabs from '@zlab-de/zel-react/Tabs'
 import Tab from '@zlab-de/zel-react/Tab'
-import IconEssentialStar from '@zlab-de/zel-react-icons/IconEssentialStar'
+import ZepIconEssentialStar from '@zlab-de/zel-react-icons/ZepIconEssentialStar'
 
 function MyComponent(){
     const [value, setValue] = useState(0)
@@ -44,8 +44,8 @@ function MyComponent(){
             {value === 1 && <p>This is Tab 2</p>}
 
             <Tabs value={value} onClick={handleChange} size="small">
-                <Tab label="Tab 1" icon={<IconEssentialStar />} />
-                <Tab label="Tab 2" icon={<IconEssentialStar />} />
+                <Tab label="Tab 1" icon={<ZepIconEssentialStar />} />
+                <Tab label="Tab 2" icon={<ZepIconEssentialStar />} />
             </Tabs>
             {value === 0 && <p>This is Tab 1</p>}
             {value === 1 && <p>This is Tab 2</p>}
