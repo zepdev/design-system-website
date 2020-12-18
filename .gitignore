@@ -71,6 +71,7 @@ yarn-error.log
 
 # editor settings
 .vscode/
+.idea/
 
 #cypress e2e test folders
 cypress/videos
