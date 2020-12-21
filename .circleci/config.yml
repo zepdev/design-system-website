@@ -1,16 +1,16 @@
 version: 2.1
 orbs:
-  node: circleci/node@0.0.9
+  node: circleci/node@4.1.0
   aws-cli: circleci/aws-cli@0.1.11
   aws-s3: circleci/aws-s3@1.0.4
 executors:
-  node_10:
+  node_15:
     docker:
-      - image: circleci/node:10.15
+      - image: circleci/node:15.4
 
 jobs:
   test:
-    executor: node_10
+    executor: node_15
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
@@ -30,7 +30,7 @@ jobs:
           root: .
           paths: coverage
   sonarqube:
-    executor: node_10
+    executor: node_15
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
@@ -52,7 +52,7 @@ jobs:
                 paths:
                   - /home/circleci/.sonar
   build:
-    executor: node_10
+    executor: node_15
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
