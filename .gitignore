@@ -71,6 +71,7 @@ yarn-error.log
 
 # editor settings
 .vscode/
+.idea/
 
 # cypress
 cypress/screenshots
