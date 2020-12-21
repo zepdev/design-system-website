@@ -51,7 +51,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "cy:open": "cypress open",
     "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
-    "test": "jest",
+    "test": "jest -u",
     "eslint-sonarqube": "yarn lint -f json -o report.json",
     "sonar-scanner": "sonar-scanner"
   },
