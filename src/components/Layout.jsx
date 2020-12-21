@@ -109,9 +109,7 @@ function Layout({ children }) {
   const pStyled = props => (
     <p className={clsx(classes.pStyled, "zep-typo--body-default")} {...props} />
   )
-  const hrStyled = () => (
-    <hr className={clsx(classes.hrStyled, "zep-border-color__gray-lighter")} />
-  )
+  const hrStyled = () => <hr className={classes.hrStyled} />
 
   const aStyled = props => <a className={classes.aStyled} {...props} />
   const preStyled = props => <div {...props} />

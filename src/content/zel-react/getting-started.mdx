@@ -3,8 +3,8 @@ label: zel-react
 title: Getting Started
 ---
 
-import DownloadContainer from '../../components/download/DownloadContainer.jsx'
-import DownloadFile from '../../components/download/DownloadFile.jsx'
+import DownloadContainer from "../../components/download/DownloadContainer.jsx"
+import DownloadFile from "../../components/download/DownloadFile.jsx"
 
 # Getting Started
 
@@ -29,9 +29,9 @@ yarn add @zlab-de/zel-react
 
 ## How to use our components
 
-You must bring in **zel.css** and select a theme (theme-zeppelin, theme-cat, or theme-rental) to apply the styles from Zeppelin Element Library. It only needs to be brought it once at the root of your application. There is also a **guidelines.json** file to help you more easily access guidelines; colors, spacing, and typography specifications.
+You must bring in **zel.css** and select a theme (theme-zeppelin, theme-cat, or theme-rental) to apply the styles from Zeppelin Element Library. It only needs to be brought in once at the root of your application. There is also a **guidelines.json** file to help you more easily access guidelines; colors, spacing, and typography specifications.
 
-IT IS HIGHLY RECOMMENDED THAT THIS LIBRARY IS USED WITH ANOTHER COMPONENT LIBRARY LIKE MATERIAL UI.
+TO ACHIEVE COMPREHENSIVE FUNCTIONALITY IT IS HIGHLY RECOMMENDED THAT THIS LIBRARY IS USED WITH ANOTHER COMPONENT LIBRARY LIKE MATERIAL UI.
 
 Full Example with recommended MUI theme
 
@@ -79,7 +79,7 @@ const theme = createMuiTheme({
 
 export default theme
 
-//baseline.css 
+//baseline.css
 .zep-radio *,
 *::before,
 *::after {
@@ -125,7 +125,7 @@ export default MyComponent
 
 ```jsx
 // App.js
-import React from "react";
+import React from "react"
 import "@zlab-de/zel-react/zel.css"
 import guidelines from "@zlab-de/zel-react/guidelines.json"
 
@@ -133,9 +133,11 @@ export default function App() {
   return (
     <div className="theme-zeppelin">
       <h1>Hello World!</h1>
-      <p style={{color: guidelines.color.corporate.indigo}}>Zeppelin colored text!</p>
+      <p style={{ color: guidelines.color.corporate.indigo }}>
+        Zeppelin colored text!
+      </p>
     </div>
-  );
+  )
 }
 ```
 
@@ -197,26 +199,26 @@ export default withStyles(styles)(MyComponent)
 Any alternative props that you wish to pass to a component (ie inline styles) will always be passed to the outer element of that component. For example, see the code for Tag below.
 
 ```js
-import React from 'react';
-import PropTypes from 'prop-types';
-import clsx from 'clsx';
-import IconClose from '@zlab-de/zel-react-icons/IconClose';
+import React from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
+import IconClose from "@zlab-de/zel-react-icons/IconClose"
 
 const Tag = ({ className: classNameProp, children, onClose, ...other }) => {
   return (
-    <span className={clsx(classNameProp, 'zep-tag')} {...other}>
+    <span className={clsx(classNameProp, "zep-tag")} {...other}>
       {children}
       <button onClose={onClose} aria-label="close" className="zep-tag__button">
         <IconClose className="zep-tag__icons" />
       </button>
     </span>
-  );
-};
+  )
+}
 
 Tag.propTypes = {
   className: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  children: PropTypes.string
-};
+  children: PropTypes.string,
+}
 
-export default Tag;
+export default Tag
 ```

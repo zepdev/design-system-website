@@ -194,7 +194,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
             aria-haspopup="true"
             onClick={handleClick}
           >
-            <ZepIconEssentialSettings size="32" className={classes.icon} />
+            <ZepIconEssentialSettings className={classes.icon} />
           </IconButton>
           <Menu
             id="simple-menu"

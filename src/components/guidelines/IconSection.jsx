@@ -12,6 +12,7 @@ import Divider from "../typography/Divider"
 import Headline from "../typography/Headline"
 import ElementUsage from "../elements/ElementUsage"
 import { iconography } from "../../data/elements"
+import { version as zelVersion } from "zeppelin-element-library/package.json"
 
 const useStyles = makeStyles(theme => ({
   tabs: {
@@ -112,8 +113,6 @@ function IconsSection() {
   function handleChange(newValue) {
     setValue(newValue)
   }
-
-  const zelVersion = "3.0.0" // we cannot call from package.json as it is always on next version which is not published to cdn.
 
   const sections = {
     arrowChevron: {
