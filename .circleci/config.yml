@@ -7,7 +7,7 @@ orbs:
 executors:
   node_15:
     docker:
-      - image: cimg/node:15.4
+      - image: circleci/node:15.4
 
 jobs:
   test:
@@ -59,12 +59,12 @@ jobs:
   deploy:
     parameters:
       bucket:
-        description: 'Target bucket name where the build should be copied'
-        default: ''
+        description: "Target bucket name where the build should be copied"
+        default: ""
         type: string
       cloudfront_distribution:
-        description: 'The CloudFront Distribution caching the site'
-        default: ''
+        description: "The CloudFront Distribution caching the site"
+        default: ""
         type: string
     executor: aws-cli/default
     steps:
@@ -75,7 +75,7 @@ jobs:
       - aws-s3/sync:
           aws-region: AWS_DEFAULT_REGION
           from: public
-          to: 's3://<< parameters.bucket >>/'
+          to: "s3://<< parameters.bucket >>/"
       - run:
           name: Invalidate CloudFront Distribution Cache
           command: |
