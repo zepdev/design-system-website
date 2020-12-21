@@ -25,8 +25,8 @@ jobs:
           name: Run all tests
           command: yarn test
       - persist_to_workspace:
-          root: .
-          paths: coverage
+          root: ~/
+          paths: ./coverage/
       - store_test_results:
           path: ./coverage/
           when: always
@@ -53,8 +53,8 @@ jobs:
           name: Build public dir
           command: yarn build
       - persist_to_workspace:
-          root: .
-          paths: public
+          root: ~/
+          paths: /public
 
   deploy:
     parameters:
