@@ -89,15 +89,7 @@ workflows:
   test_build_deploy:
     jobs:
       - test
-      - sonarcloud:
-          context: zds
-          requires:
-            - test
-          filters:
-            branches:
-              only:
-                - development
-                - main
+      - sonarcloud/scan
       - build:
           requires:
             - test
