@@ -27,9 +27,9 @@ jobs:
       - persist_to_workspace:
           root: .
           paths: coverage
-      - store_test_results:
-          path: coverage
-          when: always
+      # - store_test_results:
+      #     path: coverage
+      #     when: always
 
   sonarcloud:
     executor: node_15
