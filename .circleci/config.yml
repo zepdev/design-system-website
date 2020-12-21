@@ -25,7 +25,7 @@ jobs:
           name: Run all tests
           command: yarn test
       - persist_to_workspace:
-          root: ~/
+          root: .
           paths: /coverage
       - store_test_results:
           path: /coverage
