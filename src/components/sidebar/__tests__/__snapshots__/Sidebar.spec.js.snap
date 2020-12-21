@@ -254,7 +254,7 @@ Object {
               alt="v0"
               class="makeStyles-button-4 zep-typo--body-default zep-button--full"
               href="https://v0-zds.zepdev.net/"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
               target="_blank"
             >
               v0
@@ -514,7 +514,7 @@ Object {
             alt="v0"
             class="makeStyles-button-4 zep-typo--body-default zep-button--full"
             href="https://v0-zds.zepdev.net/"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             v0

@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
+import React from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
 
 function TableCell({
   children,
@@ -8,9 +8,9 @@ function TableCell({
   className: classNameProp,
   ...props
 }) {
-  const Component = component || 'td'
+  const Component = component || "td"
   return (
-    <Component className={clsx('zep-table__cell', classNameProp)} {...props}>
+    <Component className={clsx("zep-table__cell", classNameProp)} {...props}>
       {children}
     </Component>
   )
@@ -19,7 +19,7 @@ function TableCell({
 TableCell.propTypes = {
   children: PropTypes.oneOfType([PropTypes.any]),
   className: PropTypes.string,
-  component: PropTypes.oneOf(['th', 'td']),
+  component: PropTypes.oneOf(["th", "td"]),
 }
 
 export default TableCell

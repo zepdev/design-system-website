@@ -1,21 +1,21 @@
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
-import Button from '@zlab-de/zel-react/Button'
+import React from "react"
+import { makeStyles } from "@material-ui/core/styles"
+import Button from "@zlab-de/zel-react/Button"
 
 const useStyles = makeStyles(theme => ({
   container: {
-    display: 'flex',
-    justifyContent: 'space-around',
-    alignItems: 'flex-end',
-    padding: `${ theme.space.s.rem }rem`,
-    marginBottom: `${ theme.space.s.rem }rem`,
+    display: "flex",
+    justifyContent: "space-around",
+    alignItems: "flex-end",
+    padding: `${theme.space.s.rem}rem`,
+    marginBottom: `${theme.space.s.rem}rem`,
   },
   heading: {
-    marginBottom: `${ theme.space.s.rem }rem`,
+    marginBottom: `${theme.space.s.rem}rem`,
   },
   fullWidth: {
-    border: `1px solid ${ theme.color.global.lightGray }`,
-    padding: `${ theme.space.s.rem }rem`,
+    border: `1px solid ${theme.color.global.lightGray}`,
+    padding: `${theme.space.s.rem}rem`,
     width: 200,
   },
 }))

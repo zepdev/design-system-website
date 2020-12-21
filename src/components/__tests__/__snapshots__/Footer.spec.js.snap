@@ -9,9 +9,7 @@ Object {
         <div
           class="makeStyles-root-1"
         >
-          <div
-            class="zep-grid"
-          >
+          <div>
             <div
               class="makeStyles-container-2"
             >
@@ -201,9 +199,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
       <div
         class="makeStyles-root-1"
       >
-        <div
-          class="zep-grid"
-        >
+        <div>
           <div
             class="makeStyles-container-2"
           >

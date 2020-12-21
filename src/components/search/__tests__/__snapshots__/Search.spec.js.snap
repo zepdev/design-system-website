@@ -46,9 +46,7 @@ Object {
             </svg>
           </div>
         </div>
-        <div
-          role="search"
-        >
+        <div>
           <div
             aria-expanded="false"
             aria-haspopup="listbox"
@@ -67,7 +65,7 @@ Object {
               aria-autocomplete="list"
               aria-labelledby="downshift-1-label"
               autocomplete="off"
-              class="zep-search__input zep-search__input--searchfield"
+              class="zep-search__input zep-search__input--rounded-left"
               id="downshift-1-input"
               placeholder="Search for value"
               value=""
@@ -133,9 +131,7 @@ Object {
           </svg>
         </div>
       </div>
-      <div
-        role="search"
-      >
+      <div>
         <div
           aria-expanded="false"
           aria-haspopup="listbox"
@@ -154,7 +150,7 @@ Object {
             aria-autocomplete="list"
             aria-labelledby="downshift-1-label"
             autocomplete="off"
-            class="zep-search__input zep-search__input--searchfield"
+            class="zep-search__input zep-search__input--rounded-left"
             id="downshift-1-input"
             placeholder="Search for value"
             value=""

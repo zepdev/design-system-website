@@ -1,14 +1,15 @@
-import React from 'react'
-import { act, render, fireEvent } from '../../../../test-utils'
-import Swatch from '../Swatch'
+import React from "react"
+import { act, render, fireEvent } from "../../../../test-utils"
+import Swatch from "../Swatch"
+import "@testing-library/jest-dom/extend-expect"
 
 jest.useFakeTimers()
 
-describe('Swatch', () => {
-  it('renders correctly', () => {
+describe("Swatch", () => {
+  it("renders correctly", () => {
     const mockProps = {
-      name: 'name',
-      color: '#fff',
+      name: "name",
+      color: "#fff",
       classes: {},
     }
     const component = render(<Swatch {...mockProps} />)
@@ -30,14 +31,14 @@ describe('Swatch', () => {
       }
     })
     const mockProps = {
-      name: 'name',
-      color: '#fff',
+      name: "name",
+      color: "#fff",
       classes: {},
     }
     const { getByTestId } = render(<Swatch {...mockProps} />)
-    const button = getByTestId('swatchButton')
+    const button = getByTestId("swatchButton")
     fireEvent.click(button)
-    expect(getByTestId('swatchText')).toHaveTextContent(/copied!/i)
+    expect(getByTestId("swatchText")).toHaveTextContent(/copied!/i)
     // check that timeout is called and changes text back
     // expect(setTimeout).toHaveBeenCalledTimes(2)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
@@ -46,7 +47,7 @@ describe('Swatch', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color)
+    expect(getByTestId("swatchText")).toHaveTextContent(mockProps.color)
   })
 
   it('renders "Error!" if document.execCommand is not supported by browser', () => {
@@ -64,14 +65,14 @@ describe('Swatch', () => {
       }
     })
     const mockProps = {
-      name: 'name',
-      color: '#fff',
+      name: "name",
+      color: "#fff",
       classes: {},
     }
     const { getByTestId } = render(<Swatch {...mockProps} />)
-    const button = getByTestId('swatchButton')
+    const button = getByTestId("swatchButton")
     fireEvent.click(button)
-    expect(getByTestId('swatchText')).toHaveTextContent(/error!/i)
+    expect(getByTestId("swatchText")).toHaveTextContent(/error!/i)
     // check that timeout is called and changes text back
     // expect(setTimeout).toHaveBeenCalledTimes(3)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
@@ -80,6 +81,6 @@ describe('Swatch', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('swatchText')).toHaveTextContent(mockProps.color)
+    expect(getByTestId("swatchText")).toHaveTextContent(mockProps.color)
   })
 })

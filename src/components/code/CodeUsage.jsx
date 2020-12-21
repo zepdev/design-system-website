@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { makeStyles } from '@material-ui/core/styles'
-import clsx from 'clsx'
-import Tabs from '../tabs/Tabs'
-import Tab from '../tabs/Tab'
-import CodeBlock from './CodeBlock'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import { StaticQuery, graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import { makeStyles } from "@material-ui/core/styles"
+import clsx from "clsx"
+import Tabs from "@zlab-de/zel-react/Tabs"
+import Tab from "@zlab-de/zel-react/Tab"
+import CodeBlock from "./CodeBlock"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   heading: {
-    marginBottom: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem}rem`,
   },
 }))
 
@@ -47,14 +47,14 @@ const CodeUsage = ({ element }) => {
       `}
       render={data => {
         const react = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${ elem }CodeExample_React`
+          x => x.node.frontmatter.label === `${elem}CodeExample_React`
         )
         const vue = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${ elem }CodeExample_Vue`
+          x => x.node.frontmatter.label === `${elem}CodeExample_Vue`
         )
         return (
           <div className={classes.root}>
-            <h3 className={clsx(classes.heading, 'zep-typo--normal-h4')}>
+            <h3 className={clsx(classes.heading, "zep-typo--normal-h4")}>
               Code Usage Examples
             </h3>
             <Tabs value={tab} onClick={handleClick}>

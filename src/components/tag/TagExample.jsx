@@ -1,9 +1,9 @@
-import React from 'react'
-import Tag from '@zlab-de/zel-react/Tag'
+import React from "react"
+import Tag from "@zlab-de/zel-react/Tag"
 
 function TagExample() {
   const handleClick = () => {
-    alert('You clicked the tag!')
+    alert("You clicked the tag!")
   }
 
   return (

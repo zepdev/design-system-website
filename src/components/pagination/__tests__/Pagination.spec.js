@@ -1,9 +1,9 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import Pagination from '../Pagination'
+import React from "react"
+import { render } from "../../../../test-utils"
+import Pagination from "../Pagination"
 
-describe('Pagination', () => {
-  it('renders correctly', () => {
+describe("Pagination", () => {
+  it("renders correctly", () => {
     const mockProps = {
       pages: 5,
       onPageChange: () => {},

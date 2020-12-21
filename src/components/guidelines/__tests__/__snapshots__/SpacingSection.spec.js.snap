@@ -54,198 +54,198 @@ Object {
             <tr
               class="makeStyles-tr-4"
             >
-              <td
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--xxs
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 4px
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 0.25rem
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 <div
                   class="makeStyles-square-10"
                   style="width: 4px; height: 4px; color: green;"
                 />
-              </td>
+              </th>
             </tr>
             <tr
               class="makeStyles-tr-4"
             >
-              <td
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--xs
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 8px
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 0.5rem
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 <div
                   class="makeStyles-square-10"
                   style="width: 8px; height: 8px; color: green;"
                 />
-              </td>
+              </th>
             </tr>
             <tr
               class="makeStyles-tr-4"
             >
-              <td
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--s
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 12px
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 0.75rem
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 <div
                   class="makeStyles-square-10"
                   style="width: 12px; height: 12px; color: green;"
                 />
-              </td>
+              </th>
             </tr>
             <tr
               class="makeStyles-tr-4"
             >
-              <td
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--m
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 16px
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 1rem
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 <div
                   class="makeStyles-square-10"
                   style="width: 16px; height: 16px; color: green;"
                 />
-              </td>
+              </th>
             </tr>
             <tr
               class="makeStyles-tr-4"
             >
-              <td
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--l
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 24px
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 1.5rem
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 <div
                   class="makeStyles-square-10"
                   style="width: 24px; height: 24px; color: green;"
                 />
-              </td>
+              </th>
             </tr>
             <tr
               class="makeStyles-tr-4"
             >
-              <td
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--xl
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 32px
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 2rem
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 <div
                   class="makeStyles-square-10"
                   style="width: 32px; height: 32px; color: green;"
                 />
-              </td>
+              </th>
             </tr>
             <tr
               class="makeStyles-tr-4"
             >
-              <td
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
                 scope="row"
               >
                 zep-spacing--xxl
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 48px
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 3rem
-              </td>
-              <td
+              </th>
+              <th
                 class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               >
                 <div
                   class="makeStyles-square-10"
                   style="width: 48px; height: 48px; color: green;"
                 />
-              </td>
+              </th>
             </tr>
           </tbody>
         </table>
@@ -302,198 +302,198 @@ Object {
           <tr
             class="makeStyles-tr-4"
           >
-            <td
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--xxs
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               4px
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               0.25rem
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               <div
                 class="makeStyles-square-10"
                 style="width: 4px; height: 4px; color: green;"
               />
-            </td>
+            </th>
           </tr>
           <tr
             class="makeStyles-tr-4"
           >
-            <td
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--xs
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               8px
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               0.5rem
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               <div
                 class="makeStyles-square-10"
                 style="width: 8px; height: 8px; color: green;"
               />
-            </td>
+            </th>
           </tr>
           <tr
             class="makeStyles-tr-4"
           >
-            <td
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--s
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               12px
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               0.75rem
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               <div
                 class="makeStyles-square-10"
                 style="width: 12px; height: 12px; color: green;"
               />
-            </td>
+            </th>
           </tr>
           <tr
             class="makeStyles-tr-4"
           >
-            <td
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--m
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               16px
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               1rem
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               <div
                 class="makeStyles-square-10"
                 style="width: 16px; height: 16px; color: green;"
               />
-            </td>
+            </th>
           </tr>
           <tr
             class="makeStyles-tr-4"
           >
-            <td
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--l
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               24px
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               1.5rem
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               <div
                 class="makeStyles-square-10"
                 style="width: 24px; height: 24px; color: green;"
               />
-            </td>
+            </th>
           </tr>
           <tr
             class="makeStyles-tr-4"
           >
-            <td
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--xl
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               32px
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               2rem
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               <div
                 class="makeStyles-square-10"
                 style="width: 32px; height: 32px; color: green;"
               />
-            </td>
+            </th>
           </tr>
           <tr
             class="makeStyles-tr-4"
           >
-            <td
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
               scope="row"
             >
               zep-spacing--xxl
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               48px
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               3rem
-            </td>
-            <td
+            </th>
+            <th
               class="makeStyles-th-3 makeStyles-borderBottom-9 zep-typo--normal-body2"
             >
               <div
                 class="makeStyles-square-10"
                 style="width: 48px; height: 48px; color: green;"
               />
-            </td>
+            </th>
           </tr>
         </tbody>
       </table>

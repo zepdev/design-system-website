@@ -1,105 +1,103 @@
-/* eslint react/jsx-key: 0 */
-
-import React from 'react'
-import Highlight, { defaultProps } from 'prism-react-renderer'
-import CopyButton from '../button/CopyButton'
-import guidelines from '@zlab-de/zel-react/guidelines.json'
+import React from "react"
+import Highlight, { defaultProps } from "prism-react-renderer"
+import CopyButton from "../button/CopyButton"
+import guidelines from "@zlab-de/zel-react/guidelines.json"
 
 const codeTheme = {
   plain: {
     backgroundColor: guidelines.color.global.black,
-    marginBottom: `${ guidelines.spacing.component.xxl.rem }rem`,
+    marginBottom: `${guidelines.spacing.component.xxl.rem}rem`,
     color: guidelines.color.global.white,
-    paddingLeft: `${ guidelines.spacing.component.l.rem }rem`,
-    paddingBottom: `${ guidelines.spacing.component.l.rem }rem`,
+    paddingLeft: `${guidelines.spacing.component.l.rem}rem`,
+    paddingBottom: `${guidelines.spacing.component.l.rem}rem`,
     paddingTop: 8,
     paddingRight: 8,
-    fontSize: '0.875rem',
+    fontSize: "0.875rem",
     marginTop: 0,
-    display: 'flex',
-    justifyContent: 'space-between',
-    overflowX: 'auto',
-    whiteSpace: 'pre-wrap',
-    wordWrap: 'break-word',
+    display: "flex",
+    justifyContent: "space-between",
+    overflowX: "auto",
+    whiteSpace: "pre-wrap",
+    wordWrap: "break-word",
   },
   styles: [
     {
-      types: ['changed'],
+      types: ["changed"],
       style: {
         color: guidelines.color.global.lightGray,
       },
     },
     {
-      types: ['deleted'],
+      types: ["deleted"],
       style: {
         color: guidelines.color.global.lightGray,
       },
     },
     {
-      types: ['inserted'],
+      types: ["inserted"],
       style: {
         color: guidelines.color.global.lightGray,
       },
     },
     {
-      types: ['comment'],
+      types: ["comment"],
       style: {
         color: guidelines.color.global.lightGray,
-        fontStyle: 'italic',
+        fontStyle: "italic",
       },
     },
     {
-      types: ['punctuation'],
-      style: {
-        color: guidelines.color.global.lightGray,
-      },
-    },
-    {
-      types: ['constant'],
+      types: ["punctuation"],
       style: {
         color: guidelines.color.global.lightGray,
       },
     },
     {
-      types: ['string', 'url'],
+      types: ["constant"],
+      style: {
+        color: guidelines.color.global.lightGray,
+      },
+    },
+    {
+      types: ["string", "url"],
       style: {
         color: guidelines.color.support.alert,
       },
     },
     {
-      types: ['variable'],
+      types: ["variable"],
       style: {
         color: guidelines.color.global.lightGray,
       },
     },
     {
-      types: ['number', 'boolean'],
+      types: ["number", "boolean"],
       style: {
         color: guidelines.color.global.lightGray,
       },
     },
     {
-      types: ['attr-name'],
+      types: ["attr-name"],
       style: {
         color: guidelines.color.support.warning,
       },
     },
     {
       types: [
-        'keyword',
-        'operator',
-        'property',
-        'namespace',
-        'tag',
-        'selector',
-        'doctype',
+        "keyword",
+        "operator",
+        "property",
+        "namespace",
+        "tag",
+        "selector",
+        "doctype",
       ],
       style: {
         color: guidelines.color.support.info,
       },
     },
     {
-      types: ['builtin', 'char', 'constant', 'function', 'class-name'],
+      types: ["builtin", "char", "constant", "function", "class-name"],
       style: {
         color: guidelines.color.support.alert,
       },
@@ -108,7 +106,7 @@ const codeTheme = {
 }
 
 export default ({ children, className }) => {
-  const language = className ? className.replace(/language-/, '') : 'js'
+  const language = className ? className.replace(/language-/, "") : "js"
 
   return (
     <Highlight
@@ -133,9 +131,9 @@ export default ({ children, className }) => {
                   {...getLineProps({ line, key: i })}
                   style={{
                     paddingBottom:
-                      tokens.length - 1 === i ?
-                        null :
-                        guidelines.spacing.component.s.px,
+                      tokens.length - 1 === i
+                        ? null
+                        : guidelines.spacing.component.s.px,
                   }}
                 >
                   {line.map((token, key) => (

@@ -1,13 +1,10 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import Tab from '../Tab'
+import React from "react"
+import { render } from "../../../../test-utils"
+import TabsExample from "../TabsExample"
 
-describe('Tab', () => {
-  it('renders correctly', () => {
-    const mockProps = {
-      label: 'mockTabLabel',
-    }
-    const component = render(<Tab {...mockProps} />)
+describe("TabsExample", () => {
+  it("renders correctly", () => {
+    const component = render(<TabsExample />)
     expect(component).toMatchSnapshot()
   })
 })

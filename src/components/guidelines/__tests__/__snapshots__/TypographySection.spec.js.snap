@@ -34,7 +34,7 @@ Object {
               aria-label="Launch"
               class="makeStyles-link-7"
               href="https://fonts.google.com/specimen/Roboto"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <svg
@@ -83,7 +83,7 @@ Object {
               aria-label="Launch"
               class="makeStyles-link-7"
               href="https://fonts.google.com/specimen/Roboto+Condensed"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <svg
@@ -139,7 +139,7 @@ Object {
             aria-label="Launch"
             class="makeStyles-link-7"
             href="https://fonts.google.com/specimen/Roboto"
-            rel="noopener"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <svg
@@ -188,7 +188,7 @@ Object {
             aria-label="Launch"
             class="makeStyles-link-7"
             href="https://fonts.google.com/specimen/Roboto+Condensed"
-            rel="noopener"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <svg

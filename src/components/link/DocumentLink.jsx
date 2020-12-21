@@ -1,11 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
-import { makeStyles } from '@material-ui/core/styles'
+import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
+import { makeStyles } from "@material-ui/core/styles"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
     width: 230,
   },
 }))
@@ -17,7 +17,7 @@ const DocumentLink = ({ text, to }) => {
       <Link
         to={to}
         className="zep-button--full zep-button zep-button-primary"
-        style={{ display: 'block' }}
+        style={{ display: "block" }}
       >
         {text}
       </Link>

@@ -1,7 +1,7 @@
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
-import IconButton from '@zlab-de/zel-react/IconButton'
-import ZepIconEssentialStar from '@zlab-de/zel-react-icons/ZepIconEssentialStar'
+import React from "react"
+import { makeStyles } from "@material-ui/core/styles"
+import IconButton from "@zlab-de/zel-react/IconButton"
+import ZepIconEssentialStar from "@zlab-de/zel-react-icons/ZepIconEssentialStar"
 
 const useStyles = makeStyles(theme => ({
   button: {

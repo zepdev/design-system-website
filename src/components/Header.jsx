@@ -1,48 +1,48 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import { Link, navigate } from 'gatsby'
-import { makeStyles } from '@material-ui/core/styles'
-import clsx from 'clsx'
-import Hidden from '@material-ui/core/Hidden'
-import OutlinedInput from '@material-ui/core/OutlinedInput'
-import IconButton from '@material-ui/core/IconButton'
-import Autocomplete from '@material-ui/core/Autocomplete'
-import InputAdornment from '@material-ui/core/InputAdornment'
-import ZeppelinIcon from './icons/ZeppelinIcon'
-import MenuIcon from './icons/MenuIcon'
-import Menu from '@material-ui/core/Menu'
-import MenuItem from '@material-ui/core/MenuItem'
-import navigation from '../data/navigation.json'
-import ZepIconEssentialSearch from '@zlab-de/zel-react-icons/ZepIconEssentialSearch'
-import ZepIconEssentialSettings from '@zlab-de/zel-react-icons/ZepIconEssentialSettings'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import { Link, navigate } from "gatsby"
+import { makeStyles } from "@material-ui/core/styles"
+import clsx from "clsx"
+import Hidden from "@material-ui/core/Hidden"
+import OutlinedInput from "@material-ui/core/OutlinedInput"
+import IconButton from "@material-ui/core/IconButton"
+import Autocomplete from "@material-ui/core/Autocomplete"
+import InputAdornment from "@material-ui/core/InputAdornment"
+import ZeppelinIcon from "./icons/ZeppelinIcon"
+import MenuIcon from "./icons/MenuIcon"
+import Menu from "@material-ui/core/Menu"
+import MenuItem from "@material-ui/core/MenuItem"
+import navigation from "../data/navigation.json"
+import ZepIconEssentialSearch from "@zlab-de/zel-react-icons/ZepIconEssentialSearch"
+import ZepIconEssentialSettings from "@zlab-de/zel-react-icons/ZepIconEssentialSettings"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '100%',
-    display: 'flex',
-    justifyContent: 'space-between',
+    width: "100%",
+    display: "flex",
+    justifyContent: "space-between",
   },
   rootindigo: {
     background: theme.indigo.primary,
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up("md")]: {
       background: theme.status.gray,
     },
   },
   rootyellow: {
     background: theme.yellow.primary,
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up("md")]: {
       background: theme.status.gray,
     },
   },
   rootred: {
     background: theme.red.primary,
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up("md")]: {
       background: theme.status.gray,
     },
   },
   rootblue: {
     background: theme.blue.primary,
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up("md")]: {
       background: theme.status.gray,
     },
   },
@@ -59,49 +59,49 @@ const useStyles = makeStyles(theme => ({
     background: theme.blue.primary,
   },
   button: {
-    color: '#fff',
-    padding: `${ theme.space.xl.rem }rem`,
-    [theme.breakpoints.up('sm')]: {
-      display: 'none',
+    color: "#fff",
+    padding: `${theme.space.xl.rem}rem`,
+    [theme.breakpoints.up("md")]: {
+      display: "none",
     },
   },
   link: {
     width: 301,
-    padding: `${ theme.space.xl.rem }rem`,
+    padding: `${theme.space.xl.rem}rem`,
   },
   logo: {
-    width: '100%',
-    color: '#fff',
-    [theme.breakpoints.up('sm')]: {
+    width: "100%",
+    color: "#fff",
+    [theme.breakpoints.up("md")]: {
       width: 230,
     },
   },
   searchbar: {
-    display: 'none',
-    [theme.breakpoints.up('sm')]: {
-      display: 'block',
+    display: "none",
+    [theme.breakpoints.up("md")]: {
+      display: "block",
       width: 200,
-      marginRight: `${ theme.space.m.rem }rem`,
+      marginRight: `${theme.space.m.rem}rem`,
     },
   },
   searchMobile: {
-    display: 'block',
-    [theme.breakpoints.up('sm')]: {
-      display: 'none',
+    display: "block",
+    [theme.breakpoints.up("md")]: {
+      display: "none",
     },
   },
   container: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'flex-end',
-    paddingRight: `${ theme.space.xl.rem }rem`,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-end",
+    paddingRight: `${theme.space.xl.rem}rem`,
   },
   menuItem: {
-    textTransform: 'capitalize',
+    textTransform: "capitalize",
   },
   icon: {
     color: theme.color.global.white,
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up("md")]: {
       color: theme.color.global.black,
     },
   },
@@ -109,13 +109,13 @@ const useStyles = makeStyles(theme => ({
 
 const Header = ({ handleMenu, zelTheme, handleTheme }) => {
   const classes = useStyles()
-  const [value, setValue] = useState('')
+  const [value, setValue] = useState("")
   const [anchorEl, setAnchorEl] = useState(null)
   const search = []
   Object.keys(navigation).forEach(elem => {
     if (navigation[elem].subnav) {
       Object.keys(navigation[elem].subnav).forEach(item => {
-        search.push({ value: item, link: `/content/${ elem }/${ item }/` })
+        search.push({ value: item, link: `/content/${elem}/${item}/` })
       })
     }
   })
@@ -136,8 +136,8 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
 
   return (
     <>
-      <header className={clsx(classes.root, classes[`root${ zelTheme }`])}>
-        <Hidden mdUp>
+      <header className={clsx(classes.root, classes[`root${zelTheme}`])}>
+        <Hidden lgUp>
           <IconButton
             onClick={handleMenu}
             className={classes.button}
@@ -203,12 +203,12 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            {['indigo', 'yellow', 'red', 'blue'].map(elem => (
+            {["indigo", "yellow", "red", "blue"].map(elem => (
               <MenuItem
                 onClick={() => handleClose(elem)}
-                key={`menuItem${ elem }`}
+                key={`menuItem${elem}`}
                 value={elem}
-                className={clsx('zep-typo--body-default', classes.menuItem)}
+                className={clsx("zep-typo--body-default", classes.menuItem)}
               >
                 {elem}
               </MenuItem>
@@ -230,9 +230,8 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
             <div ref={params.InputProps.ref}>
               <OutlinedInput
                 {...params.inputProps}
-                style={{ width: '100%' }}
                 variant="outlined"
-                style={{ borderRadius: 0 }}
+                style={{ borderRadius: 0, width: "100%" }}
                 abel="Search box"
                 endAdornment={
                   <InputAdornment position="end">

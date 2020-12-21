@@ -1,17 +1,17 @@
-import React from 'react'
-import OutlinedInput from '@material-ui/core/OutlinedInput'
-import InputAdornment from '@material-ui/core/InputAdornment'
-import Autocomplete from '@material-ui/core/Autocomplete'
-import ZepIconEssentialSearch from '@zlab-de/zel-react-icons/ZepIconEssentialSearch'
+import React from "react"
+import OutlinedInput from "@material-ui/core/OutlinedInput"
+import InputAdornment from "@material-ui/core/InputAdornment"
+import Autocomplete from "@material-ui/core/Autocomplete"
+import ZepIconEssentialSearch from "@zlab-de/zel-react-icons/ZepIconEssentialSearch"
 
 function SearchExampleMui() {
   const handleChange = selection => {
-    alert(`You selected ${ selection.value }`)
+    alert(`You selected ${selection.value}`)
   }
   const searchItems = [
-    { value: 'value 1' },
-    { value: 'value 2' },
-    { value: 'value 3' },
+    { value: "value 1" },
+    { value: "value 2" },
+    { value: "value 3" },
   ]
 
   return (

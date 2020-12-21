@@ -1,20 +1,20 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { makeStyles } from '@material-ui/core/styles'
-import clsx from 'clsx'
+import React from "react"
+import PropTypes from "prop-types"
+import { StaticQuery, graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import { makeStyles } from "@material-ui/core/styles"
+import clsx from "clsx"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   text: {
-    marginBottom: `${ theme.space.l.rem }rem`,
-    textTransform: 'capitalize',
+    marginBottom: `${theme.space.l.rem}rem`,
+    textTransform: "capitalize",
   },
   title: {
-    marginBottom: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem}rem`,
   },
 }))
 
@@ -40,12 +40,12 @@ const ElementUsage = ({ element }) => {
       `}
       render={data => {
         const documentation = data.allMdx.edges.find(
-          x => x.node.frontmatter.label === `${ element }Usage`
+          x => x.node.frontmatter.label === `${element}Usage`
         )
         return documentation ? (
           <MDXRenderer>{documentation.node.body}</MDXRenderer>
         ) : (
-          <p className={clsx(classes.text, 'zep-typo--body-default')}>
+          <p className={clsx(classes.text, "zep-typo--body-default")}>
             No content yet, please check back later
           </p>
         )

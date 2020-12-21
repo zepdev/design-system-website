@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
-import IconButton from '@zlab-de/zel-react/IconButton'
-import PreviousPageIcon from '../icons/PreviousPageIcon'
-import NextPageIcon from '../icons/NextPageIcon'
-import ChevronLeftIcon from '../icons/ChevronLeftIcon'
-import ChevronRightIcon from '../icons/ChevronRightIcon'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
+import IconButton from "@zlab-de/zel-react/IconButton"
+import PreviousPageIcon from "../icons/PreviousPageIcon"
+import NextPageIcon from "../icons/NextPageIcon"
+import ChevronLeftIcon from "../icons/ChevronLeftIcon"
+import ChevronRightIcon from "../icons/ChevronRightIcon"
 
 function createArray(length, start) {
   return length ? Array.from(Array(Number(length)), (x, i) => start + i) : []
@@ -58,7 +58,7 @@ const Pagination = ({
   }
 
   return (
-    <div className={clsx('zep-pagination', classNameProp)}>
+    <div className={clsx("zep-pagination", classNameProp)}>
       <IconButton
         onClick={() => {
           onPageChange(0)
@@ -73,9 +73,9 @@ const Pagination = ({
       </IconButton>
       {displayedPages.map(elem => (
         <button
-          key={`pagination${ elem }`}
-          className={clsx('zep-button zep-button-pagination', {
-            'zep-pagination--selected': currentPage === elem,
+          key={`pagination${elem}`}
+          className={clsx("zep-button zep-button-pagination", {
+            "zep-pagination--selected": currentPage === elem,
           })}
           onClick={() => onPageChange(elem)}
         >

@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
+import React from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
 
 function TableHeader({ children: childrenProp, className: classNameProp }) {
   const children = React.Children.map(childrenProp, child => {
@@ -8,16 +8,16 @@ function TableHeader({ children: childrenProp, className: classNameProp }) {
       return null
     }
     return React.cloneElement(child, {
-      className: clsx('zep-table__cell--header', child.props.className),
-      scope: 'col',
-      component: 'th',
+      className: clsx("zep-table__cell--header", child.props.className),
+      scope: "col",
+      component: "th",
     })
   })
 
   return (
     <thead>
       <tr
-        className={clsx('zep-table__row zep-table__row--header', classNameProp)}
+        className={clsx("zep-table__row zep-table__row--header", classNameProp)}
       >
         {children}
       </tr>

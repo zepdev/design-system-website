@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import IconButton from '@zlab-de/zel-react/IconButton'
-import MinusIcon from '../icons/MinusIcon'
-import PlusIcon from '../icons/PlusIcon'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import IconButton from "@zlab-de/zel-react/IconButton"
+import MinusIcon from "../icons/MinusIcon"
+import PlusIcon from "../icons/PlusIcon"
 
 function NumberInput({ label }) {
   const [count, setCount] = useState(0)
@@ -18,12 +18,12 @@ function NumberInput({ label }) {
       <IconButton onClick={() => setCount(count - 1)} data-testid="minus">
         <MinusIcon />
       </IconButton>
-      <label className="zep-visually-hidden" htmlFor={`numberInput_${ label }`}>
+      <label className="zep-visually-hidden" htmlFor={`numberInput_${label}`}>
         {label}
       </label>
       <input
         type="text"
-        id={`numberInput_${ label }`}
+        id={`numberInput_${label}`}
         className="zep-input zep-input--number"
         value={count}
         onChange={e => handleChange(e)}

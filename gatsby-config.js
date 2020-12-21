@@ -1,4 +1,4 @@
-require('dotenv').config({
+require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
@@ -7,8 +7,8 @@ module.exports = {
     title: `Zeppelin Design System`,
     description: `Design System Website`,
     author: `@zeppelin`,
-    url: 'https://live-zds.zepdev.net',
-    image: '/src/assets/images/zeppelin_icon.png',
+    url: "https://live-zds.zepdev.net",
+    image: "/src/assets/images/zeppelin_icon.png",
   },
   plugins: [
     {
@@ -67,21 +67,21 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-analytics', // default
+          trackingId: "", // leave empty if you want to disable the tracker
+          cookieName: "gatsby-gdpr-google-analytics", // default
           anonymize: true, // default
         },
         googleTagManager: {
-          trackingId: 'GTM-P45R8R7', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-tagmanager', // default
-          dataLayerName: 'dataLayer', // default,
+          trackingId: "GTM-P45R8R7", // leave empty if you want to disable the tracker
+          cookieName: "gatsby-gdpr-google-tagmanager", // default
+          dataLayerName: "dataLayer", // default,
         },
         facebookPixel: {
-          pixelId: '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-facebook-pixel', // default
+          pixelId: "", // leave empty if you want to disable the tracker
+          cookieName: "gatsby-gdpr-facebook-pixel", // default
         },
         // defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development'],
+        environments: ["production", "development"],
       },
     },
     // {
@@ -117,13 +117,13 @@ module.exports = {
         name: `zeppelin-design-system`,
         short_name: `z-lab`,
         start_url: `/`,
-        background_color: '#fff',
-        theme_color: '#27166F',
+        background_color: "#fff",
+        theme_color: "#27166F",
         display: `minimal-ui`,
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },
     },
-    'gatsby-theme-material-ui',
+    "gatsby-theme-material-ui",
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
   ],

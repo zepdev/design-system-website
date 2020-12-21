@@ -1,14 +1,14 @@
-import React from 'react'
-import Search from '@zlab-de/zel-react/Search'
+import React from "react"
+import Search from "@zlab-de/zel-react/Search"
 
 function SearchExample() {
   const handleChange = selection => {
-    alert(`You selected ${ selection.value }`)
+    alert(`You selected ${selection.value}`)
   }
   const searchItems = [
-    { value: 'value 1' },
-    { value: 'value 2' },
-    { value: 'value 3' },
+    { value: "value 1" },
+    { value: "value 2" },
+    { value: "value 3" },
   ]
 
   return (
@@ -22,7 +22,7 @@ function SearchExample() {
       <Search
         onChange={handleChange}
         items={searchItems}
-        variant="header"
+        variant="landmark"
         placeholder="Search for value"
       />
     </div>

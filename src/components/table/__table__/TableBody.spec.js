@@ -1,9 +1,9 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import TableBody from '../TableBody'
+import React from "react"
+import { render } from "../../../../test-utils"
+import TableBody from "../TableBody"
 
-describe('TableBody', () => {
-  it('renders correctly', () => {
+describe("TableBody", () => {
+  it("renders correctly", () => {
     const mockProps = {
       children: <tr />,
     }

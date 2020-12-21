@@ -1,13 +1,13 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import Select from '../Select'
+import React from "react"
+import { render } from "../../../../test-utils"
+import Select from "../Select"
 
-describe('Select', () => {
-  it('renders correctly', () => {
+describe("Select", () => {
+  it("renders correctly", () => {
     const mockProps = {
       items: [],
       onChange: () => {},
-      label: 'Select',
+      label: "Select",
     }
     const component = render(<Select {...mockProps} />)
     expect(component).toMatchSnapshot()

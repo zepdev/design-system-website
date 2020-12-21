@@ -1,16 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
+import React from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
 
 const Spinner = ({ className: classNameProp, inverted, size, ...other }) => {
   return (
     <div
       className={clsx(
-        'zep-spinner',
+        "zep-spinner",
         {
-          'zep-spinner--medium': size === 'medium',
-          'zep-spinner--large': size === 'large',
-          'zep-spinner--invert': inverted === true,
+          "zep-spinner--medium": size === "medium",
+          "zep-spinner--large": size === "large",
+          "zep-spinner--invert": inverted === true,
         },
         classNameProp
       )}
@@ -25,7 +25,7 @@ const Spinner = ({ className: classNameProp, inverted, size, ...other }) => {
 
 Spinner.propTypes = {
   inverted: PropTypes.bool,
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  size: PropTypes.oneOf(["small", "medium", "large"]),
 }
 
 export default Spinner

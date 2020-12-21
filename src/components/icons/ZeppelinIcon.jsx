@@ -1,7 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
-const ZeppelinIcon = ({ className, width, height, fill, title, viewBox, ariaLabel }) => {
+const ZeppelinIcon = ({
+  className,
+  width,
+  height,
+  fill,
+  title,
+  viewBox,
+  ariaLabel,
+}) => {
   const label = ariaLabel || title
   return (
     <svg
@@ -9,10 +17,10 @@ const ZeppelinIcon = ({ className, width, height, fill, title, viewBox, ariaLabe
       height={height}
       xmlns="http://www.w3.org/2000/svg"
       viewBox={viewBox}
-      aria-labelledby={`title_${ label }`}
+      aria-labelledby={`title_${label}`}
       className={className}
     >
-      <title id={`title_${ label }`}>{label}</title>
+      <title id={`title_${label}`}>{label}</title>
       <path
         fill={fill}
         d="M117.5,0.6v1.2h0.2V1.3h0.2c0.1,0,0.2,0,0.3,0s0.1,0.1,0.1,0.3v0.2l0,0l0,0l0,0h0.2l0,0c0,0,0,0,0-0.1V1.6V1.5
@@ -91,10 +99,10 @@ ZeppelinIcon.propTypes = {
 }
 
 ZeppelinIcon.defaultProps = {
-  width: '32',
-  height: '32',
-  viewBox: '0 0 119.1 19.1',
-  fill: 'currentColor',
+  width: "32",
+  height: "32",
+  viewBox: "0 0 119.1 19.1",
+  fill: "currentColor",
 }
 
 export default ZeppelinIcon

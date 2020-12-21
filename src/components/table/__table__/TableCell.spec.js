@@ -1,11 +1,11 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import TableCell from '../TableCell'
+import React from "react"
+import { render } from "../../../../test-utils"
+import TableCell from "../TableCell"
 
-describe('TableCell', () => {
-  it('renders correctly', () => {
+describe("TableCell", () => {
+  it("renders correctly", () => {
     const mockProps = {
-      children: 'mockString',
+      children: "mockString",
     }
     const component = render(
       <table>

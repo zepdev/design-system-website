@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import { makeStyles } from '@material-ui/core/styles'
-import Tabs from '../tabs/Tabs'
-import Tab from '../tabs/Tab'
-import ElementPreview from './ElementPreview'
-import ElementUsage from './ElementUsage'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import { makeStyles } from "@material-ui/core/styles"
+import Tabs from "@zlab-de/zel-react/Tabs"
+import Tab from "@zlab-de/zel-react/Tab"
+import ElementPreview from "./ElementPreview"
+import ElementUsage from "./ElementUsage"
 
 const useStyles = makeStyles(theme => ({
   tabs: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
     background: theme.status.gray,
   },
   text: {
-    marginBottom: `${ theme.space.l.rem }rem`,
-    textTransform: 'capitalize',
+    marginBottom: `${theme.space.l.rem}rem`,
+    textTransform: "capitalize",
   },
 }))
 

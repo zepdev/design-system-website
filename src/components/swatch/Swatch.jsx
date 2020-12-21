@@ -1,52 +1,53 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
-import { makeStyles } from '@material-ui/core/styles'
-import ButtonBase from '../button/ButtonBase'
-import CopyIcon from '../icons/CopyIcon'
+/* eslint multiline-ternary: ["error", "never"] */
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
+import { makeStyles } from "@material-ui/core/styles"
+import ButtonBase from "../button/ButtonBase"
+import CopyIcon from "../icons/CopyIcon"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: 'flex',
-    flexDirection: 'column',
-    flexBasis: '48%',
-    marginBottom: `${ theme.space.xxl.rem }rem`,
-    [theme.breakpoints.up('sm')]: {
-      flexBasis: '22%',
+    display: "flex",
+    flexDirection: "column",
+    flexBasis: "48%",
+    marginBottom: `${theme.space.xxl.rem}rem`,
+    [theme.breakpoints.up("sm")]: {
+      flexBasis: "22%",
     },
-    [theme.breakpoints.up('md')]: {
-      marginRight: `${ theme.space.m.rem }rem`,
+    [theme.breakpoints.up("md")]: {
+      marginRight: `${theme.space.m.rem}rem`,
     },
-    [theme.breakpoints.up('xxl')]: {
-      marginRight: `${ theme.space.m.rem }rem`,
-      flexBasis: '16%',
+    [theme.breakpoints.up("xxl")]: {
+      marginRight: `${theme.space.m.rem}rem`,
+      flexBasis: "16%",
     },
   },
   button: {
-    height: '6rem',
-    width: '100%',
+    height: "6rem",
+    width: "100%",
     marginBottom: theme.space.s.px,
-    position: 'relative',
-    cursor: 'pointer',
-    border: `1px solid ${ theme.color.global.lightGray }`,
-    '&:hover, &:focus': {
+    position: "relative",
+    cursor: "pointer",
+    border: `1px solid ${theme.color.global.lightGray}`,
+    "&:hover, &:focus": {
       zIndex: 1,
-      '& $backdrop': {
+      "& $backdrop": {
         opacity: 0.4,
       },
-      '& $backdropContent': {
+      "& $backdropContent": {
         opacity: 1,
       },
     },
-    [theme.breakpoints.up('sm')]: {
-      height: '6rem',
+    [theme.breakpoints.up("sm")]: {
+      height: "6rem",
     },
-    [theme.breakpoints.up('xxl')]: {
-      height: '8rem',
+    [theme.breakpoints.up("xxl")]: {
+      height: "8rem",
     },
   },
   backdrop: {
-    position: 'absolute',
+    position: "absolute",
     left: 0,
     right: 0,
     top: 0,
@@ -56,31 +57,31 @@ const useStyles = makeStyles(theme => ({
     transition: 0.5,
   },
   backdropContent: {
-    position: 'absolute',
+    position: "absolute",
     left: 0,
     right: 0,
     top: 0,
     bottom: 0,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
     opacity: 0,
-    color: '#fff',
+    color: "#fff",
   },
   icon: {
-    color: '#fff',
-    display: 'block',
+    color: "#fff",
+    display: "block",
   },
   buttonText: {
-    position: 'relative,',
+    position: "relative,",
     paddingLeft: 5,
-    display: 'block',
-    textTransform: 'uppercase',
+    display: "block",
+    textTransform: "uppercase",
   },
   text: {
     margin: 0,
     color: theme.color.global.lightGray,
-    textTransform: 'uppercase',
+    textTransform: "uppercase",
   },
   name: {
     marginTop: 0,
@@ -96,12 +97,12 @@ function Swatch({ variant, color, name }) {
   const classes = useStyles()
 
   const handleCopy = color => {
-    if (document.queryCommandSupported('copy')) {
-      const dummy = document.createElement('textarea')
+    if (document.queryCommandSupported("copy")) {
+      const dummy = document.createElement("textarea")
       document.body.appendChild(dummy)
       dummy.value = color
       dummy.select()
-      document.execCommand('copy')
+      document.execCommand("copy")
       document.body.removeChild(dummy)
       setTextCopied(true)
       setTimeout(() => {
@@ -128,29 +129,29 @@ function Swatch({ variant, color, name }) {
           {!isTextCopied && (
             <CopyIcon
               className={classes.icon}
-              ariaLabel={`copy hex:${ color }`}
+              ariaLabel={`copy hex:${color}`}
             />
           )}
           <span
-            className={clsx(classes.buttonText, 'zep-typo--normal-h4')}
+            className={clsx(classes.buttonText, "zep-typo--normal-h4")}
             data-testid="swatchText"
           >
-            {isTextCopied ? 'Copied!' : copyError ? 'Error!' : color}
+            {isTextCopied ? "Copied!" : copyError ? "Error!" : color}
           </span>
         </span>
       </ButtonBase>
 
-      {variant === 'font' && (
+      {variant === "font" && (
         <p
-          className={clsx(classes.text, 'zep-typo--normal-caption')}
-        >{`RGB: ${ color }`}</p>
+          className={clsx(classes.text, "zep-typo--normal-caption")}
+        >{`RGB: ${color}`}</p>
       )}
-      {variant !== 'font' && (
+      {variant !== "font" && (
         <>
-          <p className={clsx(classes.name, 'zep-typo--normal-body2')}>{name}</p>
+          <p className={clsx(classes.name, "zep-typo--normal-body2")}>{name}</p>
           <p
-            className={clsx(classes.text, 'zep-typo--normal-caption')}
-          >{`HEX: ${ color }`}</p>
+            className={clsx(classes.text, "zep-typo--normal-caption")}
+          >{`HEX: ${color}`}</p>
         </>
       )}
     </div>

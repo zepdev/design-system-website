@@ -6,24 +6,42 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="zep-button zep-button-icon"
+        class="zep-button zep-button--icon makeStyles-button-1 zep-button--primary"
       >
         <svg
-          aria-labelledby="title_copy"
-          class="zep-button__icon test"
-          height="32"
+          aria-hidden="true"
+          class="zep-button__icon"
+          data-testid="ZepIconEssentialStarIcon"
+          focusable="false"
+          height="24"
           viewBox="0 0 24 24"
-          width="32"
-          xmlns="http://www.w3.org/2000/svg"
+          width="24"
         >
-          <title
-            id="title_copy"
-          >
-            Copy
-          </title>
           <path
-            d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+            d="M11.85 2.01a1.3 1.3 0 00-1.01.7L8.2 7.94l-5.03.5c-.5.04-.93.37-1.1.85l-.04.13c-.11.44.02.9.35 1.23l4.16 4.12L5 20.36c-.13.5.04 1.02.44 1.35l.11.08c.39.25.88.28 1.3.07L12 19.31l5.16 2.56c.46.22 1 .16 1.4-.16l.1-.1c.33-.32.46-.8.34-1.24l-1.54-5.6 4.16-4.13c.36-.35.48-.88.3-1.36l-.05-.12c-.2-.41-.6-.69-1.06-.73l-5.01-.5-2.63-5.21A1.3 1.3 0 0012 2l-.15.01zM12 3.25c.02 0 .04.02.05.03l2.79 5.53c.1.19.28.32.5.34l5.36.53c.03 0 .04.01.05.03l-.01.05-4.42 4.37a.62.62 0 00-.16.61l1.64 5.95c0 .02 0 .04-.02.05a.05.05 0 01-.06 0l-5.44-2.69a.62.62 0 00-.56 0l-5.43 2.7-.06-.01a.05.05 0 01-.02-.06l1.64-5.94a.62.62 0 00-.17-.6l-4.42-4.4a.05.05 0 01.03-.07l5.38-.54c.21-.02.4-.15.5-.34l2.78-5.52c0-.01.03-.03.05-.03z"
             fill="currentColor"
+            fill-rule="evenodd"
+            transform="scale(Infinity, Infinity)"
+          />
+        </svg>
+      </button>
+      <button
+        class="zep-button zep-button--icon zep-button--secondary"
+      >
+        <svg
+          aria-hidden="true"
+          class="zep-button__icon"
+          data-testid="ZepIconEssentialStarIcon"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+        >
+          <path
+            d="M11.85 2.01a1.3 1.3 0 00-1.01.7L8.2 7.94l-5.03.5c-.5.04-.93.37-1.1.85l-.04.13c-.11.44.02.9.35 1.23l4.16 4.12L5 20.36c-.13.5.04 1.02.44 1.35l.11.08c.39.25.88.28 1.3.07L12 19.31l5.16 2.56c.46.22 1 .16 1.4-.16l.1-.1c.33-.32.46-.8.34-1.24l-1.54-5.6 4.16-4.13c.36-.35.48-.88.3-1.36l-.05-.12c-.2-.41-.6-.69-1.06-.73l-5.01-.5-2.63-5.21A1.3 1.3 0 0012 2l-.15.01zM12 3.25c.02 0 .04.02.05.03l2.79 5.53c.1.19.28.32.5.34l5.36.53c.03 0 .04.01.05.03l-.01.05-4.42 4.37a.62.62 0 00-.16.61l1.64 5.95c0 .02 0 .04-.02.05a.05.05 0 01-.06 0l-5.44-2.69a.62.62 0 00-.56 0l-5.43 2.7-.06-.01a.05.05 0 01-.02-.06l1.64-5.94a.62.62 0 00-.17-.6l-4.42-4.4a.05.05 0 01.03-.07l5.38-.54c.21-.02.4-.15.5-.34l2.78-5.52c0-.01.03-.03.05-.03z"
+            fill="currentColor"
+            fill-rule="evenodd"
+            transform="scale(Infinity, Infinity)"
           />
         </svg>
       </button>
@@ -31,24 +49,42 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="zep-button zep-button-icon"
+      class="zep-button zep-button--icon makeStyles-button-1 zep-button--primary"
     >
       <svg
-        aria-labelledby="title_copy"
-        class="zep-button__icon test"
-        height="32"
+        aria-hidden="true"
+        class="zep-button__icon"
+        data-testid="ZepIconEssentialStarIcon"
+        focusable="false"
+        height="24"
         viewBox="0 0 24 24"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
+        width="24"
       >
-        <title
-          id="title_copy"
-        >
-          Copy
-        </title>
         <path
-          d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+          d="M11.85 2.01a1.3 1.3 0 00-1.01.7L8.2 7.94l-5.03.5c-.5.04-.93.37-1.1.85l-.04.13c-.11.44.02.9.35 1.23l4.16 4.12L5 20.36c-.13.5.04 1.02.44 1.35l.11.08c.39.25.88.28 1.3.07L12 19.31l5.16 2.56c.46.22 1 .16 1.4-.16l.1-.1c.33-.32.46-.8.34-1.24l-1.54-5.6 4.16-4.13c.36-.35.48-.88.3-1.36l-.05-.12c-.2-.41-.6-.69-1.06-.73l-5.01-.5-2.63-5.21A1.3 1.3 0 0012 2l-.15.01zM12 3.25c.02 0 .04.02.05.03l2.79 5.53c.1.19.28.32.5.34l5.36.53c.03 0 .04.01.05.03l-.01.05-4.42 4.37a.62.62 0 00-.16.61l1.64 5.95c0 .02 0 .04-.02.05a.05.05 0 01-.06 0l-5.44-2.69a.62.62 0 00-.56 0l-5.43 2.7-.06-.01a.05.05 0 01-.02-.06l1.64-5.94a.62.62 0 00-.17-.6l-4.42-4.4a.05.05 0 01.03-.07l5.38-.54c.21-.02.4-.15.5-.34l2.78-5.52c0-.01.03-.03.05-.03z"
           fill="currentColor"
+          fill-rule="evenodd"
+          transform="scale(Infinity, Infinity)"
+        />
+      </svg>
+    </button>
+    <button
+      class="zep-button zep-button--icon zep-button--secondary"
+    >
+      <svg
+        aria-hidden="true"
+        class="zep-button__icon"
+        data-testid="ZepIconEssentialStarIcon"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <path
+          d="M11.85 2.01a1.3 1.3 0 00-1.01.7L8.2 7.94l-5.03.5c-.5.04-.93.37-1.1.85l-.04.13c-.11.44.02.9.35 1.23l4.16 4.12L5 20.36c-.13.5.04 1.02.44 1.35l.11.08c.39.25.88.28 1.3.07L12 19.31l5.16 2.56c.46.22 1 .16 1.4-.16l.1-.1c.33-.32.46-.8.34-1.24l-1.54-5.6 4.16-4.13c.36-.35.48-.88.3-1.36l-.05-.12c-.2-.41-.6-.69-1.06-.73l-5.01-.5-2.63-5.21A1.3 1.3 0 0012 2l-.15.01zM12 3.25c.02 0 .04.02.05.03l2.79 5.53c.1.19.28.32.5.34l5.36.53c.03 0 .04.01.05.03l-.01.05-4.42 4.37a.62.62 0 00-.16.61l1.64 5.95c0 .02 0 .04-.02.05a.05.05 0 01-.06 0l-5.44-2.69a.62.62 0 00-.56 0l-5.43 2.7-.06-.01a.05.05 0 01-.02-.06l1.64-5.94a.62.62 0 00-.17-.6l-4.42-4.4a.05.05 0 01.03-.07l5.38-.54c.21-.02.4-.15.5-.34l2.78-5.52c0-.01.03-.03.05-.03z"
+          fill="currentColor"
+          fill-rule="evenodd"
+          transform="scale(Infinity, Infinity)"
         />
       </svg>
     </button>

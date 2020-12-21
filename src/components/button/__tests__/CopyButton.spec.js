@@ -1,14 +1,15 @@
-import React from 'react'
-import { act, render, fireEvent } from '../../../../test-utils'
-import CopyButton from '../CopyButton'
+import React from "react"
+import { act, render, fireEvent } from "../../../../test-utils"
+import CopyButton from "../CopyButton"
+import "@testing-library/jest-dom/extend-expect"
 
 jest.useFakeTimers()
 
-describe('CopyButton', () => {
+describe("CopyButton", () => {
   const mockProps = {
-    element: 'someString',
+    element: "someString",
   }
-  it('renders correctly', () => {
+  it("renders correctly", () => {
     const component = render(<CopyButton {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
@@ -27,9 +28,9 @@ describe('CopyButton', () => {
       }
     })
     const { getByTestId } = render(<CopyButton {...mockProps} />)
-    const button = getByTestId('copyButton')
+    const button = getByTestId("copyButton")
     fireEvent.click(button)
-    expect(getByTestId('copyButton')).toHaveTextContent(/copied!/i)
+    expect(getByTestId("copyButton")).toHaveTextContent(/copied!/i)
     // check that timeout is called and changes text back
     // expect(setTimeout).toHaveBeenCalledTimes(1)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
@@ -38,7 +39,7 @@ describe('CopyButton', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('copyButton')).toHaveTextContent(/copy/i)
+    expect(getByTestId("copyButton")).toHaveTextContent(/copy/i)
   })
   it('renders "Error!" if document.execCommand is not supported by browser', () => {
     // mock document as not implemented by jsdom (https://jestjs.io/docs/en/manual-mocks#mocking-methods-which-are-not-implemented-in-jsdom)
@@ -55,9 +56,9 @@ describe('CopyButton', () => {
       }
     })
     const { getByTestId } = render(<CopyButton {...mockProps} />)
-    const button = getByTestId('copyButton')
+    const button = getByTestId("copyButton")
     fireEvent.click(button)
-    expect(getByTestId('copyButton')).toHaveTextContent(/error!/i)
+    expect(getByTestId("copyButton")).toHaveTextContent(/error!/i)
     // check that timeout is called and changes text back
     // expect(setTimeout).toHaveBeenCalledTimes(2)
     expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 2000)
@@ -66,6 +67,6 @@ describe('CopyButton', () => {
       jest.runAllTimers()
     })
 
-    expect(getByTestId('copyButton')).toHaveTextContent(/copy/i)
+    expect(getByTestId("copyButton")).toHaveTextContent(/copy/i)
   })
 })

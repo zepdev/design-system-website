@@ -1,6 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { useSelect } from 'downshift'
+/* eslint multiline-ternary: ["error", "never"] */
+import React from "react"
+import PropTypes from "prop-types"
+import { useSelect } from "downshift"
 
 function Select({
   items,
@@ -25,19 +26,19 @@ function Select({
   })
   return (
     <div className={classNameProp}>
-      <label {...getLabelProps({ className: 'zep-select__label' })}>
+      <label {...getLabelProps({ className: "zep-select__label" })}>
         {label}
       </label>
       <button
         className="zep-select__button"
-        style={{ display: 'flex', justifyContent: 'space-between' }}
+        style={{ display: "flex", justifyContent: "space-between" }}
         {...getToggleButtonProps()}
       >
         <p
           style={{
-            whiteSpace: 'nowrap',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
+            whiteSpace: "nowrap",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
           }}
         >
           {selectedItem ? selectedItem.value : placeholder}
@@ -55,20 +56,20 @@ function Select({
       </button>
       <ul
         {...getMenuProps({
-          className: isOpen ? 'zep-select__list' : null,
-          style: { position: 'absolute' },
+          className: isOpen ? "zep-select__list" : null,
+          style: { position: "absolute" },
         })}
       >
         {isOpen &&
           items.map((item, index) => (
             <li
               style={
-                highlightedIndex === index ?
-                  { backgroundColor: '#eceeef', fontWeight: 'bold' } :
-                  {}
+                highlightedIndex === index
+                  ? { backgroundColor: "#eceeef", fontWeight: "bold" }
+                  : {}
               }
               className="zep-select__listitem"
-              key={`${ item }${ index }`}
+              key={`${item}${index}`}
               {...getItemProps({ item, index })}
             >
               {item.value}

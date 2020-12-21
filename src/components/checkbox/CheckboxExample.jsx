@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Checkbox from '@zlab-de/zel-react/Checkbox'
+import React, { useState } from "react"
+import Checkbox from "@zlab-de/zel-react/Checkbox"
 
 function CheckboxExample() {
   const [state, setState] = useState({
@@ -17,17 +17,17 @@ function CheckboxExample() {
       <Checkbox
         label="A"
         isChecked={state.isCheckedA}
-        handleChange={handleChange('isCheckedA')}
+        handleChange={handleChange("isCheckedA")}
       />
       <Checkbox
         label="B"
         isChecked={state.isCheckedB}
-        handleChange={handleChange('isCheckedB')}
+        handleChange={handleChange("isCheckedB")}
       />
       <Checkbox
         label="C"
         isChecked={state.isCheckedC}
-        handleChange={handleChange('isCheckedC')}
+        handleChange={handleChange("isCheckedC")}
       />
     </form>
   )

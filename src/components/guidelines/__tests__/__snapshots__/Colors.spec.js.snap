@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="makeStyles-root-3 makeStyles-tabs-1 zep-tabs"
+        class="makeStyles-tabs-1 zep-tabs"
         data-testid="tabs"
         role="tablist"
       >
@@ -38,27 +38,27 @@ Object {
         </div>
       </div>
       <p
-        class="makeStyles-text-4 zep-typo--normal-h1"
+        class="makeStyles-text-3 zep-typo--normal-h1"
       >
         font
       </p>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(0, 0, 0, 0.84);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -75,7 +75,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(0, 0, 0, 0.84)
@@ -83,33 +83,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           RGB: rgba(0, 0, 0, 0.84)
         </p>
       </div>
       <p
-        class="makeStyles-text-4 zep-typo--normal-h1"
+        class="makeStyles-text-3 zep-typo--normal-h1"
       >
         fontNegative
       </p>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(255, 255, 255, 0.84);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -126,7 +126,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(255, 255, 255, 0.84)
@@ -134,13 +134,13 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           RGB: rgba(255, 255, 255, 0.84)
         </p>
       </div>
       <p
-        class="makeStyles-text-4 zep-typo--normal-h1"
+        class="makeStyles-text-3 zep-typo--normal-h1"
       >
         global
       </p>
@@ -148,22 +148,22 @@ Object {
         class="makeStyles-container-2"
       >
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(0, 0, 0);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -180,7 +180,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #000000
@@ -188,33 +188,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             black
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #000000
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(41, 41, 41);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -231,7 +231,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #292929
@@ -239,33 +239,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             almostBlack
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #292929
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(102, 102, 102);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -282,7 +282,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #666666
@@ -290,33 +290,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             darkGray
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #666666
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(153, 153, 153);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -333,7 +333,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #999999
@@ -341,33 +341,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             lightGray
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #999999
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(214, 214, 214);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -384,7 +384,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #d6d6d6
@@ -392,33 +392,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             almostWhite
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #d6d6d6
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(255, 255, 255);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -435,7 +435,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #FFFFFF
@@ -443,19 +443,19 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             white
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #FFFFFF
           </p>
         </div>
       </div>
       <p
-        class="makeStyles-text-4 zep-typo--normal-h1"
+        class="makeStyles-text-3 zep-typo--normal-h1"
       >
         black
       </p>
@@ -463,22 +463,22 @@ Object {
         class="makeStyles-container-2"
       >
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgba(0, 0, 0, 0.16);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -495,7 +495,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 rgba(0, 0, 0, 0.16)
@@ -503,33 +503,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             16
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: rgba(0, 0, 0, 0.16)
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgba(0, 0, 0, 0.4);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -546,7 +546,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 rgba(0, 0, 0, 0.4)
@@ -554,33 +554,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             40
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: rgba(0, 0, 0, 0.4)
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgba(0, 0, 0, 0.6);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -597,7 +597,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 rgba(0, 0, 0, 0.6)
@@ -605,33 +605,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             60
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: rgba(0, 0, 0, 0.6)
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgba(0, 0, 0, 0.84);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -648,7 +648,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 rgba(0, 0, 0, 0.84)
@@ -656,19 +656,19 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             84
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: rgba(0, 0, 0, 0.84)
           </p>
         </div>
       </div>
       <p
-        class="makeStyles-text-4 zep-typo--normal-h1"
+        class="makeStyles-text-3 zep-typo--normal-h1"
       >
         white
       </p>
@@ -676,22 +676,22 @@ Object {
         class="makeStyles-container-2"
       >
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgba(255, 255, 255, 0.16);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -708,7 +708,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 rgba(255, 255, 255, 0.16)
@@ -716,33 +716,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             16
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: rgba(255, 255, 255, 0.16)
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgba(255, 255, 255, 0.4);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -759,7 +759,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 rgba(255, 255, 255, 0.4)
@@ -767,33 +767,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             40
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: rgba(255, 255, 255, 0.4)
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgba(255, 255, 255, 0.6);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -810,7 +810,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 rgba(255, 255, 255, 0.6)
@@ -818,33 +818,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             60
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: rgba(255, 255, 255, 0.6)
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgba(255, 255, 255, 0.84);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -861,7 +861,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 rgba(255, 255, 255, 0.84)
@@ -869,19 +869,19 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             84
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: rgba(255, 255, 255, 0.84)
           </p>
         </div>
       </div>
       <p
-        class="makeStyles-text-4 zep-typo--normal-h1"
+        class="makeStyles-text-3 zep-typo--normal-h1"
       >
         corporate
       </p>
@@ -889,22 +889,22 @@ Object {
         class="makeStyles-container-2"
       >
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(39, 22, 111);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -921,7 +921,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #27166f
@@ -929,33 +929,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             indigo
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #27166f
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(233, 206, 164);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -972,7 +972,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #e9cea4
@@ -980,33 +980,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             sand
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #e9cea4
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(78, 128, 149);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1023,7 +1023,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #4e8095
@@ -1031,33 +1031,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             steel
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #4e8095
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(255, 231, 45);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1074,7 +1074,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #FFE72D
@@ -1082,33 +1082,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             yellow
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #FFE72D
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(251, 186, 0);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1125,7 +1125,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #FBBA00
@@ -1133,33 +1133,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             orange
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #FBBA00
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(221, 104, 106);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1176,7 +1176,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #DD686A
@@ -1184,33 +1184,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             red
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #DD686A
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(148, 193, 28);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1227,7 +1227,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #94C11C
@@ -1235,33 +1235,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             greenLight
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #94C11C
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(0, 167, 96);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1278,7 +1278,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #00A760
@@ -1286,33 +1286,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             greenDark
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #00A760
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(200, 211, 217);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1329,7 +1329,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #C8D3D9
@@ -1337,19 +1337,19 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             gray
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #C8D3D9
           </p>
         </div>
       </div>
       <p
-        class="makeStyles-text-4 zep-typo--normal-h1"
+        class="makeStyles-text-3 zep-typo--normal-h1"
       >
         support
       </p>
@@ -1357,22 +1357,22 @@ Object {
         class="makeStyles-container-2"
       >
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(255, 101, 98);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1389,7 +1389,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #ff6562
@@ -1397,33 +1397,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             alert
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #ff6562
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(240, 173, 78);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1440,7 +1440,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #f0ad4e
@@ -1448,33 +1448,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             warning
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #f0ad4e
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(92, 184, 92);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1491,7 +1491,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #5cb85c
@@ -1499,33 +1499,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             success
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #5cb85c
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(91, 192, 222);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1542,7 +1542,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #5bc0de
@@ -1550,33 +1550,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             info
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #5bc0de
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(255, 226, 226);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1593,7 +1593,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #ffe2e2
@@ -1601,33 +1601,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             alertLighter
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #ffe2e2
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(252, 248, 227);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1644,7 +1644,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #fcf8e3
@@ -1652,33 +1652,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             warningLighter
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #fcf8e3
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(223, 240, 216);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1695,7 +1695,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #dff0d8
@@ -1703,33 +1703,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             successLighter
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #dff0d8
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(217, 237, 247);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1746,7 +1746,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #d9edf7
@@ -1754,19 +1754,19 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             infoLighter
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #d9edf7
           </p>
         </div>
       </div>
       <p
-        class="makeStyles-text-4 zep-typo--normal-h1"
+        class="makeStyles-text-3 zep-typo--normal-h1"
       >
         socialMedia
       </p>
@@ -1774,22 +1774,22 @@ Object {
         class="makeStyles-container-2"
       >
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(2, 100, 102);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1806,7 +1806,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #026466
@@ -1814,33 +1814,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             xing
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #026466
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(66, 103, 178);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1857,7 +1857,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #4267b2
@@ -1865,33 +1865,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             facebook
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #4267b2
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(29, 161, 242);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1908,7 +1908,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #1da1f2
@@ -1916,33 +1916,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             twitter
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #1da1f2
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(0, 119, 181);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -1959,7 +1959,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #0077b5
@@ -1967,33 +1967,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             linkedin
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #0077b5
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(153, 198, 19);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2010,7 +2010,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #99c613
@@ -2018,33 +2018,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             kununu
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #99c613
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(255, 0, 0);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2061,7 +2061,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #ff0000
@@ -2069,33 +2069,33 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             youtube
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #ff0000
           </p>
         </div>
         <div
-          class="makeStyles-root-5"
+          class="makeStyles-root-4"
         >
           <button
-            class="makeStyles-button-6 makeStyles-button-13"
+            class="makeStyles-button-5 makeStyles-button-12"
             data-testid="swatchButton"
             style="background: rgb(221, 75, 57);"
           >
             <span
-              class="makeStyles-backdrop-7"
+              class="makeStyles-backdrop-6"
             />
             <span
-              class="makeStyles-backdropContent-8"
+              class="makeStyles-backdropContent-7"
             >
               <svg
                 aria-labelledby="title_copy"
-                class="makeStyles-icon-9"
+                class="makeStyles-icon-8"
                 height="32"
                 viewBox="0 0 24 24"
                 width="32"
@@ -2112,7 +2112,7 @@ Object {
                 />
               </svg>
               <span
-                class="makeStyles-buttonText-10 zep-typo--normal-h4"
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
                 data-testid="swatchText"
               >
                 #dd4b39
@@ -2120,12 +2120,12 @@ Object {
             </span>
           </button>
           <p
-            class="makeStyles-name-12 zep-typo--normal-body2"
+            class="makeStyles-name-11 zep-typo--normal-body2"
           >
             googleplus
           </p>
           <p
-            class="makeStyles-text-11 zep-typo--normal-caption"
+            class="makeStyles-text-10 zep-typo--normal-caption"
           >
             HEX: #dd4b39
           </p>
@@ -2135,7 +2135,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="makeStyles-root-3 makeStyles-tabs-1 zep-tabs"
+      class="makeStyles-tabs-1 zep-tabs"
       data-testid="tabs"
       role="tablist"
     >
@@ -2167,27 +2167,27 @@ Object {
       </div>
     </div>
     <p
-      class="makeStyles-text-4 zep-typo--normal-h1"
+      class="makeStyles-text-3 zep-typo--normal-h1"
     >
       font
     </p>
     <div
-      class="makeStyles-root-5"
+      class="makeStyles-root-4"
     >
       <button
-        class="makeStyles-button-6 makeStyles-button-13"
+        class="makeStyles-button-5 makeStyles-button-12"
         data-testid="swatchButton"
         style="background: rgba(0, 0, 0, 0.84);"
       >
         <span
-          class="makeStyles-backdrop-7"
+          class="makeStyles-backdrop-6"
         />
         <span
-          class="makeStyles-backdropContent-8"
+          class="makeStyles-backdropContent-7"
         >
           <svg
             aria-labelledby="title_copy"
-            class="makeStyles-icon-9"
+            class="makeStyles-icon-8"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -2204,7 +2204,7 @@ Object {
             />
           </svg>
           <span
-            class="makeStyles-buttonText-10 zep-typo--normal-h4"
+            class="makeStyles-buttonText-9 zep-typo--normal-h4"
             data-testid="swatchText"
           >
             rgba(0, 0, 0, 0.84)
@@ -2212,33 +2212,33 @@ Object {
         </span>
       </button>
       <p
-        class="makeStyles-text-11 zep-typo--normal-caption"
+        class="makeStyles-text-10 zep-typo--normal-caption"
       >
         RGB: rgba(0, 0, 0, 0.84)
       </p>
     </div>
     <p
-      class="makeStyles-text-4 zep-typo--normal-h1"
+      class="makeStyles-text-3 zep-typo--normal-h1"
     >
       fontNegative
     </p>
     <div
-      class="makeStyles-root-5"
+      class="makeStyles-root-4"
     >
       <button
-        class="makeStyles-button-6 makeStyles-button-13"
+        class="makeStyles-button-5 makeStyles-button-12"
         data-testid="swatchButton"
         style="background: rgba(255, 255, 255, 0.84);"
       >
         <span
-          class="makeStyles-backdrop-7"
+          class="makeStyles-backdrop-6"
         />
         <span
-          class="makeStyles-backdropContent-8"
+          class="makeStyles-backdropContent-7"
         >
           <svg
             aria-labelledby="title_copy"
-            class="makeStyles-icon-9"
+            class="makeStyles-icon-8"
             height="32"
             viewBox="0 0 24 24"
             width="32"
@@ -2255,7 +2255,7 @@ Object {
             />
           </svg>
           <span
-            class="makeStyles-buttonText-10 zep-typo--normal-h4"
+            class="makeStyles-buttonText-9 zep-typo--normal-h4"
             data-testid="swatchText"
           >
             rgba(255, 255, 255, 0.84)
@@ -2263,13 +2263,13 @@ Object {
         </span>
       </button>
       <p
-        class="makeStyles-text-11 zep-typo--normal-caption"
+        class="makeStyles-text-10 zep-typo--normal-caption"
       >
         RGB: rgba(255, 255, 255, 0.84)
       </p>
     </div>
     <p
-      class="makeStyles-text-4 zep-typo--normal-h1"
+      class="makeStyles-text-3 zep-typo--normal-h1"
     >
       global
     </p>
@@ -2277,22 +2277,22 @@ Object {
       class="makeStyles-container-2"
     >
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(0, 0, 0);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2309,7 +2309,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #000000
@@ -2317,33 +2317,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           black
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #000000
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(41, 41, 41);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2360,7 +2360,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #292929
@@ -2368,33 +2368,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           almostBlack
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #292929
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(102, 102, 102);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2411,7 +2411,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #666666
@@ -2419,33 +2419,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           darkGray
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #666666
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(153, 153, 153);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2462,7 +2462,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #999999
@@ -2470,33 +2470,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           lightGray
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #999999
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(214, 214, 214);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2513,7 +2513,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #d6d6d6
@@ -2521,33 +2521,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           almostWhite
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #d6d6d6
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(255, 255, 255);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2564,7 +2564,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #FFFFFF
@@ -2572,19 +2572,19 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           white
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #FFFFFF
         </p>
       </div>
     </div>
     <p
-      class="makeStyles-text-4 zep-typo--normal-h1"
+      class="makeStyles-text-3 zep-typo--normal-h1"
     >
       black
     </p>
@@ -2592,22 +2592,22 @@ Object {
       class="makeStyles-container-2"
     >
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(0, 0, 0, 0.16);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2624,7 +2624,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(0, 0, 0, 0.16)
@@ -2632,33 +2632,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           16
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: rgba(0, 0, 0, 0.16)
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(0, 0, 0, 0.4);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2675,7 +2675,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(0, 0, 0, 0.4)
@@ -2683,33 +2683,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           40
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: rgba(0, 0, 0, 0.4)
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(0, 0, 0, 0.6);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2726,7 +2726,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(0, 0, 0, 0.6)
@@ -2734,33 +2734,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           60
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: rgba(0, 0, 0, 0.6)
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(0, 0, 0, 0.84);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2777,7 +2777,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(0, 0, 0, 0.84)
@@ -2785,19 +2785,19 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           84
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: rgba(0, 0, 0, 0.84)
         </p>
       </div>
     </div>
     <p
-      class="makeStyles-text-4 zep-typo--normal-h1"
+      class="makeStyles-text-3 zep-typo--normal-h1"
     >
       white
     </p>
@@ -2805,22 +2805,22 @@ Object {
       class="makeStyles-container-2"
     >
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(255, 255, 255, 0.16);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2837,7 +2837,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(255, 255, 255, 0.16)
@@ -2845,33 +2845,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           16
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: rgba(255, 255, 255, 0.16)
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(255, 255, 255, 0.4);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2888,7 +2888,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(255, 255, 255, 0.4)
@@ -2896,33 +2896,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           40
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: rgba(255, 255, 255, 0.4)
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(255, 255, 255, 0.6);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2939,7 +2939,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(255, 255, 255, 0.6)
@@ -2947,33 +2947,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           60
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: rgba(255, 255, 255, 0.6)
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgba(255, 255, 255, 0.84);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -2990,7 +2990,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               rgba(255, 255, 255, 0.84)
@@ -2998,19 +2998,19 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           84
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: rgba(255, 255, 255, 0.84)
         </p>
       </div>
     </div>
     <p
-      class="makeStyles-text-4 zep-typo--normal-h1"
+      class="makeStyles-text-3 zep-typo--normal-h1"
     >
       corporate
     </p>
@@ -3018,22 +3018,22 @@ Object {
       class="makeStyles-container-2"
     >
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(39, 22, 111);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3050,7 +3050,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #27166f
@@ -3058,33 +3058,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           indigo
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #27166f
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(233, 206, 164);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3101,7 +3101,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #e9cea4
@@ -3109,33 +3109,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           sand
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #e9cea4
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(78, 128, 149);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3152,7 +3152,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #4e8095
@@ -3160,33 +3160,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           steel
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #4e8095
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(255, 231, 45);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3203,7 +3203,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #FFE72D
@@ -3211,33 +3211,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           yellow
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #FFE72D
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(251, 186, 0);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3254,7 +3254,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #FBBA00
@@ -3262,33 +3262,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           orange
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #FBBA00
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(221, 104, 106);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3305,7 +3305,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #DD686A
@@ -3313,33 +3313,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           red
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #DD686A
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(148, 193, 28);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3356,7 +3356,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #94C11C
@@ -3364,33 +3364,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           greenLight
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #94C11C
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(0, 167, 96);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3407,7 +3407,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #00A760
@@ -3415,33 +3415,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           greenDark
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #00A760
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(200, 211, 217);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3458,7 +3458,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #C8D3D9
@@ -3466,19 +3466,19 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           gray
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #C8D3D9
         </p>
       </div>
     </div>
     <p
-      class="makeStyles-text-4 zep-typo--normal-h1"
+      class="makeStyles-text-3 zep-typo--normal-h1"
     >
       support
     </p>
@@ -3486,22 +3486,22 @@ Object {
       class="makeStyles-container-2"
     >
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(255, 101, 98);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3518,7 +3518,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #ff6562
@@ -3526,33 +3526,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           alert
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #ff6562
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(240, 173, 78);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3569,7 +3569,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #f0ad4e
@@ -3577,33 +3577,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           warning
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #f0ad4e
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(92, 184, 92);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3620,7 +3620,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #5cb85c
@@ -3628,33 +3628,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           success
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #5cb85c
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(91, 192, 222);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3671,7 +3671,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #5bc0de
@@ -3679,33 +3679,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           info
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #5bc0de
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(255, 226, 226);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3722,7 +3722,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #ffe2e2
@@ -3730,33 +3730,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           alertLighter
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #ffe2e2
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(252, 248, 227);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3773,7 +3773,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #fcf8e3
@@ -3781,33 +3781,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           warningLighter
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #fcf8e3
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(223, 240, 216);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3824,7 +3824,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #dff0d8
@@ -3832,33 +3832,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           successLighter
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #dff0d8
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(217, 237, 247);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3875,7 +3875,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #d9edf7
@@ -3883,19 +3883,19 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           infoLighter
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #d9edf7
         </p>
       </div>
     </div>
     <p
-      class="makeStyles-text-4 zep-typo--normal-h1"
+      class="makeStyles-text-3 zep-typo--normal-h1"
     >
       socialMedia
     </p>
@@ -3903,22 +3903,22 @@ Object {
       class="makeStyles-container-2"
     >
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(2, 100, 102);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3935,7 +3935,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #026466
@@ -3943,33 +3943,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           xing
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #026466
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(66, 103, 178);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -3986,7 +3986,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #4267b2
@@ -3994,33 +3994,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           facebook
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #4267b2
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(29, 161, 242);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -4037,7 +4037,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #1da1f2
@@ -4045,33 +4045,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           twitter
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #1da1f2
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(0, 119, 181);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -4088,7 +4088,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #0077b5
@@ -4096,33 +4096,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           linkedin
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #0077b5
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(153, 198, 19);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -4139,7 +4139,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #99c613
@@ -4147,33 +4147,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           kununu
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #99c613
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(255, 0, 0);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -4190,7 +4190,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #ff0000
@@ -4198,33 +4198,33 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           youtube
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #ff0000
         </p>
       </div>
       <div
-        class="makeStyles-root-5"
+        class="makeStyles-root-4"
       >
         <button
-          class="makeStyles-button-6 makeStyles-button-13"
+          class="makeStyles-button-5 makeStyles-button-12"
           data-testid="swatchButton"
           style="background: rgb(221, 75, 57);"
         >
           <span
-            class="makeStyles-backdrop-7"
+            class="makeStyles-backdrop-6"
           />
           <span
-            class="makeStyles-backdropContent-8"
+            class="makeStyles-backdropContent-7"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-9"
+              class="makeStyles-icon-8"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -4241,7 +4241,7 @@ Object {
               />
             </svg>
             <span
-              class="makeStyles-buttonText-10 zep-typo--normal-h4"
+              class="makeStyles-buttonText-9 zep-typo--normal-h4"
               data-testid="swatchText"
             >
               #dd4b39
@@ -4249,12 +4249,12 @@ Object {
           </span>
         </button>
         <p
-          class="makeStyles-name-12 zep-typo--normal-body2"
+          class="makeStyles-name-11 zep-typo--normal-body2"
         >
           googleplus
         </p>
         <p
-          class="makeStyles-text-11 zep-typo--normal-caption"
+          class="makeStyles-text-10 zep-typo--normal-caption"
         >
           HEX: #dd4b39
         </p>
