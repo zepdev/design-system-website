@@ -99,14 +99,8 @@
   "bugs": {
     "url": "https://jira.zeppelin.com/secure/RapidBoard.jspa?rapidView=296&projectKey=ZDS&view=detail"
   },
-  "jest": {
-    "roots": [
-      "src/"
-    ],
-    "coverageDirectory": "coverage/jest"
-  },
   "jest-junit": {
-    "outputDirectory": "./coverage/jest",
+    "outputDirectory": "./coverage",
     "outputName": "results.xml"
   }
 }
