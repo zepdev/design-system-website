@@ -25,7 +25,7 @@ jobs:
           command: yarn format
       - run:
           name: Run all tests
-          command: yarn test
+          command: yarn test:coverage
       - persist_to_workspace:
           root: .
           paths:
