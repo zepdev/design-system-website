@@ -97,11 +97,6 @@ workflows:
           context: zds
           requires:
             - test
-          filters:
-            branches:
-              only:
-                - development
-                - main
       - build:
           requires:
             - test
