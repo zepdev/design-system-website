@@ -7,13 +7,15 @@ orbs:
 executors:
   node_15:
     docker:
-      - image: circleci/node:15.4
+      - image: cimg/node:15.4
 
 jobs:
   test:
     executor: node_15
     steps:
       - checkout # check out the code in the project directory
+      - node/install:
+          install-yarn: true
       - node/install-packages:
           pkg-manager: yarn
       - attach_workspace:
@@ -23,13 +25,14 @@ jobs:
           command: yarn format
       - run:
           name: Run all tests
-          command: yarn test
-      # - persist_to_workspace:
-      #     root: .
-      #     paths: coverage
-      # - store_test_results:
-      #     path: coverage
-      #     when: always
+          command: yarn test:coverage
+      - persist_to_workspace:
+          root: .
+          paths:
+            - coverage
+      - store_test_results:
+          path: ./coverage/
+          #when: always
 
   sonarcloud:
     executor: node_15
@@ -47,27 +50,29 @@ jobs:
     executor: node_15
     steps:
       - checkout # check out the code in the project directory
+      - node/install:
+          install-yarn: true
+      - node/install-packages:
+          pkg-manager: yarn
       - attach_workspace:
           at: /tmp/project
-      - run:
-          name: install
-          command: yarn
       - run:
           name: Build public dir
           command: yarn build
       - persist_to_workspace:
           root: .
-          paths: public
+          paths:
+            - public
 
   deploy:
     parameters:
       bucket:
         description: "Target bucket name where the build should be copied"
-        default: ""
+        default: ''
         type: string
       cloudfront_distribution:
         description: "The CloudFront Distribution caching the site"
-        default: ""
+        default: ''
         type: string
     executor: aws-cli/default
     steps:
@@ -89,7 +94,15 @@ workflows:
   test_build_deploy:
     jobs:
       - test
-      - sonarcloud/scan
+      - sonarcloud:
+          context: zds
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - development
+                - main
       - build:
           requires:
             - test
