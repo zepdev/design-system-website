@@ -8,7 +8,6 @@ executors:
   node_15:
     docker:
       - image: cimg/node:15.4
-    working_directory: .
 
 jobs:
   test:
