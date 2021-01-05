@@ -16,7 +16,10 @@ jobs:
       - checkout # check out the code in the project directory
       - node/install:
           install-yarn: true
-      - node/install-packages
+      - node/install-packages:
+          pkg-manager: yarn
+      - attach_workspace:
+          at: /tmp/project
       - run:
           name: Prettier
           command: yarn format
