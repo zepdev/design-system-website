@@ -8,7 +8,7 @@ executors:
   node_15:
     docker:
       - image: cimg/node:15.4
-    working_directory: /tmp
+    working_directory: .
 
 jobs:
   test:
@@ -25,7 +25,7 @@ jobs:
           name: Run all tests
           command: yarn test
       - persist_to_workspace:
-          root: workspace
+          root: .
           paths:
             - coverage
       - store_test_results:
@@ -37,7 +37,7 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
-          at: /tmp/workspace
+          at: /tmp/project
       - run:
           name: "Append token in sonar-project.properties"
           command: echo "sonar.login=$SONAR_LOGIN" >> sonar-project.properties
@@ -49,12 +49,12 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
-          at: /tmp/workspace
+          at: /tmp/project
       - run:
           name: Build public dir
           command: yarn build
       - persist_to_workspace:
-          root: workspace
+          root: .
           paths:
             - public
 
@@ -72,7 +72,7 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - attach_workspace:
-          at: /tmp/workspace
+          at: /tmp/project
       - aws-cli/setup
       - aws-s3/sync:
           aws-region: AWS_DEFAULT_REGION
