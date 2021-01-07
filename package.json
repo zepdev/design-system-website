@@ -52,8 +52,7 @@
     "cy:open": "cypress open",
     "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
     "test:coverage": "jest --ci --coverage --runInBand --reporters=default --reporters=jest-junit",
-    "test": "jest -u",
-    "eslint-sonarqube": "yarn lint -f json -o report.json",
+    "test": "jest -u --coverage",
     "sonar-scanner": "sonar-scanner"
   },
   "husky": {
