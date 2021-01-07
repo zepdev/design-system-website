@@ -80,7 +80,7 @@ jobs:
       - aws-cli/setup
       - aws-s3/sync:
           aws-region: AWS_DEFAULT_REGION
-          from: public
+          from: /tmp/project/public
           to: "s3://<< parameters.bucket >>/"
       - run:
           name: Invalidate CloudFront Distribution Cache
