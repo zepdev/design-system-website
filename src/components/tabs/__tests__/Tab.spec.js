@@ -4,7 +4,10 @@ import TabsExample from "../TabsExample"
 
 describe("TabsExample", () => {
   it("renders correctly", () => {
-    const component = render(<TabsExample />)
+    const mockProps = {
+      ariaLabel: "test",
+    }
+    const component = render(<TabsExample {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })
