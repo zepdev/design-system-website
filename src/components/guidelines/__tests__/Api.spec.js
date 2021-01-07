@@ -1,10 +1,10 @@
 import React from "react"
 import { render } from "../../../../test-utils"
-import IconsSection from "../IconSection"
+import Api from "../Api"
 
-describe("IconsSection", () => {
+describe("Api", () => {
   it("renders correctly", () => {
-    const component = render(<IconsSection />)
+    const component = render(<Api />)
     expect(component).toMatchSnapshot()
   })
 })

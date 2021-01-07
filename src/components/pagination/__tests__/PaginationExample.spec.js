@@ -1,10 +1,10 @@
 import React from "react"
 import { render } from "../../../../test-utils"
-import IconsSection from "../IconSection"
+import PaginationExample from "../PaginationExample"
 
-describe("IconsSection", () => {
+describe("PaginationExample", () => {
   it("renders correctly", () => {
-    const component = render(<IconsSection />)
+    const component = render(<PaginationExample />)
     expect(component).toMatchSnapshot()
   })
 })

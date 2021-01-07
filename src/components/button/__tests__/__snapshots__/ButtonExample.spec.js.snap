@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonExample renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <p
+        class="makeStyles-heading-2"
+      >
+        Primary
+      </p>
+      <div
+        class="makeStyles-container-1"
+      >
+        <button
+          class="zep-button zep-button--primary"
+        >
+          Primary
+        </button>
+        <button
+          class="zep-button zep-button--primary zep-button--medium"
+        >
+          Primary Medium
+        </button>
+        <button
+          class="zep-button zep-button--primary zep-button--small"
+        >
+          Primary Small
+        </button>
+        <button
+          class="zep-button zep-button--primary"
+          disabled=""
+        >
+          Primary Disabled
+        </button>
+      </div>
+      <div
+        class="makeStyles-container-1"
+      >
+        <button
+          class="zep-button zep-button--full zep-button--primary"
+        >
+          Primary Full Width
+        </button>
+      </div>
+      <p
+        class="makeStyles-heading-2"
+      >
+        Secondary
+      </p>
+      <div
+        class="makeStyles-container-1"
+      >
+        <button
+          class="zep-button zep-button--secondary"
+        >
+          Secondary
+        </button>
+        <button
+          class="zep-button zep-button--secondary zep-button--medium"
+        >
+          Secondary Medium
+        </button>
+        <button
+          class="zep-button zep-button--secondary zep-button--small"
+        >
+          Secondary Small
+        </button>
+        <button
+          class="zep-button zep-button--secondary"
+          disabled=""
+        >
+          Secondary Disabled
+        </button>
+      </div>
+      <div
+        class="makeStyles-container-1"
+      >
+        <button
+          class="zep-button zep-button--full zep-button--secondary"
+        >
+          Secondary Full Width
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="makeStyles-heading-2"
+    >
+      Primary
+    </p>
+    <div
+      class="makeStyles-container-1"
+    >
+      <button
+        class="zep-button zep-button--primary"
+      >
+        Primary
+      </button>
+      <button
+        class="zep-button zep-button--primary zep-button--medium"
+      >
+        Primary Medium
+      </button>
+      <button
+        class="zep-button zep-button--primary zep-button--small"
+      >
+        Primary Small
+      </button>
+      <button
+        class="zep-button zep-button--primary"
+        disabled=""
+      >
+        Primary Disabled
+      </button>
+    </div>
+    <div
+      class="makeStyles-container-1"
+    >
+      <button
+        class="zep-button zep-button--full zep-button--primary"
+      >
+        Primary Full Width
+      </button>
+    </div>
+    <p
+      class="makeStyles-heading-2"
+    >
+      Secondary
+    </p>
+    <div
+      class="makeStyles-container-1"
+    >
+      <button
+        class="zep-button zep-button--secondary"
+      >
+        Secondary
+      </button>
+      <button
+        class="zep-button zep-button--secondary zep-button--medium"
+      >
+        Secondary Medium
+      </button>
+      <button
+        class="zep-button zep-button--secondary zep-button--small"
+      >
+        Secondary Small
+      </button>
+      <button
+        class="zep-button zep-button--secondary"
+        disabled=""
+      >
+        Secondary Disabled
+      </button>
+    </div>
+    <div
+      class="makeStyles-container-1"
+    >
+      <button
+        class="zep-button zep-button--full zep-button--secondary"
+      >
+        Secondary Full Width
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,10 +1,10 @@
 import React from "react"
 import { render } from "../../../../test-utils"
-import IconsSection from "../IconSection"
+import CheckboxExample from "../CheckboxExample"
 
-describe("IconsSection", () => {
+describe("CheckboxExample", () => {
   it("renders correctly", () => {
-    const component = render(<IconsSection />)
+    const component = render(<CheckboxExample />)
     expect(component).toMatchSnapshot()
   })
 })

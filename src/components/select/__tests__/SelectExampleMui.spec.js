@@ -1,10 +1,10 @@
 import React from "react"
 import { render } from "../../../../test-utils"
-import IconsSection from "../IconSection"
+import SelectExampleMui from "../SelectExampleMui"
 
-describe("IconsSection", () => {
+describe("SelectExampleMui", () => {
   it("renders correctly", () => {
-    const component = render(<IconsSection />)
+    const component = render(<SelectExampleMui />)
     expect(component).toMatchSnapshot()
   })
 })

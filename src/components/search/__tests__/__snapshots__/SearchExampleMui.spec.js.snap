@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchExampleMui renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          aria-expanded="false"
+          class="MuiAutocomplete-root"
+          role="combobox"
+          style="width: 300px;"
+        >
+          <div>
+            <div
+              abel="Search box"
+              aria-autocomplete="list"
+              autocapitalize="none"
+              class="MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+              spellcheck="false"
+              style="border-radius: 0;"
+              variant="outlined"
+            >
+              <input
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                id="-example"
+                type="text"
+                value=""
+              />
+              <div
+                class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-testid="ZepIconEssentialSearchIcon"
+                  focusable="false"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path
+                    d="M12.17 3.06A8.18 8.18 0 0117.4 16.5l5.43 5.43a.63.63 0 01-.8.96l-.09-.07-5.43-5.43a8.17 8.17 0 11-4.33-14.33zM5.64 7.01a6.93 6.93 0 1011.07 8.33A6.93 6.93 0 005.64 7.01z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    transform="scale(Infinity, Infinity)"
+                  />
+                </svg>
+              </div>
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 8px;"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legend-2"
+                  style="width: 0.01px;"
+                >
+                  <span>
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        aria-expanded="false"
+        class="MuiAutocomplete-root"
+        role="combobox"
+        style="width: 300px;"
+      >
+        <div>
+          <div
+            abel="Search box"
+            aria-autocomplete="list"
+            autocapitalize="none"
+            class="MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+            spellcheck="false"
+            style="border-radius: 0;"
+            variant="outlined"
+          >
+            <input
+              autocomplete="off"
+              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+              id="-example"
+              type="text"
+              value=""
+            />
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconEssentialSearchIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12.17 3.06A8.18 8.18 0 0117.4 16.5l5.43 5.43a.63.63 0 01-.8.96l-.09-.07-5.43-5.43a8.17 8.17 0 11-4.33-14.33zM5.64 7.01a6.93 6.93 0 1011.07 8.33A6.93 6.93 0 005.64 7.01z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+            <fieldset
+              aria-hidden="true"
+              class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+              style="padding-left: 8px;"
+            >
+              <legend
+                class="PrivateNotchedOutline-legend-2"
+                style="width: 0.01px;"
+              >
+                <span>
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

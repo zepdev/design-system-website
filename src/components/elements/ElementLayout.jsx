@@ -19,7 +19,6 @@ const useStyles = makeStyles(theme => ({
 
 const ElementLayout = ({ element }) => {
   const [value, setValue] = useState(0)
-
   const classes = useStyles()
 
   function handleChange(newValue) {

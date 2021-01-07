@@ -1,10 +1,10 @@
 import React from "react"
 import { render } from "../../../../test-utils"
-import IconsSection from "../IconSection"
+import ButtonExample from "../ButtonExample"
 
-describe("IconsSection", () => {
+describe("ButtonExample", () => {
   it("renders correctly", () => {
-    const component = render(<IconsSection />)
+    const component = render(<ButtonExample />)
     expect(component).toMatchSnapshot()
   })
 })
