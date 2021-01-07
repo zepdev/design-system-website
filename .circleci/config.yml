@@ -60,8 +60,7 @@ jobs:
           command: yarn build
       - persist_to_workspace:
           root: .
-          paths:
-            - public
+          paths: public
 
   deploy:
     parameters:
