@@ -2,9 +2,9 @@ import React, { useState } from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { logo } from "@zlab-de/zel-react/guidelines.json"
 import { version as zelVersion } from "zeppelin-element-library/package.json"
-import ExpansionPanel from "@material-ui/core/ExpansionPanel"
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails"
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary"
+import Accordion from "@material-ui/core/Accordion"
+import AccordionSummary from "@material-ui/core/AccordionSummary"
+import AccordionDetails from "@material-ui/core/AccordionDetails"
 import ZepIconArrowChevronDown from "@zlab-de/zel-react-icons/ZepIconArrowChevronDown"
 import CorporateLogos from "../../assets/images/Logo/Corporate.png"
 import RentalLogos from "../../assets/images/Logo/Rental.png"
@@ -65,11 +65,11 @@ function Logo() {
       </div>
       <Headline variant="sm">Logo Usage from Size</Headline>
       {data.map((elem, idx) => (
-        <ExpansionPanel
+        <Accordion
           expanded={expanded === `panel${idx}`}
           onChange={handleChange(`panel${idx}`)}
         >
-          <ExpansionPanelSummary
+          <AccordionSummary
             expandIcon={<ZepIconArrowChevronDown />}
             aria-controls={`panel${idx}bh-content`}
             id={`panel${idx}bh-header`}
@@ -79,8 +79,8 @@ function Logo() {
               {`https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/$
               {elem.title}.zip`}
             </p>
-          </ExpansionPanelSummary>
-          <ExpansionPanelDetails className={classes.container}>
+          </AccordionSummary>
+          <AccordionDetails className={classes.container}>
             <img src={elem.src} alt={`${elem.title} logo`} />
             <div>
               <DownloadFile
@@ -93,8 +93,8 @@ function Logo() {
                 ariaLabel={`Download ${elem.title}`}
               />
             </div>
-          </ExpansionPanelDetails>
-        </ExpansionPanel>
+          </AccordionDetails>
+        </Accordion>
       ))}
     </div>
   )
