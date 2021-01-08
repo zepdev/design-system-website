@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="zep-pagination"
+      >
+        <button
+          class="zep-button zep-button--icon"
+          data-testid="paginationTo0"
+        >
+          <svg
+            aria-labelledby="title_menu"
+            class="zep-button__icon zep-button__icon"
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_menu"
+            >
+              PreviousPage
+            </title>
+            <path
+              d="M23.213 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8 1.88-1.893zM10.667 8h-2.667v16h2.667v-16z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <button
+          class="zep-button zep-button--icon"
+          data-testid="paginationBack"
+        >
+          <svg
+            aria-labelledby="title_menu"
+            class="zep-button__icon zep-button__icon"
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_menu"
+            >
+              ChevronLeft
+            </title>
+            <path
+              d="M20.547 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <button
+          class="zep-button zep-button--icon"
+          data-testid="paginationForward"
+        >
+          <svg
+            aria-labelledby="title_menu"
+            class="zep-button__icon zep-button__icon"
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_menu"
+            >
+              ChevronRight
+            </title>
+            <path
+              d="M11.453 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <button
+          class="zep-button zep-button--icon"
+          data-testid="paginationToLast"
+        >
+          <svg
+            aria-labelledby="title_menu"
+            class="zep-button__icon zep-button__icon"
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="title_menu"
+            >
+              NextPage
+            </title>
+            <path
+              d="M8 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8-1.88-1.893zM20.547 8h2.667v16h-2.667v-16z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="zep-pagination"
+    >
+      <button
+        class="zep-button zep-button--icon"
+        data-testid="paginationTo0"
+      >
+        <svg
+          aria-labelledby="title_menu"
+          class="zep-button__icon zep-button__icon"
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_menu"
+          >
+            PreviousPage
+          </title>
+          <path
+            d="M23.213 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8 1.88-1.893zM10.667 8h-2.667v16h2.667v-16z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <button
+        class="zep-button zep-button--icon"
+        data-testid="paginationBack"
+      >
+        <svg
+          aria-labelledby="title_menu"
+          class="zep-button__icon zep-button__icon"
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_menu"
+          >
+            ChevronLeft
+          </title>
+          <path
+            d="M20.547 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <button
+        class="zep-button zep-button--icon"
+        data-testid="paginationForward"
+      >
+        <svg
+          aria-labelledby="title_menu"
+          class="zep-button__icon zep-button__icon"
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_menu"
+          >
+            ChevronRight
+          </title>
+          <path
+            d="M11.453 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <button
+        class="zep-button zep-button--icon"
+        data-testid="paginationToLast"
+      >
+        <svg
+          aria-labelledby="title_menu"
+          class="zep-button__icon zep-button__icon"
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="title_menu"
+          >
+            NextPage
+          </title>
+          <path
+            d="M8 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8-1.88-1.893zM20.547 8h2.667v16h-2.667v-16z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
