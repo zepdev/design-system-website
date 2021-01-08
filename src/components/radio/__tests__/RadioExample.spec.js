@@ -8,29 +8,28 @@ describe("RadioExample", () => {
     const component = render(<RadioExample />)
     expect(component).toMatchSnapshot()
   })
-  it("changes to B", () => {
-    const { getAllByLabelText } = render(<RadioExample />)
-    const radio = getAllByLabelText("radioGroup")[0]
-    fireEvent.change(radio, { target: { value: "b" } })
-    expect(radio.value).toBe("b")
-  })
   it("changes to A", () => {
-    const { getAllByLabelText } = render(<RadioExample />)
-    const radio = getAllByLabelText("radioGroup")[0]
-    fireEvent.click(radio, { target: { value: "a" } })
-    expect(radio.value).toBe("a")
+    const utils = render(<RadioExample />)
+    const input = utils.getByLabelText("a")
+    fireEvent.change(input, { target: { value: "a" } })
+    expect(input.value).toBe("a")
+  })
+  it("changes to B", () => {
+    const utils = render(<RadioExample />)
+    const input = utils.getByLabelText("b")
+    fireEvent.change(input, { target: { value: "b" } })
+    expect(input.value).toBe("b")
   })
   it("changes inline to A", () => {
-    const { getAllByLabelText } = render(<RadioExample />)
-    const radio = getAllByLabelText("radioGroup2")[0]
-    fireEvent.click(radio, { target: { value: "a" } })
-    expect(radio.value).toBe("a")
-    expect(getAllByLabelText("radioGroup")[0].checked).toBe(true)
+    const utils = render(<RadioExample />)
+    const input = utils.getByLabelText("inline a")
+    fireEvent.change(input, { target: { value: "a" } })
+    expect(input.value).toBe("a")
   })
   it("changes inline to B", () => {
-    const { getAllByLabelText } = render(<RadioExample />)
-    const radio = getAllByLabelText("radioGroup2")[0]
-    fireEvent.change(radio, { target: { value: "b" } })
-    expect(radio.value).toBe("b")
+    const utils = render(<RadioExample />)
+    const input = utils.getByLabelText("inline b")
+    fireEvent.change(input, { target: { value: "b" } })
+    expect(input.value).toBe("b")
   })
 })

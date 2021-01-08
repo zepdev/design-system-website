@@ -12,6 +12,7 @@ function RadioExample() {
         <Radio
           value="a"
           id="r1"
+          label="a"
           name="radioGroup"
           checked={radio === "a"}
           onChange={e => setRadio(e.target.value)}
@@ -20,6 +21,7 @@ function RadioExample() {
           value="b"
           id="r2"
           name="radioGroup"
+          label="b"
           checked={radio === "b"}
           onChange={e => setRadio(e.target.value)}
         />
@@ -28,6 +30,7 @@ function RadioExample() {
         <Radio
           variant="inline"
           value="a"
+          label="inline a"
           id="r1Inline"
           name="radioGroup2"
           checked={radioInline === "a"}
@@ -36,6 +39,7 @@ function RadioExample() {
         <Radio
           variant="inline"
           value="b"
+          label="inline b"
           id="r2Inline"
           name="radioGroup2"
           checked={radioInline === "b"}

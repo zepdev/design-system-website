@@ -31,7 +31,7 @@ Object {
               class="zep-radio__label"
               for="r1"
             >
-              radioGroup
+              a
             </label>
           </div>
           <div
@@ -48,7 +48,7 @@ Object {
               class="zep-radio__label"
               for="r2"
             >
-              radioGroup
+              b
             </label>
           </div>
         </fieldset>
@@ -77,7 +77,7 @@ Object {
               class="zep-radio__label"
               for="r1Inline"
             >
-              radioGroup2
+              inline a
             </label>
           </div>
           <div
@@ -94,7 +94,7 @@ Object {
               class="zep-radio__label"
               for="r2Inline"
             >
-              radioGroup2
+              inline b
             </label>
           </div>
         </fieldset>
@@ -128,7 +128,7 @@ Object {
             class="zep-radio__label"
             for="r1"
           >
-            radioGroup
+            a
           </label>
         </div>
         <div
@@ -145,7 +145,7 @@ Object {
             class="zep-radio__label"
             for="r2"
           >
-            radioGroup
+            b
           </label>
         </div>
       </fieldset>
@@ -174,7 +174,7 @@ Object {
             class="zep-radio__label"
             for="r1Inline"
           >
-            radioGroup2
+            inline a
           </label>
         </div>
         <div
@@ -191,7 +191,7 @@ Object {
             class="zep-radio__label"
             for="r2Inline"
           >
-            radioGroup2
+            inline b
           </label>
         </div>
       </fieldset>
