@@ -158,7 +158,12 @@ function IconsSection() {
 
   return (
     <>
-      <Tabs value={value} onClick={handleChange} className={classes.tabs}>
+      <Tabs
+        value={value}
+        onClick={handleChange}
+        className={classes.tabs}
+        ariaLabel="overviewIcons"
+      >
         <Tab label="Overview" />
         <Tab label="Usage" />
       </Tabs>

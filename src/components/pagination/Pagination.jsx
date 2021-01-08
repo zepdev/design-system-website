@@ -65,10 +65,15 @@ const Pagination = ({
           setDisplayedPages(startDisplayPages)
         }}
         disabled={currentPage === 1}
+        data-testid="paginationTo0"
       >
         <PreviousPageIcon className="zep-button__icon" />
       </IconButton>
-      <IconButton onClick={handleBackOnePage} disabled={currentPage === 1}>
+      <IconButton
+        onClick={handleBackOnePage}
+        disabled={currentPage === 1}
+        data-testid="paginationBack"
+      >
         <ChevronLeftIcon className="zep-button__icon" />
       </IconButton>
       {displayedPages.map(elem => (
@@ -77,15 +82,24 @@ const Pagination = ({
           className={clsx("zep-button zep-button-pagination", {
             "zep-pagination--selected": currentPage === elem,
           })}
+          data-testid={`paginationButton${elem}`}
           onClick={() => onPageChange(elem)}
         >
           {elem}
         </button>
       ))}
-      <IconButton onClick={handleNextOnePage} disabled={currentPage === pages}>
+      <IconButton
+        onClick={handleNextOnePage}
+        disabled={currentPage === pages}
+        data-testid="paginationForward"
+      >
         <ChevronRightIcon className="zep-button__icon" />
       </IconButton>
-      <IconButton onClick={handleEndPage} disabled={currentPage === pages}>
+      <IconButton
+        onClick={handleEndPage}
+        disabled={currentPage === pages}
+        data-testid="paginationToLast"
+      >
         <NextPageIcon className="zep-button__icon" />
       </IconButton>
     </div>

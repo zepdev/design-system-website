@@ -10,6 +10,7 @@ Object {
       >
         <button
           class="zep-button zep-button--icon"
+          data-testid="paginationTo0"
           disabled=""
         >
           <svg
@@ -33,6 +34,7 @@ Object {
         </button>
         <button
           class="zep-button zep-button--icon"
+          data-testid="paginationBack"
           disabled=""
         >
           <svg
@@ -56,31 +58,37 @@ Object {
         </button>
         <button
           class="zep-button zep-button-pagination zep-pagination--selected"
+          data-testid="paginationButton1"
         >
           1
         </button>
         <button
           class="zep-button zep-button-pagination"
+          data-testid="paginationButton2"
         >
           2
         </button>
         <button
           class="zep-button zep-button-pagination"
+          data-testid="paginationButton3"
         >
           3
         </button>
         <button
           class="zep-button zep-button-pagination"
+          data-testid="paginationButton4"
         >
           4
         </button>
         <button
           class="zep-button zep-button-pagination"
+          data-testid="paginationButton5"
         >
           5
         </button>
         <button
           class="zep-button zep-button--icon"
+          data-testid="paginationForward"
         >
           <svg
             aria-labelledby="title_menu"
@@ -103,6 +111,7 @@ Object {
         </button>
         <button
           class="zep-button zep-button--icon"
+          data-testid="paginationToLast"
         >
           <svg
             aria-labelledby="title_menu"
@@ -132,6 +141,7 @@ Object {
     >
       <button
         class="zep-button zep-button--icon"
+        data-testid="paginationTo0"
         disabled=""
       >
         <svg
@@ -155,6 +165,7 @@ Object {
       </button>
       <button
         class="zep-button zep-button--icon"
+        data-testid="paginationBack"
         disabled=""
       >
         <svg
@@ -178,31 +189,37 @@ Object {
       </button>
       <button
         class="zep-button zep-button-pagination zep-pagination--selected"
+        data-testid="paginationButton1"
       >
         1
       </button>
       <button
         class="zep-button zep-button-pagination"
+        data-testid="paginationButton2"
       >
         2
       </button>
       <button
         class="zep-button zep-button-pagination"
+        data-testid="paginationButton3"
       >
         3
       </button>
       <button
         class="zep-button zep-button-pagination"
+        data-testid="paginationButton4"
       >
         4
       </button>
       <button
         class="zep-button zep-button-pagination"
+        data-testid="paginationButton5"
       >
         5
       </button>
       <button
         class="zep-button zep-button--icon"
+        data-testid="paginationForward"
       >
         <svg
           aria-labelledby="title_menu"
@@ -225,6 +242,7 @@ Object {
       </button>
       <button
         class="zep-button zep-button--icon"
+        data-testid="paginationToLast"
       >
         <svg
           aria-labelledby="title_menu"

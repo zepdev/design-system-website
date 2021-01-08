@@ -193,6 +193,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
             aria-controls="simple-menu"
             aria-haspopup="true"
             onClick={handleClick}
+            data-testid="themeButton"
           >
             <ZepIconEssentialSettings className={classes.icon} />
           </IconButton>
@@ -208,6 +209,7 @@ const Header = ({ handleMenu, zelTheme, handleTheme }) => {
                 onClick={() => handleClose(elem)}
                 key={`menuItem${elem}`}
                 value={elem}
+                data-testid={`themeMenuItem${elem}`}
                 className={clsx("zep-typo--body-default", classes.menuItem)}
               >
                 {elem}

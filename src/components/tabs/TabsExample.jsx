@@ -25,6 +25,7 @@ function TabsExample() {
   function handleChange(newValue) {
     setValue(newValue)
   }
+
   return (
     <>
       <div className={classes.container}>
@@ -33,8 +34,9 @@ function TabsExample() {
           <Tab label="Tab 1" />
           <Tab label="Tab 2" />
         </Tabs>
-        {value === 0 && <p className={classes.tab}>This is Tab 1</p>}
-        {value === 1 && <p className={classes.tab}>This is Tab 2</p>}
+        <p className={classes.tab} data-testId="tabText">
+          This is Tab {value + 1}
+        </p>
       </div>
       <div className={classes.container}>
         <p className={classes.header}>Small</p>
@@ -47,8 +49,7 @@ function TabsExample() {
           <Tab label="Tab 1" />
           <Tab label="Tab 2" />
         </Tabs>
-        {value === 0 && <p className={classes.tab}>This is Tab 1</p>}
-        {value === 1 && <p className={classes.tab}>This is Tab 2</p>}
+        <p className={classes.tab}>This is Tab {value + 1}</p>
       </div>
       <div className={classes.container}>
         <p className={classes.header}>Icon</p>
@@ -56,8 +57,7 @@ function TabsExample() {
           <Tab label="Tab 1" icon={<ZepIconEssentialStar />} />
           <Tab label="Tab 2" icon={<ZepIconEssentialStar />} />
         </Tabs>
-        {value === 0 && <p className={classes.tab}>This is Tab 1</p>}
-        {value === 1 && <p className={classes.tab}>This is Tab 2</p>}
+        <p className={classes.tab}>This is Tab {value + 1}</p>
       </div>
       <div className={classes.container}>
         <p className={classes.header}>Icon Small</p>
@@ -70,8 +70,7 @@ function TabsExample() {
           <Tab label="Tab 1" icon={<ZepIconEssentialStar />} />
           <Tab label="Tab 2" icon={<ZepIconEssentialStar />} />
         </Tabs>
-        {value === 0 && <p className={classes.tab}>This is Tab 1</p>}
-        {value === 1 && <p className={classes.tab}>This is Tab 2</p>}
+        <p className={classes.tab}>This is Tab {value + 1}</p>
       </div>
     </>
   )

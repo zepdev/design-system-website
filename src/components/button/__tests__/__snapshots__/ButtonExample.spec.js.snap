@@ -6,6 +6,13 @@ Object {
   "baseElement": <body>
     <div>
       <p
+        class="makeStyles-text-4"
+        data-testid="buttonText"
+      >
+        You Clicked: 
+        
+      </p>
+      <p
         class="makeStyles-heading-2"
       >
         Primary
@@ -86,6 +93,13 @@ Object {
     </div>
   </body>,
   "container": <div>
+    <p
+      class="makeStyles-text-4"
+      data-testid="buttonText"
+    >
+      You Clicked: 
+      
+    </p>
     <p
       class="makeStyles-heading-2"
     >

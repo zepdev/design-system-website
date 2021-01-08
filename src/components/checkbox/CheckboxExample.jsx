@@ -5,7 +5,7 @@ function CheckboxExample() {
   const [state, setState] = useState({
     isCheckedA: true,
     isCheckedB: true,
-    isCheckedF: true,
+    isCheckedC: true,
   })
 
   const handleChange = name => event => {

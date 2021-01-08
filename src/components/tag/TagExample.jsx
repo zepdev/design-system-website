@@ -1,14 +1,12 @@
-import React from "react"
+import React, { useState } from "react"
 import Tag from "@zlab-de/zel-react/Tag"
 
 function TagExample() {
-  const handleClick = () => {
-    alert("You clicked the tag!")
-  }
+  const [text, setText] = useState("I'm a Tag!")
 
   return (
     <div>
-      <Tag onClick={handleClick}>I'm a Tag!</Tag>
+      <Tag onClick={() => setText("You Clicked the Tag!")}>{text}</Tag>
     </div>
   )
 }

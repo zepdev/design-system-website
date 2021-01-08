@@ -48,8 +48,10 @@ Object {
         </div>
         <p
           class="makeStyles-tab-3"
+          data-testid="tabText"
         >
-          This is Tab 1
+          This is Tab 
+          1
         </p>
       </div>
       <div
@@ -96,7 +98,8 @@ Object {
         <p
           class="makeStyles-tab-3"
         >
-          This is Tab 1
+          This is Tab 
+          1
         </p>
       </div>
       <div
@@ -175,7 +178,8 @@ Object {
         <p
           class="makeStyles-tab-3"
         >
-          This is Tab 1
+          This is Tab 
+          1
         </p>
       </div>
       <div
@@ -254,7 +258,8 @@ Object {
         <p
           class="makeStyles-tab-3"
         >
-          This is Tab 1
+          This is Tab 
+          1
         </p>
       </div>
     </div>
@@ -303,8 +308,10 @@ Object {
       </div>
       <p
         class="makeStyles-tab-3"
+        data-testid="tabText"
       >
-        This is Tab 1
+        This is Tab 
+        1
       </p>
     </div>
     <div
@@ -351,7 +358,8 @@ Object {
       <p
         class="makeStyles-tab-3"
       >
-        This is Tab 1
+        This is Tab 
+        1
       </p>
     </div>
     <div
@@ -430,7 +438,8 @@ Object {
       <p
         class="makeStyles-tab-3"
       >
-        This is Tab 1
+        This is Tab 
+        1
       </p>
     </div>
     <div
@@ -509,7 +518,8 @@ Object {
       <p
         class="makeStyles-tab-3"
       >
-        This is Tab 1
+        This is Tab 
+        1
       </p>
     </div>
   </div>,

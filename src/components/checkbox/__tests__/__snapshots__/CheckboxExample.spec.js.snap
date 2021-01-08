@@ -31,6 +31,7 @@ Object {
           B
         </label>
         <input
+          checked=""
           class="zep-checkbox"
           id="checkbox_C"
           type="checkbox"
@@ -71,6 +72,7 @@ Object {
         B
       </label>
       <input
+        checked=""
         class="zep-checkbox"
         id="checkbox_C"
         type="checkbox"

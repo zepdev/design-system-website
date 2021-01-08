@@ -6,6 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
+        aria-label="overviewIcons"
         class="makeStyles-tabs-1 zep-tabs"
         data-testid="tabs"
         role="tablist"
@@ -4378,6 +4379,7 @@ Object {
   </body>,
   "container": <div>
     <div
+      aria-label="overviewIcons"
       class="makeStyles-tabs-1 zep-tabs"
       data-testid="tabs"
       role="tablist"
