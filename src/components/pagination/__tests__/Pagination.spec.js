@@ -4,7 +4,13 @@ import Pagination from "../Pagination"
 
 describe("Pagination", () => {
   it("renders correctly", () => {
-    const component = render(<Pagination />)
+    const mockProps = {
+      onPageChange: jest.fn(),
+      currentPage: 1,
+      pagesToDisplay: 5,
+      pages: 5,
+    }
+    const component = render(<Pagination {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
 })
