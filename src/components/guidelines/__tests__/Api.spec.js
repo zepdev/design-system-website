@@ -1,10 +1,11 @@
 import React from "react"
-import { render } from "../../../../test-utils"
+import { render, screen } from "../../../../test-utils"
+import "@testing-library/jest-dom/extend-expect"
 import Api from "../Api"
 
 describe("Api", () => {
   it("renders correctly", () => {
-    const component = render(<Api />)
-    expect(component).toMatchSnapshot()
+    render(<Api />)
+    expect(screen.getAllByRole("treeitem")).toHaveLength(7)
   })
 })
