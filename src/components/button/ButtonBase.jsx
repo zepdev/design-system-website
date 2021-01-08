@@ -1,19 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { makeStyles } from '@material-ui/core/styles'
-import clsx from 'clsx'
+import React from "react"
+import PropTypes from "prop-types"
+import { makeStyles } from "@material-ui/core/styles"
+import clsx from "clsx"
 
 const useStyles = makeStyles(theme => ({
   button: {
-    display: 'inline-block',
+    display: "inline-block",
     margin: 0,
-    border: 'none',
-    outline: 'none',
-    cursor: 'pointer',
-    background: 'transparent',
-    '&:hover, &:focus, &:active, &::focus:not(.focus-visible), &:active:focus': {
-      backgroundColor: 'transparent',
-      outline: 'none',
+    border: "none",
+    outline: "none",
+    cursor: "pointer",
+    background: "transparent",
+    "&:hover, &:focus, &:active, &::focus:not(.focus-visible), &:active:focus": {
+      backgroundColor: "transparent",
+      outline: "none",
     },
   },
 }))
@@ -36,8 +36,8 @@ function ButtonBase({
     classNameProp,
     {
       // eslint-disable-next-line
-      'zep-button--full': fullWidth,
-      'zep-button--small': size === 'small',
+      "zep-button--full": fullWidth,
+      "zep-button--small": size === "small",
     },
     classes.button
   )
@@ -62,13 +62,13 @@ ButtonBase.propTypes = {
   fullWidth: PropTypes.bool,
   onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
-  size: PropTypes.oneOf(['small', 'large']),
+  size: PropTypes.oneOf(["small", "large"]),
 }
 
 ButtonBase.defaultProps = {
   fullWidth: false,
   disabled: false,
-  size: 'large',
+  size: "large",
 }
 
 export default ButtonBase

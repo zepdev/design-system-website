@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectExample renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <label
+            class="zep-select__label"
+            for="downshift-0-toggle-button"
+            id="downshift-0-label"
+          >
+            Label
+          </label>
+          <button
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="downshift-0-label downshift-0-toggle-button"
+            class="zep-select__button"
+            id="downshift-0-toggle-button"
+            style="display: flex; justify-content: space-between;"
+          >
+            <p
+              style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+            >
+              Select one
+            </p>
+            <svg
+              class="zep-select__icon"
+              height="32"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                zepicons-navigation-dropdown
+              </title>
+              <path
+                d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"
+              />
+            </svg>
+          </button>
+          <ul
+            aria-labelledby="downshift-0-label"
+            id="downshift-0-menu"
+            role="listbox"
+            style="position: absolute;"
+            tabindex="-1"
+          />
+          <div
+            tabindex="0"
+          />
+        </div>
+        <p
+          style="padding: 30px;"
+        >
+          You Selected: 
+          value 1
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <label
+          class="zep-select__label"
+          for="downshift-0-toggle-button"
+          id="downshift-0-label"
+        >
+          Label
+        </label>
+        <button
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-0-label downshift-0-toggle-button"
+          class="zep-select__button"
+          id="downshift-0-toggle-button"
+          style="display: flex; justify-content: space-between;"
+        >
+          <p
+            style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+          >
+            Select one
+          </p>
+          <svg
+            class="zep-select__icon"
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              zepicons-navigation-dropdown
+            </title>
+            <path
+              d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"
+            />
+          </svg>
+        </button>
+        <ul
+          aria-labelledby="downshift-0-label"
+          id="downshift-0-menu"
+          role="listbox"
+          style="position: absolute;"
+          tabindex="-1"
+        />
+        <div
+          tabindex="0"
+        />
+      </div>
+      <p
+        style="padding: 30px;"
+      >
+        You Selected: 
+        value 1
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

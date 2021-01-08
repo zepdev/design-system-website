@@ -1,10 +1,10 @@
-import React from 'react'
-import SEO from '../components/SEO'
-import { graphql } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { MDXProvider } from '@mdx-js/react'
-import { Link } from 'gatsby-theme-material-ui'
-import Layout from '../components/Layout'
+import React from "react"
+import SEO from "../components/SEO"
+import { graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from "@mdx-js/react"
+import { Link } from "gatsby-theme-material-ui"
+import Layout from "../components/Layout"
 
 const shortcodes = { Link } // Provide common components here
 
@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <>
-        <SEO title="Home" keywords={['Zeppelin', 'Styleguide']} />
+        <SEO title="Home" keywords={["Zeppelin", "Styleguide"]} />
         <MDXProvider components={shortcodes}>
           <MDXRenderer>{data.mdx.body}</MDXRenderer>
         </MDXProvider>

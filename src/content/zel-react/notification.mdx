@@ -14,7 +14,37 @@ import Notification from '@zlab-de/zel-react/Notification'
 
 The Zeppelin Notification element contains four variants: Success, Info, Warning, Danger.
 
----
+
+<div style={{ marginBottom: 30 }}>
+  <Notification variant="info" style={{ marginBottom: 15 }}>
+    Info
+  </Notification>
+  <Notification variant="success" style={{ marginBottom: 15 }}>
+    Success
+  </Notification>
+  <Notification variant="warning" style={{ marginBottom: 15 }}>
+    Warning
+  </Notification>
+  <Notification variant="danger" style={{ marginBottom: 15 }}>
+    Danger
+  </Notification>
+</div>
+
+```
+import React from 'react'
+import Notification from '@zlab-de/zel-react/Notification'
+
+function MyComponent(){
+    return(
+        <div>
+            <Notification variant="info">Info</Notification>
+        </div>
+    )
+}
+
+export default MyComponent
+```
+
 
 ## Available Props
 
@@ -52,35 +82,3 @@ The Zeppelin Notification element contains four variants: Success, Info, Warning
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <Notification variant="info" style={{ marginBottom: 15 }}>
-    Info
-  </Notification>
-  <Notification variant="success" style={{ marginBottom: 15 }}>
-    Success
-  </Notification>
-  <Notification variant="warning" style={{ marginBottom: 15 }}>
-    Warning
-  </Notification>
-  <Notification variant="danger" style={{ marginBottom: 15 }}>
-    Danger
-  </Notification>
-</div>
-
-```
-import React from 'react'
-import Notification from '@zlab-de/zel-react/Notification'
-
-function MyComponent(){
-    return(
-        <div>
-            <Notification variant="info">Info</Notification>
-        </div>
-    )
-}
-
-export default MyComponent
-```

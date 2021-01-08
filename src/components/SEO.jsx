@@ -1,7 +1,7 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import React from "react"
+import { Helmet } from "react-helmet"
+import PropTypes from "prop-types"
+import { StaticQuery, graphql } from "gatsby"
 const SEO = ({ title, description, image, pathname, article }) => (
   <StaticQuery
     query={query}
@@ -18,8 +18,8 @@ const SEO = ({ title, description, image, pathname, article }) => (
       const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
-        image: `${ siteUrl }${ image || defaultImage }`,
-        url: `${ siteUrl }${ pathname || '/' }`,
+        image: `${siteUrl}${image || defaultImage}`,
+        url: `${siteUrl}${pathname || "/"}`,
       }
       return (
         <>

@@ -9,7 +9,7 @@ Object {
         class=""
       >
         <button
-          class="makeStyles-button-1 zep-typo--normal-body1 makeStyles-button-9"
+          class="makeStyles-button-1 zep-typo--body-default makeStyles-button-9"
         >
           sectionTitle
           <svg
@@ -39,7 +39,7 @@ Object {
       class=""
     >
       <button
-        class="makeStyles-button-1 zep-typo--normal-body1 makeStyles-button-9"
+        class="makeStyles-button-1 zep-typo--body-default makeStyles-button-9"
       >
         sectionTitle
         <svg

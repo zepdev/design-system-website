@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
-import { makeStyles } from '@material-ui/core/styles'
+import React from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
+import { makeStyles } from "@material-ui/core/styles"
 
 const useStyles = makeStyles(theme => ({
   text: {
-    marginBottom: `${ theme.space.l.rem }rem`,
-    textTransform: 'capitalize',
+    marginBottom: `${theme.space.l.rem}rem`,
+    textTransform: "capitalize",
   },
 }))
 
@@ -15,8 +15,8 @@ const Headline = ({ variant, children }) => {
   return (
     <p
       className={clsx(classes.text, {
-        'zep-typo--normal-h1': variant === 'md',
-        'zep-typo--normal-h3': variant === 'sm',
+        "zep-typo--normal-h1": variant === "md",
+        "zep-typo--normal-h3": variant === "sm",
       })}
     >
       {children}
@@ -25,7 +25,7 @@ const Headline = ({ variant, children }) => {
 }
 
 Headline.propTypes = {
-  variant: PropTypes.oneOf(['sm', 'md']),
+  variant: PropTypes.oneOf(["sm", "md"]),
   children: PropTypes.string.isRequired,
 }
 

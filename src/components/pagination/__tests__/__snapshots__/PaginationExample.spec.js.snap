@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationExample renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <p
+          style="padding: 30px; border: 1px solid gray;"
+        >
+          This is Page 
+          1
+        </p>
+        <div
+          style="text-align: right;"
+        >
+          <div
+            class="zep-pagination"
+          >
+            <button
+              class="zep-button zep-button--icon"
+              disabled=""
+            >
+              <svg
+                class="zep-button__icon zep-button__icon"
+                height="32"
+                viewBox="0 0 32 32"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>
+                  zepicons-previous-page
+                </title>
+                <path
+                  d="M23.213 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8 1.88-1.893zM10.667 8h-2.667v16h2.667v-16z"
+                />
+              </svg>
+            </button>
+            <button
+              class="zep-button zep-button--icon"
+              disabled=""
+            >
+              <svg
+                class="zep-button__icon zep-button__icon"
+                height="32"
+                viewBox="0 0 32 32"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>
+                  zepicons-chevron-left
+                </title>
+                <path
+                  d="M20.547 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8z"
+                />
+              </svg>
+            </button>
+            <button
+              class="zep-button zep-button--pagination zep-pagination--selected"
+            >
+              1
+            </button>
+            <button
+              class="zep-button zep-button--pagination"
+            >
+              2
+            </button>
+            <button
+              class="zep-button zep-button--pagination"
+            >
+              3
+            </button>
+            <button
+              class="zep-button zep-button--pagination"
+            >
+              4
+            </button>
+            <button
+              class="zep-button zep-button--pagination"
+            >
+              5
+            </button>
+            <button
+              class="zep-button zep-button--icon"
+            >
+              <svg
+                class="zep-button__icon zep-button__icon"
+                height="32"
+                version="1.1"
+                viewBox="0 0 32 32"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>
+                  zepicons-chevron-right
+                </title>
+                <path
+                  d="M11.453 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8z"
+                />
+              </svg>
+            </button>
+            <button
+              class="zep-button zep-button--icon"
+            >
+              <svg
+                class="zep-button__icon zep-button__icon"
+                height="32"
+                viewBox="0 0 32 32"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>
+                  zepicons-next-page
+                </title>
+                <path
+                  d="M8 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8-1.88-1.893zM20.547 8h2.667v16h-2.667v-16z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <p
+        style="padding: 30px; border: 1px solid gray;"
+      >
+        This is Page 
+        1
+      </p>
+      <div
+        style="text-align: right;"
+      >
+        <div
+          class="zep-pagination"
+        >
+          <button
+            class="zep-button zep-button--icon"
+            disabled=""
+          >
+            <svg
+              class="zep-button__icon zep-button__icon"
+              height="32"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                zepicons-previous-page
+              </title>
+              <path
+                d="M23.213 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8 1.88-1.893zM10.667 8h-2.667v16h2.667v-16z"
+              />
+            </svg>
+          </button>
+          <button
+            class="zep-button zep-button--icon"
+            disabled=""
+          >
+            <svg
+              class="zep-button__icon zep-button__icon"
+              height="32"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                zepicons-chevron-left
+              </title>
+              <path
+                d="M20.547 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8z"
+              />
+            </svg>
+          </button>
+          <button
+            class="zep-button zep-button--pagination zep-pagination--selected"
+          >
+            1
+          </button>
+          <button
+            class="zep-button zep-button--pagination"
+          >
+            2
+          </button>
+          <button
+            class="zep-button zep-button--pagination"
+          >
+            3
+          </button>
+          <button
+            class="zep-button zep-button--pagination"
+          >
+            4
+          </button>
+          <button
+            class="zep-button zep-button--pagination"
+          >
+            5
+          </button>
+          <button
+            class="zep-button zep-button--icon"
+          >
+            <svg
+              class="zep-button__icon zep-button__icon"
+              height="32"
+              version="1.1"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                zepicons-chevron-right
+              </title>
+              <path
+                d="M11.453 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8z"
+              />
+            </svg>
+          </button>
+          <button
+            class="zep-button zep-button--icon"
+          >
+            <svg
+              class="zep-button__icon zep-button__icon"
+              height="32"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                zepicons-next-page
+              </title>
+              <path
+                d="M8 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8-1.88-1.893zM20.547 8h2.667v16h-2.667v-16z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

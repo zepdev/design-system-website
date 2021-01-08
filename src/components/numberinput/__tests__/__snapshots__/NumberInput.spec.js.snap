@@ -9,7 +9,7 @@ Object {
         class="zep-numberinput"
       >
         <button
-          class="zep-button zep-button-icon"
+          class="zep-button zep-button--icon"
           data-testid="minus"
         >
           <svg
@@ -44,7 +44,7 @@ Object {
           value="0"
         />
         <button
-          class="zep-button zep-button-icon"
+          class="zep-button zep-button--icon"
           data-testid="plus"
         >
           <svg
@@ -74,7 +74,7 @@ Object {
       class="zep-numberinput"
     >
       <button
-        class="zep-button zep-button-icon"
+        class="zep-button zep-button--icon"
         data-testid="minus"
       >
         <svg
@@ -109,7 +109,7 @@ Object {
         value="0"
       />
       <button
-        class="zep-button zep-button-icon"
+        class="zep-button zep-button--icon"
         data-testid="plus"
       >
         <svg

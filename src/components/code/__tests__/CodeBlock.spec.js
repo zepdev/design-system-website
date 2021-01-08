@@ -1,22 +1,22 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import CodeBlock from '../CodeBlock'
+import React from "react"
+import { render } from "../../../../test-utils"
+import CodeBlock from "../CodeBlock"
 
-describe('CodeBlock', () => {
-  it('renders correctly', () => {
+describe("CodeBlock", () => {
+  it("renders correctly", () => {
     const mockProps = {
-      children: 'mockCode',
+      children: "mockCode",
     }
     const component = render(<CodeBlock {...mockProps} />)
     expect(component).toMatchSnapshot()
   })
-  it('renders children correctly', () => {
+  it("renders children correctly", () => {
     const mockProps = {
-      children: 'p',
+      children: "p",
     }
     const { getByTestId } = render(<CodeBlock {...mockProps} />)
-    const div1 = getByTestId('codeDiv')
-    const div2 = getByTestId('code')
+    const div1 = getByTestId("codeDiv")
+    const div2 = getByTestId("code")
     expect(div1.children).toHaveLength(1)
     expect(div2.children).toHaveLength(1)
   })

@@ -14,7 +14,7 @@ Object {
           Code Usage Examples
         </h3>
         <div
-          class="makeStyles-root-3 zep-tabs"
+          class="zep-tabs"
           data-testid="tabs"
           role="tablist"
         >
@@ -82,12 +82,12 @@ Object {
             </div>
           </div>
           <button
-            class="makeStyles-button-4 makeStyles-button-6"
+            class="makeStyles-button-3 makeStyles-button-5"
             data-testid="copyButton"
           >
             <svg
               aria-labelledby="title_copy"
-              class="makeStyles-icon-5"
+              class="makeStyles-icon-4"
               height="32"
               viewBox="0 0 24 24"
               width="32"
@@ -118,7 +118,7 @@ Object {
         Code Usage Examples
       </h3>
       <div
-        class="makeStyles-root-3 zep-tabs"
+        class="zep-tabs"
         data-testid="tabs"
         role="tablist"
       >
@@ -186,12 +186,12 @@ Object {
           </div>
         </div>
         <button
-          class="makeStyles-button-4 makeStyles-button-6"
+          class="makeStyles-button-3 makeStyles-button-5"
           data-testid="copyButton"
         >
           <svg
             aria-labelledby="title_copy"
-            class="makeStyles-icon-5"
+            class="makeStyles-icon-4"
             height="32"
             viewBox="0 0 24 24"
             width="32"

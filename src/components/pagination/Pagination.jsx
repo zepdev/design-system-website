@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
-import IconButton from '../button/IconButton'
-import PreviousPageIcon from '../icons/PreviousPageIcon'
-import NextPageIcon from '../icons/NextPageIcon'
-import ChevronLeftIcon from '../icons/ChevronLeftIcon'
-import ChevronRightIcon from '../icons/ChevronRightIcon'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
+import IconButton from "@zlab-de/zel-react/IconButton"
+import PreviousPageIcon from "../icons/PreviousPageIcon"
+import NextPageIcon from "../icons/NextPageIcon"
+import ChevronLeftIcon from "../icons/ChevronLeftIcon"
+import ChevronRightIcon from "../icons/ChevronRightIcon"
 
 function createArray(length, start) {
   return length ? Array.from(Array(Number(length)), (x, i) => start + i) : []
@@ -19,7 +19,8 @@ const Pagination = ({
   onPageChange,
 }) => {
   const pages = Number(pagesProp)
-  const pagesToDisplay = Number(pagesToDisplayProp) < pages ? Number(pagesToDisplayProp) : pages
+  const pagesToDisplay =
+    Number(pagesToDisplayProp) < pages ? Number(pagesToDisplayProp) : pages
   const startDisplayPages = createArray(pagesToDisplay, 1)
 
   // changes the number of page buttons that are displayed
@@ -57,34 +58,48 @@ const Pagination = ({
   }
 
   return (
-    <div className={clsx('zep-pagination', classNameProp)}>
+    <div className={clsx("zep-pagination", classNameProp)}>
       <IconButton
         onClick={() => {
           onPageChange(0)
           setDisplayedPages(startDisplayPages)
         }}
         disabled={currentPage === 1}
+        data-testid="paginationTo0"
       >
         <PreviousPageIcon className="zep-button__icon" />
       </IconButton>
-      <IconButton onClick={handleBackOnePage} disabled={currentPage === 1}>
+      <IconButton
+        onClick={handleBackOnePage}
+        disabled={currentPage === 1}
+        data-testid="paginationBack"
+      >
         <ChevronLeftIcon className="zep-button__icon" />
       </IconButton>
       {displayedPages.map(elem => (
         <button
-          key={`pagination${ elem }`}
-          className={clsx('zep-button zep-button-pagination', {
-            'zep-pagination--selected': currentPage === elem,
+          key={`pagination${elem}`}
+          className={clsx("zep-button zep-button-pagination", {
+            "zep-pagination--selected": currentPage === elem,
           })}
+          data-testid={`paginationButton${elem}`}
           onClick={() => onPageChange(elem)}
         >
           {elem}
         </button>
       ))}
-      <IconButton onClick={handleNextOnePage} disabled={currentPage === pages}>
+      <IconButton
+        onClick={handleNextOnePage}
+        disabled={currentPage === pages}
+        data-testid="paginationForward"
+      >
         <ChevronRightIcon className="zep-button__icon" />
       </IconButton>
-      <IconButton onClick={handleEndPage} disabled={currentPage === pages}>
+      <IconButton
+        onClick={handleEndPage}
+        disabled={currentPage === pages}
+        data-testid="paginationToLast"
+      >
         <NextPageIcon className="zep-button__icon" />
       </IconButton>
     </div>
@@ -94,8 +109,10 @@ const Pagination = ({
 Pagination.propTypes = {
   className: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   pages: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-  pagesToDisplay: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-  currentPage: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+  pagesToDisplay: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+    .isRequired,
+  currentPage: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+    .isRequired,
   onPageChange: PropTypes.func.isRequired,
 }
 

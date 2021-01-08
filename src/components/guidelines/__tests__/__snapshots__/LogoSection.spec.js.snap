@@ -1,0 +1,3476 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoSection renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="makeStyles-root-1"
+      >
+        <p
+          class="makeStyles-text-3 zep-typo--normal-h3"
+        >
+          Logo Colors
+        </p>
+        <div
+          class="makeStyles-container-2"
+        >
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(39, 22, 111);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#27166F
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #27166F
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #27166F
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(175, 14, 14);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#Af0E0E
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #Af0E0E
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #Af0E0E
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(255, 204, 0);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#FFCC00
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #FFCC00
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #FFCC00
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(0, 102, 255);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#0066FF
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #0066FF
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #0066FF
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(0, 174, 239);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#00AEEF
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #00AEEF
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #00AEEF
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(87, 87, 87);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#575757
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #575757
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #575757
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(30, 30, 30);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#1E1E1E
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #1E1E1E
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #1E1E1E
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(0, 0, 0);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#000000
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #000000
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #000000
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(255, 255, 255);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#FFFFFF
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #FFFFFF
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #FFFFFF
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(178, 178, 178);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#B2B2B2
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #B2B2B2
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #B2B2B2
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(7, 61, 26);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#073D1A
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #073D1A
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #073D1A
+            </p>
+          </div>
+          <div
+            class="makeStyles-root-4"
+          >
+            <button
+              class="makeStyles-button-5 makeStyles-button-12"
+              data-testid="swatchButton"
+              style="background: rgb(0, 104, 55);"
+            >
+              <span
+                class="makeStyles-backdrop-6"
+              />
+              <span
+                class="makeStyles-backdropContent-7"
+              >
+                <svg
+                  aria-labelledby="title_copy"
+                  class="makeStyles-icon-8"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title
+                    id="title_copy"
+                  >
+                    copy hex:#006837
+                  </title>
+                  <path
+                    d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                  data-testid="swatchText"
+                >
+                  #006837
+                </span>
+              </span>
+            </button>
+            <p
+              class="makeStyles-name-11 zep-typo--normal-body2"
+            />
+            <p
+              class="makeStyles-text-10 zep-typo--normal-caption"
+            >
+              HEX: #006837
+            </p>
+          </div>
+        </div>
+        <p
+          class="makeStyles-text-3 zep-typo--normal-h3"
+        >
+          Logo Usage from Size
+        </p>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel0bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel0bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Zeppelin Corporate
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel0bh-header"
+                  class="MuiAccordion-region"
+                  id="panel0bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      ZeppelinCorporate
+                      .zip
+                    </p>
+                    <img
+                      alt="Zeppelin Corporate logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Zeppelin Corporate
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Zeppelin Corporate"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel1bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel1bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Zeppelin Corporate Inverted
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel1bh-header"
+                  class="MuiAccordion-region"
+                  id="panel1bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      ZeppelinCorporate Inverted
+                      .zip
+                    </p>
+                    <img
+                      alt="Zeppelin Corporate Inverted logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Zeppelin Corporate Inverted
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Zeppelin Corporate Inverted"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel2bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel2bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Zeppelin Construction Machines
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel2bh-header"
+                  class="MuiAccordion-region"
+                  id="panel2bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      ZeppelinConstruction Machines
+                      .zip
+                    </p>
+                    <img
+                      alt="Zeppelin Construction Machines logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Zeppelin Construction Machines
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Zeppelin Construction Machines"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel3bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel3bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Zeppelin Rental
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel3bh-header"
+                  class="MuiAccordion-region"
+                  id="panel3bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      ZeppelinRental
+                      .zip
+                    </p>
+                    <img
+                      alt="Zeppelin Rental logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Zeppelin Rental
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Zeppelin Rental"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel4bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel4bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Zeppelin Power Systems
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel4bh-header"
+                  class="MuiAccordion-region"
+                  id="panel4bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      ZeppelinPower Systems
+                      .zip
+                    </p>
+                    <img
+                      alt="Zeppelin Power Systems logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Zeppelin Power Systems
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Zeppelin Power Systems"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel5bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel5bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Zeppelin Partners
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel5bh-header"
+                  class="MuiAccordion-region"
+                  id="panel5bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      ZeppelinPartners
+                      .zip
+                    </p>
+                    <img
+                      alt="Zeppelin Partners logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Zeppelin Partners
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Zeppelin Partners"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel6bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel6bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Nuova Ciba
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel6bh-header"
+                  class="MuiAccordion-region"
+                  id="panel6bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      NuovaCiba
+                      .zip
+                    </p>
+                    <img
+                      alt="Nuova Ciba logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Nuova Ciba
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Nuova Ciba"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel7bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel7bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Nuova Ciba Inverted
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel7bh-header"
+                  class="MuiAccordion-region"
+                  id="panel7bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      NuovaCiba Inverted
+                      .zip
+                    </p>
+                    <img
+                      alt="Nuova Ciba Inverted logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Nuova Ciba Inverted
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Nuova Ciba Inverted"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel8bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel8bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Z Digit
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel8bh-header"
+                  class="MuiAccordion-region"
+                  id="panel8bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      ZDigit
+                      .zip
+                    </p>
+                    <img
+                      alt="Z Digit logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Z Digit
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Z Digit"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+        >
+          <div
+            aria-controls="panel9bh-content"
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            id="panel9bh-header"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p>
+                Z Digit Inverted
+              </p>
+            </div>
+            <div
+              class="MuiAccordionSummary-expandIconWrapper"
+            >
+              <svg
+                aria-hidden="true"
+                data-testid="ZepIconArrowChevronDownIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-root MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  aria-labelledby="panel9bh-header"
+                  class="MuiAccordion-region"
+                  id="panel9bh-content"
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root makeStyles-container-2"
+                  >
+                    <p>
+                      Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                      ZDigit Inverted
+                      .zip
+                    </p>
+                    <img
+                      alt="Z Digit Inverted logo"
+                      src="test-file-stub"
+                    />
+                    <div>
+                      <div
+                        class="makeStyles-root-13"
+                      >
+                        <p
+                          class="zep-typo--body-default makeStyles-text-16"
+                        >
+                          Download Z Digit Inverted
+                        </p>
+                        <div
+                          class="makeStyles-container-14"
+                        >
+                          <button
+                            aria-label="Download Z Digit Inverted"
+                            class="makeStyles-button-19 makeStyles-button-12"
+                            data-testid="downloadButton"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="makeStyles-icon-20"
+                              data-testid="ZepIconEssentialDownloadIcon"
+                              focusable="false"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path
+                                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                transform="scale(Infinity, Infinity)"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="makeStyles-root-1"
+    >
+      <p
+        class="makeStyles-text-3 zep-typo--normal-h3"
+      >
+        Logo Colors
+      </p>
+      <div
+        class="makeStyles-container-2"
+      >
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(39, 22, 111);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#27166F
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #27166F
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #27166F
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(175, 14, 14);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#Af0E0E
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #Af0E0E
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #Af0E0E
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(255, 204, 0);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#FFCC00
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #FFCC00
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #FFCC00
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(0, 102, 255);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#0066FF
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #0066FF
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #0066FF
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(0, 174, 239);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#00AEEF
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #00AEEF
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #00AEEF
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(87, 87, 87);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#575757
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #575757
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #575757
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(30, 30, 30);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#1E1E1E
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #1E1E1E
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #1E1E1E
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(0, 0, 0);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#000000
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #000000
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #000000
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(255, 255, 255);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#FFFFFF
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #FFFFFF
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #FFFFFF
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(178, 178, 178);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#B2B2B2
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #B2B2B2
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #B2B2B2
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(7, 61, 26);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#073D1A
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #073D1A
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #073D1A
+          </p>
+        </div>
+        <div
+          class="makeStyles-root-4"
+        >
+          <button
+            class="makeStyles-button-5 makeStyles-button-12"
+            data-testid="swatchButton"
+            style="background: rgb(0, 104, 55);"
+          >
+            <span
+              class="makeStyles-backdrop-6"
+            />
+            <span
+              class="makeStyles-backdropContent-7"
+            >
+              <svg
+                aria-labelledby="title_copy"
+                class="makeStyles-icon-8"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_copy"
+                >
+                  copy hex:#006837
+                </title>
+                <path
+                  d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="makeStyles-buttonText-9 zep-typo--normal-h4"
+                data-testid="swatchText"
+              >
+                #006837
+              </span>
+            </span>
+          </button>
+          <p
+            class="makeStyles-name-11 zep-typo--normal-body2"
+          />
+          <p
+            class="makeStyles-text-10 zep-typo--normal-caption"
+          >
+            HEX: #006837
+          </p>
+        </div>
+      </div>
+      <p
+        class="makeStyles-text-3 zep-typo--normal-h3"
+      >
+        Logo Usage from Size
+      </p>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel0bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel0bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Zeppelin Corporate
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel0bh-header"
+                class="MuiAccordion-region"
+                id="panel0bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    ZeppelinCorporate
+                    .zip
+                  </p>
+                  <img
+                    alt="Zeppelin Corporate logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Zeppelin Corporate
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Zeppelin Corporate"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel1bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel1bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Zeppelin Corporate Inverted
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1bh-header"
+                class="MuiAccordion-region"
+                id="panel1bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    ZeppelinCorporate Inverted
+                    .zip
+                  </p>
+                  <img
+                    alt="Zeppelin Corporate Inverted logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Zeppelin Corporate Inverted
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Zeppelin Corporate Inverted"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel2bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel2bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Zeppelin Construction Machines
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel2bh-header"
+                class="MuiAccordion-region"
+                id="panel2bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    ZeppelinConstruction Machines
+                    .zip
+                  </p>
+                  <img
+                    alt="Zeppelin Construction Machines logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Zeppelin Construction Machines
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Zeppelin Construction Machines"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel3bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel3bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Zeppelin Rental
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel3bh-header"
+                class="MuiAccordion-region"
+                id="panel3bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    ZeppelinRental
+                    .zip
+                  </p>
+                  <img
+                    alt="Zeppelin Rental logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Zeppelin Rental
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Zeppelin Rental"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel4bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel4bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Zeppelin Power Systems
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel4bh-header"
+                class="MuiAccordion-region"
+                id="panel4bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    ZeppelinPower Systems
+                    .zip
+                  </p>
+                  <img
+                    alt="Zeppelin Power Systems logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Zeppelin Power Systems
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Zeppelin Power Systems"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel5bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel5bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Zeppelin Partners
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel5bh-header"
+                class="MuiAccordion-region"
+                id="panel5bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    ZeppelinPartners
+                    .zip
+                  </p>
+                  <img
+                    alt="Zeppelin Partners logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Zeppelin Partners
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Zeppelin Partners"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel6bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel6bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Nuova Ciba
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel6bh-header"
+                class="MuiAccordion-region"
+                id="panel6bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    NuovaCiba
+                    .zip
+                  </p>
+                  <img
+                    alt="Nuova Ciba logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Nuova Ciba
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Nuova Ciba"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel7bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel7bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Nuova Ciba Inverted
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel7bh-header"
+                class="MuiAccordion-region"
+                id="panel7bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    NuovaCiba Inverted
+                    .zip
+                  </p>
+                  <img
+                    alt="Nuova Ciba Inverted logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Nuova Ciba Inverted
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Nuova Ciba Inverted"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel8bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel8bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Z Digit
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel8bh-header"
+                class="MuiAccordion-region"
+                id="panel8bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    ZDigit
+                    .zip
+                  </p>
+                  <img
+                    alt="Z Digit logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Z Digit
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Z Digit"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiAccordion-root MuiAccordion-rounded MuiPaper-rounded MuiPaper-elevation1"
+      >
+        <div
+          aria-controls="panel9bh-content"
+          aria-disabled="false"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root"
+          id="panel9bh-header"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content"
+          >
+            <p>
+              Z Digit Inverted
+            </p>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              data-testid="ZepIconArrowChevronDownIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M12 14.74a.96.96 0 01-.59-.2l-.09-.08-4.14-4.14a.62.62 0 01.8-.95l.09.07L12 13.37l3.93-3.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-4.14 4.14a.96.96 0 01-.68.28z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel9bh-header"
+                class="MuiAccordion-region"
+                id="panel9bh-content"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root makeStyles-container-2"
+                >
+                  <p>
+                    Download at; https://cdn-zel.zepdev.net/zel/[VERSION]/assets/logos/
+                    ZDigit Inverted
+                    .zip
+                  </p>
+                  <img
+                    alt="Z Digit Inverted logo"
+                    src="test-file-stub"
+                  />
+                  <div>
+                    <div
+                      class="makeStyles-root-13"
+                    >
+                      <p
+                        class="zep-typo--body-default makeStyles-text-16"
+                      >
+                        Download Z Digit Inverted
+                      </p>
+                      <div
+                        class="makeStyles-container-14"
+                      >
+                        <button
+                          aria-label="Download Z Digit Inverted"
+                          class="makeStyles-button-19 makeStyles-button-12"
+                          data-testid="downloadButton"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="makeStyles-icon-20"
+                            data-testid="ZepIconEssentialDownloadIcon"
+                            focusable="false"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            width="24"
+                          >
+                            <path
+                              d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              transform="scale(Infinity, Infinity)"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

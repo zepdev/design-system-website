@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import NumberInput from '@zlab-de/zel-react/NumberInput'
+import React, { useState } from "react"
+import NumberInput from "@zlab-de/zel-react/NumberInput"
 
 function NumberInputExample() {
   const [count, setCount] = useState(0)

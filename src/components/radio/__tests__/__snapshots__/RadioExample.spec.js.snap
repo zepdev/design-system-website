@@ -6,9 +6,15 @@ Object {
   "baseElement": <body>
     <div>
       <div>
+        <p
+          data-testid="radioText"
+        >
+          you have selected 
+          a
+        </p>
         <fieldset
           aria-labelledby="radio_Select One"
-          class="zep-typo--normal-body1"
+          class="zep-typo--body-default"
           role="group"
         >
           <legend
@@ -21,30 +27,90 @@ Object {
           >
             <input
               checked=""
+              class="zep-radio__input"
+              data-testid="radioA"
               id="r1"
-              name="value 1"
+              name="radioGroup"
               type="radio"
               value="a"
             />
             <label
+              class="zep-radio__label"
               for="r1"
             >
-              value 1
+              a
             </label>
           </div>
           <div
             class="zep-radio"
           >
             <input
+              class="zep-radio__input"
+              data-testid="radioB"
               id="r2"
-              name="value 2"
+              name="radioGroup"
               type="radio"
               value="b"
             />
             <label
+              class="zep-radio__label"
               for="r2"
             >
-              value 2
+              b
+            </label>
+          </div>
+        </fieldset>
+        <p
+          data-testid="radioInlineText"
+        >
+          you have selected 
+          a
+        </p>
+        <fieldset
+          aria-labelledby="radio_Inline Example"
+          class="zep-typo--body-default"
+          role="group"
+        >
+          <legend
+            id="radio_Inline Example"
+          >
+            Inline Example
+          </legend>
+          <div
+            class="zep-radio zep-radio--inline"
+          >
+            <input
+              checked=""
+              class="zep-radio__input"
+              data-testid="radioInlineA"
+              id="r1Inline"
+              name="radioGroup2"
+              type="radio"
+              value="a"
+            />
+            <label
+              class="zep-radio__label"
+              for="r1Inline"
+            >
+              inline a
+            </label>
+          </div>
+          <div
+            class="zep-radio zep-radio--inline"
+          >
+            <input
+              class="zep-radio__input"
+              data-testid="radioInlineB"
+              id="r2Inline"
+              name="radioGroup2"
+              type="radio"
+              value="b"
+            />
+            <label
+              class="zep-radio__label"
+              for="r2Inline"
+            >
+              inline b
             </label>
           </div>
         </fieldset>
@@ -53,9 +119,15 @@ Object {
   </body>,
   "container": <div>
     <div>
+      <p
+        data-testid="radioText"
+      >
+        you have selected 
+        a
+      </p>
       <fieldset
         aria-labelledby="radio_Select One"
-        class="zep-typo--normal-body1"
+        class="zep-typo--body-default"
         role="group"
       >
         <legend
@@ -68,30 +140,90 @@ Object {
         >
           <input
             checked=""
+            class="zep-radio__input"
+            data-testid="radioA"
             id="r1"
-            name="value 1"
+            name="radioGroup"
             type="radio"
             value="a"
           />
           <label
+            class="zep-radio__label"
             for="r1"
           >
-            value 1
+            a
           </label>
         </div>
         <div
           class="zep-radio"
         >
           <input
+            class="zep-radio__input"
+            data-testid="radioB"
             id="r2"
-            name="value 2"
+            name="radioGroup"
             type="radio"
             value="b"
           />
           <label
+            class="zep-radio__label"
             for="r2"
           >
-            value 2
+            b
+          </label>
+        </div>
+      </fieldset>
+      <p
+        data-testid="radioInlineText"
+      >
+        you have selected 
+        a
+      </p>
+      <fieldset
+        aria-labelledby="radio_Inline Example"
+        class="zep-typo--body-default"
+        role="group"
+      >
+        <legend
+          id="radio_Inline Example"
+        >
+          Inline Example
+        </legend>
+        <div
+          class="zep-radio zep-radio--inline"
+        >
+          <input
+            checked=""
+            class="zep-radio__input"
+            data-testid="radioInlineA"
+            id="r1Inline"
+            name="radioGroup2"
+            type="radio"
+            value="a"
+          />
+          <label
+            class="zep-radio__label"
+            for="r1Inline"
+          >
+            inline a
+          </label>
+        </div>
+        <div
+          class="zep-radio zep-radio--inline"
+        >
+          <input
+            class="zep-radio__input"
+            data-testid="radioInlineB"
+            id="r2Inline"
+            name="radioGroup2"
+            type="radio"
+            value="b"
+          />
+          <label
+            class="zep-radio__label"
+            for="r2Inline"
+          >
+            inline b
           </label>
         </div>
       </fieldset>

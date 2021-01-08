@@ -1,9 +1,9 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import DownloadContainer from '../DownloadContainer'
+import React from "react"
+import { render } from "../../../../test-utils"
+import DownloadContainer from "../DownloadContainer"
 
-describe('DownloadContainer', () => {
-  it('renders correctly', () => {
+describe("DownloadContainer", () => {
+  it("renders correctly", () => {
     const mockProps = {
       children: [],
     }

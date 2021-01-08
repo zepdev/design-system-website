@@ -15,7 +15,7 @@ Object {
             class="makeStyles-homeLink-11"
           >
             <a
-              class="makeStyles-button-4 zep-typo--normal-body1 zep-button--full"
+              class="makeStyles-button-4 zep-typo--body-default zep-button--full"
               href="/"
             >
               Home
@@ -25,7 +25,7 @@ Object {
             class=""
           >
             <button
-              class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+              class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
             >
               Getting started
               <svg
@@ -52,7 +52,7 @@ Object {
             class=""
           >
             <button
-              class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+              class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
             >
               Guidelines
               <svg
@@ -79,7 +79,7 @@ Object {
             class=""
           >
             <button
-              class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+              class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
             >
               Elements
               <svg
@@ -106,7 +106,7 @@ Object {
             class=""
           >
             <button
-              class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+              class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
             >
               zel-react
               <svg
@@ -133,7 +133,7 @@ Object {
             class=""
           >
             <button
-              class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+              class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
             >
               zel-react-icons
               <svg
@@ -160,7 +160,7 @@ Object {
             class=""
           >
             <button
-              class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+              class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
             >
               zel-vue
               <svg
@@ -187,7 +187,7 @@ Object {
             class=""
           >
             <button
-              class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+              class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
             >
               zel-vue-icons
               <svg
@@ -214,7 +214,7 @@ Object {
             class=""
           >
             <button
-              class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+              class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
             >
               Changelog
               <svg
@@ -241,7 +241,7 @@ Object {
             class=""
           >
             <a
-              class="makeStyles-button-4 zep-typo--normal-body1 zep-button--full"
+              class="makeStyles-button-4 zep-typo--body-default zep-button--full"
               href="/content/download/"
             >
               Download
@@ -252,9 +252,9 @@ Object {
           >
             <a
               alt="v0"
-              class="makeStyles-button-4 zep-typo--normal-body1 zep-button--full"
+              class="makeStyles-button-4 zep-typo--body-default zep-button--full"
               href="https://v0-zds.zepdev.net/"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
               target="_blank"
             >
               v0
@@ -275,7 +275,7 @@ Object {
           class="makeStyles-homeLink-11"
         >
           <a
-            class="makeStyles-button-4 zep-typo--normal-body1 zep-button--full"
+            class="makeStyles-button-4 zep-typo--body-default zep-button--full"
             href="/"
           >
             Home
@@ -285,7 +285,7 @@ Object {
           class=""
         >
           <button
-            class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+            class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
           >
             Getting started
             <svg
@@ -312,7 +312,7 @@ Object {
           class=""
         >
           <button
-            class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+            class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
           >
             Guidelines
             <svg
@@ -339,7 +339,7 @@ Object {
           class=""
         >
           <button
-            class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+            class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
           >
             Elements
             <svg
@@ -366,7 +366,7 @@ Object {
           class=""
         >
           <button
-            class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+            class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
           >
             zel-react
             <svg
@@ -393,7 +393,7 @@ Object {
           class=""
         >
           <button
-            class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+            class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
           >
             zel-react-icons
             <svg
@@ -420,7 +420,7 @@ Object {
           class=""
         >
           <button
-            class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+            class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
           >
             zel-vue
             <svg
@@ -447,7 +447,7 @@ Object {
           class=""
         >
           <button
-            class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+            class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
           >
             zel-vue-icons
             <svg
@@ -474,7 +474,7 @@ Object {
           class=""
         >
           <button
-            class="makeStyles-button-4 zep-typo--normal-body1 makeStyles-button-12"
+            class="makeStyles-button-4 zep-typo--body-default makeStyles-button-12"
           >
             Changelog
             <svg
@@ -501,7 +501,7 @@ Object {
           class=""
         >
           <a
-            class="makeStyles-button-4 zep-typo--normal-body1 zep-button--full"
+            class="makeStyles-button-4 zep-typo--body-default zep-button--full"
             href="/content/download/"
           >
             Download
@@ -512,9 +512,9 @@ Object {
         >
           <a
             alt="v0"
-            class="makeStyles-button-4 zep-typo--normal-body1 zep-button--full"
+            class="makeStyles-button-4 zep-typo--body-default zep-button--full"
             href="https://v0-zds.zepdev.net/"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             v0

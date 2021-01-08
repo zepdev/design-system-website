@@ -1,12 +1,12 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import ButtonBase from '../ButtonBase'
+import React from "react"
+import { render } from "../../../../test-utils"
+import ButtonBase from "../ButtonBase"
 
-describe('ButtonBase', () => {
-  it('renders correctly', () => {
+describe("ButtonBase", () => {
+  it("renders correctly", () => {
     const mockProps = {
       onClick: jest.fn(() => {}),
-      children: 'buttonText',
+      children: "buttonText",
       classes: {},
     }
     const component = render(<ButtonBase {...mockProps} />)

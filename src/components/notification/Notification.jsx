@@ -1,9 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
+import React from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
 
 const Notification = ({ className: classNameProp, children }) => {
-  return <div className={clsx('zep-notification', classNameProp)}>{children}</div>
+  return (
+    <div className={clsx("zep-notification", classNameProp)}>{children}</div>
+  )
 }
 
 Notification.propTypes = {

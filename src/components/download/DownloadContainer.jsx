@@ -1,15 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { makeStyles } from '@material-ui/core/styles'
+import React from "react"
+import PropTypes from "prop-types"
+import { makeStyles } from "@material-ui/core/styles"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
-    [theme.breakpoints.up('l')]: {
-      flexWrap: 'nowrap',
-      justifyContent: 'flex-start',
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    [theme.breakpoints.up("l")]: {
+      flexWrap: "nowrap",
+      justifyContent: "flex-start",
     },
   },
 }))

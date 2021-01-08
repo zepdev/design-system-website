@@ -16,17 +16,17 @@ const fs = require(`fs`)
 exports.onPreInit = () => {
   request
     .get(
-      'https://raw.githubusercontent.com/zepdev/zeppelin-element-library/main/CHANGELOG.md'
+      "https://raw.githubusercontent.com/zepdev/zeppelin-element-library/main/CHANGELOG.md"
     )
-    .on('error', function(err) {
+    .on("error", function (err) {
       console.log(err)
     })
-    .pipe(fs.createWriteStream('src/content/changelog/changelog.md'))
+    .pipe(fs.createWriteStream("src/content/changelog/changelog.md"))
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === 'Mdx') {
+  if (node.internal.type === "Mdx") {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
     createNodeField({
       node,

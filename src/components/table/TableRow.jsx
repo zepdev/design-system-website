@@ -1,13 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import clsx from 'clsx'
+import React from "react"
+import PropTypes from "prop-types"
+import clsx from "clsx"
 
 function TableRow({ children, color, className: classNameProp }) {
   const className = clsx(
-    'zep-table__row',
+    "zep-table__row",
     {
-      'zep-table__row--white': color === 'white',
-      'zep-table__row--gray': color === 'gray',
+      "zep-table__row--white": color === "white",
+      "zep-table__row--gray": color === "gray",
     },
     classNameProp
   )
@@ -16,12 +16,16 @@ function TableRow({ children, color, className: classNameProp }) {
 }
 
 TableRow.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
-  color: PropTypes.oneOf(['white', 'gray']),
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.array,
+    PropTypes.object,
+  ]),
+  color: PropTypes.oneOf(["white", "gray"]),
 }
 
 TableRow.defaultProps = {
-  color: 'white',
+  color: "white",
 }
 
 export default TableRow

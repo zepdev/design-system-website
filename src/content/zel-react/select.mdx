@@ -10,12 +10,94 @@ import TableBody from '@zlab-de/zel-react/TableBody'
 import TableRow from '@zlab-de/zel-react/TableRow'
 import Select from '@zlab-de/zel-react/Select'
 import SelectExample from '../../components/select/SelectExample'
+import SelectExampleMui from '../../components/select/SelectExampleMui'
+
 
 # Select
 
 Select is a type of input users use to select one item from a list of values. In some cases the user can select multiple attributes. The selected item is always visible when the select box is closed.
 
----
+
+## It is recommended to use the MUI input component and apply ZEL styles. 
+
+## MUI Example (pure zel-react component below)
+
+<div style={{ marginBottom: 30 }}>
+  <SelectExampleMui />
+</div>
+
+```jsx
+import React, { useState } from 'react'
+import Select from '@material-ui/core/Select'
+import MenuItem from '@material-ui/core/MenuItem'
+
+function SelectExampleMui() {
+  const [value, setValue] = useState('value 1')
+  
+  return (
+    <div>
+      <Select
+        labelId="demo-mui-example"
+        id="mui-example"
+        value={value}
+        variant="outlined"
+        style={{ width: 300, borderRadius: 0 }}
+        onChange={e => setValue(e.target.value)}
+      >
+        {['value 1', 'value 2', 'value 3'].map(elem => (
+          <MenuItem value={elem}>{elem}</MenuItem>
+        ))}
+      </Select>
+      <p style={{ padding: 30 }}>You Selected: {value}</p>
+    </div>
+  )
+}
+
+export default SelectExampleMui
+```
+
+
+## Pure zel-react Example
+
+
+
+<div style={{ marginBottom: 30 }}>
+  <SelectExample />
+</div>
+
+```
+import React, { useState } from 'react'
+import Select from '@zlab-de/zel-react/Select'
+
+function MyComponent() {
+  const [value, setValue] = useState({ value: 'value 1' })
+  const searchItems = [{ value: 'value 1' }, { value: 'value 2' }, { value: 'value 3' }]
+
+  return (
+    <div>
+      <Select
+        onChange={selection => setValue(selection)}
+        items={searchItems}
+        placeholder="Select one"
+        label="Label"
+        selectedItem={value}
+      />
+      <p style={{ padding: 30 }}>You Selected: {value.value}</p>
+    </div>
+  )
+}
+
+export default MyComponent
+```
+
+Please note that to modify the width or z-index of the Select component, you will need to pass these css modifications to an outer div.  
+
+```
+<div style={{ width: 200, zIndex: 1000 }}>
+  <SelectExample />
+</div>
+```
+
 
 ## Available Props
 
@@ -77,42 +159,3 @@ Select is a type of input users use to select one item from a list of values. In
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <SelectExample />
-</div>
-
-```
-import React, { useState } from 'react'
-import Select from '@zlab-de/zel-react/Select'
-
-function MyComponent() {
-  const [value, setValue] = useState({ value: 'value 1' })
-  const searchItems = [{ value: 'value 1' }, { value: 'value 2' }, { value: 'value 3' }]
-
-  return (
-    <div>
-      <Select
-        onChange={selection => setValue(selection)}
-        items={searchItems}
-        placeholder="Select one"
-        label="Label"
-        selectedItem={value}
-      />
-      <p style={{ padding: 30 }}>You Selected: {value.value}</p>
-    </div>
-  )
-}
-
-export default MyComponent
-```
-
-Please note that to modify the width or z-index of the Select component, you will need to pass these css modifications to an outer div.  
-
-```
-<div style={{ width: 200, zIndex: 1000 }}>
-  <SelectExample />
-</div>
-```

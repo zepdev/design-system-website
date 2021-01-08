@@ -1,10 +1,11 @@
-import { createMuiTheme } from '@material-ui/core/styles'
-import guidelines from '@zlab-de/zel-react/guidelines.json'
-import '../zel.css'
+import { createMuiTheme } from "@material-ui/core/styles"
+import guidelines from "@zlab-de/zel-react/guidelines.json"
+import "zeppelin-element-library/zel.css"
+import "./baseline.css"
 
 const theme = createMuiTheme({
   palette: {
-    type: 'light',
+    type: "light",
     primary: {
       light: guidelines.theme.indigo.secondary,
       main: guidelines.theme.indigo.primary,
@@ -13,7 +14,7 @@ const theme = createMuiTheme({
     error: { main: guidelines.color.support.alert },
   },
   status: {
-    gray: '#eceeef',
+    gray: "#eceeef",
   },
   logo: guidelines.logo,
   blue: guidelines.theme.blue,

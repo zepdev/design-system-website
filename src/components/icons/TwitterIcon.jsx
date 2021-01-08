@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
 const TwitterIcon = ({ className, width, height, fill, viewBox }) => (
   <svg
@@ -27,10 +27,10 @@ TwitterIcon.propTypes = {
 }
 
 TwitterIcon.defaultProps = {
-  width: '32',
-  height: '32',
-  viewBox: '0 0 24 24',
-  fill: 'currentColor',
+  width: "32",
+  height: "32",
+  viewBox: "0 0 24 24",
+  fill: "currentColor",
 }
 
 export default TwitterIcon

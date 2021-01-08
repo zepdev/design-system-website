@@ -1,12 +1,12 @@
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
+import React from "react"
+import { makeStyles } from "@material-ui/core/styles"
 
 const useStyles = makeStyles(theme => ({
   hr: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
-    borderTop: 'none',
-    borderLeft: 'none',
-    borderRight: 'none',
+    marginBottom: `${theme.space.xxl.rem}rem`,
+    borderTop: "none",
+    borderLeft: "none",
+    borderRight: "none",
     marginTop: 0,
   },
 }))

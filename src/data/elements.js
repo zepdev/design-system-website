@@ -5,25 +5,25 @@ module.exports = {
     demo: {
       primary: {
         js: [
-          '<button class="zep-button zep-button-primary">Default</button>',
-          '<button class="zep-button zep-button-primary zep-button--medium">Medium</button>',
-          '<button class="zep-button zep-button-primary zep-button--small">Small</button>',
-          '<button class="zep-button zep-button-primary" disabled>Disabled</button>',
-          '<button class="zep-button zep-button-primary zep-button-icon"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg></button>',
+          '<button class="zep-button zep-button--primary">Default</button>',
+          '<button class="zep-button zep-button--primary zep-button--medium">Medium</button>',
+          '<button class="zep-button zep-button--primary zep-button--small">Small</button>',
+          '<button class="zep-button zep-button--primary" disabled>Disabled</button>',
+          '<button class="zep-button zep-button--primary zep-button--icon"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="zep-button__icon"><title>Icon/Essential/Add</title><path d="M12 2c.31 0 .57.23.62.53v8.84h8.76a.62.62 0 01.09 1.25h-8.85v8.76a.62.62 0 01-1.24.09v-8.85H2.62a.62.62 0 01-.09-1.24h8.85V2.61c0-.34.27-.62.62-.62z" fill="currentColor" fill-rule="evenodd"/></svg></button>',
         ],
       },
       secondary: {
         js: [
-          '<button class="zep-button zep-button-secondary">Default</button>',
-          '<button class="zep-button zep-button-secondary zep-button--medium">Medium</button>',
-          '<button class="zep-button zep-button-secondary zep-button--small">Small</button>',
-          '<button class="zep-button zep-button-secondary" disabled>Disabled</button>',
-          '<button class="zep-button zep-button-secondary zep-button-icon"><svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title_copy" class="zep-button__icon"><title id="title_copy">Copy</title><path fill="currentColor" d="M20,21 L9,21 L9,7 L20,7 L20,21 Z M20,5 L9,5 C7.8954305,5 7,5.8954305 7,7 L7,21 C7,22.1045695 7.8954305,23 9,23 L20,23 C21.1045695,23 22,22.1045695 22,21 L22,7 C22,5.8954305 21.1045695,5 20,5 L20,5 Z M17,1 L5,1 C3.8954305,1 3,1.8954305 3,3 L3,17 L5,17 L5,3 L17,3 L17,1 Z"></path></svg></button>',
+          '<button class="zep-button zep-button--secondary">Default</button>',
+          '<button class="zep-button zep-button--secondary zep-button--medium">Medium</button>',
+          '<button class="zep-button zep-button--secondary zep-button--small">Small</button>',
+          '<button class="zep-button zep-button--secondary" disabled>Disabled</button>',
+          '<button class="zep-button zep-button--secondary zep-button--icon"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="zep-button__icon"><title>Icon/Essential/Add</title><path d="M12 2c.31 0 .57.23.62.53v8.84h8.76a.62.62 0 01.09 1.25h-8.85v8.76a.62.62 0 01-1.24.09v-8.85H2.62a.62.62 0 01-.09-1.24h8.85V2.61c0-.34.27-.62.62-.62z" fill="currentColor" fill-rule="evenodd"/></svg></button>',
         ],
       },
       other: {
         js: [
-          '<button class="zep-button zep-button-primary zep-button--full">Full Width</button>',
+          '<button class="zep-button zep-button--primary zep-button--full">Full Width</button>',
         ],
       },
     },
@@ -67,32 +67,32 @@ module.exports = {
       default: {
         js: [
           `<div class="zep-pagination">
-          <button class="zep-button zep-button-icon" disabled>
-            <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-previous-page</title><path d="M23.213 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8 1.88-1.893zM10.667 8h-2.667v16h2.667v-16z"></path></svg>
+          <button class="zep-button zep-button--icon" disabled>
+            <svg class="zep-button__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Arrow/Chevron/Left</title><path d="M9.26 12c0-.21.07-.42.2-.59l.08-.09 4.14-4.14a.62.62 0 01.95.8l-.07.09L10.63 12l3.93 3.93c.22.22.24.56.07.8l-.07.09a.63.63 0 01-.8.07l-.08-.07-4.14-4.14a.96.96 0 01-.28-.68z" fill="currentColor" fill-rule="evenodd"/></svg>
           </button>
-          <button class="zep-button zep-button-icon" disabled>
-            <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-chevron-left</title><path d="M20.547 22.107l-6.107-6.107 6.107-6.12-1.88-1.88-8 8 8 8z"></path></svg>
+          <button class="zep-button zep-button--icon" disabled>
+          <svg class="zep-button__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Arrow/Chevron/Left</title><path d="M9.26 12c0-.21.07-.42.2-.59l.08-.09 4.14-4.14a.62.62 0 01.95.8l-.07.09L10.63 12l3.93 3.93c.22.22.24.56.07.8l-.07.09a.63.63 0 01-.8.07l-.08-.07-4.14-4.14a.96.96 0 01-.28-.68z" fill="currentColor" fill-rule="evenodd"/></svg>
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination zep-button--selected" >
             1
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination" >
             2
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination" >
             3
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination" >
             4
           </button>
-          <button class="zep-button zep-button-pagination" >
+          <button class="zep-button zep-button--pagination" >
             5
           </button>
-          <button class="zep-button zep-button-icon">
-            <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-chevron-right</title><path d="M11.453 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8z"></path></svg>
+          <button class="zep-button zep-button--icon">
+            <svg class="zep-button__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Arrow/Chevron/Right</title><path d="M14.74 12c0 .21-.07.42-.2.59l-.08.09-4.14 4.14a.62.62 0 01-.95-.8l.07-.09L13.37 12 9.44 8.07a.63.63 0 01-.07-.8l.07-.09a.63.63 0 01.8-.07l.08.07 4.14 4.14c.18.18.28.42.28.68z" fill="currentColor" fill-rule="evenodd"/></svg>
           </button>
-          <button class="zep-button zep-button-icon">
-            <svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-next-page</title><path d="M8 22.107l6.107-6.107-6.107-6.12 1.88-1.88 8 8-8 8-1.88-1.893zM20.547 8h2.667v16h-2.667v-16z"></path></svg>
+          <button class="zep-button zep-button--icon">
+          <svg class="zep-button__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Arrow/Chevron/Right</title><path d="M14.74 12c0 .21-.07.42-.2.59l-.08.09-4.14 4.14a.62.62 0 01-.95-.8l.07-.09L13.37 12 9.44 8.07a.63.63 0 01-.07-.8l.07-.09a.63.63 0 01.8-.07l.08.07 4.14 4.14c.18.18.28.42.28.68z" fill="currentColor" fill-rule="evenodd"/></svg>
           </button>
 </div>`,
         ],
@@ -140,7 +140,7 @@ module.exports = {
                 <div id="exp_wrapper">
                   <button aria-haspopup="listbox" aria-labelledby="exp_elem exp_button" id="exp_button" class="zep-select__button" >
                     Select One
-                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="zep-select__icon"><title>zepicons-navigation-dropdown</title><path fill="currentColor" d="M9.333 18.667h13.333l-6.667 6.667-6.667-6.667zM22.667 13.333h-13.333l6.667-6.667 6.667 6.667z"></path></svg>
+                    <svg class="zep-select__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Arrow/Down</title><path d="M2.18 7.5a.63.63 0 01.8-.07l.09.07L12 16.43l8.93-8.93a.63.63 0 01.8-.07l.09.07c.21.22.24.55.07.8l-.07.08-8.94 8.94a1.25 1.25 0 01-1.66.1l-.1-.1-8.94-8.94a.62.62 0 010-.88z" fill="currentColor" fill-rule="evenodd"/></svg>
                   </button>
                   <ul id="exp_elem_list" tabIndex="-1" role="listbox" aria-labelledby="exp_elem" class="zep-select__list"
                     //class="zep-visually-hidden"
@@ -163,7 +163,7 @@ module.exports = {
         js: [
           `<div class="zep-tabs" role="tablist" aria-label="Tabs Default">
           <div class="zep-tabs__item">
-            <button class="zep-tab" role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex="0">
+            <button class="zep-tab zep-tab--selected" role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex="0">
               Tab 1
             </button>
           </div>
@@ -196,13 +196,13 @@ module.exports = {
           `<div class="zep-tabs" role="tablist" aria-label="Tabs Default">
           <div class="zep-tabs__item">
             <button class="zep-tab zep-tab--small" role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabIndex="0">
-            <svg class="zep-tab__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-calendar-range</title><path fill="currentColor" d="M12 14.667h-2.667v2.667h2.667v-2.667zM17.333 14.667h-2.667v2.667h2.667v-2.667zM22.667 14.667h-2.667v2.667h2.667v-2.667zM25.333 5.333h-1.333v-2.667h-2.667v2.667h-10.667v-2.667h-2.667v2.667h-1.333c-1.48 0-2.667 1.2-2.667 2.667v18.667c0 1.473 1.194 2.667 2.667 2.667h18.667c1.473 0 2.667-1.194 2.667-2.667v-18.667c0-1.473-1.194-2.667-2.667-2.667v0zM25.333 26.667h-18.667v-14.667h18.667v14.667z"></path></svg>
+            <svg class="zep-tab__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Essential/Info</title><path d="M12 2a10 10 0 110 20 10 10 0 010-20zm0 1.25a8.75 8.75 0 100 17.5 8.75 8.75 0 000-17.5zm-.63 6.88c.65 0 1.18.49 1.25 1.12v3.25c0 .31.24.57.54.62h.72a.62.62 0 01.09 1.25h-.72c-.99 0-1.8-.76-1.87-1.72v-3.28h-.63a.62.62 0 01-.1-1.24h.73zM11.7 7h.1a.94.94 0 11-.21 0h.1z" fill="currentColor" fill-rule="evenodd"/></svg>
               Tab 1
             </button>
           </div>
           <div class="zep-tabs__item">
             <button class="zep-tab zep-tab--small" role="tab" aria-selected="false" aria-controls="panel-2" id="tab-2" tabIndex="-1">
-            <svg class="zep-tab__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-calendar-range</title><path fill="currentColor" d="M12 14.667h-2.667v2.667h2.667v-2.667zM17.333 14.667h-2.667v2.667h2.667v-2.667zM22.667 14.667h-2.667v2.667h2.667v-2.667zM25.333 5.333h-1.333v-2.667h-2.667v2.667h-10.667v-2.667h-2.667v2.667h-1.333c-1.48 0-2.667 1.2-2.667 2.667v18.667c0 1.473 1.194 2.667 2.667 2.667h18.667c1.473 0 2.667-1.194 2.667-2.667v-18.667c0-1.473-1.194-2.667-2.667-2.667v0zM25.333 26.667h-18.667v-14.667h18.667v14.667z"></path></svg>
+            <svg class="zep-tab__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Essential/Info</title><path d="M12 2a10 10 0 110 20 10 10 0 010-20zm0 1.25a8.75 8.75 0 100 17.5 8.75 8.75 0 000-17.5zm-.63 6.88c.65 0 1.18.49 1.25 1.12v3.25c0 .31.24.57.54.62h.72a.62.62 0 01.09 1.25h-.72c-.99 0-1.8-.76-1.87-1.72v-3.28h-.63a.62.62 0 01-.1-1.24h.73zM11.7 7h.1a.94.94 0 11-.21 0h.1z" fill="currentColor" fill-rule="evenodd"/></svg>
               Tab 2
             </button>
           </div>
@@ -218,13 +218,13 @@ module.exports = {
           `<div class="zep-search" style="width: 100%;">
           <input type="text" class="zep-search__input zep-search__input--rounded-left" placeholder="Search" id="searchbar"
           />
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="zep-search__icon"><title>zepicons-search</title><path fill="currentColor" d="M12.667 4c4.786 0 8.667 3.88 8.667 8.667 0 2.147-0.787 4.12-2.080 5.64l0.36 0.36h1.053l6.667 6.667-2 2-6.667-6.667v-1.053l-0.36-0.36c-1.52 1.293-3.493 2.080-5.64 2.080-4.786 0-8.667-3.88-8.667-8.667s3.88-8.667 8.667-8.667v0zM12.667 6.667c-3.333 0-6 2.667-6 6s2.667 6 6 6c3.333 0 6-2.667 6-6s-2.667-6-6-6z"></path></svg>
+          <svg class="zep-search__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Essential/Search</title><path d="M12.17 3.06A8.18 8.18 0 0117.4 16.5l5.43 5.43a.63.63 0 01-.8.96l-.09-.07-5.43-5.43a8.17 8.17 0 11-4.33-14.33zM5.64 7.01a6.93 6.93 0 1011.07 8.33A6.93 6.93 0 005.64 7.01z" fill="currentColor" fill-rule="evenodd"/></svg>
           <label class="zep-visually-hidden" htmlFor="searchbar"> Search </label>
 </div>`,
           `<div class="zep-search" style="width: 100%;">
           <input type="text" class="zep-search__input zep-search__input--searchfield" placeholder="Search" id="searchbar"
           />
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="zep-search__icon"><title>zepicons-search</title><path fill="currentColor" d="M12.667 4c4.786 0 8.667 3.88 8.667 8.667 0 2.147-0.787 4.12-2.080 5.64l0.36 0.36h1.053l6.667 6.667-2 2-6.667-6.667v-1.053l-0.36-0.36c-1.52 1.293-3.493 2.080-5.64 2.080-4.786 0-8.667-3.88-8.667-8.667s3.88-8.667 8.667-8.667v0zM12.667 6.667c-3.333 0-6 2.667-6 6s2.667 6 6 6c3.333 0 6-2.667 6-6s-2.667-6-6-6z"></path></svg>
+          <svg class="zep-search__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Essential/Search</title><path d="M12.17 3.06A8.18 8.18 0 0117.4 16.5l5.43 5.43a.63.63 0 01-.8.96l-.09-.07-5.43-5.43a8.17 8.17 0 11-4.33-14.33zM5.64 7.01a6.93 6.93 0 1011.07 8.33A6.93 6.93 0 005.64 7.01z" fill="currentColor" fill-rule="evenodd"/></svg>
           <label class="zep-visually-hidden" htmlFor="searchbar"> Search </label>
 </div>`,
         ],
@@ -236,9 +236,13 @@ module.exports = {
       default: {
         js: [
           `<div class="zep-numberinput" data-zep-type="number-input" data-zep-step="1" data-zep-max="10" data-zep-min="0">
-          <button class="zep-button zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-minus</title><path fill="currentColor" d="M25.333 17.333h-18.667v-2.667h18.667z"></path></svg></button>
+          <button class="zep-button zep-button--icon">
+          <svg class="zep-button__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Essential/Subtract</title><path d="M21.38 11.38a.62.62 0 01.09 1.24H2.62a.62.62 0 01-.09-1.24h18.85z" fill="currentColor" fill-rule="evenodd"/></svg>
+          </button>
           <label for="counter" class="zep-visually-hidden">Counter</label><input type="text" class="zep-input zep-input--number" value="1" id="counter" />
-          <button class="zep-button zep-button-icon"><svg class="zep-button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>zepicons-plus</title><path fill="currentColor" d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"></path></svg></button>
+          <button class="zep-button zep-button--icon">
+          <svg class="zep-button__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Essential/Add</title><path d="M12 2c.31 0 .57.23.62.53v8.84h8.76a.62.62 0 01.09 1.25h-8.85v8.76a.62.62 0 01-1.24.09v-8.85H2.62a.62.62 0 01-.09-1.24h8.85V2.61c0-.34.27-.62.62-.62z" fill="currentColor" fill-rule="evenodd"/></svg>
+          </button>
 </div>`,
         ],
       },
@@ -248,12 +252,50 @@ module.exports = {
     demo: {
       default: {
         js: [
-          `<div>
-          <div class="zep-radio">
-          <input type="radio" id="radio1" name="radio" />
-          <label htmlFor="radio1">Radio</label>
+          `<div className="zep-radio">
+          <input
+            className="zep-radio__input"
+            type="radio"
+            id="zep-radio-1"
+            name="radio"
+          />
+          <label className="zep-radio__label" htmlFor="zep-radio-1">
+            zep-radio block element
+          </label>
         </div>
-      </div>`,
+        <div className="zep-radio">
+          <input
+            className="zep-radio__input"
+            type="radio"
+            id="zep-radio-11"
+            name="radio"
+          />
+          <label className="zep-radio__label" htmlFor="zep-radio-11">
+            zep-radio block element
+          </label>
+        </div>`,
+          `<div className="zep-radio zep-radio--inline">
+          <input
+            className="zep-radio__input"
+            type="radio"
+            id="zep-radio-2"
+            name="radio"
+          />
+          <label className="zep-radio__label" htmlFor="zep-radio-2">
+            zep-radio inline element
+          </label>
+        </div>
+        <div className="zep-radio zep-radio--inline">
+          <input
+            className="zep-radio__input"
+            type="radio"
+            id="zep-radio-3"
+            name="radio"
+          />
+          <label className="zep-radio__label" htmlFor="zep-radio-3">
+            zep-radio inline element 2
+          </label>
+        </div>`,
         ],
       },
     },
@@ -295,7 +337,8 @@ module.exports = {
       default: {
         js: [
           `<span class="zep-tag">Tag<button class="zep-tag__button"><svg class="zep-tag__icon" version="1.1" xmlns="http://www.w3.org/2000/
-          <svg" width="24" height="24" viewBox="0 0 24 24"><title>zepicons-close</title><path fill="currentColor" d="M25.333 8.547l-1.88-1.88-7.453 7.453-7.453-7.453-1.88 1.88 7.453 7.453-7.453 7.453 1.88 1.88 7.453-7.453 7.453 7.453 1.88-1.88-7.453-7.453z"></path></svg></button>
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Icon/Essential/Close Mini</title><path d="M7.98 7.11l.09.07L12 11.12l3.93-3.94a.62.62 0 01.96.8l-.07.09L12.88 12l3.94 3.93a.62.62 0 01-.8.96l-.09-.07L12 12.88l-3.93 3.94a.62.62 0 01-.96-.8l.07-.09L11.12 12 7.18 8.07a.63.63 0 01.8-.96z" fill="currentColor" fill-rule="evenodd"/></svg>
+          </button>
 </span>`,
         ],
       },
@@ -351,103 +394,115 @@ module.exports = {
     },
   },
   iconography: {
-    action: [
-      'list-plus',
-      'print',
-      'minus',
-      'timer',
-      'users',
-      'unfold',
-      'bookmark',
-      'upload',
-      'filter',
-      'sort',
-      'share',
-      'view-grid',
-      'phone',
-      'clock',
-      'delete',
-      'image-album',
-      'edit',
-      'star',
-      'contacts',
-      'attachment',
-      'camera',
-      'chat',
-      'solutions',
-      'contact-mail',
-      'image',
-      'compare',
-      'hide',
-      'reload',
-      'copy',
-      'close',
-      'email',
-      'calendar-range',
-      'global',
-      'check',
-      'plus',
-      'direction',
-      'flag',
-      'bell',
-      'dots-vertical',
-      'add-solution',
-      'add-cart',
-      'expand',
-      'download',
-      'cart',
-      'settings',
-      'map-marker',
-      'link',
-      'dots-horizontal',
-      'user-edit',
-      'average',
-      'file-document',
-      'file',
-      'map',
-      'headset',
-      'show',
-      'zoom-in',
-      'briefcase',
-      'logout',
-      'account',
-      'user',
-      'open-in-new',
-      'crosshair',
-      'zoom-out',
-      'search',
-      'calendar-clock',
+    arrowChevron: [
+      "zep-icon-arrow-chevron-down",
+      "zep-icon-arrow-chevron-left",
+      "zep-icon-arrow-chevron-right",
+      "zep-icon-arrow-chevron-up",
     ],
-    ps: ['ps-ps', 'ps-service', 'ps-used'],
-    cat: ['cat-new', 'cat-service', 'cat-used'],
-    systems: [
-      'systems-products',
-      'systems-aviation',
-      'systems-systems',
-      'systems-service',
+    arrow: [
+      "zep-icon-arrow-down",
+      "zep-icon-arrow-left",
+      "zep-icon-arrow-right",
+      "zep-icon-arrow-up",
     ],
-    rental: ['rental-infrastructure', 'rental-logistics', 'rental-rent'],
-    navigation: [
-      'chevron-down',
-      'menu',
-      'previous-page',
-      'chevron-up',
-      'next-page',
-      'chevron-right',
-      'chevron-left',
-      'home',
+    communication: [
+      "zep-icon-communication-email",
+      "zep-icon-communication-phone",
     ],
-    indicator: ['help', 'info', 'warning'],
-    language: ['br', 'gb', 'ger', 'in', 'it', 'ru', 'sa', 'sg'],
+    ecom: ["zep-icon-ecom-cart", "zep-icon-ecom-offer"],
+    essential: [
+      "zep-icon-essential-add",
+      "zep-icon-essential-avatar",
+      "zep-icon-essential-check",
+      "zep-icon-essential-check-small",
+      "zep-icon-essential-close",
+      "zep-icon-essential-close-mini",
+      "zep-icon-essential-delete",
+      "zep-icon-essential-download",
+      "zep-icon-essential-edit",
+      "zep-icon-essential-expand",
+      "zep-icon-essential-filter-1",
+      "zep-icon-essential-filter-2",
+      "zep-icon-essential-info",
+      "zep-icon-essential-loading-spinner",
+      "zep-icon-essential-login",
+      "zep-icon-essential-logout",
+      "zep-icon-essential-menu",
+      "zep-icon-essential-mobile-phone",
+      "zep-icon-essential-print",
+      "zep-icon-essential-remove",
+      "zep-icon-essential-search",
+      "zep-icon-essential-settings",
+      "zep-icon-essential-shrink",
+      "zep-icon-essential-sort",
+      "zep-icon-essential-vertical-menu",
+      "zep-icon-essential-vertical-menu-filled",
+      "zep-icon-essential-view",
+      "zep-icon-essential-world",
+    ],
+    location: [
+      "zep-icon-location-dot",
+      "zep-icon-location-dot-yellow",
+      "zep-icon-location-dot-indigo",
+      "zep-icon-location-dot-red",
+      "zep-icon-location-gps",
+      "zep-icon-location-gps-active",
+      "zep-icon-location-pin",
+      "zep-icon-location-pin-yellow",
+      "zep-icon-location-pin-indigo",
+      "zep-icon-location-pin-red",
+    ],
+    media: [
+      "zep-icon-media-pause",
+      "zep-icon-media-pause-filled",
+      "zep-icon-media-play",
+      "zep-icon-media-play-filled",
+      "zep-icon-media-stop",
+      "zep-icon-media-stop-filled",
+    ],
+    sbuNew: [
+      "zep-icon-sbu-new-aviation-1",
+      "zep-icon-sbu-new-aviation-2",
+      "zep-icon-sbu-new-systems",
+      "zep-icon-sbu-new-zbm",
+      "zep-icon-sbu-new-zps",
+      "zep-icon-sbu-new-zrd",
+    ],
+    sbuSystems: [
+      "zep-icon-sbu-systems-aviation",
+      "zep-icon-sbu-systems-aviation-badge",
+      "zep-icon-sbu-systems-default-1",
+      "zep-icon-sbu-systems-default-2",
+      "zep-icon-sbu-systems-products",
+      "zep-icon-sbu-systems-service",
+    ],
+    sbuZBM: [
+      "zep-icon-sbu-zbm-default",
+      "zep-icon-sbu-zbm-excavator",
+      "zep-icon-sbu-zbm-service",
+      "zep-icon-sbu-zbm-used",
+    ],
+    sbuZPS: [
+      "zep-icon-sbu-zps-default",
+      "zep-icon-sbu-zps-service",
+      "zep-icon-sbu-zps-used",
+    ],
+    sbuZRD: [
+      "zep-icon-sbu-zrd-default",
+      "zep-icon-sbu-zrd-infrastructure",
+      "zep-icon-sbu-zrd-logistics",
+      "zep-icon-sbu-zrd-rental",
+    ],
     social: [
-      'twitter',
-      'linkedin',
-      'youtube',
-      'xing',
-      'facebook',
-      'googleplus',
-      'kununu',
-      'instagram',
+      "zep-icon-social-facebook",
+      "zep-icon-social-instagram",
+      "zep-icon-social-kununu",
+      "zep-icon-social-linkedin",
+      "zep-icon-social-twitter",
+      "zep-icon-social-youtube",
+      "zep-icon-social-xing",
+      "zep-icon-social-whatsapp",
     ],
   },
 }

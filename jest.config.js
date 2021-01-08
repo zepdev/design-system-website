@@ -1,19 +1,24 @@
 module.exports = {
   transform: {
-    '^.+\\.jsx?$': `<rootDir>/jest-preprocess.js`,
+    "^.+\\.jsx?$": `<rootDir>/jest-preprocess.js`,
   },
   moduleNameMapper: {
-    '.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
-    '.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
-      '<rootDir>/__mocks__/fileMock.js',
+    ".+\\.(css|styl|less|sass|scss)$": `identity-obj-proxy`,
+    "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
+      "<rootDir>/__mocks__/fileMock.js",
   },
-  testPathIgnorePatterns: ['node_modules', '.cache', 'cypress'],
-  transformIgnorePatterns: ['node_modules/(?!(gatsby|gatsby-plugin-mdx)/)'],
+  testPathIgnorePatterns: [
+    `<rootDir>/node_modules/`,
+    `\\.cache`,
+    `<rootDir>.*/public`,
+    `<rootDir>/cypress`,
+  ],
+  transformIgnorePatterns: [
+    `<rootDir>/node_modules/(?!(gatsby|@zlab-de/zel-react-icons|gatsby-plugin-mdx|@babel/runtime)/)`,
+  ],
   globals: {
-    __PATH_PREFIX__: '',
+    __PATH_PREFIX__: ``,
   },
-  testURL: 'http://localhost',
-  setupFiles: ['<rootDir>/loadershim.js'],
-  setupFilesAfterEnv: ['<rootDir>/setup-test-env.js'],
-  snapshotSerializers: ['jss-snapshot-serializer'],
+  testURL: `http://localhost`,
+  setupFiles: [`<rootDir>/loadershim.js`],
 }

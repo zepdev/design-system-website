@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import Select from '@zlab-de/zel-react/Select'
+import React, { useState } from "react"
+import Select from "@zlab-de/zel-react/Select"
 
 function SelectExample() {
-  const [value, setValue] = useState({ value: 'value 1' })
+  const [value, setValue] = useState({ value: "value 1" })
   const searchItems = [
-    { value: 'value 1' },
-    { value: 'value 2' },
-    { value: 'value 3' },
+    { value: "value 1" },
+    { value: "value 2" },
+    { value: "value 3" },
   ]
 
   return (

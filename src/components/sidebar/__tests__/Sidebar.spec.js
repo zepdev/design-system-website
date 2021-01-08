@@ -1,9 +1,9 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import Sidebar from '../Sidebar'
+import React from "react"
+import { render } from "../../../../test-utils"
+import Sidebar from "../Sidebar"
 
-describe('Sidebar', () => {
-  it('renders correctly', () => {
+describe("Sidebar", () => {
+  it("renders correctly", () => {
     const mockProps = {
       isMenuOpen: true,
       setMenu: () => {},

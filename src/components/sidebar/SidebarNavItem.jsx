@@ -1,21 +1,22 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
-import clsx from 'clsx'
-import { makeStyles } from '@material-ui/core/styles'
-import ButtonBase from '../button/ButtonBase'
-import ChevronDownIcon from '../icons/ChevronDownIcon'
-import guidelines from '@zlab-de/zel-react/guidelines'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
+import clsx from "clsx"
+import { makeStyles } from "@material-ui/core/styles"
+import ButtonBase from "../button/ButtonBase"
+import ChevronDownIcon from "../icons/ChevronDownIcon"
+import guidelines from "@zlab-de/zel-react/guidelines"
 
 const useStyles = makeStyles(theme => ({
   button: {
-    width: '100%',
-    textTransform: 'capitalize',
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: `${ theme.space.s.px }px ${ theme.space.xl.px }px`,
-    '&:hover': {
+    width: "100%",
+    textTransform: "capitalize",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    color: theme.color.global.black,
+    padding: `${theme.space.s.px}px ${theme.space.xl.px}px`,
+    "&:hover": {
       background: theme.color.global.almostWhite,
     },
   },
@@ -23,14 +24,15 @@ const useStyles = makeStyles(theme => ({
     background: theme.color.global.almostWhite,
   },
   list: {
-    listStyle: 'none',
+    listStyle: "none",
     padding: 0,
     margin: 0,
   },
   subnav: {
-    textTransform: 'capitalize',
-    padding: `${ theme.space.s.px }px ${ theme.space.xl.px * 1.5 }px`,
-    '&:hover': {
+    color: theme.color.global.black,
+    textTransform: "capitalize",
+    padding: `${theme.space.s.px}px ${theme.space.xl.px * 1.5}px`,
+    "&:hover": {
       background: theme.color.global.almostWhite,
     },
   },
@@ -38,20 +40,20 @@ const useStyles = makeStyles(theme => ({
     color: theme.color.global.lightGray,
   },
   iconActive: {
-    WebkitTransform: 'rotate(180deg)',
-    MsTransform: 'rotate(180deg)',
-    transform: 'rotate(180deg)',
-    transition: 'all 0.75s 0.25s',
+    WebkitTransform: "rotate(180deg)",
+    MsTransform: "rotate(180deg)",
+    transform: "rotate(180deg)",
+    transition: "all 0.75s 0.25s",
   },
   iconReset: {
-    WebkitTransform: 'rotate(0deg)',
-    MsTransform: 'rotate(0deg)',
-    transform: 'rotate(0deg)',
-    transition: 'all 0.75s 0.25s',
+    WebkitTransform: "rotate(0deg)",
+    MsTransform: "rotate(0deg)",
+    transform: "rotate(0deg)",
+    transition: "all 0.75s 0.25s",
   },
   homeLink: {
-    [theme.breakpoints.up('m')]: {
-      display: 'none',
+    [theme.breakpoints.up("m")]: {
+      display: "none",
     },
   },
 }))
@@ -67,11 +69,11 @@ function SidebarNavItem({ item, home, link }) {
           href={link}
           target="_blank"
           alt={item.title}
-          rel="noopener norefferer"
+          rel="noopener noreferrer"
           className={clsx(
             classes.button,
-            'zep-typo--normal-body1',
-            'zep-button--full'
+            "zep-typo--body-default",
+            "zep-button--full"
           )}
         >
           {item.title}
@@ -80,7 +82,7 @@ function SidebarNavItem({ item, home, link }) {
       {!link && item.subnav && (
         <ButtonBase
           onClick={() => setButton(!isButtonOpen)}
-          className={clsx(classes.button, 'zep-typo--normal-body1', {
+          className={clsx(classes.button, "zep-typo--body-default", {
             [classes.buttonActive]: isButtonOpen,
           })}
         >
@@ -99,13 +101,13 @@ function SidebarNavItem({ item, home, link }) {
         <Link
           to={
             home
-              ? '/'
-              : `/content/${ item.title.toLowerCase().replace(/ /g, '-') }/`
+              ? "/"
+              : `/content/${item.title.toLowerCase().replace(/ /g, "-")}/`
           }
           className={clsx(
             classes.button,
-            'zep-typo--normal-body1',
-            'zep-button--full'
+            "zep-typo--body-default",
+            "zep-button--full"
           )}
         >
           {item.title}
@@ -114,18 +116,18 @@ function SidebarNavItem({ item, home, link }) {
       {item.subnav && isButtonOpen && (
         <ul data-testid="subnav-list" className={classes.list}>
           {Object.keys(item.subnav).map((elem, idx) => (
-            <li key={`sublistitem${ idx }`} className={classes.listItem}>
+            <li key={`sublistitem${idx}`} className={classes.listItem}>
               <Link
-                to={`/content/${ item.title
+                to={`/content/${item.title
                   .toLowerCase()
-                  .replace(/ /g, '-') }/${ item.subnav[elem].title
+                  .replace(/ /g, "-")}/${item.subnav[elem].title
                   .toLowerCase()
-                  .replace(/ /g, '-') }/`}
+                  .replace(/ /g, "-")}/`}
                 activeStyle={{ color: guidelines.color.global.lightGray }}
                 className={clsx(
                   classes.subnav,
-                  'zep-typo--normal-body1',
-                  'zep-button--full'
+                  "zep-typo--body-default",
+                  "zep-button--full"
                 )}
                 data-testid="sidebarNavItemLink"
               >

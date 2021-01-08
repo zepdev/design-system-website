@@ -1,7 +1,14 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
-const DownloadIcon = ({ className, width, height, fill, viewBox, ariaLabel }) => (
+const DownloadIcon = ({
+  className,
+  width,
+  height,
+  fill,
+  viewBox,
+  ariaLabel,
+}) => (
   <svg
     width={width}
     height={height}
@@ -10,7 +17,7 @@ const DownloadIcon = ({ className, width, height, fill, viewBox, ariaLabel }) =>
     aria-labelledby="title_download"
     className={className}
   >
-    <title id="title_download">{ariaLabel || 'Download'}</title>
+    <title id="title_download">{ariaLabel || "Download"}</title>
     <path
       fill={fill}
       d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
@@ -27,10 +34,10 @@ DownloadIcon.propTypes = {
 }
 
 DownloadIcon.defaultProps = {
-  width: '32',
-  height: '32',
-  viewBox: '0 0 24 24',
-  fill: 'currentColor',
+  width: "32",
+  height: "32",
+  viewBox: "0 0 24 24",
+  fill: "currentColor",
 }
 
 export default DownloadIcon

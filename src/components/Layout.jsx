@@ -1,70 +1,69 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
-import '@reach/skip-nav/styles.css'
-import { StaticQuery, graphql, Link } from 'gatsby'
-import CookieConsent from 'react-cookie-consent'
-import { MDXProvider } from '@mdx-js/react'
-import { makeStyles } from '@material-ui/core/styles'
-import Drawer from '@material-ui/core/Drawer'
-import Hidden from '@material-ui/core/Hidden'
-import Grid from '@material-ui/core/Grid'
-import clsx from 'clsx'
-import Header from './Header'
-import Footer from './Footer'
-import Sidebar from './sidebar/Sidebar'
-import CodeBlock from './code/CodeBlock'
-// import ZEL from 'zeppelin-element-library'
-import '@zlab-de/zel-react/zel.css'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import { SkipNavLink, SkipNavContent } from "@reach/skip-nav"
+import "@reach/skip-nav/styles.css"
+import { StaticQuery, graphql, Link } from "gatsby"
+import CookieConsent from "react-cookie-consent"
+import { MDXProvider } from "@mdx-js/react"
+import clsx from "clsx"
+import { makeStyles } from "@material-ui/core/styles"
+import Drawer from "@material-ui/core/Drawer"
+import Hidden from "@material-ui/core/Hidden"
+import Header from "./Header"
+import Footer from "./Footer"
+import Sidebar from "./sidebar/Sidebar"
+import CodeBlock from "./code/CodeBlock"
 
 const useStyles = makeStyles(theme => ({
   content: {
-    display: 'flex',
+    display: "flex",
   },
   main: {
-    width: '100%',
-    background: theme.color.white[84],
-    padding: `${ theme.space.l.rem }rem`,
-    [theme.breakpoints.up('s')]: {
-      padding: `${ theme.space.xxl.rem }rem`,
+    width: "100%",
+    padding: `${theme.space.l.rem}rem`,
+    [theme.breakpoints.up("sm")]: {
+      padding: `${theme.space.l.rem}rem ${theme.space.l.rem * 3}rem`,
+    },
+    [theme.breakpoints.up("xl")]: {
+      width: 1440,
     },
   },
   pStyled: {
-    marginBottom: `${ theme.space.xxl.rem }rem`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
   },
   hrStyled: {
     border: 0,
-    borderTop: `1px solid ${ theme.color.global.lightGray }`,
-    marginBottom: `${ theme.space.xxl.rem }rem`,
-    width: '100%',
+    borderTop: `1px solid ${theme.color.global.lightGray}`,
+    marginBottom: `${theme.space.xxl.rem}rem`,
+    width: "100%",
     borderColor: theme.color.global.lightGray,
   },
   hStyled: {
-    marginBottom: `${ theme.space.l.rem }rem`,
+    marginBottom: `${theme.space.l.rem}rem`,
   },
   h1Styled: {
-    marginBottom: `${ theme.space.m.rem }rem`,
+    marginBottom: `${theme.space.m.rem}rem`,
   },
   aStyled: {
     color: theme.indigo.primary,
   },
   strongStyled: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   skipLink: {
-    position: 'absolute',
-    left: '-999em',
-    width: '990em',
+    position: "absolute",
+    left: "-999em",
+    width: "990em",
   },
   snackbar: {
-    width: '100%',
+    width: "100%",
   },
   buttonContainer: {
-    display: 'flex',
-    alignItems: 'center',
+    display: "flex",
+    alignItems: "center",
   },
   button: {
-    marginRight: `${ theme.space.s.rem }rem`,
+    marginRight: `${theme.space.s.rem}rem`,
     color: theme.color.font,
   },
 }))
@@ -79,7 +78,7 @@ const useStyles = makeStyles(theme => ({
 
 function Layout({ children }) {
   const [isMenuOpen, setMenu] = useState(false)
-  const [zelTheme, setTheme] = useState('indigo')
+  const [zelTheme, setTheme] = useState("indigo")
   const classes = useStyles()
 
   // useEffect(() => {
@@ -91,28 +90,26 @@ function Layout({ children }) {
   }
 
   const handleOptOut = () => {
-    const disableStr = 'GTM-optout'
+    const disableStr = "GTM-optout"
     document.cookie =
-      disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'
+      disableStr + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/"
     window[disableStr] = true
   }
 
   // Styles for mdx/md pages
   const h1Styled = props => (
-    <h1 className={clsx(classes.h1Styled, 'zep-typo--normal-h1')} {...props} />
+    <h1 className={clsx(classes.h1Styled, "zep-typo--headline-1")} {...props} />
   )
   const h2Styled = props => (
-    <h2 className={clsx(classes.hStyled, 'zep-typo--normal-h2')} {...props} />
+    <h2 className={clsx(classes.hStyled, "zep-typo--headline-2")} {...props} />
   )
   const h3Styled = props => (
-    <h3 className={clsx(classes.hStyled, 'zep-typo--normal-h3')} {...props} />
+    <h3 className={clsx(classes.hStyled, "zep-typo--headline-3")} {...props} />
   )
   const pStyled = props => (
-    <p className={clsx(classes.pStyled, 'zep-typo--normal-body1')} {...props} />
+    <p className={clsx(classes.pStyled, "zep-typo--body-default")} {...props} />
   )
-  const hrStyled = () => (
-    <hr className={clsx(classes.hrStyled, 'zep-border-color__gray-lighter')} />
-  )
+  const hrStyled = () => <hr className={classes.hrStyled} />
 
   const aStyled = props => <a className={classes.aStyled} {...props} />
   const preStyled = props => <div {...props} />
@@ -147,13 +144,7 @@ function Layout({ children }) {
       `}
       render={data => {
         return (
-          <div
-            className={clsx({
-              'theme-indigo': zelTheme === 'indigo',
-              'theme-yellow': zelTheme === 'yellow',
-              'theme-red': zelTheme === 'red',
-            })}
-          >
+          <div className={`theme-${zelTheme}`}>
             <SkipNavLink className={classes.skipLink} />
             <Header
               siteTitle={data.mdx.frontmatter.title}
@@ -164,7 +155,7 @@ function Layout({ children }) {
               zelTheme={zelTheme}
             />
             <div className={classes.content}>
-              <Hidden mdUp>
+              <Hidden lgUp>
                 <Drawer
                   anchor="left"
                   open={isMenuOpen}
@@ -173,19 +164,13 @@ function Layout({ children }) {
                   <Sidebar />
                 </Drawer>
               </Hidden>
-              <Hidden smDown>
+              <Hidden mdDown>
                 <Sidebar />
               </Hidden>
-              <>
+              <div>
                 <SkipNavContent />
                 <MDXProvider components={components}>
-                  <main className={classes.main}>
-                    <Grid container spacing={3} justify="center">
-                      <Grid item xs={12} sm={10} lg={8} xl={8}>
-                        {children}
-                      </Grid>
-                    </Grid>
-                  </main>
+                  <main className={classes.main}>{children}</main>
                 </MDXProvider>
                 <CookieConsent
                   location="bottom"
@@ -196,35 +181,35 @@ function Layout({ children }) {
                   declineButtonText="decline"
                   setDeclineCookie
                   declineButtonStyle={{
-                    color: '#27166F',
-                    fontSize: '14px',
-                    textTransform: 'uppercase',
-                    background: 'transparent',
+                    color: "#27166F",
+                    fontSize: "14px",
+                    textTransform: "uppercase",
+                    background: "transparent",
                     letterSpacing: 1.5,
                   }}
                   cookieName="gatsby-plugin-gdpr-cookies"
-                  style={{ background: '#CCC6FF', color: '#000' }}
+                  style={{ background: "#CCC6FF", color: "#000" }}
                   buttonStyle={{
-                    background: '#27166F',
-                    color: '#fff',
-                    fontSize: '14px',
-                    padding: '14px 24px',
-                    textTransform: 'uppercase',
+                    background: "#27166F",
+                    color: "#fff",
+                    fontSize: "14px",
+                    padding: "14px 24px",
+                    textTransform: "uppercase",
                     letterSpacing: 1.5,
                   }}
                   expires={150}
                 >
                   Zeppelin uses cookies on its pages to enable you to make
                   optimal use of the page. If you agree, just continue visiting
-                  the site. To learn more or opt our, read our{' '}
+                  the site. To learn more or opt our, read our{" "}
                   <Link
                     to="/content/privacy/"
-                    style={{ color: '#27166F', textDecoration: 'underline' }}
+                    style={{ color: "#27166F", textDecoration: "underline" }}
                   >
                     data privacy policy.
                   </Link>
                 </CookieConsent>
-              </>
+              </div>
             </div>
             <Footer />
           </div>

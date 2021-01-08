@@ -7,7 +7,7 @@
       }
     }
   },
-  "guideline": {
+  "guidelines": {
     "title": "Guidelines",
     "subnav": {
       "api": {
@@ -152,9 +152,6 @@
       },
       "checkbox": {
         "title": "Checkbox"
-      },
-      "grid": {
-        "title": "Grid"
       },
       "icon-button": {
         "title": "Icon Button"

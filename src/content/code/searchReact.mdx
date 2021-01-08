@@ -10,7 +10,7 @@ title: Search Code
 import React from 'react';
 import PropTypes from 'prop-types';
 import Downshift from 'downshift';
-import ZepiconsSearch from '@zlab-de/zel-react-icons/ZepiconsSearch';
+import IconSearch from '@zlab-de/zel-react-icons/IconSearch';
 
 const Search = ({
   variant,
@@ -44,7 +44,7 @@ const Search = ({
               {...getInputProps({ placeholder: placeholder })}
               className="zep-search__input"
             />
-            <ZepiconsSearch className="zep-search__icon" />
+            <IconSearch className="zep-search__icon" />
             {isOpen ? (
               <ul {...getMenuProps({ className: 'zep-select__list' })}>
                 {items

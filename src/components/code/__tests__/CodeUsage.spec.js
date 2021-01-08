@@ -1,7 +1,7 @@
-import React from 'react'
-import { render } from '../../../../test-utils'
-import CodeUsage from '../CodeUsage'
-import { StaticQuery } from 'gatsby'
+import React from "react"
+import { render } from "../../../../test-utils"
+import CodeUsage from "../CodeUsage"
+import { StaticQuery } from "gatsby"
 
 beforeEach(() => {
   StaticQuery.mockImplementationOnce(({ render }) =>
@@ -10,11 +10,11 @@ beforeEach(() => {
         edges: {
           node: {
             frontmatter: {
-              title: 'Mock Title',
-              label: 'Mock Label',
+              title: "Mock Title",
+              label: "Mock Label",
             },
             code: {
-              body: 'Mock Code',
+              body: "Mock Code",
             },
           },
           find: jest.fn(),
@@ -24,10 +24,10 @@ beforeEach(() => {
   )
 })
 
-describe('CodeUsage', () => {
-  it('renders correctly', () => {
+describe("CodeUsage", () => {
+  it("renders correctly", () => {
     const mockProps = {
-      element: 'button',
+      element: "button",
     }
     const component = render(<CodeUsage {...mockProps} />)
     expect(component).toMatchSnapshot()

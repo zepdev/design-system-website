@@ -15,6 +15,33 @@ import NumberInputExample from '../../components/numberinput/NumberInputExample.
 
 The Number Input is a basic counter component to be used on forms to increase or decrease an incremental value. Always use a clear and concise label for the number input and allow the user to also choose to type a number in the field.
 
+<div style={{ marginBottom: 30 }}>
+  <NumberInputExample />
+</div>
+
+```
+import React, {useState} from 'react'
+import NumberInput from '@zlab-de/zel-react/NumberInput'
+
+function MyComponent(){
+    const [count, setCount] = useState(0)
+
+    return(
+        <div>
+            <NumberInput
+                label="demo number input"
+                count={count}
+                onChange={value => setCount(value)}
+                onMinus={() => setCount(count - 1)}
+                onPlus={() => setCount(count + 1)}
+            />
+        </div>
+    )
+}
+
+export default MyComponent
+```
+
 ## Available Props
 
 <Table title="NumberInput Props" style={{ marginBottom: 60 }}>
@@ -67,32 +94,3 @@ The Number Input is a basic counter component to be used on forms to increase or
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <NumberInputExample />
-</div>
-
-```
-import React, {useState} from 'react'
-import NumberInput from '@zlab-de/zel-react/NumberInput'
-
-function MyComponent(){
-    const [count, setCount] = useState(0)
-
-    return(
-        <div>
-            <NumberInput
-                label="demo number input"
-                count={count}
-                onChange={value => setCount(value)}
-                onMinus={() => setCount(count - 1)}
-                onPlus={() => setCount(count + 1)}
-            />
-        </div>
-    )
-}
-
-export default MyComponent
-```

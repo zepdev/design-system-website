@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
 const LinkedinIcon = ({ className, width, height, fill, viewBox }) => (
   <svg
@@ -26,10 +26,10 @@ LinkedinIcon.propTypes = {
 }
 
 LinkedinIcon.defaultProps = {
-  width: '32',
-  height: '32',
-  viewBox: '0 0 24 24',
-  fill: 'currentColor',
+  width: "32",
+  height: "32",
+  viewBox: "0 0 24 24",
+  fill: "currentColor",
 }
 
 export default LinkedinIcon

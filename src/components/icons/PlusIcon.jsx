@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
 const PlusIcon = ({ className, width, height, fill, viewBox, ariaLabel }) => (
   <svg
@@ -10,8 +10,11 @@ const PlusIcon = ({ className, width, height, fill, viewBox, ariaLabel }) => (
     aria-labelledby="title_menu"
     className={className}
   >
-    <title id="title_menu">{ariaLabel || 'Plus'}</title>
-    <path fill={fill} d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z" />
+    <title id="title_menu">{ariaLabel || "Plus"}</title>
+    <path
+      fill={fill}
+      d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8z"
+    />
   </svg>
 )
 
@@ -24,10 +27,10 @@ PlusIcon.propTypes = {
 }
 
 PlusIcon.defaultProps = {
-  width: '32',
-  height: '32',
-  viewBox: '0 0 24 24',
-  fill: 'currentColor',
+  width: "32",
+  height: "32",
+  viewBox: "0 0 24 24",
+  fill: "currentColor",
 }
 
 export default PlusIcon

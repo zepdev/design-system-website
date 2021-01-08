@@ -15,7 +15,37 @@ import PaginationExample from '../../components/pagination/PaginationExample'
 
 The Zeppelin Pagination element requires the use of javascript.
 
----
+
+
+
+
+<div style={{ marginBottom: 30 }}>
+  <PaginationExample />
+</div>
+
+```
+import React, {useState} from 'react'
+import Pagination from '@zlab-de/zel-react/Pagination'
+
+function MyComponent(){
+    const [count, setCount] = useState(0)
+
+    return(
+        <div>
+            <Pagination
+                label="demo number input"
+                count={count}
+                onChange={value => setCount(value)}
+                onMinus={() => setCount(count - 1)}
+                onPlus={() => setCount(count + 1)}
+            />
+        </div>
+    )
+}
+
+export default MyComponent
+```
+
 
 ## Available Props
 
@@ -69,32 +99,3 @@ The Zeppelin Pagination element requires the use of javascript.
     </TableRow>
   </TableBody>
 </Table>
-
-## Example
-
-<div style={{ marginBottom: 30 }}>
-  <PaginationExample />
-</div>
-
-```
-import React, {useState} from 'react'
-import Pagination from '@zlab-de/zel-react/Pagination'
-
-function MyComponent(){
-    const [count, setCount] = useState(0)
-
-    return(
-        <div>
-            <Pagination
-                label="demo number input"
-                count={count}
-                onChange={value => setCount(value)}
-                onMinus={() => setCount(count - 1)}
-                onPlus={() => setCount(count + 1)}
-            />
-        </div>
-    )
-}
-
-export default MyComponent
-```

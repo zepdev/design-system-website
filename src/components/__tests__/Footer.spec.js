@@ -1,11 +1,11 @@
-import React from 'react'
-import { render } from '../../../test-utils'
-import Footer from '../Footer'
+import React from "react"
+import { render } from "../../../test-utils"
+import Footer from "../Footer"
 
-describe('Footer', () => {
-  it('renders correctly', () => {
+describe("Footer", () => {
+  it("renders correctly", () => {
     const mockProps = {
-      section: 'basics',
+      section: "basics",
     }
     const component = render(<Footer {...mockProps} />)
     expect(component).toMatchSnapshot()
