@@ -16,8 +16,8 @@ const Spinner = ({ className: classNameProp, inverted, size, ...other }) => {
       )}
       {...other}
     >
-      <svg viewBox="0 0 20 20">
-        <circle className="stroke" cx="10" cy="10" r="8" />
+      <svg viewBox="0 0 24 24">
+        <circle className="stroke" cx="12" cy="12" r="9.38" />
       </svg>
     </div>
   )
