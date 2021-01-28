@@ -305,29 +305,29 @@ module.exports = {
       size: {
         js: [
           `<div class="zep-spinner">
-          <svg viewBox="0 0 20 20">
-            <circle class="stroke" cx="10" cy="10" r="8" />
-          </svg>
-        </div>`,
+    <svg viewBox="0 0 24 24">
+      <circle class="stroke" cx="12" cy="12" r="9.38" />
+    </svg>
+</div>`,
           `<div class="zep-spinner zep-spinner--medium">
-        <svg viewBox="0 0 20 20">
-          <circle class="stroke" cx="10" cy="10" r="8" />
-        </svg>
-      </div>`,
+    <svg viewBox="0 0 24 24">
+      <circle class="stroke" cx="12" cy="12" r="9.38" />
+    </svg>
+</div>`,
           `<div class="zep-spinner zep-spinner--large">
-      <svg viewBox="0 0 20 20">
-        <circle class="stroke" cx="10" cy="10" r="8" />
-      </svg>
-    </div>`,
+    <svg viewBox="0 0 24 24">
+      <circle class="stroke" cx="12" cy="12" r="9.38" />
+    </svg>
+</div>`,
         ],
       },
       inverted: {
         js: [
           `<div style="background:black;padding:30px;"><div class="zep-spinner zep-spinner--invert">
-          <svg viewBox="0 0 20 20">
-            <circle class="stroke" cx="10" cy="10" r="8" />
-          </svg>
-        </div></div>`,
+    <svg viewBox="0 0 24 24">
+      <circle class="stroke" cx="12" cy="12" r="9.38" />
+    </svg>
+</div>`,
         ],
       },
     },
