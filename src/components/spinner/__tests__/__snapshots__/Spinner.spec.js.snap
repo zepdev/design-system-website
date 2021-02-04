@@ -9,13 +9,13 @@ Object {
         class="zep-spinner"
       >
         <svg
-          viewBox="0 0 20 20"
+          viewBox="0 0 24 24"
         >
           <circle
             class="stroke"
-            cx="10"
-            cy="10"
-            r="8"
+            cx="12"
+            cy="12"
+            r="9.38"
           />
         </svg>
       </div>
@@ -26,13 +26,13 @@ Object {
       class="zep-spinner"
     >
       <svg
-        viewBox="0 0 20 20"
+        viewBox="0 0 24 24"
       >
         <circle
           class="stroke"
-          cx="10"
-          cy="10"
-          r="8"
+          cx="12"
+          cy="12"
+          r="9.38"
         />
       </svg>
     </div>
