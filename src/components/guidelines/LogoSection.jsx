@@ -1,11 +1,11 @@
-import React, { useState } from "react"
+import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { logo } from "@zlab-de/zel-react/guidelines.json"
-import { version as zelVersion } from "zeppelin-element-library/package.json"
-import Accordion from "@material-ui/core/Accordion"
-import AccordionSummary from "@material-ui/core/AccordionSummary"
-import AccordionDetails from "@material-ui/core/AccordionDetails"
-import ZepIconArrowChevronDown from "@zlab-de/zel-react-icons/ZepIconArrowChevronDown"
+// import { version as zelVersion } from "zeppelin-element-library/package.json"
+// import Accordion from "@material-ui/core/Accordion"
+// import AccordionSummary from "@material-ui/core/AccordionSummary"
+// import AccordionDetails from "@material-ui/core/AccordionDetails"
+// import ZepIconArrowChevronDown from "@zlab-de/zel-react-icons/ZepIconArrowChevronDown"
 // import CorporateLogos from "../../assets/images/Logo/Corporate.png"
 // import RentalLogos from "../../assets/images/Logo/Rental.png"
 // import CorporateInvertedLogos from "../../assets/images/Logo/CorporateInverted.png"
@@ -18,7 +18,7 @@ import ZepIconArrowChevronDown from "@zlab-de/zel-react-icons/ZepIconArrowChevro
 // import ZDigitInvertedLogos from "../../assets/images/Logo/ZDigitInverted.png"
 import Headline from "../typography/Headline"
 import Swatch from "../swatch/Swatch"
-import DownloadFile from "../download/DownloadFile.jsx"
+// import DownloadFile from "../download/DownloadFile.jsx"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -35,25 +35,25 @@ const useStyles = makeStyles(theme => ({
 }))
 
 function LogoSection() {
-  const [expanded, setExpanded] = useState(false)
+  // const [expanded, setExpanded] = useState(false)
   const classes = useStyles()
 
-  const handleChange = panel => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false)
-  }
+  // const handleChange = panel => (event, isExpanded) => {
+  //   setExpanded(isExpanded ? panel : false)
+  // }
 
-  const data = [
-    // { title: "Zeppelin Corporate", src: CorporateLogos },
-    // { title: "Zeppelin Corporate Inverted", src: CorporateInvertedLogos },
-    // { title: "Zeppelin Construction Machines", src: ConstructionMachinesLogos },
-    // { title: "Zeppelin Rental", src: RentalLogos },
-    // { title: "Zeppelin Power Systems", src: PowerSystemsLogos },
-    // { title: "Zeppelin Partners", src: PartnersLogos },
-    // { title: "Nuova Ciba", src: NuovaCibaLogos },
-    // { title: "Nuova Ciba Inverted", src: NuovaCibaInvertedLogos },
-    // { title: "Z Digit", src: ZDigitLogos },
-    // { title: "Z Digit Inverted", src: ZDigitInvertedLogos },
-  ]
+  // const data = [
+  // { title: "Zeppelin Corporate", src: CorporateLogos },
+  // { title: "Zeppelin Corporate Inverted", src: CorporateInvertedLogos },
+  // { title: "Zeppelin Construction Machines", src: ConstructionMachinesLogos },
+  // { title: "Zeppelin Rental", src: RentalLogos },
+  // { title: "Zeppelin Power Systems", src: PowerSystemsLogos },
+  // { title: "Zeppelin Partners", src: PartnersLogos },
+  // { title: "Nuova Ciba", src: NuovaCibaLogos },
+  // { title: "Nuova Ciba Inverted", src: NuovaCibaInvertedLogos },
+  // { title: "Z Digit", src: ZDigitLogos },
+  // { title: "Z Digit Inverted", src: ZDigitInvertedLogos },
+  // ]
   return (
     <div className={classes.root}>
       <Headline variant="sm">Logo Colors</Headline>
