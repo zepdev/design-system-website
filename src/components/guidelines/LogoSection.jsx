@@ -63,7 +63,7 @@ function LogoSection() {
         ))}
       </div>
       {/* <Headline variant="sm">Logo Usage from Size</Headline> */}
-      {data.map((elem, idx) => (
+      {/* {data.map((elem, idx) => (
         <Accordion
           expanded={expanded === `panel${idx}`}
           onChange={handleChange(`panel${idx}`)}
@@ -96,7 +96,7 @@ function LogoSection() {
             </div>
           </AccordionDetails>
         </Accordion>
-      ))}
+      ))} */}
     </div>
   )
 }
