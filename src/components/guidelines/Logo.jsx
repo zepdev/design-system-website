@@ -6,14 +6,14 @@ import Accordion from "@material-ui/core/Accordion"
 import AccordionSummary from "@material-ui/core/AccordionSummary"
 import AccordionDetails from "@material-ui/core/AccordionDetails"
 import ZepIconArrowChevronDown from "@zlab-de/zel-react-icons/ZepIconArrowChevronDown"
-import CorporateLogos from "../../assets/images/Logo/Corporate.png"
-import RentalLogos from "../../assets/images/Logo/Rental.png"
-import CorporateInvertedLogos from "../../assets/images/Logo/CorporateInverted.png"
-import ConstructionMachinesLogos from "../../assets/images/Logo/ConstructionMachines.png"
-import NuovaCibaLogos from "../../assets/images/Logo/NuovaCiba.png"
-import NuovaCibaInvertedLogos from "../../assets/images/Logo/NuovaCibaInverted.png"
-import PartnersLogos from "../../assets/images/Logo/Partners.png"
-import PowerSystemsLogos from "../../assets/images/Logo/PowerSystems.png"
+// import CorporateLogos from "../../assets/images/Logo/Corporate.png"
+// import RentalLogos from "../../assets/images/Logo/Rental.png"
+// import CorporateInvertedLogos from "../../assets/images/Logo/CorporateInverted.png"
+// import ConstructionMachinesLogos from "../../assets/images/Logo/ConstructionMachines.png"
+// import NuovaCibaLogos from "../../assets/images/Logo/NuovaCiba.png"
+// import NuovaCibaInvertedLogos from "../../assets/images/Logo/NuovaCibaInverted.png"
+// import PartnersLogos from "../../assets/images/Logo/Partners.png"
+// import PowerSystemsLogos from "../../assets/images/Logo/PowerSystems.png"
 // import ZDigitLogos from '../../assets/images/Logo/ZDigit.png'
 // import ZDigitInvertedLogos from '../../assets/images/Logo/ZDigitInverted.png'
 import Headline from "../typography/Headline"
@@ -44,14 +44,14 @@ function Logo() {
   }
 
   const data = [
-    { title: "Zeppelin Corporate", src: CorporateLogos },
-    { title: "Zeppelin Corporate Inverted", src: CorporateInvertedLogos },
-    { title: "Zeppelin Construction Machines", src: ConstructionMachinesLogos },
-    { title: "Zeppelin Rental", src: RentalLogos },
-    { title: "Zeppelin Power Systems", src: PowerSystemsLogos },
-    { title: "Zeppelin Partners", src: PartnersLogos },
-    { title: "Nuova Ciba", src: NuovaCibaLogos },
-    { title: "Nuova Ciba Inverted", src: NuovaCibaInvertedLogos },
+    // { title: "Zeppelin Corporate", src: CorporateLogos },
+    // { title: "Zeppelin Corporate Inverted", src: CorporateInvertedLogos },
+    // { title: "Zeppelin Construction Machines", src: ConstructionMachinesLogos },
+    // { title: "Zeppelin Rental", src: RentalLogos },
+    // { title: "Zeppelin Power Systems", src: PowerSystemsLogos },
+    // { title: "Zeppelin Partners", src: PartnersLogos },
+    // { title: "Nuova Ciba", src: NuovaCibaLogos },
+    // { title: "Nuova Ciba Inverted", src: NuovaCibaInvertedLogos },
     // { title: 'Z Digit', src: ZDigitLogos },
     // { title: 'Z Digit Inverted', src: ZDigitInvertedLogos },
   ]
