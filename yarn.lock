@@ -2837,10 +2837,10 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@zlab-de/zel-react-icons@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react-icons/-/zel-react-icons-2.0.2.tgz#4f2914ef619743c8c90ff66e49fd203ac07a8153"
-  integrity sha512-V55n8L90qWaZdbmfE5Ico68Go1GI+mgk6TiFS4zS6N6bdW1yeOTMEONSfikgowPYEwp6mXwTpSrxiUbcC7Wh7A==
+"@zlab-de/zel-react-icons@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@zlab-de/zel-react-icons/-/zel-react-icons-2.0.3.tgz#956d77995a62162dc6399d61b6fe92a4a822081a"
+  integrity sha512-3f/kXLwcfy7RvxrEfgUlF8gFN31D9DF1/5r8vGTm6//dEHCGfb967YuLE5qZWd3M2fOxnMvGOXuXdO9Ce7t1Xg==
   dependencies:
     "@babel/runtime" "^7.2.0"
     clsx "^1.1.1"
@@ -17758,10 +17758,10 @@ yurnalist@^1.1.2:
     strip-ansi "^5.2.0"
     strip-bom "^4.0.0"
 
-zeppelin-element-library@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-3.0.0.tgz#c7353d246a8ae2719fc78e266b858617b5e93611"
-  integrity sha512-b2s8ImqdFliX/EmO81bkeb4qXEDr+yn8DGt6vG0kE7rFsqbY60gKOR2PrWDtYJHqiWtuQGmGHrc+i/g9MBPleQ==
+zeppelin-element-library@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/zeppelin-element-library/-/zeppelin-element-library-3.2.1.tgz#f2b27b8f30a3e2b8b1e4435238c72eb77dd9bd0a"
+  integrity sha512-GJ3/Gzber/Yvo1TQ2a66MJdRxiaAZRvqMl+4XPL8V1R4oG0/1aLXNyR1gA1WGlBGaEDSKAbaX5fTHKBXC5iE6g==
 
 zwitch@^1.0.0:
   version "1.0.5"
