@@ -82,8 +82,9 @@ Object {
                 width="24"
               >
                 <path
-                  d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
-                  fill="currentColor"
+                  d="M21.25 14.375a.6251.6251 0 01.6182.5326L21.875 15v1.25c0 1.6664-1.3043 3.0281-2.9477 3.12l-.1773.005H5c-1.6664 0-3.0281-1.3043-3.12-2.9477l-.005-.1773V15a.625.625 0 011.2432-.0924L3.125 15v1.25c0 .9862.7614 1.7946 1.7285 1.8694L5 18.125h13.75c.9862 0 1.7946-.7614 1.8694-1.7285l.0056-.1465V15a.625.625 0 01.625-.625zm-9.375-10a.6251.6251 0 01.6182.5326L12.5 5v8.492l2.683-2.684a.6252.6252 0 01.7974-.0723l.0865.0724c.217.217.2411.5537.0724.7973l-.0724.0865-3.7927 3.789-.0664.0482-.0636.0351-.0802.0317a.6273.6273 0 01-.323.0147l-.0892-.0266-.0832-.0391-.049-.0306-.0523-.0407-3.7842-3.7817a.625.625 0 01.7973-.9562l.0865.0724L11.25 13.492V5a.625.625 0 01.625-.625z"
+                  fill="#000"
+                  fill-opacity=".84"
                   fill-rule="evenodd"
                   transform="scale(Infinity, Infinity)"
                 />
@@ -121,8 +122,9 @@ Object {
                 width="24"
               >
                 <path
-                  d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
-                  fill="currentColor"
+                  d="M21.25 14.375a.6251.6251 0 01.6182.5326L21.875 15v1.25c0 1.6664-1.3043 3.0281-2.9477 3.12l-.1773.005H5c-1.6664 0-3.0281-1.3043-3.12-2.9477l-.005-.1773V15a.625.625 0 011.2432-.0924L3.125 15v1.25c0 .9862.7614 1.7946 1.7285 1.8694L5 18.125h13.75c.9862 0 1.7946-.7614 1.8694-1.7285l.0056-.1465V15a.625.625 0 01.625-.625zm-9.375-10a.6251.6251 0 01.6182.5326L12.5 5v8.492l2.683-2.684a.6252.6252 0 01.7974-.0723l.0865.0724c.217.217.2411.5537.0724.7973l-.0724.0865-3.7927 3.789-.0664.0482-.0636.0351-.0802.0317a.6273.6273 0 01-.323.0147l-.0892-.0266-.0832-.0391-.049-.0306-.0523-.0407-3.7842-3.7817a.625.625 0 01.7973-.9562l.0865.0724L11.25 13.492V5a.625.625 0 01.625-.625z"
+                  fill="#000"
+                  fill-opacity=".84"
                   fill-rule="evenodd"
                   transform="scale(Infinity, Infinity)"
                 />
@@ -156,8 +158,9 @@ Object {
                 width="24"
               >
                 <path
-                  d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
-                  fill="currentColor"
+                  d="M21.25 14.375a.6251.6251 0 01.6182.5326L21.875 15v1.25c0 1.6664-1.3043 3.0281-2.9477 3.12l-.1773.005H5c-1.6664 0-3.0281-1.3043-3.12-2.9477l-.005-.1773V15a.625.625 0 011.2432-.0924L3.125 15v1.25c0 .9862.7614 1.7946 1.7285 1.8694L5 18.125h13.75c.9862 0 1.7946-.7614 1.8694-1.7285l.0056-.1465V15a.625.625 0 01.625-.625zm-9.375-10a.6251.6251 0 01.6182.5326L12.5 5v8.492l2.683-2.684a.6252.6252 0 01.7974-.0723l.0865.0724c.217.217.2411.5537.0724.7973l-.0724.0865-3.7927 3.789-.0664.0482-.0636.0351-.0802.0317a.6273.6273 0 01-.323.0147l-.0892-.0266-.0832-.0391-.049-.0306-.0523-.0407-3.7842-3.7817a.625.625 0 01.7973-.9562l.0865.0724L11.25 13.492V5a.625.625 0 01.625-.625z"
+                  fill="#000"
+                  fill-opacity=".84"
                   fill-rule="evenodd"
                   transform="scale(Infinity, Infinity)"
                 />
@@ -619,6 +622,100 @@ Object {
           </div>
         </a>
         <a
+          aria-label="zep-icon-communication-email-check"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-communication-email-check.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-communication-email-check
+            </p>
+            <img
+              alt="zep-icon-communication-email-check"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-communication-email-send"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-communication-email-send.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-communication-email-send
+            </p>
+            <img
+              alt="zep-icon-communication-email-send"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
           aria-label="zep-icon-communication-phone"
           class="makeStyles-container-4 makeStyles-button-21"
           download="zepicons-zep-icon-communication-phone.svg"
@@ -675,6 +772,194 @@ Object {
         class="makeStyles-root-3"
       >
         <a
+          aria-label="zep-icon-ecom-accounting-invoice-mail"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-ecom-accounting-invoice-mail.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-ecom-accounting-invoice-mail
+            </p>
+            <img
+              alt="zep-icon-ecom-accounting-invoice-mail"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-ecom-award-star-head"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-ecom-award-star-head.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-ecom-award-star-head
+            </p>
+            <img
+              alt="zep-icon-ecom-award-star-head"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-ecom-barcode-tag"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-ecom-barcode-tag.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-ecom-barcode-tag
+            </p>
+            <img
+              alt="zep-icon-ecom-barcode-tag"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-ecom-cart-add"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-ecom-cart-add.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-ecom-cart-add
+            </p>
+            <img
+              alt="zep-icon-ecom-cart-add"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
           aria-label="zep-icon-ecom-cart"
           class="makeStyles-container-4 makeStyles-button-21"
           download="zepicons-zep-icon-ecom-cart.svg"
@@ -722,6 +1007,100 @@ Object {
           </div>
         </a>
         <a
+          aria-label="zep-icon-ecom-certified-ribbon"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-ecom-certified-ribbon.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-ecom-certified-ribbon
+            </p>
+            <img
+              alt="zep-icon-ecom-certified-ribbon"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-ecom-delivery-truck"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-ecom-delivery-truck.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-ecom-delivery-truck
+            </p>
+            <img
+              alt="zep-icon-ecom-delivery-truck"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
           aria-label="zep-icon-ecom-offer"
           class="makeStyles-container-4 makeStyles-button-21"
           download="zepicons-zep-icon-ecom-offer.svg"
@@ -763,6 +1142,53 @@ Object {
             </p>
             <img
               alt="zep-icon-ecom-offer"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-ecom-receipt-slip"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-ecom-receipt-slip.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-ecom-receipt-slip
+            </p>
+            <img
+              alt="zep-icon-ecom-receipt-slip"
               class="makeStyles-img-10"
               src="test-file-stub"
             />
@@ -819,6 +1245,194 @@ Object {
             </p>
             <img
               alt="zep-icon-essential-add"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-alarm-bell"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-alarm-bell.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-alarm-bell
+            </p>
+            <img
+              alt="zep-icon-essential-alarm-bell"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-alert-triangle"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-alert-triangle.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-alert-triangle
+            </p>
+            <img
+              alt="zep-icon-essential-alert-triangle"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-avatar-check"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-avatar-check.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-avatar-check
+            </p>
+            <img
+              alt="zep-icon-essential-avatar-check"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-avatar-remove"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-avatar-remove.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-avatar-remove
+            </p>
+            <img
+              alt="zep-icon-essential-avatar-remove"
               class="makeStyles-img-10"
               src="test-file-stub"
             />
@@ -1054,6 +1668,100 @@ Object {
             </p>
             <img
               alt="zep-icon-essential-close-mini"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-cookie"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-cookie.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-cookie
+            </p>
+            <img
+              alt="zep-icon-essential-cookie"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-dashboard"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-dashboard.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-dashboard
+            </p>
+            <img
+              alt="zep-icon-essential-dashboard"
               class="makeStyles-img-10"
               src="test-file-stub"
             />
@@ -1342,6 +2050,147 @@ Object {
           </div>
         </a>
         <a
+          aria-label="zep-icon-essential-hide"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-hide.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-hide
+            </p>
+            <img
+              alt="zep-icon-essential-hide"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-home-filled"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-home-filled.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-home-filled
+            </p>
+            <img
+              alt="zep-icon-essential-home-filled"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-home"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-home.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-home
+            </p>
+            <img
+              alt="zep-icon-essential-home"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
           aria-label="zep-icon-essential-info"
           class="makeStyles-container-4 makeStyles-button-21"
           download="zepicons-zep-icon-essential-info.svg"
@@ -1530,6 +2379,53 @@ Object {
           </div>
         </a>
         <a
+          aria-label="zep-icon-essential-low-speed"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-low-speed.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-low-speed
+            </p>
+            <img
+              alt="zep-icon-essential-low-speed"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
           aria-label="zep-icon-essential-menu"
           class="makeStyles-container-4 makeStyles-button-21"
           download="zepicons-zep-icon-essential-menu.svg"
@@ -1665,6 +2561,53 @@ Object {
             </p>
             <img
               alt="zep-icon-essential-print"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-question-circle"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-question-circle.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-question-circle
+            </p>
+            <img
+              alt="zep-icon-essential-question-circle"
               class="makeStyles-img-10"
               src="test-file-stub"
             />
@@ -1900,6 +2843,147 @@ Object {
             </p>
             <img
               alt="zep-icon-essential-sort"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-star-filled"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-star-filled.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-star-filled
+            </p>
+            <img
+              alt="zep-icon-essential-star-filled"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-star"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-star.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-star
+            </p>
+            <img
+              alt="zep-icon-essential-star"
+              class="makeStyles-img-10"
+              src="test-file-stub"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="zep-icon-essential-stopwatch"
+          class="makeStyles-container-4 makeStyles-button-21"
+          download="zepicons-zep-icon-essential-stopwatch.svg"
+          href="test-file-stub"
+          target="_blank"
+        >
+          <div
+            class="makeStyles-content-8"
+          >
+            <span
+              class="makeStyles-backdrop-5"
+            />
+            <span
+              class="makeStyles-backdropContent-6"
+            >
+              <svg
+                aria-labelledby="title_download"
+                class="makeStyles-icon-7"
+                height="32"
+                viewBox="0 0 24 24"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title
+                  id="title_download"
+                >
+                  download
+                </title>
+                <path
+                  d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <p
+              class="makeStyles-name-9 zep-typo--body-small"
+            >
+              zep-icon-essential-stopwatch
+            </p>
+            <img
+              alt="zep-icon-essential-stopwatch"
               class="makeStyles-img-10"
               src="test-file-stub"
             />
@@ -4455,8 +5539,9 @@ Object {
               width="24"
             >
               <path
-                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
-                fill="currentColor"
+                d="M21.25 14.375a.6251.6251 0 01.6182.5326L21.875 15v1.25c0 1.6664-1.3043 3.0281-2.9477 3.12l-.1773.005H5c-1.6664 0-3.0281-1.3043-3.12-2.9477l-.005-.1773V15a.625.625 0 011.2432-.0924L3.125 15v1.25c0 .9862.7614 1.7946 1.7285 1.8694L5 18.125h13.75c.9862 0 1.7946-.7614 1.8694-1.7285l.0056-.1465V15a.625.625 0 01.625-.625zm-9.375-10a.6251.6251 0 01.6182.5326L12.5 5v8.492l2.683-2.684a.6252.6252 0 01.7974-.0723l.0865.0724c.217.217.2411.5537.0724.7973l-.0724.0865-3.7927 3.789-.0664.0482-.0636.0351-.0802.0317a.6273.6273 0 01-.323.0147l-.0892-.0266-.0832-.0391-.049-.0306-.0523-.0407-3.7842-3.7817a.625.625 0 01.7973-.9562l.0865.0724L11.25 13.492V5a.625.625 0 01.625-.625z"
+                fill="#000"
+                fill-opacity=".84"
                 fill-rule="evenodd"
                 transform="scale(Infinity, Infinity)"
               />
@@ -4494,8 +5579,9 @@ Object {
               width="24"
             >
               <path
-                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
-                fill="currentColor"
+                d="M21.25 14.375a.6251.6251 0 01.6182.5326L21.875 15v1.25c0 1.6664-1.3043 3.0281-2.9477 3.12l-.1773.005H5c-1.6664 0-3.0281-1.3043-3.12-2.9477l-.005-.1773V15a.625.625 0 011.2432-.0924L3.125 15v1.25c0 .9862.7614 1.7946 1.7285 1.8694L5 18.125h13.75c.9862 0 1.7946-.7614 1.8694-1.7285l.0056-.1465V15a.625.625 0 01.625-.625zm-9.375-10a.6251.6251 0 01.6182.5326L12.5 5v8.492l2.683-2.684a.6252.6252 0 01.7974-.0723l.0865.0724c.217.217.2411.5537.0724.7973l-.0724.0865-3.7927 3.789-.0664.0482-.0636.0351-.0802.0317a.6273.6273 0 01-.323.0147l-.0892-.0266-.0832-.0391-.049-.0306-.0523-.0407-3.7842-3.7817a.625.625 0 01.7973-.9562l.0865.0724L11.25 13.492V5a.625.625 0 01.625-.625z"
+                fill="#000"
+                fill-opacity=".84"
                 fill-rule="evenodd"
                 transform="scale(Infinity, Infinity)"
               />
@@ -4529,8 +5615,9 @@ Object {
               width="24"
             >
               <path
-                d="M21.25 14.38c.31 0 .57.23.62.53v1.34c0 1.67-1.3 3.03-2.94 3.12H5a3.13 3.13 0 01-3.12-2.94V15a.62.62 0 011.24-.1v1.35c0 .99.77 1.8 1.73 1.87h13.9c.99 0 1.8-.76 1.87-1.72V15c0-.35.28-.63.63-.63zm-9.38-10c.32 0 .58.23.62.53l.01.09v8.5l2.68-2.7a.63.63 0 01.8-.06l.09.07c.21.22.24.55.07.8l-.07.08-3.8 3.8-.06.04-.07.03-.08.04a.62.62 0 01-.32.01l-.09-.03-.08-.04-.05-.03-.05-.04-3.79-3.78a.62.62 0 01.8-.95l.09.07 2.68 2.68V5c0-.35.28-.63.63-.63z"
-                fill="currentColor"
+                d="M21.25 14.375a.6251.6251 0 01.6182.5326L21.875 15v1.25c0 1.6664-1.3043 3.0281-2.9477 3.12l-.1773.005H5c-1.6664 0-3.0281-1.3043-3.12-2.9477l-.005-.1773V15a.625.625 0 011.2432-.0924L3.125 15v1.25c0 .9862.7614 1.7946 1.7285 1.8694L5 18.125h13.75c.9862 0 1.7946-.7614 1.8694-1.7285l.0056-.1465V15a.625.625 0 01.625-.625zm-9.375-10a.6251.6251 0 01.6182.5326L12.5 5v8.492l2.683-2.684a.6252.6252 0 01.7974-.0723l.0865.0724c.217.217.2411.5537.0724.7973l-.0724.0865-3.7927 3.789-.0664.0482-.0636.0351-.0802.0317a.6273.6273 0 01-.323.0147l-.0892-.0266-.0832-.0391-.049-.0306-.0523-.0407-3.7842-3.7817a.625.625 0 01.7973-.9562l.0865.0724L11.25 13.492V5a.625.625 0 01.625-.625z"
+                fill="#000"
+                fill-opacity=".84"
                 fill-rule="evenodd"
                 transform="scale(Infinity, Infinity)"
               />
@@ -4992,6 +6079,100 @@ Object {
         </div>
       </a>
       <a
+        aria-label="zep-icon-communication-email-check"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-communication-email-check.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-communication-email-check
+          </p>
+          <img
+            alt="zep-icon-communication-email-check"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-communication-email-send"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-communication-email-send.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-communication-email-send
+          </p>
+          <img
+            alt="zep-icon-communication-email-send"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
         aria-label="zep-icon-communication-phone"
         class="makeStyles-container-4 makeStyles-button-21"
         download="zepicons-zep-icon-communication-phone.svg"
@@ -5048,6 +6229,194 @@ Object {
       class="makeStyles-root-3"
     >
       <a
+        aria-label="zep-icon-ecom-accounting-invoice-mail"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-ecom-accounting-invoice-mail.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-ecom-accounting-invoice-mail
+          </p>
+          <img
+            alt="zep-icon-ecom-accounting-invoice-mail"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-ecom-award-star-head"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-ecom-award-star-head.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-ecom-award-star-head
+          </p>
+          <img
+            alt="zep-icon-ecom-award-star-head"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-ecom-barcode-tag"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-ecom-barcode-tag.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-ecom-barcode-tag
+          </p>
+          <img
+            alt="zep-icon-ecom-barcode-tag"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-ecom-cart-add"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-ecom-cart-add.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-ecom-cart-add
+          </p>
+          <img
+            alt="zep-icon-ecom-cart-add"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
         aria-label="zep-icon-ecom-cart"
         class="makeStyles-container-4 makeStyles-button-21"
         download="zepicons-zep-icon-ecom-cart.svg"
@@ -5095,6 +6464,100 @@ Object {
         </div>
       </a>
       <a
+        aria-label="zep-icon-ecom-certified-ribbon"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-ecom-certified-ribbon.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-ecom-certified-ribbon
+          </p>
+          <img
+            alt="zep-icon-ecom-certified-ribbon"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-ecom-delivery-truck"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-ecom-delivery-truck.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-ecom-delivery-truck
+          </p>
+          <img
+            alt="zep-icon-ecom-delivery-truck"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
         aria-label="zep-icon-ecom-offer"
         class="makeStyles-container-4 makeStyles-button-21"
         download="zepicons-zep-icon-ecom-offer.svg"
@@ -5136,6 +6599,53 @@ Object {
           </p>
           <img
             alt="zep-icon-ecom-offer"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-ecom-receipt-slip"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-ecom-receipt-slip.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-ecom-receipt-slip
+          </p>
+          <img
+            alt="zep-icon-ecom-receipt-slip"
             class="makeStyles-img-10"
             src="test-file-stub"
           />
@@ -5192,6 +6702,194 @@ Object {
           </p>
           <img
             alt="zep-icon-essential-add"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-alarm-bell"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-alarm-bell.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-alarm-bell
+          </p>
+          <img
+            alt="zep-icon-essential-alarm-bell"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-alert-triangle"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-alert-triangle.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-alert-triangle
+          </p>
+          <img
+            alt="zep-icon-essential-alert-triangle"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-avatar-check"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-avatar-check.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-avatar-check
+          </p>
+          <img
+            alt="zep-icon-essential-avatar-check"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-avatar-remove"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-avatar-remove.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-avatar-remove
+          </p>
+          <img
+            alt="zep-icon-essential-avatar-remove"
             class="makeStyles-img-10"
             src="test-file-stub"
           />
@@ -5427,6 +7125,100 @@ Object {
           </p>
           <img
             alt="zep-icon-essential-close-mini"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-cookie"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-cookie.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-cookie
+          </p>
+          <img
+            alt="zep-icon-essential-cookie"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-dashboard"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-dashboard.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-dashboard
+          </p>
+          <img
+            alt="zep-icon-essential-dashboard"
             class="makeStyles-img-10"
             src="test-file-stub"
           />
@@ -5715,6 +7507,147 @@ Object {
         </div>
       </a>
       <a
+        aria-label="zep-icon-essential-hide"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-hide.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-hide
+          </p>
+          <img
+            alt="zep-icon-essential-hide"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-home-filled"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-home-filled.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-home-filled
+          </p>
+          <img
+            alt="zep-icon-essential-home-filled"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-home"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-home.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-home
+          </p>
+          <img
+            alt="zep-icon-essential-home"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
         aria-label="zep-icon-essential-info"
         class="makeStyles-container-4 makeStyles-button-21"
         download="zepicons-zep-icon-essential-info.svg"
@@ -5903,6 +7836,53 @@ Object {
         </div>
       </a>
       <a
+        aria-label="zep-icon-essential-low-speed"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-low-speed.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-low-speed
+          </p>
+          <img
+            alt="zep-icon-essential-low-speed"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
         aria-label="zep-icon-essential-menu"
         class="makeStyles-container-4 makeStyles-button-21"
         download="zepicons-zep-icon-essential-menu.svg"
@@ -6038,6 +8018,53 @@ Object {
           </p>
           <img
             alt="zep-icon-essential-print"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-question-circle"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-question-circle.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-question-circle
+          </p>
+          <img
+            alt="zep-icon-essential-question-circle"
             class="makeStyles-img-10"
             src="test-file-stub"
           />
@@ -6273,6 +8300,147 @@ Object {
           </p>
           <img
             alt="zep-icon-essential-sort"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-star-filled"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-star-filled.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-star-filled
+          </p>
+          <img
+            alt="zep-icon-essential-star-filled"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-star"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-star.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-star
+          </p>
+          <img
+            alt="zep-icon-essential-star"
+            class="makeStyles-img-10"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="zep-icon-essential-stopwatch"
+        class="makeStyles-container-4 makeStyles-button-21"
+        download="zepicons-zep-icon-essential-stopwatch.svg"
+        href="test-file-stub"
+        target="_blank"
+      >
+        <div
+          class="makeStyles-content-8"
+        >
+          <span
+            class="makeStyles-backdrop-5"
+          />
+          <span
+            class="makeStyles-backdropContent-6"
+          >
+            <svg
+              aria-labelledby="title_download"
+              class="makeStyles-icon-7"
+              height="32"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title
+                id="title_download"
+              >
+                download
+              </title>
+              <path
+                d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M19,10 L15,10 L15,4 L9,4 L9,10 L5,10 L12,17 L19,10 Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <p
+            class="makeStyles-name-9 zep-typo--body-small"
+          >
+            zep-icon-essential-stopwatch
+          </p>
+          <img
+            alt="zep-icon-essential-stopwatch"
             class="makeStyles-img-10"
             src="test-file-stub"
           />

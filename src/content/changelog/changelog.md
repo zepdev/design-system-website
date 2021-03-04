@@ -1,3 +1,31 @@
+## [3.2.1](https://github.com/zepdev/zeppelin-element-library/compare/v3.2.0...v3.2.1) (2021-03-04)
+
+### Bug Fixes
+
+- **icons:** forgot to build ([4a6e908](https://github.com/zepdev/zeppelin-element-library/commit/4a6e90839cf083de9af287e74e05716bcb25f211))
+
+# [3.2.0](https://github.com/zepdev/zeppelin-element-library/compare/v3.1.0...v3.2.0) (2021-03-04)
+
+### Bug Fixes
+
+- **icons:** change \_ to - ([bbb24d0](https://github.com/zepdev/zeppelin-element-library/commit/bbb24d0440db5e0153443628fbaca49a0cff0fb8))
+
+### Features
+
+- **icons:** new icons ([1307423](https://github.com/zepdev/zeppelin-element-library/commit/13074235d264897f6404971fa6aaf106dd6fdb62))
+
+# [3.1.0](https://github.com/zepdev/zeppelin-element-library/compare/v3.0.1...v3.1.0) (2021-02-22)
+
+### Features
+
+- **button:** add button--square modifier ([b2773ba](https://github.com/zepdev/zeppelin-element-library/commit/b2773ba5d552f7cdb1849dbd60887b8c822dafa5))
+
+## [3.0.1](https://github.com/zepdev/zeppelin-element-library/compare/v3.0.0...v3.0.1) (2021-02-22)
+
+### Bug Fixes
+
+- **bundle:** fix font path and remove zel.css from root ([0ca8e77](https://github.com/zepdev/zeppelin-element-library/commit/0ca8e77b61ac1a0c986d9cb7876f4314d3ff6344))
+
 # [3.0.0](https://github.com/zepdev/zeppelin-element-library/compare/v2.0.2...v3.0.0) (2020-12-18)
 
 ### Bug Fixes
