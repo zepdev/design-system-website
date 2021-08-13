@@ -42,6 +42,7 @@
     "react-cookie-consent": "^6.2.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "request": "^2.88.2",
     "zeppelin-element-library": "^3.3.3"
   },
   "scripts": {

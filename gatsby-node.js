@@ -11,6 +11,7 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const fs = require(`fs`)
+const request = require("request")
 
 exports.onPreInit = () => {
   request
