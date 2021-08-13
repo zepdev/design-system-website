@@ -2,7 +2,7 @@ import React from "react"
 import { render } from "../../../test-utils"
 import "@testing-library/jest-dom/extend-expect"
 import { ThemeProvider } from "@material-ui/styles"
-import theme from "../../../src/gatsby-theme-material-ui-top-layout/theme"
+import theme from "../../../src/theme"
 import Layout from "../Layout"
 import { StaticQuery } from "gatsby"
 

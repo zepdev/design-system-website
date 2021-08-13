@@ -113,7 +113,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             >
               <div
                 aria-expanded="false"
-                class="MuiAutocomplete-root-30"
+                class="MuiAutocomplete-root css-1kpdewa-MuiAutocomplete-root"
                 role="combobox"
               >
                 <div>
@@ -121,20 +121,20 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                     abel="Search box"
                     aria-autocomplete="list"
                     autocapitalize="none"
-                    class="MuiInputBase-root-64 MuiOutlinedInput-root-52 MuiAutocomplete-input-37 MuiAutocomplete-inputFocused-38 MuiInputBase-adornedEnd-67 MuiOutlinedInput-adornedEnd-55"
+                    class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-adornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-10so157-MuiInputBase-root-MuiOutlinedInput-root"
                     spellcheck="false"
                     style="border-radius: 0;"
                     variant="outlined"
                   >
                     <input
                       autocomplete="off"
-                      class="MuiInputBase-input-73 MuiOutlinedInput-input-59 MuiInputBase-inputAdornedEnd-78 MuiOutlinedInput-inputAdornedEnd-63"
+                      class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
                       id="combo-box1"
                       type="text"
                       value=""
                     />
                     <div
-                      class="MuiInputAdornment-root-80 MuiInputAdornment-positionEnd-83"
+                      class="MuiInputAdornment-root MuiInputAdornment-positionEnd css-1laqsz7-MuiInputAdornment-root"
                     >
                       <svg
                         aria-hidden="true"
@@ -155,14 +155,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                     </div>
                     <fieldset
                       aria-hidden="true"
-                      class="PrivateNotchedOutline-root-87 MuiOutlinedInput-notchedOutline-58"
-                      style="padding-left: 8px;"
+                      class="MuiOutlinedInput-notchedOutline css-1o2jng6-MuiOutlinedInput-notchedOutline"
                     >
                       <legend
-                        class="PrivateNotchedOutline-legend-88"
-                        style="width: 0.01px;"
+                        class="css-1br1jja"
                       >
-                        <span>
+                        <span
+                          class="notranslate"
+                        >
                           ​
                         </span>
                       </legend>
@@ -174,34 +174,30 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
             <button
               aria-controls="simple-menu"
               aria-haspopup="true"
-              class="MuiButtonBase-root-99 MuiIconButton-root-91"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
               data-testid="themeButton"
               tabindex="0"
               type="button"
             >
-              <span
-                class="MuiIconButton-label-98"
+              <svg
+                aria-hidden="true"
+                class="makeStyles-icon-29"
+                data-testid="ZepIconEssentialSettingsIcon"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
               >
-                <svg
-                  aria-hidden="true"
-                  class="makeStyles-icon-29"
-                  data-testid="ZepIconEssentialSettingsIcon"
-                  focusable="false"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  width="24"
-                >
-                  <path
-                    d="M16.0755 2.1756a2.2576 2.2576 0 011.3927 2.0328l-.0023.1674-.0592 1.1664a1.0067 1.0067 0 00.9327 1.0547l.1206.0014 1.1676-.0592a2.2575 2.2575 0 011.7516 3.8057l-.1272.1243-.868.783a1.0083 1.0083 0 00-.0853 1.4097l.085.0866.8686.7837a2.2575 2.2575 0 01-1.4607 3.932l-.1674-.0024-1.1671-.0592a1.0067 1.0067 0 00-1.056.936l-.001.1215.0593 1.1705a2.2575 2.2575 0 01-1.391 2.186 2.258 2.258 0 01-2.4071-.4378l-.125-.1263-.7844-.8677a1.0075 1.0075 0 00-1.4096-.0843l-.087.0855-.788.868a2.2575 2.2575 0 01-2.5323.5671 2.258 2.258 0 01-1.394-2.0257l.0015-.1674.06-1.1667a1.0067 1.0067 0 00-.936-1.056l-.1215-.001-1.1658.0591a2.2567 2.2567 0 01-1.7586-3.8027l.1272-.1245.8674-.7832a1.0083 1.0083 0 00.0844-1.4106l-.0855-.087-.8674-.7874a2.2567 2.2567 0 011.4584-3.9273l.1674.0019 1.1678.0592a1.0065 1.0065 0 001.0571-.9398l.0008-.1229-.0558-1.168a2.2575 2.2575 0 013.8014-1.7505l.1245.1266.7844.8662c.1907.2118.4623.3327.7473.3327.2443 0 .4787-.0889.6623-.2492l.0874-.0861.7866-.863a2.2575 2.2575 0 012.5392-.5721zM14.553 3.4987l-.091.089-.786.8623a2.2558 2.2558 0 01-3.2176.1371l-.1333-.1359-.7824-.864a1.0075 1.0075 0 00-1.7498.5986l-.002.126.0557 1.164a2.2567 2.2567 0 01-2.18 2.3762l-.1908-.002-1.1648-.059a1.0067 1.0067 0 00-.8123 1.6608l.088.0904.8664.7865a2.2583 2.2583 0 01.136 3.218l-.136.1338-.867.7829a1.0067 1.0067 0 00.6022 1.7503l.1267.0013 1.1662-.0592a2.2567 2.2567 0 012.3714 2.1789l-.0018.1907-.0598 1.1632a1.0075 1.0075 0 001.6609.8123l.0903-.0877.7864-.8662a2.2575 2.2575 0 013.2173-.1363l.1336.136.7815.8646a1.0075 1.0075 0 001.1289.2504 1.0076 1.0076 0 00.6186-.847l.0023-.1247-.0591-1.1662a2.2567 2.2567 0 012.1785-2.3714l.1906.0017 1.1668.0592a1.0075 1.0075 0 00.8154-1.663l-.0883-.0904-.8686-.7836a2.2583 2.2583 0 01-.1359-3.2182l.1362-.1338.8679-.783a1.0075 1.0075 0 00-.5981-1.752l-.1262-.0018-1.1679.0593a2.2567 2.2567 0 01-2.3653-2.1772l.0015-.1904.0592-1.1668a1.0075 1.0075 0 00-.6205-.982 1.0077 1.0077 0 00-1.044.1683zM12 7.6258c2.4162 0 4.375 1.9588 4.375 4.375 0 2.4163-1.9588 4.375-4.375 4.375s-4.375-1.9587-4.375-4.375c0-2.4162 1.9588-4.375 4.375-4.375zm0 1.25c-1.7259 0-3.125 1.3991-3.125 3.125 0 1.726 1.3991 3.125 3.125 3.125s3.125-1.399 3.125-3.125c0-1.7259-1.3991-3.125-3.125-3.125z"
-                    fill="#000"
-                    fill-opacity=".84"
-                    fill-rule="evenodd"
-                    transform="scale(Infinity, Infinity)"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M16.0755 2.1756a2.2576 2.2576 0 011.3927 2.0328l-.0023.1674-.0592 1.1664a1.0067 1.0067 0 00.9327 1.0547l.1206.0014 1.1676-.0592a2.2575 2.2575 0 011.7516 3.8057l-.1272.1243-.868.783a1.0083 1.0083 0 00-.0853 1.4097l.085.0866.8686.7837a2.2575 2.2575 0 01-1.4607 3.932l-.1674-.0024-1.1671-.0592a1.0067 1.0067 0 00-1.056.936l-.001.1215.0593 1.1705a2.2575 2.2575 0 01-1.391 2.186 2.258 2.258 0 01-2.4071-.4378l-.125-.1263-.7844-.8677a1.0075 1.0075 0 00-1.4096-.0843l-.087.0855-.788.868a2.2575 2.2575 0 01-2.5323.5671 2.258 2.258 0 01-1.394-2.0257l.0015-.1674.06-1.1667a1.0067 1.0067 0 00-.936-1.056l-.1215-.001-1.1658.0591a2.2567 2.2567 0 01-1.7586-3.8027l.1272-.1245.8674-.7832a1.0083 1.0083 0 00.0844-1.4106l-.0855-.087-.8674-.7874a2.2567 2.2567 0 011.4584-3.9273l.1674.0019 1.1678.0592a1.0065 1.0065 0 001.0571-.9398l.0008-.1229-.0558-1.168a2.2575 2.2575 0 013.8014-1.7505l.1245.1266.7844.8662c.1907.2118.4623.3327.7473.3327.2443 0 .4787-.0889.6623-.2492l.0874-.0861.7866-.863a2.2575 2.2575 0 012.5392-.5721zM14.553 3.4987l-.091.089-.786.8623a2.2558 2.2558 0 01-3.2176.1371l-.1333-.1359-.7824-.864a1.0075 1.0075 0 00-1.7498.5986l-.002.126.0557 1.164a2.2567 2.2567 0 01-2.18 2.3762l-.1908-.002-1.1648-.059a1.0067 1.0067 0 00-.8123 1.6608l.088.0904.8664.7865a2.2583 2.2583 0 01.136 3.218l-.136.1338-.867.7829a1.0067 1.0067 0 00.6022 1.7503l.1267.0013 1.1662-.0592a2.2567 2.2567 0 012.3714 2.1789l-.0018.1907-.0598 1.1632a1.0075 1.0075 0 001.6609.8123l.0903-.0877.7864-.8662a2.2575 2.2575 0 013.2173-.1363l.1336.136.7815.8646a1.0075 1.0075 0 001.1289.2504 1.0076 1.0076 0 00.6186-.847l.0023-.1247-.0591-1.1662a2.2567 2.2567 0 012.1785-2.3714l.1906.0017 1.1668.0592a1.0075 1.0075 0 00.8154-1.663l-.0883-.0904-.8686-.7836a2.2583 2.2583 0 01-.1359-3.2182l.1362-.1338.8679-.783a1.0075 1.0075 0 00-.5981-1.752l-.1262-.0018-1.1679.0593a2.2567 2.2567 0 01-2.3653-2.1772l.0015-.1904.0592-1.1668a1.0075 1.0075 0 00-.6205-.982 1.0077 1.0077 0 00-1.044.1683zM12 7.6258c2.4162 0 4.375 1.9588 4.375 4.375 0 2.4163-1.9588 4.375-4.375 4.375s-4.375-1.9587-4.375-4.375c0-2.4162 1.9588-4.375 4.375-4.375zm0 1.25c-1.7259 0-3.125 1.3991-3.125 3.125 0 1.726 1.3991 3.125 3.125 3.125s3.125-1.399 3.125-3.125c0-1.7259-1.3991-3.125-3.125-3.125z"
+                  fill="#000"
+                  fill-opacity=".84"
+                  fill-rule="evenodd"
+                  transform="scale(Infinity, Infinity)"
+                />
+              </svg>
               <span
-                class="MuiTouchRipple-root-112"
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
             </button>
           </div>
@@ -211,7 +207,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         >
           <div
             aria-expanded="false"
-            class="MuiAutocomplete-root-30"
+            class="MuiAutocomplete-root css-1kpdewa-MuiAutocomplete-root"
             role="combobox"
           >
             <div>
@@ -219,20 +215,20 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 abel="Search box"
                 aria-autocomplete="list"
                 autocapitalize="none"
-                class="MuiInputBase-root-64 MuiOutlinedInput-root-52 MuiAutocomplete-input-37 MuiAutocomplete-inputFocused-38 MuiInputBase-adornedEnd-67 MuiOutlinedInput-adornedEnd-55"
+                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-adornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-10so157-MuiInputBase-root-MuiOutlinedInput-root"
                 spellcheck="false"
                 style="border-radius: 0; width: 100%;"
                 variant="outlined"
               >
                 <input
                   autocomplete="off"
-                  class="MuiInputBase-input-73 MuiOutlinedInput-input-59 MuiInputBase-inputAdornedEnd-78 MuiOutlinedInput-inputAdornedEnd-63"
+                  class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
                   id="combo-box-mobile"
                   type="text"
                   value=""
                 />
                 <div
-                  class="MuiInputAdornment-root-80 MuiInputAdornment-positionEnd-83"
+                  class="MuiInputAdornment-root MuiInputAdornment-positionEnd css-1laqsz7-MuiInputAdornment-root"
                 >
                   <svg
                     aria-hidden="true"
@@ -253,14 +249,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                 </div>
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-87 MuiOutlinedInput-notchedOutline-58"
-                  style="padding-left: 8px;"
+                  class="MuiOutlinedInput-notchedOutline css-1o2jng6-MuiOutlinedInput-notchedOutline"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-88"
-                    style="width: 0.01px;"
+                    class="css-1br1jja"
                   >
-                    <span>
+                    <span
+                      class="notranslate"
+                    >
                       ​
                     </span>
                   </legend>
@@ -322,18 +318,18 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
         </div>
         <footer>
           <div
-            class="makeStyles-root-104"
+            class="makeStyles-root-30"
           >
             <div>
               <div
-                class="makeStyles-container-105"
+                class="makeStyles-container-31"
               >
                 <div
-                  class="makeStyles-containerLinks-106"
+                  class="makeStyles-containerLinks-32"
                 >
                   <svg
                     aria-labelledby="title_footerLogo"
-                    class="makeStyles-logo-108"
+                    class="makeStyles-logo-34"
                     height="32"
                     viewBox="0 0 119.1 19.1"
                     width="32"
@@ -412,30 +408,30 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                     />
                   </svg>
                   <a
-                    class="zep-typo--normal-body2 makeStyles-link-109"
+                    class="zep-typo--normal-body2 makeStyles-link-35"
                     href="/content/privacy/"
                   >
                     Privacy Policy
                   </a>
                   <a
-                    class="zep-typo--normal-body2 makeStyles-link-109"
+                    class="zep-typo--normal-body2 makeStyles-link-35"
                     href="/content/legal/"
                   >
                     Terms & Conditions
                   </a>
                 </div>
                 <div
-                  class="makeStyles-containerIcons-107"
+                  class="makeStyles-containerIcons-33"
                 >
                   <a
-                    class="makeStyles-button-111"
+                    class="makeStyles-button-37"
                     href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
                     rel="noopener"
                     target="_blank"
                   >
                     <svg
                       aria-labelledby="title_linkedin"
-                      class="makeStyles-icon-110"
+                      class="makeStyles-icon-36"
                       height="32"
                       viewBox="0 0 24 24"
                       width="32"
@@ -453,14 +449,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                     </svg>
                   </a>
                   <a
-                    class="makeStyles-button-111"
+                    class="makeStyles-button-37"
                     href="https://www.xing.com/company/zeppelinkonzern"
                     rel="noopener"
                     target="_blank"
                   >
                     <svg
                       aria-labelledby="title_xing"
-                      class="makeStyles-icon-110"
+                      class="makeStyles-icon-36"
                       height="32"
                       viewBox="0 0 24 24"
                       width="32"
@@ -478,14 +474,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                     </svg>
                   </a>
                   <a
-                    class="makeStyles-button-111"
+                    class="makeStyles-button-37"
                     href="https://twitter.com/Zeppelin_Group"
                     rel="noopener"
                     target="_blank"
                   >
                     <svg
                       aria-labelledby="title_twitter"
-                      class="makeStyles-icon-110"
+                      class="makeStyles-icon-36"
                       height="32"
                       viewBox="0 0 24 24"
                       width="32"
@@ -511,28 +507,31 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
     </div>
     <div
       aria-hidden="true"
-      class="MuiPopover-root-102"
+      class="MuiModal-root MuiModal-hidden MuiPopover-root MuiMenu-root css-6f6ff7-MuiModal-root-MuiPopover-root-MuiMenu-root"
       id="simple-menu"
       role="presentation"
-      style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px; visibility: hidden;"
     >
+      <div
+        aria-hidden="true"
+        class="MuiBackdrop-root MuiBackdrop-invisible css-g3hgs1-MuiBackdrop-root-MuiModal-backdrop"
+        style="opacity: 0; visibility: hidden;"
+      />
       <div
         data-test="sentinelStart"
         tabindex="0"
       />
       <div
-        class="MuiPaper-root-122 MuiMenu-paper-100 MuiPaper-elevation-125 MuiPopover-paper-103 MuiPaper-rounded-123 MuiPaper-elevation8-134"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiMenu-paper MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper"
         style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;"
         tabindex="-1"
       >
         <ul
-          class="MuiList-root-151 MuiMenu-list-101 MuiList-padding-152"
+          class="MuiList-root MuiList-padding MuiMenu-list css-6hp17o-MuiList-root-MuiMenu-list"
           role="menu"
           tabindex="-1"
         >
           <li
-            aria-disabled="false"
-            class="MuiButtonBase-root-99 MuiListItem-root-158 MuiMenuItem-root-155 zep-typo--body-default makeStyles-menuItem-28 MuiMenuItem-gutters-156 MuiListItem-gutters-163 MuiListItem-button-164"
+            class="MuiMenuItem-root MuiMenuItem-gutters MuiButtonBase-root zep-typo--body-default makeStyles-menuItem-28 css-ugni4g-MuiButtonBase-root-MuiMenuItem-root"
             data-testid="themeMenuItemindigo"
             role="menuitem"
             tabindex="0"
@@ -540,12 +539,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             indigo
             <span
-              class="MuiTouchRipple-root-112"
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
             />
           </li>
           <li
-            aria-disabled="false"
-            class="MuiButtonBase-root-99 MuiListItem-root-158 MuiMenuItem-root-155 zep-typo--body-default makeStyles-menuItem-28 MuiMenuItem-gutters-156 MuiListItem-gutters-163 MuiListItem-button-164"
+            class="MuiMenuItem-root MuiMenuItem-gutters MuiButtonBase-root zep-typo--body-default makeStyles-menuItem-28 css-ugni4g-MuiButtonBase-root-MuiMenuItem-root"
             data-testid="themeMenuItemyellow"
             role="menuitem"
             tabindex="-1"
@@ -553,12 +551,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             yellow
             <span
-              class="MuiTouchRipple-root-112"
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
             />
           </li>
           <li
-            aria-disabled="false"
-            class="MuiButtonBase-root-99 MuiListItem-root-158 MuiMenuItem-root-155 zep-typo--body-default makeStyles-menuItem-28 MuiMenuItem-gutters-156 MuiListItem-gutters-163 MuiListItem-button-164"
+            class="MuiMenuItem-root MuiMenuItem-gutters MuiButtonBase-root zep-typo--body-default makeStyles-menuItem-28 css-ugni4g-MuiButtonBase-root-MuiMenuItem-root"
             data-testid="themeMenuItemred"
             role="menuitem"
             tabindex="-1"
@@ -566,12 +563,11 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             red
             <span
-              class="MuiTouchRipple-root-112"
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
             />
           </li>
           <li
-            aria-disabled="false"
-            class="MuiButtonBase-root-99 MuiListItem-root-158 MuiMenuItem-root-155 zep-typo--body-default makeStyles-menuItem-28 MuiMenuItem-gutters-156 MuiListItem-gutters-163 MuiListItem-button-164"
+            class="MuiMenuItem-root MuiMenuItem-gutters MuiButtonBase-root zep-typo--body-default makeStyles-menuItem-28 css-ugni4g-MuiButtonBase-root-MuiMenuItem-root"
             data-testid="themeMenuItemblue"
             role="menuitem"
             tabindex="-1"
@@ -579,7 +575,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             blue
             <span
-              class="MuiTouchRipple-root-112"
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
             />
           </li>
         </ul>
@@ -699,7 +695,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           >
             <div
               aria-expanded="false"
-              class="MuiAutocomplete-root-30"
+              class="MuiAutocomplete-root css-1kpdewa-MuiAutocomplete-root"
               role="combobox"
             >
               <div>
@@ -707,20 +703,20 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   abel="Search box"
                   aria-autocomplete="list"
                   autocapitalize="none"
-                  class="MuiInputBase-root-64 MuiOutlinedInput-root-52 MuiAutocomplete-input-37 MuiAutocomplete-inputFocused-38 MuiInputBase-adornedEnd-67 MuiOutlinedInput-adornedEnd-55"
+                  class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-adornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-10so157-MuiInputBase-root-MuiOutlinedInput-root"
                   spellcheck="false"
                   style="border-radius: 0;"
                   variant="outlined"
                 >
                   <input
                     autocomplete="off"
-                    class="MuiInputBase-input-73 MuiOutlinedInput-input-59 MuiInputBase-inputAdornedEnd-78 MuiOutlinedInput-inputAdornedEnd-63"
+                    class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
                     id="combo-box1"
                     type="text"
                     value=""
                   />
                   <div
-                    class="MuiInputAdornment-root-80 MuiInputAdornment-positionEnd-83"
+                    class="MuiInputAdornment-root MuiInputAdornment-positionEnd css-1laqsz7-MuiInputAdornment-root"
                   >
                     <svg
                       aria-hidden="true"
@@ -741,14 +737,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   </div>
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-87 MuiOutlinedInput-notchedOutline-58"
-                    style="padding-left: 8px;"
+                    class="MuiOutlinedInput-notchedOutline css-1o2jng6-MuiOutlinedInput-notchedOutline"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-88"
-                      style="width: 0.01px;"
+                      class="css-1br1jja"
                     >
-                      <span>
+                      <span
+                        class="notranslate"
+                      >
                         ​
                       </span>
                     </legend>
@@ -760,34 +756,30 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
           <button
             aria-controls="simple-menu"
             aria-haspopup="true"
-            class="MuiButtonBase-root-99 MuiIconButton-root-91"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
             data-testid="themeButton"
             tabindex="0"
             type="button"
           >
-            <span
-              class="MuiIconButton-label-98"
+            <svg
+              aria-hidden="true"
+              class="makeStyles-icon-29"
+              data-testid="ZepIconEssentialSettingsIcon"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
             >
-              <svg
-                aria-hidden="true"
-                class="makeStyles-icon-29"
-                data-testid="ZepIconEssentialSettingsIcon"
-                focusable="false"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-              >
-                <path
-                  d="M16.0755 2.1756a2.2576 2.2576 0 011.3927 2.0328l-.0023.1674-.0592 1.1664a1.0067 1.0067 0 00.9327 1.0547l.1206.0014 1.1676-.0592a2.2575 2.2575 0 011.7516 3.8057l-.1272.1243-.868.783a1.0083 1.0083 0 00-.0853 1.4097l.085.0866.8686.7837a2.2575 2.2575 0 01-1.4607 3.932l-.1674-.0024-1.1671-.0592a1.0067 1.0067 0 00-1.056.936l-.001.1215.0593 1.1705a2.2575 2.2575 0 01-1.391 2.186 2.258 2.258 0 01-2.4071-.4378l-.125-.1263-.7844-.8677a1.0075 1.0075 0 00-1.4096-.0843l-.087.0855-.788.868a2.2575 2.2575 0 01-2.5323.5671 2.258 2.258 0 01-1.394-2.0257l.0015-.1674.06-1.1667a1.0067 1.0067 0 00-.936-1.056l-.1215-.001-1.1658.0591a2.2567 2.2567 0 01-1.7586-3.8027l.1272-.1245.8674-.7832a1.0083 1.0083 0 00.0844-1.4106l-.0855-.087-.8674-.7874a2.2567 2.2567 0 011.4584-3.9273l.1674.0019 1.1678.0592a1.0065 1.0065 0 001.0571-.9398l.0008-.1229-.0558-1.168a2.2575 2.2575 0 013.8014-1.7505l.1245.1266.7844.8662c.1907.2118.4623.3327.7473.3327.2443 0 .4787-.0889.6623-.2492l.0874-.0861.7866-.863a2.2575 2.2575 0 012.5392-.5721zM14.553 3.4987l-.091.089-.786.8623a2.2558 2.2558 0 01-3.2176.1371l-.1333-.1359-.7824-.864a1.0075 1.0075 0 00-1.7498.5986l-.002.126.0557 1.164a2.2567 2.2567 0 01-2.18 2.3762l-.1908-.002-1.1648-.059a1.0067 1.0067 0 00-.8123 1.6608l.088.0904.8664.7865a2.2583 2.2583 0 01.136 3.218l-.136.1338-.867.7829a1.0067 1.0067 0 00.6022 1.7503l.1267.0013 1.1662-.0592a2.2567 2.2567 0 012.3714 2.1789l-.0018.1907-.0598 1.1632a1.0075 1.0075 0 001.6609.8123l.0903-.0877.7864-.8662a2.2575 2.2575 0 013.2173-.1363l.1336.136.7815.8646a1.0075 1.0075 0 001.1289.2504 1.0076 1.0076 0 00.6186-.847l.0023-.1247-.0591-1.1662a2.2567 2.2567 0 012.1785-2.3714l.1906.0017 1.1668.0592a1.0075 1.0075 0 00.8154-1.663l-.0883-.0904-.8686-.7836a2.2583 2.2583 0 01-.1359-3.2182l.1362-.1338.8679-.783a1.0075 1.0075 0 00-.5981-1.752l-.1262-.0018-1.1679.0593a2.2567 2.2567 0 01-2.3653-2.1772l.0015-.1904.0592-1.1668a1.0075 1.0075 0 00-.6205-.982 1.0077 1.0077 0 00-1.044.1683zM12 7.6258c2.4162 0 4.375 1.9588 4.375 4.375 0 2.4163-1.9588 4.375-4.375 4.375s-4.375-1.9587-4.375-4.375c0-2.4162 1.9588-4.375 4.375-4.375zm0 1.25c-1.7259 0-3.125 1.3991-3.125 3.125 0 1.726 1.3991 3.125 3.125 3.125s3.125-1.399 3.125-3.125c0-1.7259-1.3991-3.125-3.125-3.125z"
-                  fill="#000"
-                  fill-opacity=".84"
-                  fill-rule="evenodd"
-                  transform="scale(Infinity, Infinity)"
-                />
-              </svg>
-            </span>
+              <path
+                d="M16.0755 2.1756a2.2576 2.2576 0 011.3927 2.0328l-.0023.1674-.0592 1.1664a1.0067 1.0067 0 00.9327 1.0547l.1206.0014 1.1676-.0592a2.2575 2.2575 0 011.7516 3.8057l-.1272.1243-.868.783a1.0083 1.0083 0 00-.0853 1.4097l.085.0866.8686.7837a2.2575 2.2575 0 01-1.4607 3.932l-.1674-.0024-1.1671-.0592a1.0067 1.0067 0 00-1.056.936l-.001.1215.0593 1.1705a2.2575 2.2575 0 01-1.391 2.186 2.258 2.258 0 01-2.4071-.4378l-.125-.1263-.7844-.8677a1.0075 1.0075 0 00-1.4096-.0843l-.087.0855-.788.868a2.2575 2.2575 0 01-2.5323.5671 2.258 2.258 0 01-1.394-2.0257l.0015-.1674.06-1.1667a1.0067 1.0067 0 00-.936-1.056l-.1215-.001-1.1658.0591a2.2567 2.2567 0 01-1.7586-3.8027l.1272-.1245.8674-.7832a1.0083 1.0083 0 00.0844-1.4106l-.0855-.087-.8674-.7874a2.2567 2.2567 0 011.4584-3.9273l.1674.0019 1.1678.0592a1.0065 1.0065 0 001.0571-.9398l.0008-.1229-.0558-1.168a2.2575 2.2575 0 013.8014-1.7505l.1245.1266.7844.8662c.1907.2118.4623.3327.7473.3327.2443 0 .4787-.0889.6623-.2492l.0874-.0861.7866-.863a2.2575 2.2575 0 012.5392-.5721zM14.553 3.4987l-.091.089-.786.8623a2.2558 2.2558 0 01-3.2176.1371l-.1333-.1359-.7824-.864a1.0075 1.0075 0 00-1.7498.5986l-.002.126.0557 1.164a2.2567 2.2567 0 01-2.18 2.3762l-.1908-.002-1.1648-.059a1.0067 1.0067 0 00-.8123 1.6608l.088.0904.8664.7865a2.2583 2.2583 0 01.136 3.218l-.136.1338-.867.7829a1.0067 1.0067 0 00.6022 1.7503l.1267.0013 1.1662-.0592a2.2567 2.2567 0 012.3714 2.1789l-.0018.1907-.0598 1.1632a1.0075 1.0075 0 001.6609.8123l.0903-.0877.7864-.8662a2.2575 2.2575 0 013.2173-.1363l.1336.136.7815.8646a1.0075 1.0075 0 001.1289.2504 1.0076 1.0076 0 00.6186-.847l.0023-.1247-.0591-1.1662a2.2567 2.2567 0 012.1785-2.3714l.1906.0017 1.1668.0592a1.0075 1.0075 0 00.8154-1.663l-.0883-.0904-.8686-.7836a2.2583 2.2583 0 01-.1359-3.2182l.1362-.1338.8679-.783a1.0075 1.0075 0 00-.5981-1.752l-.1262-.0018-1.1679.0593a2.2567 2.2567 0 01-2.3653-2.1772l.0015-.1904.0592-1.1668a1.0075 1.0075 0 00-.6205-.982 1.0077 1.0077 0 00-1.044.1683zM12 7.6258c2.4162 0 4.375 1.9588 4.375 4.375 0 2.4163-1.9588 4.375-4.375 4.375s-4.375-1.9587-4.375-4.375c0-2.4162 1.9588-4.375 4.375-4.375zm0 1.25c-1.7259 0-3.125 1.3991-3.125 3.125 0 1.726 1.3991 3.125 3.125 3.125s3.125-1.399 3.125-3.125c0-1.7259-1.3991-3.125-3.125-3.125z"
+                fill="#000"
+                fill-opacity=".84"
+                fill-rule="evenodd"
+                transform="scale(Infinity, Infinity)"
+              />
+            </svg>
             <span
-              class="MuiTouchRipple-root-112"
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
             />
           </button>
         </div>
@@ -797,7 +789,7 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
       >
         <div
           aria-expanded="false"
-          class="MuiAutocomplete-root-30"
+          class="MuiAutocomplete-root css-1kpdewa-MuiAutocomplete-root"
           role="combobox"
         >
           <div>
@@ -805,20 +797,20 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               abel="Search box"
               aria-autocomplete="list"
               autocapitalize="none"
-              class="MuiInputBase-root-64 MuiOutlinedInput-root-52 MuiAutocomplete-input-37 MuiAutocomplete-inputFocused-38 MuiInputBase-adornedEnd-67 MuiOutlinedInput-adornedEnd-55"
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-adornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-10so157-MuiInputBase-root-MuiOutlinedInput-root"
               spellcheck="false"
               style="border-radius: 0; width: 100%;"
               variant="outlined"
             >
               <input
                 autocomplete="off"
-                class="MuiInputBase-input-73 MuiOutlinedInput-input-59 MuiInputBase-inputAdornedEnd-78 MuiOutlinedInput-inputAdornedEnd-63"
+                class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
                 id="combo-box-mobile"
                 type="text"
                 value=""
               />
               <div
-                class="MuiInputAdornment-root-80 MuiInputAdornment-positionEnd-83"
+                class="MuiInputAdornment-root MuiInputAdornment-positionEnd css-1laqsz7-MuiInputAdornment-root"
               >
                 <svg
                   aria-hidden="true"
@@ -839,14 +831,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
               </div>
               <fieldset
                 aria-hidden="true"
-                class="PrivateNotchedOutline-root-87 MuiOutlinedInput-notchedOutline-58"
-                style="padding-left: 8px;"
+                class="MuiOutlinedInput-notchedOutline css-1o2jng6-MuiOutlinedInput-notchedOutline"
               >
                 <legend
-                  class="PrivateNotchedOutline-legend-88"
-                  style="width: 0.01px;"
+                  class="css-1br1jja"
                 >
-                  <span>
+                  <span
+                    class="notranslate"
+                  >
                     ​
                   </span>
                 </legend>
@@ -908,18 +900,18 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
       </div>
       <footer>
         <div
-          class="makeStyles-root-104"
+          class="makeStyles-root-30"
         >
           <div>
             <div
-              class="makeStyles-container-105"
+              class="makeStyles-container-31"
             >
               <div
-                class="makeStyles-containerLinks-106"
+                class="makeStyles-containerLinks-32"
               >
                 <svg
                   aria-labelledby="title_footerLogo"
-                  class="makeStyles-logo-108"
+                  class="makeStyles-logo-34"
                   height="32"
                   viewBox="0 0 119.1 19.1"
                   width="32"
@@ -998,30 +990,30 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   />
                 </svg>
                 <a
-                  class="zep-typo--normal-body2 makeStyles-link-109"
+                  class="zep-typo--normal-body2 makeStyles-link-35"
                   href="/content/privacy/"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  class="zep-typo--normal-body2 makeStyles-link-109"
+                  class="zep-typo--normal-body2 makeStyles-link-35"
                   href="/content/legal/"
                 >
                   Terms & Conditions
                 </a>
               </div>
               <div
-                class="makeStyles-containerIcons-107"
+                class="makeStyles-containerIcons-33"
               >
                 <a
-                  class="makeStyles-button-111"
+                  class="makeStyles-button-37"
                   href="https://www.linkedin.com/company/zeppelingroup/?originalSubdomain=de"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg
                     aria-labelledby="title_linkedin"
-                    class="makeStyles-icon-110"
+                    class="makeStyles-icon-36"
                     height="32"
                     viewBox="0 0 24 24"
                     width="32"
@@ -1039,14 +1031,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   </svg>
                 </a>
                 <a
-                  class="makeStyles-button-111"
+                  class="makeStyles-button-37"
                   href="https://www.xing.com/company/zeppelinkonzern"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg
                     aria-labelledby="title_xing"
-                    class="makeStyles-icon-110"
+                    class="makeStyles-icon-36"
                     height="32"
                     viewBox="0 0 24 24"
                     width="32"
@@ -1064,14 +1056,14 @@ c0,0.1,0.1,0.2,0.1,0.4L115.4,16.3L115.4,16.3z"
                   </svg>
                 </a>
                 <a
-                  class="makeStyles-button-111"
+                  class="makeStyles-button-37"
                   href="https://twitter.com/Zeppelin_Group"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg
                     aria-labelledby="title_twitter"
-                    class="makeStyles-icon-110"
+                    class="makeStyles-icon-36"
                     height="32"
                     viewBox="0 0 24 24"
                     width="32"

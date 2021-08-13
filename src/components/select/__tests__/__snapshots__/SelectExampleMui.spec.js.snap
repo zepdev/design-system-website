@@ -7,13 +7,14 @@ Object {
     <div>
       <div>
         <div
-          class="MuiInputBase-root MuiOutlinedInput-root"
+          class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiSelect-root css-1hmhrj4-MuiInputBase-root-MuiOutlinedInput-root"
           style="width: 300px; border-radius: 0;"
         >
           <div
+            aria-expanded="false"
             aria-haspopup="listbox"
             aria-labelledby="demo-mui-example mui-example"
-            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+            class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
             id="mui-example"
             role="button"
             tabindex="0"
@@ -22,13 +23,13 @@ Object {
           </div>
           <input
             aria-hidden="true"
-            class="MuiSelect-nativeInput"
+            class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
             tabindex="-1"
             value="value 1"
           />
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
             data-testid="ArrowDropDownIcon"
             focusable="false"
             viewBox="0 0 24 24"
@@ -39,14 +40,14 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
-            style="padding-left: 8px;"
+            class="MuiOutlinedInput-notchedOutline css-1o2jng6-MuiOutlinedInput-notchedOutline"
           >
             <legend
-              class="PrivateNotchedOutline-legend-2"
-              style="width: 0.01px;"
+              class="css-1br1jja"
             >
-              <span>
+              <span
+                class="notranslate"
+              >
                 ​
               </span>
             </legend>
@@ -64,13 +65,14 @@ Object {
   "container": <div>
     <div>
       <div
-        class="MuiInputBase-root MuiOutlinedInput-root"
+        class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiSelect-root css-1hmhrj4-MuiInputBase-root-MuiOutlinedInput-root"
         style="width: 300px; border-radius: 0;"
       >
         <div
+          aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="demo-mui-example mui-example"
-          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+          class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
           id="mui-example"
           role="button"
           tabindex="0"
@@ -79,13 +81,13 @@ Object {
         </div>
         <input
           aria-hidden="true"
-          class="MuiSelect-nativeInput"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
           tabindex="-1"
           value="value 1"
         />
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
           data-testid="ArrowDropDownIcon"
           focusable="false"
           viewBox="0 0 24 24"
@@ -96,14 +98,14 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
-          style="padding-left: 8px;"
+          class="MuiOutlinedInput-notchedOutline css-1o2jng6-MuiOutlinedInput-notchedOutline"
         >
           <legend
-            class="PrivateNotchedOutline-legend-2"
-            style="width: 0.01px;"
+            class="css-1br1jja"
           >
-            <span>
+            <span
+              class="notranslate"
+            >
               ​
             </span>
           </legend>
