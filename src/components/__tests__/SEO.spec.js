@@ -1,7 +1,7 @@
 import React from "react"
 import renderer from "react-test-renderer"
 import { ThemeProvider } from "@material-ui/styles"
-import theme from "../../../src/gatsby-theme-material-ui-top-layout/theme"
+import theme from "../../../src/theme"
 import SEO from "../SEO"
 import { StaticQuery } from "gatsby"
 

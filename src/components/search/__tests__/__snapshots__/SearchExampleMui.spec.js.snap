@@ -8,7 +8,7 @@ Object {
       <div>
         <div
           aria-expanded="false"
-          class="MuiAutocomplete-root"
+          class="MuiAutocomplete-root css-1kpdewa-MuiAutocomplete-root"
           role="combobox"
           style="width: 300px;"
         >
@@ -17,20 +17,20 @@ Object {
               abel="Search box"
               aria-autocomplete="list"
               autocapitalize="none"
-              class="MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-adornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-10so157-MuiInputBase-root-MuiOutlinedInput-root"
               spellcheck="false"
               style="border-radius: 0;"
               variant="outlined"
             >
               <input
                 autocomplete="off"
-                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
                 id="-example"
                 type="text"
                 value=""
               />
               <div
-                class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+                class="MuiInputAdornment-root MuiInputAdornment-positionEnd css-1laqsz7-MuiInputAdornment-root"
               >
                 <svg
                   aria-hidden="true"
@@ -51,14 +51,14 @@ Object {
               </div>
               <fieldset
                 aria-hidden="true"
-                class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
-                style="padding-left: 8px;"
+                class="MuiOutlinedInput-notchedOutline css-1o2jng6-MuiOutlinedInput-notchedOutline"
               >
                 <legend
-                  class="PrivateNotchedOutline-legend-2"
-                  style="width: 0.01px;"
+                  class="css-1br1jja"
                 >
-                  <span>
+                  <span
+                    class="notranslate"
+                  >
                     ​
                   </span>
                 </legend>
@@ -73,7 +73,7 @@ Object {
     <div>
       <div
         aria-expanded="false"
-        class="MuiAutocomplete-root"
+        class="MuiAutocomplete-root css-1kpdewa-MuiAutocomplete-root"
         role="combobox"
         style="width: 300px;"
       >
@@ -82,20 +82,20 @@ Object {
             abel="Search box"
             aria-autocomplete="list"
             autocapitalize="none"
-            class="MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-adornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-10so157-MuiInputBase-root-MuiOutlinedInput-root"
             spellcheck="false"
             style="border-radius: 0;"
             variant="outlined"
           >
             <input
               autocomplete="off"
-              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+              class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
               id="-example"
               type="text"
               value=""
             />
             <div
-              class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+              class="MuiInputAdornment-root MuiInputAdornment-positionEnd css-1laqsz7-MuiInputAdornment-root"
             >
               <svg
                 aria-hidden="true"
@@ -116,14 +116,14 @@ Object {
             </div>
             <fieldset
               aria-hidden="true"
-              class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
-              style="padding-left: 8px;"
+              class="MuiOutlinedInput-notchedOutline css-1o2jng6-MuiOutlinedInput-notchedOutline"
             >
               <legend
-                class="PrivateNotchedOutline-legend-2"
-                style="width: 0.01px;"
+                class="css-1br1jja"
               >
-                <span>
+                <span
+                  class="notranslate"
+                >
                   ​
                 </span>
               </legend>
