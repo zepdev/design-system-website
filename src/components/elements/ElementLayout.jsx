@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import Tabs from "@zlab-de/zel-react/Tabs"
 import Tab from "@zlab-de/zel-react/Tab"
 import ElementPreview from "./ElementPreview"

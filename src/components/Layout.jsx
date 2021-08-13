@@ -6,7 +6,7 @@ import { StaticQuery, graphql, Link } from "gatsby"
 import CookieConsent from "react-cookie-consent"
 import { MDXProvider } from "@mdx-js/react"
 import clsx from "clsx"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import Drawer from "@material-ui/core/Drawer"
 import Hidden from "@material-ui/core/Hidden"
 import Header from "./Header"
@@ -132,7 +132,7 @@ function Layout({ children }) {
   return (
     <StaticQuery
       query={graphql`
-        query($id: String) {
+        query ($id: String) {
           mdx(id: { eq: $id }) {
             id
             body

@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import clsx from "clsx"
 
 const useStyles = makeStyles(theme => ({
@@ -11,10 +11,11 @@ const useStyles = makeStyles(theme => ({
     outline: "none",
     cursor: "pointer",
     background: "transparent",
-    "&:hover, &:focus, &:active, &::focus:not(.focus-visible), &:active:focus": {
-      backgroundColor: "transparent",
-      outline: "none",
-    },
+    "&:hover, &:focus, &:active, &::focus:not(.focus-visible), &:active:focus":
+      {
+        backgroundColor: "transparent",
+        outline: "none",
+      },
   },
 }))
 

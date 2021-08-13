@@ -1,5 +1,5 @@
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import { logo } from "@zlab-de/zel-react/guidelines.json"
 // import { version as zelVersion } from "zeppelin-element-library/package.json"
 // import Accordion from "@material-ui/core/Accordion"

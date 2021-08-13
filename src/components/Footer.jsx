@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import clsx from "clsx"
 import ButtonBase from "./button/ButtonBase"
 import ZeppelinIcon from "./icons/ZeppelinIcon"

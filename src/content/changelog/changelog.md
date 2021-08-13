@@ -1,3 +1,25 @@
+# [3.3.0](https://github.com/zepdev/zeppelin-element-library/compare/v3.2.3...v3.3.0) (2021-08-13)
+
+### Bug Fixes
+
+- **globals:** remove global svg styles ([c351fc2](https://github.com/zepdev/zeppelin-element-library/commit/c351fc25157c987ac25d0fee0f11e6cb89ca4510))
+
+### Features
+
+- **icons:** new icons heart, layout, lock ([397460c](https://github.com/zepdev/zeppelin-element-library/commit/397460cb89f5b7ebafd76272e64a801280be4a45))
+
+## [3.2.3](https://github.com/zepdev/zeppelin-element-library/compare/v3.2.2...v3.2.3) (2021-03-05)
+
+### Bug Fixes
+
+- **bundle:** change files in package.json ([80b5eee](https://github.com/zepdev/zeppelin-element-library/commit/80b5eee2d568bfc980b7c42b873ca7f6189bda31))
+
+## [3.2.2](https://github.com/zepdev/zeppelin-element-library/compare/v3.2.1...v3.2.2) (2021-03-05)
+
+### Bug Fixes
+
+- **bundle:** create and deliver scss copy of zel.css for zeppelin.com use case ([4f8d583](https://github.com/zepdev/zeppelin-element-library/commit/4f8d58329f70cc4553d64583206204ae4a20b62f))
+
 ## [3.2.1](https://github.com/zepdev/zeppelin-element-library/compare/v3.2.0...v3.2.1) (2021-03-04)
 
 ### Bug Fixes

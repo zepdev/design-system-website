@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from "react"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import Swatch from "../swatch/Swatch"
 import Tabs from "@zlab-de/zel-react/Tabs"
 import Tab from "@zlab-de/zel-react/Tab"

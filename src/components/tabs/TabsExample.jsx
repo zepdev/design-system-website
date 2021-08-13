@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Tabs from "@zlab-de/zel-react/Tabs"
 import Tab from "@zlab-de/zel-react/Tab"
 import ZepIconEssentialStar from "@zlab-de/zel-react-icons/ZepIconEssentialStar"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 
 const useStyles = makeStyles(theme => ({
   container: {

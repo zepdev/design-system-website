@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React, { useState, Fragment } from "react"
 import clsx from "clsx"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import ButtonBase from "../button/ButtonBase"
 import DownloadIcon from "../icons/DownloadIcon"
 import DownloadContainer from "../download/DownloadContainer"
