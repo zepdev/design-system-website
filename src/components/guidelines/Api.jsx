@@ -1,6 +1,6 @@
 /* eslint max-len: ["error", { "code": 140 }] */
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import TreeView from "@material-ui/lab/TreeView"
 import TreeItem from "@material-ui/lab/TreeItem"
 import ZepIconArrowChevronRight from "@zlab-de/zel-react-icons/ZepIconArrowChevronRight"

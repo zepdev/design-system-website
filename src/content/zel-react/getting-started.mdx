@@ -40,7 +40,7 @@ Full Example with recommended MUI theme
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { ThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/styles";
 import theme from 'theme'
 
 const rootElement = document.getElementById("root");
@@ -52,7 +52,7 @@ ReactDOM.render(
 );
 
 // theme.js
-import { createMuiTheme } from '@material-ui/core/styles'
+import { createMuiTheme } from '@material-ui/styles'
 import guidelines from '@zlab-de/zel-react/guidelines.json'
 import '@zlab-de/zel-react/zel.css'
 import './baseline.css'
@@ -100,7 +100,7 @@ export default function App() {
 
 // MyComponent.js
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/styles'
 
 const useStyles = makeStyles((theme) => ({
   p: {
@@ -174,7 +174,7 @@ export default function App() {
 
 // MyComponent.js
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/styles'
 
 const useStyles = makeStyles(theme => ({
   p: {

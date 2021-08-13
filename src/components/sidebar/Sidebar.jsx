@@ -1,5 +1,5 @@
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import navigation from "../../data/navigation.json"
 import SidebarNavItem from "./SidebarNavItem.jsx"
 

@@ -123,7 +123,8 @@ module.exports = {
         icon: `src/assets/images/zeppelin_icon.png`, // This path is relative to the root of the site.
       },
     },
-    "gatsby-theme-material-ui",
+    "gatsby-plugin-top-layout",
+    "gatsby-plugin-emotion",
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
   ],

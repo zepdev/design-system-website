@@ -1,6 +1,6 @@
 import React, { Fragment } from "react"
 import PropTypes from "prop-types"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import Headline from "../typography/Headline"
 import CodeBlock from "../code/CodeBlock"
 import CodeUsage from "../code/CodeUsage"

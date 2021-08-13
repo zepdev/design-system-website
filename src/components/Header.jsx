@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { Link, navigate } from "gatsby"
-import { makeStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/styles"
 import clsx from "clsx"
 import Hidden from "@material-ui/core/Hidden"
 import OutlinedInput from "@material-ui/core/OutlinedInput"
