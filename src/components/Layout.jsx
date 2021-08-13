@@ -132,7 +132,7 @@ function Layout({ children }) {
   return (
     <StaticQuery
       query={graphql`
-        query($id: String) {
+        query ($id: String) {
           mdx(id: { eq: $id }) {
             id
             body

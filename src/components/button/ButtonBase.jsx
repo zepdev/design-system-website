@@ -11,10 +11,11 @@ const useStyles = makeStyles(theme => ({
     outline: "none",
     cursor: "pointer",
     background: "transparent",
-    "&:hover, &:focus, &:active, &::focus:not(.focus-visible), &:active:focus": {
-      backgroundColor: "transparent",
-      outline: "none",
-    },
+    "&:hover, &:focus, &:active, &::focus:not(.focus-visible), &:active:focus":
+      {
+        backgroundColor: "transparent",
+        outline: "none",
+      },
   },
 }))
 

@@ -18,7 +18,7 @@
     "@mdx-js/react": "^1.6.22",
     "@reach/skip-nav": "^0.12.1",
     "@zlab-de/zel-react": "^2.0.6",
-    "@zlab-de/zel-react-icons": "^2.0.2",
+    "@zlab-de/zel-react-icons": "^2.0.3",
     "clsx": "^1.1.1",
     "gatsby": "^2.29.1",
     "gatsby-image": "^2.8.0",
