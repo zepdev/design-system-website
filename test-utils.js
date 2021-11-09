@@ -1,10 +1,17 @@
 import React from "react"
 import { render } from "@testing-library/react"
-import { ThemeProvider } from "@material-ui/core/styles"
-import theme from "./src/theme"
+import { ThemeProvider } from "my-ui-lib"
+import { TranslationProvider } from "my-i18n-lib"
+import defaultStrings from "i18n/en-x-default"
 
 const AllTheProviders = ({ children }) => {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>
+  return (
+    <ThemeProvider theme="light">
+      <TranslationProvider messages={defaultStrings}>
+        {children}
+      </TranslationProvider>
+    </ThemeProvider>
+  )
 }
 
 const customRender = (ui, options) =>

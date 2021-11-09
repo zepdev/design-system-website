@@ -98,6 +98,7 @@ const useStyles = makeStyles(theme => ({
   img: {
     width: 32,
     height: 32,
+    fill: "#000",
     position: "absolute",
     top: "50%",
     left: "50%",
@@ -204,32 +205,33 @@ function IconsSection() {
               <Headline variant="md">{sections[section].title}</Headline>
               <div className={classes.root}>
                 {iconography[section].map(elem => (
-                  <ButtonBase
-                    className={classes.container}
-                    key={`icon${elem}`}
-                    target="_blank"
-                    href={require(`zeppelin-element-library/assets/icons/SVG/${elem}.svg`)}
-                    download={`zepicons-${elem}.svg`}
-                    aria-label={elem}
-                  >
-                    <div className={classes.content}>
-                      <span className={classes.backdrop} />
-                      <span className={classes.backdropContent}>
-                        <DownloadIcon
-                          className={classes.icon}
-                          ariaLabel="download"
-                        />
-                      </span>
-                      <p className={clsx(classes.name, "zep-typo--body-small")}>
-                        {elem}
-                      </p>
-                      <img
-                        src={require(`zeppelin-element-library/assets/icons/SVG/${elem}.svg`)}
-                        alt={elem}
-                        className={classes.img}
-                      />
-                    </div>
-                  </ButtonBase>
+                  // <ButtonBase
+                  //   className={classes.container}
+                  //   key={`icon${elem}`}
+                  //   target="_blank"
+                  //   href={require(`zeppelin-element-library/assets/icons/SVG/${elem}.svg`)}
+                  //   download={`zepicons-${elem}.svg`}
+                  //   aria-label={elem}
+                  // >
+                  //   <div className={classes.content}>
+                  //     <span className={classes.backdrop} />
+                  //     <span className={classes.backdropContent}>
+                  //       <DownloadIcon
+                  //         className={classes.icon}
+                  //         ariaLabel="download"
+                  //       />
+                  //     </span>
+                  //     <p className={clsx(classes.name, "zep-typo--body-small")}>
+                  //       {elem}
+                  //     </p>
+                  <div style={{ width: 50, height: 50 }}>
+                    <img
+                      src={require(`zeppelin-element-library/assets/icons/SVG/${elem}.svg`)}
+                      alt={elem}
+                    />
+                  </div>
+                  //   </div>
+                  // </ButtonBase>
                 ))}
               </div>
             </Fragment>
