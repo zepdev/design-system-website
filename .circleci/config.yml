@@ -88,6 +88,9 @@ jobs:
 workflows:
   test_build_deploy:
     jobs:
+      - sonarcloud:
+          context: zds
+      - build
       - deploy: # deployment step only for development environment
           bucket: com.zeppelin.zds.website.dev
           cloudfront_distribution: ET351YZOMAVPH
