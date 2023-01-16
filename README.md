@@ -3,7 +3,7 @@
     <img alt="Zeppelin" src="./src/assets/images/zep-logo-new.svg" width="200"/>
 </p>
 <h1 align="center">
-  Zeppelin Design System
+  Zeppelin Design System 
 </h1>
 
 <span align="center">
