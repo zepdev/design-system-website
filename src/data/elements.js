@@ -435,6 +435,7 @@ module.exports = {
       "zep-icon-essential-close",
       "zep-icon-essential-close-mini",
       "zep-icon-essential-cookie",
+      "zep-icon-essential-configurator",
       "zep-icon-essential-dashboard",
       "zep-icon-essential-delete",
       "zep-icon-essential-download",

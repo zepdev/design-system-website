@@ -98,6 +98,7 @@ const useStyles = makeStyles(theme => ({
   img: {
     width: 32,
     height: 32,
+    fill: "#000",
     position: "absolute",
     top: "50%",
     left: "50%",
@@ -223,11 +224,12 @@ function IconsSection() {
                       <p className={clsx(classes.name, "zep-typo--body-small")}>
                         {elem}
                       </p>
-                      <img
-                        src={require(`zeppelin-element-library/assets/icons/SVG/${elem}.svg`)}
-                        alt={elem}
-                        className={classes.img}
-                      />
+                      <div style={{ width: 50, height: 50 }}>
+                        <img
+                          src={require(`zeppelin-element-library/assets/icons/SVG/${elem}.svg`)}
+                          alt={elem}
+                        />
+                      </div>
                     </div>
                   </ButtonBase>
                 ))}

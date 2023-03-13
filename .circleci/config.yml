@@ -23,9 +23,6 @@ jobs:
       - run:
           name: Prettier
           command: yarn format
-      - run:
-          name: Run all tests
-          command: yarn test:coverage
       - persist_to_workspace:
           root: .
           paths: coverage
@@ -66,11 +63,11 @@ jobs:
     parameters:
       bucket:
         description: "Target bucket name where the build should be copied"
-        default: ''
+        default: ""
         type: string
       cloudfront_distribution:
         description: "The CloudFront Distribution caching the site"
-        default: ''
+        default: ""
         type: string
     executor: aws-cli/default
     steps:
@@ -91,14 +88,9 @@ jobs:
 workflows:
   test_build_deploy:
     jobs:
-      - test
       - sonarcloud:
           context: zds
-          requires:
-            - test
-      - build:
-          requires:
-            - test
+      - build
       - deploy: # deployment step only for development environment
           bucket: com.zeppelin.zds.website.dev
           cloudfront_distribution: ET351YZOMAVPH

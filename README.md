@@ -3,8 +3,9 @@
     <img alt="Zeppelin" src="./src/assets/images/zep-logo-new.svg" width="200"/>
 </p>
 <h1 align="center">
-  Zeppelin Design System
+  Zeppelin Design System (Legacy)
 </h1>
+<h2 align="center">⚠️ This Design System is deprecated and will be removed in 2024 ⚠️<h2>
 
 <span align="center">
 

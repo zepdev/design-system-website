@@ -1,10 +1,9 @@
 import React from "react"
 import { render } from "@testing-library/react"
-import { ThemeProvider } from "@material-ui/core/styles"
-import theme from "./src/theme"
+import { ThemeProvider } from "@material-ui/core"
 
 const AllTheProviders = ({ children }) => {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>
+  return <ThemeProvider theme="light">{children}</ThemeProvider>
 }
 
 const customRender = (ui, options) =>
