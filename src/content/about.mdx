@@ -1,27 +1,37 @@
 ---
-path: '/'
+path: "/"
 title: Homepage
 ---
 
-import DownloadFile from '../components/download/DownloadFile.jsx'
-import DocumentLink from '../components/link/DocumentLink.jsx'
-import Notification from '@zlab-de/zel-react/Notification'
+import DownloadFile from "../components/download/DownloadFile.jsx"
+import DocumentLink from "../components/link/DocumentLink.jsx"
+import Notification from "@zlab-de/zel-react/Notification"
 import List from "@zlab-de/zel-react/List"
-import ListItem from '@zlab-de/zel-react/ListItem'
+import ListItem from "@zlab-de/zel-react/ListItem"
 import Button from "@zlab-de/zel-react/Button"
 
+<h1 style={{ textAlign: "center" }}>Zeppelin Design System (Legacy)</h1>
 
-<h1 style={{textAlign: 'center'}}> Zeppelin Design System </h1>
+<h2 style={{ textAlign: "center" }}>
+  ⚠️ This Design System is deprecated and no longer maintained. npm packges will
+  stay available, but please make sure to opt out until 2025 ⚠️
+</h2>
 
-<p style={{textAlign: 'center'}}>An online living style guide for Zeppelin Group</p>
+<p style={{ textAlign: "center" }}>
+  An online living style guide for Zeppelin Group
+</p>
 
 ### We want to make it easy for you to create Zeppelin Products!
 
-<List style={{marginBottom: 30}}>
-<ListItem>Style Guides help establish consistency across all Zeppelin Products</ListItem>
-<ListItem>Style Guides help Designers and Developers become more efficient by sharing work</ListItem>
+<List style={{ marginBottom: 30 }}>
+  <ListItem>
+    Style Guides help establish consistency across all Zeppelin Products
+  </ListItem>
+  <ListItem>
+    Style Guides help Designers and Developers become more efficient by sharing
+    work
+  </ListItem>
 </List>
-
 
 <Notification variant="danger" style={{ margin: 45 }}>
   Breaking changes in version 1!
@@ -29,27 +39,27 @@ import Button from "@zlab-de/zel-react/Button"
 
 This website contains documentation for version 1 of the Zeppelin Design System. We are currently working on updating many of our guidelines and components so please expect many breaking changes. The documentation for version 0 can still be found [here](https://v0-zds.zepdev.net/)
 
-<div style={{textAlign: 'center'}} >
-  <a  href="https://github.com/zepdev/design-system-website/issues" target="_blank" rel="noopener noreferrer">
-<Button variant="primary">
-  Contact us on Github!
-  </Button>
+<div style={{ textAlign: "center" }}>
+  <a
+    href="https://github.com/zepdev/design-system-website/issues"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="primary">Contact us on Github!</Button>
   </a>
 </div>
 
-
 <Notification variant="info" style={{ margin: 45 }}>
-  We would love your feedback! Please submit an issue on github for ideas, comments, or problems!
+  We would love your feedback! Please submit an issue on github for ideas,
+  comments, or problems!
 </Notification>
 
 <Notification variant="info" style={{ margin: 45 }}>
-  Angular user? Please feel free to contact us if you want to help make a @zlab-de/zel-angular component library!
+  Angular user? Please feel free to contact us if you want to help make a
+  @zlab-de/zel-angular component library!
 </Notification>
-
 
 ---
-
-
 
 ### Who is this site is for?
 
@@ -61,42 +71,41 @@ We want all Zeppelin products to look like they belong to the same brand to crea
 
 ### What can I find here?
 
-This website has basic information about Zeppelin brand styles under the Guidelines section, such as colors, typography, and icons. In the elements section, you can find detailed information about how the Zeppelin styles are integrated into different elements (such as buttons, tabs, and forms). Each element contains information and examples on how designers and developers can apply our styles. The element section also contains code examples for developers using html, react and vue.  
+This website has basic information about Zeppelin brand styles under the Guidelines section, such as colors, typography, and icons. In the elements section, you can find detailed information about how the Zeppelin styles are integrated into different elements (such as buttons, tabs, and forms). Each element contains information and examples on how designers and developers can apply our styles. The element section also contains code examples for developers using html, react and vue.
 
 ### **Designers**
 
 The Zeppelin Sketch library: Designers can view designs and download premade sketch files for rapid prototyping and more efficient work flows. Using the Zeppelin Design System sketch files allows designers to focus more time on designing and less time rebuilding individual elements.
 
-<div style={{display: 'flex', flexWrap: "wrap" ,justifyContent: "space-around"}}> 
-<DocumentLink
-  to={'/content/download/'}
-  text="Download Now"
-/>
-<DocumentLink
-  to={'/content/getting-started/designers'}
-  text="Get Started"
-/>
+<div
+  style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }}
+>
+  <DocumentLink to={"/content/download/"} text="Download Now" />
+  <DocumentLink to={"/content/getting-started/designers"} text="Get Started" />
 </div>
 
 ### **Developers**
 
 Developers can focus on coding complex functions and less on time writing out duplicate css code. There are 3 npm projects to help developers;
 
-<List style={{marginBottom: 30}} variant="attribute">
-<ListItem label="zeppelin-element-library"> Css file that is the core of the Zeppelin Design System</ListItem>
-<ListItem label="@zlab-de/zel-react">A React component library build using the zeppelin-element-library</ListItem>
-<ListItem label="@zlab-de/zel-vue">A Vue component library build using the zeppelin-element-library</ListItem>
+<List style={{ marginBottom: 30 }} variant="attribute">
+  <ListItem label="zeppelin-element-library">
+    {" "}
+    Css file that is the core of the Zeppelin Design System
+  </ListItem>
+  <ListItem label="@zlab-de/zel-react">
+    A React component library build using the zeppelin-element-library
+  </ListItem>
+  <ListItem label="@zlab-de/zel-vue">
+    A Vue component library build using the zeppelin-element-library
+  </ListItem>
 </List>
 
-<div style={{display: 'flex', flexWrap: "wrap",justifyContent: "space-around"}}> 
-<DocumentLink
-  to={'/content/download/'}
-  text="Download Now"
-/>
-<DocumentLink
-  to={'/content/getting-started/developers'}
-  text="Get Started"
-/>
+<div
+  style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }}
+>
+  <DocumentLink to={"/content/download/"} text="Download Now" />
+  <DocumentLink to={"/content/getting-started/developers"} text="Get Started" />
 </div>
 
 ---

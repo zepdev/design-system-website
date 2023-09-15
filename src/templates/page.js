@@ -7,7 +7,7 @@ import Layout from "../components/Layout"
 
 const shortcodes = { Link } // Provide common components here
 
-export default ({ data: { mdx } }) => {
+const Page = ({ data: { mdx } }) => {
   return (
     <Layout>
       <MDXProvider components={shortcodes}>
@@ -16,6 +16,8 @@ export default ({ data: { mdx } }) => {
     </Layout>
   )
 }
+
+export default Page
 
 export const query = graphql`
   query PageQuery($id: String) {
